@@ -1,0 +1,45 @@
+name: Postar no Instagram
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # confere a fila de hora em hora
+  workflow_dispatch:
+    inputs:
+      post:
+        description: "Nome da pasta para postar agora (deixe vazio para postar o próximo da fila)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: postar-instagram
+  cancel-in-progress: false
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Publicar próximo post da fila
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          POST_FORCADO: ${{ github.event.inputs.post }}
+        run: python scripts/postar.py
+
+      - name: Marcar como publicado
+        if: success()
+        run: |
+          if [ -n "$(git status --porcelain posts)" ]; then
+            git config user.name "robo-meu-cao-obedece"
+            git config user.email "robo@users.noreply.github.com"
+            git add posts
+            git commit -m "Post publicado no Instagram"
+            git push
+          fi
