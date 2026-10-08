@@ -13,6 +13,10 @@ html,body{margin:0;background:#000}canvas{display:block}
 <script src="cenas.js"></script>
 <script>
 cx=document.getElementById('c').getContext('2d');
+const ESTILOS={sol:{gancho:'listras',texto:'pessego',dica:'pontos',curiosidade:'grade',cta_meio:'pessego'},
+ menta:{gancho:'projeto',texto:'grade',dica:'grade',curiosidade:'projeto',objecao:'grade',mito:'pontos',cta_meio:'grade'},
+ noite:{gancho:'escuro',texto:'escuro',dica:'pessego',curiosidade:'projeto',cta_meio:'pessego'}};
+if(ROTEIRO.estilo&&ESTILOS[ROTEIRO.estilo])ROTEIRO.cenas.forEach(c=>{if(!c.fundo&&ESTILOS[ROTEIRO.estilo][c.tipo])c.fundo=ESTILOS[ROTEIRO.estilo][c.tipo]});
 const CENAS=ROTEIRO.cenas.map((c,i)=>Object.assign({},c,CENAS_T[i],{i}));
 const DUR=+(Math.max(PAL[PAL.length-1].fim,CENAS[CENAS.length-1].fim)+1.3).toFixed(2);
 // início visual de cada cena = um pouco antes da fala
@@ -20,7 +24,7 @@ CENAS.forEach((s,i)=>{s.a=i===0?0:s.ini-.22});
 const TRS=['zoom','whip','swipe','circle','iris'];
 CENAS.forEach((s,i)=>{s.tr=s.transicao||TRS[(i+(ROTEIRO.seed||0))%TRS.length];TIPOS[s.tipo].prep(s);if(i>0)SFX.whoosh.push(s.a-.05)});
 // fundos consecutivos nunca iguais
-for(let i=1;i<CENAS.length;i++)if(CENAS[i].fundo===CENAS[i-1].fundo&&!ROTEIRO.cenas[i].fundo){const alt=['pontos','grade','pessego','listras'].find(f=>f!==CENAS[i-1].fundo&&f!==(CENAS[i+1]||{}).fundo);CENAS[i].fundo=alt}
+for(let i=1;i<CENAS.length;i++)if(CENAS[i].fundo===CENAS[i-1].fundo){const alt=['pontos','grade','pessego','listras'].find(f=>f!==CENAS[i-1].fundo&&f!==(CENAS[i+1]||{}).fundo);CENAS[i].fundo=alt}
 const IMPACTOS=SFX.boom.slice();
 // legenda: até 3 palavras por bloco
 const BLOCOS=(()=>{const b=[];let cur=[];for(let i=0;i<PAL.length;i++){const gap=i>0?PAL[i].inicio-PAL[i-1].fim:0;

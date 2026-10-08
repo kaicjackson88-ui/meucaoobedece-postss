@@ -151,7 +151,7 @@ def produzir(roteiro, pasta, falso=False):
     print('Narração...', flush=True)
     pal = narrar(roteiro, pasta, falso)
     tempos = alinhar(roteiro, pal)
-    seed = sum(map(ord, roteiro['id'])) % 97
+    seed = sum(map(ord, roteiro['id'] + roteiro.get('estilo', ''))) % 97
     rot = dict(roteiro); rot['seed'] = seed
     dados_js = 'const ROTEIRO=%s;\nconst PAL=%s;\nconst CENAS_T=%s;\n' % (json.dumps(rot, ensure_ascii=False), json.dumps(pal, ensure_ascii=False), json.dumps(tempos))
     print('Render...', flush=True)
@@ -274,7 +274,11 @@ def cmd_postar(args):
     rot = banco.get(forcar) if forcar else escolher(banco, publicados)
     if not rot:
         print('⚠️ O banco de roteiros acabou — aguardando roteiros novos.'); return
-    print(f'Roteiro: {rot["id"]} ({rot["formato"]}) — horário {slot or "manual"}')
+    rot = dict(rot)
+    if not rot.get('estilo'):
+        est = CFG.get('estilos', ['sol'])
+        rot['estilo'] = est[len(publicados) % len(est)]
+    print(f'Roteiro: {rot["id"]} ({rot["formato"]}, estilo {rot["estilo"]}) — horário {slot or "manual"}')
     pasta = Path(tempfile.mkdtemp(prefix='reel-'))
     dur = produzir(rot, pasta)
     nome = f'{datetime.now(BRT).strftime("%Y%m%d-%H%M")}-{rot["id"]}.mp4'
@@ -287,7 +291,7 @@ def cmd_postar(args):
     time.sleep(20)  # dá tempo do CDN do GitHub servir o arquivo
     mid, link = postar_reel(url, legenda)
     publicados.append({'slot': slot or datetime.now(BRT).strftime('%Y-%m-%d %H:%M'), 'roteiro': rot['id'], 'formato': rot['formato'],
-                       'gancho_tipo': rot.get('gancho_tipo', ''), 'tema': rot.get('tema', ''), 'duracao': dur, 'media_id': mid, 'link': link,
+                       'gancho_tipo': rot.get('gancho_tipo', ''), 'estilo': rot.get('estilo', ''), 'tema': rot.get('tema', ''), 'duracao': dur, 'media_id': mid, 'link': link,
                        'publicado_em': datetime.now(timezone.utc).isoformat()})
     gravar_json(pub_path, publicados)
     print('Publicado!', link)

@@ -1,9 +1,12 @@
 {
- "comecar_em": "2026-10-08",
+ "comecar_em": "2026-10-07",
  "horarios": [
+  "09:00",
   "11:00",
+  "14:00",
   "17:00",
-  "20:00"
+  "20:00",
+  "21:30"
  ],
  "voz": "pt-BR-FranciscaNeural",
  "velocidade": "+6%",
@@ -11,5 +14,10 @@
  "link_teste": "",
  "dm_xixi": "Oi! 🐾 Aqui é o Meu Cão Obedece. Seu teste tá aqui: {link} — leva 1 minutinho e mostra o plano certo pro seu cão.",
  "dm_xixi_sem_link": "Oi! 🐾 Aqui é o Meu Cão Obedece. O teste tá no link da nossa bio: leva 1 minutinho e mostra o plano certo pro seu cão.",
- "resposta_publica": "Te mandei no direct! 🐾 Se não aparecer, o teste tá no link da bio."
+ "resposta_publica": "Te mandei no direct! 🐾 Se não aparecer, o teste tá no link da bio.",
+ "estilos": [
+  "sol",
+  "menta",
+  "noite"
+ ]
 }

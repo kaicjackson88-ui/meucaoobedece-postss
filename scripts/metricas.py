@@ -62,7 +62,7 @@ def main():
             continue
         m = insights(mid, METRICAS_REELS if tipo == 'reel' else METRICAS_BASICAS)
         if m is None: continue
-        m.update({'tipo': tipo, 'roteiro': r.get('roteiro'), 'formato': r.get('formato'), 'gancho_tipo': r.get('gancho_tipo', ''), 'tema': r.get('tema', ''),
+        m.update({'tipo': tipo, 'roteiro': r.get('roteiro'), 'formato': r.get('formato'), 'gancho_tipo': r.get('gancho_tipo', ''), 'tema': r.get('tema', ''), 'estilo': r.get('estilo', ''),
                   'duracao': r.get('duracao'), 'link': r.get('link'), 'coletado_em': agora.isoformat()})
         m['pontuacao'] = pontuar(m, r.get('duracao'))
         met[mid] = m
@@ -74,7 +74,7 @@ def main():
     pesos = {'atualizado': agora.isoformat(), 'n_reels': len(so_reels)}
     if len(so_reels) >= 3:
         notas = [m['pontuacao'] for m in so_reels]; mu = statistics.mean(notas); sd = statistics.pstdev(notas) or 1
-        for campo in ['formato', 'gancho_tipo', 'tema']:
+        for campo in ['formato', 'gancho_tipo', 'tema', 'estilo']:
             grupos = {}
             for m in so_reels: grupos.setdefault(m.get(campo) or '?', []).append(m['pontuacao'])
             pesos[campo] = {k: round((statistics.mean(v) - mu) / sd * len(v) / (len(v) + 3), 3) for k, v in grupos.items()}
