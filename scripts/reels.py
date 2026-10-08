@@ -443,7 +443,7 @@ def salvar_git(msg):
         if r.returncode not in (0, 1) or (r.returncode == 1 and a[1] != 'diff'):
             print('  git', ' '.join(a[1:3]), '→', r.returncode, (r.stderr or r.stdout)[-300:], flush=True)
         return r
-    run('git', 'add', 'dados', 'reels', 'docs')
+    run('git', 'add', 'dados', 'reels', 'docs', 'tiktok')
     if run('git', 'diff', '--cached', '--quiet').returncode != 0:
         run('git', '-c', 'user.name=robo-meu-cao-obedece', '-c', 'user.email=robo@users.noreply.github.com', 'commit', '-qm', msg)
         for _ in range(3):

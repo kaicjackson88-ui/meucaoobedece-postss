@@ -284,6 +284,12 @@ def noite(qtd=None):
     pr = reels.ler_json(PRONTOS, [])
     qtd = qtd if qtd is not None else meta_dia() - sum(1 for x in pr if x['data'] == hoje())
     livres = historias_livres()
+    if qtd > len(livres):  # válvula de emergência: o roteirista não repôs — o gerador reserva monta histórias novas
+        try:
+            import gerador_historias
+            gerador_historias.gerar(qtd - len(livres)); livres = historias_livres()
+        except Exception as e:
+            print('gerador reserva falhou:', e)
     if qtd > len(livres):
         livres += reciclaveis(qtd - len(livres))
     if qtd > len(livres):

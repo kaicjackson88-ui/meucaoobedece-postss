@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
     inputs:
       acao:
-        description: "enviar = manda os vídeos de hoje | autorizar = conecta a conta (cole o código)"
+        description: "enviar = segue a agenda | autorizar = conecta a conta | reserva = BOTÃO DE EMERGÊNCIA: cria histórias reserva agora"
         required: true
         default: "enviar"
         type: choice
-        options: [enviar, autorizar]
+        options: [enviar, autorizar, reserva]
       codigo:
         description: "Código que apareceu depois de conectar (só para autorizar)"
         required: false
@@ -44,9 +44,14 @@ jobs:
         env:
           CODIGO: ${{ github.event.inputs.codigo }}
         run: python scripts/tiktok_rascunho.py autorizar "$CODIGO"
+      - name: Botão de emergência — criar histórias reserva
+        if: github.event.inputs.acao == 'reserva'
+        env:
+          QTD: ${{ github.event.inputs.quantidade }}
+        run: python scripts/gerador_historias.py ${QTD:-45}
       - name: Tem vídeo pra mandar?
         id: precisa
-        if: github.event.inputs.acao != 'autorizar'
+        if: github.event.inputs.acao != 'autorizar' && github.event.inputs.acao != 'reserva'
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "sim=sim" >> "$GITHUB_OUTPUT"
           else echo "sim=$(python scripts/tiktok_rascunho.py precisa)" >> "$GITHUB_OUTPUT"; fi
@@ -67,8 +72,8 @@ jobs:
       - name: Salvar
         if: always()
         run: |
-          if [ -n "$(git status --porcelain dados docs)" ]; then
+          if [ -n "$(git status --porcelain dados docs tiktok)" ]; then
             git config user.name "robo-meu-cao-obedece"
             git config user.email "robo@users.noreply.github.com"
-            git add dados docs && git commit -qm "TikTok: registros" && git pull --rebase --autostash -q && git push -q
+            git add dados docs tiktok && git commit -qm "TikTok: registros" && git pull --rebase --autostash -q && git push -q
           fi
