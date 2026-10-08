@@ -29,7 +29,11 @@ def perguntar(sistema, usuario, max_tokens=3500, temperatura=0.8, json_saida=Fal
                                                   'Accept': 'application/vnd.github+json'})
             try:
                 with urllib.request.urlopen(req, timeout=180) as r:
-                    d = json.loads(r.read().decode())
+                    bruto = r.read().decode(errors='replace')
+                    try:
+                        d = json.loads(bruto)
+                    except ValueError:
+                        raise RuntimeError(f'resposta não-JSON (HTTP {r.status}, {r.headers.get("Content-Type")}): {bruto[:200]!r}')
                 return d['choices'][0]['message']['content']
             except urllib.error.HTTPError as e:
                 ultimo = f'{modelo}: {e.code} {e.read().decode(errors="replace")[:300]}'; print('  IA:', ultimo)
