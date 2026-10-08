@@ -65,3 +65,5 @@ Regras: 1–2 falas por cena, frases curtas e faladas; dor real (vizinho, condom
 
 Final das histórias (`cta_quiz`): sempre `"seguir": true` e a fala termina com "Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil." (aparece o botão vermelho "+ SEGUE PRA MAIS HISTÓRIAS").
 Ritmo de produção: o TikTok usa 9 histórias por dia (renderizadas de madrugada, enviadas em 3 lotes). Manter sempre pelo menos 18 histórias não usadas no banco.
+
+História + curiosidade: em pelo menos metade das histórias, logo depois da `virada`, inclua 1 cena `curiosidade` com `"tag": "VOCÊ SABIA?"` explicando o PORQUÊ do comportamento (fato verdadeiro e conhecido; use `numero` só se o número for amplamente aceito, senão `"numero": null`). Campos: fala (começa com "Você sabia?"), numero, numero_palavra, prefixo, sufixo, rotulo [linha grande, linha pequena], icone (sino osso moeda casa relogio coracao lampada bola guia calendario megafone pata alvo cerebro focinho porta escudo).

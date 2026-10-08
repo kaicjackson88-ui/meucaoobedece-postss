@@ -160,6 +160,17 @@
    "para_palavra": "frouxa"
   },
   {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Quando a guia estica, o cão tende a fazer força pro lado contrário. É um reflexo. Quanto mais você puxa, mais ele puxa.",
+   "numero": null,
+   "rotulo": [
+    "GUIA ESTICADA",
+    "faz ele puxar mais"
+   ],
+   "icone": "guia"
+  },
+  {
    "tipo": "historia",
    "cenario": "rua",
    "quando": "DIA 1 · 15 MIN",

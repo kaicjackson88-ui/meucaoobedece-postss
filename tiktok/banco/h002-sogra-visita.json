@@ -171,6 +171,17 @@
    "para_palavra": "único"
   },
   {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Entre cães, o cumprimento é focinho com focinho. Quando ele pula, está tentando alcançar o seu rosto pra dizer oi.",
+   "numero": null,
+   "rotulo": [
+    "FOCINHO COM FOCINHO",
+    "é o oi dos cães"
+   ],
+   "icone": "focinho"
+  },
+  {
    "tipo": "historia",
    "cenario": "sala",
    "quando": "DIA 1 · 15 MIN",

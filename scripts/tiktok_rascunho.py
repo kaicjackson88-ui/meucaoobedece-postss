@@ -159,7 +159,8 @@ def atualizar_pagina_legendas():
     for i, e in enumerate(env):
         r = banco.get(e['id'], {})
         leg = e.get('legenda') or (r.get('legenda', '') + '\n\n' + r.get('hashtags', '')).strip()
-        blocos.append(f'<div class="caixa"><b>{escape(e["data"])} · {escape(e["id"])}</b><pre id="l{i}">{escape(leg)}</pre>'
+        h = (e.get('quando') or '')[11:16]; lote = 'manhã' if h < '11:00' else ('tarde' if h < '17:00' else 'noite')
+        blocos.append(f'<div class="caixa"><b>{escape(e["data"])} · lote da {lote} · {escape(e["id"])}</b><pre id="l{i}">{escape(leg)}</pre>'
                       f'<p><button onclick="navigator.clipboard.writeText(document.getElementById(\'l{i}\').textContent);this.textContent=\'Copiado ✓\'">Copiar legenda</button></p></div>')
     html = ('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>Legendas TikTok</title><link rel="stylesheet" href="estilo.css"></head><body><main><div class="marca">🐾 Meu Cão Obedece</div>'
@@ -244,7 +245,7 @@ def noite(qtd=None):
             url = reels.subir_midia(pasta / 'reel.mp4', f'{datetime.now(reels.BRT).strftime("%Y%m%d-%H%M")}-tt-{rot["id"]}.mp4')
         except Exception as e:
             print('  falhou:', e); continue
-        leg = (rot.get('legenda', '') + '\n\n' + rot.get('hashtags', '')).strip()
+        leg = (rot.get('legenda', '') + '\n\n👉 Segue o perfil pra não perder a próxima história!\n\n' + rot.get('hashtags', '') + ' #fyp #paravoce').strip()
         pr = reels.ler_json(PRONTOS, [])
         pr.append({'id': rot['id'], 'data': hoje(), 'url': url, 'legenda': leg, 'enviado': None})
         reels.gravar_json(PRONTOS, pr[-60:])

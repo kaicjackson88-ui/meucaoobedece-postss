@@ -157,6 +157,20 @@
    "para_palavra": "cantinho"
   },
   {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão ouve sons até quatro vezes mais longe que a gente. Pra ele, a campainha começa antes de você perceber.",
+   "numero": 4,
+   "numero_palavra": "quatro",
+   "sufixo": "x",
+   "prefixo": "",
+   "rotulo": [
+    "MAIS LONGE",
+    "que um ser humano"
+   ],
+   "icone": "sino"
+  },
+  {
    "tipo": "historia",
    "cenario": "sala",
    "quando": "DIA 1 · 15 MIN",

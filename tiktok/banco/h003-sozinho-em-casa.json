@@ -154,6 +154,17 @@
    "para_palavra": "abandono"
   },
   {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cães evoluíram vivendo em grupo. Ficar sozinho é uma coisa que eles precisam aprender, não vem pronta.",
+   "numero": null,
+   "rotulo": [
+    "FICAR SOZINHO",
+    "se aprende"
+   ],
+   "icone": "casa"
+  },
+  {
    "tipo": "historia",
    "cenario": "sala",
    "quando": "DIA 1 · 15 MIN",

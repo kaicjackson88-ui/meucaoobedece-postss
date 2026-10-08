@@ -154,6 +154,20 @@
    "para_palavra": "mostrado"
   },
   {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O olfato do cão é dez mil vezes mais sensível que o nosso, ou mais. Mesmo limpo, ele ainda sente o cheiro do xixi antigo e volta no mesmo lugar.",
+   "numero": 10,
+   "numero_palavra": "dez",
+   "sufixo": " mil x",
+   "prefixo": "",
+   "rotulo": [
+    "MAIS SENSÍVEL",
+    "que o nosso olfato"
+   ],
+   "icone": "focinho"
+  },
+  {
    "tipo": "historia",
    "cenario": "sala",
    "quando": "DIA 1 · 15 MIN",
