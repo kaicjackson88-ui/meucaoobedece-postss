@@ -32,12 +32,12 @@ def perguntar(sistema, usuario, max_tokens=3500, temperatura=0.8, json_saida=Fal
                     d = json.loads(r.read().decode())
                 return d['choices'][0]['message']['content']
             except urllib.error.HTTPError as e:
-                ultimo = f'{modelo}: {e.code} {e.read().decode(errors="replace")[:200]}'
+                ultimo = f'{modelo}: {e.code} {e.read().decode(errors="replace")[:300]}'; print('  IA:', ultimo)
                 if e.code == 429:  # limite: espera um pouco e/ou passa pro próximo modelo
                     time.sleep(20 if tentativa == 0 else 0); continue
                 break
             except Exception as e:
-                ultimo = f'{modelo}: {e}'; time.sleep(5)
+                ultimo = f'{modelo}: {e}'; print('  IA:', ultimo); time.sleep(5)
     raise RuntimeError(f'IA gratuita falhou: {ultimo}')
 
 

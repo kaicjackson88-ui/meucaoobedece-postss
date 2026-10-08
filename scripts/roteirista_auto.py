@@ -87,7 +87,7 @@ def contexto():
         except Exception: pass
     tend = ''
     for n in ('tendencias.md', 'tendencias_auto.md'):
-        if (D / n).exists(): tend += (D / n).read_text(encoding='utf-8')[:1800] + '\n'
+        if (D / n).exists(): tend += (D / n).read_text(encoding='utf-8')[:1000] + '\n'
     pesos = json.dumps(reels.ler_json(D / 'tiktok_pesos.json', {}), ensure_ascii=False)[:1200]
     return guia, modelo, ganchos, tend, pesos
 
@@ -105,7 +105,7 @@ def escrever(n):
     for k in range(n):
         pedido = (f'GUIA:\n{guia}\n\nMODELO (copie a estrutura, NÃO a história):\n{json.dumps(modelo, ensure_ascii=False, separators=(",", ":"))}\n\n'
                   f'O QUE DÁ MAIS VIEW NO NOSSO PERFIL (pesos, positivo = bom):\n{pesos}\n\nTENDÊNCIAS:\n{tend}\n\n'
-                  'GANCHOS QUE JÁ EXISTEM (não repita a premissa):\n- ' + '\n- '.join(ganchos[-60:]) +
+                  'GANCHOS QUE JÁ EXISTEM (não repita a premissa):\n- ' + '\n- '.join(ganchos[-25:]) +
                   f'\n\nEscreva a história nova nº {k + 1}: escolha uma premissa nova (use o que tem peso positivo e as ideias das tendências; '
                   'de vez em quando teste algo diferente). Campos obrigatórios: id, formato "tiktok-historia", gancho_tipo "historia", tema, estilo "sol", '
                   'legenda (gancho único + "(História ilustrativa, inspirada no que muitos tutores vivem.)" + chamada pro teste do link do perfil), hashtags (5 a 7), cenas.')
