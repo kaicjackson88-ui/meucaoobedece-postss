@@ -1,14 +1,15 @@
-Roteiro: a001-dores-preco-anuncio (anuncio, estilo noite) — horário manual
+Roteiro: a002-prejuizo (anuncio, estilo noite) — horário manual
 Narração...
 Render...
-  frame 0/982
-  frame 300/982
-  frame 600/982
-  frame 900/982
+  frame 0/1133
+  frame 300/1133
+  frame 600/1133
+  frame 900/1133
 Áudio...
-Preparing worktree (detached HEAD 4a72817)
-HEAD is now at 4a72817 Reels: registros atualizados
-Switched to a new branch 'midia-novo'
-Pronto: /tmp/reel-_7_go_7a/reel.mp4 (32.8s)
-Vídeo público: https://raw.githubusercontent.com/kaicjackson88-ui/meucaoobedece-postss/midia/20261008-0649-a001-dores-preco-anuncio.mp4
-Modo teste: não postei.
+Preparing worktree (detached HEAD d654179)
+HEAD is now at d654179 4 variações de anúncio por consequência (prejuízo, xixi, visitas, vizinho) + mídia por branch
+Switched to a new branch 'tmp-20261008-0728-a002-prejuizo'
+remote: 
+remote: Create a pull request for 'midia-20261008-0728-a002-prejuizo' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261008-0728-a002-prejuizo        
+remote: 
