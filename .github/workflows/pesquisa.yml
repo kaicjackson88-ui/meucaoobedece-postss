@@ -39,10 +39,10 @@ jobs:
           python-version: "3.12"
       - name: Pesquisar tendências
         if: github.event_name == 'schedule' || github.event.inputs.acao == 'pesquisar'
-        run: python scripts/pesquisa_auto.py
+        run: python scripts/pesquisa_auto.py 2>&1 | tee dados/pesquisa.log
       - name: Escrever histórias com a IA gratuita
         if: github.event.inputs.acao == 'escrever'
-        run: python scripts/roteirista_auto.py ${{ github.event.inputs.quantidade }}
+        run: python scripts/roteirista_auto.py ${{ github.event.inputs.quantidade }} 2>&1 | tee dados/ia.log
       - name: Salvar
         if: always()
         run: |
