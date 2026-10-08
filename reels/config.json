@@ -11,7 +11,7 @@
  "voz": "pt-BR-FranciscaNeural",
  "velocidade": "+6%",
  "exploracao": 0.3,
- "link_teste": "",
+ "link_teste": "https://meucaoobedece.vercel.app/",
  "dm_xixi": "Oi! 🐾 Aqui é o Meu Cão Obedece. Seu teste tá aqui: {link} — leva 1 minutinho e mostra o plano certo pro seu cão.",
  "dm_xixi_sem_link": "Oi! 🐾 Aqui é o Meu Cão Obedece. O teste tá no link da nossa bio: leva 1 minutinho e mostra o plano certo pro seu cão.",
  "resposta_publica": "Te mandei no direct! 🐾 Se não aparecer, o teste tá no link da bio.",
@@ -40,5 +40,7 @@
   "17:20"
  ],
  "tiktok_por_lote": 3,
- "tiktok_render_hora": "01:00"
+ "tiktok_render_hora": "01:00",
+ "link_bio_tiktok": "https://meucaoobedece.vercel.app/?utm_source=tiktok&utm_medium=social&utm_content=link_in_bio",
+ "link_bio_instagram": "https://meucaoobedece.vercel.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
 }
