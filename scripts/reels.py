@@ -293,13 +293,16 @@ def cmd_turno(minutos=320):
     (O agendador do GitHub atrasa e pula execuções; assim nenhum horário se perde.)"""
     fim = time.time() + minutos * 60
     while True:
+        if time.time() > fim: break
         publicados = ler_json(DADOS / 'reels_publicados.json', [])
         if slot_vencido(publicados):
             try:
                 cmd_postar([])
                 salvar_git('Reels publicado')
             except Exception as e:
-                print('⚠️ Falhou este horário:', e); time.sleep(300)
+                print('⚠️ Falhou este horário:', e); time.sleep(300); continue
+            if len(ler_json(DADOS / 'reels_publicados.json', [])) == len(publicados):
+                break  # nada foi postado (ex.: banco vazio) — não insiste
             continue
         prox = proximo_slot(publicados)
         if not prox: break
