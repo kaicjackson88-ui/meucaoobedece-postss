@@ -3,7 +3,28 @@
 Usa o GITHUB_TOKEN do próprio workflow (permissão `models: read`). Tem limite diário gratuito,
 então o código faz poucas chamadas e tenta outro modelo se um estiver no limite.
 """
-import json, os, time, urllib.error, urllib.request
+import json, os, time, urllib.error, urllib.parse, urllib.request
+
+
+class _SemRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None  # não segue: o GitHub Models redireciona e o urllib trocaria POST por GET
+
+
+_abrir = urllib.request.build_opener(_SemRedirect).open
+
+
+def _post(url, corpo, headers, timeout=180):
+    for _ in range(4):  # segue redirecionamentos mantendo o POST (igual curl -L -X POST)
+        req = urllib.request.Request(url, data=corpo, method='POST', headers=headers)
+        try:
+            with _abrir(req, timeout=timeout) as r:
+                return r.status, r.headers.get('Content-Type'), r.read().decode(errors='replace')
+        except urllib.error.HTTPError as e:
+            if e.code in (301, 302, 303, 307, 308) and e.headers.get('Location'):
+                url = urllib.parse.urljoin(url, e.headers['Location']); continue
+            raise
+    raise RuntimeError('redirecionamentos demais')
 
 # dois endereços do GitHub Models (o novo e o antigo); usa o que responder
 ROTAS = [('https://models.github.ai/inference/chat/completions', ['openai/gpt-4.1-mini', 'openai/gpt-4o-mini']),
@@ -26,16 +47,13 @@ def perguntar(sistema, usuario, max_tokens=3500, temperatura=0.8, json_saida=Fal
         if json_saida and 'gpt' in modelo:
             corpo['response_format'] = {'type': 'json_object'}
         for tentativa in range(2):
-            req = urllib.request.Request(URL, data=json.dumps(corpo).encode(), method='POST',
-                                         headers={'Authorization': f'Bearer {tok}', 'Content-Type': 'application/json',
-                                                  'Accept': 'application/json', 'X-GitHub-Api-Version': '2022-11-28'})
             try:
-                with urllib.request.urlopen(req, timeout=180) as r:
-                    bruto = r.read().decode(errors='replace')
-                    try:
-                        d = json.loads(bruto)
-                    except ValueError:
-                        raise RuntimeError(f'resposta não-JSON (HTTP {r.status}, {r.headers.get("Content-Type")}): {bruto[:200]!r}')
+                st, ct, bruto = _post(URL, json.dumps(corpo).encode(), {'Authorization': f'Bearer {tok}', 'Content-Type': 'application/json',
+                                                                      'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28'})
+                try:
+                    d = json.loads(bruto)
+                except ValueError:
+                    raise RuntimeError(f'resposta não-JSON (HTTP {st}, {ct}): {bruto[:200]!r}')
                 return d['choices'][0]['message']['content']
             except urllib.error.HTTPError as e:
                 ultimo = f'{modelo}: {e.code} {e.read().decode(errors="replace")[:300]}'; print('  IA:', ultimo)
