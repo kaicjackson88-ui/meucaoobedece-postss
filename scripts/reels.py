@@ -43,9 +43,9 @@ def tokens(fala):
 
 
 # ---------------- narração ----------------
-async def _narrar(texto, mp3, voz, rate):
+async def _narrar(texto, mp3, voz, rate, pitch='+0Hz'):
     import edge_tts
-    com = edge_tts.Communicate(texto, voz, rate=rate, boundary='WordBoundary')
+    com = edge_tts.Communicate(texto, voz, rate=rate, pitch=pitch, boundary='WordBoundary')
     pal = []
     with open(mp3, 'wb') as f:
         async for parte in com.stream():
@@ -57,7 +57,115 @@ async def _narrar(texto, mp3, voz, rate):
     return pal
 
 
+# Vozes dos personagens das histórias (cada um soa diferente do narrador)
+VOZES_PADRAO = {
+    'narrador': {'voz': 'pt-BR-AntonioNeural', 'rate': '+4%', 'pitch': '+0Hz'},
+    'ana': {'voz': 'pt-BR-FranciscaNeural', 'rate': '+6%', 'pitch': '+0Hz'},
+    'carla': {'voz': 'pt-BR-FranciscaNeural', 'rate': '+8%', 'pitch': '+10Hz'},
+    'vizinho': {'voz': 'pt-BR-AntonioNeural', 'rate': '-6%', 'pitch': '-12Hz'},
+    'joao': {'voz': 'pt-BR-AntonioNeural', 'rate': '+6%', 'pitch': '+6Hz'},
+    'pedro': {'voz': 'pt-BR-AntonioNeural', 'rate': '+8%', 'pitch': '+12Hz'},
+    'sindica': {'voz': 'pt-BR-ThalitaMultilingualNeural', 'rate': '+2%', 'pitch': '-4Hz',
+                'reserva': {'voz': 'pt-BR-FranciscaNeural', 'rate': '+0%', 'pitch': '-10Hz'}},
+    'bia': {'voz': 'pt-BR-ThalitaMultilingualNeural', 'rate': '+6%', 'pitch': '+4Hz',
+            'reserva': {'voz': 'pt-BR-FranciscaNeural', 'rate': '+8%', 'pitch': '+12Hz'}},
+}
+
+
+def preparar_falas(roteiro):
+    """Junta narração + diálogo de cada cena em _linhas e em fala. Devolve True se houver diálogo."""
+    if not any('dialogo' in c for c in roteiro['cenas']):
+        return False
+    for c in roteiro['cenas']:
+        dial = [dict(d) for d in c.get('dialogo', []) if d.get('quem') != 'cao']
+        caes = [d for d in c.get('dialogo', []) if d.get('quem') == 'cao']
+        if caes:
+            c['baloes'] = list(c.get('baloes', [])) + caes
+        narr = [{'quem': 'narrador', 'texto': c['fala']}] if c.get('fala', '').strip() else []
+        c['_linhas'] = dial + narr if c.get('fala_depois') else narr + dial
+        c['fala'] = ' '.join(l['texto'] for l in c['_linhas'])
+    return True
+
+
+def _voz(quem, roteiro):
+    vz = dict(VOZES_PADRAO.get(quem) or VOZES_PADRAO['narrador'])
+    vz.update((roteiro.get('vozes') or {}).get(quem, {}))
+    return vz
+
+
+def _casar(pal, esperadas):
+    """Liga cada palavra narrada ao rótulo da palavra esperada (casamento guloso e monotônico)."""
+    out, j = [None] * len(pal), 0
+    for i, p in enumerate(pal):
+        n = norm(p['palavra']); achou = None
+        for k in range(j, min(j + 6, len(esperadas))):
+            e = esperadas[k][1]
+            if e == n or (n and e.startswith(n)) or (e and n.startswith(e)):
+                achou = k; break
+        if achou is not None:
+            out[i] = esperadas[achou][0]; j = achou + 1
+        else:
+            out[i] = esperadas[min(j, len(esperadas) - 1)][0] if esperadas else None
+    return out
+
+
+def narrar_dialogo(roteiro, pasta, falso=False):
+    import numpy as np
+    from scipy.io import wavfile
+    SRN = 44100
+    seq = [(ci, j, l['quem'], l['texto'].strip()) for ci, c in enumerate(roteiro['cenas'])
+           for j, l in enumerate(c.get('_linhas', [])) if l['texto'].strip()]
+    blocos = []
+    for ci, j, quem, texto in seq:
+        if blocos and blocos[-1]['quem'] == quem:
+            blocos[-1]['itens'].append((ci, j, texto))
+        else:
+            blocos.append({'quem': quem, 'itens': [(ci, j, texto)]})
+    tmp = Path(tempfile.mkdtemp(prefix='voz-'))
+    audio, pal, t0, ultima_cena = [], [], .1, None
+    audio.append(np.zeros(int(SRN * .1)))
+    for bi, b in enumerate(blocos):
+        if ultima_cena is not None:
+            pausa = .28 + (.12 if b['itens'][0][0] != ultima_cena else 0)
+            audio.append(np.zeros(int(SRN * pausa))); t0 += pausa
+        texto = ' '.join(x[2] for x in b['itens'])
+        esperadas = [((ci, j), norm(w)) for ci, j, tx in b['itens'] for w in tokens(tx)]
+        if falso:
+            ws, tt = [], 0.0
+            for ci, j, tx in b['itens']:
+                for w in tokens(tx):
+                    d = .12 + .05 * len(w); ws.append({'palavra': w, 'inicio': round(tt, 3), 'fim': round(tt + d, 3)}); tt += d + .06
+            x = np.zeros(int(SRN * (tt + .1)))
+        else:
+            mp3 = tmp / f'b{bi}.mp3'; vz = _voz(b['quem'], roteiro); ws = None
+            for tentativa, cfg in enumerate([vz, vz, vz.get('reserva') or vz, _voz('narrador', roteiro)]):
+                try:
+                    ws = asyncio.run(_narrar(texto, str(mp3), cfg['voz'], cfg.get('rate', '+0%'), cfg.get('pitch', '+0Hz')))
+                    if ws: break
+                except Exception as e:
+                    print(f'voz {cfg["voz"]} falhou ({b["quem"]}):', e); time.sleep(3)
+            if not ws:
+                raise RuntimeError('Não consegui gerar a narração.')
+            wav = tmp / f'b{bi}.wav'
+            subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', str(mp3), '-ac', '1', '-ar', str(SRN), str(wav)], check=True)
+            _, x = wavfile.read(wav); x = x.astype(np.float32) / 32768
+        rot = _casar(ws, esperadas)
+        for w, r in zip(ws, rot):
+            ci, j = r if r else (b['itens'][0][0], b['itens'][0][1])
+            pal.append({'palavra': w['palavra'], 'inicio': round(t0 + w['inicio'], 3), 'fim': round(t0 + w['fim'], 3),
+                        'q': b['quem'], 'ci': ci, 'l': j})
+        audio.append(x); t0 += len(x) / SRN; ultima_cena = b['itens'][-1][0]
+    audio.append(np.zeros(int(SRN * .5)))
+    y = np.concatenate(audio)
+    wavfile.write(tmp / 'tudo.wav', SRN, (np.clip(y, -1, 1) * 32767).astype(np.int16))
+    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', str(tmp / 'tudo.wav'), '-c:a', 'libmp3lame', '-b:a', '128k', str(pasta / 'narracao.mp3')], check=True)
+    shutil.rmtree(tmp, ignore_errors=True)
+    return pal
+
+
 def narrar(roteiro, pasta, falso=False):
+    if any('_linhas' in c for c in roteiro['cenas']):
+        return narrar_dialogo(roteiro, pasta, falso)
     texto = ' '.join(c['fala'].strip() for c in roteiro['cenas'])
     mp3 = pasta / 'narracao.mp3'
     if falso:  # tempos simulados: 2,7 palavras/s com pausa entre frases
@@ -79,34 +187,29 @@ def narrar(roteiro, pasta, falso=False):
 
 
 def alinhar(roteiro, pal):
-    """Descobre quais palavras narradas pertencem a cada cena."""
-    esperadas = []
-    for ci, c in enumerate(roteiro['cenas']):
-        for w in tokens(c['fala']):
-            esperadas.append((ci, norm(w)))
-    cena_de = [None] * len(pal)
-    j = 0
-    for i, p in enumerate(pal):
-        n = norm(p['palavra'])
-        achou = None
-        for k in range(j, min(j + 6, len(esperadas))):
-            if esperadas[k][1] == n or (n and esperadas[k][1].startswith(n)) or (esperadas[k][1] and n.startswith(esperadas[k][1])):
-                achou = k; break
-        if achou is not None:
-            cena_de[i] = esperadas[achou][0]; j = achou + 1
-        else:
-            cena_de[i] = esperadas[min(j, len(esperadas) - 1)][0] if esperadas else 0
-    # garante monotonia
-    for i in range(1, len(cena_de)):
+    """Descobre quais palavras narradas pertencem a cada cena (e, nas histórias, a cada linha de diálogo)."""
+    if pal and 'ci' in pal[0]:
+        cena_de = [p['ci'] for p in pal]
+    else:
+        esperadas = [(ci, norm(w)) for ci, c in enumerate(roteiro['cenas']) for w in tokens(c['fala'])]
+        cena_de = [c if c is not None else 0 for c in _casar(pal, esperadas)]
+    for i in range(1, len(cena_de)):  # garante monotonia
         cena_de[i] = max(cena_de[i], cena_de[i - 1])
     out = []
-    for ci in range(len(roteiro['cenas'])):
-        idx = [i for i, c in enumerate(cena_de) if c == ci]
+    for ci, c in enumerate(roteiro['cenas']):
+        idx = [i for i, x in enumerate(cena_de) if x == ci]
         if idx:
-            out.append({'ini': pal[idx[0]]['inicio'], 'fim': pal[idx[-1]]['fim'], 'pal': idx})
+            item = {'ini': pal[idx[0]]['inicio'], 'fim': pal[idx[-1]]['fim'], 'pal': idx}
         else:
             prev = out[-1]['fim'] if out else 0
-            out.append({'ini': prev + .1, 'fim': prev + 1.5, 'pal': []})
+            item = {'ini': prev + .1, 'fim': prev + 1.5, 'pal': []}
+        if '_linhas' in c:
+            tl = []
+            for j in range(len(c['_linhas'])):
+                w = [pal[i] for i in idx if pal[i].get('l') == j]
+                tl.append({'ini': w[0]['inicio'], 'fim': w[-1]['fim']} if w else {'ini': item['ini'], 'fim': item['ini'] + 1})
+            item['tl'] = tl
+        out.append(item)
     return out
 
 
@@ -148,6 +251,7 @@ def produzir(roteiro, pasta, falso=False):
     from scipy.io import wavfile
     from reels_audio import gerar_sfx, gerar_musica, SR
     pasta = Path(pasta); pasta.mkdir(parents=True, exist_ok=True)
+    roteiro = json.loads(json.dumps(roteiro)); preparar_falas(roteiro)
     print('Narração...', flush=True)
     pal = narrar(roteiro, pasta, falso)
     tempos = alinhar(roteiro, pal)
@@ -166,7 +270,7 @@ def produzir(roteiro, pasta, falso=False):
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', str(pasta / 'mudo.mp4'), '-i', str(pasta / 'narracao.mp3'), '-i', str(pasta / 'musica.wav'), '-i', str(pasta / 'sfx.wav'),
                     '-filter_complex',
                     f'[1:a]aresample=44100,apad,highpass=f=80,acompressor=threshold=-18dB:ratio=3:attack=5:release=80,volume={vol_voz},asplit=2[v][vs];'
-                    '[2:a]volume=0.5[m];[m][vs]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=300[md];[3:a]volume=0.9[s];'
+                    '[2:a]volume=0.45[m];[m][vs]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=300[md];[3:a]volume=0.5[s];'
                     '[v][md][s]amix=inputs=3:normalize=0:duration=longest,alimiter=limit=0.95[a]',
                     '-map', '0:v', '-map', '[a]', '-c:v', 'libx264', '-crf', '21', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-r', '30',
                     '-x264-params', 'keyint=60:open-gop=0', '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', '-t', str(dur), '-movflags', '+faststart',

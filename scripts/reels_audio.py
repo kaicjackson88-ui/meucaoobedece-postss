@@ -62,8 +62,16 @@ def gerar_sfx(eventos, dur, seed=7):
         d = 1.0; t = _t(d); f = 700 + 250 * np.sin(2 * np.pi * 3 * t)
         x = np.sign(np.sin(2 * np.pi * np.cumsum(f) / SR)) * .12
         return _lp(x, 3000) * np.minimum(1, t / .02) * np.minimum(1, (d - t) / .2)
-    gen = {'whoosh': (whoosh, .7), 'pop': (pop, .45), 'ding': (ding, .6), 'boom': (boom, .8), 'sucesso': (sucesso, .55),
-           'doorbell': (doorbell, .8), 'tick': (tick, .3), 'riser': (riser, .55), 'tipo': (tipo, .5), 'notif': (notif, .8), 'sirene': (sirene, .5)}
+    def latido():  # latido de desenho: duas notas curtas que caem de tom
+        d = .16; t = _t(d); f0 = 560 - 900 * t
+        ph = 2 * np.pi * np.cumsum(f0) / SR
+        x = sum(np.sin(ph * h) / h for h in range(1, 7)) + .35 * rng.standard_normal(len(t))
+        x = _lp(_hp(x, 300), 2600) * _env(len(t), .006, .09)
+        return x / (np.max(np.abs(x)) + 1e-9) * .8
+    # volumes baixados (pedido: efeitos estavam altos demais)
+    gen = {'whoosh': (whoosh, .35), 'pop': (pop, .22), 'ding': (ding, .3), 'boom': (boom, .4), 'sucesso': (sucesso, .3),
+           'doorbell': (doorbell, .45), 'tick': (tick, .15), 'riser': (riser, .25), 'tipo': (tipo, .25), 'notif': (notif, .4),
+           'sirene': (sirene, .25), 'latido': (latido, .35)}
     N = int(SR * dur); out = np.zeros(N)
     for k, ts in eventos.items():
         if k not in gen: continue

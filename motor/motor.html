@@ -10,6 +10,7 @@ html,body{margin:0;background:#000}canvas{display:block}
 <script src="svgs.js"></script>
 <script src="dados.js"></script><!-- gerado por scripts/reels.py: ROTEIRO, PAL, CENAS_T -->
 <script src="base.js"></script>
+<script src="personagens.js"></script>
 <script src="cenas.js"></script>
 <script>
 cx=document.getElementById('c').getContext('2d');
@@ -27,11 +28,12 @@ CENAS.forEach((s,i)=>{s.tr=s.transicao||TRS[(i+(ROTEIRO.seed||0))%TRS.length];TI
 for(let i=1;i<CENAS.length;i++)if(CENAS[i].fundo===CENAS[i-1].fundo){const alt=['pontos','grade','pessego','listras'].find(f=>f!==CENAS[i-1].fundo&&f!==(CENAS[i+1]||{}).fundo);CENAS[i].fundo=alt}
 const IMPACTOS=SFX.boom.slice();
 // legenda: até 3 palavras por bloco
-const BLOCOS=(()=>{const b=[];let cur=[];for(let i=0;i<PAL.length;i++){const gap=i>0?PAL[i].inicio-PAL[i-1].fim:0;
+const BLOCOS=(()=>{const b=[];let cur=[];for(let i=0;i<PAL.length;i++){if(PAL[i].q&&PAL[i].q!=='narrador'){if(cur.length){b.push(cur);cur=[]}continue}const gap=i>0?PAL[i].inicio-PAL[i-1].fim:0;
   if(cur.length&&(cur.length>=3||gap>.22)){b.push(cur);cur=[]}cur.push(i)}if(cur.length)b.push(cur);return b})();
+const DIALOGO=PAL.filter(p=>p.q&&p.q!=='narrador').map(p=>[p.inicio,p.fim]);
 function legenda(t,y=1500){let bi=-1;for(let i=0;i<BLOCOS.length;i++)if(t>=T(BLOCOS[i][0])-.08)bi=i;if(bi<0)return;const bl=BLOCOS[bi];
-  if(t>TF(bl[bl.length-1])+.5&&!(BLOCOS[bi+1]))return;
-  const ws=bl.map(i=>[PAL[i].palavra.toUpperCase(),i]);cx.font='900 78px NU';const gap=26;const wd=ws.map(w=>cx.measureText(w[0]).width);
+  if(t>TF(bl[bl.length-1])+.5&&(!BLOCOS[bi+1]||DIALOGO.some(([a,b])=>t>=a-.1&&t<=b+.3)))return;
+  const ws=bl.map(i=>[PAL[i].palavra.toUpperCase(),i]);cx.font='900 78px NU';const gap=44;const wd=ws.map(w=>cx.measureText(w[0]).width);
   const tot=wd.reduce((a,b)=>a+b,0)+gap*(ws.length-1);const fit=Math.min(1,940/tot);cx.save();cx.translate(W/2,y);cx.scale(fit,fit);cx.translate(-W/2,-y);let x=W/2-tot/2;const ap=spring(t-T(bl[0])+.08,14,8);
   ws.forEach(([s,i],k)=>{const ww=wd[k];const on=t>=T(i)-.03&&(t<TF(i)+.12||k===ws.length-1&&t<TF(i)+.5);const pk=on?1+.1*Math.max(0,Math.sin(cl((t-T(i))/.2)*Math.PI)):1;
     cx.save();cx.translate(x+ww/2,y);cx.scale(ap*pk,ap*pk);
@@ -58,7 +60,7 @@ window.render=(t)=>{let i=0;for(let j=0;j<CENAS.length;j++)if(t>=CENAS[j].a)i=j;
   cx.restore();
   CENAS.forEach(s=>{if(s.tipo==='virada'||s.tipo==='cta_meio')lightleak(t,s.a-.4,1.0)});
   hud(t,ESCUROS.has(sc.fundo));
-  if(sc.tipo!=='gancho')legenda(t);
+  if(sc.tipo!=='gancho')legenda(t,sc.tipo==='historia'?1530:sc.tipo==='chat'?1700:1500);
   grao(t);
   if(t>DUR-.3){cx.fillStyle=`rgba(42,38,34,${cl((t-(DUR-.3))/.3)})`;cx.fillRect(0,0,W,H)}
 };
