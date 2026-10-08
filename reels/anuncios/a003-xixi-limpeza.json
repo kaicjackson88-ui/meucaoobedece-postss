@@ -1,0 +1,83 @@
+{
+ "id": "a003-xixi-limpeza",
+ "formato": "anuncio",
+ "gancho_tipo": "consequencia",
+ "tema": "xixi",
+ "estilo": "menta",
+ "legenda": "Quanto tempo da sua semana vai pro pano e pro desinfetante? 🧽\n\nXixi no tapete, cheiro na sala, limpar correndo antes da visita… e bronca que não resolve.\n\nBronca não ensina o lugar certo. Só ensina ele a se esconder pra fazer.\n\nNo Meu Cão Obedece você treina em casa:\n✅ 15 minutos por dia\n✅ Passo a passo de 21 dias\n✅ Painel com o progresso do seu cão\n✅ Certificado com o nome dele\n\nR$ 37, pagamento único, com 7 dias de garantia.\n\n👉 Toque no link da bio e comece hoje.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #adestramentocanino #xixidecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Quanto tempo da sua semana vai pro pano e pro desinfetante?",
+   "linhas": [
+    "QUANTO TEMPO DA",
+    "SUA SEMANA VAI",
+    "PRO PANO?"
+   ],
+   "destaque": 2,
+   "icone": "relogio",
+   "mascote": "dorminhoco"
+  },
+  {
+   "tipo": "checklist",
+   "fala": "Xixi no tapete, cheiro na sala, limpar correndo antes da visita. E bronca que não resolve.",
+   "titulo": "TODO DIA A MESMA CENA",
+   "itens": [
+    "Xixi no tapete",
+    "Cheiro na sala",
+    "Limpar antes da visita",
+    "Bronca que não resolve"
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "A bronca não ensina o lugar certo. Ela só ensina ele a se esconder pra fazer.",
+   "topo": [
+    "A BRONCA"
+   ],
+   "de": "ENSINA",
+   "para": "SÓ ESCONDE",
+   "para_palavra": "esconder"
+  },
+  {
+   "tipo": "comparativo",
+   "fala": "Pra resolver só o xixi, um adestrador cobra de quatrocentos e cinquenta a mil e quinhentos reais. Aqui, você começa por trinta e sete.",
+   "caro": "R$ 450–1.500",
+   "caro_sub": "só para o xixi",
+   "barato": "R$ 37",
+   "barato_sub": "pagamento único",
+   "barato_palavra": "Aqui",
+   "rodape": "MENOS QUE UMA AULA AVULSA"
+  },
+  {
+   "tipo": "produto",
+   "fala": "No Meu Cão Obedece, você treina em casa, quinze minutos por dia, num passo a passo de vinte e um dias, vendo o progresso no painel. E no fim, ganha um certificado com o nome do seu cão.",
+   "linhas": [
+    "TREINE EM CASA",
+    "NO SEU RITMO"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "PAINEL DE PROGRESSO"
+   ]
+  },
+  {
+   "tipo": "oferta",
+   "fala": "Tudo isso por trinta e sete reais, pagamento único, com sete dias de garantia.",
+   "preco": 37,
+   "preco_palavra": "trinta",
+   "sub": "PAGAMENTO ÚNICO",
+   "selos": [
+    "7 DIAS DE GARANTIA",
+    "PASSO A PASSO DE 21 DIAS"
+   ]
+  },
+  {
+   "tipo": "cta_link",
+   "fala": "Toque no link da bio e comece hoje.",
+   "modo": "bio"
+  }
+ ]
+}

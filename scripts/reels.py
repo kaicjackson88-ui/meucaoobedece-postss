@@ -221,21 +221,32 @@ def slot_vencido(publicados, agora=None):
 
 # ---------------- Instagram ----------------
 def subir_midia(arq, nome):
-    """Publica o vídeo no branch 'midia' (só os arquivos atuais) e devolve a URL pública."""
+    """Publica o vídeo num branch só dele (midia-<nome>) e devolve a URL pública. Apaga branches de mídia com mais de 2 dias."""
+    stem = Path(nome).stem
+    branch = f'midia-{stem}'
     tmp = Path(tempfile.mkdtemp(prefix='midia-'))
     subprocess.run(['git', 'worktree', 'add', '--detach', str(tmp)], cwd=RAIZ, check=True)
     try:
         run = lambda *a: subprocess.run(list(a), cwd=tmp, check=True)
-        run('git', 'checkout', '--orphan', 'midia-novo')
+        run('git', 'checkout', '--orphan', f'tmp-{stem}')
         run('git', 'rm', '-rfq', '.')
         shutil.copy(arq, tmp / nome)
         run('git', 'add', nome)
         run('git', '-c', 'user.name=robo-meu-cao-obedece', '-c', 'user.email=robo@users.noreply.github.com', 'commit', '-qm', f'midia {nome}')
-        run('git', 'push', '-qf', 'origin', 'HEAD:midia')
+        run('git', 'push', '-qf', 'origin', f'HEAD:refs/heads/{branch}')
     finally:
         subprocess.run(['git', 'worktree', 'remove', '--force', str(tmp)], cwd=RAIZ)
-        subprocess.run(['git', 'branch', '-D', 'midia-novo'], cwd=RAIZ, capture_output=True)
-    return f'https://raw.githubusercontent.com/{REPO}/midia/{nome}'
+        subprocess.run(['git', 'branch', '-D', f'tmp-{stem}'], cwd=RAIZ, capture_output=True)
+    try:  # limpeza
+        limite = (datetime.now(BRT) - timedelta(days=2)).strftime('%Y%m%d')
+        out = subprocess.run(['git', 'ls-remote', '--heads', 'origin'], cwd=RAIZ, capture_output=True, text=True).stdout
+        velhos = [l.split('refs/heads/')[1] for l in out.splitlines() if 'refs/heads/midia' in l]
+        velhos = [b for b in velhos if b == 'midia' or (b.startswith('midia-') and b[6:14].isdigit() and b[6:14] < limite)]
+        for b in velhos:
+            subprocess.run(['git', 'push', '-q', 'origin', '--delete', b], cwd=RAIZ, capture_output=True)
+    except Exception as e:
+        print('limpeza de mídia falhou (sem problema):', e)
+    return f'https://raw.githubusercontent.com/{REPO}/{branch}/{nome}'
 
 
 def postar_reel(url, legenda):
@@ -314,6 +325,14 @@ def cmd_turno(minutos=320):
 
 
 def cmd_postar(args):
+    if '--forcar' in args and ',' in args[args.index('--forcar') + 1]:
+        k = args.index('--forcar'); lista = args[k + 1].split(',')
+        resto = args[:k] + args[k + 2:]
+        for n, alvo in enumerate(lista):
+            cmd_postar(resto + ['--forcar', alvo.strip()])
+            salvar_git('Reels publicado')
+            if n < len(lista) - 1: time.sleep(60)
+        return
     pub_path = DADOS / 'reels_publicados.json'
     publicados = ler_json(pub_path, [])
     banco = carregar_banco()

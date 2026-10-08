@@ -1,0 +1,83 @@
+{
+ "id": "a005-vizinho",
+ "formato": "anuncio",
+ "gancho_tipo": "consequencia",
+ "tema": "latido",
+ "estilo": "menta",
+ "legenda": "O latido que você já nem escuta, o vizinho escuta. 🔊\n\nAdvertência do condomínio, vizinho de cara feia… e tem tutor que já levou até multa.\n\nE ele não late por birra: pra ele, cada barulho é um alarme.\n\nNo Meu Cão Obedece você treina em casa:\n✅ 15 minutos por dia\n✅ Passo a passo de 21 dias\n✅ Painel com o progresso do seu cão\n✅ Certificado com o nome dele\n\nR$ 37, pagamento único, com 7 dias de garantia.\n\n👉 Toque no link da bio e comece hoje.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #adestramentocanino #cachorrolatindo",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O latido que você já nem escuta, o vizinho escuta.",
+   "linhas": [
+    "O LATIDO QUE",
+    "VOCÊ NEM ESCUTA,",
+    "O VIZINHO ESCUTA"
+   ],
+   "destaque": 2,
+   "icone": "megafone",
+   "mascote": "bravo"
+  },
+  {
+   "tipo": "checklist",
+   "fala": "Advertência do condomínio, vizinho de cara feia, e tem tutor que já levou até multa.",
+   "titulo": "QUANDO O LATIDO VIRA PROBLEMA",
+   "itens": [
+    "Advertência do condomínio",
+    "Vizinho de cara feia",
+    "Multa no boleto",
+    "Medo de ter que mudar"
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "E ele não late por birra. Pra ele, cada barulho é um alarme.",
+   "topo": [
+    "ELE NÃO LATE POR"
+   ],
+   "de": "BIRRA",
+   "para": "ALARME",
+   "para_palavra": "alarme"
+  },
+  {
+   "tipo": "comparativo",
+   "fala": "Um adestrador cobra de seiscentos a novecentos reais por um pacote de cinco aulas. Aqui, você começa por trinta e sete.",
+   "caro": "R$ 600–900",
+   "caro_sub": "pacote de 5 aulas presenciais",
+   "barato": "R$ 37",
+   "barato_sub": "pagamento único",
+   "barato_palavra": "Aqui",
+   "rodape": "MENOS QUE UMA AULA AVULSA"
+  },
+  {
+   "tipo": "produto",
+   "fala": "No Meu Cão Obedece, você treina em casa, quinze minutos por dia, num passo a passo de vinte e um dias, vendo o progresso no painel. E no fim, ganha um certificado com o nome do seu cão.",
+   "linhas": [
+    "TREINE EM CASA",
+    "NO SEU RITMO"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "PAINEL DE PROGRESSO"
+   ]
+  },
+  {
+   "tipo": "oferta",
+   "fala": "Tudo isso por trinta e sete reais, pagamento único, com sete dias de garantia.",
+   "preco": 37,
+   "preco_palavra": "trinta",
+   "sub": "PAGAMENTO ÚNICO",
+   "selos": [
+    "7 DIAS DE GARANTIA",
+    "PASSO A PASSO DE 21 DIAS"
+   ]
+  },
+  {
+   "tipo": "cta_link",
+   "fala": "Toque no link da bio e comece hoje.",
+   "modo": "bio"
+  }
+ ]
+}
