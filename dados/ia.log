@@ -1,7 +1,7 @@
-  IA: openai/gpt-4.1-mini: Expecting value: line 1 column 1 (char 0)
-  IA: openai/gpt-4.1-mini: Expecting value: line 1 column 1 (char 0)
-  IA: openai/gpt-4o-mini: Expecting value: line 1 column 1 (char 0)
-  IA: openai/gpt-4o-mini: Expecting value: line 1 column 1 (char 0)
-  IA: meta/Llama-4-Scout-17B-16E-Instruct: Expecting value: line 1 column 1 (char 0)
-  IA: meta/Llama-4-Scout-17B-16E-Instruct: Expecting value: line 1 column 1 (char 0)
-  IA falhou: IA gratuita falhou: meta/Llama-4-Scout-17B-16E-Instruct: Expecting value: line 1 column 1 (char 0)
+  IA: openai/gpt-4.1-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA: openai/gpt-4.1-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA: openai/gpt-4o-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA: openai/gpt-4o-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA: meta/Llama-4-Scout-17B-16E-Instruct: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA: meta/Llama-4-Scout-17B-16E-Instruct: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA falhou: IA gratuita falhou: meta/Llama-4-Scout-17B-16E-Instruct: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
