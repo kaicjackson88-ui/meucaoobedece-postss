@@ -307,12 +307,16 @@ def proximo_slot(publicados, agora=None):
 
 
 def salvar_git(msg):
-    run = lambda *a: subprocess.run(list(a), cwd=RAIZ, capture_output=True)
+    def run(*a):
+        r = subprocess.run(list(a), cwd=RAIZ, capture_output=True, text=True)
+        if r.returncode not in (0, 1) or (r.returncode == 1 and a[1] != 'diff'):
+            print('  git', ' '.join(a[1:3]), '→', r.returncode, (r.stderr or r.stdout)[-300:], flush=True)
+        return r
     run('git', 'add', 'dados', 'reels', 'docs')
     if run('git', 'diff', '--cached', '--quiet').returncode != 0:
         run('git', '-c', 'user.name=robo-meu-cao-obedece', '-c', 'user.email=robo@users.noreply.github.com', 'commit', '-qm', msg)
         for _ in range(3):
-            run('git', 'pull', '--rebase', '-q')
+            run('git', 'pull', '--rebase', '--autostash', '-q')
             if run('git', 'push', '-q').returncode == 0: break
             time.sleep(5)
 
