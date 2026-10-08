@@ -153,19 +153,32 @@ def processar_fila():
 
 
 def atualizar_pagina_legendas():
-    env = reels.ler_json(ENVIADOS, [])[-21:][::-1]
+    env = reels.ler_json(ENVIADOS, [])[-27:][::-1]
     banco = {json.loads(p.read_text(encoding='utf-8'))['id']: json.loads(p.read_text(encoding='utf-8')) for p in BANCO.glob('*.json')}
-    blocos = []
-    for i, e in enumerate(env):
-        r = banco.get(e['id'], {})
-        leg = e.get('legenda') or (r.get('legenda', '') + '\n\n' + r.get('hashtags', '')).strip()
-        h = (e.get('quando') or '')[11:16]; lote = 'manhã' if h < '11:00' else ('tarde' if h < '17:00' else 'noite')
-        blocos.append(f'<div class="caixa"><b>{escape(e["data"])} · lote da {lote} · {escape(e["id"])}</b><pre id="l{i}">{escape(leg)}</pre>'
-                      f'<p><button onclick="navigator.clipboard.writeText(document.getElementById(\'l{i}\').textContent);this.textContent=\'Copiado ✓\'">Copiar legenda</button></p></div>')
+    grupos, ordem = {}, []
+    for e in env:
+        h = (e.get('quando') or '')[11:16]
+        lote = 'Manhã' if h < '11:00' else ('Tarde' if h < '17:00' else 'Noite')
+        d = e['data']; chave = f'{d[8:10]}/{d[5:7]} · Lote da {lote}'
+        if chave not in grupos: grupos[chave] = []; ordem.append(chave)
+        grupos[chave].append(e)
+    blocos, i = [], 0
+    for chave in ordem:
+        blocos.append(f'<h2>{escape(chave)}</h2>')
+        for e in grupos[chave]:
+            r = banco.get(e['id'], {})
+            leg = e.get('legenda') or (r.get('legenda', '') + '\n\n' + r.get('hashtags', '')).strip()
+            g = next((c for c in r.get('cenas', []) if c.get('tipo') == 'gancho'), {})
+            capa = ' '.join(g.get('linhas', [])) or e['id']
+            blocos.append(f'<div class="caixa"><p class="capa">🎬 O vídeo começa com:<br><b>{escape(capa)}</b></p>'
+                          f'<details><summary>ver legenda</summary><pre id="l{i}">{escape(leg)}</pre></details>'
+                          f'<p><button onclick="navigator.clipboard.writeText(document.getElementById(\'l{i}\').textContent);this.textContent=\'Copiado ✓ agora cole no TikTok\'">Copiar legenda</button></p></div>')
+            i += 1
     html = ('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<title>Legendas TikTok</title><link rel="stylesheet" href="estilo.css"></head><body><main><div class="marca">🐾 Meu Cão Obedece</div>'
-            '<h1>Legendas dos rascunhos do TikTok</h1><p>Os vídeos estão nos seus rascunhos do TikTok (Caixa de entrada › notificação). Abra, cole a legenda, ponha um som se quiser e publique.</p>'
-            + ''.join(blocos) + '</main></body></html>')
+            '<title>Legendas TikTok</title><link rel="stylesheet" href="estilo.css"><style>.capa{font-size:1.15em}.capa b{color:#C2410C}h2{margin-top:28px}pre{white-space:pre-wrap}</style></head><body><main><div class="marca">🐾 Meu Cão Obedece</div>'
+            '<h1>Legendas do TikTok</h1><ol><li>Abra o rascunho no TikTok e veja o texto do começo do vídeo.</li>'
+            '<li>Ache aqui o cartão com o mesmo texto e toque em <b>Copiar legenda</b>.</li><li>No TikTok, toque em <b>Próximo</b>, cole na descrição e publique.</li></ol>'
+            + (''.join(blocos) or '<p>Nenhum vídeo enviado ainda.</p>') + '</main></body></html>')
     (RAIZ / 'docs' / 'legendas.html').write_text(html, encoding='utf-8')
 
 
