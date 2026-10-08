@@ -55,13 +55,14 @@ jobs:
           ARGS=""
           if [ -n "$ROTEIRO" ]; then ARGS="$ARGS --forcar $ROTEIRO"; fi
           if [ "$MODO" = "teste" ]; then ARGS="$ARGS --teste"; fi
-          python scripts/reels.py postar $ARGS
+          set -o pipefail
+          python scripts/reels.py postar $ARGS 2>&1 | tee dados/ultima_execucao.log
 
       - name: Responder quem comentou XIXI
         continue-on-error: true
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-        run: python scripts/responder.py
+        run: python scripts/responder.py 2>&1 | tee dados/ultima_resposta.log
 
       - name: Salvar registros
         if: always()
