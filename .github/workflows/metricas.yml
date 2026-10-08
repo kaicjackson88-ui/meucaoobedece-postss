@@ -31,6 +31,11 @@ jobs:
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
         run: python scripts/tiktok_metricas.py
+      - name: Relatório diário no celular (ntfy)
+        continue-on-error: true
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python scripts/relatorio_diario.py
       - name: Salvar
         if: always()
         run: |

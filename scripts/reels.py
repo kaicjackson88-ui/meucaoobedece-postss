@@ -558,7 +558,12 @@ def cmd_turno(minutos=320):
                 cmd_postar([])
                 salvar_git('Reels publicado')
             except Exception as e:
-                print('⚠️ Falhou este horário:', e); time.sleep(300); continue
+                print('⚠️ Falhou este horário:', e)
+                if 'blocked' in str(e).lower() or 'código 200' in str(e) or 'rate' in str(e).lower():
+                    print('⏸️ Meta bloqueou/limitou o acesso — pausando 2h pra não piorar'); time.sleep(7200)
+                else:
+                    time.sleep(300)
+                continue
             if len(ler_json(DADOS / 'reels_publicados.json', [])) == len(publicados):
                 break  # nada foi postado (ex.: banco vazio) — não insiste
             continue
