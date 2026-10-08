@@ -1,0 +1,219 @@
+{
+ "id": "h003-sozinho-em-casa",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "ansiedade",
+ "estilo": "sol",
+ "legenda": "Todo dia o Pedro abria a porta com medo do que ia encontrar 😰 (História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorro #adestramento #historiadecachorro #ansiedadedeseparacao #cachorrodestruidor",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Todo dia, o Pedro abria a porta de casa com medo do que ia encontrar.",
+   "linhas": [
+    "ELE TINHA",
+    "MEDO DE",
+    "ABRIR A PORTA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "18:40",
+   "fala": "Seis e quarenta da tarde. Ele abriu a porta.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "almofada",
+     "x": 880,
+     "y": 1300,
+     "em": 0.3,
+     "frente": true
+    },
+    {
+     "nome": "sapato",
+     "x": 560,
+     "y": 1450,
+     "em": 0.5
+    }
+   ],
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Meu tênis novo… e o sofá?!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "quando": "18:52",
+   "grupo": "Moradores Ed. Aurora",
+   "membros": "36 participantes",
+   "fala": "E, como sempre, tinha mensagem no grupo.",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "O cachorro do 103 chorou a tarde INTEIRA de novo."
+    },
+    {
+     "quem": "sindica",
+     "texto": "Pedro, preciso conversar com você."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "relogio": "00:30",
+   "quando": "MEIA-NOITE",
+   "fala": "Naquela noite, ele não conseguiu dormir.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 330,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 790,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Eu não posso largar o emprego pra ficar com ele…",
+     "pensa": true
+    }
+   ],
+   "camera": {
+    "foco": "pedro",
+    "z": 1.5,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "NO DIA SEGUINTE",
+   "fala": "Ele contou tudo pra Bia, que tem cachorro há anos.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 290,
+     "humor": "triste",
+     "pose": "parado"
+    },
+    {
+     "quem": "bia",
+     "x": 790,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Você faz festa quando chega e drama quando sai, né?"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Faço… isso é errado?",
+     "humor": "surpreso"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O Paçoca não era destruidor. Pra ele, cada saída do Pedro era um abandono. E ninguém tinha ensinado ele a ficar sozinho.",
+   "topo": [
+    "ELE NÃO ERA"
+   ],
+   "de": "DESTRUIDOR",
+   "para": "SÓ TINHA MEDO",
+   "para_palavra": "abandono"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Ele começou com saídas curtinhas. Um minuto, depois cinco, depois dez. Sem festa na volta, sem drama na saída.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 750,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Já volto, Paçoca. Fica."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, ele abriu a porta e encontrou isso.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Tudo no lugar… e você dormindo?!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão também sofre quando fica sozinho? Faz o teste grátis no link do perfil.",
+   "pergunta": "Quando você sai de casa, ele…",
+   "opcoes": [
+    "Chora e destrói",
+    "Late na porta",
+    "Dorme tranquilo"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO GRUDE"
+  }
+ ]
+}

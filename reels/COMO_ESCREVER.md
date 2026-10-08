@@ -42,3 +42,23 @@ Mascotes: `normal`, `bravo`, `dorminhoco`, `feliz`, `lendario`.
 - Sempre terminar com `cta_meio` + `cta_final`.
 - Curiosidade só com fato confirmado em fonte confiável. Nada de promessa de resultado garantido nem diagnóstico de saúde; medo intenso ou agressividade → sugerir veterinário/profissional na legenda.
 - Usar 5 hashtags.
+
+## Histórias animadas (tiktok/banco/hNNN-*.json)
+
+Postadas no TikTok (rascunhos) e no Instagram nos horários de `historia_horarios` (14h e 20h).
+`formato: "tiktok-historia"`. Estrutura: gancho → 5–7 cenas `historia`/`chat` → `virada` → 1–2 cenas de solução → `cta_quiz`. 70–90 s.
+
+Cena `historia`:
+- `cenario`: sala | noite | quarto | cozinha | corredor | rua ; `relogio` ("02:47"), `quando` (tag curta), `campainha` (0–1 ou palavra)
+- `elenco`: [{quem, x, humor, pose, dir(-1 olha pra esquerda), anda, inclina}] — no máximo 2 pessoas (x≈280–330 e 780–830)
+  - quem: ana, carla, bia (mulheres) · vizinho (idoso, óculos) · sindica (senhora, óculos — também serve de sogra) · joao, pedro (homens)
+  - humor: normal feliz radiante triste bravo surpreso preocupado vergonha cansado
+  - pose: parado aponta maos_cabeca bracos_cruzados maos_cintura petisco acena celular comemora maos_rosto carinho guia bilhete explica
+- `cao`: {mascote: normal|bravo|feliz|dorminhoco, x, acao: late|pula|corre|senta|dorme|feliz} ou false
+- `objetos`: [{nome: poca|almofada|sapato|petisco|coracoes, x, y, em|palavra, frente}]
+- `fala`: narração (voz do narrador). `dialogo`: [{quem, texto, humor?, pose?, pensa?, grito?}] — cada personagem tem voz própria; `quem: "cao"` vira balão de latido (sem voz)
+- `camera`: {foco: quem|"cao", z: 1.4–1.6, em: 0–1} para zoom no momento forte. `fala_depois: true` põe a narração depois do diálogo.
+
+Cena `chat` (grupo do prédio etc.): `grupo`, `membros`, `quando` ("22:47"), `fala`, `dialogo` [{quem, texto, eu?}].
+
+Regras: 1–2 falas por cena, frases curtas e faladas; dor real (vizinho, condomínio, visita, aluguel, bebê, passeio) → vergonha → quase desistir → virada "ninguém ensinou" → 15 min/dia → reação de outra pessoa. Sem prometer prazo de resultado; legenda termina com "(História ilustrativa…)" + chamada pro teste do link do perfil. Sem emoji dentro de textos que aparecem no vídeo.

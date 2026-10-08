@@ -1,0 +1,234 @@
+{
+ "id": "h005-vistoria-apartamento",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Faltavam 3 dias pra vistoria do apartamento… e o tapete cheirava a xixi 😬 (História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorro #adestramento #historiadecachorro #xixinolugarcerto #apartamento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Faltavam três dias pra vistoria do apartamento. E o tapete cheirava a xixi.",
+   "linhas": [
+    "3 DIAS PRA",
+    "VISTORIA",
+    "E O XIXI…"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA, 7H",
+   "fala": "Segunda, sete da manhã. O João pisou descalço.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 780,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 470,
+     "y": 1440,
+     "em": 0.0
+    }
+   ],
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "De novo no tapete, Mel?!",
+     "grito": true,
+     "humor": "bravo"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "quando": "07:15",
+   "grupo": "Seu Jorge · Proprietário",
+   "membros": "visto por último hoje",
+   "fala": "Aí chegou a mensagem que ele temia.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Bom dia, João. Sexta passo aí pra vistoria, combinado?"
+    },
+    {
+     "quem": "joao",
+     "eu": true,
+     "texto": "Combinado, seu Jorge! Tudo certo por aqui."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "CORRIDA",
+   "fala": "Desinfetante, pano, vela cheirosa. E a bronca de sempre.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 560,
+     "y": 1440
+    }
+   ],
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Feio! Aqui não pode!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUARTA À NOITE",
+   "fala": "Só que a bronca não ensinava o lugar certo. Ensinava a Mel a se esconder pra fazer.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 320,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 800,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 820,
+     "y": 1450,
+     "palavra": "esconder"
+    }
+   ],
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Atrás da geladeira agora?",
+     "pensa": true
+    }
+   ],
+   "camera": {
+    "foco": "joao",
+    "z": 1.45,
+    "em": 0.55
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Foi aí que ele entendeu: a Mel não fazia xixi por pirraça. Ninguém tinha mostrado pra ela onde era o lugar.",
+   "topo": [
+    "ELA NÃO FAZIA POR"
+   ],
+   "de": "PIRRAÇA",
+   "para": "NINGUÉM MOSTROU",
+   "para_palavra": "mostrado"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Ele mudou a estratégia. Horários certos, tapete higiênico no mesmo lugar, e festa quando ela acertava.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Isso, Mel! No lugar certo!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · VISTORIA",
+   "porta_aberta": true,
+   "porta_num": "204",
+   "porta_num2": "203",
+   "fala": "Sexta-feira. O seu Jorge chegou.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "preocupado",
+     "pose": "parado"
+    },
+    {
+     "quem": "vizinho",
+     "x": 800,
+     "humor": "surpreso",
+     "pose": "bilhete",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 540,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Tudo limpinho! Nem parece que tem cachorro aqui."
+    },
+    {
+     "quem": "joao",
+     "texto": "Pois é, seu Jorge… ela aprendeu.",
+     "humor": "radiante"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão também faz xixi fora do lugar? Faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão faz xixi…",
+   "opcoes": [
+    "Em qualquer lugar",
+    "Só quando fica sozinho",
+    "No lugar certo"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO SEM ROTINA"
+  }
+ ]
+}

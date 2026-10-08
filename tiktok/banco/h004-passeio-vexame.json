@@ -1,0 +1,237 @@
+{
+ "id": "h004-passeio-vexame",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "Passear com a Luna virou o momento mais tenso do dia da Bia 😅 (História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorro #adestramento #historiadecachorro #passeio #cachorropuxandoguia",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A Bia tinha vergonha de passear com a própria cachorra.",
+   "linhas": [
+    "VERGONHA",
+    "DE PASSEAR",
+    "COM ELA"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO, 9H",
+   "fala": "Sábado de manhã. Era só sair do prédio.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia",
+     "anda": true,
+     "inclina": 0.08
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 820,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!",
+     "em": 0.3
+    },
+    {
+     "quem": "bia",
+     "texto": "Luna, devagar! Você vai me derrubar!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "NA ESQUINA",
+   "fala": "Na esquina, ela viu outro cachorro. E aí não teve guia que segurasse.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "guia",
+     "inclina": 0.14
+    },
+    {
+     "quem": "joao",
+     "x": 860,
+     "humor": "bravo",
+     "pose": "aponta",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 600,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Moça, segura essa cachorra!"
+    },
+    {
+     "quem": "bia",
+     "texto": "Desculpa! Ela não é brava, juro!",
+     "humor": "vergonha"
+    }
+   ],
+   "camera": {
+    "foco": "bia",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DE VOLTA",
+   "fala": "Ela voltou pra casa com o braço doendo. E tomou uma decisão errada.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 320,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Pronto. A partir de hoje, a gente não passeia mais.",
+     "humor": "bravo"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "UMA SEMANA DEPOIS",
+   "fala": "Sem passeio, a Luna ficou ainda mais agitada. Latia, roía, corria pela casa.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 700,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "almofada",
+     "x": 880,
+     "y": 1300,
+     "palavra": "roía",
+     "frente": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Até ela entender: a Luna não puxava por teimosia. Ninguém tinha ensinado que guia frouxa é que leva pra frente.",
+   "topo": [
+    "ELA NÃO PUXAVA POR"
+   ],
+   "de": "TEIMOSIA",
+   "para": "GUIA FROUXA",
+   "para_palavra": "frouxa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Puxou? Ela para. Afrouxou? Elas andam. Quinze minutos por dia, sem pressa.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 320,
+     "humor": "normal",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 700,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Isso, Luna. Junto comigo."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE",
+   "fala": "Hoje o passeio é a parte favorita do dia. Das duas.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 330,
+     "humor": "radiante",
+     "pose": "guia",
+     "anda": true
+    },
+    {
+     "quem": "joao",
+     "x": 870,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 640,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Nossa, é a mesma cachorra?"
+    },
+    {
+     "quem": "bia",
+     "texto": "A mesma. Só que agora ela sabe passear!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão também te arrasta no passeio? Faz o teste grátis no link do perfil.",
+   "pergunta": "No passeio, seu cão…",
+   "opcoes": [
+    "Me arrasta",
+    "Late pra outros cães",
+    "Anda do meu lado"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO TRATOR"
+  }
+ ]
+}

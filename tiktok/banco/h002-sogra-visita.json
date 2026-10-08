@@ -1,0 +1,277 @@
+{
+ "id": "h002-sogra-visita",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "A sogra chegou de calça branca… e o Bolt fez o que sempre faz 😬 (História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorro #adestramento #historiadecachorro #cachorropulando #sogra",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A sogra da Carla veio pela primeira vez. De calça branca.",
+   "linhas": [
+    "A SOGRA",
+    "DE CALÇA",
+    "BRANCA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO, 12H",
+   "campainha": 0.0,
+   "fala": "Domingo, meio-dia. A campainha tocou.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU!",
+     "em": 0.2
+    },
+    {
+     "quem": "carla",
+     "texto": "Bolt, calma… por favor, hoje não!",
+     "pose": "explica"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "NA PORTA",
+   "porta_aberta": true,
+   "porta_num": "402",
+   "porta_num2": "401",
+   "fala": "Bastou abrir a porta.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 790,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "AI! Minha calça! Tira ele de mim!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "sindica",
+    "z": 1.45,
+    "em": 0.2
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "NO ALMOÇO",
+   "fala": "O almoço inteiro foi assim. Ele pulava, ela desviava, e a Carla pedia desculpa.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 260,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "sindica",
+     "x": 820,
+     "humor": "bravo",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 540,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Na minha época, cachorro ficava no quintal."
+    },
+    {
+     "quem": "carla",
+     "texto": "Desculpa, dona Márcia. Ele só tá animado…"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "relogio": "23:10",
+   "quando": "À NOITE",
+   "fala": "À noite, a Carla desabafou com o marido.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "triste",
+     "pose": "parado"
+    },
+    {
+     "quem": "joao",
+     "x": 780,
+     "humor": "preocupado",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 560,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Eu tenho vergonha de receber qualquer pessoa aqui."
+    },
+    {
+     "quem": "joao",
+     "texto": "E se a gente der ele pra alguém com quintal?"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Só que o Bolt não pulava por falta de educação. Ele pulava porque era o único jeito que conhecia de dizer oi.",
+   "topo": [
+    "ELE NÃO PULAVA POR"
+   ],
+   "de": "MALCRIAÇÃO",
+   "para": "NINGUÉM ENSINOU",
+   "para_palavra": "único"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Ela começou a ensinar outro jeito de cumprimentar. Pulou? Ela vira de costas. Sentou? Ganha atenção e petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 740,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Senta… isso! Agora sim eu te dou oi."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "UM MÊS DEPOIS",
+   "porta_aberta": true,
+   "porta_num": "402",
+   "porta_num2": "401",
+   "fala": "Um mês depois, a sogra voltou.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "parado"
+    },
+    {
+     "quem": "sindica",
+     "x": 800,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 540,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ué… ele sentou sozinho pra me esperar?"
+    },
+    {
+     "quem": "carla",
+     "texto": "A gente treinou junto, dona Márcia.",
+     "humor": "radiante"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE",
+   "fala": "Hoje, o Bolt é o primeiro a receber as visitas. Sentado.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 620,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 560,
+     "y": 1000
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu cão, como recebe as visitas? Faz o teste grátis no link do perfil.",
+   "pergunta": "Quando chega visita, seu cão…",
+   "opcoes": [
+    "Pula em todo mundo",
+    "Late sem parar",
+    "Fica tranquilo"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO CANGURU"
+  }
+ ]
+}

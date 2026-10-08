@@ -1,0 +1,225 @@
+{
+ "id": "h006-bebe-campainha",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "O bebê tinha acabado de dormir… e aí tocou a campainha 😩 (História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorro #adestramento #historiadecachorro #cachorrolatindo #maedeprimeiraviagem",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Duas horas pra fazer o bebê dormir. Dois segundos pra acordar ele.",
+   "linhas": [
+    "2 HORAS PRA",
+    "DORMIR",
+    "2 SEGUNDOS…"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "14:05",
+   "fala": "Duas da tarde. O Theo finalmente dormiu.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 780,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Agora sim… silêncio.",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "14:07",
+   "campainha": 0.0,
+   "fala": "Aí tocou a campainha. Era só uma entrega.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU! AU!",
+     "em": 0.25
+    },
+    {
+     "quem": "ana",
+     "texto": "Não, não, não… Thor, quieto!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "14:08",
+   "fala": "O bebê acordou chorando. E ela também chorou.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 330,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 780
+   },
+   "camera": {
+    "foco": "ana",
+    "z": 1.55,
+    "em": 0.3
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Eu não aguento mais esse latido.",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "relogio": "21:40",
+   "quando": "À NOITE",
+   "fala": "À noite, o marido trouxe uma ideia.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "cansado",
+     "pose": "bracos_cruzados"
+    },
+    {
+     "quem": "joao",
+     "x": 790,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 540,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "E se a gente ensinar a campainha a significar outra coisa pra ele?"
+    },
+    {
+     "quem": "ana",
+     "texto": "Como assim?",
+     "humor": "surpreso"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O Thor não latia pra irritar. Pra ele, campainha era alarme de perigo. Dava pra ensinar que campainha significa: ir pro cantinho dele.",
+   "topo": [
+    "CAMPAINHA NÃO É"
+   ],
+   "de": "ALARME",
+   "para": "VAI PRO CANTINHO",
+   "para_palavra": "cantinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "campainha": 0.3,
+   "fala": "Quinze minutos por dia. Toca a campainha, ele vai pro cantinho, ganha petisco. De novo. E de novo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Cantinho… muito bem!",
+     "humor": "feliz"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "SEMANAS DEPOIS",
+   "campainha": 0.2,
+   "fala": "Semanas depois, tocou a campainha na hora da soneca. E o Theo continuou dormindo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Você é o melhor irmão mais velho, sabia?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão também late pra campainha? Faz o teste grátis no link do perfil.",
+   "pergunta": "Quando a campainha toca, ele…",
+   "opcoes": [
+    "Late sem parar",
+    "Corre pra porta",
+    "Fica no cantinho"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO ALARME"
+  }
+ ]
+}
