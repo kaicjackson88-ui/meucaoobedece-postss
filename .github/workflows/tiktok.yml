@@ -1,8 +1,6 @@
 name: TikTok — lote de vídeos
 
 on:
-  schedule:
-    - cron: "17 16 * * 0"   # domingo 13h17 (Brasília), depois do roteirista: lote da semana
   workflow_dispatch:
     inputs:
       quantidade:

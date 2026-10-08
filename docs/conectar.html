@@ -1,0 +1,10 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Conectar TikTok</title><link rel="stylesheet" href="estilo.css"></head>
+<body><main><div class="marca">🐾 Meu Cão Obedece</div><h1>Conectar o TikTok</h1>
+<p>Cole o <b>Client key</b> do seu app do TikTok for Developers e toque em conectar. Você vai entrar no TikTok, autorizar e voltar para cá com um código.</p>
+<input id="ck" placeholder="Client key" autocomplete="off"><p><button id="ir">Conectar com o TikTok</button></p>
+<script>
+const R=location.origin+location.pathname.replace('conectar.html','tiktok-callback.html');
+document.getElementById('ir').onclick=()=>{const ck=document.getElementById('ck').value.trim();if(!ck){alert('Cole o Client key');return}
+ const st=Math.random().toString(36).slice(2);try{sessionStorage.setItem('st',st)}catch(e){}
+ location.href='https://www.tiktok.com/v2/auth/authorize/?client_key='+encodeURIComponent(ck)+'&scope=user.info.basic,video.upload&response_type=code&redirect_uri='+encodeURIComponent(R)+'&state='+st};
+</script></main></body></html>

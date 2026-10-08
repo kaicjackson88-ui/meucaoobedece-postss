@@ -1,0 +1,74 @@
+name: TikTok — rascunhos diários
+
+on:
+  schedule:
+    - cron: "27 * * * *"   # confere de hora em hora; manda os vídeos do dia a partir das 8h
+  workflow_dispatch:
+    inputs:
+      acao:
+        description: "enviar = manda os vídeos de hoje | autorizar = conecta a conta (cole o código)"
+        required: true
+        default: "enviar"
+        type: choice
+        options: [enviar, autorizar]
+      codigo:
+        description: "Código que apareceu depois de conectar (só para autorizar)"
+        required: false
+        default: ""
+      quantidade:
+        description: "Quantos vídeos mandar agora (vazio = o que falta de hoje)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tiktok-rascunhos
+  cancel-in-progress: false
+
+jobs:
+  rascunhos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+      TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Conectar conta
+        if: github.event.inputs.acao == 'autorizar'
+        env:
+          CODIGO: ${{ github.event.inputs.codigo }}
+        run: python scripts/tiktok_rascunho.py autorizar "$CODIGO"
+      - name: Tem vídeo pra mandar?
+        id: precisa
+        if: github.event.inputs.acao != 'autorizar'
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "sim=sim" >> "$GITHUB_OUTPUT"
+          else echo "sim=$(python scripts/tiktok_rascunho.py precisa)" >> "$GITHUB_OUTPUT"; fi
+      - name: Instalar ferramentas de vídeo
+        if: steps.precisa.outputs.sim == 'sim'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q edge-tts==7.2.8 playwright==1.55.0 numpy scipy
+          python -m playwright install --with-deps chromium
+      - name: Gerar e mandar para os rascunhos
+        if: steps.precisa.outputs.sim == 'sim'
+        env:
+          QTD: ${{ github.event.inputs.quantidade }}
+        run: |
+          git config user.name "robo-meu-cao-obedece"
+          git config user.email "robo@users.noreply.github.com"
+          python scripts/tiktok_rascunho.py enviar $QTD
+      - name: Salvar
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain dados docs)" ]; then
+            git config user.name "robo-meu-cao-obedece"
+            git config user.email "robo@users.noreply.github.com"
+            git add dados docs && git commit -qm "TikTok: registros" && git pull --rebase -q && git push -q
+          fi

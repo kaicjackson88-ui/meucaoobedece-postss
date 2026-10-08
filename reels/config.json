@@ -19,5 +19,7 @@
   "sol",
   "menta",
   "noite"
- ]
+ ],
+ "tiktok_por_dia": 3,
+ "tiktok_hora_inicio": "08:00"
 }

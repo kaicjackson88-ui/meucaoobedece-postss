@@ -1,0 +1,9 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TikTok conectado</title><link rel="stylesheet" href="estilo.css"></head>
+<body><main><div class="marca">🐾 Meu Cão Obedece</div><h1 id="t">Quase lá</h1><div id="c"></div>
+<script>
+const q=new URLSearchParams(location.search),code=q.get('code'),err=q.get('error_description')||q.get('error');
+const c=document.getElementById('c');
+if(code){c.innerHTML='<p>Copie o código abaixo e cole agora no GitHub (o código vale só alguns minutos):</p><div class="caixa" id="k"></div><p><button id="cp">Copiar código</button></p><p><a class="botao" href="https://github.com/kaicjackson88-ui/meucaoobedece-postss/actions/workflows/tiktok-rascunhos.yml">Abrir o GitHub › Run workflow</a></p><p>No GitHub: <b>Run workflow</b> › em "ação" escolha <b>autorizar</b> › cole o código no campo "código" › <b>Run workflow</b>.</p>';
+ document.getElementById('k').textContent=code;document.getElementById('cp').onclick=()=>navigator.clipboard.writeText(code).then(()=>{document.getElementById('cp').textContent='Copiado ✓'})}
+else{document.getElementById('t').textContent='Não deu certo';c.textContent='O TikTok respondeu: '+(err||'sem código')+'. Tente conectar de novo.'}
+</script></main></body></html>

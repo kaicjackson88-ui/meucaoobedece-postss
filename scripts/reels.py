@@ -290,7 +290,7 @@ def proximo_slot(publicados, agora=None):
 
 def salvar_git(msg):
     run = lambda *a: subprocess.run(list(a), cwd=RAIZ, capture_output=True)
-    run('git', 'add', 'dados', 'reels')
+    run('git', 'add', 'dados', 'reels', 'docs')
     if run('git', 'diff', '--cached', '--quiet').returncode != 0:
         run('git', '-c', 'user.name=robo-meu-cao-obedece', '-c', 'user.email=robo@users.noreply.github.com', 'commit', '-qm', msg)
         for _ in range(3):
