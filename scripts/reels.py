@@ -59,13 +59,13 @@ async def _narrar(texto, mp3, voz, rate, pitch='+0Hz'):
 
 # Vozes dos personagens das histórias (cada um soa diferente do narrador)
 VOZES_PADRAO = {
-    'narrador': {'voz': 'pt-BR-AntonioNeural', 'rate': '+4%', 'pitch': '+0Hz'},
-    'ana': {'voz': 'pt-BR-FranciscaNeural', 'rate': '+6%', 'pitch': '+0Hz'},
+    'narrador': {'voz': 'pt-BR-AntonioNeural', 'rate': '+12%', 'pitch': '+0Hz'},
+    'ana': {'voz': 'pt-BR-FranciscaNeural', 'rate': '+12%', 'pitch': '+0Hz'},
     'carla': {'voz': 'pt-BR-FranciscaNeural', 'rate': '+8%', 'pitch': '+10Hz'},
-    'vizinho': {'voz': 'pt-BR-AntonioNeural', 'rate': '-6%', 'pitch': '-12Hz'},
+    'vizinho': {'voz': 'pt-BR-AntonioNeural', 'rate': '+2%', 'pitch': '-12Hz'},
     'joao': {'voz': 'pt-BR-AntonioNeural', 'rate': '+6%', 'pitch': '+6Hz'},
     'pedro': {'voz': 'pt-BR-AntonioNeural', 'rate': '+8%', 'pitch': '+12Hz'},
-    'sindica': {'voz': 'pt-BR-ThalitaMultilingualNeural', 'rate': '+2%', 'pitch': '-4Hz',
+    'sindica': {'voz': 'pt-BR-ThalitaMultilingualNeural', 'rate': '+10%', 'pitch': '-4Hz',
                 'reserva': {'voz': 'pt-BR-FranciscaNeural', 'rate': '+0%', 'pitch': '-10Hz'}},
     'bia': {'voz': 'pt-BR-ThalitaMultilingualNeural', 'rate': '+6%', 'pitch': '+4Hz',
             'reserva': {'voz': 'pt-BR-FranciscaNeural', 'rate': '+8%', 'pitch': '+12Hz'}},
@@ -126,7 +126,7 @@ def narrar_dialogo(roteiro, pasta, falso=False):
     audio.append(np.zeros(int(SRN * .1)))
     for bi, b in enumerate(blocos):
         if ultima_cena is not None:
-            pausa = .28 + (.12 if b['itens'][0][0] != ultima_cena else 0)
+            pausa = .2 + (.14 if b['itens'][0][0] != ultima_cena else 0)
             audio.append(np.zeros(int(SRN * pausa))); t0 += pausa
         texto = ' '.join(x[2] for x in b['itens'])
         esperadas = [((ci, j), norm(w)) for ci, j, tx in b['itens'] for w in tokens(tx)]
@@ -149,6 +149,12 @@ def narrar_dialogo(roteiro, pasta, falso=False):
             wav = tmp / f'b{bi}.wav'
             subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', str(mp3), '-ac', '1', '-ar', str(SRN), str(wav)], check=True)
             _, x = wavfile.read(wav); x = x.astype(np.float32) / 32768
+            # corta o silêncio que a voz traz no começo e no fim (deixa o ritmo mais ágil)
+            alto = np.where(np.abs(x) > .015)[0]
+            if len(alto):
+                a = max(0, alto[0] - int(SRN * .04)); z = min(len(x), alto[-1] + int(SRN * .08))
+                x = x[a:z]; corte = a / SRN
+                ws = [dict(w, inicio=max(0, w['inicio'] - corte), fim=max(0, w['fim'] - corte)) for w in ws]
         rot = _casar(ws, esperadas)
         for w, r in zip(ws, rot):
             ci, j = r if r else (b['itens'][0][0], b['itens'][0][1])

@@ -242,15 +242,15 @@ Object.assign(TIPOS,{
    // mensagens (as mais recentes empurram as antigas pra cima)
    const NOMES=Object.assign({sindica:'Síndica Márcia',vizinho:'Seu Jorge (301)',ana:'Você',joao:'João (204)',bia:'Bia (101)',carla:'Carla (402)',pedro:'Pedro (103)'},s.nomes||{});
    const CORN={sindica:C.red,vizinho:'#B7791F',joao:'#7A4FD0',bia:C.teal,carla:'#C2410C',pedro:'#2F7D58'};
-   const bl=[];let yy=0;s.L.forEach(l=>{if(t<l.ini-.75)return;const eu=l.quem==='ana'||l.eu;const ls=quebrar(l.texto,36,520,800,'NU');const h=ls.length*46+(eu?40:84);bl.push({l,eu,ls,h,y:yy});yy+=h+24});
+   const bl=[];let yy=0;s.L.forEach(l=>{if(t<l.ini-.75)return;const eu=l.quem==='ana'||l.eu;const ls=quebrar(l.texto,44,560,800,'NU');const h=ls.length*56+(eu?44:94);bl.push({l,eu,ls,h,y:yy});yy+=h+24});
    const tot=yy,area=ph-260;const off=Math.max(0,tot-area);
    cx.translate(0,-ph/2+220-off);
-   bl.forEach(({l,eu,ls,h,y})=>{const typing=t<l.ini-.05;const k=typing?1:sp(t,l.ini-.05,12,7);const w=typing?140:Math.max(...ls.map(x=>medir(x,36,800,'NU')),eu?0:medir(NOMES[l.quem]||l.quem,28,900,'NU'))+60;
+   bl.forEach(({l,eu,ls,h,y})=>{const typing=t<l.ini-.05;const k=typing?1:sp(t,l.ini-.05,12,7);const w=typing?140:Math.max(...ls.map(x=>medir(x,44,800,'NU')),eu?0:medir(NOMES[l.quem]||l.quem,32,900,'NU'))+64;
      const x=eu?pw/2-30-w:-pw/2+30;cx.save();cx.translate(x+(eu?w:0),y);cx.scale(k,k);cx.translate(-(eu?w:0),0);
      sh('rgba(42,38,34,.15)',0,4);rr(0,0,w,typing?70:h,24);cx.fillStyle=eu?'#D3F2E6':'#fff';cx.fill();nosh();
      if(typing){for(let i=0;i<3;i++){cx.fillStyle=`rgba(42,38,34,${.3+.4*Math.max(0,Math.sin(t*9-i))})`;cx.beginPath();cx.arc(42+i*28,35,9,0,7);cx.fill()}}
-     else{let ty=30;if(!eu){txt(NOMES[l.quem]||l.quem,30,30,28,CORN[l.quem]||C.teal,{w:900,f:'NU',al:'left'});ty=74}
-       ls.forEach((x,i)=>txt(x,30,ty+i*46,36,C.ink,{w:800,f:'NU',al:'left'}));txt(l.hora||'02:'+String(10+Math.floor(l.ini)%50).padStart(2,'0'),w-20,h-18,22,'rgba(42,38,34,.45)',{w:800,f:'NU',al:'right'})}
+     else{let ty=30;if(!eu){txt(NOMES[l.quem]||l.quem,30,34,32,CORN[l.quem]||C.teal,{w:900,f:'NU',al:'left'});ty=84}else ty=36;
+       ls.forEach((x,i)=>txt(x,30,ty+i*56,44,C.ink,{w:800,f:'NU',al:'left'}));txt(l.hora||(/^\d\d:\d\d$/.test(s.quando||'')?s.quando:'22:47'),w-20,h-18,22,'rgba(42,38,34,.45)',{w:800,f:'NU',al:'right'})}
      cx.restore()});
    cx.restore();cx.restore();
    if(s.quando){const k=pop(t,s.ini-.15,.4);if(k){cx.save();cx.translate(W/2,250);cx.rotate(-.03);cx.scale(k,k);const w=medir(s.quando,50,900,'NU')+70;rr(-w/2,-42,w,84,24);cx.fillStyle=C.ink;cx.fill();txt(s.quando,0,4,50,C.gold,{w:900,f:'NU',ls:3});cx.restore()}}}},
