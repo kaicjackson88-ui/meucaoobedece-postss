@@ -2,6 +2,8 @@
   IA: openai/gpt-4.1-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
   IA: openai/gpt-4o-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
   IA: openai/gpt-4o-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
-  IA: meta/Llama-4-Scout-17B-16E-Instruct: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
-  IA: meta/Llama-4-Scout-17B-16E-Instruct: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
-  IA falhou: IA gratuita falhou: meta/Llama-4-Scout-17B-16E-Instruct: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA: gpt-4o-mini: <urlopen error [Errno -2] Name or service not known>
+  IA: gpt-4o-mini: <urlopen error [Errno -2] Name or service not known>
+  IA: gpt-4o: <urlopen error [Errno -2] Name or service not known>
+  IA: gpt-4o: <urlopen error [Errno -2] Name or service not known>
+  IA falhou: IA gratuita falhou: gpt-4o: <urlopen error [Errno -2] Name or service not known>
