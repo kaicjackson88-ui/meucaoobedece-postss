@@ -410,6 +410,13 @@ def cmd_turno(minutos=320):
                 print('⚠️ Carrossel falhou:', e)
                 f = ler_json(CARR_FEITOS, []); f.append({'slot': cs, 'erro': str(e)[:200]}); gravar_json(CARR_FEITOS, f); salvar_git('Carrossel: erro registrado')
             continue
+        if os.environ.get('TIKTOK_CLIENT_SECRET'):
+            try:
+                import tiktok_rascunho as tt
+                if tt.TOKEN_ARQ.exists() and tt.faltam_hoje() > 0 and datetime.now(BRT).strftime('%H:%M') >= tt.INICIO:
+                    tt.enviar(1)
+            except Exception as e:
+                print('⚠️ TikTok falhou (sigo com o Instagram):', e)
         publicados = ler_json(DADOS / 'reels_publicados.json', [])
         if slot_vencido(publicados):
             try:

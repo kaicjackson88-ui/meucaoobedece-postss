@@ -16,9 +16,10 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
-  group: reels-${{ github.event_name }}
+  group: reels-${{ (github.event_name == 'schedule' || github.event.inputs.modo == 'turno') && 'plantao' || 'manual' }}
   cancel-in-progress: false
 
 jobs:
@@ -32,10 +33,19 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Já tem plantão rodando?
+        id: dup
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          N=$(gh api "repos/${{ github.repository }}/actions/workflows/reels.yml/runs?status=in_progress&per_page=20" --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }}) | select(.event == \"schedule\" or .display_title == \"Reels automáticos\")] | length")
+          echo "outros=$N" >> "$GITHUB_OUTPUT"; echo "plantões rodando: $N"
+
       - name: Tem Reels pra fazer agora?
         id: precisa
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "sim=sim" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ steps.dup.outputs.outros }}" != "0" ]; then echo "sim=nao" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "sim=sim" >> "$GITHUB_OUTPUT"
           else echo "sim=$(python scripts/reels.py precisa)" >> "$GITHUB_OUTPUT"; fi
 
       - name: Instalar ferramentas de vídeo
@@ -49,6 +59,8 @@ jobs:
         if: steps.precisa.outputs.sim == 'sim'
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           ROTEIRO: ${{ github.event.inputs.roteiro }}
           MODO: ${{ github.event.inputs.modo }}
         run: |
@@ -80,3 +92,9 @@ jobs:
             git commit -m "Reels: registros atualizados"
             git pull --rebase -q && git push -q
           fi
+
+      - name: Encadear o próximo plantão
+        if: always() && (github.event_name == 'schedule' || github.event.inputs.modo == 'turno') && steps.precisa.outputs.sim == 'sim'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/actions/workflows/reels.yml/dispatches" -f ref=main -f "inputs[modo]=turno"
