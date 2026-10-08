@@ -167,3 +167,38 @@ Object.assign(TIPOS,{
    cx.restore();cx.restore();if(t>s.kR)confete(t,s.kR,W/2,900,60);
    if(t>s.kL){const p=1+.05*Math.sin(t*8);cx.save();cx.translate(W/2,1430);cx.scale(p,p);pilula(s.link||'LINK NO PERFIL',0,0,58,C.gold,C.ink,t,s.kL,0);cx.restore()}}},
 });
+// ---------- História: cena com tutor + cão num cenário ----------
+function tutor(x,y,s,t,humor='normal',cabelo='#5A3A22',roupa=C.teal){cx.save();cx.translate(x,y);cx.scale(s,s);const b=Math.sin(t*3)*4;
+  rr(-70,-170+b,140,190,60);cx.fillStyle=roupa;cx.fill();contorno(8);           // corpo
+  cx.fillStyle='#F2C9A0';cx.beginPath();cx.arc(0,-235+b,62,0,7);cx.fill();contorno(8); // cabeça
+  cx.fillStyle=cabelo;cx.beginPath();cx.arc(0,-250+b,64,Math.PI*1.05,Math.PI*1.95);cx.lineTo(55,-235+b);cx.quadraticCurveTo(0,-275+b,-55,-235+b);cx.closePath();cx.fill();
+  cx.fillStyle=C.ink;cx.beginPath();cx.arc(-22,-238+b,6,0,7);cx.arc(22,-238+b,6,0,7);cx.fill();
+  cx.lineWidth=6;cx.strokeStyle=C.ink;cx.lineCap='round';cx.beginPath();
+  if(humor==='triste'){cx.arc(0,-196+b,18,Math.PI*1.15,Math.PI*1.85)}else if(humor==='bravo'){cx.moveTo(-16,-205+b);cx.lineTo(16,-205+b);cx.moveTo(-34,-258+b);cx.lineTo(-12,-250+b);cx.moveTo(34,-258+b);cx.lineTo(12,-250+b)}else{cx.arc(0,-218+b,18,Math.PI*.15,Math.PI*.85)}cx.stroke();
+  if(humor==='triste'){cx.fillStyle='rgba(47,156,138,.7)';cx.beginPath();cx.ellipse(-26,-222+b+(t*30)%20,5,8,0,0,7);cx.fill()}
+  cx.restore()}
+function cenario(t,tipo='sala'){const parede=tipo==='noite'?'#3B3530':C.peach;cx.fillStyle=parede;cx.fillRect(0,0,W,H);
+  cx.fillStyle=tipo==='noite'?'#2A2622':'#E9C9A4';cx.fillRect(0,1240,W,H-1240);cx.fillStyle='rgba(42,38,34,.15)';cx.fillRect(0,1236,W,8);
+  // janela
+  rr(110,520,260,300,20);cx.fillStyle=tipo==='noite'?'#1E2A3A':C.mint;cx.fill();contorno(8);cx.beginPath();cx.moveTo(240,520);cx.lineTo(240,820);cx.moveTo(110,670);cx.lineTo(370,670);contorno(6);
+  if(tipo==='noite'){cx.fillStyle=C.gold;cx.beginPath();cx.arc(300,580,22,0,7);cx.fill()}
+  // quadro
+  rr(700,560,200,150,12);cx.fillStyle=C.cream;cx.fill();contorno(7);paw(800,640,1.1,C.amb);
+  vinheta(.22)}
+function balaoFala(texto,x,y,t,t0,{cor=C.cream,lado=1,size=48,maxw=520,pensa=false}={}){const k=pop(t,t0,.4);if(!k)return;const ls=quebrar(texto,size,maxw);const w=Math.min(maxw,Math.max(...ls.map(l=>medir(l,size))))+60,h=ls.length*size*1.2+44;
+  cx.save();cx.translate(x,y);cx.scale(k,k);cx.rotate(Math.sin(t*2)*.01);sh('rgba(42,38,34,.25)',0,8);rr(-w/2,-h/2,w,h,32);cx.fillStyle=cor;cx.fill();
+  if(pensa){[[lado*w*.25,h/2+22,14],[lado*w*.32,h/2+48,9]].forEach(([a,b,r])=>{cx.beginPath();cx.arc(a,b,r,0,7);cx.fill()})}else{cx.beginPath();cx.moveTo(lado*w*.15,h/2-4);cx.lineTo(lado*w*.3,h/2+50);cx.lineTo(lado*w*.32,h/2-4);cx.fill()}
+  nosh();rr(-w/2,-h/2,w,h,32);contorno(7);ls.forEach((l,i)=>txt(l,0,-h/2+22+size*.62+i*size*1.2,size,C.ink,{w:700}));cx.restore()}
+Object.assign(TIPOS,{
+ historia:{prep(s){s.fundo='pessego';s.kB=(s.baloes||[]).map(b=>b.palavra?kw(s,b.palavra,.3):at(s,b.em??.2));s.kB.forEach(x=>SFX.pop.push(x));if(s.icone)SFX.ding.push(at(s,.5));if(s.som==='latido')SFX.boom.push(s.ini+.2)},
+  draw(t,s){cenario(t,s.cenario||'sala');
+   if(s.sofa!==false){cx.save();cx.translate(780,1180);ICONES.sofa(t);cx.restore()}
+   if(s.porta){cx.save();cx.translate(960,1050);cx.scale(1.3,1.3);ICONES.porta(t);cx.restore()}
+   if(s.icone){const ki=pop(t,at(s,.45),.5);if(ki)icone(s.icone,W/2,880,.7*ki,t)}
+   const shake=s.som==='latido'?Math.sin(t*40)*6:0;
+   tutor(330,1300,1.25,t,s.humor||'normal',s.cabelo,s.roupa);
+   dog(s.mascote||'normal',720+shake,1330,.95,Math.sin(t*(s.mascote==='bravo'?14:3))*.04,Math.max(0,Math.sin(t*10))*.02);
+   (s.baloes||[]).forEach((b,i)=>balaoFala(b.texto,b.quem==='cao'?720:330,b.quem==='cao'?820:700,t,s.kB[i],{cor:b.quem==='cao'?C.gold:C.cream,lado:b.quem==='cao'?-1:1,pensa:!!b.pensa,size:b.size||48}));
+   if(s.quando){const k=pop(t,s.ini-.1,.4);if(k){cx.save();cx.translate(W/2,330);cx.rotate(-.03);cx.scale(k,k);const w=medir(s.quando,56,900,'NU')+70;rr(-w/2,-46,w,92,24);cx.fillStyle=C.ink;cx.fill();txt(s.quando,0,4,56,C.gold,{w:900,f:'NU',ls:3});cx.restore()}}
+   if(s.titulo)palavra(s.titulo,W/2,455,70,C.ink,t,s.ini+.2,{maxw:960})}},
+});

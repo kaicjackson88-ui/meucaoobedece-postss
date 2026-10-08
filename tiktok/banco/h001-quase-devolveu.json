@@ -1,0 +1,18 @@
+{
+ "id": "h001-quase-devolveu",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "Ela quase devolveu o cachorro que adotou 💔 E aí entendeu uma coisa que mudou tudo. (História ilustrativa, baseada em situações que muitos tutores vivem.) Descubra o que o SEU cão precisa no teste do link do perfil 🐾",
+ "hashtags": "#cachorro #adestramento #historiadecachorro #tutordecachorro",
+ "cenas": [
+  {"tipo": "gancho", "fala": "A Ana quase devolveu o cachorro que tinha acabado de adotar.", "linhas": ["ELA QUASE", "DEVOLVEU", "O CACHORRO"], "destaque": 1, "parte": 1, "mascote": "bravo", "icone": "coracao"},
+  {"tipo": "historia", "fala": "O Thor latia pra tudo, fazia xixi na casa inteira, e o vizinho já tinha reclamado duas vezes.", "quando": "SEMANA 1", "mascote": "bravo", "humor": "triste", "som": "latido", "baloes": [{"quem": "cao", "texto": "AU! AU! AU!", "em": 0.05, "size": 56}, {"quem": "tutor", "texto": "De novo?!", "pensa": true, "palavra": "vizinho"}]},
+  {"tipo": "historia", "fala": "Ela tentou bronca, tentou ignorar, pensou até num adestrador. Mas não dava pra pagar todo mês.", "quando": "UM MÊS DEPOIS", "cenario": "noite", "mascote": "dorminhoco", "humor": "triste", "icone": "moeda", "baloes": [{"quem": "tutor", "texto": "Não sei mais o que fazer…", "pensa": true, "em": 0.55}]},
+  {"tipo": "virada", "fala": "Até que ela entendeu uma coisa: o Thor não era bagunceiro. Ninguém tinha ensinado ele.", "topo": ["O THOR NÃO ERA"], "de": "BAGUNCEIRO", "para": "NINGUÉM ENSINOU", "para_palavra": "ninguém"},
+  {"tipo": "historia", "fala": "Ela começou com quinze minutos por dia. Um comando de cada vez, e o petisco na hora certa.", "quando": "15 MIN POR DIA", "mascote": "normal", "humor": "normal", "icone": "relogio", "sofa": false, "baloes": [{"quem": "tutor", "texto": "Senta!", "palavra": "comando"}, {"quem": "cao", "texto": "Ok!", "palavra": "petisco"}]},
+  {"tipo": "historia", "fala": "Não foi mágica. Foi constância. E hoje a casa é outra.", "quando": "HOJE", "mascote": "feliz", "humor": "normal", "icone": "coracao", "baloes": [{"quem": "tutor", "texto": "Bom garoto!", "palavra": "constância"}]},
+  {"tipo": "cta_quiz", "fala": "Quer descobrir o que o seu cão precisa? Faz o teste no link do perfil.", "pergunta": "Quando chega visita, seu cão…", "opcoes": ["Late sem parar", "Pula em todo mundo", "Fica tranquilo"], "escolha": 0, "resultado": "CÃO ALARME"}
+ ]
+}
