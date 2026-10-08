@@ -214,7 +214,7 @@ def slot_vencido(publicados, agora=None):
         hh, mm = map(int, h.split(':'))
         s = agora.replace(hour=hh, minute=mm, second=0, microsecond=0)
         nome = s.strftime('%Y-%m-%d %H:%M')
-        if s <= agora < s + timedelta(hours=3) and nome not in feitos:
+        if s <= agora < s + timedelta(hours=6) and nome not in feitos:
             return nome
     return None
 
@@ -262,6 +262,54 @@ def postar_reel(url, legenda):
     return mid, link
 
 
+def proximo_slot(publicados, agora=None):
+    """Próximo horário de hoje ainda não feito (no futuro)."""
+    agora = agora or datetime.now(BRT)
+    if agora.strftime('%Y-%m-%d') < CFG.get('comecar_em', '0000'):
+        return None
+    feitos = {p.get('slot') for p in publicados}
+    futuros = []
+    for h in CFG['horarios']:
+        hh, mm = map(int, h.split(':'))
+        s = agora.replace(hour=hh, minute=mm, second=0, microsecond=0)
+        if s > agora and s.strftime('%Y-%m-%d %H:%M') not in feitos:
+            futuros.append(s)
+    return min(futuros) if futuros else None
+
+
+def salvar_git(msg):
+    run = lambda *a: subprocess.run(list(a), cwd=RAIZ, capture_output=True)
+    run('git', 'add', 'dados', 'reels')
+    if run('git', 'diff', '--cached', '--quiet').returncode != 0:
+        run('git', '-c', 'user.name=robo-meu-cao-obedece', '-c', 'user.email=robo@users.noreply.github.com', 'commit', '-qm', msg)
+        for _ in range(3):
+            run('git', 'pull', '--rebase', '-q')
+            if run('git', 'push', '-q').returncode == 0: break
+            time.sleep(5)
+
+
+def cmd_turno(minutos=320):
+    """Fica de plantão: posta os horários vencidos e espera os próximos, por até `minutos`.
+    (O agendador do GitHub atrasa e pula execuções; assim nenhum horário se perde.)"""
+    fim = time.time() + minutos * 60
+    while True:
+        publicados = ler_json(DADOS / 'reels_publicados.json', [])
+        if slot_vencido(publicados):
+            try:
+                cmd_postar([])
+                salvar_git('Reels publicado')
+            except Exception as e:
+                print('⚠️ Falhou este horário:', e); time.sleep(300)
+            continue
+        prox = proximo_slot(publicados)
+        if not prox: break
+        espera = (prox - datetime.now(BRT)).total_seconds()
+        if time.time() + espera > fim: break
+        print(f'Aguardando o horário {prox.strftime("%H:%M")} ({espera / 60:.0f} min)...', flush=True)
+        time.sleep(max(1, espera + 5))
+    print('Fim do plantão.')
+
+
 def cmd_postar(args):
     pub_path = DADOS / 'reels_publicados.json'
     publicados = ler_json(pub_path, [])
@@ -305,7 +353,12 @@ def main():
         rot = json.loads(Path(alvo).read_text(encoding='utf-8')) if alvo.endswith('.json') else carregar_banco()[alvo]
         produzir(rot, a[2], '--falso' in a)
     elif a[0] == 'precisa':
-        print('sim' if slot_vencido(ler_json(DADOS / 'reels_publicados.json', [])) else 'nao')
+        pub = ler_json(DADOS / 'reels_publicados.json', [])
+        prox = proximo_slot(pub)
+        perto = prox and (prox - datetime.now(BRT)).total_seconds() < 320 * 60
+        print('sim' if slot_vencido(pub) or perto else 'nao')
+    elif a[0] == 'turno':
+        cmd_turno()
     elif a[0] == 'postar':
         cmd_postar(a[1:])
     else:

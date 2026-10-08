@@ -2,7 +2,7 @@ name: Reels automáticos
 
 on:
   schedule:
-    - cron: "12 * * * *"   # confere de hora em hora se chegou um horário de Reels
+    - cron: "12 * * * *"   # confere de hora em hora; fica de plantão até 5h20 esperando os próximos horários
   workflow_dispatch:
     inputs:
       roteiro:
@@ -24,7 +24,7 @@ concurrency:
 jobs:
   reels:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -52,11 +52,17 @@ jobs:
           ROTEIRO: ${{ github.event.inputs.roteiro }}
           MODO: ${{ github.event.inputs.modo }}
         run: |
-          ARGS=""
-          if [ -n "$ROTEIRO" ]; then ARGS="$ARGS --forcar $ROTEIRO"; fi
-          if [ "$MODO" = "teste" ]; then ARGS="$ARGS --teste"; fi
+          git config user.name "robo-meu-cao-obedece"
+          git config user.email "robo@users.noreply.github.com"
           set -o pipefail
-          python scripts/reels.py postar $ARGS 2>&1 | tee dados/ultima_execucao.log
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python scripts/reels.py turno 2>&1 | tee dados/ultima_execucao.log
+          else
+            ARGS=""
+            if [ -n "$ROTEIRO" ]; then ARGS="$ARGS --forcar $ROTEIRO"; fi
+            if [ "$MODO" = "teste" ]; then ARGS="$ARGS --teste"; fi
+            python scripts/reels.py postar $ARGS 2>&1 | tee dados/ultima_execucao.log
+          fi
 
       - name: Responder quem comentou XIXI
         continue-on-error: true
