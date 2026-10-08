@@ -312,6 +312,11 @@ def escolher_historia(hist, publicados):
 def escolher(banco, publicados):
     usados = {p['roteiro'] for p in publicados}
     livres = [r for r in banco.values() if r['id'] not in usados]
+    if not livres:  # banco acabou: reaproveita Reels publicados há 30+ dias (nada para)
+        lim = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
+        recentes = {p['roteiro'] for p in publicados if p.get('publicado_em', '') >= lim}
+        livres = [r for r in banco.values() if r['id'] not in recentes]
+        if livres: print('♻️ banco vazio — reaproveitando um Reel antigo')
     if not livres:
         return None
     pesos = ler_json(DADOS / 'pesos.json', {})

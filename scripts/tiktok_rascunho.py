@@ -171,13 +171,15 @@ def atualizar_pagina_legendas():
             g = next((c for c in r.get('cenas', []) if c.get('tipo') == 'gancho'), {})
             capa = ' '.join(g.get('linhas', [])) or e['id']
             blocos.append(f'<div class="caixa"><p class="capa">🎬 O vídeo começa com:<br><b>{escape(capa)}</b></p>'
-                          f'<details><summary>ver legenda</summary><pre id="l{i}">{escape(leg)}</pre></details>'
-                          f'<p><button onclick="navigator.clipboard.writeText(document.getElementById(\'l{i}\').textContent);this.textContent=\'Copiado ✓ agora cole no TikTok\'">Copiar legenda</button></p></div>')
+                          f'<textarea id="l{i}" readonly rows="7">{escape(leg)}</textarea>'
+                          f'<p><button onclick="copiar({i},this)">Copiar legenda</button></p></div>')
             i += 1
     html = ('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<title>Legendas TikTok</title><link rel="stylesheet" href="estilo.css"><style>.capa{font-size:1.15em}.capa b{color:#C2410C}h2{margin-top:28px}pre{white-space:pre-wrap}</style></head><body><main><div class="marca">🐾 Meu Cão Obedece</div>'
+            '<title>Legendas TikTok</title><link rel="stylesheet" href="estilo.css"><style>.capa{font-size:1.15em}.capa b{color:#C2410C}h2{margin-top:28px}textarea{width:100%;box-sizing:border-box;font:inherit;font-size:15px;padding:10px;border-radius:12px;border:2px solid #2A2622;background:#fff}</style>'
+            '<script>function copiar(i,b){const t=document.getElementById("l"+i);t.focus();t.select();t.setSelectionRange(0,99999);let ok=false;try{ok=document.execCommand("copy")}catch(e){}'
+            'if(!ok&&navigator.clipboard){navigator.clipboard.writeText(t.value).then(()=>{b.textContent="Copiado ✓ agora cole no TikTok"})}else{b.textContent=ok?"Copiado ✓ agora cole no TikTok":"Segure o dedo no texto › Selecionar tudo › Copiar"}}</script></head><body><main><div class="marca">🐾 Meu Cão Obedece</div>'
             '<h1>Legendas do TikTok</h1><ol><li>Abra o rascunho no TikTok e veja o texto do começo do vídeo.</li>'
-            '<li>Ache aqui o cartão com o mesmo texto e toque em <b>Copiar legenda</b>.</li><li>No TikTok, toque em <b>Próximo</b>, cole na descrição e publique.</li></ol>'
+            '<li>Ache aqui o cartão com o mesmo texto e toque em <b>Copiar legenda</b> (se não copiar, segure o dedo no texto › Selecionar tudo › Copiar).</li><li>No TikTok, toque em <b>Próximo</b>, cole na descrição e publique.</li></ol>'
             + (''.join(blocos) or '<p>Nenhum vídeo enviado ainda.</p>') + '</main></body></html>')
     (RAIZ / 'docs' / 'legendas.html').write_text(html, encoding='utf-8')
 
@@ -255,11 +257,35 @@ def historias_livres():
     return out
 
 
+def reciclaveis(n):
+    """Histórias já usadas há 21+ dias, das que mais deram view — garante que nada pare se o banco acabar."""
+    usados = reels.ler_json(USADOS, [])
+    limite = (datetime.now(reels.BRT).timestamp() - 21 * 86400)
+    velhos = {}
+    for u in usados:
+        try: t = datetime.fromisoformat(u['quando']).timestamp()
+        except Exception: continue
+        velhos[u['id']] = max(velhos.get(u['id'], 0), t)
+    ok = [i for i, t in velhos.items() if t < limite]
+    views = {}
+    for v in reels.ler_json(RAIZ / 'dados' / 'tiktok_metricas.json', {}).get('videos', []):
+        if v.get('roteiro'): views[v['roteiro']] = max(views.get(v['roteiro'], 0), v.get('views', 0))
+    ok.sort(key=lambda i: -views.get(i, 0))
+    out = []
+    for i in ok[:n]:
+        p = BANCO / f'{i}.json'
+        if p.exists():
+            r = json.loads(p.read_text(encoding='utf-8')); out.append(r); print('♻️ reaproveitando', i)
+    return out
+
+
 def noite(qtd=None):
     """Renderiza as histórias do dia e deixa prontas (vídeo publicado numa branch de mídia)."""
     pr = reels.ler_json(PRONTOS, [])
     qtd = qtd if qtd is not None else meta_dia() - sum(1 for x in pr if x['data'] == hoje())
     livres = historias_livres()
+    if qtd > len(livres):
+        livres += reciclaveis(qtd - len(livres))
     if qtd > len(livres):
         print(f'⚠️ Só há {len(livres)} histórias novas no banco (queria {qtd}) — o roteirista repõe à noite.')
     for rot in livres[:max(0, qtd)]:
