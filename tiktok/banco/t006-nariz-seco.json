@@ -1,0 +1,61 @@
+{
+ "id": "t006-nariz-seco",
+ "formato": "tiktok-curiosidade",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "estilo": "noite",
+ "legenda": "Nariz seco é febre? 🤔 Mito que quase todo tutor acredita. Descubra o perfil do seu cão no teste do link do perfil 🐾 Na dúvida sobre saúde, procure um veterinário.",
+ "hashtags": "#cachorro #saudedocachorro #curiosidadesdecachorro #dogsoftiktok",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Nariz seco não quer dizer que seu cão está doente.",
+   "linhas": [
+    "NARIZ SECO",
+    "NÃO É DOENÇA"
+   ],
+   "destaque": 1,
+   "parte": 6,
+   "mascote": "dorminhoco",
+   "icone": "focinho",
+   "carimbo": "MITO!",
+   "carimbo_palavra": "doente"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE?",
+   "fala": "Muita gente acha que nariz quente e seco é febre. Mito. O nariz muda ao longo do dia, depois de dormir, por exemplo.",
+   "frase": "Nariz seco é sinal de febre",
+   "veredito": "MITO",
+   "veredito_palavra": "Mito",
+   "explica": [
+    "O NARIZ MUDA",
+    "AO LONGO DO DIA"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Pra saber se ele está bem, observe o comportamento: apetite, energia e disposição.",
+   "linhas": [
+    "OBSERVE O",
+    "COMPORTAMENTO"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Quer saber qual é o perfil do seu cão? Faz o teste no link do perfil.",
+   "pergunta": "Quando ele acorda, o nariz dele fica…",
+   "opcoes": [
+    "Seco",
+    "Molhado",
+    "Nunca reparei"
+   ],
+   "escolha": 2,
+   "resultado": "TUTOR CURIOSO"
+  }
+ ]
+}

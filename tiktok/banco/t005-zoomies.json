@@ -1,0 +1,71 @@
+{
+ "id": "t005-zoomies",
+ "formato": "tiktok-curiosidade",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "estilo": "menta",
+ "legenda": "Seu cão sai correndo feito louco do nada? Isso tem nome 🌀 Descubra o perfil do seu cão no teste do link do perfil 🐾",
+ "hashtags": "#cachorro #zoomies #comportamentocanino #dogsoftiktok",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Sabe quando seu cão sai correndo feito louco, do nada?",
+   "linhas": [
+    "SEU CÃO SAI",
+    "CORRENDO DO NADA?"
+   ],
+   "destaque": 1,
+   "parte": 5,
+   "mascote": "bravo",
+   "icone": "bola"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Isso tem nome: zoomies. São períodos curtos de atividade frenética.",
+   "numero": null,
+   "rotulo": [
+    "ZOOMIES",
+    "atividade frenética"
+   ],
+   "icone": "bola",
+   "numero_palavra": "",
+   "sufixo": "",
+   "tag": "ISSO TEM NOME"
+  },
+  {
+   "tipo": "texto",
+   "fala": "É normal, é um jeito de soltar energia acumulada. E muitas vezes acontece depois do banho.",
+   "linhas": [
+    "ENERGIA",
+    "ACUMULADA"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Mas se acontece todo dia, pode ser sinal de que ele precisa gastar mais energia.",
+   "linhas": [
+    "TODO DIA?",
+    "GASTE MAIS ENERGIA"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Quer saber qual é o perfil do seu cão? Faz o teste no link do perfil.",
+   "pergunta": "Quantas vezes ele faz isso?",
+   "opcoes": [
+    "Todo dia",
+    "Às vezes",
+    "Só no banho"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO ELÉTRICO"
+  }
+ ]
+}

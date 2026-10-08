@@ -1,0 +1,74 @@
+{
+ "id": "t002-olhos-pidoes",
+ "formato": "tiktok-curiosidade",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "estilo": "menta",
+ "legenda": "Os olhos pidões do seu cão têm explicação científica 🥺 Descubra o perfil do seu cão no teste do link do perfil 🐾",
+ "hashtags": "#cachorro #curiosidadesdecachorro #olhardecachorro #dogsoftiktok",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Os olhos pidões do seu cão não são por acaso.",
+   "linhas": [
+    "OS OLHOS PIDÕES",
+    "NÃO SÃO",
+    "POR ACASO"
+   ],
+   "destaque": 0,
+   "parte": 2,
+   "mascote": "normal",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Cães têm um músculo na sobrancelha que quase não existe nos lobos.",
+   "numero": null,
+   "rotulo": [
+    "UM MÚSCULO EXTRA",
+    "na sobrancelha"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "",
+   "sufixo": "",
+   "tag": "CURIOSIDADE"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "E os cientistas acreditam que ele se espalhou porque a gente sempre reagiu àquele olhar.",
+   "numero": null,
+   "rotulo": [
+    "ELE SE ESPALHOU",
+    "porque a gente reage"
+   ],
+   "icone": "coracao",
+   "numero_palavra": "",
+   "sufixo": "",
+   "tag": "POR QUÊ?"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Ou seja: ele aprendeu a te convencer. E funciona, né?",
+   "linhas": [
+    "ELE APRENDEU",
+    "A TE CONVENCER"
+   ],
+   "destaque": 1,
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Quer saber qual é o perfil do seu cão? Faz o teste no link do perfil.",
+   "pergunta": "Quando ele quer petisco, ele…",
+   "opcoes": [
+    "Faz olho pidão",
+    "Late e pula",
+    "Senta e espera"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO CHARMOSO"
+  }
+ ]
+}

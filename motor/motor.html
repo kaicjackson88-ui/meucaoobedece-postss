@@ -38,7 +38,7 @@ function legenda(t,y=1500){let bi=-1;for(let i=0;i<BLOCOS.length;i++)if(t>=T(BLO
     if(on){sh('rgba(42,38,34,.35)',0,8);rr(-ww/2-14,-50,ww+28,98,24);cx.fillStyle=C.amb;cx.fill();nosh()}
     cx.font='900 78px NU';cx.textAlign='center';cx.textBaseline='middle';cx.lineJoin='round';cx.lineWidth=16;cx.strokeStyle=C.ink;cx.strokeText(s,0,4);cx.fillStyle=C.cream;cx.fillText(s,0,4);cx.restore();x+=ww+gap});cx.restore()}
 function hud(t,dark){cx.fillStyle='rgba(42,38,34,.25)';cx.fillRect(0,0,W,10);cx.fillStyle=C.amb;cx.fillRect(0,0,W*cl(t/DUR),10);
-  cx.save();sh('rgba(42,38,34,.2)',0,6);rr(60,160,400,76,38);cx.fillStyle=dark?'rgba(253,247,238,.14)':C.cream;cx.fill();nosh();paw(106,198,.68,C.amb);txt('Meu Cão Obedece',282,200,36,dark?C.cream:C.ink);cx.restore()}
+  cx.save();sh('rgba(42,38,34,.2)',0,6);rr(60,160,400,76,38);cx.fillStyle=dark?'rgba(253,247,238,.14)':C.cream;cx.fill();nosh();paw(106,198,.68,C.amb);txtFit(ROTEIRO.marca||'Meu Cão Obedece',282,200,36,dark?C.cream:C.ink,330);cx.restore()}
 function desenha(i,t){const s=CENAS[i];cx.save();FUNDOS[s.fundo](t);TIPOS[s.tipo].draw(t,s);cx.restore()}
 const TR=.42;
 window.render=(t)=>{let i=0;for(let j=0;j<CENAS.length;j++)if(t>=CENAS[j].a)i=j;const sc=CENAS[i],lt=t-sc.a;

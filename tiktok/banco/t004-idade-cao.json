@@ -1,0 +1,71 @@
+{
+ "id": "t004-idade-cao",
+ "formato": "tiktok-curiosidade",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "estilo": "sol",
+ "legenda": "1 ano de cão = 7 anos humanos? É MITO 🎂 Descubra o perfil do seu cão no teste do link do perfil 🐾",
+ "hashtags": "#cachorro #idadedocachorro #curiosidadesdecachorro #dogsoftiktok",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Um ano de cão não é sete anos humanos.",
+   "linhas": [
+    "1 ANO DE CÃO",
+    "NÃO É 7 ANOS"
+   ],
+   "destaque": 1,
+   "parte": 4,
+   "mascote": "normal",
+   "icone": "calendario",
+   "carimbo": "MITO!",
+   "carimbo_palavra": "sete"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Pesquisadores calcularam que um cão de um ano já equivale a uns trinta anos humanos.",
+   "numero": 30,
+   "rotulo": [
+    "ANOS HUMANOS",
+    "num cão de 1 ano"
+   ],
+   "icone": "calendario",
+   "numero_palavra": "trinta",
+   "sufixo": ""
+  },
+  {
+   "tipo": "texto",
+   "fala": "Ele envelhece rápido no começo e bem mais devagar depois.",
+   "linhas": [
+    "RÁPIDO NO COMEÇO",
+    "DEVAGAR DEPOIS"
+   ],
+   "destaque": 0,
+   "mascote": "normal",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "texto",
+   "fala": "E aprende coisas novas em qualquer idade, viu?",
+   "linhas": [
+    "E APRENDE EM",
+    "QUALQUER IDADE"
+   ],
+   "destaque": 1,
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Quer saber qual é o perfil do seu cão? Faz o teste no link do perfil.",
+   "pergunta": "Quantos anos tem o seu cão?",
+   "opcoes": [
+    "Filhote",
+    "Adulto",
+    "Idoso"
+   ],
+   "escolha": 1,
+   "resultado": "CÃO NA MELHOR FASE"
+  }
+ ]
+}

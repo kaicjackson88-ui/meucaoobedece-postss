@@ -1,0 +1,68 @@
+{
+ "id": "t003-olhar-ocitocina",
+ "formato": "tiktok-curiosidade",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "estilo": "noite",
+ "legenda": "O que acontece no cérebro quando seu cão te olha nos olhos ❤️ Descubra o perfil do seu cão no teste do link do perfil 🐾",
+ "hashtags": "#cachorro #amordecachorro #curiosidadesdecachorro #dogsoftiktok",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Quando seu cão te olha nos olhos, acontece uma coisa no cérebro de vocês dois.",
+   "linhas": [
+    "QUANDO ELE TE",
+    "OLHA NOS OLHOS…"
+   ],
+   "destaque": 1,
+   "parte": 3,
+   "mascote": "feliz",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Um estudo de dois mil e quinze mostrou que a troca de olhares aumenta a ocitocina, o hormônio do vínculo, no cão e no tutor.",
+   "numero": 2,
+   "rotulo": [
+    "CÉREBROS",
+    "com mais ocitocina"
+   ],
+   "icone": "cerebro",
+   "numero_palavra": "dois",
+   "sufixo": ""
+  },
+  {
+   "tipo": "texto",
+   "fala": "É o mesmo hormônio ligado ao vínculo entre mãe e bebê.",
+   "linhas": [
+    "O HORMÔNIO",
+    "DO VÍNCULO"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Então, da próxima vez que ele te encarar, olha de volta.",
+   "linhas": [
+    "OLHA DE VOLTA"
+   ],
+   "destaque": 0,
+   "mascote": "normal"
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Quer saber qual é o perfil do seu cão? Faz o teste no link do perfil.",
+   "pergunta": "Quando você olha pra ele, ele…",
+   "opcoes": [
+    "Abana o rabo",
+    "Vira o rosto",
+    "Vem pro colo"
+   ],
+   "escolha": 2,
+   "resultado": "CÃO GRUDE"
+  }
+ ]
+}

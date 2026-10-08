@@ -1,0 +1,72 @@
+{
+ "id": "t001-cara-de-culpa",
+ "formato": "tiktok-curiosidade",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "estilo": "sol",
+ "legenda": "Essa cara de culpado NÃO é culpa 😳 O que a ciência descobriu sobre o olhar do seu cão depois da arte. Descubra o perfil do seu cão no teste do link do perfil 🐾",
+ "hashtags": "#cachorro #comportamentocanino #curiosidadesdecachorro #dogsoftiktok",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Aquela cara de culpado do seu cão não é culpa.",
+   "linhas": [
+    "ESSA CARA DE",
+    "CULPADO",
+    "NÃO É CULPA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "dorminhoco",
+   "carimbo": "MITO!",
+   "carimbo_palavra": "culpa"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Num estudo de dois mil e nove, os cães faziam a mesma cara mesmo sem ter feito nada errado. Bastava o dono dar bronca.",
+   "numero": null,
+   "rotulo": [
+    "A MESMA CARA",
+    "mesmo sem ter feito nada"
+   ],
+   "icone": "cerebro",
+   "numero_palavra": "",
+   "sufixo": "",
+   "tag": "O QUE A CIÊNCIA DIZ"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Ou seja: não é culpa. É medo da sua bronca.",
+   "topo": [
+    "NÃO É"
+   ],
+   "de": "CULPA",
+   "para": "MEDO DA BRONCA",
+   "para_palavra": "medo"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Por isso, a bronca depois não ensina nada. Ele não liga a bronca ao que fez.",
+   "linhas": [
+    "BRONCA DEPOIS",
+    "NÃO ENSINA"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "x"
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Quer saber qual é o perfil do seu cão? Faz o teste no link do perfil.",
+   "pergunta": "Quando você chega e tem arte feita, ele…",
+   "opcoes": [
+    "Se esconde",
+    "Vem abanando",
+    "Finge que nada"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO SENSÍVEL"
+  }
+ ]
+}
