@@ -177,6 +177,34 @@ DORES = {
 }
 
 
+TAGS_EXTRA = {
+ 'campainha': ['#cachorrolatindo', '#latido', '#campainha', '#vizinhos', '#condominio', '#apartamento', '#caoansioso', '#pet'],
+ 'xixi': ['#xixinolugarcerto', '#xixi', '#filhote', '#tapetehigienico', '#cachorrofilhote', '#apartamento', '#limpeza', '#pet'],
+ 'visita': ['#cachorropulando', '#visita', '#cachorroagitado', '#cachorrofeliz', '#sogra', '#familia', '#caoeducado', '#pet'],
+ 'guia': ['#passeio', '#cachorropuxandoguia', '#guia', '#passeiocomcachorro', '#caminhada', '#rua', '#caoeducado', '#pet'],
+ 'sozinho': ['#ansiedadedeseparacao', '#cachorrodestruidor', '#cachorrosozinho', '#cachorrochorando', '#trabalho', '#apartamento', '#caoansioso', '#pet'],
+ 'chamado': ['#cachorrofugiu', '#obediencia', '#comandos', '#praca', '#cachorroteimoso', '#caoeducado', '#adestramentopositivo', '#pet'],
+ 'mesa': ['#cachorropidao', '#cachorroladrao', '#comida', '#almoco', '#churrasco', '#cachorrocomilao', '#caoeducado', '#pet'],
+}
+BASE_TAGS = ['#cachorro', '#adestramento', '#historiadecachorro']
+
+
+def _pesos():
+    try:
+        return json.loads((RAIZ / 'dados' / 'tiktok_pesos.json').read_text(encoding='utf-8'))
+    except Exception:
+        return {}
+
+
+def _escolher(rnd, opcoes, pesos_de, explorar=.25):
+    """Usa mais o que deu certo (pesos aprendidos) e reserva uma parte para testar o novo."""
+    import math
+    if rnd.random() < explorar or not pesos_de:
+        return rnd.choice(opcoes)
+    ws = [math.exp(3 * pesos_de.get(str(o), 0)) for o in opcoes]
+    return rnd.choices(opcoes, weights=ws, k=1)[0]
+
+
 def _fmt(o, sub):
     if isinstance(o, str):
         for k, v in sub.items(): o = o.replace('{' + k + '}', v)
@@ -194,22 +222,31 @@ def montar(dor, seed):
     nome, g = TUTORES[tid]
     cao = rnd.choice(CAES)
     sub = {'T': nome, 'C': cao, '_quem': tid, 'ela': 'ela' if g == 'f' else 'ele', 'a': 'a' if g == 'f' else 'o'}
-    gi = rnd.randrange(len(D['ganchos'])); gf, gl, gd, gic, gleg = D['ganchos'][gi]
+    P = _pesos()
+    gi = _escolher(rnd, list(range(len(D['ganchos']))), {k.split('-')[-1]: v for k, v in P.get('gancho', {}).items() if k.startswith(dor + '-')})
+    gf, gl, gd, gic, gleg = D['ganchos'][gi]
     cenas = [{'tipo': 'gancho', 'fala': gf, 'linhas': gl, 'destaque': gd, 'parte': 1, 'mascote': 'bravo', 'icone': gic}]
     cenas.append(rnd.choice(D['problema']))
     cons = D['consequencia'][:]; rnd.shuffle(cons)
     cenas += cons
     vf, vt, vde, vpara, vpal = D['virada']
     cenas.append({'tipo': 'virada', 'fala': vf, 'topo': vt, 'de': vde, 'para': vpara, 'para_palavra': vpal})
-    if rnd.random() < .85:
+    pc = P.get('curiosidade', {}); quer_cur = (pc.get('sim', 0) >= pc.get('nao', 0)) if pc and rnd.random() > .25 else rnd.random() < .85
+    if quer_cur:
         cenas.append(rnd.choice(D['curiosidade']))
     cenas.append(rnd.choice(D['solucao']))
     cenas.append(rnd.choice(D['final']))
+    pt = P.get('hashtag', {}); pool = TAGS_EXTRA.get(dor, [])[:]
+    extras = []
+    for _ in range(3):
+        extras.append(_escolher(rnd, [x for x in pool if x not in extras], pt))
+    tags = BASE_TAGS + extras
     perg, ops, res = D['quiz']
     cenas.append({'tipo': 'cta_quiz', 'fala': 'E o seu cão?' + FIM_FALA, 'pergunta': perg, 'opcoes': ops, 'escolha': 0, 'resultado': res, 'seguir': True})
     cenas = _fmt(json.loads(json.dumps(cenas)), sub)
     return {'formato': 'tiktok-historia', 'gancho_tipo': 'historia', 'tema': D['tema'], 'estilo': 'sol', 'reserva': True,
-            'legenda': _fmt(gleg, sub) + TAG, 'hashtags': D['hashtags'], 'cenas': cenas, '_assin': f'{dor}-{gi}-{tid}-{cao}'}
+            'legenda': _fmt(gleg, sub) + TAG, 'hashtags': ' '.join(tags), 'cenas': cenas, '_assin': f'{dor}-{gi}-{tid}-{cao}',
+            'componentes': {'dor': dor, 'gancho': f'{dor}-{gi}', 'curiosidade': quer_cur, 'tutor': tid, 'tags': tags}}
 
 
 def gerar(n):
@@ -220,7 +257,8 @@ def gerar(n):
     criados, tent, dores = [], 0, list(DORES)
     while len(criados) < n and tent < n * 40:
         tent += 1
-        dor = dores[(prox + tent) % len(dores)]
+        rnd = random.Random(prox * 7919 + tent)
+        dor = _escolher(rnd, dores, _pesos().get('dor', {}), explorar=.3)
         r = montar(dor, seed=prox * 1000 + tent)
         if r['_assin'] in feitos: continue
         feitos.add(r['_assin']); reg.append(r.pop('_assin'))

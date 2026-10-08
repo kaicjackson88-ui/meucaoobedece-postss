@@ -53,6 +53,11 @@ def caracteristicas(rot):
          'curiosidade': 'sim' if any(c['tipo'] == 'curiosidade' for c in cenas) else 'nao',
          'chat': 'sim' if any(c['tipo'] == 'chat' for c in cenas) else 'nao',
          'tamanho': 'curta' if len(cenas) <= 8 else ('media' if len(cenas) <= 10 else 'longa')}
+    comp = rot.get('componentes') or {}
+    if comp.get('dor'): f['dor'] = comp['dor']
+    if comp.get('gancho'): f['gancho'] = comp['gancho']
+    tags = set(x for x in (rot.get('hashtags') or '').split() if x.startswith('#'))
+    if tags: f['hashtag'] = tags
     for c in cenas:
         if c['tipo'] == 'historia':
             f.setdefault('cenarios', set()).add(c.get('cenario', 'sala'))
