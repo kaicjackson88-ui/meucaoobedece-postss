@@ -1,0 +1,39 @@
+  IA: openai/gpt-4.1-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA: openai/gpt-4.1-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA: openai/gpt-4o-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA: openai/gpt-4o-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
+  IA: gpt-4o-mini: <urlopen error [Errno -2] Name or service not known>
+  IA: gpt-4o-mini: <urlopen error [Errno -2] Name or service not known>
+  IA: gpt-4o: <urlopen error [Errno -2] Name or service not known>
+  IA: gpt-4o: <urlopen error [Errno -2] Name or service not known>
+análise da IA falhou: IA gratuita falhou: gpt-4o: <urlopen error [Errno -2] Name or service not known>
+# Pesquisa automática (08/10 20:41)
+
+Fontes: Instagram (sem perfis de referência ou sem IG_TOKEN), 40 manchetes, 0 Shorts.
+
+## Resumo
+(sem análise da IA hoje)
+
+## O que testar esta semana
+
+## Hashtags recomendadas por tema
+
+## Estilo de legenda que está funcionando
+
+## Datas e temas do momento
+
+## Evitar
+
+## Posts que viralizaram nos perfis de referência
+- (adicione perfis em referencias_ig no reels/config.json)
+
+## Fontes
+- Dia do Cachorro: 5 mudanças no comportamento do seu pet que exigem atenção - Terra — https://news.google.com/rss/articles/CBMi7wFBVV95cUxNU0lVbXpLbjM3TjhzeHN5V2JrLXllWmxrV3RDUlJxcEhEQzR1S0kwMkVSZkp0WS05SEFoUWpQeF92TEFSTkZ1bkNxWU41R3o2WXk5TjNPNW5vbWlpM1plcmhLRGJweGZWeVBXd3lvNlVFRzBpM256TXdsSFM2VksxMmxfSFo1d1prR2o5WGNMY1VxTC1NRnZVZDNzbjlGNDRrT004Skt2bFNjVDRIVlV6RlVhbGJGSEprMUFweGppLTJuakhacXBteUJxRl9ldk9rT0VfbTd4T2EzVXE2emxUWHRGUTh6Z1ZlSm9ONTA5UQ?oc=5
+- Cachorro comunitário morre após ser baleado por PM no Paraná - G1 — https://news.google.com/rss/articles/CBMitwFBVV95cUxQNUFQTUVyZ0FSMVA3RWdRMEVHZ3ZKLTdOblEtWjhyZFpBUWxTcWVuSDRvTXZQV1NVbm8zbXhrUndsdUlDWTNOTUxFRW9KWXN1RExhUmhBejRuREhKeWEyMWphRmJvcDdUOTVfREhjbTIwaFN1U1F5a3R5dFFIamRsVzVHU3ZPRVpHTEo3cjNXUmFXekl6YjhodUNsMUVTS3lJNGlVdmFzakdwNFFIMFRhNGlRYm4xbFXSAcYBQVVfeXFMTWdyRHliSTJXd2xjT1lhNGEwMm9wSTZENnJ3Z3kxb3ptd0RmdWNDaHZ4QkRndS1idktoWTNmWk1wSThKYWFpNW9TV3l3SVZha0phWVBtZVQzZUJvT1NXaTZWTmJVdVJBMF9Qdjl6RTJQMlBKcnlVck8xdXhmMEF2OWFia3NfbVRBUFpXQWdxNHo5Ni0zVmI3MDJlampPdFRpWXgyRGlKVlpsYk81bmFqNUQ2TEYwOGRXQnhBUTlzWjRfY3Nkc0lB?oc=5
+- Cachorro sabe quando o dono vai chegar? O cheiro que fica pela casa pode ajudar a explicar o “relógio” dos cães - CNN Brasil — https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbmQ4TnpWcGw0VExRdlRJaFh0RjhDY1E3RFZmNzJBUUdpN181WWN0elpoaXdMLWRNQnhrckN2UG8ydERUUmJfeUo4TGVMWTRjaEdSaGpwODRyM29CamlqZ1h0NkpPRmdpRHFYWUp2UGhuT190SF82dFdBSHFqWmtXZUI1R2daWDhUaE9WMnVNdzZmYlZObFVkUkpZY1RMWmZBZC1ZY1JMSWhxRmZaX2VVRnd4SVhWRWtSaTlUdG5qZHAzV2gtWUpueEd0NVIzVUJ1UEpyVFRQZUx6dnIwZWJ1Uk5yZzZtQQ?oc=5
+- Adestradores concordam que o cachorro que puxa a guia começa a puxar dentro de casa, muito antes do passeio, e o que eles observam não é falta de força do tutor, mas ausência de regra clara em três momentos do dia que quase ninguém associa ao pro - Correio Braziliense — https://news.google.com/rss/articles/CBMi4gJBVV95cUxQV1RtRU1XXzBmWFQ0RExFWUw5b2x3dGdjZWR4Q3R6YU44NUJuQlFqaTJQRUNZLVhnVWgxNFhWMU1IMWsxTkhIeHpDczlOZjFwX2s1a0R6U3NrNkd3SHNMOHJyRlJRcFplOE45b2hDYUk5Ri1QWnpkT1pTNHNnSVJ2dXk0czBfQnowYm9vandZVU83dEJhRUV3cTBxdW5kTWZteWtHSEppTzRkNlpNN3JwV2Y1Ul9fQXk2S2hxdzN3VkIxVVlJeW9Nb0U3YjlZdTV1UkRWaV9DTHZwblJUYzFpR2RnN3JmQ28yS0xMaEdFV3F1ZldHUlpxR3ZpaW9KV2o3R3NlbDAtbzRxVWdtWUlval95VUZrYVM0VnZSY082emxMRlE0M0JjLVE5cHAwdzkzM1gzZmRqbGxEd0d1QjRxVDhRY3RRdmRwRFBlV1Jncy1BMjVnMGFmU1lsVzQtczNWcVE?oc=5
+- Brincar com o cachorro pode melhorar comportamento e vínculo quando bola, corda e faro viram parte do treino, explica educador canino - Tribuna de Jundiaí — https://news.google.com/rss/articles/CBMiiwJBVV95cUxPVlhLWG9TcHJKaVhjNmJQdFl5eld3TEhfRnl4cTBldTlKTkt2MDFmSzlERXQxeUxDZFlNMEZHMURBU3k2dmtEcVhrNUl2anJqanJQbE9hOUdSNlkwY0docGJLdFlHR2dyaEJVOHZZdlVBU1M5eHpjdGVkQ3pObF85WTdwaGMtNFlxQXdZTkM5X3ZPU3pLVU5UREZ3bFY3bU10X2tMS0E1TDNLUHNTY2F4QzM0X0t2NnQzSE5YWUFUOHdweHFsVVhZbXVOZTdLMXNYSUx4OGVJeGVveDhib0dOMnM3RVFtZ09ESzhOd3BSeGdGelE2T2Uyczh2dVpPLUdGclFvUUNIOThwT1E?oc=5
+- Seu cachorro realmente gosta de ser tratado como filho? 5 sinais de quando o vínculo pode ir longe demais - GZH — https://news.google.com/rss/articles/CBMisAJBVV95cUxQQUlfSHNROUNYZDhTRFJqQWtETzVrZ3dEX0FOQnVkb2hraU9mcHdoQ0pwOHVTTGJfT0hkYkxGQzdKa2ZDSm53NXFMaUFvTkh1WFF6c3hfTDdmSFB0WUdick1UOXJfeWdSVUlHMDhBNkJsbFc0VnZRVjFwMG5CbUZWb1Y4MUtoOWczdXJmZFJibDR2aHBvTk50THBuNk5ER1FzQWhpSVNUV3dHWmUtdkZzd1ZuWlNER3BIZm9zTUNuWlBPUklHS2g1SXpnQ2xkdHlIN1drMHBJZUJSSmpscHU2TXFxM0hQMWNnTExNdE5kUXlVUmI5YzVpNkxYN0RCMXVTUllPOENRUVJvckhESWIxUnBQc01acGlNT2VQNWdqbktJVG9NYzU0cnI1c1djbHVI?oc=5
+- Por que o cachorro rói móveis e objetos? Veja 7 dicas para lidar com o comportamento - ACidade ON — https://news.google.com/rss/articles/CBMixAFBVV95cUxPM0dBcng0c1BsSW5NS3BnWExncUdxQV9IbW13SnRuWUtuS19OamdKTk8zdEhtTTVRMTZVTzVKU0lCRlh3TTNuQjVPa0FLVHZRQkZ3QUZUZ0ZUUEtXbjhERVZCU2wxa0pJVlR2LS1xNWhWeWkzWVhoVEZlVmgtUlFLOEdBLVF1Zlduc09peHRmNTNvQXM1LWhZSGdGZW5iYTlQS1lyVTRGdmV1ZzU3eEZVeDk3bmJ4a09OS29YLU1XY0JBMkNN?oc=5
+- Veterinários alertam: o cachorro que late para o entregador sempre "ganha" a disputa, porque o entregador vai embora depois, e cada entrega reforça o comportamento por mais uma semana - Olhar Digital — https://news.google.com/rss/articles/CBMi0AJBVV95cUxOUWtLX3pVcGpFcHlZbnM3TmhhRS1Yd2RIYkpEbWhPVXFtanlHNjI1b3ByeHEySURRRzl2bFFtWTNBUEpLeXpnRUtMZmNySHZZcm1YdXNFUjZuNDk4YjRmdmp4QVJCNUM3QlJHcGlyTDNuX0tVX1kzc1MydFV6S2x1Z0pHUnVCX3lBUUNkcnNOYnZ2OThOc25YVjc1N2lBQmtWd3J1b09nSnZnUGdpS2w2UzhPa3ZpZTJSRHBjSUhZZ1N5RWg1bERVaVRyYTlLWTBRQmg0Z01fbXI3dWZkNEVhdWpscVNTTTdvNlNHUUtyYy1Ya1RQTmJyb3Q1RFk3cFR2RHJPQmJrenUtZ1FCdHh0N01sbjZVUGRxZlZEQ19FRzMzaEF4S1JIRW1sODlJWGpvdENoZHBGMjkwNmN1cjktQUtLamNqYm5HOHlMQ1U0SVI?oc=5
+- Treinamento da Guarda Civil Municipal com cães ajudarão nas ocorrências - Prefeitura Municipal de São João de Meriti — https://news.google.com/rss/articles/CBMipwFBVV95cUxQSzZDbS1SMXA3RTNIbmw4MExHdnRoODJCZkoxSThnZF9POTNteV9OeDE3Q1FfSzd5T2JnZWZmT0RUa09MTDZEQUpxR0E2ZUcxcWZQazVuSnVaUEhxN2xxTzlGWFdYZFYxVXdCQ1lQR05tVlN5OEtyVmI5LURMc3VMT05GZ3lkQ2VORjZtZlppekFpSEZpRFlEaENLVHJnYllua2VnMk44MA?oc=5
