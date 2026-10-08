@@ -96,6 +96,15 @@ def main():
     bruto = {'quando': datetime.now(reels.BRT).isoformat(), 'instagram': st_ig, 'top_posts': top,
              'hashtags_top': tags_top.most_common(30), 'hashtags_geral': tags_todos.most_common(30), 'noticias': news[:40], 'youtube': yt[:30]}
     reels.gravar_json(D / 'pesquisa_bruta.json', bruto)
+    # sem IA: mede quais dores estão em alta nas manchetes e posts virais (o gerador reserva dá prioridade a elas)
+    CHAVES = {'campainha': ['latido', 'late', 'campainha', 'entregador', 'barulho'], 'xixi': ['xixi', 'urina', 'fezes', 'banheiro'],
+              'visita': ['pula', 'pular', 'visita'], 'guia': ['guia', 'passeio', 'puxa'], 'sozinho': ['sozinho', 'ansiedade', 'separação', 'rói', 'destr'],
+              'chamado': ['chamado', 'fugiu', 'foge', 'obedece', 'comando'], 'mesa': ['comida', 'mesa', 'rouba', 'come ']}
+    textos = ' '.join([(n['titulo'] or '') for n in news] + [p['legenda'] for p in top] + [y['titulo'] for y in yt]).lower()
+    cont = {d: sum(textos.count(k) for k in ks) for d, ks in CHAVES.items()}
+    tot = sum(cont.values()) or 1
+    reels.gravar_json(D / 'tendencia_dores.json', {d: round(v / tot, 3) for d, v in cont.items()})
+    print('dores em alta:', cont)
     pesos = reels.ler_json(D / 'tiktok_pesos.json', {})
     rel = (D / 'tiktok_relatorio.md').read_text(encoding='utf-8')[:2500] if (D / 'tiktok_relatorio.md').exists() else ''
     resumo = {'posts_que_viralizaram_nos_perfis_de_referencia': [{k: p[k] for k in ('perfil', 'vezes_mediana', 'tipo', 'legenda')} for p in top[:15]],

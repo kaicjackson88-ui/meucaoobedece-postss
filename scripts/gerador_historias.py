@@ -258,7 +258,13 @@ def gerar(n):
     while len(criados) < n and tent < n * 40:
         tent += 1
         rnd = random.Random(prox * 7919 + tent)
-        dor = _escolher(rnd, dores, _pesos().get('dor', {}), explorar=.3)
+        pd = dict(_pesos().get('dor', {}))
+        try:  # tendência das manchetes/virais soma um empurrão (os números do perfil continuam mandando)
+            for k, v in json.loads((RAIZ / 'dados' / 'tendencia_dores.json').read_text(encoding='utf-8')).items():
+                pd[k] = pd.get(k, 0) + 0.6 * v
+        except Exception:
+            pass
+        dor = _escolher(rnd, dores, pd, explorar=.3)
         r = montar(dor, seed=prox * 1000 + tent)
         if r['_assin'] in feitos: continue
         feitos.add(r['_assin']); reg.append(r.pop('_assin'))
