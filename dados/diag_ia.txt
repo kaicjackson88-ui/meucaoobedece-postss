@@ -1,0 +1,11 @@
+== curl -L ==
+HTTP/2 200 
+content-type: text/plain
+
+OK
+
+== catalog ==
+HTTP/2 200 
+content-type: text/plain
+
+OK
