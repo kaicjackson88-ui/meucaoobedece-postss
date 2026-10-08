@@ -1,0 +1,76 @@
+{
+ "id": "r009-lista-mordida-filhote",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "mordida",
+ "legenda": "Filhote que morde tudo? Calma, é fase — mas dá pra ensinar 🐶\n\n1️⃣ Troque a mão pelo brinquedo\n2️⃣ Mordeu forte? Pausa\n3️⃣ Coisas certas pra roer\n\nMarca quem tem um tubarãozinho em casa 🦈\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #filhotedecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu filhote morde mão, pé e tudo que vê? Três dicas.",
+   "linhas": [
+    "FILHOTE QUE",
+    "MORDE TUDO?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: mordeu a mão? Troque por um brinquedo na hora.",
+   "titulo": "Troque a mão pelo brinquedo",
+   "sub": "ensine o que pode morder",
+   "icone": "bola"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: mordeu forte? A brincadeira para por alguns segundos. Ele aprende a controlar.",
+   "titulo": "Mordeu forte? Pausa",
+   "sub": "a brincadeira para",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: deixe sempre à mão coisas certas pra roer. Filhote precisa roer.",
+   "titulo": "Coisas certas pra roer",
+   "sub": "filhote precisa roer",
+   "icone": "osso"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Morder é fase. Mas o que ele aprende agora, leva pra vida inteira.",
+   "linhas": [
+    "MORDER É FASE",
+    "O HÁBITO FICA"
+   ],
+   "destaque": 1,
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer um passo a passo de vinte e um dias pra fazer isso em casa?",
+   "linhas": [
+    "QUER O PASSO A PASSO",
+    "DE 21 DIAS?"
+   ],
+   "selos": [
+    "EM CASA",
+    "15 MIN/DIA",
+    "SEM GRITO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI aqui embaixo, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

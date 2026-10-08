@@ -1,0 +1,70 @@
+{
+ "id": "r018-obj-velho",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "obediencia",
+ "legenda": "“Meu cão é velho demais pra aprender.” Será? 🤔\n\n✅ Cão adulto e idoso aprendem sim\n⏱️ Sessões curtas\n🍖 Recompensa na hora\n\nMarca quem acha que o cão já passou da idade 😉\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão é velho demais pra aprender? Deixa eu te contar uma coisa.",
+   "linhas": [
+    "ELE É VELHO",
+    "DEMAIS PRA",
+    "APRENDER?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "Muita gente acha que só filhote aprende. Isso é mito. Cão adulto e idoso aprendem sim.",
+   "objecao": "Meu cão é velho demais pra aprender",
+   "resposta": "MITO!",
+   "resposta_palavra": "mito",
+   "explica": [
+    "ADULTO E IDOSO",
+    "APRENDEM SIM"
+   ],
+   "resposta_cor": "red"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 2,
+   "fala": "O segredo é treinar em sessões curtas, de poucos minutos.",
+   "titulo": "Sessões curtas",
+   "sub": "poucos minutos por vez",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 2,
+   "fala": "E recompensar na hora certa, sempre que ele acertar.",
+   "titulo": "Recompensa na hora",
+   "sub": "sempre que ele acertar",
+   "icone": "osso"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer um passo a passo de vinte e um dias pra fazer isso em casa?",
+   "linhas": [
+    "QUER O PASSO A PASSO",
+    "DE 21 DIAS?"
+   ],
+   "selos": [
+    "EM CASA",
+    "15 MIN/DIA",
+    "SEM GRITO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI aqui embaixo, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

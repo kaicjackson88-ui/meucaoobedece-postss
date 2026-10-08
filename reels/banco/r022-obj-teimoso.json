@@ -1,0 +1,76 @@
+{
+ "id": "r022-obj-teimoso",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "obediencia",
+ "legenda": "“Meu cão é teimoso.” Será que é mesmo? 🤨\n\n🍖 Ache a recompensa que vale a pena\n⏱️ Treinos curtos\n🗣️ Comando uma vez só\n\nMarca o dono do cão mais “teimoso” que você conhece 😂\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão é teimoso? Na maioria das vezes, não é teimosia.",
+   "linhas": [
+    "SEU CÃO É",
+    "TEIMOSO?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Na maioria das vezes, ele não está sendo teimoso. Ele só não está motivado.",
+   "topo": [
+    "ELE NÃO É"
+   ],
+   "de": "TEIMOSO",
+   "para": "DESMOTIVADO",
+   "para_palavra": "motivado"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: ache a recompensa que vale a pena pra ele.",
+   "titulo": "A recompensa certa",
+   "sub": "o que vale a pena pra ele",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: treinos curtos. Pare antes dele cansar.",
+   "titulo": "Treinos curtos",
+   "sub": "pare antes dele cansar",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: fale o comando uma vez só, e ajude ele a acertar.",
+   "titulo": "Comando uma vez só",
+   "sub": "e ajude ele a acertar",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer um passo a passo de vinte e um dias pra fazer isso em casa?",
+   "linhas": [
+    "QUER O PASSO A PASSO",
+    "DE 21 DIAS?"
+   ],
+   "selos": [
+    "EM CASA",
+    "15 MIN/DIA",
+    "SEM GRITO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI aqui embaixo, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

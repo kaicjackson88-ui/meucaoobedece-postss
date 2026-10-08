@@ -1,0 +1,77 @@
+{
+ "id": "r028-erro-latido-atencao",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "latido",
+ "legenda": "Você pode estar ensinando seu cão a latir sem perceber 😬\n\n1️⃣ Não responda ao latido\n2️⃣ Premie o silêncio\n3️⃣ Ensine outra coisa\n\nMarca quem precisa ver isso 👀\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #cachorrolatindo",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Você está ensinando seu cão a latir. E nem percebe.",
+   "linhas": [
+    "VOCÊ ENSINA",
+    "SEU CÃO A LATIR"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Ele late, você olha, fala ou faz carinho. Pronto: ele aprendeu que latir funciona.",
+   "linhas": [
+    "LATIU, GANHOU",
+    "ATENÇÃO"
+   ],
+   "destaque": 0,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: não responda ao latido de atenção. Nem olhar, nem bronca.",
+   "titulo": "Não responda ao latido",
+   "sub": "nem olhar, nem bronca",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: espere uns segundos de silêncio e aí sim dê atenção.",
+   "titulo": "Premie o silêncio",
+   "sub": "silêncio é que ganha",
+   "icone": "check"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: ensine algo pra ele fazer no lugar, como deitar.",
+   "titulo": "Ensine outra coisa",
+   "sub": "deitar vale mais que latir",
+   "icone": "pata"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer um passo a passo de vinte e um dias pra fazer isso em casa?",
+   "linhas": [
+    "QUER O PASSO A PASSO",
+    "DE 21 DIAS?"
+   ],
+   "selos": [
+    "EM CASA",
+    "15 MIN/DIA",
+    "SEM GRITO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI aqui embaixo, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

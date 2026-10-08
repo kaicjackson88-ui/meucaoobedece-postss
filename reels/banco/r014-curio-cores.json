@@ -1,0 +1,80 @@
+{
+ "id": "r014-curio-cores",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Seu cão NÃO enxerga em preto e branco 🎨\n\n💙 Vê bem azul e amarelo\n🌙 Enxerga melhor que você no escuro\n🔴 Vermelho não se destaca pra ele\n\nDica: brinquedo azul ou amarelo na grama verde.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #curiosidadesdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão não enxerga em preto e branco. Isso é mito.",
+   "linhas": [
+    "ELE NÃO VÊ EM",
+    "PRETO E BRANCO"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "lampada",
+   "carimbo": "MITO!",
+   "carimbo_palavra": "mito"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Ele vê bem duas cores: o azul e o amarelo.",
+   "numero": 2,
+   "rotulo": [
+    "CORES",
+    "azul e amarelo"
+   ],
+   "icone": "bola",
+   "numero_palavra": "duas",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "fala": "E enxerga melhor que você quando está escuro.",
+   "numero": null,
+   "rotulo": [
+    "NO ESCURO",
+    "ele leva vantagem"
+   ],
+   "icone": "lampada",
+   "numero_palavra": "escuro",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "texto",
+   "fala": "Por isso, aquele brinquedo vermelho na grama quase some pra ele. Prefira azul ou amarelo.",
+   "linhas": [
+    "BRINQUEDO AZUL",
+    "OU AMARELO"
+   ],
+   "destaque": 0,
+   "mascote": "feliz",
+   "icone": "bola"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

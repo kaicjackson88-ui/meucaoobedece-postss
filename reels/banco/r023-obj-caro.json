@@ -1,0 +1,67 @@
+{
+ "id": "r023-obj-caro",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "obediencia",
+ "legenda": "Adestrador é caro? Dá pra começar em casa 🏠\n\n🏠 Os básicos dá pra ensinar em casa\n⏱️ 15 minutos por dia\n📅 Com constância, não com pressa\n\nSalva e começa hoje 🐾\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Adestrador é caro demais pra você? Então presta atenção.",
+   "linhas": [
+    "ADESTRADOR É",
+    "CARO DEMAIS?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "moeda"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "Os comandos básicos você consegue ensinar em casa, com o método certo.",
+   "objecao": "Adestrador é caro, não tenho como",
+   "resposta": "DÁ PRA FAZER EM CASA",
+   "resposta_palavra": "casa",
+   "explica": [
+    "COMANDOS BÁSICOS",
+    "COM O MÉTODO CERTO"
+   ],
+   "resposta_cor": "teal",
+   "tag": "VOCÊ PENSA:"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "E com quinze minutos por dia você já vê diferença.",
+   "numero": 15,
+   "rotulo": [
+    "MINUTOS POR DIA",
+    "com constância"
+   ],
+   "icone": "relogio",
+   "numero_palavra": "quinze",
+   "prefixo": "",
+   "sufixo": "",
+   "tag": "O QUE VOCÊ PRECISA"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer ensinar isso em casa, sem pagar caro num adestrador?",
+   "linhas": [
+    "QUER ENSINAR",
+    "ISSO EM CASA?"
+   ],
+   "selos": [
+    "SEM ADESTRADOR",
+    "21 DIAS",
+    "15 MIN/DIA"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste do seu cão.",
+   "palavra": "XIXI"
+  }
+ ]
+}

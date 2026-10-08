@@ -1,0 +1,18 @@
+{
+ "id": "r001-lista-adestrador-caro",
+ "formato": "lista",
+ "gancho_tipo": "objecao",
+ "tema": "obediencia",
+ "legenda": "Não quer pagar caro num adestrador? Salva essas 5 dicas e começa hoje 🐾\n\n1️⃣ Recompense em até 2 segundos\n2️⃣ Sessões curtas de 5 minutos\n3️⃣ Comando uma vez só\n4️⃣ Gaste energia antes do treino\n5️⃣ Comece num lugar calmo\n\nManda pra quem tem um cão que não obedece 😅\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #adestramentocanino #adestramentopositivo #cachorro #dicasdecachorro #tutordecachorro #meucaoobedece #cachorros #vidadecachorro",
+ "cenas": [
+  {"tipo": "gancho", "fala": "Não quer pagar caro num adestrador? Então anota essas cinco dicas pra fazer em casa.", "linhas": ["NÃO QUER PAGAR CARO", "NUM ADESTRADOR?", "5 DICAS PRA CASA"], "destaque": 2, "icone": "moeda", "mascote": "normal"},
+  {"tipo": "dica", "n": 1, "total": 5, "fala": "Um: recompense em até dois segundos. Depois disso, ele não liga o petisco ao que fez.", "titulo": "Recompense em até 2 segundos", "sub": "depois ele não liga o petisco à ação", "icone": "relogio"},
+  {"tipo": "dica", "n": 2, "total": 5, "fala": "Dois: treine cinco minutos, várias vezes ao dia. Sessão longa cansa e ele perde o interesse.", "titulo": "Sessões de 5 minutos", "sub": "várias vezes ao dia", "icone": "alvo"},
+  {"tipo": "dica", "n": 3, "total": 5, "fala": "Três: fale o comando uma vez só. Repetir ensina que ele pode esperar a quinta vez.", "titulo": "Comando uma vez só", "sub": "repetir ensina a ignorar", "icone": "megafone"},
+  {"tipo": "dica", "n": 4, "total": 5, "fala": "Quatro: gaste energia antes do treino. Cão agitado não consegue prestar atenção.", "titulo": "Gaste energia antes", "sub": "um passeio ou uma brincadeira", "icone": "bola"},
+  {"tipo": "dica", "n": 5, "total": 5, "fala": "Cinco: comece num lugar calmo. Distração é a inimiga número um do aprendizado.", "titulo": "Comece num lugar calmo", "sub": "sem barulho e sem plateia", "icone": "sofa"},
+  {"tipo": "cta_meio", "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?", "linhas": ["QUER ADESTRAR", "SEU CÃO EM CASA?"], "selos": ["15 MIN/DIA", "21 DIAS", "NO SEU RITMO"]},
+  {"tipo": "cta_final", "fala": "Comenta XIXI, que eu te mando o teste.", "palavra": "XIXI"}
+ ]
+}

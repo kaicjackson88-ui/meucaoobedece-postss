@@ -1,0 +1,103 @@
+{
+ "id": "r013-curio-palavras",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "obediencia",
+ "legenda": "Seu cão entende mais palavras do que você imagina 🧠\n\n🗣️ Em média, cerca de 165 palavras\n🏆 Os mais espertos: cerca de 250\n🧸 Mente parecida com a de uma criança de 2 anos\n\nPor isso: sempre a mesma palavra pro mesmo comando.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão entende muito mais palavras do que você imagina.",
+   "linhas": [
+    "SEU CÃO ENTENDE",
+    "MAIS PALAVRAS",
+    "DO QUE VOCÊ PENSA"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Um cão comum aprende cerca de cento e sessenta e cinco palavras e sinais.",
+   "numero": 165,
+   "rotulo": [
+    "PALAVRAS",
+    "e sinais, em média"
+   ],
+   "icone": "cerebro",
+   "numero_palavra": "cento",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "fala": "Os mais espertos chegam perto de duzentas e cinquenta.",
+   "numero": 250,
+   "rotulo": [
+    "PALAVRAS",
+    "nos cães mais espertos"
+   ],
+   "icone": "lampada",
+   "numero_palavra": "duzentas",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "fala": "Segundo pesquisadores, a mente dele lembra a de uma criança de dois anos.",
+   "numero": 2,
+   "rotulo": [
+    "ANOS",
+    "a idade mental comparada"
+   ],
+   "icone": "coracao",
+   "numero_palavra": "dois",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "virada",
+   "fala": "Ou seja: ele não está te ignorando. Ele está confuso.",
+   "topo": [
+    "ELE NÃO ESTÁ"
+   ],
+   "de": "TE IGNORANDO",
+   "para": "CONFUSO",
+   "para_palavra": "confuso"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Use sempre a mesma palavra pro mesmo comando. Senta é senta, não senta aí, nem senta logo.",
+   "linhas": [
+    "MESMA PALAVRA",
+    "MESMO COMANDO"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer ensinar isso em casa, sem pagar caro num adestrador?",
+   "linhas": [
+    "QUER ENSINAR",
+    "ISSO EM CASA?"
+   ],
+   "selos": [
+    "SEM ADESTRADOR",
+    "21 DIAS",
+    "15 MIN/DIA"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste do seu cão.",
+   "palavra": "XIXI"
+  }
+ ]
+}

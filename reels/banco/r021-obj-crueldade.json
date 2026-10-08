@@ -1,0 +1,63 @@
+{
+ "id": "r021-obj-crueldade",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "obediencia",
+ "legenda": "Adestramento deixa o cão triste? Depende do método 💛\n\n❌ Grito e punição geram medo\n✅ Recompensa gera vontade\n🎾 O treino vira brincadeira\n\nVocê treina com petisco ou com bronca? Sem julgamento 😉\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Adestrar deixa o cão triste? Depende totalmente de como você faz.",
+   "linhas": [
+    "ADESTRAR DEIXA",
+    "O CÃO TRISTE?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "Com grito e punição, sim: isso gera medo. Mas com recompensa, o treino vira brincadeira.",
+   "objecao": "Adestrar deixa o cão triste",
+   "resposta": "DEPENDE!",
+   "resposta_palavra": "recompensa",
+   "explica": [
+    "COM RECOMPENSA",
+    "VIRA BRINCADEIRA"
+   ],
+   "resposta_cor": "teal",
+   "tag": "MUITA GENTE PENSA:"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Cão que aprende brincando confia mais em você. E obedece por vontade, não por medo.",
+   "linhas": [
+    "POR VONTADE",
+    "NÃO POR MEDO"
+   ],
+   "destaque": 0,
+   "mascote": "feliz",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

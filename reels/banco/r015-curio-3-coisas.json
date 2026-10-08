@@ -1,0 +1,92 @@
+{
+ "id": "r015-curio-3-coisas",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "3 coisas sobre seu cão que quase ninguém sabe 🤯\n\n👃 O focinho é como uma digital\n🐾 Ele sua pelas patas\n👁️ Tem uma terceira pálpebra\n\nQual delas você não sabia? 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #curiosidadesdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas sobre o seu cão que quase ninguém sabe.",
+   "linhas": [
+    "3 COISAS QUE",
+    "QUASE NINGUÉM",
+    "SABE"
+   ],
+   "destaque": 0,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Um: o desenho do focinho é único, como a nossa impressão digital.",
+   "numero": null,
+   "rotulo": [
+    "FOCINHO ÚNICO",
+    "como uma digital"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "focinho",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "fala": "Dois: ele sua pelas almofadinhas das patas.",
+   "numero": 4,
+   "rotulo": [
+    "PATAS",
+    "é por elas que ele sua"
+   ],
+   "icone": "pata",
+   "numero_palavra": "patas",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "fala": "Três: ele tem uma terceira pálpebra, que protege o olho.",
+   "numero": 3,
+   "rotulo": [
+    "PÁLPEBRAS",
+    "a terceira protege o olho"
+   ],
+   "icone": "escudo",
+   "numero_palavra": "terceira",
+   "prefixo": "",
+   "sufixo": "ª"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Agora conta aqui: qual dessas você não sabia?",
+   "linhas": [
+    "QUAL DESSAS",
+    "VOCÊ NÃO SABIA?"
+   ],
+   "destaque": 1,
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer um passo a passo de vinte e um dias pra fazer isso em casa?",
+   "linhas": [
+    "QUER O PASSO A PASSO",
+    "DE 21 DIAS?"
+   ],
+   "selos": [
+    "EM CASA",
+    "15 MIN/DIA",
+    "SEM GRITO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI aqui embaixo, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

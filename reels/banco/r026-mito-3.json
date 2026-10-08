@@ -1,0 +1,78 @@
+{
+ "id": "r026-mito-3",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "obediencia",
+ "legenda": "Mito ou verdade sobre adestramento 🐾\n\n❌ Bronca depois resolve\n❌ Petisco estraga o cão\n✅ Gastar energia ajuda a obedecer\n\nSalva pra lembrar 😉\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três frases sobre adestramento. Quantas você acha que são verdade?",
+   "linhas": [
+    "MITO OU",
+    "VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Dar bronca depois que ele fez arte resolve. Mito. Ele não liga a bronca ao que fez.",
+   "frase": "Dar bronca depois resolve",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "ELE NÃO LIGA",
+    "A BRONCA AO QUE FEZ"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Petisco estraga o cão. Mito. Usado do jeito certo, é ferramenta de ensino.",
+   "frase": "Petisco estraga o cão",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "É FERRAMENTA",
+    "DE ENSINO"
+   ],
+   "icone": "osso"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Gastar energia antes do treino ajuda ele a obedecer. Verdade.",
+   "frase": "Gastar energia ajuda a obedecer",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "CÃO CALMO",
+    "PRESTA ATENÇÃO"
+   ],
+   "icone": "bola"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer ensinar isso em casa, sem pagar caro num adestrador?",
+   "linhas": [
+    "QUER ENSINAR",
+    "ISSO EM CASA?"
+   ],
+   "selos": [
+    "SEM ADESTRADOR",
+    "21 DIAS",
+    "15 MIN/DIA"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste do seu cão.",
+   "palavra": "XIXI"
+  }
+ ]
+}

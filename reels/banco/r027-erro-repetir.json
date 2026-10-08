@@ -1,0 +1,89 @@
+{
+ "id": "r027-erro-repetir",
+ "formato": "erro",
+ "gancho_tipo": "negacao",
+ "tema": "obediencia",
+ "legenda": "Pare de falar “senta, senta, senta” 🛑\n\n1️⃣ Fale uma vez\n2️⃣ Espere 3 segundos\n3️⃣ Ajude com o petisco\n4️⃣ Premie na hora\n\nSalva e testa hoje mesmo 🐾\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de falar senta, senta, senta.",
+   "linhas": [
+    "PARE DE FALAR",
+    "SENTA, SENTA,",
+    "SENTA"
+   ],
+   "destaque": 0,
+   "mascote": "bravo",
+   "icone": "megafone",
+   "carimbo": "PARE!",
+   "carimbo_palavra": "Pare"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Cada repetição ensina que o primeiro comando não vale nada.",
+   "topo": [
+    "CADA REPETIÇÃO",
+    "ENSINA QUE O"
+   ],
+   "de": "1º COMANDO",
+   "para": "NÃO VALE",
+   "para_palavra": "nada"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 4,
+   "fala": "Fale uma vez só.",
+   "titulo": "Fale uma vez",
+   "sub": "com calma e clareza",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 4,
+   "fala": "Espere três segundos.",
+   "titulo": "Espere 3 segundos",
+   "sub": "dê tempo pra ele pensar",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 4,
+   "fala": "Não fez? Ajude com o petisco perto do focinho.",
+   "titulo": "Ajude com o petisco",
+   "sub": "guie o movimento",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 4,
+   "total": 4,
+   "fala": "Fez? Premie na hora.",
+   "titulo": "Premie na hora",
+   "sub": "em até 2 segundos",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

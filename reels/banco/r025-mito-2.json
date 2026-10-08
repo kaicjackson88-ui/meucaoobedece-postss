@@ -1,0 +1,77 @@
+{
+ "id": "r025-mito-2",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "curiosidade",
+ "legenda": "Mito ou verdade? A segunda engana muita gente 👀\n\n❌ Cão sente culpa quando faz arte\n❌ 1 ano de cão = 7 anos humanos\n✅ Passeio todo dia faz diferença\n\nQual te surpreendeu? 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #curiosidadesdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mito ou verdade? A segunda engana quase todo mundo.",
+   "linhas": [
+    "MITO OU",
+    "VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Aquela cara de culpado depois da arte é culpa. Mito. É reação ao seu tom de voz.",
+   "frase": "A cara de culpado é culpa",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "É REAÇÃO AO",
+    "SEU TOM DE VOZ"
+   ]
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Um ano de cão vale sete anos humanos. Mito. O primeiro ano vale bem mais.",
+   "frase": "1 ano de cão = 7 anos humanos",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "O PRIMEIRO ANO",
+    "VALE BEM MAIS"
+   ],
+   "icone": "calendario"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Passeio todo dia melhora o comportamento. Verdade. Energia gasta é cão mais calmo.",
+   "frase": "Passeio todo dia melhora o comportamento",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "ENERGIA GASTA",
+    "CÃO MAIS CALMO"
+   ],
+   "icone": "guia"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer um passo a passo de vinte e um dias pra fazer isso em casa?",
+   "linhas": [
+    "QUER O PASSO A PASSO",
+    "DE 21 DIAS?"
+   ],
+   "selos": [
+    "EM CASA",
+    "15 MIN/DIA",
+    "SEM GRITO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI aqui embaixo, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

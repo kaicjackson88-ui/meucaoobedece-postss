@@ -1,0 +1,78 @@
+{
+ "id": "r003-lista-3-comandos",
+ "formato": "lista",
+ "gancho_tipo": "segredo",
+ "tema": "obediencia",
+ "legenda": "Se ele só aprender 3 comandos, que sejam esses 👇\n\n1️⃣ Senta — a base de tudo\n2️⃣ Fica — segurança na porta\n3️⃣ Vem — o que protege na rua\n\nQual deles o seu já sabe? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Se o seu cão só aprender três comandos na vida, que sejam esses.",
+   "linhas": [
+    "SE ELE SÓ APRENDER",
+    "3 COMANDOS",
+    "QUE SEJAM ESSES"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Senta. É a base de tudo: antes da comida, antes do passeio, antes do carinho.",
+   "titulo": "SENTA",
+   "sub": "a base de todos os outros",
+   "icone": "pata"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Fica. É ele que segura seu cão quando a porta abre.",
+   "titulo": "FICA",
+   "sub": "segurança quando a porta abre",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Vem. Esse pode proteger seu cão na rua, num momento de perigo.",
+   "titulo": "VEM",
+   "sub": "o que protege na rua",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "texto",
+   "fala": "E o segredo pra ensinar os três é o mesmo: sessões curtas e recompensa na hora.",
+   "linhas": [
+    "SESSÕES CURTAS",
+    "RECOMPENSA NA HORA"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer um passo a passo de vinte e um dias pra fazer isso em casa?",
+   "linhas": [
+    "QUER O PASSO A PASSO",
+    "DE 21 DIAS?"
+   ],
+   "selos": [
+    "EM CASA",
+    "15 MIN/DIA",
+    "SEM GRITO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI aqui embaixo, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

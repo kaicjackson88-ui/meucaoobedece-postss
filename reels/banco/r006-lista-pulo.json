@@ -1,0 +1,78 @@
+{
+ "id": "r006-lista-pulo",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "pulo",
+ "legenda": "Seu cão pula em todo mundo que chega? 🙈\n\n1️⃣ Pulou? Vira de costas\n2️⃣ Carinho só com 4 patas no chão\n3️⃣ Peça senta antes\n\nSalva e mostra pra família toda 🐾\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #cachorroagitado",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão pula em todo mundo que chega? Três passos pra acabar com isso.",
+   "linhas": [
+    "ELE PULA EM",
+    "TODO MUNDO",
+    "QUE CHEGA?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: pulou, vira de costas e fica em silêncio. Sem olhar, sem falar.",
+   "titulo": "Pulou? Vira de costas",
+   "sub": "sem olhar e sem falar",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: carinho só quando as quatro patas estiverem no chão.",
+   "titulo": "Carinho com 4 patas no chão",
+   "sub": "é isso que vale a pena",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: antes da visita entrar, peça senta e recompense.",
+   "titulo": "Peça senta antes",
+   "sub": "e recompense na hora",
+   "icone": "pata"
+  },
+  {
+   "tipo": "texto",
+   "fala": "E combine com todo mundo da casa. Se um deixa pular, ele vai continuar pulando.",
+   "linhas": [
+    "A FAMÍLIA TODA",
+    "NA MESMA REGRA"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "casa"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer um passo a passo de vinte e um dias pra fazer isso em casa?",
+   "linhas": [
+    "QUER O PASSO A PASSO",
+    "DE 21 DIAS?"
+   ],
+   "selos": [
+    "EM CASA",
+    "15 MIN/DIA",
+    "SEM GRITO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI aqui embaixo, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "id": "r016-curio-racas",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Curiosidades de raças que parecem mentira 🐕\n\n🎶 O Basenji não late: ele faz tipo um canto\n👅 Chow Chow e Shar-Pei têm língua preta\n⚡ O Galgo corre cerca de 56 km/h\n\nQual é a raça do seu? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #curiosidadesdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Tem cão que não late. E isso nem é a coisa mais estranha.",
+   "linhas": [
+    "TEM CÃO",
+    "QUE NÃO LATE"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "O Basenji quase não late. Em vez disso, ele faz um som parecido com um canto.",
+   "numero": 0,
+   "rotulo": [
+    "LATIDOS",
+    "o Basenji prefere cantar"
+   ],
+   "icone": "megafone",
+   "numero_palavra": "Basenji",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "fala": "O Chow Chow e o Shar-Pei têm a língua preta.",
+   "numero": 2,
+   "rotulo": [
+    "RAÇAS",
+    "com língua preta"
+   ],
+   "icone": "coracao",
+   "numero_palavra": "língua",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "fala": "E o Galgo corre cerca de cinquenta e seis quilômetros por hora.",
+   "numero": 56,
+   "rotulo": [
+    "KM/H",
+    "a velocidade de um Galgo"
+   ],
+   "icone": "alvo",
+   "numero_palavra": "cinquenta",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "texto",
+   "fala": "Mas tem uma coisa que toda raça faz igual: aprende com recompensa na hora certa.",
+   "linhas": [
+    "TODA RAÇA",
+    "APRENDE"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer ensinar isso em casa, sem pagar caro num adestrador?",
+   "linhas": [
+    "QUER ENSINAR",
+    "ISSO EM CASA?"
+   ],
+   "selos": [
+    "SEM ADESTRADOR",
+    "21 DIAS",
+    "15 MIN/DIA"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste do seu cão.",
+   "palavra": "XIXI"
+  }
+ ]
+}

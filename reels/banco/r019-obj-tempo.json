@@ -1,0 +1,70 @@
+{
+ "id": "r019-obj-tempo",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "obediencia",
+ "legenda": "“Não tenho tempo pra treinar meu cão.” ⏰\n\n⏱️ 3 sessões de 5 minutos\n🍽️ Treine na hora da comida\n🦮 Treine no passeio\n\nSalva e começa hoje, sem desculpa 😄\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Não tem tempo pra treinar seu cão? Você precisa de menos do que imagina.",
+   "linhas": [
+    "NÃO TEM TEMPO",
+    "PRA TREINAR?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "Você não precisa de uma hora por dia. Três sessões de cinco minutos já fazem diferença.",
+   "objecao": "Não tenho tempo pra treinar",
+   "resposta": "15 MIN!",
+   "resposta_palavra": "minutos",
+   "explica": [
+    "3 SESSÕES",
+    "DE 5 MINUTOS"
+   ],
+   "resposta_cor": "teal",
+   "tag": "A DESCULPA:"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 2,
+   "fala": "Use a hora da comida: peça senta antes de colocar o pote.",
+   "titulo": "Na hora da comida",
+   "sub": "senta antes do pote",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 2,
+   "fala": "E use o passeio: cada esquina é uma chance de treinar.",
+   "titulo": "No passeio",
+   "sub": "cada esquina é um treino",
+   "icone": "guia"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

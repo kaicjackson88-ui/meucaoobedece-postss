@@ -1,0 +1,75 @@
+{
+ "id": "r008-lista-ansiedade",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "ansiedade",
+ "legenda": "Seu cão chora quando você sai? 🥺\n\n1️⃣ Saídas sem drama\n2️⃣ Treine ausências curtas\n3️⃣ Brinquedo recheado na saída\n4️⃣ Gaste energia antes\n\nSe for muito intenso, vale falar com um veterinário 💛\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #caoansioso",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão chora, late ou destrói tudo quando você sai? Faz isso.",
+   "linhas": [
+    "ELE SOFRE",
+    "QUANDO VOCÊ SAI?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 4,
+   "fala": "Um: saída sem drama. Nada de despedida longa, nem festa exagerada quando voltar.",
+   "titulo": "Saídas sem drama",
+   "sub": "sem despedida longa",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 4,
+   "fala": "Dois: treine ausências curtas. Saia por um minuto, depois cinco, depois dez.",
+   "titulo": "Ausências curtas",
+   "sub": "1 minuto, depois 5, depois 10",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 4,
+   "fala": "Três: na hora de sair, deixe um brinquedo recheado. Sua saída vira coisa boa.",
+   "titulo": "Brinquedo recheado",
+   "sub": "sua saída vira coisa boa",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 4,
+   "total": 4,
+   "fala": "Quatro: gaste energia antes de sair. Cão cansado descansa melhor.",
+   "titulo": "Gaste energia antes",
+   "sub": "cão cansado descansa melhor",
+   "icone": "bola"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

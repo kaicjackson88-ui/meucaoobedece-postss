@@ -1,0 +1,77 @@
+{
+ "id": "r024-mito-1",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "xixi",
+ "legenda": "Mito ou verdade? Testa seu conhecimento 👇\n\n❌ Esfregar o focinho no xixi ensina\n❌ Rabo abanando é sempre alegria\n✅ Cão adulto aprende comandos\n\nQuantas você acertou? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #xixidecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mito ou verdade? Vê quantas você acerta.",
+   "linhas": [
+    "MITO OU",
+    "VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Esfregar o focinho no xixi ensina o cão. Mito. Ele só aprende a se esconder.",
+   "frase": "Esfregar o focinho no xixi ensina",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "ELE SÓ APRENDE",
+    "A SE ESCONDER"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Rabo abanando é sempre sinal de alegria. Mito. Pode ser só agitação.",
+   "frase": "Rabo abanando é sempre alegria",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "PODE SER",
+    "SÓ AGITAÇÃO"
+   ]
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Cão adulto aprende comandos novos. Verdade. Com paciência e recompensa.",
+   "frase": "Cão adulto aprende comandos novos",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "COM PACIÊNCIA",
+    "E RECOMPENSA"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

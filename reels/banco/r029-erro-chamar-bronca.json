@@ -1,0 +1,78 @@
+{
+ "id": "r029-erro-chamar-bronca",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "chamado",
+ "legenda": "O erro que faz seu cão não vir quando você chama 🚫\n\n1️⃣ Só chame pra coisa boa\n2️⃣ Premie toda vinda\n3️⃣ Chame e solte de novo\n\nSalva pra treinar no parque 🐾\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #adestramentopositivo",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão não vem quando você chama? O erro pode ser seu.",
+   "linhas": [
+    "ELE NÃO VEM",
+    "QUANDO VOCÊ",
+    "CHAMA?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Se você chama ele pra dar bronca, ele aprende que vir até você é ruim.",
+   "topo": [
+    "PRA ELE,",
+    "VIR ATÉ VOCÊ ="
+   ],
+   "de": "FESTA",
+   "para": "BRONCA",
+   "para_palavra": "ruim"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: só chame pra coisa boa.",
+   "titulo": "Só chame pra coisa boa",
+   "sub": "nunca pra bronca",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: premie toda vez que ele vier, mesmo se demorar.",
+   "titulo": "Premie toda vinda",
+   "sub": "mesmo se demorar",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: no parque, chame, premie e solte de novo. Vir não pode significar o fim da diversão.",
+   "titulo": "Chame e solte de novo",
+   "sub": "vir não acaba a diversão",
+   "icone": "bola"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer ensinar isso em casa, sem pagar caro num adestrador?",
+   "linhas": [
+    "QUER ENSINAR",
+    "ISSO EM CASA?"
+   ],
+   "selos": [
+    "SEM ADESTRADOR",
+    "21 DIAS",
+    "15 MIN/DIA"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste do seu cão.",
+   "palavra": "XIXI"
+  }
+ ]
+}

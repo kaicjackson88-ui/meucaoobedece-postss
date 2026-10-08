@@ -1,0 +1,76 @@
+{
+ "id": "r005-lista-xixi",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "xixi",
+ "legenda": "Xixi no lugar errado de novo? 😩\n\n1️⃣ Leve na hora certa\n2️⃣ Premie no lugar certo\n3️⃣ Nada de esfregar o focinho\n4️⃣ Limpe sem amônia\n\nManda pra quem tá sofrendo com isso 🐾\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #xixidecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão faz xixi no lugar errado? Quatro dicas que resolvem a maioria dos casos.",
+   "linhas": [
+    "XIXI NO",
+    "LUGAR ERRADO?",
+    "4 DICAS"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 4,
+   "fala": "Um: leve ao lugar certo depois de comer, de acordar e de brincar.",
+   "titulo": "Leve na hora certa",
+   "sub": "depois de comer, acordar e brincar",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 4,
+   "fala": "Dois: fez no lugar certo? Festa e petisco na mesma hora.",
+   "titulo": "Premie no lugar certo",
+   "sub": "festa e petisco na hora",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 4,
+   "fala": "Três: nunca esfregue o focinho dele no xixi. Ele só aprende a se esconder pra fazer.",
+   "titulo": "Nada de esfregar o focinho",
+   "sub": "ele aprende a se esconder",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 4,
+   "total": 4,
+   "fala": "Quatro: limpe com produto sem amônia. O cheiro lembra xixi e chama ele de volta.",
+   "titulo": "Limpe sem amônia",
+   "sub": "o cheiro chama ele de volta",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

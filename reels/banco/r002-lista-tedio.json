@@ -1,0 +1,87 @@
+{
+ "id": "r002-lista-tedio",
+ "formato": "lista",
+ "gancho_tipo": "numero",
+ "tema": "roer",
+ "legenda": "Seu cão destrói tudo? Pode ser tédio 👀\n\n1️⃣ Rói o que não deve\n2️⃣ Late sem motivo\n3️⃣ Cava e bagunça\n4️⃣ Pede atenção o tempo todo\n\nSalva e marca quem precisa ver 🐾\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #cachorrodestruidor",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão destrói a casa? Pode não ser malcriação. São quatro sinais de tédio.",
+   "linhas": [
+    "SEU CÃO DESTRÓI",
+    "A CASA?",
+    "PODE SER TÉDIO"
+   ],
+   "destaque": 2,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 4,
+   "fala": "Um: ele rói o que não deve, como sapato, controle e pé de móvel.",
+   "titulo": "Rói o que não deve",
+   "sub": "sapato, controle, pé de móvel",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 4,
+   "fala": "Dois: late sem motivo, só pra ter alguma coisa pra fazer.",
+   "titulo": "Late sem motivo",
+   "sub": "é o jeito dele de se ocupar",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 4,
+   "fala": "Três: cava, espalha e bagunça tudo quando fica sozinho.",
+   "titulo": "Cava e bagunça",
+   "sub": "principalmente quando fica sozinho",
+   "icone": "pata"
+  },
+  {
+   "tipo": "dica",
+   "n": 4,
+   "total": 4,
+   "fala": "Quatro: pede atenção o tempo todo. Cutuca, chora, traz brinquedo.",
+   "titulo": "Pede atenção o tempo todo",
+   "sub": "cutuca, chora, traz brinquedo",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "texto",
+   "fala": "A saída é simples: gastar energia do corpo e da cabeça, todo dia.",
+   "linhas": [
+    "GASTE ENERGIA",
+    "DO CORPO E DA CABEÇA"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "bola"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "r004-lista-guia",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "coleira",
+ "legenda": "Passear com seu cão parece cabo de guerra? 🦮\n\n1️⃣ Parou de puxar, você anda\n2️⃣ Mude de direção\n3️⃣ Premie ao seu lado\n4️⃣ Deixe ele cheirar\n\nSalva pra testar no próximo passeio 🐾\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #passeiocomcachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão te arrasta no passeio? Faz isso a partir de hoje.",
+   "linhas": [
+    "SEU CÃO TE",
+    "ARRASTA",
+    "NO PASSEIO?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 4,
+   "fala": "Um: puxou, você para. Afrouxou a guia, você volta a andar.",
+   "titulo": "Puxou? Você para",
+   "sub": "guia frouxa = a gente anda",
+   "icone": "guia"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 4,
+   "fala": "Dois: se ele insistir, mude de direção. Ele aprende a prestar atenção em você.",
+   "titulo": "Mude de direção",
+   "sub": "ele passa a te acompanhar",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 4,
+   "fala": "Três: premie quando ele estiver do seu lado. É ali que tem coisa boa.",
+   "titulo": "Premie do seu lado",
+   "sub": "ali é onde tem coisa boa",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 4,
+   "total": 4,
+   "fala": "Quatro: deixe ele cheirar. Cheirar cansa a cabeça e acalma o passeio.",
+   "titulo": "Deixe ele cheirar",
+   "sub": "cheirar cansa a cabeça",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer ensinar isso em casa, sem pagar caro num adestrador?",
+   "linhas": [
+    "QUER ENSINAR",
+    "ISSO EM CASA?"
+   ],
+   "selos": [
+    "SEM ADESTRADOR",
+    "21 DIAS",
+    "15 MIN/DIA"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste do seu cão.",
+   "palavra": "XIXI"
+  }
+ ]
+}

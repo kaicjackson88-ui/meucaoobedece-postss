@@ -1,0 +1,85 @@
+{
+ "id": "r007-erro-5-erros",
+ "formato": "erro",
+ "gancho_tipo": "negacao",
+ "tema": "obediencia",
+ "legenda": "Seu cão não obedece? Talvez seja um desses erros 👇\n\n1️⃣ Repetir o comando\n2️⃣ Recompensar atrasado\n3️⃣ Treino longo demais\n4️⃣ Grito e bronca\n5️⃣ Cada um com uma regra\n\nQual desses você comete? Sem julgamento 😅\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de culpar seu cão. São cinco erros que fazem ele não obedecer.",
+   "linhas": [
+    "PARE DE CULPAR",
+    "SEU CÃO",
+    "5 ERROS"
+   ],
+   "destaque": 2,
+   "mascote": "dorminhoco",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 5,
+   "fala": "Um: repetir o comando várias vezes. Ele aprende que só a quinta vale.",
+   "titulo": "Repetir o comando",
+   "sub": "ele aprende que só a quinta vale",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 5,
+   "fala": "Dois: recompensar atrasado. O petisco tem que chegar em segundos.",
+   "titulo": "Recompensar atrasado",
+   "sub": "o petisco chega em segundos",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 5,
+   "fala": "Três: treino longo demais. Cinco minutos rendem mais que uma hora.",
+   "titulo": "Treino longo demais",
+   "sub": "5 minutos rendem mais",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "dica",
+   "n": 4,
+   "total": 5,
+   "fala": "Quatro: grito e bronca. Isso gera medo, não aprendizado.",
+   "titulo": "Grito e bronca",
+   "sub": "gera medo, não aprendizado",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 5,
+   "total": 5,
+   "fala": "Cinco: cada pessoa da casa com uma regra diferente. Isso confunde qualquer cão.",
+   "titulo": "Cada um com uma regra",
+   "sub": "isso confunde qualquer cão",
+   "icone": "casa"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer ensinar isso em casa, sem pagar caro num adestrador?",
+   "linhas": [
+    "QUER ENSINAR",
+    "ISSO EM CASA?"
+   ],
+   "selos": [
+    "SEM ADESTRADOR",
+    "21 DIAS",
+    "15 MIN/DIA"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste do seu cão.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "id": "r010-lista-fogos",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "fogos",
+ "legenda": "Seu cão treme com fogos? 🎆\n\n1️⃣ Monte um cantinho seguro\n2️⃣ TV ou música pra abafar\n3️⃣ Não force ele a sair\n4️⃣ Fique calmo\n\nSalva pro próximo jogo ou festa 💛 Se o medo for extremo, procure um veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #medodefogos",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão treme e se esconde com fogos? Quatro coisas pra fazer na hora.",
+   "linhas": [
+    "SEU CÃO TREME",
+    "COM FOGOS?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 4,
+   "fala": "Um: monte um cantinho seguro, fechado e com cheiro de casa.",
+   "titulo": "Cantinho seguro",
+   "sub": "fechado e com cheiro de casa",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 4,
+   "fala": "Dois: ligue a TV ou uma música pra abafar o barulho.",
+   "titulo": "TV ou música",
+   "sub": "pra abafar o barulho",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 4,
+   "fala": "Três: não force ele a sair do esconderijo. Ele está se protegendo.",
+   "titulo": "Não force ele a sair",
+   "sub": "ele está se protegendo",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "dica",
+   "n": 4,
+   "total": 4,
+   "fala": "Quatro: fique calmo. Seu cão lê o seu nervosismo.",
+   "titulo": "Fique calmo",
+   "sub": "ele lê o seu nervosismo",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer ensinar isso em casa, sem pagar caro num adestrador?",
+   "linhas": [
+    "QUER ENSINAR",
+    "ISSO EM CASA?"
+   ],
+   "selos": [
+    "SEM ADESTRADOR",
+    "21 DIAS",
+    "15 MIN/DIA"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste do seu cão.",
+   "palavra": "XIXI"
+  }
+ ]
+}

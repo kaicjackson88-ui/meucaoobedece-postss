@@ -1,0 +1,93 @@
+{
+ "id": "r012-curio-olfato",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "O nariz do seu cão é um superpoder 👃\n\n👃 Até 300 milhões de receptores (você: 6 milhões)\n🧠 Área do cérebro pro olfato 40x maior\n↔️ Mexe cada narina separado\n\nPor isso passeio com tempo pra cheirar cansa a cabeça dele.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #curiosidadesdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O nariz do seu cão é um superpoder. E você pode usar isso a seu favor.",
+   "linhas": [
+    "O NARIZ DO",
+    "SEU CÃO É UM",
+    "SUPERPODER"
+   ],
+   "destaque": 2,
+   "mascote": "normal",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Ele tem até trezentos milhões de receptores de cheiro. Você tem uns seis milhões.",
+   "numero": 300,
+   "rotulo": [
+    "MILHÕES",
+    "de receptores de cheiro"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "trezentos",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "fala": "A parte do cérebro dele dedicada ao olfato é quarenta vezes maior, em proporção.",
+   "numero": 40,
+   "rotulo": [
+    "VEZES MAIOR",
+    "a área do cérebro pro olfato"
+   ],
+   "icone": "cerebro",
+   "numero_palavra": "quarenta",
+   "prefixo": "",
+   "sufixo": "x"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "fala": "E ele mexe cada narina separado, pra saber de onde vem o cheiro.",
+   "numero": 2,
+   "rotulo": [
+    "NARINAS",
+    "que se mexem separado"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "narina",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "texto",
+   "fala": "Por isso, deixar ele cheirar no passeio cansa a cabeça. E cão cansado obedece melhor.",
+   "linhas": [
+    "CHEIRAR CANSA",
+    "A CABEÇA"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "guia"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer um passo a passo de vinte e um dias pra fazer isso em casa?",
+   "linhas": [
+    "QUER O PASSO A PASSO",
+    "DE 21 DIAS?"
+   ],
+   "selos": [
+    "EM CASA",
+    "15 MIN/DIA",
+    "SEM GRITO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI aqui embaixo, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

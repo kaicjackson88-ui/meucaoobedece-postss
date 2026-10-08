@@ -1,0 +1,79 @@
+{
+ "id": "r017-curio-pata",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Seu cão é destro ou canhoto? 🐾\n\n📊 Em um estudo, 74% dos cães preferiam uma pata\n➡️ Entre eles, mais da metade era destro\n🧪 Teste em casa: petisco embaixo da mão\n\nFez o teste? Comenta qual pata ele usou!\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #curiosidadesdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Você sabia que o seu cão pode ser destro ou canhoto?",
+   "linhas": [
+    "SEU CÃO É",
+    "DESTRO OU",
+    "CANHOTO?"
+   ],
+   "destaque": 2,
+   "mascote": "normal",
+   "icone": "pata"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Num estudo com quase dezoito mil cães, setenta e quatro por cento preferiam uma das patas.",
+   "numero": 74,
+   "rotulo": [
+    "PREFEREM UMA PATA",
+    "em um estudo com cães"
+   ],
+   "icone": "pata",
+   "numero_palavra": "setenta",
+   "prefixo": "",
+   "sufixo": "%"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "fala": "E entre esses, mais da metade era destro.",
+   "numero": 58,
+   "rotulo": [
+    "DESTROS",
+    "entre os que têm preferência"
+   ],
+   "icone": "pata",
+   "numero_palavra": "metade",
+   "prefixo": "",
+   "sufixo": "%"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Faz o teste: esconde um petisco embaixo da mão e vê qual pata ele usa pra pegar.",
+   "linhas": [
+    "TESTE EM CASA",
+    "QUAL PATA ELE USA?"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

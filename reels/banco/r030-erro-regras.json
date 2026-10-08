@@ -1,0 +1,77 @@
+{
+ "id": "r030-erro-regras",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "obediencia",
+ "legenda": "Hoje pode subir no sofá, amanhã não? Aí complica 🛋️\n\n1️⃣ Combine as regras com a família\n2️⃣ Use as mesmas palavras\n3️⃣ Regra que vale todo dia\n\nManda pro grupo da família 😂\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Hoje pode subir no sofá, amanhã não pode? Assim ele nunca vai aprender.",
+   "linhas": [
+    "HOJE PODE,",
+    "AMANHÃ NÃO?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "sofa"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Regra que muda todo dia confunde qualquer cão. E cada pessoa com uma regra, pior ainda.",
+   "linhas": [
+    "REGRA QUE MUDA",
+    "CONFUNDE"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: combine as regras com todo mundo da casa.",
+   "titulo": "Combine com a família",
+   "sub": "todo mundo na mesma regra",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: usem as mesmas palavras pros mesmos comandos.",
+   "titulo": "Mesmas palavras",
+   "sub": "pros mesmos comandos",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: o que vale hoje, vale amanhã também.",
+   "titulo": "Vale todo dia",
+   "sub": "constância ensina",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

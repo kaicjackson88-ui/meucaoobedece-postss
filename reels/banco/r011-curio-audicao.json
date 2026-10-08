@@ -1,0 +1,99 @@
+{
+ "id": "r011-curio-audicao",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "latido",
+ "legenda": "Seu cão escuta a campainha antes de você 👂\n\n🔊 Ouve até 4x mais longe\n🎧 Até 45 mil Hz (você: 20 mil)\n💪 Pelo menos 18 músculos nas orelhas\n\nPor isso o latido na porta é alarme, não birra.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #cachorrolatindo",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão escuta a campainha antes de você. Sério.",
+   "linhas": [
+    "SEU CÃO OUVE",
+    "A CAMPAINHA",
+    "ANTES DE VOCÊ"
+   ],
+   "destaque": 2,
+   "mascote": "normal",
+   "icone": "sino",
+   "carimbo": "SÉRIO.",
+   "carimbo_palavra": "Sério"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Ele ouve sons até quatro vezes mais longe que a gente.",
+   "numero": 4,
+   "rotulo": [
+    "MAIS LONGE",
+    "que um ser humano"
+   ],
+   "icone": "sino",
+   "numero_palavra": "quatro",
+   "prefixo": "",
+   "sufixo": "x"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "fala": "E usa pelo menos dezoito músculos pra mexer as orelhas.",
+   "numero": 18,
+   "rotulo": [
+    "MÚSCULOS",
+    "só pra mexer as orelhas"
+   ],
+   "icone": "pata",
+   "numero_palavra": "dezoito",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "virada",
+   "fala": "Então, quando a campainha toca, ele não está fazendo birra. Ele está dando o alarme.",
+   "topo": [
+    "ELE NÃO ESTÁ",
+    "FAZENDO"
+   ],
+   "de": "BIRRA",
+   "para": "É ALARME",
+   "para_palavra": "alarme"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 2,
+   "fala": "Pra desligar o alarme, toque a campainha sem ninguém chegar e premie o silêncio.",
+   "titulo": "Campainha sem festa",
+   "sub": "premie o silêncio",
+   "icone": "sino"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 2,
+   "fala": "E dê a ele um cantinho seguro, longe da porta.",
+   "titulo": "Cantinho seguro",
+   "sub": "longe da porta",
+   "icone": "sofa"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}
