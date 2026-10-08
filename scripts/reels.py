@@ -293,6 +293,22 @@ def carregar_banco():
     return {json.loads(p.read_text(encoding='utf-8'))['id']: json.loads(p.read_text(encoding='utf-8')) for p in sorted(BANCO.glob('*.json'))}
 
 
+def carregar_historias():
+    """Histórias animadas (tiktok/banco/h*.json) — também vão pro Instagram nos horários de história."""
+    out = {}
+    for p in sorted((RAIZ / 'tiktok' / 'banco').glob('h*.json')):
+        r = json.loads(p.read_text(encoding='utf-8'))
+        if r.get('formato') == 'tiktok-historia':
+            out[r['id']] = r
+    return out
+
+
+def escolher_historia(hist, publicados):
+    usados = {p['roteiro'] for p in publicados}
+    livres = [r for r in hist.values() if r['id'] not in usados]
+    return livres[0] if livres else None
+
+
 def escolher(banco, publicados):
     usados = {p['roteiro'] for p in publicados}
     livres = [r for r in banco.values() if r['id'] not in usados]
@@ -570,7 +586,12 @@ def cmd_postar(args):
     if forcar and forcar.endswith('.json'):
         rot = json.loads((RAIZ / forcar).read_text(encoding='utf-8'))
     else:
-        rot = banco.get(forcar) if forcar else escolher(banco, publicados)
+        hist = carregar_historias()
+        rot = (banco.get(forcar) or hist.get(forcar)) if forcar else None
+        if not forcar and slot and slot[-5:] in CFG.get('historia_horarios', []):
+            rot = escolher_historia(hist, publicados)  # horário de história animada
+        if not rot and not forcar:
+            rot = escolher(banco, publicados)
     if not rot:
         print('⚠️ O banco de roteiros acabou — aguardando roteiros novos.'); return
     rot = dict(rot)

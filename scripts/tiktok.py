@@ -29,7 +29,7 @@ def main():
     saida = Path(tempfile.mkdtemp(prefix='tiktok-'))
     legendas = []
     for k, rid in enumerate(ids, 1):
-        rot = banco[rid]
+        rot = banco.get(rid) or json.loads((RAIZ / rid).read_text(encoding='utf-8'))  # aceita caminho .json (ex.: anúncios)
         print(f'[{k}/{len(ids)}] {rid}', flush=True)
         pasta = saida / rid
         try:
@@ -39,7 +39,7 @@ def main():
         nome = f'{k:02d}-{rid}.mp4'
         shutil.move(pasta / 'reel.mp4', saida / nome)
         legendas.append(f"=== {nome} ===\n{rot['legenda']}\n\n{rot.get('hashtags', '')}\n")
-        usados.append({'id': rid, 'quando': datetime.now(reels.BRT).isoformat()})
+        if rid in banco: usados.append({'id': rid, 'quando': datetime.now(reels.BRT).isoformat()})
     (saida / 'legendas.txt').write_text('\n'.join(legendas), encoding='utf-8')
     tag = 'tiktok-' + datetime.now(reels.BRT).strftime('%Y%m%d-%H%M')
     notas = ('Vídeos prontos para o TikTok. Baixe pelo celular ou agende no TikTok Studio (computador) '
