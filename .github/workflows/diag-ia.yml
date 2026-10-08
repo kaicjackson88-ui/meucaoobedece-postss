@@ -1,0 +1,23 @@
+name: Diagnóstico IA gratuita
+on: workflow_dispatch
+permissions:
+  contents: write
+  models: read
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Testar
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p dados
+          {
+          echo "== curl -L =="; curl -sS -L -i -X POST https://models.github.ai/inference/chat/completions \
+            -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $GITHUB_TOKEN" -H "X-GitHub-Api-Version: 2022-11-28" -H "Content-Type: application/json" \
+            -d '{"model":"openai/gpt-4.1-mini","messages":[{"role":"user","content":"diga oi"}]}' | head -c 1500
+          echo; echo "== catalog =="; curl -sS -i https://models.github.ai/catalog/models -H "Authorization: Bearer $GITHUB_TOKEN" | head -c 600
+          } > dados/diag_ia.txt 2>&1
+          git config user.name robo; git config user.email robo@users.noreply.github.com
+          git add dados/diag_ia.txt && git commit -qm "diag ia" && git pull --rebase -q && git push -q
