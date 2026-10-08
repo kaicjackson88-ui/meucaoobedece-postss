@@ -20,7 +20,7 @@
   "menta",
   "noite"
  ],
- "tiktok_por_dia": 3,
+ "tiktok_por_dia": 0,
  "tiktok_hora_inicio": "08:00",
  "carrossel_horarios": [
   "07:00",
@@ -32,5 +32,6 @@
  "historia_horarios": [
   "14:00",
   "20:00"
- ]
+ ],
+ "espelhar_tiktok": true
 }

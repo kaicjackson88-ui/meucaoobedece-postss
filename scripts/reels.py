@@ -543,7 +543,7 @@ def cmd_turno(minutos=320):
         if os.environ.get('TIKTOK_CLIENT_SECRET'):
             try:
                 import tiktok_rascunho as tt
-                if tt.TOKEN_ARQ.exists() and tt.faltam_hoje() > 0 and datetime.now(BRT).strftime('%H:%M') >= tt.INICIO:
+                if tt.TOKEN_ARQ.exists() and ((tt.faltam_hoje() > 0 and datetime.now(BRT).strftime('%H:%M') >= tt.INICIO) or ler_json(tt.FILA, [])):
                     tt.enviar(1)
             except Exception as e:
                 print('⚠️ TikTok falhou (sigo com o Instagram):', e)
@@ -615,6 +615,12 @@ def cmd_postar(args):
                        'publicado_em': datetime.now(timezone.utc).isoformat()})
     gravar_json(pub_path, publicados)
     print('Publicado!', link)
+    if CFG.get('espelhar_tiktok', True) and os.environ.get('TIKTOK_CLIENT_SECRET'):
+        try:  # o mesmo vídeo vai pros rascunhos do TikTok
+            import tiktok_rascunho as tt
+            tt.espelhar(pasta / 'reel.mp4', rot['id'], legenda, url)
+        except Exception as e:
+            print('⚠️ TikTok (espelho) falhou:', e)
 
 
 def main():

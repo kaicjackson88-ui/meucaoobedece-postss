@@ -23,6 +23,7 @@ TOKEN_ARQ = RAIZ / 'dados' / 'tiktok_token.enc'
 ENVIADOS = RAIZ / 'dados' / 'tiktok_rascunhos.json'
 USADOS = RAIZ / 'dados' / 'tiktok_usados.json'
 BANCO = RAIZ / 'tiktok' / 'banco'
+FILA = RAIZ / 'dados' / 'tiktok_fila.json'  # espelhos do Instagram que ainda não entraram (limite de rascunhos pendentes)
 POR_DIA = int(reels.CFG.get('tiktok_por_dia', 3))
 INICIO = reels.CFG.get('tiktok_hora_inicio', '08:00')
 
@@ -104,7 +105,47 @@ def hoje():
 
 def faltam_hoje():
     env = reels.ler_json(ENVIADOS, [])
-    return max(0, POR_DIA - sum(1 for e in env if e['data'] == hoje() and e.get('status') != 'FAILED'))
+    return max(0, POR_DIA - sum(1 for e in env if e['data'] == hoje() and e.get('status') != 'FAILED' and e.get('tipo') != 'espelho'))
+
+
+def espelhar(arq, rid, legenda, url=None):
+    """Manda pro TikTok o mesmo vídeo que acabou de sair no Instagram. Se não der (ex.: limite de 5 rascunhos
+    pendentes), guarda na fila e tenta de novo nas próximas horas."""
+    if not CK or not CS or not TOKEN_ARQ.exists():
+        return
+    try:
+        pid, st = enviar_video(access_token(), Path(arq))
+        if st == 'FAILED':
+            raise RuntimeError('status FAILED')
+    except Exception as e:
+        fila = reels.ler_json(FILA, []); fila.append({'id': rid, 'url': url, 'legenda': legenda, 'erro': str(e)[:200], 'quando': datetime.now(reels.BRT).isoformat()})
+        reels.gravar_json(FILA, fila); print('TikTok: ficou na fila —', e); return
+    env = reels.ler_json(ENVIADOS, [])
+    env.append({'data': hoje(), 'id': rid, 'tipo': 'espelho', 'legenda': legenda, 'publish_id': pid, 'status': st, 'quando': datetime.now(reels.BRT).isoformat()})
+    reels.gravar_json(ENVIADOS, env); atualizar_pagina_legendas()
+    print('TikTok: espelho nos rascunhos:', st)
+
+
+def processar_fila():
+    fila = reels.ler_json(FILA, [])
+    if not fila or not TOKEN_ARQ.exists():
+        return
+    at = access_token(); resto = []
+    for i, item in enumerate(fila):
+        try:
+            arq = Path(tempfile.mkdtemp(prefix='ttf-')) / 'v.mp4'
+            urllib.request.urlretrieve(item['url'], arq)
+        except Exception as e:
+            print('TikTok fila: vídeo não está mais disponível, descartei', item['id'], e); continue
+        try:
+            pid, st = enviar_video(at, arq)
+            if st == 'FAILED': raise RuntimeError('status FAILED')
+        except Exception as e:
+            print('TikTok fila: ainda não deu, tento depois —', e); resto = fila[i:]; break
+        env = reels.ler_json(ENVIADOS, [])
+        env.append({'data': hoje(), 'id': item['id'], 'tipo': 'espelho', 'legenda': item.get('legenda', ''), 'publish_id': pid, 'status': st, 'quando': datetime.now(reels.BRT).isoformat()})
+        reels.gravar_json(ENVIADOS, env)
+    reels.gravar_json(FILA, resto); atualizar_pagina_legendas()
 
 
 def atualizar_pagina_legendas():
@@ -113,7 +154,7 @@ def atualizar_pagina_legendas():
     blocos = []
     for i, e in enumerate(env):
         r = banco.get(e['id'], {})
-        leg = (r.get('legenda', '') + '\n\n' + r.get('hashtags', '')).strip()
+        leg = e.get('legenda') or (r.get('legenda', '') + '\n\n' + r.get('hashtags', '')).strip()
         blocos.append(f'<div class="caixa"><b>{escape(e["data"])} · {escape(e["id"])}</b><pre id="l{i}">{escape(leg)}</pre>'
                       f'<p><button onclick="navigator.clipboard.writeText(document.getElementById(\'l{i}\').textContent);this.textContent=\'Copiado ✓\'">Copiar legenda</button></p></div>')
     html = ('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
@@ -124,6 +165,10 @@ def atualizar_pagina_legendas():
 
 
 def enviar(qtd=None):
+    try:
+        processar_fila()
+    except Exception as e:
+        print('TikTok fila falhou:', e)
     qtd = qtd or faltam_hoje()
     if qtd <= 0:
         print('Hoje já foi tudo pros rascunhos.'); return
@@ -154,7 +199,7 @@ def main():
     if a[0] == 'precisa':
         hh, mm = map(int, INICIO.split(':'))
         agora = datetime.now(reels.BRT)
-        ok = TOKEN_ARQ.exists() and agora >= agora.replace(hour=hh, minute=mm) and faltam_hoje() > 0
+        ok = TOKEN_ARQ.exists() and ((agora >= agora.replace(hour=hh, minute=mm) and faltam_hoje() > 0) or bool(reels.ler_json(FILA, [])))
         print('sim' if ok else 'nao'); return
     if not CK or not CS:
         sys.exit('Faltam os segredos TIKTOK_CLIENT_KEY e TIKTOK_CLIENT_SECRET no GitHub.')
