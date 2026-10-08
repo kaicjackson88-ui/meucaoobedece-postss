@@ -5,8 +5,9 @@ então o código faz poucas chamadas e tenta outro modelo se um estiver no limit
 """
 import json, os, time, urllib.error, urllib.request
 
-URL = 'https://models.github.ai/inference/chat/completions'
-MODELOS = ['openai/gpt-4.1-mini', 'openai/gpt-4o-mini', 'meta/Llama-4-Scout-17B-16E-Instruct']
+# dois endereços do GitHub Models (o novo e o antigo); usa o que responder
+ROTAS = [('https://models.github.ai/inference/chat/completions', ['openai/gpt-4.1-mini', 'openai/gpt-4o-mini']),
+         ('https://models.inference.ai.azure.com/chat/completions', ['gpt-4o-mini', 'gpt-4o'])]
 
 
 def disponivel():
@@ -18,15 +19,16 @@ def perguntar(sistema, usuario, max_tokens=3500, temperatura=0.8, json_saida=Fal
     if not tok:
         raise RuntimeError('sem GITHUB_TOKEN (IA gratuita indisponível)')
     ultimo = None
-    for modelo in MODELOS:
+    for URL, modelos in ROTAS:
+      for modelo in modelos:
         corpo = {'model': modelo, 'temperature': temperatura, 'max_tokens': max_tokens,
                  'messages': [{'role': 'system', 'content': sistema}, {'role': 'user', 'content': usuario}]}
-        if json_saida and modelo.startswith('openai/'):
+        if json_saida and 'gpt' in modelo:
             corpo['response_format'] = {'type': 'json_object'}
         for tentativa in range(2):
             req = urllib.request.Request(URL, data=json.dumps(corpo).encode(), method='POST',
                                          headers={'Authorization': f'Bearer {tok}', 'Content-Type': 'application/json',
-                                                  'Accept': 'application/vnd.github+json'})
+                                                  'Accept': 'application/json', 'X-GitHub-Api-Version': '2022-11-28'})
             try:
                 with urllib.request.urlopen(req, timeout=180) as r:
                     bruto = r.read().decode(errors='replace')
