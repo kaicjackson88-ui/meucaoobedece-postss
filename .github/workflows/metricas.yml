@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: robo-instagram
+  group: metricas
   cancel-in-progress: false
 
 jobs:
