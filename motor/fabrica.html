@@ -1,0 +1,604 @@
+<title>Fábrica de Carrosséis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800;900&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<style>
+/* Layout: painel de controle fixo à esquerda + esteira de carrosséis à direita; empilha no celular */
+:root{
+  --bg:#FBF5EC; --surface:#FFFFFF; --sunk:#F3E9DC; --ink:#2A2622; --muted:#6B6158; --line:#E4D6C4;
+  --amber:#E8913C; --amber-strong:#B8641C; --on-amber:#2A2622; --teal:#1F7A6C; --on-teal:#FFFFFF;
+  --danger:#B42318; --ok:#1F7A6C; --shadow:0 1px 0 rgba(42,38,34,.06),0 8px 24px -12px rgba(42,38,34,.25);
+  --f-display:'Fredoka','Nunito',system-ui,sans-serif; --f-body:'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1B1815; --surface:#25211D; --sunk:#2E2924; --ink:#F3EBE0; --muted:#B4A796; --line:#3B342E;
+  --amber:#F0A050; --amber-strong:#F5B573; --on-amber:#1B1815; --teal:#4CBFA9; --on-teal:#10201D;
+  --danger:#F97066; --ok:#4CBFA9; --shadow:0 1px 0 rgba(0,0,0,.3),0 8px 24px -12px rgba(0,0,0,.6); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1B1815; --surface:#25211D; --sunk:#2E2924; --ink:#F3EBE0; --muted:#B4A796; --line:#3B342E;
+  --amber:#F0A050; --amber-strong:#F5B573; --on-amber:#1B1815; --teal:#4CBFA9; --on-teal:#10201D;
+  --danger:#F97066; --ok:#4CBFA9; --shadow:0 1px 0 rgba(0,0,0,.3),0 8px 24px -12px rgba(0,0,0,.6); color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;padding-inline:16px;padding-block:20px 48px}
+.wrap{max-width:1320px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-mark{width:44px;height:44px;border-radius:14px;background:var(--amber);display:grid;place-items:center;flex:none}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(24px,3.4vw,34px);line-height:1.05;margin:0;letter-spacing:-.5px;text-wrap:balance}
+.sub{color:var(--muted);margin:2px 0 0;font-weight:700;font-size:14px}
+.stats{display:flex;gap:8px;flex-wrap:wrap}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-weight:800;font-size:13px;font-variant-numeric:tabular-nums}
+.stat b{font-family:var(--f-display);font-size:16px}
+.app{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;align-items:start}
+@media (min-width:1000px){.app{grid-template-columns:360px minmax(0,1fr)}.panel{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);max-height:calc(100vh - 32px);overflow:auto}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:18px;display:flex;flex-direction:column;gap:18px;box-shadow:var(--shadow);min-width:0}
+.group{display:flex;flex-direction:column;gap:10px}
+.glabel{font-family:var(--f-display);font-weight:600;font-size:17px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.glabel small{font-family:var(--f-body);font-weight:700;color:var(--muted);font-size:12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{appearance:none;border:1.5px solid var(--line);background:var(--sunk);color:var(--ink);border-radius:999px;padding:7px 12px;font:800 13px/1 var(--f-body);cursor:pointer;min-height:36px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip.ia{border-style:dashed}
+.chip:focus-visible,.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,.thumb:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.field{display:flex;flex-direction:column;gap:4px;min-width:0}
+.field label{font-weight:800;font-size:12px;color:var(--muted);letter-spacing:.3px;text-transform:uppercase}
+input,select,textarea{font:700 14px/1.3 var(--f-body);color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:12px;padding:9px 11px;min-height:40px;width:100%;min-width:0}
+textarea{resize:vertical;min-height:120px;font-weight:600;line-height:1.45}
+.times{display:flex;flex-wrap:wrap;gap:6px}
+.times input{width:auto;flex:1 1 92px;font-variant-numeric:tabular-nums}
+.times input[disabled]{opacity:.35}
+.qty{display:flex;align-items:center;gap:10px}
+.qty input[type=range]{flex:1;accent-color:var(--amber);padding:0;border:0;background:none;min-height:auto}
+.qty output{font-family:var(--f-display);font-weight:700;font-size:26px;min-width:44px;text-align:right;font-variant-numeric:tabular-nums}
+.btn{appearance:none;border-radius:14px;padding:11px 16px;font:900 14px/1 var(--f-body);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;background:var(--sunk);color:var(--ink);border:1.5px solid var(--line);text-decoration:none}
+.btn:hover{border-color:var(--ink)}
+.btn.primary{background:var(--amber);color:var(--on-amber);border-color:transparent;font-size:16px;font-family:var(--f-display);font-weight:700;letter-spacing:.2px;box-shadow:0 4px 0 var(--amber-strong)}
+.btn.primary:active{transform:translateY(2px);box-shadow:0 2px 0 var(--amber-strong)}
+.btn.dark{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.btn.ghost{background:transparent}
+.btn.danger{color:var(--danger)}
+.btn[disabled]{opacity:.5;cursor:progress}
+.btn svg{flex:none}
+.hint{font-size:12.5px;color:var(--muted);font-weight:700;margin:0}
+.ia-box{display:flex;flex-direction:column;gap:8px;padding:12px;border:1.5px dashed var(--line);border-radius:16px}
+.ia-box .r{display:flex;gap:8px}
+.ia-box .r input{flex:1}
+.status{font-size:12.5px;font-weight:800;color:var(--muted);min-height:1em;margin:0}
+.status.err{color:var(--danger)}
+.status.ok{color:var(--ok)}
+.main{display:flex;flex-direction:column;gap:14px;min-width:0}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:10px 12px}
+.toolbar .l{font-family:var(--f-display);font-weight:600;font-size:18px}
+.toolbar .r{display:flex;flex-wrap:wrap;gap:8px}
+.list{display:flex;flex-direction:column;gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:14px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card-head{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;justify-content:space-between}
+.when{display:flex;align-items:center;gap:10px;min-width:0}
+.num{font-family:var(--f-display);font-weight:700;font-size:15px;background:var(--ink);color:var(--bg);border-radius:10px;min-width:36px;height:30px;display:grid;place-items:center;padding:0 8px;font-variant-numeric:tabular-nums}
+.when-t{display:flex;flex-direction:column;min-width:0}
+.when-t b{font-family:var(--f-display);font-weight:600;font-size:17px;line-height:1.1}
+.when-t span{font-size:12.5px;color:var(--muted);font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tag{font-size:11.5px;font-weight:900;letter-spacing:.6px;text-transform:uppercase;border-radius:999px;padding:5px 10px;background:var(--sunk);color:var(--muted)}
+.strip{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scroll-snap-type:x mandatory}
+.thumb{flex:0 0 auto;width:calc((100% - 32px)/5);min-width:118px;aspect-ratio:4/5;border-radius:12px;overflow:hidden;background:var(--sunk);border:0;padding:0;cursor:zoom-in;scroll-snap-align:start;position:relative}
+.thumb canvas{width:100%;height:100%;display:block}
+.thumb .n{position:absolute;left:6px;top:6px;background:rgba(42,38,34,.78);color:#FDF7EE;font:900 11px/1 var(--f-body);border-radius:6px;padding:3px 6px}
+.cap details{border:1px solid var(--line);border-radius:14px;padding:0 12px;background:var(--bg)}
+.cap summary{cursor:pointer;padding:10px 0;font-weight:900;font-size:13px;list-style:none;display:flex;justify-content:space-between;gap:8px}
+.cap summary::-webkit-details-marker{display:none}
+.cap summary span{color:var(--muted);font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.cap details[open] summary{border-bottom:1px solid var(--line);margin-bottom:10px}
+.cap textarea{margin-bottom:10px;background:var(--surface)}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.actions .btn{flex:1 1 auto}
+.empty{border:2px dashed var(--line);border-radius:22px;padding:36px 20px;text-align:center;display:flex;flex-direction:column;gap:6px;align-items:center}
+.empty b{font-family:var(--f-display);font-weight:600;font-size:20px}
+.empty p{margin:0;color:var(--muted);font-weight:700;max-width:46ch}
+.lb{position:fixed;inset:0;background:rgba(20,17,14,.86);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:calc(env(safe-area-inset-top,0px) + 16px) 16px calc(env(safe-area-inset-bottom,0px) + 16px);z-index:20}
+.lb canvas{max-width:min(540px,100%);max-height:calc(100% - 80px);width:auto;height:auto;border-radius:14px;aspect-ratio:4/5;background:#FDF7EE}
+.lb .nav{display:flex;gap:10px;align-items:center;color:#FDF7EE;font-weight:900}
+.lb .btn{background:#FDF7EE;color:#2A2622;border-color:#FDF7EE}
+.lb[hidden],.toast[hidden],[hidden]{display:none!important}
+.toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + 20px);transform:translateX(-50%);background:var(--ink);color:var(--bg);font-weight:800;padding:12px 18px;border-radius:14px;z-index:30;max-width:calc(100% - 32px);box-shadow:var(--shadow)}
+.note{background:var(--sunk);border-radius:14px;padding:10px 12px;font-size:12.5px;font-weight:700;color:var(--muted);margin:0}
+.note b{color:var(--ink)}
+@media (max-width:560px){.row{grid-template-columns:1fr}.toolbar .r .btn{flex:1 1 auto}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="#2A2622"><circle cx="6" cy="9" r="2.4"/><circle cx="10" cy="5.2" r="2.4"/><circle cx="14.5" cy="5.2" r="2.4"/><circle cx="18.4" cy="9" r="2.4"/><path d="M12.2 10.5c3.3 0 6 3.6 6 6.4 0 2-1.6 3-3.3 3-1.2 0-1.8-.6-2.7-.6s-1.6.6-2.8.6C7.7 19.9 6.2 18.9 6.2 17c0-2.8 2.7-6.5 6-6.5z"/></svg></div>
+      <div>
+        <h1>Fábrica de Carrosséis</h1>
+        <p class="sub">Meu Cão Obedece · 5 slides por carrossel, legenda e hashtags prontas</p>
+      </div>
+    </div>
+    <div class="stats" aria-live="polite">
+      <span class="stat"><b id="stQtd">0</b> carrosséis</span>
+      <span class="stat"><b id="stImg">0</b> imagens</span>
+      <span class="stat" id="stAte">sem agenda</span>
+    </div>
+  </header>
+
+  <div class="app">
+    <form class="panel" id="painel" autocomplete="off">
+      <div class="group">
+        <div class="glabel">Temas <small>escolha um ou vários</small></div>
+        <div class="chips" id="chips"></div>
+        <div class="ia-box" id="iaBox" hidden>
+          <label class="hint" for="iaTema">Tema novo, escrito por IA</label>
+          <div class="r">
+            <input id="iaTema" placeholder="Ex.: cão com medo de banho" maxlength="80">
+            <button class="btn dark" type="button" id="iaBtn">Criar</button>
+          </div>
+          <p class="status" id="iaStatus"></p>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="glabel">Quantos carrosséis <small>até 60 por vez</small></div>
+        <div class="qty"><input type="range" id="qtd" min="1" max="60" value="6" aria-label="Quantidade de carrosséis"><output id="qtdOut" for="qtd">6</output></div>
+        <div class="row">
+          <div class="field"><label for="paleta">Cor da capa</label><select id="paleta"></select></div>
+          <div class="field"><label for="pelagem">Pelagem do mascote</label><select id="pelagem"></select></div>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="glabel">Chamada final</div>
+        <div class="row">
+          <div class="field"><label for="kw">Palavra do comentário</label><input id="kw" value="XIXI" maxlength="12"></div>
+          <div class="field"><label for="link">Onde está o quiz</label><input id="link" value="no link da bio" maxlength="24"></div>
+        </div>
+        <div class="field"><label for="marca">Nome na capa</label><input id="marca" value="Meu Cão Obedece" maxlength="26"></div>
+      </div>
+
+      <div class="group">
+        <div class="glabel">Agenda de postagem</div>
+        <div class="row">
+          <div class="field"><label for="inicio">Começa em</label><input type="date" id="inicio"></div>
+          <div class="field"><label for="porDia">Posts por dia</label><select id="porDia"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option></select></div>
+        </div>
+        <div class="field"><label>Horários</label>
+          <div class="times" id="times">
+            <input type="time" id="h1" value="12:00" aria-label="Horário 1">
+            <input type="time" id="h2" value="19:00" aria-label="Horário 2">
+            <input type="time" id="h3" value="08:30" aria-label="Horário 3">
+            <input type="time" id="h4" value="15:30" aria-label="Horário 4">
+            <input type="time" id="h5" value="21:00" aria-label="Horário 5">
+          </div>
+        </div>
+        <p class="hint">Os horários vão na legenda de cada carrossel e na planilha de agenda.</p>
+      </div>
+
+      <button class="btn primary" type="submit" id="gerar">Gerar carrosséis</button>
+      <p class="note" id="dlNote" hidden><b>Downloads indisponíveis nesta tela.</b> Abra este link no app ou no site do Claude para baixar.</p>
+    </form>
+
+    <section class="main" aria-label="Carrosséis gerados">
+      <div class="toolbar">
+        <div class="l" id="tbTitulo">Seu lote</div>
+        <div class="r">
+          <button class="btn dark" type="button" id="zipTudo" data-dl>Baixar lote (.zip)</button>
+          <button class="btn" type="button" id="csvBtn" data-dl>Agenda (.csv)</button>
+          <button class="btn ghost danger" type="button" id="limpar">Limpar lote</button>
+        </div>
+      </div>
+      <div class="list" id="lista"></div>
+    </section>
+  </div>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Slide ampliado">
+  <canvas id="lbCanvas" width="1080" height="1350"></canvas>
+  <div class="nav">
+    <button class="btn" type="button" id="lbPrev" aria-label="Slide anterior">‹</button>
+    <span id="lbPos">1/5</span>
+    <button class="btn" type="button" id="lbNext" aria-label="Próximo slide">›</button>
+    <button class="btn" type="button" id="lbClose">Fechar</button>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const SVGS = {"bravo": "<svg viewBox=\"0 -30 220 282\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"110\" cy=\"236\" rx=\"55.0\" ry=\"8\" fill=\"#2A2622\" opacity=\"0.09\"/><g><path d=\"M155.0 170.3 C181.0 166.3 193.0 148.3 189.0 122.3\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"19\" stroke-linecap=\"round\"/><path d=\"M155.0 170.3 C181.0 166.3 193.0 148.3 189.0 122.3\" fill=\"none\" stroke=\"#D89A50\" stroke-width=\"11\" stroke-linecap=\"round\"/></g><g><path d=\"M110 124.2 C135.0 124.2 153.0 151.1 156.0 183.8 C159.0 212.6 152.0 226 137.0 226 L83.0 226 C68.0 226 61.0 212.6 64.0 183.8 C67.0 151.1 85.0 124.2 110 124.2 Z\" fill=\"#F0B872\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"85.0\" cy=\"218\" rx=\"18\" ry=\"11\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><ellipse cx=\"135.0\" cy=\"218\" rx=\"18\" ry=\"11\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><g transform=\"translate(110,76.0) scale(1.0) translate(-110,-76)\"><g><g><path d=\"M56.0 42 C26.0 44 12.0 76 18.0 112 C22.0 136 44.0 142 52.0 124 C46.0 94 50.0 62 56.0 48 Z\" fill=\"#D89A50\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><g><path d=\"M164.0 42 C194.0 44 208.0 76 202.0 112 C198.0 136 176.0 142 168.0 124 C174.0 94 170.0 62 164.0 48 Z\" fill=\"#D89A50\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"110\" cy=\"76\" rx=\"63\" ry=\"57\" fill=\"#F0B872\" stroke=\"#2A2622\" stroke-width=\"5\"/><ellipse cx=\"110\" cy=\"101\" rx=\"37\" ry=\"27\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><g><path d=\"M110 112.34 C121.1 112.34 121.84 129.35 110 133.4 C98.16 129.35 98.9 112.34 110 112.34 Z\" fill=\"#FF97A6\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"110\" cy=\"89.66\" rx=\"14.1\" ry=\"9.7\" fill=\"#2A2622\"/><ellipse cx=\"104.8\" cy=\"85.9\" rx=\"3.7\" ry=\"2.4\" fill=\"#FFFFFF\" opacity=\".5\"/><path d=\"M110 99.38 L110 106.94 M110 106.94 C101.86 117.2 92.98 113.42 91.5 105.32 M110 106.94 C118.14 117.2 127.02 113.42 128.5 105.32\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><ellipse cx=\"84\" cy=\"66\" rx=\"16\" ry=\"19\" fill=\"#FFFFFF\" stroke=\"#2A2622\" stroke-width=\"5\"/><circle cx=\"82.5\" cy=\"68\" r=\"11\" fill=\"#2A2622\"/><circle cx=\"79\" cy=\"63\" r=\"4.6\" fill=\"#FFFFFF\"/><circle cx=\"86\" cy=\"71\" r=\"2.2\" fill=\"#FFFFFF\" opacity=\".85\"/><ellipse cx=\"136\" cy=\"66\" rx=\"16\" ry=\"19\" fill=\"#FFFFFF\" stroke=\"#2A2622\" stroke-width=\"5\"/><circle cx=\"137.5\" cy=\"68\" r=\"11\" fill=\"#2A2622\"/><circle cx=\"134\" cy=\"63\" r=\"4.6\" fill=\"#FFFFFF\"/><circle cx=\"141\" cy=\"71\" r=\"2.2\" fill=\"#FFFFFF\" opacity=\".85\"/><path d=\"M62 40 C72 34 90 38 98 46\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"7\" stroke-linecap=\"round\"/><path d=\"M158 40 C148 34 130 38 122 46\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"7\" stroke-linecap=\"round\"/></g></g><path d=\"M74.0 131.9 L146.0 131.9 L146.0 143.4 L74.0 143.4 Z\" fill=\"#E8913C\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"153.0\" r=\"10\" fill=\"#F5C451\" stroke=\"#2A2622\" stroke-width=\"5\"/></svg>", "normal": "<svg viewBox=\"0 -30 220 282\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"110\" cy=\"236\" rx=\"55.0\" ry=\"8\" fill=\"#2A2622\" opacity=\"0.09\"/><g><path d=\"M155.0 170.3 C181.0 166.3 193.0 148.3 189.0 122.3\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"19\" stroke-linecap=\"round\"/><path d=\"M155.0 170.3 C181.0 166.3 193.0 148.3 189.0 122.3\" fill=\"none\" stroke=\"#D89A50\" stroke-width=\"11\" stroke-linecap=\"round\"/></g><g><path d=\"M110 124.2 C135.0 124.2 153.0 151.1 156.0 183.8 C159.0 212.6 152.0 226 137.0 226 L83.0 226 C68.0 226 61.0 212.6 64.0 183.8 C67.0 151.1 85.0 124.2 110 124.2 Z\" fill=\"#F0B872\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"85.0\" cy=\"218\" rx=\"18\" ry=\"11\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><ellipse cx=\"135.0\" cy=\"218\" rx=\"18\" ry=\"11\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><g transform=\"translate(110,76.0) scale(1.0) translate(-110,-76)\"><g><g><path d=\"M56.0 42 C26.0 44 12.0 76 18.0 112 C22.0 136 44.0 142 52.0 124 C46.0 94 50.0 62 56.0 48 Z\" fill=\"#D89A50\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><g><path d=\"M164.0 42 C194.0 44 208.0 76 202.0 112 C198.0 136 176.0 142 168.0 124 C174.0 94 170.0 62 164.0 48 Z\" fill=\"#D89A50\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"110\" cy=\"76\" rx=\"63\" ry=\"57\" fill=\"#F0B872\" stroke=\"#2A2622\" stroke-width=\"5\"/><ellipse cx=\"110\" cy=\"101\" rx=\"37\" ry=\"27\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><g><path d=\"M110 112.34 C121.1 112.34 121.84 129.35 110 133.4 C98.16 129.35 98.9 112.34 110 112.34 Z\" fill=\"#FF97A6\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"110\" cy=\"89.66\" rx=\"14.1\" ry=\"9.7\" fill=\"#2A2622\"/><ellipse cx=\"104.8\" cy=\"85.9\" rx=\"3.7\" ry=\"2.4\" fill=\"#FFFFFF\" opacity=\".5\"/><path d=\"M110 99.38 L110 106.94 M110 106.94 C101.86 117.2 92.98 113.42 91.5 105.32 M110 106.94 C118.14 117.2 127.02 113.42 128.5 105.32\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><ellipse cx=\"84\" cy=\"66\" rx=\"16\" ry=\"19\" fill=\"#FFFFFF\" stroke=\"#2A2622\" stroke-width=\"5\"/><circle cx=\"82.5\" cy=\"68\" r=\"11\" fill=\"#2A2622\"/><circle cx=\"79\" cy=\"63\" r=\"4.6\" fill=\"#FFFFFF\"/><circle cx=\"86\" cy=\"71\" r=\"2.2\" fill=\"#FFFFFF\" opacity=\".85\"/><ellipse cx=\"136\" cy=\"66\" rx=\"16\" ry=\"19\" fill=\"#FFFFFF\" stroke=\"#2A2622\" stroke-width=\"5\"/><circle cx=\"137.5\" cy=\"68\" r=\"11\" fill=\"#2A2622\"/><circle cx=\"134\" cy=\"63\" r=\"4.6\" fill=\"#FFFFFF\"/><circle cx=\"141\" cy=\"71\" r=\"2.2\" fill=\"#FFFFFF\" opacity=\".85\"/></g></g><path d=\"M74.0 131.9 L146.0 131.9 L146.0 143.4 L74.0 143.4 Z\" fill=\"#E8913C\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"153.0\" r=\"10\" fill=\"#F5C451\" stroke=\"#2A2622\" stroke-width=\"5\"/></svg>", "dorminhoco": "<svg viewBox=\"0 -30 220 282\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"110\" cy=\"236\" rx=\"55.0\" ry=\"8\" fill=\"#2A2622\" opacity=\"0.09\"/><g><path d=\"M155.0 170.3 C181.0 166.3 193.0 148.3 189.0 122.3\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"19\" stroke-linecap=\"round\"/><path d=\"M155.0 170.3 C181.0 166.3 193.0 148.3 189.0 122.3\" fill=\"none\" stroke=\"#D89A50\" stroke-width=\"11\" stroke-linecap=\"round\"/></g><g><path d=\"M110 124.2 C135.0 124.2 153.0 151.1 156.0 183.8 C159.0 212.6 152.0 226 137.0 226 L83.0 226 C68.0 226 61.0 212.6 64.0 183.8 C67.0 151.1 85.0 124.2 110 124.2 Z\" fill=\"#F0B872\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"85.0\" cy=\"218\" rx=\"18\" ry=\"11\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><ellipse cx=\"135.0\" cy=\"218\" rx=\"18\" ry=\"11\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><g transform=\"translate(110,76.0) scale(1.0) translate(-110,-76)\"><g><g><path d=\"M56.0 42 C26.0 44 12.0 76 18.0 112 C22.0 136 44.0 142 52.0 124 C46.0 94 50.0 62 56.0 48 Z\" fill=\"#D89A50\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><g><path d=\"M164.0 42 C194.0 44 208.0 76 202.0 112 C198.0 136 176.0 142 168.0 124 C174.0 94 170.0 62 164.0 48 Z\" fill=\"#D89A50\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"110\" cy=\"76\" rx=\"63\" ry=\"57\" fill=\"#F0B872\" stroke=\"#2A2622\" stroke-width=\"5\"/><ellipse cx=\"110\" cy=\"101\" rx=\"37\" ry=\"27\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><g><path d=\"M110 112.34 C121.1 112.34 121.84 129.35 110 133.4 C98.16 129.35 98.9 112.34 110 112.34 Z\" fill=\"#FF97A6\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"110\" cy=\"89.66\" rx=\"14.1\" ry=\"9.7\" fill=\"#2A2622\"/><ellipse cx=\"104.8\" cy=\"85.9\" rx=\"3.7\" ry=\"2.4\" fill=\"#FFFFFF\" opacity=\".5\"/><path d=\"M110 99.38 L110 106.94 M110 106.94 C101.86 117.2 92.98 113.42 91.5 105.32 M110 106.94 C118.14 117.2 127.02 113.42 128.5 105.32\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><ellipse cx=\"84\" cy=\"64\" rx=\"16\" ry=\"11\" fill=\"#FFFFFF\" stroke=\"#2A2622\" stroke-width=\"5\"/><circle cx=\"82.5\" cy=\"66\" r=\"8\" fill=\"#2A2622\"/><circle cx=\"79\" cy=\"61\" r=\"3.4\" fill=\"#FFFFFF\"/><circle cx=\"86\" cy=\"69\" r=\"1.6\" fill=\"#FFFFFF\" opacity=\".85\"/><ellipse cx=\"136\" cy=\"64\" rx=\"16\" ry=\"11\" fill=\"#FFFFFF\" stroke=\"#2A2622\" stroke-width=\"5\"/><circle cx=\"137.5\" cy=\"66\" r=\"8\" fill=\"#2A2622\"/><circle cx=\"134\" cy=\"61\" r=\"3.4\" fill=\"#FFFFFF\"/><circle cx=\"141\" cy=\"69\" r=\"1.6\" fill=\"#FFFFFF\" opacity=\".85\"/><path d=\"M68 56 L100 56 M120 56 L152 56\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linecap=\"round\"/></g></g><path d=\"M74.0 131.9 L146.0 131.9 L146.0 143.4 L74.0 143.4 Z\" fill=\"#E8913C\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"153.0\" r=\"10\" fill=\"#F5C451\" stroke=\"#2A2622\" stroke-width=\"5\"/></svg>", "feliz": "<svg viewBox=\"0 -30 220 282\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"110\" cy=\"236\" rx=\"55.0\" ry=\"8\" fill=\"#2A2622\" opacity=\"0.09\"/><g><path d=\"M155.0 170.3 C181.0 166.3 193.0 148.3 189.0 122.3\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"19\" stroke-linecap=\"round\"/><path d=\"M155.0 170.3 C181.0 166.3 193.0 148.3 189.0 122.3\" fill=\"none\" stroke=\"#D89A50\" stroke-width=\"11\" stroke-linecap=\"round\"/></g><g><path d=\"M110 124.2 C135.0 124.2 153.0 151.1 156.0 183.8 C159.0 212.6 152.0 226 137.0 226 L83.0 226 C68.0 226 61.0 212.6 64.0 183.8 C67.0 151.1 85.0 124.2 110 124.2 Z\" fill=\"#F0B872\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"85.0\" cy=\"218\" rx=\"18\" ry=\"11\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><ellipse cx=\"135.0\" cy=\"218\" rx=\"18\" ry=\"11\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><g transform=\"translate(110,76.0) scale(1.0) translate(-110,-76)\"><g><g><path d=\"M56.0 42 C26.0 44 12.0 76 18.0 112 C22.0 136 44.0 142 52.0 124 C46.0 94 50.0 62 56.0 48 Z\" fill=\"#D89A50\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><g><path d=\"M164.0 42 C194.0 44 208.0 76 202.0 112 C198.0 136 176.0 142 168.0 124 C174.0 94 170.0 62 164.0 48 Z\" fill=\"#D89A50\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"110\" cy=\"76\" rx=\"63\" ry=\"57\" fill=\"#F0B872\" stroke=\"#2A2622\" stroke-width=\"5\"/><ellipse cx=\"110\" cy=\"101\" rx=\"37\" ry=\"27\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><g><path d=\"M110 112.34 C121.1 112.34 121.84 129.35 110 133.4 C98.16 129.35 98.9 112.34 110 112.34 Z\" fill=\"#FF97A6\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"110\" cy=\"89.66\" rx=\"14.1\" ry=\"9.7\" fill=\"#2A2622\"/><ellipse cx=\"104.8\" cy=\"85.9\" rx=\"3.7\" ry=\"2.4\" fill=\"#FFFFFF\" opacity=\".5\"/><path d=\"M110 99.38 L110 106.94 M110 106.94 C101.86 117.2 92.98 113.42 91.5 105.32 M110 106.94 C118.14 117.2 127.02 113.42 128.5 105.32\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><path d=\"M66 70 C75 54 93 54 102 70\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M118 70 C127 54 145 54 154 70\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"6\" stroke-linecap=\"round\"/></g></g><path d=\"M74.0 131.9 L146.0 131.9 L146.0 143.4 L74.0 143.4 Z\" fill=\"#E8913C\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"153.0\" r=\"10\" fill=\"#F5C451\" stroke=\"#2A2622\" stroke-width=\"5\"/></svg>", "lendario": "<svg viewBox=\"0 -30 220 282\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"140\" r=\"118\" fill=\"#E5B23C\" opacity=\"0.15\"/><circle cx=\"110\" cy=\"140\" r=\"98\" fill=\"#E5B23C\" opacity=\"0.13\"/><path d=\"M65.0 135.8 C47.5 178.0 52.5 232 62.5 234 L157.5 234 C167.5 232 172.5 178.0 155.0 135.8 Z\" fill=\"#2C3E70\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/><ellipse cx=\"110\" cy=\"236\" rx=\"55.0\" ry=\"8\" fill=\"#2A2622\" opacity=\"0.09\"/><g><path d=\"M155.0 170.3 C181.0 166.3 193.0 148.3 189.0 122.3\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"19\" stroke-linecap=\"round\"/><path d=\"M155.0 170.3 C181.0 166.3 193.0 148.3 189.0 122.3\" fill=\"none\" stroke=\"#D89A50\" stroke-width=\"11\" stroke-linecap=\"round\"/></g><g><path d=\"M110 124.2 C135.0 124.2 153.0 151.1 156.0 183.8 C159.0 212.6 152.0 226 137.0 226 L83.0 226 C68.0 226 61.0 212.6 64.0 183.8 C67.0 151.1 85.0 124.2 110 124.2 Z\" fill=\"#F0B872\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M110 131.9 C145.0 131.9 156.0 158.8 156.0 189.5 L156.0 222.2 L64.0 222.2 L64.0 189.5 C64.0 158.8 75.0 131.9 110 131.9 Z\" fill=\"#1F3566\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M93.0 133.8 L110 172.2 L127.0 133.8 L137.0 143.4 L118.0 195.3 L102.0 195.3 L83.0 143.4 Z\" fill=\"#FFFFFF\" stroke=\"#2A2622\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M110 172.2 L120.0 183.8 L116.0 222.2 L104.0 222.2 L100.0 183.8 Z\" fill=\"#8E2437\" stroke=\"#2A2622\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M46.0 141.5 L80.0 131.9 L82.0 151.1 L48.0 160.7 Z\" fill=\"#E5B23C\" stroke=\"#2A2622\" stroke-width=\"4.5\" stroke-linejoin=\"round\"/><path d=\"M174.0 141.5 L140.0 131.9 L138.0 151.1 L172.0 160.7 Z\" fill=\"#E5B23C\" stroke=\"#2A2622\" stroke-width=\"4.5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"85.0\" cy=\"218\" rx=\"18\" ry=\"11\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><ellipse cx=\"135.0\" cy=\"218\" rx=\"18\" ry=\"11\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><g transform=\"translate(110,76.0) scale(1.0) translate(-110,-76)\"><g><g><path d=\"M56.0 42 C26.0 44 12.0 76 18.0 112 C22.0 136 44.0 142 52.0 124 C46.0 94 50.0 62 56.0 48 Z\" fill=\"#D89A50\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><g><path d=\"M164.0 42 C194.0 44 208.0 76 202.0 112 C198.0 136 176.0 142 168.0 124 C174.0 94 170.0 62 164.0 48 Z\" fill=\"#D89A50\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"110\" cy=\"76\" rx=\"63\" ry=\"57\" fill=\"#F0B872\" stroke=\"#2A2622\" stroke-width=\"5\"/><ellipse cx=\"110\" cy=\"101\" rx=\"37\" ry=\"27\" fill=\"#FFEBD2\" stroke=\"#2A2622\" stroke-width=\"5\"/><g><path d=\"M110 112.34 C121.1 112.34 121.84 129.35 110 133.4 C98.16 129.35 98.9 112.34 110 112.34 Z\" fill=\"#FF97A6\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><ellipse cx=\"110\" cy=\"89.66\" rx=\"14.1\" ry=\"9.7\" fill=\"#2A2622\"/><ellipse cx=\"104.8\" cy=\"85.9\" rx=\"3.7\" ry=\"2.4\" fill=\"#FFFFFF\" opacity=\".5\"/><path d=\"M110 99.38 L110 106.94 M110 106.94 C101.86 117.2 92.98 113.42 91.5 105.32 M110 106.94 C118.14 117.2 127.02 113.42 128.5 105.32\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><path d=\"M58 58 L162 58\" stroke=\"#E5B23C\" stroke-width=\"5\"/><path d=\"M60 56 C60 42 106 42 106 58 C106 80 64 82 60 62 Z\" fill=\"#2A3A55\" stroke=\"#E5B23C\" stroke-width=\"4.5\" stroke-linejoin=\"round\"/><path d=\"M160 56 C160 42 114 42 114 58 C114 80 156 82 160 62 Z\" fill=\"#2A3A55\" stroke=\"#E5B23C\" stroke-width=\"4.5\" stroke-linejoin=\"round\"/><path d=\"M106 58 L114 58\" stroke=\"#E5B23C\" stroke-width=\"4.5\"/><path d=\"M68 54 L82 49 M122 52 L136 47\" stroke=\"#FFFFFF\" stroke-width=\"3.5\" opacity=\".6\" stroke-linecap=\"round\"/><path d=\"M64 32 L64 -8 L88 16 L110 -14 L132 16 L156 -8 L156 32 Z\" fill=\"#F5C451\" stroke=\"#2A2622\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"12\" r=\"6\" fill=\"#8E2437\" stroke=\"#2A2622\" stroke-width=\"3\"/><path d=\"M64 28 L156 28\" stroke=\"#2A2622\" stroke-width=\"4\"/></g></g><path d=\"M123 148.3 L131 164.3 L139 148.3\" fill=\"#D9503A\" stroke=\"#2A2622\" stroke-width=\"4\" stroke-linejoin=\"round\"/><circle cx=\"131\" cy=\"170.3\" r=\"14\" fill=\"#E5B23C\" stroke=\"#2A2622\" stroke-width=\"5\"/><circle cx=\"131\" cy=\"170.3\" r=\"6\" fill=\"none\" stroke=\"#2A2622\" stroke-width=\"2.5\"/></svg>"};
+
+/* ---------- Banco de conteúdo ---------- */
+// dica: [titulo1, titulo2, paragrafo, [passo1,passo2,passo3], fala, humor, alerta?]
+const SEG = {
+latido:{nome:'Latido nas visitas',som:'AU! AU! AU!',adesivo:'DING DONG!',humor:'bravo',rodape:'3 truques que acalmam seu cão em dia de visita',
+ tags:['#cachorrolatindo','#latido','#caoansioso','#visitas'],
+ hooks:['Seu cão [late] para as visitas… ou avança?','Toca a campainha e seu cão vira um [alarme]?','Visita chegou e seu cão não [para] de latir?','Por que seu cão [late] pra todo mundo que chega?'],
+ dicas:[
+ ['Campainha não é','sinal de festa','Pra ele, campainha = visita = **euforia**. Ensine que esse som pode ser sem graça.',['Toque a campainha **sem ninguém** chegando.','Não abra. Espere **3 segundos** de silêncio.','Calou? **Petisco na hora.** Repita 10x por dia.'],'Hmm… só isso?','normal'],
+ ['Dê a ele um','lugar seguro','Cão sem tarefa inventa uma: **vigiar a porta**. Dê um trabalho melhor.',['Tapete ou caminha **longe da porta**.','Diga **“tapete!”** e premie quando ele deitar.','Na visita, mande pro tapete **antes** de abrir.'],'Zzz… meu cantinho','dorminhoco'],
+ ['Carinho só com','4 patas no chão','Se a visita faz festa quando ele pula, ele aprende que **pular funciona**.',['Pulou? Visita **vira de costas**, sem falar.','Patas no chão? **Carinho calmo** e petisco.','Primeiros **5 minutos**: voz baixa, zero agito.'],'Sentei! Ganho carinho?','feliz','Se ele avança pra morder: use guia na visita e procure um adestrador presencial.'],
+ ['Gaste energia','antes da visita','Cão cansado late menos. **Energia sobrando** vira barulho.',['Passeio de **20 minutos** antes da visita.','Brinquedo de farejar pra **cansar a mente**.','Água e descanso: ele recebe **mais calmo**.'],'Tô cansadinho…','dorminhoco'],
+ ['Não grite','junto com ele','Pra ele, seu grito parece que **você está latindo junto**.',['Fale baixo e **firme**, uma vez só.','Chame ele pra **longe da porta** com petisco.','Premie o **primeiro segundo** de silêncio.'],'Ué, cadê a bagunça?','normal'],
+ ['Treine com','visitas de mentira','Ensaiar é mais fácil que resolver na hora. Chame **um amigo ou vizinho**.',['Combine de tocar a campainha e **ir embora**.','Repita até ele **ignorar** o som.','Depois, a pessoa **entra devagar**.'],'Já sei como é!','feliz']]},
+xixi:{nome:'Xixi no lugar errado',som:'OPS…',adesivo:'PSIU!',humor:'normal',rodape:'3 passos pra acabar com o xixi fora do lugar',
+ tags:['#xixinolugarcerto','#xixidecachorro','#tapetehigienico','#filhotedecachorro'],
+ hooks:['Seu cão faz [xixi] em todo lugar menos no tapete?','Chega em casa e tem [xixi] no sofá de novo?','Já tentou de tudo e o [xixi] continua no lugar errado?','Por que seu cão faz xixi [escondido]?'],
+ dicas:[
+ ['Leve no','horário certo','A maioria dos acertos vem da **rotina**, não da sorte.',['Leve ao lugar certo **ao acordar**.','De novo **15 minutos** depois de comer.','E depois de brincar ou **cochilar**.'],'Na hora certinha!','feliz'],
+ ['Festa só no','lugar certo','Ele repete o que dá **recompensa**. Faça o acerto valer a pena.',['Fez no lugar certo? **Petisco em 3 segundos**.','Elogie com **voz animada**.','Use sempre a mesma palavra: **“xixi!”**.'],'Acertei! Cadê o petisco?','feliz'],
+ ['Nunca brigue','depois do erro','Bronca depois faz ele **esconder o xixi** de você, não parar.',['Achou xixi? **Não fale nada** com ele.','Limpe com o cão **em outro cômodo**.','Foque em **acertar o próximo**.'],'Não vi nada…','normal'],
+ ['Tire o cheiro','de verdade','Se o cheiro fica, ele **volta no mesmo lugar**.',['Use **limpador enzimático** ou vinagre com água.','Evite **amônia**: cheira a xixi pra ele.','Cubra o local por uns dias com **um tapete**.'],'Snif… sumiu o cheiro?','normal'],
+ ['Diminua o espaço','no começo','Casa toda liberada é **liberdade demais** pra quem ainda aprende.',['Comece com **um cômodo** e o tapete perto.','Aumente o espaço a cada **semana sem erros**.','Sem ver ele? Deixe num **cercadinho**.'],'Meu cantinho tá ótimo','dorminhoco'],
+ ['Observe os','sinais antes','Ele avisa antes: **fareja, gira e procura canto**.',['Viu ele farejando? **Leve na hora**.','Fique por perto até ele **terminar**.','Premie **assim que acabar**.'],'Tô procurando um lugar…','normal','Cão já treinado errando do nada? Vale uma consulta no veterinário.']]},
+coleira:{nome:'Puxa na guia',som:'BORA!!',adesivo:'PASSEIO!',humor:'feliz',rodape:'3 jeitos de passear sem ser arrastado',
+ tags:['#passeiocomcachorro','#guia','#passeio','#cachorronarua'],
+ hooks:['Seu cão te [arrasta] no passeio?','Passeio virou [cabo de guerra]?','Seu cão [puxa] tanto que dói o braço?','Por que seu cão [puxa] a guia o tempo todo?'],
+ dicas:[
+ ['Puxou?','Pare na hora','Se puxar faz ele andar, ele aprende que **puxar funciona**.',['Guia esticou? **Pare** e fique parado.','Guia frouxa? **Siga andando.**','No início é **devagar mesmo**.'],'Ué, parou?','normal'],
+ ['Premie o','lado certo','Ensine que **do seu lado** é o melhor lugar da rua.',['Petisco na altura da **sua perna**.','Premie a cada **3 a 5 passos** ao seu lado.','Espace os petiscos **aos poucos**.'],'Aqui do ladinho é bom!','feliz'],
+ ['Comece','sem distração','Rua cheia é prova final. Treine primeiro onde é **fácil**.',['Treine **dentro de casa** ou no quintal.','Depois na calçada, em **horário calmo**.','Só então em lugar **movimentado**.'],'Sem gato, sem moto…','normal'],
+ ['Troque de','direção','Mudar o rumo faz ele **prestar atenção em você**.',['Ele disparou? **Vire e ande** pro outro lado.','Ele te alcançou? **Premie**.','Vire de surpresa, **sem dar tranco**.'],'Pra onde a gente vai?','feliz'],
+ ['Deixe ele','farejar','Farejar **cansa a mente** e diminui a pressa.',['Dê pausas de **cheirar** como prêmio.','Use uma palavra: **“pode cheirar!”**.','Depois chame e **volte a andar**.'],'Snif snif… que delícia','dorminhoco'],
+ ['Equipamento','certo ajuda','A guia certa dá **controle sem machucar**.',['Guia de **1,5 a 2 metros**, sem retrátil.','Peitoral com **argola no peito** ajuda.','Evite enforcador: **dói e assusta**.'],'Assim fica confortável','normal']]},
+roer:{nome:'Rói e destrói',som:'NHAC!',adesivo:'CADÊ O CHINELO?',humor:'feliz',rodape:'3 truques pro seu cão parar de destruir a casa',
+ tags:['#cachorrodestruidor','#brinquedopet','#enriquecimentoambiental','#filhote'],
+ hooks:['Seu cão [destruiu] mais um chinelo?','Chegou em casa e o sofá virou [espuma]?','Seu cão [rói] tudo que vê pela frente?','Por que seu cão [destrói] as coisas quando fica sozinho?'],
+ dicas:[
+ ['Dê o que ele','pode roer','Roer é **necessidade**, não pirraça. Dê a opção certa.',['Deixe **3 ou 4 brinquedos** de roer à mão.','Pegou o chinelo? **Troque** pelo brinquedo.','Premie quando ele roer **o que é dele**.'],'Esse eu posso!','feliz'],
+ ['Gaste a','energia antes','Tédio e energia sobrando viram **destruição**.',['Passeio antes de **você sair**.','**Brinquedo recheável** com ração.','Mais 10 minutos de **brincadeira por dia**.'],'Cansei… vou dormir','dorminhoco'],
+ ['Tire do','alcance','Menos tentação, **menos erro** e mais acerto pra elogiar.',['Sapatos e fios **guardados**.','Feche cômodos **perigosos**.','Use **cercadinho** quando não puder olhar.'],'Cadê os chinelos?','normal'],
+ ['Não corra','atrás dele','Correr atrás vira **brincadeira de pega-pega**.',['Pegou algo? **Não persiga.**','Ofereça um **petisco em troca**.','Ensine **“solta!”** com essa troca.'],'Troca por petisco?','normal'],
+ ['Revezar os','brinquedos','Brinquedo velho **perde a graça**. Novidade prende a atenção.',['Deixe só **3 brinquedos** por vez.','Troque a cada **2 ou 3 dias**.','Guarde o favorito pra quando ele **ficar sozinho**.'],'Brinquedo novo?!','feliz'],
+ ['Filhote troca','os dentes','Entre **4 e 6 meses** a gengiva coça muito.',['Brinquedo **gelado** alivia a gengiva.','Mordedores de borracha **macia**.','Paciência: essa fase **passa**.'],'Meu dentinho coça…','dorminhoco']]},
+pulo:{nome:'Pula nas pessoas',som:'OIIII!',adesivo:'CHEGUEI!',humor:'feliz',rodape:'3 passos pro seu cão parar de pular em todo mundo',
+ tags:['#cachorropulando','#educacaocanina','#visitas','#cachorroagitado'],
+ hooks:['Seu cão [pula] em todo mundo que chega?','Chega em casa e leva um [abraço] de patas?','Seu cão [suja] a roupa de todo mundo?','Por que seu cão [pula] em você?'],
+ dicas:[
+ ['Pulou?','Sumiu a atenção','Ele pula pra ganhar **atenção**. Tire o prêmio.',['Pulou? **Vire de costas** e cruze os braços.','Não fale, **não olhe**, não empurre.','Patas no chão? **Agora sim**, carinho.'],'Ué, ninguém me olha?','normal'],
+ ['Ensine','o senta','Ele não consegue **pular e sentar** ao mesmo tempo.',['Treine **“senta”** 5 vezes por dia.','Peça o senta **antes** de cumprimentar.','Sentou? **Carinho e petisco**.'],'Sentei! Ganho carinho?','feliz'],
+ ['Chegue em casa','sem festa','Chegada animada **deixa ele elétrico**.',['Entre calmo, **sem falar** com ele.','Espere **1 ou 2 minutos** de calma.','Cumprimente com **voz tranquila**.'],'Tá bom, eu espero','dorminhoco'],
+ ['Regra igual','pra todo mundo','Se uma pessoa deixa pular, ele **continua tentando**.',['Combine a regra com **toda a família**.','Visitas também: **sem carinho** se pular.','Constância é o que **faz funcionar**.'],'A regra é pra todos?','normal'],
+ ['Petisco','no chão','Leve a atenção dele **pra baixo**, não pra cima.',['Ao chegar, jogue petiscos **no chão**.','Ele fareja em vez de **pular**.','Cumprimente com ele **de patas no chão**.'],'Achei um petisco!','feliz'],
+ ['Guia nas','visitas','A guia dá **controle** enquanto ele aprende.',['Coloque a guia **antes** da visita entrar.','Pise na guia: ele **não consegue pular**.','Solte quando ele **acalmar**.'],'Tô aprendendo','normal']]},
+ansiedade:{nome:'Chora sozinho',som:'UUUUH…',adesivo:'VOLTA LOGO?',humor:'normal',rodape:'3 passos pro seu cão ficar bem sozinho',
+ tags:['#ansiedadedeseparacao','#caoansioso','#cachorrosozinho','#bemestaranimal'],
+ hooks:['Seu cão [chora] quando você sai de casa?','Os vizinhos reclamam que seu cão [uiva] o dia todo?','Seu cão fica [desesperado] quando você pega a chave?','Por que seu cão não consegue ficar [sozinho]?'],
+ dicas:[
+ ['Saídas','sem drama','Despedida emocionada **aumenta a ansiedade**.',['Saia **sem despedida** cheia de festa.','Ao voltar, espere ele **acalmar**.','Faça assim **todos os dias**.'],'Ah, ela já volta','normal'],
+ ['Treine','saídas curtas','Ele aprende que você **sempre volta**.',['Saia por **1 minuto** e volte.','Aumente pra 5, 10, **30 minutos**.','Volte **antes** de ele começar a chorar.'],'Viu? Voltou rapidinho','feliz','Se ele se machuca tentando sair, procure um veterinário comportamental.'],
+ ['Desligue os','sinais de saída','Chave e sapato viram **alarme** pra ele.',['Pegue a chave e **não saia**.','Calce o sapato e **sente no sofá**.','Repita até ele **não ligar mais**.'],'Hmm… nem vai sair?','normal'],
+ ['Um presente','na saída','Faça a sua saída virar **a hora do petisco**.',['Dê um **brinquedo recheado** ao sair.','Esse brinquedo é **só pra essa hora**.','Recolha quando **voltar**.'],'Oba, ela vai sair!','feliz'],
+ ['Gaste','energia antes','Cão cansado **descansa** em vez de se preocupar.',['Passeio de **20 a 30 minutos** antes.','Brincadeira de **farejar** a ração.','Água e **cama confortável**.'],'Zzz… pode ir','dorminhoco'],
+ ['Cantinho','seguro','Um lugar só dele **acalma**.',['Caminha com uma **roupa sua**.','Som ambiente baixo, tipo **rádio**.','Deixe o cômodo à **meia-luz**.'],'Meu cantinho cheiroso','dorminhoco']]},
+chamado:{nome:'Não vem quando chama',som:'HÃ?',adesivo:'VEM CÁ!',humor:'normal',rodape:'3 truques pro seu cão vir na primeira chamada',
+ tags:['#comandosbasicos','#vemaqui','#obediencia','#treinocanino'],
+ hooks:['Você chama e seu cão [finge] que não ouviu?','Seu cão só vem quando [quer]?','Seu cão [foge] quando você chama?','Por que seu cão [ignora] o próprio nome?'],
+ dicas:[
+ ['Nome =','coisa boa','Se o nome vem antes de bronca, ele **aprende a ignorar**.',['Fale o nome e dê **petisco na hora**.','Repita **10 vezes por dia**.','Nunca use o nome pra **bronca**.'],'Meu nome dá petisco!','feliz'],
+ ['Comece','pertinho','Distância é o **último passo**.',['Chame a **1 metro** de distância.','Veio? **Festa e petisco.**','Aumente a distância **aos poucos**.'],'Tô aqui pertinho','normal'],
+ ['Nunca chame','pra coisa chata','Chamar pra banho ou pra ir embora **estraga o comando**.',['Pra coisa chata, **vá buscar** ele.','Chame só pra **coisa boa**.','Fim do passeio? Premie e **brinque mais um pouco**.'],'Achei que era banho…','normal'],
+ ['Corra pro','outro lado','Correr atrás vira **pega-pega**. Faça ele correr até você.',['Chame e **corra pra longe** dele.','Ele te alcançou? **Petisco!**','Use palmas e **voz animada**.'],'Esperaaa!','feliz'],
+ ['Use um petisco','especial','Pra competir com a rua, o prêmio tem que ser **muito bom**.',['Use **frango ou queijo** só pro chamado.','Dê vários de uma vez quando **ele vem**.','Guarde esse prêmio **só pra isso**.'],'Isso vale a corrida!','feliz'],
+ ['Treine com','guia longa','Segurança primeiro enquanto ele **aprende**.',['Use guia de **5 a 10 metros**.','Chame e, se precisar, **guie com calma**.','Solte só quando ele **acertar sempre**.'],'Com guia eu treino tranquilo','normal']]},
+mordida:{nome:'Filhote que morde',som:'NHAC NHAC!',adesivo:'AI, MINHA MÃO!',humor:'feliz',rodape:'3 truques pro seu filhote parar de morder',
+ tags:['#filhotedecachorro','#filhotemordendo','#filhote','#primeirocachorro'],
+ hooks:['Seu filhote [morde] sua mão o tempo todo?','Brincar com seu filhote sempre acaba em [mordida]?','Seu filhote [ataca] seu pé quando você anda?','Por que seu filhote [morde] tanto?'],
+ dicas:[
+ ['Mão não é','brinquedo','Se a mão vira brinquedo, ele **morde a mão**.',['Brinque com **brinquedo comprido**, tipo corda.','Nunca brinque de lutar **com a mão**.','Mordeu? Ofereça **o brinquedo**.'],'Isso é muito melhor!','feliz'],
+ ['Mordeu?','Pausa','A brincadeira acaba quando **o dente encosta**.',['Mordeu? Diga **“ai”** baixinho.','**Pare de brincar** por 20 segundos.','Voltou calmo? **Brinque de novo.**'],'Ué, acabou a brincadeira?','normal','Mordida forte com rosnado depois dos 6 meses: procure um adestrador presencial.'],
+ ['Filhote cansado','morde mais','Muita mordida pode ser **sono**, igual bebê birrento.',['Filhote dorme **16 a 18 horas** por dia.','Muito agitado? Leve pra **descansar**.','Mordedor ajuda a **relaxar**.'],'Tô com soninho…','dorminhoco'],
+ ['Pé correndo','vira presa','Pé se mexendo parece **brinquedo** pra ele.',['Ele atacou o pé? **Pare de andar.**','Jogue um **brinquedo** pra longe.','Premie quando ele **deixar o pé**.'],'Seu pé parou?','normal'],
+ ['Brinquedo','em todo canto','Ele precisa de onde **colocar os dentes**.',['Um brinquedo **em cada cômodo**.','Texturas: **borracha, corda, pelúcia**.','Troque quando **perder a graça**.'],'Tanto brinquedo!','feliz'],
+ ['Ensine o','“solta”','Um comando que **salva** chinelos e dedos.',['Mostre um petisco **perto do focinho**.','Soltou? Diga **“solta!”** e premie.','Devolva o brinquedo: **ele não perde**.'],'Soltei! Ganhei!','feliz']]},
+fogos:{nome:'Medo de fogos',som:'SOCORRO!',adesivo:'BUM!',humor:'normal',rodape:'3 jeitos de acalmar seu cão com barulho alto',
+ tags:['#medodefogos','#fogosnao','#caocommedo','#bemestaranimal'],
+ hooks:['Seu cão [treme] quando tem fogos?','Trovão e seu cão corre pra se [esconder]?','Seu cão entra em [pânico] com barulho alto?','Como ajudar seu cão com [medo] de fogos?'],
+ dicas:[
+ ['Monte uma','toca segura','Um lugar fechado e escuro **acalma**.',['Caixa ou **caminha coberta**.','Num cômodo **longe das janelas**.','Deixe ele **ir sozinho** até lá.'],'Aqui eu fico seguro','dorminhoco'],
+ ['Abafe','o som','Menos barulho, **menos medo**.',['Feche **janelas e cortinas**.','Ligue TV ou **música calma**.','Ventilador ajuda a **disfarçar** o estouro.'],'Assim fica melhor','normal'],
+ ['Fique calmo','também','Ele percebe **o seu nervosismo**.',['Fale com **voz tranquila**.','Faça carinho se ele **pedir**.','Medo não é pirraça: **nada de bronca**.'],'Você tá aqui comigo','normal'],
+ ['Treine com','som baixinho','Antes da data, acostume ele **aos poucos**.',['Toque som de fogos **bem baixinho**.','Junto, dê **petisco ou brincadeira**.','Aumente o volume **dia após dia**.'],'Esse som traz petisco?','feliz'],
+ ['Distraia','com farejar','Farejar **acalma** o cérebro.',['Petiscos num **tapete de farejar**.','Ofereça **brinquedo recheado**.','Comece **antes** dos fogos.'],'Snif… achei mais um!','feliz'],
+ ['Segurança','em primeiro lugar','Cão com medo pode **fugir**.',['Portões e portas **bem fechados**.','Coleira com **plaquinha e telefone**.','Nada de deixar ele **preso em corrente**.'],'Fico aqui dentro','normal','Pânico muito forte? Converse com o veterinário antes das festas.']]},
+obedece:{nome:'Não obedece',som:'OI?',adesivo:'SENTA!',humor:'normal',rodape:'3 regras de ouro pro seu cão obedecer',
+ tags:['#obediencia','#comandosbasicos','#adestramentoemcasa','#treinocanino'],
+ hooks:['Seu cão só obedece quando tem [petisco]?','Você fala “senta” e seu cão [deita]?','Seu cão [não obedece] ninguém em casa?','Dá pra ensinar um cão a obedecer em [21 dias]?'],
+ dicas:[
+ ['Treinos','curtinhos','Cão aprende mais com **5 minutos** do que com 1 hora.',['Faça **3 treinos de 5 minutos** por dia.','Termine sempre num **acerto**.','Pare **antes** de ele cansar.'],'Já acabou? Quero mais!','feliz'],
+ ['Uma palavra','por comando','Muitas palavras **confundem**.',['Escolha **uma palavra** pra cada coisa.','A família toda usa a **mesma palavra**.','Fale **uma vez só**, sem repetir.'],'Agora eu entendi!','normal'],
+ ['Premie em','3 segundos','Depois disso ele **não liga** o prêmio ao acerto.',['Petiscos **no bolso** sempre.','Acertou? **Prêmio na hora.**','Pedaços **bem pequenos**.'],'Na hora certinha!','feliz'],
+ ['Tire o petisco','aos poucos','Ele vai obedecer **sem precisar** de petisco.',['No começo: **petisco toda vez**.','Depois: **uma vez sim, outra não**.','Troque por **carinho e brincadeira**.'],'Carinho também vale!','normal'],
+ ['Treine em','vários lugares','O comando precisa valer **em todo lugar**.',['Comece na **sala**, sem distração.','Depois no **quintal** e na calçada.','Por fim, com **visitas** por perto.'],'Aqui também vale?','normal'],
+ ['Rotina','todo dia','Constância vale mais que **treino longo**.',['Mesmo **horário** todo dia.','Comida, passeio e treino **em ordem**.','Em **21 dias** vira hábito.'],'Já sei o que vem agora!','feliz']]}
+};
+const BASE_TAGS=['#adestramento','#adestramentocanino','#adestramentopositivo','#cachorro','#cachorros','#caes','#dicaspet','#tutordecachorro','#petlovers','#meucaoobedece','#cachorrofeliz','#vidadecachorro','#pets','#amocachorro','#doglovers'];
+const CTAS=[
+ {h:'Descubra agora o que fazer para [adestrar o seu cão]',p:'Cada cão tem um motivo diferente. O teste mostra o do seu em menos de 1 minuto.'},
+ {h:'Quer saber o [motivo do seu cão]?',p:'Responda o teste rapidinho e veja o plano certo pro seu cão.'},
+ {h:'Seu cão pode [obedecer em 21 dias]',p:'Faça o teste e descubra por onde começar com o seu cão.'},
+ {h:'Pronto pro [próximo nível]?',p:'O teste mostra o que está travando seu cão e o que fazer primeiro.'}
+];
+const PALETAS={
+ ambar:{nome:'Âmbar',capa:'#E8913C',c1:'#F4A65A',c2:'#F7B672',chip:'#1F7A6C',acc:'#C2410C',acc2:'#1F7A6C',pA:'#FBE3C8',pB:'#CFEAE3'},
+ menta:{nome:'Menta',capa:'#8FD5C3',c1:'#A5DFD0',c2:'#BCE8DC',chip:'#1F7A6C',acc:'#1F7A6C',acc2:'#C2410C',pA:'#CFEAE3',pB:'#FBE3C8'},
+ limao:{nome:'Limão',capa:'#F2CF55',c1:'#F5D978',c2:'#F8E39B',chip:'#8A4B12',acc:'#B4410C',acc2:'#8A4B12',pA:'#FBEDB8',pB:'#FBE3C8'},
+ ceu:{nome:'Céu',capa:'#9CC4F0',c1:'#B0D0F3',c2:'#C4DCF6',chip:'#2456A6',acc:'#2456A6',acc2:'#C2410C',pA:'#D9E8FA',pB:'#FBE3C8'},
+ rosa:{nome:'Rosa',capa:'#F2A7B6',c1:'#F5B8C4',c2:'#F8CAD3',chip:'#9B2C4B',acc:'#9B2C4B',acc2:'#1F7A6C',pA:'#FADCE2',pB:'#CFEAE3'}
+};
+const PELAGENS={
+ caramelo:{nome:'Caramelo',c:['#F0B872','#D89A50','#FFEBD2']},
+ chocolate:{nome:'Chocolate',c:['#A06A45','#76492C','#EBD3BA']},
+ cinza:{nome:'Cinza',c:['#BDB8B1','#918B84','#F3F0EB']},
+ dourado:{nome:'Dourado',c:['#E9C67E','#C99D4D','#FFF4DE']},
+ branco:{nome:'Branquinho',c:['#F7F1E8','#DCCDBA','#FFFFFF']},
+ preto:{nome:'Pretinho',c:['#4A423B','#2F2925','#D8CDC1']}
+};
+
+/* ---------- Utilidades ---------- */
+const $=s=>document.querySelector(s);
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+function rng(seed){let a=seed>>>0;return()=>{a=(a+0x6D2B79F5)>>>0;let t=a;t=Math.imul(t^(t>>>15),t|1);t^=t+Math.imul(t^(t>>>7),t|61);return((t^(t>>>14))>>>0)/4294967296}}
+const pick=(r,arr)=>arr[Math.floor(r()*arr.length)];
+function shuffle(r,arr){const a=arr.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+const newSeed=()=>(Math.random()*4294967295)>>>0;
+const plain=s=>s.replace(/\*\*/g,'').replace(/[\[\]]/g,'');
+function toast(msg){const t=$('#toast');t.textContent=msg;t.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>t.hidden=true,3200)}
+
+/* ---------- Estado ---------- */
+let custom=store.get('fc_custom',{});
+Object.assign(SEG,custom);
+let lote=store.get('fc_lote',[]);
+const cfgPadrao={segs:['latido','xixi','coleira'],qtd:6,paleta:'variar',pelagem:'caramelo',kw:'XIXI',link:'no link da bio',marca:'Meu Cão Obedece',inicio:'',porDia:'2',h:['12:00','19:00','08:30','15:30','21:00']};
+let cfg=Object.assign({},cfgPadrao,store.get('fc_cfg',{}));
+cfg.segs=(cfg.segs||[]).filter(s=>SEG[s]);if(!cfg.segs.length)cfg.segs=['latido'];
+function hojeISO(){const d=new Date();d.setMinutes(d.getMinutes()-d.getTimezoneOffset());return d.toISOString().slice(0,10)}
+if(!cfg.inicio)cfg.inicio=hojeISO();
+
+/* ---------- Montagem de um carrossel ---------- */
+function montar(seg,seed){
+  const S=SEG[seg],r=rng(seed);
+  const hook=pick(r,S.hooks);
+  const idx=shuffle(r,S.dicas.map((_,i)=>i)).slice(0,3);
+  const dicas=idx.map(i=>S.dicas[i]);
+  const cta=pick(r,CTAS);
+  const paleta=cfg.paleta==='variar'?pick(r,Object.keys(PALETAS)):cfg.paleta;
+  const pelagem=cfg.pelagem==='variar'?pick(r,Object.keys(PELAGENS)):cfg.pelagem;
+  const tags=[...shuffle(r,S.tags).slice(0,4),...shuffle(r,BASE_TAGS)].filter((t,i,a)=>a.indexOf(t)===i).slice(0,14);
+  return {seg,seed,hook,dicas,cta,paleta,pelagem,tags,assin:seg+'|'+hook+'|'+idx.slice().sort().join(',')};
+}
+function legendaDe(c){
+  const kw=(cfg.kw.trim()||'XIXI').toUpperCase();
+  const n=['1️⃣','2️⃣','3️⃣'];
+  return `${plain(c.hook)} 👀\n\nNeste carrossel:\n${c.dicas.map((d,i)=>`${n[i]} ${d[0]} ${d[1]}`).join('\n')}\n\nSalva pra treinar hoje e manda pra quem precisa ver 🐾\n\n👉 Quer o plano certo pro SEU cão? Comenta ${kw} que eu te mando o teste, ou responde o quiz ${cfg.link}.\n\n${c.tags.join(' ')}`;
+}
+function quando(i){
+  const pd=Math.max(1,parseInt(cfg.porDia,10)||1);
+  const hs=cfg.h.slice(0,pd).map(h=>h||'12:00').sort();
+  const [y,m,d]=cfg.inicio.split('-').map(Number);
+  const dt=new Date(y,(m||1)-1,(d||1)+Math.floor(i/pd));
+  const hora=hs[i%pd];
+  const dd=String(dt.getDate()).padStart(2,'0'),mm=String(dt.getMonth()+1).padStart(2,'0');
+  const sem=dt.toLocaleDateString('pt-BR',{weekday:'short'}).replace('.','');
+  return {data:`${dd}/${mm}/${dt.getFullYear()}`,curta:`${sem}, ${dd}/${mm}`,hora};
+}
+
+/* ---------- Mascote ---------- */
+const imgCache={};
+function mascote(humor,pel){
+  const k=humor+'|'+pel;if(imgCache[k])return imgCache[k];
+  let svg=SVGS[humor]||SVGS.normal;const c=(PELAGENS[pel]||PELAGENS.caramelo).c,base=PELAGENS.caramelo.c;
+  if(pel!=='caramelo')base.forEach((b,i)=>{svg=svg.split(b).join(c[i])});
+  imgCache[k]=new Promise(res=>{const im=new Image();im.onload=()=>res(im);im.onerror=()=>res(null);im.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg)});
+  return imgCache[k];
+}
+
+/* ---------- Desenho dos slides (1080×1350) ---------- */
+const INK='#2A2622',CREAM='#FDF7EE',GOLD='#E5B23C',ORANGE='#E8913C';
+const FD="'Fredoka','Nunito',sans-serif",FB="'Nunito',sans-serif";
+function rr(ctx,x,y,w,h,r){r=Math.min(r,h/2,w/2);ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath()}
+function font(ctx,w,s,f){ctx.font=`${w} ${s}px ${f}`}
+function icon(ctx,d,x,y,size,o){ctx.save();ctx.translate(x,y);ctx.scale(size/24,size/24);const p=new Path2D(d);if(o.fill){ctx.fillStyle=o.fill;ctx.fill(p)}if(o.stroke){ctx.strokeStyle=o.stroke;ctx.lineWidth=o.lw||2.4;ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke(p)}ctx.restore()}
+const IC={seta:'M5 12h14M13 6l6 6-6 6',marca:'M6 3h12v18l-6-4-6 4z',alerta:'M12 3l9.5 17h-19zM12 10v4.5M12 17.6v.1',link:'M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1',balao:'M20.5 12a8.5 8.5 0 0 1-12.4 7.6L3.5 20.5l1-4.4A8.5 8.5 0 1 1 20.5 12z',estrela:'M12 2.5l2.9 6 6.6.8-4.9 4.6 1.3 6.5L12 17.2l-5.9 3.2 1.3-6.5L2.5 9.3l6.6-.8z'};
+function pata(ctx,x,y,s,cor){ctx.save();ctx.translate(x,y);ctx.scale(s/24,s/24);ctx.fillStyle=cor;[[6,9],[10,5.2],[14.5,5.2],[18.4,9]].forEach(([a,b])=>{ctx.beginPath();ctx.arc(a,b,2.4,0,7);ctx.fill()});ctx.fill(new Path2D('M12.2 10.5c3.3 0 6 3.6 6 6.4 0 2-1.6 3-3.3 3-1.2 0-1.8-.6-2.7-.6s-1.6.6-2.8.6C7.7 19.9 6.2 18.9 6.2 17c0-2.8 2.7-6.5 6-6.5z'));ctx.restore()}
+
+// texto rico: **negrito** e [destaque]
+function tokens(txt){const out=[];let b=false,h=false,fimEsp=true;txt.split(/(\*\*|\[|\])/).forEach(p=>{if(p==='**'){b=!b;return}if(p==='['){h=true;return}if(p===']'){h=false;return}if(!p)return;let first=true;p.split(/(\s+)/).forEach(w=>{if(w&&!/^\s+$/.test(w)){const g=first&&!/^\s/.test(p)&&out.length&&!fimEsp;out.push({t:w,b,h,g});}if(w)first=false});fimEsp=/\s$/.test(p)});return out}
+function wrap(ctx,txt,maxW,set){const tk=tokens(txt),lines=[];let line=[],w=0;set(ctx,false);const sp=ctx.measureText(' ').width;
+  for(const k of tk){set(ctx,k.b);const ww=ctx.measureText(k.t).width;k.w=ww;const gap=(line.length&&!k.g)?sp:0;if(line.length&&!k.g&&w+gap+ww>maxW){lines.push({items:line,w});line=[];w=0}w+=((line.length&&!k.g)?sp:0)+ww;line.push(k)}
+  if(line.length)lines.push({items:line,w});return {lines,sp}}
+function drawLines(ctx,res,x,y,lh,set,cor,corB,opt={}){res.lines.forEach((L,i)=>{let cx=x;const by=y+i*lh;L.items.forEach((k,j)=>{if(j&&!k.g)cx+=res.sp;set(ctx,k.b);
+  if(k.h&&opt.pill&&!(j>0&&L.items[j-1].h)){let ww=k.w,q=j+1;while(q<L.items.length&&L.items[q].h){ww+=(L.items[q].g?0:res.sp)+L.items[q].w;q++}ctx.fillStyle=opt.pill;rr(ctx,cx-opt.padX,by-opt.asc,ww+opt.padX*2,opt.ph,opt.pr);ctx.fill()}
+  ctx.fillStyle=k.h?(opt.hcor||cor):(k.b?corB:cor);ctx.fillText(k.t,cx,by);cx+=k.w})})}
+function fitWrap(ctx,txt,maxW,maxLines,sizes,mk){for(const s of sizes){const set=mk(s);const r=wrap(ctx,txt,maxW,set);if(r.lines.length<=maxLines)return {r,s,set}}const s=sizes[sizes.length-1],set=mk(s);return {r:wrap(ctx,txt,maxW,set),s,set}}
+function fitText(ctx,txt,maxW,start,min,w,f){let s=start;for(;s>min;s-=2){font(ctx,w,s,f);if(ctx.measureText(txt).width<=maxW)break}font(ctx,w,s,f);return s}
+function topo(ctx,fase,corTxt,corOn,corOff){font(ctx,700,28,FD);ctx.textBaseline='middle';const pw=5*34+4*6;const x=1008-pw;ctx.fillStyle=corTxt;ctx.textAlign='right';ctx.fillText(`FASE ${fase}/5`,x-12,96);ctx.textAlign='left';for(let i=0;i<5;i++){ctx.fillStyle=i<fase?corOn:corOff;rr(ctx,x+i*40,89,34,14,7);ctx.fill()}ctx.textBaseline='alphabetic'}
+function rodape(ctx,txt,dir,corDir){const y=1350-64-110;ctx.fillStyle=INK;rr(ctx,72,y,936,110,32);ctx.fill();icon(ctx,IC.marca,106,y+36,38,{stroke:ORANGE,lw:2.4});font(ctx,800,30,FB);ctx.fillStyle=CREAM;ctx.textBaseline='middle';ctx.fillText(txt,160,y+56);font(ctx,900,30,FB);ctx.fillStyle=corDir;ctx.textAlign='right';ctx.fillText(dir,962,y+56);ctx.textAlign='left';icon(ctx,IC.seta,968,y+39,32,{stroke:corDir,lw:3});ctx.textBaseline='alphabetic'}
+function bolha(ctx,txt,x,y,size,rot,cor,maxW){ctx.save();ctx.translate(x,y);ctx.rotate(rot);size=fitText(ctx,txt,maxW,size,20,700,FD);const w=ctx.measureText(txt).width;const padX=size*.55,padY=size*.36,h=size+padY*2;ctx.fillStyle=INK;rr(ctx,8,8,w+padX*2,h,size*.6);ctx.fill();ctx.fillStyle='#FFFFFF';rr(ctx,0,0,w+padX*2,h,size*.6);ctx.fill();ctx.lineWidth=5;ctx.strokeStyle=INK;ctx.stroke();ctx.fillStyle=cor;ctx.textBaseline='middle';ctx.fillText(txt,padX,h/2+2);ctx.restore();return {w:w+padX*2,h}}
+
+async function slideCapa(ctx,c){
+  const P=PALETAS[c.paleta],S=SEG[c.seg];
+  ctx.fillStyle=P.capa;ctx.fillRect(0,0,1080,1350);
+  ctx.fillStyle=P.c1;ctx.beginPath();ctx.arc(1060,740,380,0,7);ctx.fill();
+  ctx.fillStyle=P.c2;ctx.beginPath();ctx.arc(1060,740,260,0,7);ctx.fill();
+  const marca=cfg.marca.trim()||'Meu Cão Obedece';font(ctx,600,30,FD);const mw=ctx.measureText(marca).width;ctx.fillStyle=INK;rr(ctx,72,64,18+36+14+mw+28,64,32);ctx.fill();pata(ctx,90,78,36,ORANGE);ctx.fillStyle=CREAM;ctx.textBaseline='middle';font(ctx,600,30,FD);ctx.fillText(marca,140,97);ctx.textBaseline='alphabetic';
+  topo(ctx,1,INK,INK,'rgba(42,38,34,.22)');
+  ctx.save();ctx.translate(72,170);ctx.rotate(-3*Math.PI/180);fitText(ctx,S.adesivo,560,30,20,700,FD);const aw=ctx.measureText(S.adesivo).width+48;ctx.fillStyle=INK;rr(ctx,6,6,aw,58,18);ctx.fill();ctx.fillStyle=CREAM;rr(ctx,0,0,aw,58,18);ctx.fill();ctx.lineWidth=5;ctx.strokeStyle=INK;ctx.stroke();ctx.fillStyle=INK;ctx.textBaseline='middle';ctx.fillText(S.adesivo,24,31);ctx.restore();ctx.textBaseline='alphabetic';
+  const F=fitWrap(ctx,c.hook,900,4,[112,104,96,90,84,78],s=>(cx)=>font(cx,700,s,FD));
+  const lh=F.s*1.04,y0=268+F.s*.82;
+  drawLines(ctx,F.r,72,y0,lh,F.set,INK,INK,{pill:INK,hcor:CREAM,padX:F.s*.16,asc:F.s*.8,ph:F.s*1.0,pr:F.s*.2});
+  const hb=y0+(F.r.lines.length-1)*lh+F.s*.25;
+  const footY=1350-64-140;const top=hb+30;const mh=Math.max(300,Math.min(667,footY+40-top));const mw2=mh*220/282;
+  const im=await mascote(S.humor||'normal',c.pelagem);if(im)ctx.drawImage(im,1080-72-mw2+30,footY+40-mh,mw2,mh);
+  const b=bolha(ctx,S.som,92,top+20,64,-6*Math.PI/180,'#C2410C',520);
+  ctx.strokeStyle=INK;ctx.lineWidth=9;ctx.lineCap='round';const lx=92+Math.min(b.w,520)*.55,ly=top+20+b.h+22;[[0,0,30,28],[-14,50,34,2],[6,92,28,-18]].forEach(([a,bq,c2,d])=>{ctx.beginPath();ctx.moveTo(lx+a,ly+bq);ctx.lineTo(lx+a+c2,ly+bq+d);ctx.stroke()});
+  ctx.fillStyle=INK;rr(ctx,72,footY,936,140,32);ctx.fill();
+  font(ctx,900,30,FB);const bt='ARRASTA';const bw=ctx.measureText(bt).width+30+34+12+30;ctx.fillStyle=ORANGE;rr(ctx,1008-36-bw,footY+38,bw,64,32);ctx.fill();ctx.fillStyle=INK;ctx.textBaseline='middle';font(ctx,900,30,FB);ctx.fillText(bt,1008-36-bw+30,footY+71);icon(ctx,IC.seta,1008-36-30-34,footY+53,34,{stroke:INK,lw:3});ctx.textBaseline='alphabetic';
+  const R=fitWrap(ctx,S.rodape,936-72-bw-40,2,[38,34,30],s=>(cx)=>font(cx,600,s,FD));const rl=R.r.lines.length;const rlh=R.s*1.15;const ry=footY+70-((rl-1)*rlh)/2+R.s*.35;drawLines(ctx,R.r,108,ry,rlh,R.set,CREAM,CREAM);
+}
+async function slideDica(ctx,c,n){
+  const P=PALETAS[c.paleta],d=c.dicas[n-1];const [t1,t2,par,passos,fala,humor,alerta]=d;
+  ctx.fillStyle=CREAM;ctx.fillRect(0,0,1080,1350);
+  font(ctx,700,30,FD);const ct=`DICA ${n}`;const cw=ctx.measureText(ct).width;font(ctx,700,24,FD);const xp=`+${n*10} XP`;const xw=ctx.measureText(xp).width+28;
+  ctx.fillStyle=P.chip;rr(ctx,72,64,28+cw+12+xw+28,64,32);ctx.fill();ctx.textBaseline='middle';font(ctx,700,30,FD);ctx.fillStyle='#FFFFFF';ctx.fillText(ct,100,97);ctx.fillStyle=CREAM;rr(ctx,100+cw+12,78,xw,36,18);ctx.fill();font(ctx,700,24,FD);ctx.fillStyle=P.chip;ctx.fillText(xp,100+cw+26,97);ctx.textBaseline='alphabetic';
+  topo(ctx,n+1,INK,INK,'rgba(42,38,34,.18)');
+  let ts=96;for(;ts>64;ts-=4){font(ctx,700,ts,FD);if(ctx.measureText(t1).width<=936&&ctx.measureText(t2).width<=936)break}
+  font(ctx,700,ts,FD);ctx.fillStyle=INK;ctx.fillText(t1,72,180+ts*.8);ctx.fillStyle=n===2?P.acc2:P.acc;ctx.fillText(t2,72,180+ts*.8+ts);
+  let y=180+ts*2+30;
+  const PR=fitWrap(ctx,par,920,3,[37,34,31],s=>(cx,b)=>font(cx,b?900:700,s,FB));const plh=PR.s*1.35;drawLines(ctx,PR.r,72,y+PR.s*.85,plh,PR.set,'#4A433C',INK);y+=PR.r.lines.length*plh+30;
+  const footY=1350-64-110;let base=footY-30;
+  if(alerta){const set=(cx)=>font(cx,800,26,FB);const AR=wrap(ctx,alerta,936-130,set);const ah=Math.max(76,AR.lines.length*34+36);const ay=footY-24-ah;ctx.fillStyle='#FFF1DE';rr(ctx,72,ay,936,ah,26);ctx.fill();ctx.setLineDash([12,8]);ctx.lineWidth=4;ctx.strokeStyle='#C2410C';ctx.stroke();ctx.setLineDash([]);icon(ctx,IC.alerta,98,ay+ah/2-20,40,{stroke:'#C2410C',lw:2.4});drawLines(ctx,AR,156,ay+ah/2-((AR.lines.length-1)*34)/2+9,34,set,'#7A2E0B','#7A2E0B');base=ay-24}
+  const areaH=base-y;const pw=400,gap=36;const left=n%2===1;const px=left?72:1008-pw;const sx=left?72+pw+gap:72;const sw=936-pw-gap;
+  ctx.fillStyle=n===2?P.pB:P.pA;rr(ctx,px,y,pw,areaH,40);ctx.fill();
+  ctx.save();rr(ctx,px,y,pw,areaH,40);ctx.clip();const im=await mascote(humor,c.pelagem);const mh=Math.min(462,areaH-80),mw=mh*220/282;if(im)ctx.drawImage(im,px+(pw-mw)/2,y+areaH-mh+20,mw,mh);ctx.restore();
+  bolha(ctx,fala,px+28,y+28,30,0,INK,pw-80);
+  const gp=20;const ch=Math.min(200,(areaH-gp*2)/3);const stepsH=ch*3+gp*2;let cy=y+(areaH-stepsH)/2;
+  passos.forEach((p,i)=>{ctx.fillStyle=INK;rr(ctx,sx+6,cy+6,sw,ch,30);ctx.fill();ctx.fillStyle='#FFFFFF';rr(ctx,sx,cy,sw,ch,30);ctx.fill();ctx.lineWidth=4;ctx.strokeStyle=INK;ctx.stroke();
+    ctx.fillStyle=ORANGE;ctx.beginPath();ctx.arc(sx+56,cy+ch/2,30,0,7);ctx.fill();font(ctx,700,34,FD);ctx.fillStyle=INK;ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(String(i+1),sx+56,cy+ch/2+2);ctx.textAlign='left';ctx.textBaseline='alphabetic';
+    const tx=sx+106,tw=sw-106-24;const T=fitWrap(ctx,p,tw,3,[31,29,27,25],s=>(cx,b)=>font(cx,b?900:700,s,FB));const tlh=T.s*1.28;const tl=T.r.lines.length;drawLines(ctx,T.r,tx,cy+ch/2-((tl-1)*tlh)/2+T.s*.35,tlh,T.set,INK,INK);cy+=ch+gp});
+  rodape(ctx,n===3?'Manda pra quem precisa ver':'Salva pra treinar hoje',n===3?'FASE FINAL':'PRÓXIMA',ORANGE);
+}
+async function slideCTA(ctx,c){
+  ctx.fillStyle=INK;ctx.fillRect(0,0,1080,1350);
+  ctx.fillStyle='rgba(229,178,60,.10)';ctx.beginPath();ctx.arc(540,1010,410,0,7);ctx.fill();ctx.fillStyle='rgba(229,178,60,.12)';ctx.beginPath();ctx.arc(540,1000,300,0,7);ctx.fill();
+  font(ctx,700,30,FD);const ct='MISSÃO DESBLOQUEADA';const cw=ctx.measureText(ct).width;ctx.fillStyle=GOLD;rr(ctx,72,64,28+34+12+cw+28,64,32);ctx.fill();icon(ctx,IC.estrela,100,80,34,{fill:INK});ctx.fillStyle=INK;ctx.textBaseline='middle';font(ctx,700,30,FD);ctx.fillText(ct,146,97);ctx.textBaseline='alphabetic';
+  topo(ctx,5,CREAM,GOLD,'rgba(229,178,60,.25)');
+  const F=fitWrap(ctx,c.cta.h,936,3,[88,82,76,70],s=>(cx)=>font(cx,700,s,FD));const lh=F.s*1.04;drawLines(ctx,F.r,72,180+F.s*.82,lh,F.set,CREAM,CREAM,{hcor:GOLD});
+  let y=180+F.r.lines.length*lh+24;const PR=fitWrap(ctx,c.cta.p,900,2,[34,31,28],s=>(cx)=>font(cx,700,s,FB));drawLines(ctx,PR.r,72,y+PR.s*.85,PR.s*1.35,PR.set,'#E9DFD2','#E9DFD2');y+=PR.r.lines.length*PR.s*1.35+10;
+  const barY=1350-64-110,btnY=barY-18-150;const mh=Math.max(260,Math.min(602,btnY+10-y)),mw=mh*220/282;const im=await mascote('lendario',c.pelagem);if(im)ctx.drawImage(im,540-mw/2,btnY+10-mh,mw,mh);
+  ctx.fillStyle='#A65A17';rr(ctx,72,btnY+8,936,150,32);ctx.fill();ctx.fillStyle=ORANGE;rr(ctx,72,btnY,936,150,32);ctx.fill();
+  font(ctx,700,44,FD);ctx.fillStyle=INK;ctx.fillText('Responda o quiz',106,btnY+68);font(ctx,900,28,FB);ctx.fillText(cfg.link||'no link da bio',106,btnY+112);icon(ctx,IC.link,1008-34-64,btnY+43,64,{stroke:INK,lw:2.6});
+  ctx.fillStyle=CREAM;rr(ctx,72,barY,936,110,32);ctx.fill();icon(ctx,IC.balao,106,barY+26,58,{stroke:INK,lw:2.4});
+  const kw=(cfg.kw.trim()||'XIXI').toUpperCase();let s=34;
+  for(;s>=22;s-=2){font(ctx,800,s,FB);const a=ctx.measureText('ou comente ').width,c2=ctx.measureText(' que eu te mando').width;font(ctx,700,s*1.35,FD);const k=ctx.measureText(kw).width+36;if(a+k+c2<=936-140)break}
+  let x=186;ctx.textBaseline='middle';const my=barY+57;font(ctx,800,s,FB);ctx.fillStyle=INK;ctx.fillText('ou comente ',x,my);x+=ctx.measureText('ou comente ').width;font(ctx,700,s*1.35,FD);const kwW=ctx.measureText(kw).width+36;ctx.fillStyle=INK;rr(ctx,x,my-s*.85,kwW,s*1.7,16);ctx.fill();ctx.fillStyle=GOLD;ctx.fillText(kw,x+18,my+2);x+=kwW;font(ctx,800,s,FB);ctx.fillStyle=INK;ctx.fillText(' que eu te mando',x,my);ctx.textBaseline='alphabetic';
+}
+async function desenhar(ctx,c,i){ctx.save();ctx.textAlign='left';ctx.textBaseline='alphabetic';if(i===0)await slideCapa(ctx,c);else if(i===4)await slideCTA(ctx,c);else await slideDica(ctx,c,i);ctx.restore()}
+async function pngDe(c,i){const cv=document.createElement('canvas');cv.width=1080;cv.height=1350;await desenhar(cv.getContext('2d'),c,i);return new Promise(r=>cv.toBlob(r,'image/jpeg',0.93))}
+
+/* ---------- Fontes ---------- */
+let fontesOk=null;
+function fontes(){if(!fontesOk)fontesOk=Promise.race([Promise.all(['500 30px Fredoka','600 30px Fredoka','700 30px Fredoka','700 30px Nunito','800 30px Nunito','900 30px Nunito'].map(f=>document.fonts.load(f))),new Promise(r=>setTimeout(r,4000))]).catch(()=>{});return fontesOk}
+
+/* ---------- Interface ---------- */
+function salvarLote(){store.set('fc_lote',lote.map(c=>({id:c.id,seg:c.seg,seed:c.seed,paleta:c.paleta,pelagem:c.pelagem,legenda:c.legenda,editada:c.editada})))}
+function hidratar(o){if(!o||!SEG[o.seg])return null;const c=montar(o.seg,o.seed);c.id=o.id;c.paleta=PALETAS[o.paleta]?o.paleta:c.paleta;c.pelagem=PELAGENS[o.pelagem]?o.pelagem:c.pelagem;c.editada=!!o.editada;c.legenda=o.editada?o.legenda:legendaDe(c);return c}
+lote=lote.map(hidratar).filter(Boolean);
+
+function chips(){const box=$('#chips');box.textContent='';Object.entries(SEG).forEach(([k,s])=>{const b=document.createElement('button');b.type='button';b.className='chip'+(custom[k]?' ia':'');b.textContent=s.nome;b.setAttribute('aria-pressed',cfg.segs.includes(k));b.onclick=()=>{const on=cfg.segs.includes(k);if(on&&cfg.segs.length===1){toast('Deixe pelo menos um tema marcado.');return}cfg.segs=on?cfg.segs.filter(x=>x!==k):[...cfg.segs,k];b.setAttribute('aria-pressed',!on);salvarCfg()};box.appendChild(b)})}
+function opcoes(){const p=$('#paleta'),g=$('#pelagem');p.innerHTML='<option value="variar">Variar entre todas</option>'+Object.entries(PALETAS).map(([k,v])=>`<option value="${k}">${v.nome}</option>`).join('');g.innerHTML='<option value="variar">Variar entre todas</option>'+Object.entries(PELAGENS).map(([k,v])=>`<option value="${k}">${v.nome}</option>`).join('')}
+function lerCfg(){cfg.qtd=+$('#qtd').value;cfg.paleta=$('#paleta').value;cfg.pelagem=$('#pelagem').value;cfg.kw=$('#kw').value;cfg.link=$('#link').value;cfg.marca=$('#marca').value;cfg.inicio=$('#inicio').value||hojeISO();cfg.porDia=$('#porDia').value;cfg.h=[1,2,3,4,5].map(i=>$('#h'+i).value)}
+function escreverCfg(){$('#qtd').value=cfg.qtd;$('#qtdOut').textContent=cfg.qtd;$('#paleta').value=cfg.paleta;$('#pelagem').value=cfg.pelagem;$('#kw').value=cfg.kw;$('#link').value=cfg.link;$('#marca').value=cfg.marca;$('#inicio').value=cfg.inicio;$('#porDia').value=cfg.porDia;cfg.h.forEach((h,i)=>{const el=$('#h'+(i+1));if(el)el.value=h});horariosAtivos()}
+function horariosAtivos(){const n=+$('#porDia').value;[1,2,3,4,5].forEach(i=>$('#h'+i).disabled=i>n)}
+function salvarCfg(){store.set('fc_cfg',cfg)}
+
+let dl=null;
+function stats(){$('#stQtd').textContent=lote.length;$('#stImg').textContent=lote.length*5;const st=$('#stAte');if(lote.length){const q=quando(lote.length-1);st.textContent=`agenda até ${q.data}`}else st.textContent='sem agenda';$('#tbTitulo').textContent=lote.length?`Seu lote · ${lote.length} carross${lote.length>1?'éis':'el'}`:'Seu lote'}
+
+function cartao(c,i){
+  const el=document.createElement('article');el.className='card';el.dataset.id=c.id;
+  const q=quando(i);
+  el.innerHTML=`<div class="card-head"><div class="when"><span class="num">${String(i+1).padStart(2,'0')}</span><div class="when-t"><b>${q.curta} · ${q.hora}</b><span></span></div></div><span class="tag"></span></div>
+  <div class="strip"></div>
+  <div class="cap"><details><summary>Legenda e hashtags <span></span></summary><textarea id="leg-${c.id}" aria-label="Legenda do carrossel ${i+1}"></textarea></details></div>
+  <div class="actions">
+    <button class="btn dark" type="button" data-a="zip" data-dl><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Baixar carrossel</button>
+    <button class="btn" type="button" data-a="galeria" data-dl>Salvar 5 imagens</button>
+    <button class="btn" type="button" data-a="copiar">Copiar legenda</button>
+    <button class="btn ghost" type="button" data-a="trocar">Trocar variação</button>
+    <button class="btn ghost danger" type="button" data-a="remover" aria-label="Remover carrossel ${i+1}">Remover</button>
+  </div>`;
+  el.querySelector('.when-t span').textContent=plain(c.hook);
+  el.querySelector('.tag').textContent=SEG[c.seg].nome;
+  el.querySelector('summary span').textContent=c.tags.slice(0,3).join(' ');
+  const ta=el.querySelector('textarea');ta.value=c.legenda;ta.oninput=()=>{c.legenda=ta.value;c.editada=true;salvarLote()};
+  const strip=el.querySelector('.strip');
+  for(let s=0;s<5;s++){const b=document.createElement('button');b.type='button';b.className='thumb';b.setAttribute('aria-label',`Ampliar slide ${s+1}`);const cv=document.createElement('canvas');cv.width=270;cv.height=338;b.appendChild(cv);const n=document.createElement('span');n.className='n';n.textContent=s+1;b.appendChild(n);b.onclick=()=>abrirLB(c,s);strip.appendChild(b)}
+  el.querySelectorAll('[data-dl]').forEach(b=>b.hidden=!dl);
+  el.querySelector('.actions').onclick=e=>{const b=e.target.closest('button');if(!b)return;acao(b.dataset.a,c,b)};
+  return el;
+}
+const filaThumbs=[];let rodandoThumbs=false;
+async function processarThumbs(){if(rodandoThumbs)return;rodandoThumbs=true;await fontes();while(filaThumbs.length){const {c,el}=filaThumbs.shift();if(!el.isConnected)continue;const cvs=el.querySelectorAll('.thumb canvas');for(let s=0;s<5;s++){const ctx=cvs[s].getContext('2d');ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,270,338);ctx.setTransform(270/1080,0,0,338/1350,0,0);await desenhar(ctx,c,s)}await new Promise(r=>setTimeout(r,0))}rodandoThumbs=false}
+function render(){const L=$('#lista');L.textContent='';filaThumbs.length=0;
+  if(!lote.length){L.innerHTML='<div class="empty"><b>Nenhum carrossel no lote ainda</b><p>Marque os temas ao lado, escolha quantos quer e toque em Gerar carrosséis. Cada um sai com 5 slides, legenda, hashtags e horário de postagem.</p></div>'}
+  lote.forEach((c,i)=>{const el=cartao(c,i);L.appendChild(el);filaThumbs.push({c,el})});
+  stats();document.querySelectorAll('.toolbar [data-dl]').forEach(b=>b.hidden=!dl||!lote.length);$('#limpar').hidden=!lote.length;processarThumbs()}
+function atualizarDatas(){document.querySelectorAll('.card').forEach((el,i)=>{const q=quando(i);el.querySelector('.when-t b').textContent=`${q.curta} · ${q.hora}`});stats()}
+
+function gerar(){lerCfg();salvarCfg();const usadas=new Set(lote.map(c=>c.assin));const novos=[];
+  for(let i=0;i<cfg.qtd;i++){const seg=cfg.segs[(lote.length+i)%cfg.segs.length];let c,t=0;do{c=montar(seg,newSeed());t++}while(usadas.has(c.assin)&&t<30);usadas.add(c.assin);c.id=Date.now().toString(36)+i+Math.random().toString(36).slice(2,6);c.legenda=legendaDe(c);c.editada=false;novos.push(c)}
+  lote=lote.concat(novos);salvarLote();render();toast(`${novos.length} carrosséis prontos no lote.`);
+  const prim=document.querySelector(`.card[data-id="${novos[0].id}"]`);if(prim)prim.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}
+
+function nomeBase(c,i){const q=quando(i);return `${String(i+1).padStart(2,'0')}-${q.data.split('/').reverse().join('-')}-${q.hora.replace(':','h')}-${c.seg}`}
+function textoLegenda(c,i){const q=quando(i);return `POSTAR EM: ${q.data} às ${q.hora}\nTEMA: ${SEG[c.seg].nome}\n\n${c.legenda}\n`}
+async function zipCarrossel(c,i,zip,pasta){const f=pasta?zip.folder(pasta):zip;for(let s=0;s<5;s++){f.file(`slide-${s+1}.jpg`,await pngDe(c,s))}f.file('legenda.txt',textoLegenda(c,i))}
+function erroDl(e){const code=e&&e.code;if(code==='declined')toast('Download cancelado.');else if(code==='rate_limited')toast('Já tem um download esperando confirmação.');else if(code==='too_large')toast('Arquivo grande demais. Baixe os carrosséis um por vez.');else toast('Não deu pra baixar aqui. Tente pelo app ou site do Claude.')}
+async function ocupado(b,txt,fn){const old=b.innerHTML;b.disabled=true;b.textContent=txt;try{await fn(b)}finally{b.disabled=false;b.innerHTML=old}}
+async function acao(a,c,b){const i=lote.indexOf(c);if(i<0)return;
+  if(a==='copiar'){try{await navigator.clipboard.writeText(c.legenda);toast('Legenda copiada.')}catch(e){const card=b.closest('.card');card.querySelector('details').open=true;const ta=card.querySelector('textarea');ta.focus();ta.select();toast('Legenda selecionada. Copie pelo teclado.')}}
+  if(a==='trocar'){const n=montar(c.seg,newSeed());const pal=cfg.paleta==='variar'?n.paleta:c.paleta;Object.assign(c,n,{paleta:pal,editada:false});c.legenda=legendaDe(c);salvarLote();const el=cartao(c,i);b.closest('.card').replaceWith(el);filaThumbs.push({c,el});processarThumbs()}
+  if(a==='remover'){lote.splice(i,1);salvarLote();render()}
+  if(a==='zip'&&dl){await ocupado(b,'Preparando…',async()=>{await fontes();const z=new JSZip();await zipCarrossel(c,i,z);const blob=await z.generateAsync({type:'blob'});try{await dl.save({filename:`carrossel-${nomeBase(c,i)}.zip`,data:blob});toast('Carrossel salvo: 5 imagens e legenda.')}catch(e){erroDl(e)}})}
+  if(a==='galeria'&&dl){await ocupado(b,'Salvando…',async(bt)=>{await fontes();try{await navigator.clipboard.writeText(c.legenda)}catch(e){}for(let s=0;s<5;s++){bt.textContent=`Imagem ${s+1}/5…`;const blob=await pngDe(c,s);try{await dl.save({filename:`${nomeBase(c,i)}-slide-${s+1}.jpg`,data:blob})}catch(e){erroDl(e);return}}toast('5 imagens salvas. A legenda já está copiada.')})}
+}
+
+/* ---------- Lightbox ---------- */
+let lbC=null,lbS=0;
+async function lbDesenhar(){const ctx=$('#lbCanvas').getContext('2d');ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,1080,1350);await fontes();await desenhar(ctx,lbC,lbS);$('#lbPos').textContent=`${lbS+1}/5`}
+function abrirLB(c,s){lbC=c;lbS=s;$('#lb').hidden=false;lbDesenhar();$('#lbClose').focus()}
+$('#lbPrev').onclick=()=>{lbS=(lbS+4)%5;lbDesenhar()};$('#lbNext').onclick=()=>{lbS=(lbS+1)%5;lbDesenhar()};$('#lbClose').onclick=()=>{$('#lb').hidden=true};
+$('#lb').addEventListener('click',e=>{if(e.target.id==='lb')$('#lb').hidden=true});
+$('#lb').addEventListener('keydown',e=>{if(e.key==='Escape')$('#lb').hidden=true;if(e.key==='ArrowRight')$('#lbNext').click();if(e.key==='ArrowLeft')$('#lbPrev').click()});
+
+/* ---------- Ações do lote ---------- */
+function csv(){const q=v=>'"'+String(v).replace(/"/g,'""')+'"';const linhas=[['numero','data','hora','tema','gancho','legenda'].join(';')];lote.forEach((c,i)=>{const w=quando(i);linhas.push([i+1,w.data,w.hora,q(SEG[c.seg].nome),q(plain(c.hook)),q(c.legenda)].join(';'))});return '﻿'+linhas.join('\r\n')}
+$('#zipTudo').onclick=async e=>{if(!dl||!lote.length)return;await ocupado(e.currentTarget,'Montando lote…',async(bt)=>{await fontes();const z=new JSZip();for(let i=0;i<lote.length;i++){bt.textContent=`Montando ${i+1}/${lote.length}…`;await zipCarrossel(lote[i],i,z,nomeBase(lote[i],i))}z.file('agenda.csv',csv());const blob=await z.generateAsync({type:'blob'});try{await dl.save({filename:`lote-carrosseis-${hojeISO()}.zip`,data:blob});toast(`Lote salvo: ${lote.length} pastas, uma por carrossel.`)}catch(err){erroDl(err)}})};
+$('#csvBtn').onclick=async()=>{if(!dl)return;try{await dl.save({filename:`agenda-carrosseis-${hojeISO()}.csv`,data:csv()});toast('Agenda salva.')}catch(e){erroDl(e)}};
+let limparArmado=false;
+$('#limpar').onclick=e=>{const b=e.currentTarget;if(!limparArmado){limparArmado=true;b.textContent='Toque de novo pra apagar tudo';setTimeout(()=>{limparArmado=false;b.textContent='Limpar lote'},3500);return}limparArmado=false;b.textContent='Limpar lote';lote=[];salvarLote();render();toast('Lote apagado.')};
+
+/* ---------- Painel ---------- */
+$('#qtd').oninput=e=>{$('#qtdOut').textContent=e.target.value};
+$('#porDia').onchange=()=>{horariosAtivos();lerCfg();salvarCfg();atualizarDatas()};
+['#inicio','#h1','#h2','#h3','#h4','#h5'].forEach(s=>$(s).addEventListener('change',()=>{lerCfg();salvarCfg();atualizarDatas()}));
+['#kw','#link','#marca'].forEach(s=>$(s).addEventListener('change',()=>{lerCfg();salvarCfg();lote.forEach(c=>{if(!c.editada)c.legenda=legendaDe(c)});salvarLote();render()}));
+['#paleta','#pelagem'].forEach(s=>$(s).addEventListener('change',()=>{lerCfg();salvarCfg()}));
+$('#painel').onsubmit=e=>{e.preventDefault();gerar()};
+
+/* ---------- Tema novo com IA ---------- */
+let sample=null;
+function limpa(s,n){return String(s||'').replace(/\s+/g,' ').trim().slice(0,n)}
+$('#iaBtn').onclick=async()=>{const tema=limpa($('#iaTema').value,80);const st=$('#iaStatus');if(!tema){st.className='status err';st.textContent='Escreva o tema, por exemplo: cão com medo de banho.';return}if(!sample)return;
+  const b=$('#iaBtn');b.disabled=true;st.className='status';st.textContent='Escrevendo ganchos e dicas…';
+  const prompt=`Você escreve carrosséis de Instagram em português do Brasil para a marca "Meu Cão Obedece" (adestramento positivo: sem punição, sem enforcador, sem gritos). Tema: "${tema}".
+Responda SOMENTE com JSON neste formato:
+{"nome":"nome curto do tema (até 24 letras)","som":"onomatopeia do cão em MAIÚSCULAS (até 12 letras)","adesivo":"selo curto em MAIÚSCULAS (até 16 letras)","rodape":"frase da capa tipo '3 truques pra ...' (até 52 letras)","tags":["4 hashtags do tema, sem acento"],"ganchos":["4 perguntas de capa que tocam na dor do tutor, até 60 letras, com UMA palavra-chave entre colchetes, ex: 'Seu cão [late] para as visitas?'"],"dicas":[{"t1":"linha 1 do título (até 16 letras)","t2":"linha 2 do título (até 18 letras)","p":"explicação curta (até 95 letras) com UM trecho entre **asteriscos duplos**","passos":["3 passos práticos, cada um até 48 letras, com UM trecho entre **asteriscos duplos**"],"fala":"fala engraçada do mascote (até 22 letras)","humor":"normal | feliz | dorminhoco | bravo","alerta":"só quando houver risco real (agressividade, dor, doença), até 95 letras; senão string vazia"}]}
+Quero exatamente 6 dicas diferentes, seguras e práticas.`;
+  try{const j=await sample.json(prompt,{modelTier:'default'});
+    const H=['normal','feliz','dorminhoco','bravo'];
+    const dicas=(j.dicas||[]).map(d=>{const passos=(d.passos||[]).slice(0,3).map(p=>limpa(p,60)).filter(Boolean);while(passos.length<3)passos.push('Repita **todos os dias**.');return [limpa(d.t1,18),limpa(d.t2,20),limpa(d.p,110),passos,limpa(d.fala,24)||'Bora treinar!',H.includes(d.humor)?d.humor:'normal',limpa(d.alerta,110)||undefined]}).filter(d=>d[0]&&d[1]&&d[2]);
+    const hooks=(j.ganchos||[]).map(h=>limpa(h,70)).filter(Boolean);
+    if(dicas.length<3||!hooks.length)throw {message:'incompleto'};
+    const key='ia_'+Date.now().toString(36);
+    custom[key]={nome:limpa(j.nome,26)||limpa(tema,26),som:limpa(j.som,14).toUpperCase()||'AU!',adesivo:limpa(j.adesivo,18).toUpperCase()||'ATENÇÃO!',humor:'normal',rodape:limpa(j.rodape,56)||'3 dicas pra resolver isso em casa',tags:(j.tags||[]).map(t=>'#'+limpa(t,30).replace(/[^\p{L}\p{N}]/gu,'')).filter(t=>t.length>2).slice(0,6),hooks,dicas};
+    if(!custom[key].tags.length)custom[key].tags=['#adestramento'];
+    SEG[key]=custom[key];store.set('fc_custom',custom);cfg.segs=[...cfg.segs,key];salvarCfg();chips();
+    st.className='status ok';st.textContent=`Tema “${custom[key].nome}” criado e marcado. Agora é só gerar.`;$('#iaTema').value='';
+  }catch(e){st.className='status err';st.textContent=e&&e.code==='rate_limited'?'Muitos pedidos seguidos. Espere um pouco e tente de novo.':e&&e.code==='not_granted'?'Sem permissão pra usar a IA nesta tela.':'Não consegui criar esse tema. Tente escrever de outro jeito.'}
+  finally{b.disabled=false}};
+
+/* ---------- Início ---------- */
+opcoes();escreverCfg();chips();
+if(!lote.length){cfg.segs.forEach((s,i)=>{if(i<3){const c=montar(s,1000+i);c.id='ex'+i;c.legenda=legendaDe(c);c.editada=false;lote.push(c)}});}
+render();
+(async()=>{
+  if(window.claude&&window.claude.use){
+    try{dl=await window.claude.use('downloads')}catch(e){dl=null}
+    if(!dl)$('#dlNote').hidden=false;
+    render();
+    try{sample=await window.claude.use('sample')}catch(e){sample=null}
+    $('#iaBox').hidden=!sample;
+  }else{$('#dlNote').hidden=false}
+})();
+</script>

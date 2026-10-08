@@ -1,8 +1,6 @@
 name: Postar no Instagram
 
 on:
-  schedule:
-    - cron: "7 * * * *"   # confere a fila de hora em hora
   workflow_dispatch:
     inputs:
       post:

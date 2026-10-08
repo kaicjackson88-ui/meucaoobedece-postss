@@ -220,6 +220,24 @@ def slot_vencido(publicados, agora=None):
 
 
 # ---------------- Instagram ----------------
+def subir_arquivos(arquivos, branch):
+    """Sobe vários arquivos num branch próprio e devolve as URLs públicas na mesma ordem."""
+    tmp = Path(tempfile.mkdtemp(prefix='midia-'))
+    subprocess.run(['git', 'worktree', 'add', '--detach', str(tmp)], cwd=RAIZ, check=True)
+    try:
+        run = lambda *a: subprocess.run(list(a), cwd=tmp, check=True)
+        run('git', 'checkout', '--orphan', f'tmp-{branch}')
+        run('git', 'rm', '-rfq', '.')
+        for f in arquivos: shutil.copy(f, tmp / Path(f).name)
+        run('git', 'add', '.')
+        run('git', '-c', 'user.name=robo-meu-cao-obedece', '-c', 'user.email=robo@users.noreply.github.com', 'commit', '-qm', f'midia {branch}')
+        run('git', 'push', '-qf', 'origin', f'HEAD:refs/heads/{branch}')
+    finally:
+        subprocess.run(['git', 'worktree', 'remove', '--force', str(tmp)], cwd=RAIZ)
+        subprocess.run(['git', 'branch', '-D', f'tmp-{branch}'], cwd=RAIZ, capture_output=True)
+    return [f'https://raw.githubusercontent.com/{REPO}/{branch}/{Path(f).name}' for f in arquivos]
+
+
 def subir_midia(arq, nome):
     """Publica o vídeo num branch só dele (midia-<nome>) e devolve a URL pública. Apaga branches de mídia com mais de 2 dias."""
     stem = Path(nome).stem
@@ -299,12 +317,99 @@ def salvar_git(msg):
             time.sleep(5)
 
 
+CARR_FEITOS = DADOS / 'carrosseis_feitos.json'
+
+
+def _slots_carrossel(agora):
+    if agora.strftime('%Y-%m-%d') < CFG.get('comecar_em', '0000'):
+        return []
+    out = []
+    for h in CFG.get('carrossel_horarios', []):
+        hh, mm = map(int, h.split(':'))
+        out.append(agora.replace(hour=hh, minute=mm, second=0, microsecond=0))
+    return out
+
+
+def _carr_feitos_set():
+    feitos = {f['slot'] for f in ler_json(CARR_FEITOS, [])}
+    for pj in (RAIZ / 'posts').glob('*/publicado.json'):  # carrosséis antigos já publicados pelo outro robô
+        info = json.loads((pj.parent / 'post.json').read_text(encoding='utf-8'))
+        feitos.add(datetime.fromisoformat(info['quando']).astimezone(BRT).strftime('%Y-%m-%d %H:%M'))
+    return feitos
+
+
+def carrossel_vencido(agora=None):
+    agora = agora or datetime.now(BRT)
+    feitos = _carr_feitos_set()
+    for s in _slots_carrossel(agora):
+        nome = s.strftime('%Y-%m-%d %H:%M')
+        if s <= agora < s + timedelta(hours=6) and nome not in feitos:
+            return nome
+    return None
+
+
+def proximo_carrossel(agora=None):
+    agora = agora or datetime.now(BRT)
+    feitos = _carr_feitos_set()
+    fut = [s for s in _slots_carrossel(agora) if s > agora and s.strftime('%Y-%m-%d %H:%M') not in feitos]
+    return min(fut) if fut else None
+
+
+def publicar_carrossel_urls(urls, legenda):
+    from postar import chamar, conta_instagram, esperar_pronto
+    ig = conta_instagram()
+    filhos = [chamar('POST', f'{ig}/media', {'image_url': u, 'is_carousel_item': 'true'})['id'] for u in urls]
+    for f in filhos: esperar_pronto(f)
+    car = chamar('POST', f'{ig}/media', {'media_type': 'CAROUSEL', 'children': ','.join(filhos), 'caption': legenda})['id']
+    esperar_pronto(car)
+    mid = chamar('POST', f'{ig}/media_publish', {'creation_id': car})['id']
+    return mid, chamar('GET', mid, {'fields': 'permalink'}).get('permalink', '')
+
+
+def postar_carrossel(slot):
+    import carrossel
+    from postar import conta_instagram, publicar
+    feitos = ler_json(CARR_FEITOS, [])
+    # 1) já existe um carrossel agendado na pasta posts/ para este horário?
+    for pasta in sorted((RAIZ / 'posts').iterdir()):
+        pj = pasta / 'post.json'
+        if not pj.exists() or (pasta / 'publicado.json').exists(): continue
+        info = json.loads(pj.read_text(encoding='utf-8'))
+        if datetime.fromisoformat(info['quando']).astimezone(BRT).strftime('%Y-%m-%d %H:%M') == slot:
+            print(f'Carrossel agendado: {pasta.name}')
+            publicar(conta_instagram(), pasta, info)
+            pub = json.loads((pasta / 'publicado.json').read_text(encoding='utf-8'))
+            feitos.append({'slot': slot, 'seg': info.get('tema', ''), 'pasta': pasta.name, 'media_id': pub['media_id'], 'link': pub['link']})
+            gravar_json(CARR_FEITOS, feitos); return
+    # 2) senão, gera um novo na hora
+    seg = carrossel.escolher_tema(feitos)
+    tmp = Path(tempfile.mkdtemp(prefix='carr-'))
+    arquivos, info, seed = carrossel.gerar(seg, {f.get('assin') for f in feitos}, tmp)
+    print(f'Carrossel novo: {info["nome"]} — {info["hook"]}')
+    branch = f'midia-{slot.replace("-", "").replace(" ", "-").replace(":", "")}-c-{seg}'
+    urls = subir_arquivos(arquivos, branch)
+    time.sleep(15)
+    mid, link = publicar_carrossel_urls(urls, info['legenda'])
+    feitos.append({'slot': slot, 'seg': seg, 'tema': info['nome'], 'gancho': info['hook'], 'assin': info['assin'], 'seed': seed,
+                   'media_id': mid, 'link': link, 'publicado_em': datetime.now(timezone.utc).isoformat()})
+    gravar_json(CARR_FEITOS, feitos)
+    print('Carrossel publicado!', link)
+
+
 def cmd_turno(minutos=320):
     """Fica de plantão: posta os horários vencidos e espera os próximos, por até `minutos`.
     (O agendador do GitHub atrasa e pula execuções; assim nenhum horário se perde.)"""
     fim = time.time() + minutos * 60
     while True:
         if time.time() > fim: break
+        cs = carrossel_vencido()
+        if cs:
+            try:
+                postar_carrossel(cs); salvar_git('Carrossel publicado')
+            except Exception as e:
+                print('⚠️ Carrossel falhou:', e)
+                f = ler_json(CARR_FEITOS, []); f.append({'slot': cs, 'erro': str(e)[:200]}); gravar_json(CARR_FEITOS, f); salvar_git('Carrossel: erro registrado')
+            continue
         publicados = ler_json(DADOS / 'reels_publicados.json', [])
         if slot_vencido(publicados):
             try:
@@ -315,7 +420,7 @@ def cmd_turno(minutos=320):
             if len(ler_json(DADOS / 'reels_publicados.json', [])) == len(publicados):
                 break  # nada foi postado (ex.: banco vazio) — não insiste
             continue
-        prox = proximo_slot(publicados)
+        prox = min([x for x in (proximo_slot(publicados), proximo_carrossel()) if x], default=None)
         if not prox: break
         espera = (prox - datetime.now(BRT)).total_seconds()
         if time.time() + espera > fim: break
@@ -379,9 +484,9 @@ def main():
         produzir(rot, a[2], '--falso' in a)
     elif a[0] == 'precisa':
         pub = ler_json(DADOS / 'reels_publicados.json', [])
-        prox = proximo_slot(pub)
+        prox = min([x for x in (proximo_slot(pub), proximo_carrossel()) if x], default=None)
         perto = prox and (prox - datetime.now(BRT)).total_seconds() < 320 * 60
-        print('sim' if slot_vencido(pub) or perto else 'nao')
+        print('sim' if slot_vencido(pub) or carrossel_vencido() or perto else 'nao')
     elif a[0] == 'turno':
         cmd_turno()
     elif a[0] == 'postar':

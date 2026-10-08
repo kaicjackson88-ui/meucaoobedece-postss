@@ -10,7 +10,7 @@ on:
         required: false
         default: ""
       modo:
-        description: "teste = só gera o vídeo | postar = gera e posta agora"
+        description: "teste = só gera o vídeo | postar = gera e posta agora | turno = liga o plantão agora"
         required: false
         default: "teste"
 
@@ -55,7 +55,7 @@ jobs:
           git config user.name "robo-meu-cao-obedece"
           git config user.email "robo@users.noreply.github.com"
           set -o pipefail
-          if [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "$MODO" = "turno" ]; then
             python scripts/reels.py turno 2>&1 | tee dados/ultima_execucao.log
           else
             ARGS=""

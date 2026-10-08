@@ -21,5 +21,12 @@
   "noite"
  ],
  "tiktok_por_dia": 3,
- "tiktok_hora_inicio": "08:00"
+ "tiktok_hora_inicio": "08:00",
+ "carrossel_horarios": [
+  "07:00",
+  "09:30",
+  "12:00",
+  "15:00",
+  "19:00"
+ ]
 }
