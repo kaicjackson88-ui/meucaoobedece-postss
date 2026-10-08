@@ -42,5 +42,6 @@
  "tiktok_por_lote": 3,
  "tiktok_render_hora": "01:00",
  "link_bio_tiktok": "https://meucaoobedece.vercel.app/?utm_source=tiktok&utm_medium=social&utm_content=link_in_bio",
- "link_bio_instagram": "https://meucaoobedece.vercel.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
+ "link_bio_instagram": "https://meucaoobedece.vercel.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+ "referencias_ig": []
 }

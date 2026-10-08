@@ -22,6 +22,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 concurrency:
   group: tiktok-rascunhos
@@ -34,6 +35,7 @@ jobs:
     env:
       TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
       TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+      GITHUB_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
