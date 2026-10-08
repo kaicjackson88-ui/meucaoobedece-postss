@@ -322,7 +322,10 @@ def cmd_postar(args):
     slot = slot_vencido(publicados)
     if not slot and not forcar and not teste:
         print('Nenhum horário de Reels vencido agora.'); return
-    rot = banco.get(forcar) if forcar else escolher(banco, publicados)
+    if forcar and forcar.endswith('.json'):
+        rot = json.loads((RAIZ / forcar).read_text(encoding='utf-8'))
+    else:
+        rot = banco.get(forcar) if forcar else escolher(banco, publicados)
     if not rot:
         print('⚠️ O banco de roteiros acabou — aguardando roteiros novos.'); return
     rot = dict(rot)
