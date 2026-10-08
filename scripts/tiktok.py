@@ -31,12 +31,13 @@ def main():
     for k, rid in enumerate(ids, 1):
         rot = banco.get(rid) or json.loads((RAIZ / rid).read_text(encoding='utf-8'))  # aceita caminho .json (ex.: anúncios)
         print(f'[{k}/{len(ids)}] {rid}', flush=True)
-        pasta = saida / rid
+        nome_id = Path(rid).stem
+        pasta = saida / nome_id
         try:
             reels.produzir(rot, pasta)
         except Exception as e:
             print('  falhou:', e); continue
-        nome = f'{k:02d}-{rid}.mp4'
+        nome = f'{k:02d}-{nome_id}.mp4'
         shutil.move(pasta / 'reel.mp4', saida / nome)
         legendas.append(f"=== {nome} ===\n{rot['legenda']}\n\n{rot.get('hashtags', '')}\n")
         if rid in banco: usados.append({'id': rid, 'quando': datetime.now(reels.BRT).isoformat()})
