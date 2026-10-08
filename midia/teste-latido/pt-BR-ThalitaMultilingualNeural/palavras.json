@@ -1,0 +1,357 @@
+[
+ {
+  "palavra": "Seu",
+  "inicio": 0.046,
+  "fim": 0.289
+ },
+ {
+  "palavra": "cão",
+  "inicio": 0.289,
+  "fim": 0.474
+ },
+ {
+  "palavra": "late",
+  "inicio": 0.475,
+  "fim": 0.787
+ },
+ {
+  "palavra": "pra",
+  "inicio": 0.787,
+  "fim": 0.961
+ },
+ {
+  "palavra": "toda",
+  "inicio": 0.961,
+  "fim": 1.308
+ },
+ {
+  "palavra": "visita",
+  "inicio": 1.308,
+  "fim": 1.701
+ },
+ {
+  "palavra": "que",
+  "inicio": 1.701,
+  "fim": 1.771
+ },
+ {
+  "palavra": "chega",
+  "inicio": 1.771,
+  "fim": 2.222
+ },
+ {
+  "palavra": "Calma",
+  "inicio": 2.546,
+  "fim": 2.986
+ },
+ {
+  "palavra": "O",
+  "inicio": 3.3,
+  "fim": 3.381
+ },
+ {
+  "palavra": "problema",
+  "inicio": 3.381,
+  "fim": 3.948
+ },
+ {
+  "palavra": "não",
+  "inicio": 3.948,
+  "fim": 4.249
+ },
+ {
+  "palavra": "é",
+  "inicio": 4.249,
+  "fim": 4.364
+ },
+ {
+  "palavra": "o",
+  "inicio": 4.364,
+  "fim": 4.387
+ },
+ {
+  "palavra": "latido",
+  "inicio": 4.388,
+  "fim": 4.955
+ },
+ {
+  "palavra": "É",
+  "inicio": 5.266,
+  "fim": 5.393
+ },
+ {
+  "palavra": "o",
+  "inicio": 5.394,
+  "fim": 5.44
+ },
+ {
+  "palavra": "que",
+  "inicio": 5.44,
+  "fim": 5.509
+ },
+ {
+  "palavra": "a",
+  "inicio": 5.509,
+  "fim": 5.567
+ },
+ {
+  "palavra": "campainha",
+  "inicio": 5.567,
+  "fim": 6.065
+ },
+ {
+  "palavra": "significa",
+  "inicio": 6.065,
+  "fim": 6.736
+ },
+ {
+  "palavra": "pra",
+  "inicio": 6.736,
+  "fim": 6.921
+ },
+ {
+  "palavra": "ele",
+  "inicio": 6.921,
+  "fim": 7.164
+ },
+ {
+  "palavra": "Missão",
+  "inicio": 7.489,
+  "fim": 7.987
+ },
+ {
+  "palavra": "um",
+  "inicio": 7.987,
+  "fim": 8.149
+ },
+ {
+  "palavra": "toque",
+  "inicio": 8.381,
+  "fim": 8.624
+ },
+ {
+  "palavra": "a",
+  "inicio": 8.624,
+  "fim": 8.658
+ },
+ {
+  "palavra": "campainha",
+  "inicio": 8.658,
+  "fim": 9.168
+ },
+ {
+  "palavra": "sem",
+  "inicio": 9.168,
+  "fim": 9.399
+ },
+ {
+  "palavra": "ninguém",
+  "inicio": 9.399,
+  "fim": 9.712
+ },
+ {
+  "palavra": "chegando",
+  "inicio": 9.712,
+  "fim": 10.244
+ },
+ {
+  "palavra": "e",
+  "inicio": 10.394,
+  "fim": 10.452
+ },
+ {
+  "palavra": "premie",
+  "inicio": 10.452,
+  "fim": 10.938
+ },
+ {
+  "palavra": "o",
+  "inicio": 10.938,
+  "fim": 10.985
+ },
+ {
+  "palavra": "silêncio",
+  "inicio": 10.985,
+  "fim": 11.552
+ },
+ {
+  "palavra": "Missão",
+  "inicio": 11.864,
+  "fim": 12.327
+ },
+ {
+  "palavra": "dois",
+  "inicio": 12.327,
+  "fim": 12.756
+ },
+ {
+  "palavra": "dê",
+  "inicio": 13.033,
+  "fim": 13.253
+ },
+ {
+  "palavra": "a",
+  "inicio": 13.253,
+  "fim": 13.369
+ },
+ {
+  "palavra": "ele",
+  "inicio": 13.369,
+  "fim": 13.589
+ },
+ {
+  "palavra": "um",
+  "inicio": 13.589,
+  "fim": 13.647
+ },
+ {
+  "palavra": "lugar",
+  "inicio": 13.647,
+  "fim": 13.89
+ },
+ {
+  "palavra": "seguro",
+  "inicio": 13.89,
+  "fim": 14.387
+ },
+ {
+  "palavra": "longe",
+  "inicio": 14.631,
+  "fim": 14.966
+ },
+ {
+  "palavra": "da",
+  "inicio": 14.966,
+  "fim": 15.082
+ },
+ {
+  "palavra": "porta",
+  "inicio": 15.082,
+  "fim": 15.487
+ },
+ {
+  "palavra": "Missão",
+  "inicio": 15.8,
+  "fim": 16.216
+ },
+ {
+  "palavra": "três",
+  "inicio": 16.216,
+  "fim": 16.587
+ },
+ {
+  "palavra": "carinho",
+  "inicio": 16.83,
+  "fim": 17.293
+ },
+ {
+  "palavra": "só",
+  "inicio": 17.489,
+  "fim": 17.709
+ },
+ {
+  "palavra": "com",
+  "inicio": 17.709,
+  "fim": 17.825
+ },
+ {
+  "palavra": "as",
+  "inicio": 17.825,
+  "fim": 17.941
+ },
+ {
+  "palavra": "quatro",
+  "inicio": 17.941,
+  "fim": 18.3
+ },
+ {
+  "palavra": "patas",
+  "inicio": 18.3,
+  "fim": 18.635
+ },
+ {
+  "palavra": "no",
+  "inicio": 18.635,
+  "fim": 18.728
+ },
+ {
+  "palavra": "chão",
+  "inicio": 18.728,
+  "fim": 19.075
+ },
+ {
+  "palavra": "Quer",
+  "inicio": 19.398,
+  "fim": 19.572
+ },
+ {
+  "palavra": "o",
+  "inicio": 19.572,
+  "fim": 19.63
+ },
+ {
+  "palavra": "plano",
+  "inicio": 19.63,
+  "fim": 19.965
+ },
+ {
+  "palavra": "certo",
+  "inicio": 19.965,
+  "fim": 20.359
+ },
+ {
+  "palavra": "pro",
+  "inicio": 20.359,
+  "fim": 20.498
+ },
+ {
+  "palavra": "seu",
+  "inicio": 20.498,
+  "fim": 20.694
+ },
+ {
+  "palavra": "cão",
+  "inicio": 20.694,
+  "fim": 20.995
+ },
+ {
+  "palavra": "Comenta",
+  "inicio": 21.308,
+  "fim": 21.759
+ },
+ {
+  "palavra": "XIXI",
+  "inicio": 21.759,
+  "fim": 22.28
+ },
+ {
+  "palavra": "que",
+  "inicio": 22.465,
+  "fim": 22.5
+ },
+ {
+  "palavra": "eu",
+  "inicio": 22.5,
+  "fim": 22.581
+ },
+ {
+  "palavra": "te",
+  "inicio": 22.581,
+  "fim": 22.685
+ },
+ {
+  "palavra": "mando",
+  "inicio": 22.685,
+  "fim": 22.893
+ },
+ {
+  "palavra": "o",
+  "inicio": 22.893,
+  "fim": 22.928
+ },
+ {
+  "palavra": "teste",
+  "inicio": 22.928,
+  "fim": 23.345
+ }
+]

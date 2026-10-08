@@ -1,0 +1,357 @@
+[
+ {
+  "palavra": "Seu",
+  "inicio": 0.096,
+  "fim": 0.351
+ },
+ {
+  "palavra": "cão",
+  "inicio": 0.362,
+  "fim": 0.582
+ },
+ {
+  "palavra": "late",
+  "inicio": 0.594,
+  "fim": 0.872
+ },
+ {
+  "palavra": "pra",
+  "inicio": 0.883,
+  "fim": 1.057
+ },
+ {
+  "palavra": "toda",
+  "inicio": 1.069,
+  "fim": 1.323
+ },
+ {
+  "palavra": "visita",
+  "inicio": 1.335,
+  "fim": 1.717
+ },
+ {
+  "palavra": "que",
+  "inicio": 1.728,
+  "fim": 1.821
+ },
+ {
+  "palavra": "chega",
+  "inicio": 1.832,
+  "fim": 2.272
+ },
+ {
+  "palavra": "Calma",
+  "inicio": 3.067,
+  "fim": 3.518
+ },
+ {
+  "palavra": "O",
+  "inicio": 4.317,
+  "fim": 4.433
+ },
+ {
+  "palavra": "problema",
+  "inicio": 4.444,
+  "fim": 4.942
+ },
+ {
+  "palavra": "não",
+  "inicio": 4.954,
+  "fim": 5.174
+ },
+ {
+  "palavra": "é",
+  "inicio": 5.185,
+  "fim": 5.266
+ },
+ {
+  "palavra": "o",
+  "inicio": 5.278,
+  "fim": 5.312
+ },
+ {
+  "palavra": "latido",
+  "inicio": 5.324,
+  "fim": 5.822
+ },
+ {
+  "palavra": "É",
+  "inicio": 6.62,
+  "fim": 6.759
+ },
+ {
+  "palavra": "o",
+  "inicio": 6.771,
+  "fim": 6.817
+ },
+ {
+  "palavra": "que",
+  "inicio": 6.829,
+  "fim": 6.887
+ },
+ {
+  "palavra": "a",
+  "inicio": 6.898,
+  "fim": 6.944
+ },
+ {
+  "palavra": "campainha",
+  "inicio": 6.956,
+  "fim": 7.442
+ },
+ {
+  "palavra": "significa",
+  "inicio": 7.454,
+  "fim": 8.09
+ },
+ {
+  "palavra": "pra",
+  "inicio": 8.102,
+  "fim": 8.275
+ },
+ {
+  "palavra": "ele",
+  "inicio": 8.287,
+  "fim": 8.588
+ },
+ {
+  "palavra": "Missão",
+  "inicio": 9.387,
+  "fim": 9.861
+ },
+ {
+  "palavra": "um",
+  "inicio": 9.873,
+  "fim": 10.012
+ },
+ {
+  "palavra": "toque",
+  "inicio": 10.22,
+  "fim": 10.475
+ },
+ {
+  "palavra": "a",
+  "inicio": 10.486,
+  "fim": 10.521
+ },
+ {
+  "palavra": "campainha",
+  "inicio": 10.532,
+  "fim": 10.984
+ },
+ {
+  "palavra": "sem",
+  "inicio": 10.995,
+  "fim": 11.181
+ },
+ {
+  "palavra": "ninguém",
+  "inicio": 11.192,
+  "fim": 11.493
+ },
+ {
+  "palavra": "chegando",
+  "inicio": 11.505,
+  "fim": 12.025
+ },
+ {
+  "palavra": "e",
+  "inicio": 12.234,
+  "fim": 12.315
+ },
+ {
+  "palavra": "premie",
+  "inicio": 12.326,
+  "fim": 12.662
+ },
+ {
+  "palavra": "o",
+  "inicio": 12.674,
+  "fim": 12.708
+ },
+ {
+  "palavra": "silêncio",
+  "inicio": 12.72,
+  "fim": 13.252
+ },
+ {
+  "palavra": "Missão",
+  "inicio": 14.051,
+  "fim": 14.491
+ },
+ {
+  "palavra": "dois",
+  "inicio": 14.502,
+  "fim": 14.884
+ },
+ {
+  "palavra": "dê",
+  "inicio": 15.116,
+  "fim": 15.324
+ },
+ {
+  "palavra": "a",
+  "inicio": 15.336,
+  "fim": 15.44
+ },
+ {
+  "palavra": "ele",
+  "inicio": 15.451,
+  "fim": 15.66
+ },
+ {
+  "palavra": "um",
+  "inicio": 15.671,
+  "fim": 15.741
+ },
+ {
+  "palavra": "lugar",
+  "inicio": 15.752,
+  "fim": 16.007
+ },
+ {
+  "palavra": "seguro",
+  "inicio": 16.018,
+  "fim": 16.481
+ },
+ {
+  "palavra": "longe",
+  "inicio": 16.678,
+  "fim": 17.037
+ },
+ {
+  "palavra": "da",
+  "inicio": 17.049,
+  "fim": 17.164
+ },
+ {
+  "palavra": "porta",
+  "inicio": 17.176,
+  "fim": 17.593
+ },
+ {
+  "palavra": "Missão",
+  "inicio": 18.391,
+  "fim": 18.831
+ },
+ {
+  "palavra": "três",
+  "inicio": 18.843,
+  "fim": 19.167
+ },
+ {
+  "palavra": "carinho",
+  "inicio": 19.41,
+  "fim": 19.826
+ },
+ {
+  "palavra": "só",
+  "inicio": 20.046,
+  "fim": 20.255
+ },
+ {
+  "palavra": "com",
+  "inicio": 20.266,
+  "fim": 20.417
+ },
+ {
+  "palavra": "as",
+  "inicio": 20.428,
+  "fim": 20.556
+ },
+ {
+  "palavra": "quatro",
+  "inicio": 20.567,
+  "fim": 20.903
+ },
+ {
+  "palavra": "patas",
+  "inicio": 20.914,
+  "fim": 21.238
+ },
+ {
+  "palavra": "no",
+  "inicio": 21.25,
+  "fim": 21.319
+ },
+ {
+  "palavra": "chão",
+  "inicio": 21.331,
+  "fim": 21.655
+ },
+ {
+  "palavra": "Quer",
+  "inicio": 22.454,
+  "fim": 22.674
+ },
+ {
+  "palavra": "o",
+  "inicio": 22.685,
+  "fim": 22.743
+ },
+ {
+  "palavra": "plano",
+  "inicio": 22.755,
+  "fim": 23.056
+ },
+ {
+  "palavra": "certo",
+  "inicio": 23.067,
+  "fim": 23.461
+ },
+ {
+  "palavra": "pro",
+  "inicio": 23.472,
+  "fim": 23.6
+ },
+ {
+  "palavra": "seu",
+  "inicio": 23.611,
+  "fim": 23.785
+ },
+ {
+  "palavra": "cão",
+  "inicio": 23.796,
+  "fim": 24.086
+ },
+ {
+  "palavra": "Comenta",
+  "inicio": 24.884,
+  "fim": 25.312
+ },
+ {
+  "palavra": "XIXI",
+  "inicio": 25.324,
+  "fim": 25.752
+ },
+ {
+  "palavra": "que",
+  "inicio": 25.938,
+  "fim": 26.03
+ },
+ {
+  "palavra": "eu",
+  "inicio": 26.042,
+  "fim": 26.157
+ },
+ {
+  "palavra": "te",
+  "inicio": 26.169,
+  "fim": 26.296
+ },
+ {
+  "palavra": "mando",
+  "inicio": 26.308,
+  "fim": 26.586
+ },
+ {
+  "palavra": "o",
+  "inicio": 26.597,
+  "fim": 26.632
+ },
+ {
+  "palavra": "teste",
+  "inicio": 26.643,
+  "fim": 27.072
+ }
+]
