@@ -1,0 +1,47 @@
+name: Gerar narração
+
+on:
+  workflow_dispatch:
+    inputs:
+      pasta:
+        description: "Pasta com roteiro.txt (ex.: midia/teste-latido)"
+        required: true
+      vozes:
+        description: "Vozes separadas por vírgula"
+        required: false
+        default: "pt-BR-AntonioNeural,pt-BR-FranciscaNeural,pt-BR-ThalitaMultilingualNeural"
+      velocidade:
+        description: "Velocidade da fala (ex.: +8%)"
+        required: false
+        default: "+8%"
+
+permissions:
+  contents: write
+
+jobs:
+  narrar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install edge-tts==7.2.8
+      - name: Gerar uma narração por voz
+        env:
+          PASTA: ${{ github.event.inputs.pasta }}
+          VOZES: ${{ github.event.inputs.vozes }}
+          VEL: ${{ github.event.inputs.velocidade }}
+        run: |
+          IFS=',' read -ra LISTA <<< "$VOZES"
+          for v in "${LISTA[@]}"; do
+            python scripts/narrar.py "$PASTA/roteiro.txt" "$PASTA/$v" "$v" "$VEL"
+          done
+      - name: Salvar no repositório
+        run: |
+          git config user.name "robo-meu-cao-obedece"
+          git config user.email "robo@users.noreply.github.com"
+          git add midia
+          git commit -m "Narração gerada" || exit 0
+          git pull --rebase -q
+          git push
