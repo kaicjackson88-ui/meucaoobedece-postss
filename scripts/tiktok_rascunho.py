@@ -227,6 +227,18 @@ def historias_livres():
         r = json.loads(p.read_text(encoding='utf-8'))
         if r.get('formato') == 'tiktok-historia' and r['id'] not in usados:
             out.append(r)
+    # ordena pelo que mais deu view/engajamento (dados/tiktok_pesos.json); ~30% fica aleatório pra continuar testando
+    pesos = reels.ler_json(RAIZ / 'dados' / 'tiktok_pesos.json', {})
+    if pesos and out:
+        import random
+        try:
+            import tiktok_metricas as tm
+            def nota(r):
+                f = tm.caracteristicas(r)
+                return sum(pesos.get(k, {}).get(x, 0) for k, v in f.items() for x in (v if isinstance(v, set) else [v]))
+            out.sort(key=lambda r: -(nota(r) + (random.random() * 0.6 if random.random() < 0.3 else 0)))
+        except Exception as e:
+            print('pesos do TikTok ignorados:', e)
     return out
 
 
