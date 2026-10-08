@@ -28,3 +28,14 @@ posts/2026-10-08-1200-xixi/
 
 A chave dura 60 dias (a atual vence perto de 6/12/2026). Antes disso, gere outra no
 Graph API Explorer, estique no Depurador de Token e troque o valor do segredo `IG_TOKEN`.
+
+## Reels automáticos (3 por dia)
+
+- O robô `.github/workflows/reels.yml` confere de hora em hora. Nos horários de `reels/config.json` (11h, 17h e 20h) ele escolhe um roteiro de `reels/banco/`, gera a voz, monta o vídeo e posta.
+- **Testar um vídeo sem postar:** Actions › *Reels automáticos* › Run workflow (modo `teste`). O vídeo fica no branch `midia`.
+- **Postar um roteiro agora:** mesmo lugar, escreva o ID do roteiro e o modo `postar`.
+- **Pausar só os Reels:** Actions › *Reels automáticos* › ⋯ › Disable workflow.
+- **Aprendizado:** todo dia às 23:40 o *Aprender com as métricas* lê alcance, compartilhamentos, salvamentos e tempo assistido e atualiza `dados/pesos.json` e `dados/relatorio.md`. O robô passa a escolher mais os formatos e ganchos que performam.
+- **XIXI:** a cada execução o robô responde quem comentou XIXI (direct quando a Meta liberar; enquanto isso, resposta no comentário).
+- **Escrever roteiros novos:** veja `reels/COMO_ESCREVER.md`.
+- **Conferir a chave:** Actions › *Diagnóstico da chave* › Run workflow → resultado em `dados/diagnostico.txt`.
