@@ -208,7 +208,8 @@ def meta_dia():
 
 def noite_pendente():
     pr = reels.ler_json(PRONTOS, [])
-    return _hhmm() >= NOITE and sum(1 for x in pr if x['data'] == hoje()) < meta_dia()
+    # renderiza de madrugada; se a madrugada falhar, recupera até as 15h (nunca à noite)
+    return NOITE <= _hhmm() < '15:00' and sum(1 for x in pr if x['data'] == hoje()) < meta_dia()
 
 
 def a_enviar():
