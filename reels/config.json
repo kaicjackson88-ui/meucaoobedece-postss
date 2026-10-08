@@ -33,5 +33,12 @@
   "14:00",
   "20:00"
  ],
- "espelhar_tiktok": true
+ "espelhar_tiktok": false,
+ "tiktok_lotes": [
+  "05:20",
+  "11:50",
+  "17:20"
+ ],
+ "tiktok_por_lote": 3,
+ "tiktok_render_hora": "01:00"
 }

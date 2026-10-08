@@ -7,36 +7,315 @@
  "legenda": "Ela quase devolveu o Thor 💔 Até entender o que ninguém tinha ensinado pra ele. (História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste do link do perfil e descobre o que o SEU cão precisa 🐾",
  "hashtags": "#cachorro #adestramento #historiadecachorro #tutordecachorro #cachorrolatindo",
  "cenas": [
-  {"tipo": "gancho", "fala": "A Ana estava a um passo de devolver o cachorro que tinha acabado de adotar.", "linhas": ["ELA QUASE", "DEVOLVEU", "O CACHORRO"], "destaque": 1, "parte": 1, "mascote": "bravo", "icone": "coracao"},
-  {"tipo": "historia", "cenario": "sala", "quando": "SEMANA 1", "fala": "Na primeira semana, o Thor latia pra tudo.",
-   "elenco": [{"quem": "ana", "x": 300, "humor": "preocupado", "pose": "parado"}], "cao": {"mascote": "bravo", "x": 770, "acao": "late"},
-   "dialogo": [{"quem": "cao", "texto": "AU! AU! AU!", "em": 0.05}, {"quem": "ana", "texto": "Thor, para! Por favor, para de latir!", "humor": "bravo", "pose": "aponta"}]},
-  {"tipo": "chat", "quando": "22:47", "grupo": "Condomínio Bloco B", "membros": "48 participantes", "fala": "E aí veio o grupo do prédio.",
-   "dialogo": [{"quem": "sindica", "texto": "Quem é o cachorro do 302 que late o dia inteiro?"}, {"quem": "vizinho", "texto": "Ninguém aguenta mais. Eu trabalho cedo!"}, {"quem": "ana", "texto": "Desculpa, gente. Tô tentando resolver."}]},
-  {"tipo": "historia", "cenario": "corredor", "quando": "NO DIA SEGUINTE", "porta_num": "302", "porta_num2": "301", "porta_aberta": true, "campainha": 0.02,
+  {
+   "tipo": "gancho",
+   "fala": "A Ana estava a um passo de devolver o cachorro que tinha acabado de adotar.",
+   "linhas": [
+    "ELA QUASE",
+    "DEVOLVEU",
+    "O CACHORRO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEMANA 1",
+   "fala": "Na primeira semana, o Thor latia pra tudo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 770,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!",
+     "em": 0.05
+    },
+    {
+     "quem": "ana",
+     "texto": "Thor, para! Por favor, para de latir!",
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "quando": "22:47",
+   "grupo": "Condomínio Bloco B",
+   "membros": "48 participantes",
+   "fala": "E aí veio o grupo do prédio.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Quem é o cachorro do 302 que late o dia inteiro?"
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Ninguém aguenta mais. Eu trabalho cedo!"
+    },
+    {
+     "quem": "ana",
+     "texto": "Desculpa, gente. Tô tentando resolver."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "NO DIA SEGUINTE",
+   "porta_num": "302",
+   "porta_num2": "301",
+   "porta_aberta": true,
+   "campainha": 0.02,
    "fala": "No dia seguinte, o seu Jorge bateu na porta.",
-   "elenco": [{"quem": "ana", "x": 280, "humor": "vergonha", "pose": "parado"}, {"quem": "vizinho", "x": 790, "humor": "bravo", "pose": "bilhete", "dir": -1}], "cao": false,
-   "dialogo": [{"quem": "vizinho", "texto": "Dona Ana, de novo esse cachorro? Da próxima vez eu levo pro síndico."}, {"quem": "ana", "texto": "Me desculpa, seu Jorge… não vai se repetir.", "pose": "maos_rosto"}],
-   "camera": {"foco": "vizinho", "z": 1.45, "em": 0.3}},
-  {"tipo": "historia", "cenario": "sala", "quando": "MAIS TARDE", "fala": "Mas em casa era pior. Xixi no tapete. Almofada destruída.",
-   "elenco": [{"quem": "ana", "x": 300, "humor": "surpreso", "pose": "maos_cabeca"}], "cao": {"mascote": "feliz", "x": 760, "acao": "feliz"},
-   "objetos": [{"nome": "poca", "x": 560, "y": 1440, "palavra": "xixi"}, {"nome": "almofada", "x": 900, "y": 1300, "palavra": "almofada", "frente": true}],
-   "dialogo": [{"quem": "ana", "texto": "Não acredito… DE NOVO?!", "grito": true, "humor": "bravo"}]},
-  {"tipo": "historia", "cenario": "noite", "relogio": "02:47", "quando": "MADRUGADA", "fala": "Naquela madrugada, ela ligou pra um adestrador. Oitocentos reais. Não cabia no mês.",
-   "elenco": [{"quem": "ana", "x": 330, "humor": "triste", "pose": "celular"}], "cao": {"mascote": "dorminhoco", "x": 800, "acao": "dorme"}, "icone": "moeda",
-   "dialogo": [{"quem": "ana", "texto": "Será que eu não sirvo pra ter cachorro?", "pensa": true}],
-   "camera": {"foco": "ana", "z": 1.55, "em": 0.55}},
-  {"tipo": "virada", "fala": "Até que ela entendeu uma coisa: o Thor não era bagunceiro. Ninguém tinha ensinado ele.", "topo": ["O THOR NÃO ERA"], "de": "BAGUNCEIRO", "para": "NINGUÉM ENSINOU", "para_palavra": "ninguém"},
-  {"tipo": "historia", "cenario": "sala", "quando": "DIA 1 · 15 MIN", "fala": "Ela começou com quinze minutos por dia. Um comando de cada vez, e o petisco na hora certa.",
-   "elenco": [{"quem": "ana", "x": 300, "humor": "normal", "pose": "petisco"}], "cao": {"mascote": "normal", "x": 740, "acao": "senta"},
-   "dialogo": [{"quem": "ana", "texto": "Thor… senta."}, {"quem": "ana", "texto": "Isso! Muito bem!", "humor": "radiante", "pose": "comemora"}]},
-  {"tipo": "historia", "cenario": "corredor", "quando": "SEMANAS DEPOIS", "porta_num": "302", "porta_num2": "301", "porta_aberta": true, "fala": "Semanas depois, quem bateu na porta foi o seu Jorge de novo.",
-   "elenco": [{"quem": "ana", "x": 300, "humor": "feliz", "pose": "guia"}, {"quem": "vizinho", "x": 800, "humor": "surpreso", "pose": "parado", "dir": -1}], "cao": {"mascote": "normal", "x": 520, "acao": "senta"},
-   "dialogo": [{"quem": "vizinho", "texto": "Ué… cadê o latido? Ele tá diferente!"}, {"quem": "ana", "texto": "A gente tá aprendendo junto, seu Jorge.", "humor": "radiante"}]},
-  {"tipo": "historia", "cenario": "sala", "quando": "HOJE", "fala": "Não foi mágica. Foi método e constância.",
-   "elenco": [{"quem": "ana", "x": 320, "humor": "radiante", "pose": "carinho"}], "cao": {"mascote": "feliz", "x": 640, "acao": "feliz"},
-   "objetos": [{"nome": "coracoes", "x": 560, "y": 1000}],
-   "dialogo": [{"quem": "ana", "texto": "Devolver? Nunca. Ele é da família."}], "fala_depois": true},
-  {"tipo": "cta_quiz", "fala": "E o seu cão? Faz o teste grátis no link do perfil e descobre o que ele precisa aprender primeiro.", "pergunta": "Quando chega visita, seu cão…", "opcoes": ["Late sem parar", "Pula em todo mundo", "Fica tranquilo"], "escolha": 0, "resultado": "CÃO ALARME"}
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "parado"
+    },
+    {
+     "quem": "vizinho",
+     "x": 790,
+     "humor": "bravo",
+     "pose": "bilhete",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Dona Ana, de novo esse cachorro? Da próxima vez eu levo pro síndico."
+    },
+    {
+     "quem": "ana",
+     "texto": "Me desculpa, seu Jorge… não vai se repetir.",
+     "pose": "maos_rosto"
+    }
+   ],
+   "camera": {
+    "foco": "vizinho",
+    "z": 1.45,
+    "em": 0.3
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "MAIS TARDE",
+   "fala": "Mas em casa era pior. Xixi no tapete. Almofada destruída.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 560,
+     "y": 1440,
+     "palavra": "xixi"
+    },
+    {
+     "nome": "almofada",
+     "x": 900,
+     "y": 1300,
+     "palavra": "almofada",
+     "frente": true
+    }
+   ],
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Não acredito… DE NOVO?!",
+     "grito": true,
+     "humor": "bravo"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "relogio": "02:47",
+   "quando": "MADRUGADA",
+   "fala": "Naquela madrugada, ela ligou pra um adestrador. Oitocentos reais. Não cabia no mês.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 330,
+     "humor": "triste",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 800,
+    "acao": "dorme"
+   },
+   "icone": "moeda",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Será que eu não sirvo pra ter cachorro?",
+     "pensa": true
+    }
+   ],
+   "camera": {
+    "foco": "ana",
+    "z": 1.55,
+    "em": 0.55
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Até que ela entendeu uma coisa: o Thor não era bagunceiro. Ninguém tinha ensinado ele.",
+   "topo": [
+    "O THOR NÃO ERA"
+   ],
+   "de": "BAGUNCEIRO",
+   "para": "NINGUÉM ENSINOU",
+   "para_palavra": "ninguém"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Ela começou com quinze minutos por dia. Um comando de cada vez, e o petisco na hora certa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 740,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Thor… senta."
+    },
+    {
+     "quem": "ana",
+     "texto": "Isso! Muito bem!",
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEMANAS DEPOIS",
+   "porta_num": "302",
+   "porta_num2": "301",
+   "porta_aberta": true,
+   "fala": "Semanas depois, quem bateu na porta foi o seu Jorge de novo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 800,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 520,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ué… cadê o latido? Ele tá diferente!"
+    },
+    {
+     "quem": "ana",
+     "texto": "A gente tá aprendendo junto, seu Jorge.",
+     "humor": "radiante"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE",
+   "fala": "Não foi mágica. Foi método e constância.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 320,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 640,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 560,
+     "y": 1000
+    }
+   ],
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Devolver? Nunca. Ele é da família."
+    }
+   ],
+   "fala_depois": true
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu cão? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando chega visita, seu cão…",
+   "opcoes": [
+    "Late sem parar",
+    "Pula em todo mundo",
+    "Fica tranquilo"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO ALARME",
+   "seguir": true
+  }
  ]
 }

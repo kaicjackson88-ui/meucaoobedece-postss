@@ -60,7 +60,7 @@ window.render=(t)=>{let i=0;for(let j=0;j<CENAS.length;j++)if(t>=CENAS[j].a)i=j;
   cx.restore();
   CENAS.forEach(s=>{if(s.tipo==='virada'||s.tipo==='cta_meio')lightleak(t,s.a-.4,1.0)});
   hud(t,ESCUROS.has(sc.fundo));
-  if(sc.tipo!=='gancho')legenda(t,sc.tipo==='historia'?1530:sc.tipo==='chat'?1700:1500);
+  if(sc.tipo!=='gancho'&&!(sc.tipo==='cta_quiz'&&sc.seguir))legenda(t,sc.tipo==='historia'?1530:sc.tipo==='chat'?1700:1500);
   grao(t);
   if(t>DUR-.3){cx.fillStyle=`rgba(42,38,34,${cl((t-(DUR-.3))/.3)})`;cx.fillRect(0,0,W,H)}
 };

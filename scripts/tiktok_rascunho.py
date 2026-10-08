@@ -1,4 +1,4 @@
-"""Envia vídeos de curiosidade para os RASCUNHOS do TikTok (você só abre e publica).
+"""Histórias do TikTok: renderiza de madrugada e manda em lotes (manhã/tarde/noite) para os RASCUNHOS.
 
 python scripts/tiktok_rascunho.py autorizar <codigo>   # uma vez, depois de conectar em docs/conectar.html
 python scripts/tiktok_rascunho.py precisa              # "sim" se hoje ainda faltam vídeos
@@ -24,7 +24,11 @@ ENVIADOS = RAIZ / 'dados' / 'tiktok_rascunhos.json'
 USADOS = RAIZ / 'dados' / 'tiktok_usados.json'
 BANCO = RAIZ / 'tiktok' / 'banco'
 FILA = RAIZ / 'dados' / 'tiktok_fila.json'  # espelhos do Instagram que ainda não entraram (limite de rascunhos pendentes)
-POR_DIA = int(reels.CFG.get('tiktok_por_dia', 3))
+POR_DIA = int(reels.CFG.get('tiktok_por_dia', 0))
+PRONTOS = RAIZ / 'dados' / 'tiktok_prontos.json'   # histórias já renderizadas de madrugada, esperando o horário do lote
+LOTES = reels.CFG.get('tiktok_lotes', ['05:20', '11:50', '17:20'])
+POR_LOTE = int(reels.CFG.get('tiktok_por_lote', 3))
+NOITE = reels.CFG.get('tiktok_render_hora', '01:00')
 INICIO = reels.CFG.get('tiktok_hora_inicio', '08:00')
 
 
@@ -193,20 +197,115 @@ def enviar(qtd=None):
         reels.salvar_git('TikTok: vídeo nos rascunhos')
 
 
+# ---------------- produção noturna + lotes (manhã, tarde, noite) ----------------
+def _hhmm():
+    return datetime.now(reels.BRT).strftime('%H:%M')
+
+
+def meta_dia():
+    return POR_LOTE * len(LOTES)
+
+
+def noite_pendente():
+    pr = reels.ler_json(PRONTOS, [])
+    return _hhmm() >= NOITE and sum(1 for x in pr if x['data'] == hoje()) < meta_dia()
+
+
+def a_enviar():
+    pr = reels.ler_json(PRONTOS, [])
+    devidos = POR_LOTE * sum(1 for h in LOTES if _hhmm() >= h)
+    feitos = sum(1 for x in pr if (x.get('enviado') or '').startswith(hoje()))
+    return min(max(0, devidos - feitos), sum(1 for x in pr if not x.get('enviado')))
+
+
+def historias_livres():
+    usados = {u['id'] for u in reels.ler_json(USADOS, [])} | {x['id'] for x in reels.ler_json(PRONTOS, [])}
+    out = []
+    for p in sorted(BANCO.glob('h*.json')):
+        r = json.loads(p.read_text(encoding='utf-8'))
+        if r.get('formato') == 'tiktok-historia' and r['id'] not in usados:
+            out.append(r)
+    return out
+
+
+def noite(qtd=None):
+    """Renderiza as histórias do dia e deixa prontas (vídeo publicado numa branch de mídia)."""
+    pr = reels.ler_json(PRONTOS, [])
+    qtd = qtd if qtd is not None else meta_dia() - sum(1 for x in pr if x['data'] == hoje())
+    livres = historias_livres()
+    if qtd > len(livres):
+        print(f'⚠️ Só há {len(livres)} histórias novas no banco (queria {qtd}) — o roteirista repõe à noite.')
+    for rot in livres[:max(0, qtd)]:
+        print('Produzindo', rot['id'], flush=True)
+        pasta = Path(tempfile.mkdtemp(prefix='tt-'))
+        try:
+            reels.produzir(rot, pasta)
+            url = reels.subir_midia(pasta / 'reel.mp4', f'{datetime.now(reels.BRT).strftime("%Y%m%d-%H%M")}-tt-{rot["id"]}.mp4')
+        except Exception as e:
+            print('  falhou:', e); continue
+        leg = (rot.get('legenda', '') + '\n\n' + rot.get('hashtags', '')).strip()
+        pr = reels.ler_json(PRONTOS, [])
+        pr.append({'id': rot['id'], 'data': hoje(), 'url': url, 'legenda': leg, 'enviado': None})
+        reels.gravar_json(PRONTOS, pr[-60:])
+        us = reels.ler_json(USADOS, []); us.append({'id': rot['id'], 'quando': datetime.now(reels.BRT).isoformat()}); reels.gravar_json(USADOS, us)
+        reels.salvar_git('TikTok: história pronta')
+
+
+def enviar_lote(n):
+    pr = reels.ler_json(PRONTOS, [])
+    pend = [x for x in pr if not x.get('enviado')][:n]
+    if not pend:
+        return
+    at = access_token()
+    for x in pend:
+        try:
+            arq = Path(tempfile.mkdtemp(prefix='ttl-')) / 'v.mp4'
+            urllib.request.urlretrieve(x['url'], arq)
+        except Exception as e:
+            print('Vídeo pronto sumiu, descartei', x['id'], e); x['enviado'] = 'descartado'; continue
+        try:
+            pid, st = enviar_video(at, arq)
+            if st == 'FAILED': raise RuntimeError('status FAILED')
+        except Exception as e:
+            print('TikTok não aceitou agora (provável limite de 5 rascunhos pendentes) — tento na próxima hora:', e); break
+        x['enviado'] = datetime.now(reels.BRT).isoformat(); x['status'] = st
+        env = reels.ler_json(ENVIADOS, [])
+        env.append({'data': hoje(), 'id': x['id'], 'tipo': 'lote', 'legenda': x['legenda'], 'publish_id': pid, 'status': st, 'quando': x['enviado']})
+        reels.gravar_json(ENVIADOS, env); reels.gravar_json(PRONTOS, pr)
+        print('  nos rascunhos:', x['id'], st)
+    reels.gravar_json(PRONTOS, pr); atualizar_pagina_legendas()
+
+
+def ciclo(qtd=None):
+    try:
+        processar_fila()
+    except Exception as e:
+        print('TikTok fila falhou:', e)
+    if qtd:  # envio manual agora
+        falta = qtd - sum(1 for x in reels.ler_json(PRONTOS, []) if not x.get('enviado'))
+        if falta > 0: noite(falta)
+        enviar_lote(qtd); return
+    if noite_pendente():
+        noite()
+    n = a_enviar()
+    if n: enviar_lote(n)
+    else: print('Nenhum lote vencido agora.')
+
+
 def main():
     a = sys.argv[1:]
     if not a: sys.exit(__doc__)
     if a[0] == 'precisa':
         hh, mm = map(int, INICIO.split(':'))
         agora = datetime.now(reels.BRT)
-        ok = TOKEN_ARQ.exists() and ((agora >= agora.replace(hour=hh, minute=mm) and faltam_hoje() > 0) or bool(reels.ler_json(FILA, [])))
+        ok = TOKEN_ARQ.exists() and (noite_pendente() or a_enviar() > 0 or bool(reels.ler_json(FILA, [])))
         print('sim' if ok else 'nao'); return
     if not CK or not CS:
         sys.exit('Faltam os segredos TIKTOK_CLIENT_KEY e TIKTOK_CLIENT_SECRET no GitHub.')
     if a[0] == 'autorizar':
         autorizar(a[1])
     elif a[0] == 'enviar':
-        enviar(int(a[1]) if len(a) > 1 and a[1].isdigit() else None)
+        ciclo(int(a[1]) if len(a) > 1 and a[1].isdigit() else None)
 
 
 if __name__ == '__main__':

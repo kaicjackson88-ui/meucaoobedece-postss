@@ -223,7 +223,7 @@
   },
   {
    "tipo": "cta_quiz",
-   "fala": "Seu cão também te arrasta no passeio? Faz o teste grátis no link do perfil.",
+   "fala": "Seu cão também te arrasta no passeio? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
    "pergunta": "No passeio, seu cão…",
    "opcoes": [
     "Me arrasta",
@@ -231,7 +231,8 @@
     "Anda do meu lado"
    ],
    "escolha": 0,
-   "resultado": "CÃO TRATOR"
+   "resultado": "CÃO TRATOR",
+   "seguir": true
   }
  ]
 }

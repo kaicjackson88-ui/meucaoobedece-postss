@@ -263,7 +263,7 @@
   },
   {
    "tipo": "cta_quiz",
-   "fala": "E o seu cão, como recebe as visitas? Faz o teste grátis no link do perfil.",
+   "fala": "E o seu cão, como recebe as visitas? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
    "pergunta": "Quando chega visita, seu cão…",
    "opcoes": [
     "Pula em todo mundo",
@@ -271,7 +271,8 @@
     "Fica tranquilo"
    ],
    "escolha": 0,
-   "resultado": "CÃO CANGURU"
+   "resultado": "CÃO CANGURU",
+   "seguir": true
   }
  ]
 }

@@ -211,7 +211,7 @@
   },
   {
    "tipo": "cta_quiz",
-   "fala": "Seu cão também late pra campainha? Faz o teste grátis no link do perfil.",
+   "fala": "Seu cão também late pra campainha? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
    "pergunta": "Quando a campainha toca, ele…",
    "opcoes": [
     "Late sem parar",
@@ -219,7 +219,8 @@
     "Fica no cantinho"
    ],
    "escolha": 0,
-   "resultado": "CÃO ALARME"
+   "resultado": "CÃO ALARME",
+   "seguir": true
   }
  ]
 }

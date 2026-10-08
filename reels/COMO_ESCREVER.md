@@ -62,3 +62,6 @@ Cena `historia`:
 Cena `chat` (grupo do prédio etc.): `grupo`, `membros`, `quando` ("22:47"), `fala`, `dialogo` [{quem, texto, eu?}].
 
 Regras: 1–2 falas por cena, frases curtas e faladas; dor real (vizinho, condomínio, visita, aluguel, bebê, passeio) → vergonha → quase desistir → virada "ninguém ensinou" → 15 min/dia → reação de outra pessoa. Sem prometer prazo de resultado; legenda termina com "(História ilustrativa…)" + chamada pro teste do link do perfil. Sem emoji dentro de textos que aparecem no vídeo.
+
+Final das histórias (`cta_quiz`): sempre `"seguir": true` e a fala termina com "Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil." (aparece o botão vermelho "+ SEGUE PRA MAIS HISTÓRIAS").
+Ritmo de produção: o TikTok usa 9 histórias por dia (renderizadas de madrugada, enviadas em 3 lotes). Manter sempre pelo menos 18 histórias não usadas no banco.

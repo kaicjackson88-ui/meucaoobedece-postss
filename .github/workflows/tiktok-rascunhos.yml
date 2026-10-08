@@ -2,7 +2,7 @@ name: TikTok — rascunhos diários
 
 on:
   schedule:
-    - cron: "27 * * * *"   # confere de hora em hora; manda os vídeos do dia a partir das 8h
+    - cron: "27 * * * *"   # de hora em hora: renderiza as histórias de madrugada e manda os lotes 05:20 / 11:50 / 17:20
   workflow_dispatch:
     inputs:
       acao:
@@ -16,7 +16,7 @@ on:
         required: false
         default: ""
       quantidade:
-        description: "Quantos vídeos mandar agora (vazio = o que falta de hoje)"
+        description: "Quantas histórias mandar AGORA (vazio = segue a agenda dos lotes)"
         required: false
         default: ""
 
@@ -30,7 +30,7 @@ concurrency:
 jobs:
   rascunhos:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     env:
       TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
       TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}

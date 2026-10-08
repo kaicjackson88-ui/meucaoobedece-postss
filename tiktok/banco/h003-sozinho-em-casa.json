@@ -205,7 +205,7 @@
   },
   {
    "tipo": "cta_quiz",
-   "fala": "Seu cão também sofre quando fica sozinho? Faz o teste grátis no link do perfil.",
+   "fala": "Seu cão também sofre quando fica sozinho? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
    "pergunta": "Quando você sai de casa, ele…",
    "opcoes": [
     "Chora e destrói",
@@ -213,7 +213,8 @@
     "Dorme tranquilo"
    ],
    "escolha": 0,
-   "resultado": "CÃO GRUDE"
+   "resultado": "CÃO GRUDE",
+   "seguir": true
   }
  ]
 }

@@ -220,7 +220,7 @@
   },
   {
    "tipo": "cta_quiz",
-   "fala": "Seu cão também faz xixi fora do lugar? Faz o teste grátis no link do perfil.",
+   "fala": "Seu cão também faz xixi fora do lugar? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
    "pergunta": "Seu cão faz xixi…",
    "opcoes": [
     "Em qualquer lugar",
@@ -228,7 +228,8 @@
     "No lugar certo"
    ],
    "escolha": 0,
-   "resultado": "CÃO SEM ROTINA"
+   "resultado": "CÃO SEM ROTINA",
+   "seguir": true
   }
  ]
 }

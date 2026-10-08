@@ -152,12 +152,12 @@ Object.assign(TIPOS,{
 });
 // ---------- TikTok: chamada para o quiz ----------
 Object.assign(TIPOS,{
- cta_quiz:{prep(s){s.fundo=s.fundo||'escuro';s.kT=at(s,.3);s.kR=at(s,.55);s.kL=at(s,.75);SFX.pop.push(s.ini+.1,s.kT);SFX.ding.push(s.kT+.3);SFX.sucesso.push(s.kR);SFX.boom.push(s.kL)},
+ cta_quiz:{prep(s){s.fundo=s.fundo||'escuro';s.kT=at(s,.3);s.kR=at(s,.55);s.kL=at(s,.75);if(s.seguir){s.kS=kw(s,'segue',.4);s.kL=Math.max(s.kS+.8,kw(s,'teste',.8));SFX.pop.push(s.kS)}SFX.pop.push(s.ini+.1,s.kT);SFX.ding.push(s.kT+.3);SFX.sucesso.push(s.kR);SFX.boom.push(s.kL)},
   draw(t,s){(s.linhas||['QUAL É O PERFIL','DO SEU CÃO?']).forEach((l,i)=>palavra(l,W/2,320+i*96,i?84:74,i?C.gold:C.cream,t,s.ini+i*.25,{maxw:960}));
    const k=sp(t,s.ini,8,5.5),pw=560,ph=800,px=W/2,py=960+(1-k)*900;cx.save();cx.translate(px,py);cx.rotate((1-k)*.2+Math.sin(t*1.3)*.012);
    sh('rgba(0,0,0,.5)',40,24);rr(-pw/2,-ph/2,pw,ph,60);cx.fillStyle='#14110F';cx.fill();nosh();rr(-pw/2+14,-ph/2+14,pw-28,ph-28,48);cx.fillStyle=C.cream;cx.fill();cx.save();cx.clip();
    rr(-pw/2,-ph/2,pw,110,0);cx.fillStyle=C.teal;cx.fill();txt('Teste: perfil do seu cão',0,-ph/2+66,32,C.cream,{w:900,f:'NU'});
-   const prog=t<s.kR?cl((t-s.ini)/(s.kR-s.ini))*.8:1;rr(-220,-ph/2+140,440,18,9);cx.fillStyle='rgba(42,38,34,.12)';cx.fill();rr(-220,-ph/2+140,Math.max(18,440*prog),18,9);cx.fillStyle=C.amb;cx.fill();
+   if(t<s.kR){const prog=t<s.kR?cl((t-s.ini)/(s.kR-s.ini))*.8:1;rr(-220,-ph/2+140,440,18,9);cx.fillStyle='rgba(42,38,34,.12)';cx.fill();rr(-220,-ph/2+140,Math.max(18,440*prog),18,9);cx.fillStyle=C.amb;cx.fill();}
    if(t<s.kR){quebrar(s.pergunta||'Quando a campainha toca, ele…',40,460,900,'NU').forEach((l,i)=>txt(l,0,-ph/2+215+i*50,40,C.ink,{w:900,f:'NU'}));
      (s.opcoes||['Late sem parar','Corre pra porta','Se esconde']).forEach((o,i)=>{const y=-40+i*120,sel=t>s.kT&&i===(s.escolha||0);rr(-230,y-45,460,90,24);cx.fillStyle=sel?C.amb:'#fff';cx.fill();cx.lineWidth=5;cx.strokeStyle=sel?C.ink:'rgba(42,38,34,.2)';cx.stroke();
        txt(String.fromCharCode(65+i),-190,y+2,36,sel?C.cream:C.teal,{w:900,f:'NU'});txtFit(o,30,y+2,36,sel?C.cream:C.ink,340,{w:800,f:'NU'})});
@@ -165,7 +165,9 @@ Object.assign(TIPOS,{
    else{const kr=pop(t,s.kR,.45);cx.save();cx.translate(0,40);cx.scale(kr,kr);txt('Seu resultado:',0,-290,40,C.teal,{w:900,f:'NU'});dog(s.mascote||'lendario',0,80,.58,Math.sin(t*3)*.04);
      rr(-220,120,440,96,30);cx.fillStyle=C.gold;cx.fill();contorno(6);txtFit(s.resultado||'CÃO ALARME',0,170,46,C.ink,400);cx.restore()}
    cx.restore();cx.restore();if(t>s.kR)confete(t,s.kR,W/2,900,60);
-   if(t>s.kL){const p=1+.05*Math.sin(t*8);cx.save();cx.translate(W/2,1430);cx.scale(p,p);pilula(s.link||'LINK NO PERFIL',0,0,58,C.gold,C.ink,t,s.kL,0);cx.restore()}}},
+   if(t>s.kL){const p=1+.05*Math.sin(t*8);cx.save();cx.translate(W/2,1430);cx.scale(p,p);pilula(s.link||'LINK NO PERFIL',0,0,58,C.gold,C.ink,t,s.kL,0);cx.restore()}
+   if(s.seguir&&t>s.kS){const k=pop(t,s.kS,.45),p=1+.04*Math.sin(t*7);cx.save();cx.translate(W/2,1570);cx.scale(k*p,k*p);const tx='+ SEGUE PRA MAIS HISTÓRIAS',w=medir(tx,46,900,'NU')+80;sh();rr(-w/2,-46,w,92,46);cx.fillStyle='#FE2C55';cx.fill();nosh();txt(tx,0,4,46,'#fff',{w:900,f:'NU'});
+     const tp=(t-s.kS)%1.2;if(tp<.6){cx.globalAlpha=1-tp/.6;cx.beginPath();cx.arc(w/2-50,10,20+tp*60,0,7);cx.lineWidth=6;cx.strokeStyle='#fff';cx.stroke();cx.globalAlpha=1}cx.restore()}}},
 });
 // ---------- História: personagens 2D + cão num cenário, com diálogo dublado ----------
 // s._linhas = [{quem,texto,pensa,grito,humor,pose}] (montado pelo reels.py), s.linhas = tempos de cada linha.
