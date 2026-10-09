@@ -1,0 +1,114 @@
+{
+ "id": "h020-ia-hidratacao",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "hidratacao",
+ "estilo": "sol",
+ "legenda": "O que meu cachorro pode beber além de água? (História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorro #hidratacao #pet #curiosidadespet #maedepet",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O que o seu cachorro pode beber além de água nos dias de calor?",
+   "linhas": [
+    "O QUE SEU CÃO",
+    "PODE BEBER",
+    "ALÉM DE ÁGUA?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "14:00",
+   "fala": "Calor de 35 graus. A Bia queria refrescar o Pipoca e pensou em dar um pouco de água de coco.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 780,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Será que ele pode, ou faz mal?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "14:02",
+   "fala": "Ela olhou pro copo e ficou na dúvida se podia deixar ele tomar.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Água de coco pura pode em pequena quantidade, mas cuidado com o excesso de potássio.",
+   "topo": [
+    "ÁGUA DE COCO"
+   ],
+   "de": "PODE TUDO",
+   "para": "COM MODERAÇÃO",
+   "para_palavra": "moderação"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? A água de coco natural é rica em eletrólitos, mas deve ser oferecida sem açúcar e sem exageros.",
+   "numero": null,
+   "numero_palavra": "",
+   "sufixo": "",
+   "prefixo": "",
+   "rotulo": [
+    "HIDRATAÇÃO",
+    "com cuidado"
+   ],
+   "icone": "lampada"
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você já deu água de coco pro seu cão? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você já deu água de coco pro seu cão?",
+   "opcoes": [
+    "Sim, ele adora",
+    "Nunca dei",
+    "Só água pura"
+   ],
+   "escolha": 0,
+   "resultado": "PET HIDRATADO",
+   "seguir": true
+  }
+ ],
+ "autor": "ia-gratis"
+}
