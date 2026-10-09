@@ -1,9 +1,7 @@
 name: YouTube Shorts
 
 on:
-  schedule:
-    - cron: "41 * * * *"   # de hora em hora: sobe as histórias nos horários do YouTube (07:10 / 12:40 / 18:40)
-  workflow_dispatch:
+  workflow_dispatch:   # o envio diário roda dentro do plantão dos vídeos (tiktok-rascunhos.yml)
     inputs:
       acao:
         description: "enviar = sobe o que falta | autorizar = conecta o canal (cole o código)"
