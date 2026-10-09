@@ -44,7 +44,9 @@ def main():
     # 2) Whisper: tempo exato de cada palavra
     from faster_whisper import WhisperModel
     modelo = WhisperModel('small', device='cpu', compute_type='int8')
-    segs, _ = modelo.transcribe(str(pasta / 'voz.wav'), language='pt', word_timestamps=True, vad_filter=False)
+    from scipy.signal import resample_poly
+    voz16 = resample_poly(voz, 160, 441).astype(np.float32)  # Whisper usa 16 kHz
+    segs, _ = modelo.transcribe(voz16, language='pt', word_timestamps=True, vad_filter=False)
     palavras = []
     for s in segs:
         for w in s.words:
