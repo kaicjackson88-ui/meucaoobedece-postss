@@ -1,0 +1,246 @@
+{
+ "id": "h017-proibido-no-elevador",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "coleira",
+ "estilo": "menta",
+ "legenda": "Proibido de usar o elevador: 12 andares de escada todo dia por causa do Billy 😮‍💨\nO elevador é uma caixinha apertada que abre do nada com um estranho dentro. A Ana começou a treinar ali mesmo, com o elevador vazio.\nComo seu cão fica no elevador?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#educacaocanina #cachorroemapartamento #condominio #adestramentocanino #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Doze andares de escada. Todo dia. Porque o Billy foi proibido de usar o elevador.",
+   "linhas": [
+    "PROIBIDO",
+    "DE USAR",
+    "O ELEVADOR"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA, 7H",
+   "fala": "Sete da manhã. A porta do elevador abriu. E tinha gente dentro.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "preocupado",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU!",
+     "em": 0.1
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Segura esse bicho, menina!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "vizinho",
+    "z": 1.45,
+    "em": 0.3
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Solar",
+   "membros": "52 participantes",
+   "quando": "08:30",
+   "fala": "Uma hora depois, no grupo do prédio.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "O cachorro do 1202 pulou em mim no elevador de novo."
+    },
+    {
+     "quem": "sindica",
+     "texto": "A partir de hoje, cachorro do 1202 só pela escada."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TODO DIA",
+   "fala": "E assim foi. Subir e descer de escada. Com chuva, com compras, com pressa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Mais seis andares, Billy. Só mais seis…"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "NO HALL",
+   "fala": "Até que a síndica cruzou com ela no hall.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "bravo",
+     "pose": "bilhete",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ana, se reclamarem de novo, vai pra assembleia. E pode virar multa."
+    },
+    {
+     "quem": "ana",
+     "texto": "Entendi, dona Lúcia."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O Billy não era brigão. O elevador é uma caixinha apertada, que abre do nada com um estranho dentro. E ninguém tinha ensinado pra ele o que fazer ali.",
+   "topo": [
+    "ELE NÃO ERA"
+   ],
+   "de": "BRIGÃO",
+   "para": "NINGUÉM ENSINOU",
+   "para_palavra": "ensinado"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Quinze minutos por dia, com o elevador vazio. Entra, senta, olha pra ela, petisco. A porta abre? Continua sentado, petisco.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Senta… olha pra mim… isso!",
+     "humor": "feliz"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, a porta abriu. E lá estava a síndica.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "guia"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ele… nem levantou?"
+    },
+    {
+     "quem": "ana",
+     "texto": "A gente treinou junto, dona Lúcia. Todo dia um pouquinho."
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Solar",
+   "membros": "52 participantes",
+   "quando": "18:00",
+   "fala": "À noite, uma mensagem nova no grupo.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ana, o Billy pode voltar a usar o elevador. Parabéns."
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Hoje ele até sentou pra eu passar."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu cão, como fica no elevador? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No elevador, seu cão…",
+   "opcoes": [
+    "Pula em quem entra",
+    "Late pra porta",
+    "Senta e espera"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO ESTOURADO",
+   "seguir": true
+  }
+ ]
+}

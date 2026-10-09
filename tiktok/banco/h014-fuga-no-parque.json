@@ -1,0 +1,269 @@
+{
+ "id": "h014-fuga-no-parque",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "menta",
+ "legenda": "25 minutos correndo atrás do Max no parque. Com plateia 🏃\nPro Max, \"vem aqui\" sempre significava fim da diversão. O João começou a ensinar que voltar pode ser a melhor parte.\nO seu volta quando você chama?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#vemaqui #chamadocanino #adestramentopositivo #reforcopositivo #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Vinte e cinco minutos correndo atrás do próprio cachorro. Com o parque inteiro assistindo.",
+   "linhas": [
+    "25 MINUTOS",
+    "CORRENDO",
+    "ATRÁS DELE"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO, NO PARQUE",
+   "fala": "Domingo no parque. O João soltou o Max só um minutinho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Vai lá, Max. Mas volta quando eu chamar, hein!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "15 MIN DEPOIS",
+   "fala": "Quinze minutos depois, era hora de ir embora.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 880,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Max! Vem! MAX, VEM AQUI!",
+     "grito": true
+    },
+    {
+     "quem": "cao",
+     "texto": "AU!",
+     "em": 0.6
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "25 MIN DEPOIS",
+   "fala": "Cada vez que ele chegava perto, o Max saía correndo de novo. Como se fosse brincadeira.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "celular",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Moço, posso postar? Tá muito engraçado!"
+    },
+    {
+     "quem": "joao",
+     "texto": "Não! Quer dizer… me ajuda a pegar ele?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "NA SAÍDA",
+   "fala": "Só conseguiu pegar quando o Max cansou. E aí, o João explodiu.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Nunca mais eu te solto, ouviu? Nunca mais!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "joao",
+    "z": 1.45,
+    "em": 0.3
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "À NOITE",
+   "fala": "Em casa, a esposa fez uma pergunta que ele não soube responder.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "bracos_cruzados"
+    },
+    {
+     "quem": "ana",
+     "x": 790,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 560,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Quando você chama o Max, o que acontece logo depois?"
+    },
+    {
+     "quem": "joao",
+     "texto": "Ué… a gente vai embora. Ou ele leva bronca."
+    }
+   ],
+   "relogio": "21:00"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Pronto. Pro Max, vem aqui significava o fim da diversão. E ninguém tinha ensinado pra ele que voltar podia ser a melhor parte.",
+   "topo": [
+    "VEM AQUI ERA"
+   ],
+   "de": "FIM DA FESTA",
+   "para": "MELHOR PARTE",
+   "para_palavra": "melhor"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Quinze minutos por dia, começando dentro de casa. Chamou, veio, ganha petisco e festa. E volta a brincar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Max, vem! Isso! Agora pode ir!",
+     "humor": "feliz"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, no mesmo parque. E a mesma moça do celular.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "comemora"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Ele voltou na primeira chamada?"
+    },
+    {
+     "quem": "joao",
+     "texto": "Na primeira. A gente treinou junto."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, volta quando você chama? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando você chama, seu cão…",
+   "opcoes": [
+    "Finge que não ouviu",
+    "Foge pra brincar",
+    "Vem correndo"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO FUJÃO",
+   "seguir": true
+  }
+ ]
+}

@@ -1,0 +1,282 @@
+{
+ "id": "h010-viagem-de-carro",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "Hoje o Duke viaja deitadinho no banco de trás. Algumas semanas atrás, a viagem foi um caos 🚗\nPra ele, o carro era um lugar cheio de novidade, e ninguém tinha ensinado o que fazer lá dentro.\nComo seu cão se comporta no carro?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorronocarro #viajarcomcachorro #passeiocomcachorro #adestramentocanino #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Hoje o Duke viaja assim, deitadinho. Mas algumas semanas atrás, a história era bem outra.",
+   "linhas": [
+    "HOJE ELE",
+    "VIAJA ASSIM.",
+    "MAS ANTES…"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "check"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · RUMO À PRAIA",
+   "fala": "Rumo à praia. Duke deitado, quieto, olhando a estrada.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "parado"
+    },
+    {
+     "quem": "ana",
+     "x": 800,
+     "humor": "feliz",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Nem parece o mesmo cachorro."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEMANAS ANTES",
+   "fala": "Algumas semanas antes, a mesma viagem tinha sido um desastre.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!",
+     "em": 0.2
+    },
+    {
+     "quem": "pedro",
+     "texto": "Duke, sai do banco da frente!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.45,
+    "em": 0.2
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "NO POSTO",
+   "fala": "Na primeira parada, ele desceu puxando tudo e latindo pra todo mundo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "bravo",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Moça, segura esse cachorro!"
+    },
+    {
+     "quem": "ana",
+     "texto": "Desculpa! Ele não costuma… quer dizer…"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "NA POUSADA",
+   "fala": "Na pousada, ninguém dormiu direito.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "triste",
+     "pose": "parado"
+    },
+    {
+     "quem": "pedro",
+     "x": 790,
+     "humor": "cansado",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Da próxima vez, ele fica no hotelzinho."
+    },
+    {
+     "quem": "pedro",
+     "texto": "Mas a gente adotou ele pra ir junto…"
+    }
+   ],
+   "relogio": "01:20"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Só que o Duke não era impossível. O carro era um lugar cheio de novidade, e ninguém tinha ensinado pra ele o que fazer lá dentro.",
+   "topo": [
+    "ELE NÃO ERA"
+   ],
+   "de": "IMPOSSÍVEL",
+   "para": "NINGUÉM ENSINOU",
+   "para_palavra": "ensinado"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Quinze minutos por dia. Primeiro, só entrar no carro parado e ganhar petisco. Depois, deitar. Depois, uma volta no quarteirão.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Deita… isso! Bom garoto!",
+     "humor": "feliz"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DE VOLTA AO HOJE",
+   "fala": "E foi assim que eles chegaram aqui. No mesmo posto, o mesmo senhor.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Esse é o mesmo cachorro daquele dia?"
+    },
+    {
+     "quem": "ana",
+     "texto": "É sim. A gente treinou junto."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "NA PRAIA",
+   "fala": "Primeira foto da família na praia. Todo mundo olhando pra câmera. Até o Duke.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 640,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Agora sim, a família completa.",
+     "humor": "radiante"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 560,
+     "y": 1000
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu cão, como fica no carro? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No carro, seu cão…",
+   "opcoes": [
+    "Late e pula",
+    "Chora o caminho todo",
+    "Viaja tranquilo"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO PILOTO",
+   "seguir": true
+  }
+ ]
+}

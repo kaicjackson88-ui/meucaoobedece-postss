@@ -1,0 +1,288 @@
+{
+ "id": "h018-sofa-novo-da-mae",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "noite",
+ "legenda": "O sofá novo da mãe do João foi estreado pelo Tobias 🙈\nEm lugar novo, muitos cães marcam com xixi. O João começou a ensinar o lugar certo, em qualquer casa, com rotina e petisco.\nSeu cão também marca a casa dos outros?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #adestramentocanino #adestramentodecaes #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A mãe do João tinha acabado de trocar o sofá. E o Tobias foi o primeiro a estrear.",
+   "linhas": [
+    "SOFÁ NOVO",
+    "NA CASA",
+    "DA MÃE"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "sofa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO, 11H",
+   "fala": "Primeira vez levando o Tobias na casa da mãe.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "guia"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Pode entrar, Tobias! Só não sobe no sofá novo, tá?"
+    },
+    {
+     "quem": "joao",
+     "texto": "Ele é educado, mãe. Fica tranquila."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "11:05",
+   "fala": "Cinco minutos depois.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "JOÃO! Ele levantou a perna no meu sofá!",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 700,
+     "y": 1450,
+     "em": 0.2
+    }
+   ],
+   "camera": {
+    "foco": "sindica",
+    "z": 1.45,
+    "em": 0.3
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "11:20",
+   "fala": "E não foi só ali. Foi na cortina. E no vaso da varanda.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "bravo",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "No Natal você vem. O cachorro fica."
+    },
+    {
+     "quem": "joao",
+     "texto": "Mãe, em casa ele não faz isso…"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 420,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família",
+   "membros": "9 participantes",
+   "quando": "21:00",
+   "fala": "À noite, a irmã do João já tinha visto as fotos.",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "A mãe disse que o sofá novo virou banheiro."
+    },
+    {
+     "quem": "joao",
+     "texto": "Não tem graça, Ana.",
+     "eu": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O Tobias não estava fazendo pirraça. Lugar novo, cheiros novos: ele estava marcando. E ninguém tinha ensinado onde é o lugar certo, em qualquer casa.",
+   "topo": [
+    "NÃO ERA"
+   ],
+   "de": "PIRRAÇA",
+   "para": "NINGUÉM ENSINOU",
+   "para_palavra": "ensinado"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O xixi também é um recado. Pelo cheiro, outros cães sabem quem passou ali. Em lugar novo, muitos marcam pra dizer: estive aqui.",
+   "numero": null,
+   "rotulo": [
+    "XIXI É RECADO",
+    "o cheiro diz quem passou"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Quinze minutos por dia de rotina. Leva no lugar certo e espera. Fez? Festa e petisco na hora.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Aqui… isso! Muito bem, Tobias!",
+     "humor": "feliz"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "NO NATAL",
+   "fala": "No Natal, a mãe deixou ele vir. Desconfiada.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "explica"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Três horas aqui e nenhum xixi fora do lugar?"
+    },
+    {
+     "quem": "joao",
+     "texto": "A gente treinou junto, mãe."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE",
+   "fala": "Agora quem pergunta pelo Tobias é ela.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 640,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "E o meu neto de quatro patas, vem quando?",
+     "humor": "radiante"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 560,
+     "y": 1000
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão também marca a casa dos outros? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na casa dos outros, seu cão…",
+   "opcoes": [
+    "Marca tudo",
+    "Fica agitado",
+    "Se comporta"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO CARIMBADOR",
+   "seguir": true
+  }
+ ]
+}

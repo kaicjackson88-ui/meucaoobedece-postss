@@ -1,0 +1,78 @@
+{
+ "id": "r034-mito-4",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "mordida",
+ "legenda": "Mito ou verdade? A primeira pega muita gente 👇\n\n❌ Segurar o focinho ensina a não morder\n❌ Cão que pede comida está com fome\n✅ Filhote aprende a morder de leve brincando\n\nQuantas você acertou? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#filhotemordendo #adestramento #meucaoobedece #dicasdecachorro #adestramentodefilhotes",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mito ou verdade? A primeira pega muita gente.",
+   "linhas": [
+    "MITO OU",
+    "VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Segurar o focinho ensina o filhote a não morder. Mito. Ele acha que virou brincadeira de luta.",
+   "frase": "Segurar o focinho ensina a não morder",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "ELE ACHA QUE",
+    "É BRINCADEIRA"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Cão que pede comida está sempre com fome. Mito. Muitas vezes ele só aprendeu que pedir funciona.",
+   "frase": "Cão que pede comida está com fome",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "ELE APRENDEU",
+    "QUE PEDIR FUNCIONA"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Filhote aprende a morder de leve brincando. Verdade. Se a mordida dói, a brincadeira para.",
+   "frase": "Filhote aprende a morder de leve brincando",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "DOEU?",
+    "A BRINCADEIRA PARA"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

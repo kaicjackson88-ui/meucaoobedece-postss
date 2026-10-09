@@ -1,0 +1,246 @@
+{
+ "id": "h009-home-office",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "menta",
+ "legenda": "Reunião com cliente novo, câmera ligada… e o Biscoito latindo pra moto 🙃\nEle não latia pra sabotar: estava entediado. O João começou com 15 minutos de treino antes do expediente.\nSeu cão late pra quê? Campainha, moto ou vizinho?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #homeoffice #adestramentodecaes #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O João ia apresentar o projeto mais importante do ano. E o Biscoito resolveu participar.",
+   "linhas": [
+    "A REUNIÃO",
+    "MAIS IMPORTANTE",
+    "DO ANO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "TERÇA, 10H",
+   "fala": "Terça, dez da manhã. Câmera ligada, cliente novo na tela.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 800,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Bom dia a todos. Então, o projeto começa…"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "10:04",
+   "fala": "Aí passou uma moto na rua.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 780,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!",
+     "em": 0.1
+    },
+    {
+     "quem": "joao",
+     "texto": "Biscoito, não! Agora não!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.15
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Projeto Alfa",
+   "membros": "8 participantes",
+   "quando": "10:06",
+   "fala": "No chat da reunião, ninguém perdoou.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Tem um cachorro na reunião ou é impressão minha?"
+    },
+    {
+     "quem": "joao",
+     "texto": "Desculpa, gente. Só um minuto.",
+     "eu": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "À NOITE",
+   "fala": "À noite, o João fez as contas.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "bia",
+     "x": 790,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 560,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Ou eu volto pro escritório, ou pago novecentos reais num adestrador."
+    },
+    {
+     "quem": "bia",
+     "texto": "Amor, ele passa a manhã inteira sem nada pra fazer."
+    }
+   ],
+   "relogio": "22:15"
+  },
+  {
+   "tipo": "virada",
+   "fala": "O Biscoito não latia pra sabotar o João. Ele estava entediado. E ninguém tinha ensinado o que fazer enquanto o dono trabalha.",
+   "topo": [
+    "NÃO ERA"
+   ],
+   "de": "SABOTAGEM",
+   "para": "TÉDIO",
+   "para_palavra": "entediado"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Um cão adulto dorme, em média, umas doze horas por dia. Quando acorda sem nada pra fazer, ele inventa. E latir pra tudo vira passatempo.",
+   "numero": 12,
+   "rotulo": [
+    "HORAS DE SONO",
+    "por dia, em média"
+   ],
+   "icone": "relogio",
+   "numero_palavra": "doze",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Antes do expediente, quinze minutos de treino. Tapetinho no canto, deita, fica, petisco. E um brinquedo de roer pras reuniões.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Lugar… fica… isso, campeão!",
+     "humor": "feliz"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, outra reunião. Passou a moto. E o Biscoito só levantou a orelha.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 800,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Como eu ia dizendo…"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Projeto Alfa",
+   "membros": "8 participantes",
+   "quando": "11:02",
+   "fala": "E dessa vez, o chat foi outro.",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Cadê o cachorro? Fiquei até com saudade."
+    },
+    {
+     "quem": "joao",
+     "texto": "Tá no lugar dele. A gente treinou junto.",
+     "eu": true
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão também quer participar das suas reuniões? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando passa moto na rua, seu cão…",
+   "opcoes": [
+    "Late pra janela",
+    "Corre pela casa",
+    "Nem acorda"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO PORTEIRO",
+   "seguir": true
+  }
+ ]
+}

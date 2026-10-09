@@ -1,0 +1,66 @@
+{
+ "id": "r033-lista-espera-comida",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "obediencia",
+ "legenda": "Seu cão rouba comida da mão ou da mesa? 🌭\n\n1️⃣ Petisco na mão fechada\n2️⃣ Espere ele se acalmar\n3️⃣ Só então: \"pode!\"\n\nComece com segundos e aumente aos pouquinhos. Salva e testa hoje.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#ansiedadenacomida #esperar #adestramento #meucaoobedece #adestramentointeligente",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão rouba comida da mão ou da mesa? Três passos pra ensinar a esperar.",
+   "linhas": [
+    "SEU CÃO",
+    "ROUBA COMIDA?"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: petisco na mão fechada, na altura do focinho.",
+   "titulo": "Mão fechada",
+   "sub": "na altura do focinho",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: ele vai lamber e cutucar. Espere até ele se afastar ou sentar.",
+   "titulo": "Espere ele se acalmar",
+   "sub": "afastou ou sentou?",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: só então você fala pode, e entrega. Comece com segundos e vá aumentando.",
+   "titulo": "Só então: pode!",
+   "sub": "comece com segundos",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

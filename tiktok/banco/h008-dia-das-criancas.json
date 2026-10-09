@@ -1,0 +1,265 @@
+{
+ "id": "h008-dia-das-criancas",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "O Toddy roubou o lanche do sobrinho bem no Dia das Crianças 🌭\nNinguém tinha ensinado pra ele que comida vem depois do \"pode\". A Carla começou a treinar a espera, 15 minutos por dia.\nSeu cão também rouba comida? Conta aqui.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#ansiedadenacomida #cachorrocomendo #esperar #adestramentointeligente #diadascriancas #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Dia das Crianças. Os sobrinhos chegaram. E o Toddy achou que a festa era dele.",
+   "linhas": [
+    "DIA DAS",
+    "CRIANÇAS…",
+    "E O TODDY"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "12/10 · 16H",
+   "fala": "Mesa posta. Bolo, salgadinho e cachorro-quente.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 780,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Toddy, nem pensa, tá? Hoje o dia é das crianças."
+    },
+    {
+     "quem": "cao",
+     "texto": "AU!",
+     "em": 0.6
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "16:20",
+   "fala": "Bastou o Miguel, de cinco anos, se distrair um segundo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Toddy! Esse era o lanche do Miguel!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.45,
+    "em": 0.2
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "16:21",
+   "fala": "O Miguel abriu o berreiro. E a irmã da Carla não perdoou.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "bravo",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Carla, prende esse cachorro, pelo amor de Deus."
+    },
+    {
+     "quem": "carla",
+     "texto": "Ele nunca fez isso… quer dizer, ele sempre faz."
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Ramos",
+   "membros": "11 participantes",
+   "quando": "21:30",
+   "fala": "À noite, o assunto no grupo da família era um só.",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "O Miguel disse que nunca mais vai na casa da tia Carla."
+    },
+    {
+     "quem": "carla",
+     "texto": "Gente, ele só não sabe esperar…",
+     "eu": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "E era isso. O Toddy não era mal-educado. Ninguém nunca tinha ensinado pra ele que comida tem hora. E que ela vem depois do pode.",
+   "topo": [
+    "ELE NÃO ERA"
+   ],
+   "de": "MAL-EDUCADO",
+   "para": "NINGUÉM ENSINOU",
+   "para_palavra": "ensinado"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Quinze minutos por dia. Petisco na mão fechada. Ele sentou e esperou? Ouve o pode e ganha.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Espera… espera… pode!",
+     "humor": "feliz"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "NA VISITA SEGUINTE",
+   "fala": "Na visita seguinte, o Miguel quis testar com o biscoito dele.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Ele tá… esperando o biscoito do Miguel?"
+    },
+    {
+     "quem": "carla",
+     "texto": "Tá esperando o pode. A gente treinou junto."
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 620,
+     "y": 1350,
+     "em": 0.0
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE",
+   "fala": "Agora é o Miguel quem dá o pode. E os dois adoram.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 640,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Virou o brinquedo preferido dele.",
+     "humor": "radiante"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 560,
+     "y": 1000
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu cão, espera o pode ou ataca primeiro? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Com comida por perto, seu cão…",
+   "opcoes": [
+    "Rouba na hora",
+    "Fica pedindo",
+    "Espera o pode"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO SEM PACIÊNCIA",
+   "seguir": true
+  }
+ ]
+}

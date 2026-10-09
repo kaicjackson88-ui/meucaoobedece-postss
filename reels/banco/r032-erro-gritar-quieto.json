@@ -1,0 +1,80 @@
+{
+ "id": "r032-erro-gritar-quieto",
+ "formato": "erro",
+ "gancho_tipo": "negacao",
+ "tema": "latido",
+ "legenda": "Pare de gritar \"QUIETO\" 🙉 Pro seu cão, isso é você latindo junto.\n\n1️⃣ Fique calmo e fale baixo\n2️⃣ Chame ele pra perto\n3️⃣ Veio? Petisco na hora\n\nSeu cão late pra quê? Campainha, moto ou vizinho? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #adestramento #meucaoobedece #dicasdeadestramento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de gritar quieto pro seu cão.",
+   "linhas": [
+    "PARE DE",
+    "GRITAR",
+    "QUIETO"
+   ],
+   "destaque": 2,
+   "mascote": "bravo",
+   "icone": "megafone",
+   "carimbo": "PARE!",
+   "carimbo_palavra": "Pare"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Pra ele, você gritando não é bronca. É você latindo junto.",
+   "topo": [
+    "PRO SEU CÃO,",
+    "SEU GRITO É"
+   ],
+   "de": "BRONCA",
+   "para": "LATIDO JUNTO",
+   "para_palavra": "latindo"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: fique calmo e fale baixo.",
+   "titulo": "Fale baixo",
+   "sub": "calma contagia",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: chame ele pra perto de você, longe da janela.",
+   "titulo": "Chame pra perto",
+   "sub": "longe do gatilho",
+   "icone": "pata"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: veio e ficou quieto? Petisco na hora.",
+   "titulo": "Petisco na hora",
+   "sub": "quieto vale prêmio",
+   "icone": "osso"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

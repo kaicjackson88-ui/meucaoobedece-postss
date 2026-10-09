@@ -1,0 +1,243 @@
+{
+ "id": "h007-fogos-12-semanas",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "Faltam 12 semanas pro Réveillon. Pro seu cão, isso não é tanto tempo assim 🎆\nAno passado, a Bia só lembrou do medo do Pingo às 23h58. Esse ano ela começou cedo: som baixinho, petisco e paciência, um pouquinho por dia.\nSeu cão treme com fogos? Conta aqui. Se o medo for muito intenso, converse também com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #cachorroansioso #adestramentocomportamental #reveillon #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Faltam doze semanas pro Réveillon. Ano passado, a Bia só lembrou do Pingo na última hora.",
+   "linhas": [
+    "FALTAM 12",
+    "SEMANAS PRO",
+    "RÉVEILLON"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "31/12, ANO PASSADO",
+   "fala": "Trinta e um de dezembro do ano passado. Faltavam dois minutos pra meia-noite.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 780,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Cadê o Pingo? Pingo?!",
+     "grito": true
+    }
+   ],
+   "relogio": "23:58"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "MEIA-NOITE",
+   "fala": "Quando o primeiro estouro veio, ele já estava embaixo da cama. Tremendo.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 780
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AUUU…",
+     "em": 0.3
+    },
+    {
+     "quem": "bia",
+     "texto": "Calma, meu amor… calma. Já vai passar."
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.3
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Souza",
+   "membros": "14 participantes",
+   "quando": "00:20",
+   "fala": "Enquanto todo mundo mandava feliz ano novo, ela mandava outra coisa.",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Alguém sabe o que fazer? O Pingo não para de tremer.",
+     "eu": true
+    },
+    {
+     "quem": "sindica",
+     "texto": "Ih, filha. Todo ano é isso, né?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "1º DE JANEIRO",
+   "fala": "No dia seguinte, ela desabafou com um amigo que também tem cachorro.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "bracos_cruzados"
+    },
+    {
+     "quem": "pedro",
+     "x": 790,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 560,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Eu me senti a pior tutora do mundo."
+    },
+    {
+     "quem": "pedro",
+     "texto": "Medo de fogos se trabalha antes, aos pouquinhos."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O Pingo não era fresco. Ninguém tinha mostrado pra ele, com calma e antes da hora, que aquele barulho não era o fim do mundo.",
+   "topo": [
+    "ELE NÃO ERA"
+   ],
+   "de": "FRESCO",
+   "para": "NINGUÉM MOSTROU",
+   "para_palavra": "mostrado"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Os cães escutam sons agudos que a gente nem percebe. Pra eles, os fogos são muito mais fortes.",
+   "numero": null,
+   "rotulo": [
+    "SONS QUE VOCÊ",
+    "nem consegue escutar"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "OUTUBRO · 15 MIN",
+   "fala": "Esse ano, ela começou em outubro. Som de fogos baixinho no celular, petisco e brincadeira. Quinze minutos por dia.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Ouviu? Olha o petisco… muito bem!",
+     "humor": "feliz"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 600,
+     "y": 1450,
+     "em": 0.0
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, o volume já estava bem mais alto. E o Pingo continuava deitado, mastigando o petisco.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    },
+    {
+     "quem": "pedro",
+     "x": 800,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ele nem levantou a orelha?"
+    },
+    {
+     "quem": "bia",
+     "texto": "A gente tá treinando junto. Sem pressa."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão tem medo de fogos? Ainda dá tempo de começar com calma. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Com fogos, seu cão…",
+   "opcoes": [
+    "Treme e se esconde",
+    "Late sem parar",
+    "Nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO ASSUSTADO",
+   "seguir": true
+  }
+ ]
+}

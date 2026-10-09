@@ -1,0 +1,76 @@
+{
+ "id": "r031-lista-fogos-antes",
+ "formato": "lista",
+ "gancho_tipo": "numero",
+ "tema": "fogos",
+ "legenda": "Faltam 12 semanas pro Réveillon 🎆 Pro seu cão, dá tempo de começar com calma.\n\n1️⃣ Som de fogos bem baixinho\n2️⃣ Petisco ou brincadeira junto\n3️⃣ Aumente o volume aos poucos\n4️⃣ Monte um cantinho seguro desde já\n\nSalva pra lembrar até dezembro. Se o medo for muito intenso, converse com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#fogosnao #cachorroemedo #adestramento #meucaoobedece #reveillon",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Faltam doze semanas pro Réveillon. Se seu cão treme com fogos, comece hoje.",
+   "linhas": [
+    "FALTAM 12",
+    "SEMANAS PRO",
+    "RÉVEILLON"
+   ],
+   "destaque": 2,
+   "mascote": "dorminhoco",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 4,
+   "fala": "Um: coloque som de fogos bem baixinho, quase sem dar pra ouvir.",
+   "titulo": "Som bem baixinho",
+   "sub": "quase sem dar pra ouvir",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 4,
+   "fala": "Dois: junto com o som, petisco ou brincadeira. Som passa a valer coisa boa.",
+   "titulo": "Petisco junto",
+   "sub": "som vira coisa boa",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 4,
+   "fala": "Três: aumente o volume só um pouquinho por dia. Se ele ficar tenso, volte um passo.",
+   "titulo": "Aumente aos poucos",
+   "sub": "tenso? volte um passo",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 4,
+   "total": 4,
+   "fala": "Quatro: monte desde já um cantinho seguro, que ele conheça bem.",
+   "titulo": "Cantinho seguro",
+   "sub": "monte desde já",
+   "icone": "casa"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

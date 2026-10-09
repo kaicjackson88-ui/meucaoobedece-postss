@@ -1,0 +1,277 @@
+{
+ "id": "h013-filhote-dente-de-agulha",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "Tão fofo… até morder o pé da visita 🦈\nO Paçoca não era bravo: saiu cedo da ninhada e ninguém ensinou o que os irmãos ensinariam, morder de leve. A Ana começou com 15 minutos por dia.\nSeu filhote morde mão, pé ou sapato?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #filhote #adestramentodefilhotes #adestramentocanino #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Ele era um filhote fofo de três meses. Com dentinhos de agulha.",
+   "linhas": [
+    "FOFO,",
+    "3 MESES,",
+    "DENTE DE AGULHA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO",
+   "fala": "Fazia duas semanas que a Ana tinha adotado o Paçoca. E as mãos dela já estavam cheias de arranhão.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 700,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU!",
+     "em": 0.3
+    },
+    {
+     "quem": "ana",
+     "texto": "Ai, Paçoca! Isso dói, sabia?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "15:00",
+   "fala": "Aí chegou a visita. A Carla, amiga da faculdade.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "parado"
+    },
+    {
+     "quem": "carla",
+     "x": 800,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 540,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Ai, que coisa mais linda! Vem cá, Paçoca!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "15:02",
+   "fala": "Dois minutos depois.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "carla",
+     "x": 800,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Ai! Ele mordeu meu pé!",
+     "grito": true
+    },
+    {
+     "quem": "ana",
+     "texto": "Paçoca, não! Desculpa, amiga!"
+    }
+   ],
+   "camera": {
+    "foco": "carla",
+    "z": 1.45,
+    "em": 0.2
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "15:10",
+   "fala": "E veio o comentário que a Ana mais temia.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "carla",
+     "x": 800,
+     "humor": "preocupado",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 540
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Amiga… se não corrigir agora, esse cachorro vai ficar bravo."
+    },
+    {
+     "quem": "ana",
+     "texto": "Mas ele é só um bebê…"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Tutores de Filhote",
+   "membros": "120 participantes",
+   "quando": "23:10",
+   "fala": "À noite, ela pediu ajuda num grupo.",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Meu filhote morde tudo. Já tentei de tudo.",
+     "eu": true
+    },
+    {
+     "quem": "pedro",
+     "texto": "Aqui o adestrador cobra uns setecentos reais o pacote."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O Paçoca não era bravo. Ele saiu cedo da ninhada, e ninguém tinha ensinado o que os irmãos ensinariam: morder de leve.",
+   "topo": [
+    "ELE NÃO ERA"
+   ],
+   "de": "BRAVO",
+   "para": "NINGUÉM ENSINOU",
+   "para_palavra": "ensinado"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Na ninhada, quando um filhote morde forte, o irmão chora e para a brincadeira. Assim ele aprende a controlar a mordida.",
+   "numero": null,
+   "rotulo": [
+    "OS IRMÃOS",
+    "ensinam a morder de leve"
+   ],
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Quinze minutos por dia. Mordeu a mão? Ela fala ai e para a brincadeira. Mordeu o brinquedo? Festa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Ai… acabou. Isso, morde o brinquedo!",
+     "humor": "feliz"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, a Carla voltou. De sandália.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "carinho"
+    },
+    {
+     "quem": "carla",
+     "x": 800,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 540,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Ué… ele lambeu meu pé em vez de morder?"
+    },
+    {
+     "quem": "ana",
+     "texto": "A gente treinou junto. Agora ele morde o brinquedo."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu filhote, ainda morde tudo? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu filhote morde…",
+   "opcoes": [
+    "Mãos e pés",
+    "Móveis e sapatos",
+    "Só os brinquedos"
+   ],
+   "escolha": 0,
+   "resultado": "FILHOTE TUBARÃO",
+   "seguir": true
+  }
+ ]
+}

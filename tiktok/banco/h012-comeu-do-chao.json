@@ -1,0 +1,258 @@
+{
+ "id": "h012-comeu-do-chao",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "menta",
+ "legenda": "Um segundo no celular… e o Nescau já tinha engolido o que achou na calçada 😰\nPra um cão, o chão é um cardápio. A Bia começou a ensinar o \"deixa\", um pouquinho por dia. Se seu cão engolir algo perigoso, procure o veterinário.\nO seu também come tudo do chão?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #comandodeixa #adestramentopositivo #adestramentocanino #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Foi um segundo. A Bia olhou o celular, e o Nescau já tinha engolido.",
+   "linhas": [
+    "UM SEGUNDO",
+    "NO CELULAR",
+    "E ELE ENGOLIU"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO, 8H",
+   "fala": "Sábado de manhã, passeio tranquilo. Até a Bia pegar o celular.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Só vou responder essa mensagem…",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "8:03",
+   "fala": "Na calçada, tinha um osso de frango de churrasco.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 700,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Nescau, solta! Solta isso!",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 620,
+     "y": 1450,
+     "em": 0.0
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.2
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "NA CLÍNICA",
+   "fala": "Ela correu pro veterinário com o coração na mão.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "preocupado",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "pedro",
+     "x": 800,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 540,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Dessa vez foi só o susto. Mas osso cozido é perigoso."
+    },
+    {
+     "quem": "bia",
+     "texto": "Ele come tudo que acha no chão, doutor. Tudo."
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Tutores do Bairro",
+   "membros": "63 participantes",
+   "quando": "22:40",
+   "fala": "À noite, ela contou no grupo do bairro.",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Quase perdi o Nescau hoje por causa de um osso na calçada.",
+     "eu": true
+    },
+    {
+     "quem": "carla",
+     "texto": "O meu também é assim. Vira aspirador na rua."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O Nescau não era esfomeado. Pra um cão, o chão é um cardápio. E ninguém tinha ensinado pra ele uma palavra simples: deixa.",
+   "topo": [
+    "O CHÃO NÃO É"
+   ],
+   "de": "CARDÁPIO",
+   "para": "DEIXA",
+   "para_palavra": "deixa"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O nariz do cão tem até trezentos milhões de receptores de cheiro. Pra ele, cada calçada é um banquete.",
+   "numero": 300,
+   "rotulo": [
+    "MILHÕES",
+    "de receptores de cheiro"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "trezentos",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Quinze minutos por dia. Petisco no chão, ela fala deixa. Ele desviou o olho? Ganha um petisco melhor, da mão dela.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Deixa… isso! Esse aqui é o seu.",
+     "humor": "feliz"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1450,
+     "em": 0.0
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, uma coxinha caída no meio da calçada. E a vizinha viu tudo.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "guia"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 540,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ele passou do lado da coxinha e nem cheirou?"
+    },
+    {
+     "quem": "bia",
+     "texto": "A gente treina o deixa. Todo dia um pouquinho."
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460,
+     "em": 0.0
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu cão, come tudo que acha no chão? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No passeio, seu cão…",
+   "opcoes": [
+    "Come tudo do chão",
+    "Cheira e puxa",
+    "Ignora e segue"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO ASPIRADOR",
+   "seguir": true
+  }
+ ]
+}

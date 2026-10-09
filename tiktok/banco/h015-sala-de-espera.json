@@ -1,0 +1,265 @@
+{
+ "id": "h015-sala-de-espera",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "ansiedade",
+ "estilo": "sol",
+ "legenda": "3 pessoas pra segurar um cachorro de 8 kg na vacina 😳\nO Zeca não era agressivo: ninguém tinha ensinado que ser tocado na pata e na orelha pode ser bom. A Carla treinou isso no sofá, devagar. Medo intenso ou agressividade pedem conversa com o veterinário ou um profissional.\nComo é o seu cão no veterinário?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorroemedo #cachorroansioso #veterinario #adestramentopositivo #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três pessoas pra segurar um cachorro de oito quilos. Na frente da sala de espera inteira.",
+   "linhas": [
+    "3 PESSOAS",
+    "PRA SEGURAR",
+    "UM CÃO DE 8 KG"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA, 17H",
+   "fala": "Dia de vacina. Bastou a Carla pegar a guia, e o Zeca já sabia.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 780,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Zeca? Vem, passeio! Zeca?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "NA CLÍNICA",
+   "fala": "Na clínica, ele travou na porta e começou a chorar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AUUU! AUUU!",
+     "em": 0.1
+    },
+    {
+     "quem": "sindica",
+     "texto": "Nossa… o que fizeram com esse cachorro?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "NO CONSULTÓRIO",
+   "fala": "Na hora do exame, ele não deixava nem pegar na pata.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "cansado",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Vou precisar de mais duas pessoas aqui pra segurar."
+    },
+    {
+     "quem": "carla",
+     "texto": "Desculpa, doutor. Em casa ele não deixa nem cortar a unha."
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.45,
+    "em": 0.3
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "À NOITE",
+   "fala": "Em casa, a Carla chorou de vergonha.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 320,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 780,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Todo mundo me olhando como se eu maltratasse ele…",
+     "pensa": true
+    }
+   ],
+   "relogio": "22:00"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Só que o Zeca não era agressivo. Pra ele, mão chegando na pata ou na orelha sempre era coisa ruim. Ninguém tinha ensinado que ser tocado podia ser bom.",
+   "topo": [
+    "ELE NÃO ERA"
+   ],
+   "de": "AGRESSIVO",
+   "para": "NINGUÉM ENSINOU",
+   "para_palavra": "ensinado"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Quinze minutos por dia, no sofá. Toca a pata, petisco. Olha a orelha, petisco. Sempre devagar, no tempo dele.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 700,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Patinha… isso, que lindo.",
+     "humor": "feliz"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1450,
+     "em": 0.0
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "NA VACINA SEGUINTE",
+   "fala": "Na vacina seguinte, o veterinário estranhou.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "parado"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ué, só eu e você dessa vez? E ele tá abanando o rabo?"
+    },
+    {
+     "quem": "carla",
+     "texto": "A gente treinou junto, doutor."
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Clínica Patas",
+   "membros": "online",
+   "quando": "18:10",
+   "fala": "E ainda veio mensagem da clínica.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Carla, o Zeca foi o paciente mais tranquilo da tarde."
+    },
+    {
+     "quem": "carla",
+     "texto": "Quem diria, né? Obrigada!",
+     "eu": true
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu cão, deixa tocar na pata? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No veterinário, seu cão…",
+   "opcoes": [
+    "Chora e se joga",
+    "Não deixa tocar",
+    "Fica tranquilo"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO DRAMÁTICO",
+   "seguir": true
+  }
+ ]
+}

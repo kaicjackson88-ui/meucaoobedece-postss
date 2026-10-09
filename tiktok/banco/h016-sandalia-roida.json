@@ -1,0 +1,294 @@
+{
+ "id": "h016-sandalia-roida",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "roer",
+ "estilo": "sol",
+ "legenda": "Primeiro jantar em casa… e o Bob roeu a sandália nova dela 👡\nRoer não é vingança: é necessidade. O Pedro começou a ensinar o que é do Bob e o que não é, 15 minutos por dia.\nO que o seu cão já roeu?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorroroendo #cachorrodestruidor #enriquecimentoambiental #adestramentocanino #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Primeiro jantar em casa com a Bia. E o Bob encontrou a sandália nova dela.",
+   "linhas": [
+    "O PRIMEIRO",
+    "JANTAR",
+    "EM CASA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO, 20H",
+   "fala": "Sábado. O Pedro passou a tarde inteira cozinhando.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "bia",
+     "x": 800,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Que cheiro bom! Posso deixar a sandália ali na porta?"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Claro, fica à vontade."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "21:30",
+   "fala": "Enquanto eles jantavam, a sala ficou quietinha demais.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 280,
+     "humor": "preocupado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 720,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Silêncio demais… isso nunca é bom.",
+     "pensa": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "sapato",
+     "x": 760,
+     "y": 1450,
+     "em": 0.0
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "21:32",
+   "fala": "A sandália nova da Bia. Em pedaços.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Minha sandália! Comprei ontem!",
+     "grito": true
+    },
+    {
+     "quem": "pedro",
+     "texto": "Bob! Bia, eu te dou outra, juro."
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "sapato",
+     "x": 560,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Amigas",
+   "membros": "4 participantes",
+   "quando": "23:50",
+   "fala": "Mais tarde, a Bia contou tudo pras amigas.",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "O jantar foi ótimo. O cachorro comeu minha sandália.",
+     "eu": true
+    },
+    {
+     "quem": "carla",
+     "texto": "Amiga, o que mais esse cachorro já roeu?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "MEIA-NOITE",
+   "fala": "O Pedro olhou em volta. Controle roído. Rodapé roído.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 320,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 780,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ou eu resolvo isso, ou nunca mais recebo ninguém aqui.",
+     "pensa": true
+    }
+   ],
+   "relogio": "00:30"
+  },
+  {
+   "tipo": "virada",
+   "fala": "O Bob não roía por vingança. Ele precisava roer. E ninguém tinha ensinado o que era dele e o que não era.",
+   "topo": [
+    "NÃO ERA"
+   ],
+   "de": "VINGANÇA",
+   "para": "NINGUÉM ENSINOU",
+   "para_palavra": "ensinado"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Um cão adulto tem quarenta e dois dentes. Roer é necessidade, não pirraça. O segredo é ensinar o que pode.",
+   "numero": 42,
+   "rotulo": [
+    "DENTES",
+    "num cão adulto"
+   ],
+   "icone": "osso",
+   "numero_palavra": "quarenta",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Quinze minutos por dia. Cheirou o sapato? Troca pelo brinquedo e elogia. Escolheu o brinquedo sozinho? Petisco.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Isso é meu. Esse aqui é seu. Muito bem!",
+     "humor": "feliz"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "sapato",
+     "x": 560,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, a Bia voltou. E deixou a sandália na porta de propósito.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "explica"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "A sandália tá inteira. Tô impressionada."
+    },
+    {
+     "quem": "pedro",
+     "texto": "A gente treinou junto. Ele tem os brinquedos dele agora."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu cão, já roeu o quê? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão já roeu…",
+   "opcoes": [
+    "Sapato ou chinelo",
+    "Sofá ou móvel",
+    "Só os brinquedos"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO TRITURADOR",
+   "seguir": true
+  }
+ ]
+}

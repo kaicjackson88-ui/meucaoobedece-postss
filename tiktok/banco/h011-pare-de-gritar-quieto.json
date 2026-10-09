@@ -1,0 +1,257 @@
+{
+ "id": "h011-pare-de-gritar-quieto",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "Pare de gritar \"QUIETO\": pro seu cão, você tá latindo junto 🙉\nA Carla gritava 20 vezes por dia, e o Fred latia cada vez mais. Quando ela trocou o grito por um sinal calmo, tudo mudou de figura.\nSeu cão late pra quê? Campainha, moto ou vizinho?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #dicasdeadestramento #comportamentocanino #adestramentodecaes #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A Carla gritava quieto vinte vezes por dia. E o Fred latia cada vez mais.",
+   "linhas": [
+    "ELA GRITAVA",
+    "QUIETO",
+    "20 VEZES POR DIA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "14:00",
+   "fala": "Duas da tarde. Passou alguém na calçada.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 770,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!",
+     "em": 0.1
+    },
+    {
+     "quem": "carla",
+     "texto": "QUIETO! FRED, QUIETO!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "14:01",
+   "fala": "E quanto mais ela gritava, mais ele latia.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 770,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU! AU!",
+     "em": 0.1
+    },
+    {
+     "quem": "carla",
+     "texto": "Por que você não me escuta?!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "carla",
+    "z": 1.45,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "15:30",
+   "fala": "Meia hora depois, bateram na porta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "vizinho",
+     "x": 800,
+     "humor": "cansado",
+     "pose": "bilhete",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Dona Carla, eu trabalho a noite toda e durmo de dia. Assim não dá."
+    },
+    {
+     "quem": "carla",
+     "texto": "Mas eu brigo com ele, seu Antônio! Eu grito!"
+    }
+   ],
+   "camera": {
+    "foco": "vizinho",
+    "z": 1.45,
+    "em": 0.3
+   },
+   "porta_aberta": true,
+   "porta_num": "201",
+   "porta_num2": "202"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "À NOITE",
+   "fala": "Naquela noite, ela pensou até em se mudar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 320,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 780,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Ou eu me mudo, ou dou o Fred. Não tem outro jeito.",
+     "pensa": true
+    }
+   ],
+   "relogio": "23:00"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Mas tinha. Pro Fred, quando ela gritava, ela não estava mandando parar. Estava latindo junto com ele.",
+   "topo": [
+    "PRO CÃO, SEU GRITO É"
+   ],
+   "de": "BRONCA",
+   "para": "LATIDO JUNTO",
+   "para_palavra": "latindo"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Pesquisas mostram que o cérebro do cão presta atenção no tom da sua voz, e não só na palavra. Grito agitado soa como mais agitação.",
+   "numero": null,
+   "rotulo": [
+    "O TOM DA VOZ",
+    "pesa tanto quanto a palavra"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIA 1 · 15 MIN",
+   "fala": "Ela parou de gritar. Quinze minutos por dia ensinando um sinal calmo: latiu, ela chama baixinho, ele vem, ganha petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Fred, aqui… isso. Muito bem.",
+     "humor": "feliz"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, seu Antônio voltou. Dessa vez, com um bolo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "parado"
+    },
+    {
+     "quem": "vizinho",
+     "x": 800,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 540,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Dormi a tarde inteira! Que milagre foi esse?"
+    },
+    {
+     "quem": "carla",
+     "texto": "Milagre nenhum. Eu só parei de latir junto."
+    }
+   ],
+   "porta_aberta": true,
+   "porta_num": "201",
+   "porta_num2": "202"
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você também grita quieto pro seu cão? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando seu cão late, você…",
+   "opcoes": [
+    "Grita quieto",
+    "Dá atenção",
+    "Ensina outra coisa"
+   ],
+   "escolha": 0,
+   "resultado": "TUTOR QUE LATE JUNTO",
+   "seguir": true
+  }
+ ]
+}
