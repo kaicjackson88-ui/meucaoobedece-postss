@@ -1,0 +1,5 @@
+<stdin>:3: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+2026-10-09T12:39:00.382153 UTC
+token → ERRO Erro da Meta em me: API access blocked. (código 200)
+conta → ERRO Erro da Meta em me/accounts: API access blocked. (código 200)
+permissões → ERRO Erro da Meta em me/permissions: API access blocked. (código 200)
