@@ -29,6 +29,7 @@ PRONTOS = RAIZ / 'dados' / 'tiktok_prontos.json'   # histórias já renderizadas
 LOTES = reels.CFG.get('tiktok_lotes', ['04:30', '11:30', '17:00'])
 POR_LOTE = int(reels.CFG.get('tiktok_por_lote', 3))
 NOITE = reels.CFG.get('tiktok_render_hora', '01:00')
+INTERVALO = int(reels.CFG.get('tiktok_intervalo_min', 20))  # 1 rascunho por vez: o TikTok só notifica direito assim
 INICIO = reels.CFG.get('tiktok_hora_inicio', '08:00')
 
 
@@ -342,7 +343,7 @@ def enviar_lote(n):
         reels.gravar_json(ENVIADOS, env); reels.gravar_json(PRONTOS, pr)
         print('  nos rascunhos:', x['id'], st); saiu.append(x)
     reels.gravar_json(PRONTOS, pr); atualizar_pagina_legendas()
-    if saiu:
+    if saiu and reels.CFG.get('tiktok_aviso_celular', False):
         avisar_lote(saiu)
 
 
@@ -377,8 +378,14 @@ def ciclo(qtd=None):
     if noite_pendente():
         noite()
     n = a_enviar()
-    if n: enviar_lote(n)
-    else: print('Nenhum lote vencido agora.')
+    if not n:
+        print('Nenhum lote vencido agora.'); return
+    ult = max((x['enviado'] for x in reels.ler_json(PRONTOS, []) if (x.get('enviado') or '').startswith('20')), default='')
+    if ult:
+        passou = (datetime.now(reels.BRT) - datetime.fromisoformat(ult)).total_seconds() / 60
+        if passou < INTERVALO:
+            print(f'Último rascunho há {passou:.0f} min — o próximo sai em {INTERVALO - passou:.0f} min (1 por vez).'); return
+    enviar_lote(1)
 
 
 def main():
