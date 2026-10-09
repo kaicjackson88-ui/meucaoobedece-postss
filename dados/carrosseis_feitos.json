@@ -30,5 +30,9 @@
  {
   "slot": "2026-10-08 19:00",
   "erro": "Erro da Meta em me/accounts: API access blocked. (código 200)"
+ },
+ {
+  "slot": "2026-10-09 07:00",
+  "erro": "'seg'"
  }
 ]
