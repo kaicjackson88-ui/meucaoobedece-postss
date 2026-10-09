@@ -67,7 +67,7 @@ def main():
     sfx_ev = asyncio.run(gravar(work, pasta / 'mudo.mp4', dur))
     # 4) áudio: voz + trilha + efeitos sonoros, mixados no ffmpeg
     wavfile.write(pasta / 'sfx.wav', SR, (np.clip(gerar_sfx(sfx_ev, dur, 5), -1, 1) * 32767).astype(np.int16))
-    wavfile.write(pasta / 'mus.wav', SR, (np.clip(gerar_musica(dur, 3, [seg[1]['ini'], seg[3]['ini']]), -1, 1) * 32767).astype(np.int16))
+    wavfile.write(pasta / 'mus.wav', SR, (np.clip(gerar_musica(dur, 3, [(seg[2]['ini'] - .12, seg[2]['ini'] + .2)]), -1, 1) * 32767).astype(np.int16))
     final = AQUI / 'teste-efeitos.mp4'
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', str(pasta / 'mudo.mp4'), '-i', str(pasta / 'voz.wav'), '-i', str(pasta / 'mus.wav'), '-i', str(pasta / 'sfx.wav'),
                     '-filter_complex',
