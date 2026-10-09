@@ -1,0 +1,31 @@
+name: Teste de efeitos (GSAP + Lottie + Whisper)
+
+# Só para teste: gera um vídeo curto e sobe num branch de mídia. Não posta em lugar nenhum.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar ferramentas
+        run: |
+          pip install -q imageio-ffmpeg && sudo ln -sf "$(python -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
+          pip install -q edge-tts==7.2.8 playwright==1.55.0 numpy scipy faster-whisper
+          timeout 300 python -m playwright install --with-deps chromium || python -m playwright install chromium
+          npm i --no-save gsap lottie-web
+      - name: Gerar vídeo de teste
+        run: python teste_efeitos/render.py
+      - name: Subir o vídeo
+        run: |
+          git config user.name "robo-meu-cao-obedece"
+          git config user.email "robo@users.noreply.github.com"
+          python -c "import sys;sys.path.insert(0,'scripts');import reels;print(reels.subir_arquivos(['teste_efeitos/teste-efeitos.mp4'],'midia-teste-efeitos'))"
