@@ -1,0 +1,222 @@
+{
+ "id": "h019-ia-passeio",
+ "formato": "tiktok-historia",
+ "gancho_tipo": "historia",
+ "tema": "passeio",
+ "estilo": "sol",
+ "legenda": "Todo passeio com o Marley parecia um arrastão na calçada 🦮💨 (História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorro #adestramento #passeiodog #puxagora #cachorroansioso",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Todo passeio com o Marley parecia uma prova de cabo de guerra. E o braço da Bia não aguentava mais.",
+   "linhas": [
+    "PASSEIO",
+    "VIROU",
+    "CABEÇA DE GURIA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO, 8H",
+   "fala": "Domingo de manhã. A Bia tentava caminhar, mas o Marley parecia um trenzinho desgovernado.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 780,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 600,
+     "y": 1400,
+     "em": 0.0
+    }
+   ],
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Calma, Marley! Devagar!",
+     "grito": true,
+     "humor": "bravo"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "quando": "08:20",
+   "grupo": "Grupo da Rua",
+   "membros": "visto por último hoje",
+   "fala": "Até que o vizinho da esquina resolveu comentar.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Bia, assim você vai acabar machucando o ombro, hein!"
+    },
+    {
+     "quem": "bia",
+     "eu": true,
+     "texto": "Eu não aguento mais, ele puxa demais!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "NA CALÇADA",
+   "fala": "Ela puxava de volta, encurtava a guia, mudava o caminho. Nada funcionava.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Parece que quanto mais eu puxo, mais ele corre",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA À NOITE",
+   "fala": "Em casa, ela quase pensou em desistir de passear e só soltar no quintal pequeno.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 320,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 800,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Será que ele nunca vai aprender a andar comigo?",
+     "pensa": true
+    }
+   ],
+   "camera": {
+    "foco": "bia",
+    "z": 1.45,
+    "em": 0.55
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Foi aí que ela entendeu: o cão puxa porque a guia tensionada diz pra ele ir mais rápido. Ninguém tinha ensinado o valor da guia frouxa.",
+   "topo": [
+    "ELE NÃO PUXAVA POR MAL"
+   ],
+   "de": "TEIMOSIA",
+   "para": "GUIA TENSA",
+   "para_palavra": "tensionada"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Quando a guia estica, o reflexo natural do cão é colocar o peso para a frente e puxar ainda mais forte para tentar vencer a resistência.",
+   "numero": null,
+   "numero_palavra": null,
+   "sufixo": "",
+   "prefixo": "",
+   "rotulo": [
+    "REFLEXO DE OPOSIÇÃO",
+    "mais tensão gera mais força"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "TERÇA · 10 MIN",
+   "fala": "Ela mudou o treino. Parava sempre que a guia esticava, e recompensava quando afrouxava.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Muito bem, Marley! Juntinho."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO SEGUINTE",
+   "fala": "No fim de semana seguinte, o passeio virou o momento mais gostoso do dia dos dois.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Olha só como você sabe caminhar ao meu lado!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão também puxa tudo na hora do passeio? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No passeio, seu cão…",
+   "opcoes": [
+    "Puxa o tempo todo",
+    "Só puxa no começo",
+    "Caminha ao lado"
+   ],
+   "escolha": 0,
+   "resultado": "PRECISA APRENDER O TREINO DE GUIA",
+   "seguir": true
+  }
+ ],
+ "autor": "ia-gratis"
+}
