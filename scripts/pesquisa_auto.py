@@ -118,12 +118,35 @@ def main():
               '\n\nDevolva JSON com as chaves: "ideias" (lista de 5 objetos {"titulo","dor","gancho_exemplo","formato","por_que"} — premissas NOVAS de histórias), '
               '"hashtags" (objeto tema -> lista de 6 hashtags; temas: latido, xixi, pulo, guia, ansiedade, chamado, comida), '
               '"estilo_legenda" (lista de 3 regras curtas + 2 exemplos no tom do perfil), "datas_temas" (lista curta), "evitar" (lista curta), '
-              '"resumo" (2 frases sobre o que os dados indicam).')
+              '"resumo" (2 frases sobre o que os dados indicam), "perfis_referencia" (lista de @ de perfis reais citados na pesquisa).')
+    # pesquisa de verdade na internet (Busca do Google dentro da IA gratuita)
+    web = ''
+    if ia_gratis.disponivel():
+        try:
+            web = ia_gratis.perguntar(
+                'Você é um pesquisador de tendências de redes sociais no Brasil. Pesquise na internet (use a busca) e responda em português, '
+                'com fatos e links. Não invente números.',
+                'Pesquise o que está funcionando AGORA (últimos 30 dias) em vídeos curtos sobre cachorros, comportamento canino e adestramento '
+                'no TikTok, Instagram Reels e YouTube Shorts no Brasil: formatos e ganchos que viralizaram, tipos de história, duração, estilo de legenda, '
+                'hashtags em alta e saturadas, sons/estilos de áudio, temas e datas do momento (próximas semanas). Liste também 5 a 10 perfis brasileiros '
+                'de cães/adestramento que estão crescendo (só @ de perfis reais que você encontrou). Seja concreto e cite as fontes.',
+                max_tokens=3000, temperatura=0.4, pesquisar=True)
+            (D / 'pesquisa_web.md').write_text(web, encoding='utf-8')
+        except Exception as e:
+            print('pesquisa na internet falhou:', e)
+    pedido = pedido.replace('\n\nDevolva JSON', '\n\nPESQUISA NA INTERNET (com fontes):\n' + web[:6000] + '\n\nDevolva JSON')
     try:
         an = ia_gratis.json_de(ia_gratis.perguntar(sistema, pedido, max_tokens=2500, temperatura=0.6, json_saida=True))
     except Exception as e:
         print('análise da IA falhou:', e); an = {}
     reels.gravar_json(D / 'tendencias_auto.json', an)
+    # aprende sozinho quais perfis acompanhar: soma os perfis reais que a pesquisa achou (o Business Discovery confere se existem)
+    novos = [u.strip().lstrip('@').lower() for u in an.get('perfis_referencia', []) if isinstance(u, str) and re.fullmatch(r'@?[\w.]{3,30}', u.strip())]
+    if novos:
+        cp = RAIZ / 'reels' / 'config.json'; cfg = json.loads(cp.read_text(encoding='utf-8'))
+        atuais = cfg.get('referencias_ig', [])
+        cfg['referencias_ig'] = (atuais + [u for u in novos if u not in atuais])[:25]
+        cp.write_text(json.dumps(cfg, ensure_ascii=False, indent=1), encoding='utf-8')
     L = [f"# Pesquisa automática ({datetime.now(reels.BRT).strftime('%d/%m %H:%M')})", '', f"Fontes: Instagram ({st_ig}), {len(news)} manchetes, {len(yt)} Shorts.", '',
          '## Resumo', an.get('resumo', '(sem análise da IA hoje)'), '', '## O que testar esta semana']
     for i in an.get('ideias', []):
