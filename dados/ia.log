@@ -1,9 +1,36 @@
-  IA: openai/gpt-4.1-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
-  IA: openai/gpt-4.1-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
-  IA: openai/gpt-4o-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
-  IA: openai/gpt-4o-mini: resposta não-JSON (HTTP 200, text/plain): 'OK\r\n'
-  IA: gpt-4o-mini: <urlopen error [Errno -2] Name or service not known>
-  IA: gpt-4o-mini: <urlopen error [Errno -2] Name or service not known>
-  IA: gpt-4o: <urlopen error [Errno -2] Name or service not known>
-  IA: gpt-4o: <urlopen error [Errno -2] Name or service not known>
-  IA falhou: IA gratuita falhou: gpt-4o: <urlopen error [Errno -2] Name or service not known>
+  IA: gemini-2.5-flash: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs
+  IA: gemini-flash-latest: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+  IA: gemini-flash-latest: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+  IA: gemini-flash-latest: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+  IA: gemini-2.0-flash: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started)
+  IA falhou: IA gratuita falhou: gemini-2.0-flash: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started)
