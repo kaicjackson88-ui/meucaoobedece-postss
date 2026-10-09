@@ -162,6 +162,7 @@ def atualizar_pagina_legendas():
         d = e['data']; chave = f'{d[8:10]}/{d[5:7]} · Lote da {lote}'
         if chave not in grupos: grupos[chave] = []; ordem.append(chave)
         grupos[chave].append(e)
+    urls = {x['id']: x.get('url') for x in reels.ler_json(PRONTOS, [])}
     blocos, i = [], 0
     for chave in ordem:
         blocos.append(f'<h2>{escape(chave)}</h2>')
@@ -172,10 +173,12 @@ def atualizar_pagina_legendas():
             capa = ' '.join(g.get('linhas', [])) or e['id']
             blocos.append(f'<div class="caixa"><p class="capa">🎬 O vídeo começa com:<br><b>{escape(capa)}</b></p>'
                           f'<textarea id="l{i}" readonly rows="7">{escape(leg)}</textarea>'
-                          f'<p><button onclick="copiar({i},this)">Copiar legenda</button></p></div>')
+                          f'<p><button onclick="copiar({i},this)">Copiar legenda</button>'
+                          + (f' <a class="baixar" href="{escape(urls[e["id"]])}" download>⬇️ Baixar vídeo</a>' if urls.get(e['id']) else '')
+                          + '</p></div>')
             i += 1
     html = ('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<title>Legendas TikTok</title><link rel="stylesheet" href="estilo.css"><style>.capa{font-size:1.15em}.capa b{color:#C2410C}h2{margin-top:28px}textarea{width:100%;box-sizing:border-box;font:inherit;font-size:15px;padding:10px;border-radius:12px;border:2px solid #2A2622;background:#fff}</style>'
+            '<title>Legendas TikTok</title><link rel="stylesheet" href="estilo.css"><style>.capa{font-size:1.15em}.baixar{display:inline-block;margin-left:8px;padding:10px 14px;border-radius:12px;border:2px solid #2A2622;text-decoration:none;color:#2A2622;font-weight:700}.capa b{color:#C2410C}h2{margin-top:28px}textarea{width:100%;box-sizing:border-box;font:inherit;font-size:15px;padding:10px;border-radius:12px;border:2px solid #2A2622;background:#fff}</style>'
             '<script>function copiar(i,b){const t=document.getElementById("l"+i);t.focus();t.select();t.setSelectionRange(0,99999);let ok=false;try{ok=document.execCommand("copy")}catch(e){}'
             'if(!ok&&navigator.clipboard){navigator.clipboard.writeText(t.value).then(()=>{b.textContent="Copiado ✓ agora cole no TikTok"})}else{b.textContent=ok?"Copiado ✓ agora cole no TikTok":"Segure o dedo no texto › Selecionar tudo › Copiar"}}</script></head><body><main><div class="marca">🐾 Meu Cão Obedece</div>'
             '<h1>Legendas do TikTok</h1><ol><li>Abra o rascunho no TikTok e veja o texto do começo do vídeo.</li>'
@@ -369,6 +372,15 @@ def main():
         sys.exit('Faltam os segredos TIKTOK_CLIENT_KEY e TIKTOK_CLIENT_SECRET no GitHub.')
     if a[0] == 'autorizar':
         autorizar(a[1])
+    elif a[0] == 'status':
+        at = access_token()
+        for e in [x for x in reels.ler_json(ENVIADOS, []) if x.get('publish_id')][-6:]:
+            try:
+                r = http('POST', 'https://open.tiktokapis.com/v2/post/publish/status/fetch/', headers={'Authorization': f'Bearer {at}'}, json_body={'publish_id': e['publish_id']})
+            except RuntimeError as er:
+                r = str(er)
+            print(e['id'], e.get('quando', '')[:16], '→', json.dumps(r, ensure_ascii=False)[:400])
+        atualizar_pagina_legendas()
     elif a[0] == 'enviar':
         ciclo(int(a[1]) if len(a) > 1 and a[1].isdigit() else None)
 

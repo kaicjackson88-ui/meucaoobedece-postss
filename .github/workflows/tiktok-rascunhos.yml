@@ -10,7 +10,7 @@ on:
         required: true
         default: "enviar"
         type: choice
-        options: [turno, enviar, autorizar, reserva]
+        options: [turno, enviar, autorizar, reserva, status]
       codigo:
         description: "Código que apareceu depois de conectar (só para autorizar)"
         required: false
@@ -54,8 +54,11 @@ jobs:
         env:
           QTD: ${{ github.event.inputs.quantidade }}
         run: python scripts/gerador_historias.py ${QTD:-45}
+      - name: Conferir status no TikTok
+        if: github.event.inputs.acao == 'status'
+        run: python scripts/tiktok_rascunho.py status
       - name: Instalar ferramentas de vídeo
-        if: github.event.inputs.acao != 'autorizar' && github.event.inputs.acao != 'reserva'
+        if: github.event.inputs.acao != 'autorizar' && github.event.inputs.acao != 'reserva' && github.event.inputs.acao != 'status'
         run: |
           pip install -q imageio-ffmpeg && sudo ln -sf "$(python -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg && ffmpeg -version | head -1  # sem apt: o espelho do Ubuntu às vezes trava
           pip install -q edge-tts==7.2.8 playwright==1.55.0 numpy scipy
