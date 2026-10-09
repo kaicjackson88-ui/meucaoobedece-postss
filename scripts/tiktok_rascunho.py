@@ -172,17 +172,18 @@ def atualizar_pagina_legendas():
             leg = e.get('legenda') or (r.get('legenda', '') + '\n\n' + r.get('hashtags', '')).strip()
             g = next((c for c in r.get('cenas', []) if c.get('tipo') == 'gancho'), {})
             capa = ' '.join(g.get('linhas', [])) or e['id']
-            blocos.append(f'<div class="caixa"><p class="capa">🎬 O vídeo começa com:<br><b>{escape(capa)}</b></p>'
+            novo = '<p class="novo">👉 MAIS RECENTE — é o vídeo da última notificação do TikTok</p>' if i == 0 else ''
+            blocos.append(f'<div class="caixa{" destaque" if i == 0 else ""}">{novo}<p class="capa">🎬 O vídeo começa com:<br><b>{escape(capa)}</b></p>'
                           f'<textarea id="l{i}" readonly rows="7">{escape(leg)}</textarea>'
                           f'<p><button onclick="copiar({i},this)">Copiar legenda</button>'
                           + (f' <a class="baixar" href="{escape(urls[e["id"]])}" download>⬇️ Baixar vídeo</a>' if urls.get(e['id']) else '')
                           + '</p></div>')
             i += 1
     html = ('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<title>Legendas TikTok</title><link rel="stylesheet" href="estilo.css"><style>.capa{font-size:1.15em}.baixar{display:inline-block;margin-left:8px;padding:10px 14px;border-radius:12px;border:2px solid #2A2622;text-decoration:none;color:#2A2622;font-weight:700}.capa b{color:#C2410C}h2{margin-top:28px}textarea{width:100%;box-sizing:border-box;font:inherit;font-size:15px;padding:10px;border-radius:12px;border:2px solid #2A2622;background:#fff}</style>'
+            '<title>Legendas TikTok</title><link rel="stylesheet" href="estilo.css"><style>.capa{font-size:1.15em}.destaque{border:3px solid #C2410C;border-radius:16px;padding:8px}.novo{background:#C2410C;color:#fff;font-weight:800;padding:8px 10px;border-radius:10px;margin:0 0 8px}.baixar{display:inline-block;margin-left:8px;padding:10px 14px;border-radius:12px;border:2px solid #2A2622;text-decoration:none;color:#2A2622;font-weight:700}.capa b{color:#C2410C}h2{margin-top:28px}textarea{width:100%;box-sizing:border-box;font:inherit;font-size:15px;padding:10px;border-radius:12px;border:2px solid #2A2622;background:#fff}</style>'
             '<script>function copiar(i,b){const t=document.getElementById("l"+i);t.focus();t.select();t.setSelectionRange(0,99999);let ok=false;try{ok=document.execCommand("copy")}catch(e){}'
             'if(!ok&&navigator.clipboard){navigator.clipboard.writeText(t.value).then(()=>{b.textContent="Copiado ✓ agora cole no TikTok"})}else{b.textContent=ok?"Copiado ✓ agora cole no TikTok":"Segure o dedo no texto › Selecionar tudo › Copiar"}}</script></head><body><main><div class="marca">🐾 Meu Cão Obedece</div>'
-            '<h1>Legendas do TikTok</h1><ol><li>Abra o rascunho no TikTok e veja o texto do começo do vídeo.</li>'
+            '<h1>Legendas do TikTok</h1><ol><li>Abra o rascunho no TikTok e confira se o texto do começo do vídeo é o mesmo do cartão.</li>'
             '<li>Ache aqui o cartão com o mesmo texto e toque em <b>Copiar legenda</b> (se não copiar, segure o dedo no texto › Selecionar tudo › Copiar).</li><li>No TikTok, toque em <b>Próximo</b>, cole na descrição e publique.</li></ol>'
             + (''.join(blocos) or '<p>Nenhum vídeo enviado ainda.</p>') + '</main></body></html>')
     (RAIZ / 'docs' / 'legendas.html').write_text(html, encoding='utf-8')
@@ -258,7 +259,30 @@ def historias_livres():
             out.sort(key=lambda r: -(nota(r) + (random.random() * 0.6 if random.random() < 0.3 else 0)))
         except Exception as e:
             print('pesos do TikTok ignorados:', e)
-    return out
+    return ordenar_variado(out, usados)
+
+
+def ordenar_variado(out, usados):
+    """Histórias do estilo novo (versao 2) primeiro; Parte 2 só depois da Parte 1 (e logo em seguida);
+    e nunca dois vídeos seguidos do mesmo formato."""
+    def liberada(r):
+        if r.get('parte', 1) <= 1 or not r.get('serie'): return True
+        ant = [x for x in out if x.get('serie') == r['serie'] and x.get('parte', 1) == r['parte'] - 1]
+        return not ant  # a parte anterior já foi usada (não está mais entre as livres)
+    cand = [r for r in out if liberada(r)]
+    cont = [r for r in cand if r.get('serie') and r.get('parte', 1) > 1]  # continuações primeiro
+    resto = [r for r in cand if r not in cont]
+    resto.sort(key=lambda r: 0 if r.get('versao', 1) >= 2 else 1)  # sort estável: mantém a ordem dos pesos
+    fila, ultimo = list(cont), None
+    while resto:
+        i = next((k for k, r in enumerate(resto) if r.get('formato_historia') != ultimo or not r.get('formato_historia')), 0)
+        r = resto.pop(i)
+        if r in fila: continue
+        fila.append(r); ultimo = r.get('formato_historia')
+        # se a Parte 1 entrou na fila, a Parte 2 vem logo depois
+        prox = [x for x in out if x.get('serie') and x.get('serie') == r.get('serie') and x.get('parte', 1) == r.get('parte', 1) + 1]
+        fila += [x for x in prox if x not in fila]
+    return fila
 
 
 def reciclaveis(n):

@@ -24,15 +24,33 @@ OBJ = {'poca', 'almofada', 'sapato', 'petisco', 'coracoes'}
 ICONES = {'sino', 'osso', 'moeda', 'casa', 'relogio', 'coracao', 'lampada', 'bola', 'guia', 'calendario', 'megafone', 'pata', 'alvo', 'cerebro', 'focinho', 'porta', 'escudo', 'x', 'check', 'sofa'}
 TIPOS = {'gancho', 'historia', 'chat', 'virada', 'curiosidade', 'cta_quiz'}
 FIM = 'Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.'
+FORMATOS = ['pov_cao', 'grupo', 'quiz', 'serie', 'erros', 'antes_depois', 'classica']
+PROIBIDO = [re.compile(r'ningu[eé]m (nunca )?(tinha |havia )?(nunca )?(ensinad|mostrad|explicad)', re.I),
+            re.compile(r'n[aã]o (era|é) (teimos|bagunceir|desobedient|mal.educad|destruidor|agressiv|frescur|fresc|brig)', re.I)]
+
+
+def textos(r):
+    for x in r.get('cenas', []):
+        yield x.get('fala', '') or ''
+        for d in x.get('dialogo', []) or []: yield d.get('texto', '') or ''
 
 
 def validar(r):
     erros = []
     c = r.get('cenas') or []
-    if not (8 <= len(c) <= 12): erros.append('precisa de 8 a 12 cenas')
+    if not (6 <= len(c) <= 9): erros.append('precisa de 6 a 9 cenas (vídeo de 30 a 45 segundos)')
+    if r.get('formato_historia') not in FORMATOS: erros.append(f'formato_historia deve ser um de {FORMATOS}')
+    if r.get('formato_historia') == 'serie' and (not r.get('serie') or r.get('parte') not in (1, 2)): erros.append('serie precisa de "serie" e "parte"')
+    for t in textos(r):
+        if any(rx.search(t) for rx in PROIBIDO): erros.append('não use a frase proibida "X não era Y / ninguém tinha ensinado" — invente outra virada'); break
+    from collections import Counter
+    cen = Counter(x.get('cenario', 'sala') for x in c if x.get('tipo') == 'historia')
+    if cen and max(cen.values()) > 2: erros.append('no máximo 2 cenas historia no mesmo cenário')
+    ac = Counter((x.get('cao') or {}).get('acao') for x in c if x.get('tipo') == 'historia' and isinstance(x.get('cao'), dict))
+    ac.pop(None, None)
+    if ac and max(ac.values()) > 2: erros.append('a mesma ação do cão em mais de 2 cenas')
     if not c or c[0].get('tipo') != 'gancho': erros.append('primeira cena deve ser gancho')
     if not c or c[-1].get('tipo') != 'cta_quiz' or not c[-1].get('seguir'): erros.append('última cena deve ser cta_quiz com "seguir": true')
-    if not any(x.get('tipo') == 'virada' for x in c): erros.append('falta cena virada')
     for i, x in enumerate(c):
         t = x.get('tipo')
         if t not in TIPOS: erros.append(f'cena {i}: tipo inválido {t}')
@@ -70,7 +88,9 @@ def validar(r):
     if 'História ilustrativa' not in r.get('legenda', ''): erros.append('legenda precisa ter "(História ilustrativa, inspirada no que muitos tutores vivem.)"')
     try:
         rr = json.loads(json.dumps(r)); reels.preparar_falas(rr)
-        if sum(len(reels.tokens(cc['fala'])) for cc in rr['cenas']) < 120: erros.append('história curta demais (precisa passar de 1 minuto)')
+        n = sum(len(reels.tokens(cc['fala'])) for cc in rr['cenas'])
+        if n < 65: erros.append('história curta demais (mínimo ~30 segundos de fala)')
+        if n > 140: erros.append('história longa demais (máximo ~45 segundos: corte cenas e frases)')
     except Exception as e:
         erros.append(f'falas inválidas: {e}')
     return erros
@@ -102,12 +122,19 @@ def escrever(n):
                'Escreva UMA história nova por vez, no formato JSON exato do modelo, seguindo o guia. Frases curtas e faladas, emoção, diálogo de verdade. '
                'Nunca prometa prazo ou resultado garantido. Não copie histórias existentes nem de terceiros. Responda só com o JSON.')
     feitos = []
+    usados = []
+    for p in sorted(BANCO.glob('h*.json'))[-20:]:
+        try: usados.append(json.loads(p.read_text(encoding='utf-8')).get('formato_historia'))
+        except Exception: pass
     for k in range(n):
+        fmt = min(FORMATOS, key=lambda f: (usados.count(f), random.random()))
+        usados.append(fmt)
         pedido = (f'GUIA:\n{guia}\n\nMODELO (copie a estrutura, NÃO a história):\n{json.dumps(modelo, ensure_ascii=False, separators=(",", ":"))}\n\n'
                   f'O QUE DÁ MAIS VIEW NO NOSSO PERFIL (pesos, positivo = bom):\n{pesos}\n\nTENDÊNCIAS:\n{tend}\n\n'
                   'GANCHOS QUE JÁ EXISTEM (não repita a premissa):\n- ' + '\n- '.join(ganchos[-25:]) +
+                  f'\n\nFORMATO DESTA HISTÓRIA: {fmt} (siga a descrição desse formato no guia; o modelo acima é de um formato antigo — copie só a estrutura JSON das cenas).'
                   f'\n\nEscreva a história nova nº {k + 1}: escolha uma premissa nova (use o que tem peso positivo e as ideias das tendências; '
-                  'de vez em quando teste algo diferente). Campos obrigatórios: id, formato "tiktok-historia", gancho_tipo "historia", tema, estilo "sol", '
+                  'de vez em quando teste algo diferente). Campos obrigatórios: id, formato "tiktok-historia", versao 2, formato_historia, gancho_tipo "historia", tema, estilo "sol", '
                   'legenda (gancho único + "(História ilustrativa, inspirada no que muitos tutores vivem.)" + chamada pro teste do link do perfil), hashtags (5 a 7), cenas.')
         ok = None
         for tentativa in range(3):
@@ -124,7 +151,7 @@ def escrever(n):
             continue
         slug = re.sub(r'[^a-z0-9]+', '-', reels.norm(ok.get('tema', 'historia')) or 'historia')[:20].strip('-') or 'historia'
         ok['id'] = f'h{prox:03d}-ia-{slug}'
-        ok['formato'] = 'tiktok-historia'; ok['autor'] = 'ia-gratis'
+        ok['formato'] = 'tiktok-historia'; ok['autor'] = 'ia-gratis'; ok['versao'] = 2
         (BANCO / f"{ok['id']}.json").write_text(json.dumps(ok, ensure_ascii=False, indent=1), encoding='utf-8')
         feitos.append(ok['id']); ganchos.append(ok['legenda'][:90]); prox += 1
         print('  ✍️ nova história:', ok['id'], '—', ok['legenda'][:70])

@@ -35,11 +35,17 @@
  ],
  "espelhar_tiktok": false,
  "tiktok_lotes": [
-  "04:30",
-  "11:30",
-  "17:00"
+  "06:30",
+  "08:30",
+  "10:30",
+  "12:30",
+  "14:30",
+  "16:30",
+  "18:30",
+  "20:30",
+  "22:30"
  ],
- "tiktok_por_lote": 3,
+ "tiktok_por_lote": 1,
  "tiktok_render_hora": "01:00",
  "link_bio_tiktok": "https://meucaoobedece.vercel.app/?utm_source=tiktok&utm_medium=social&utm_content=link_in_bio",
  "link_bio_instagram": "https://meucaoobedece.vercel.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
@@ -56,5 +62,6 @@
   "12:40",
   "18:40"
  ],
- "yt_privacidade": "private"
+ "yt_privacidade": "private",
+ "tiktok_intervalo_min": 60
 }

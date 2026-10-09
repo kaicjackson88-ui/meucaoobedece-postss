@@ -76,7 +76,7 @@ def montar():
         privados = sum(1 for v in yt.get('videos', []) if v.get('privacidade') == 'private')
         linhas.insert(4, f"▶️ YouTube: {yt.get('canal', {}).get('subscriberCount', '?')} inscritos · {sum(v['views'] for v in yt.get('videos', []))} views · {len(yt_hoje)} Shorts hoje" + (f' · {privados} privados p/ publicar' if privados else ''))
     if alerta: linhas.append('⚠️ ' + ' · '.join(alerta))
-    linhas.append('✅ Amanhã: postar os 3 lotes (6h30, 12h15, 18h) colando a legenda da página e responder os comentários.')
+    linhas.append('✅ Amanhã: 1 vídeo a cada 2h (6h30 até 22h30) — poste quando chegar a notificação do TikTok, colando a legenda do cartão de cima da página, e responda os comentários.')
     return f"📊 Meu Cão Obedece — {agora.strftime('%d/%m')}", '\n'.join(linhas)
 
 

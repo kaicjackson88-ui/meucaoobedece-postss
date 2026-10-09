@@ -43,10 +43,34 @@ Mascotes: `normal`, `bravo`, `dorminhoco`, `feliz`, `lendario`.
 - Curiosidade só com fato confirmado em fonte confiável. Nada de promessa de resultado garantido nem diagnóstico de saúde; medo intenso ou agressividade → sugerir veterinário/profissional na legenda.
 - Usar 5 hashtags.
 
-## Histórias animadas (tiktok/banco/hNNN-*.json)
+## Histórias animadas (tiktok/banco/hNNN-*.json) — ESTILO 2 (desde 09/10)
 
-Postadas no TikTok (rascunhos) e no Instagram nos horários de `historia_horarios` (14h e 20h).
-`formato: "tiktok-historia"`. Estrutura: gancho → 5–7 cenas `historia`/`chat` → `virada` → 1–2 cenas de solução → `cta_quiz`. 70–90 s.
+Postadas no TikTok (1 rascunho a cada 2h, das 6h30 às 22h30) e no Instagram nos horários de `historia_horarios`.
+Campos obrigatórios novos: `"versao": 2` e `"formato_historia"` (um dos formatos abaixo). O robô posta primeiro as de versão 2
+e nunca dois vídeos seguidos do mesmo formato — por isso, num lote de histórias, use pelo menos 4 formatos diferentes.
+
+**Duração: 30 a 45 segundos** (≈ 70 a 120 palavras faladas no total), **6 a 9 cenas** contando gancho e final.
+O caos/conflito aparece JÁ na primeira cena depois do gancho (nada de apresentação lenta).
+
+### Formatos (`formato_historia`)
+- `classica` — gancho → 3–4 cenas → virada → 1 cena de solução → cta. A clássica NÃO pode passar de 1/3 do lote.
+- `pov_cao` — o próprio cachorro narra em primeira pessoa ("Eu sou o Thor. E hoje eu…"). A `fala` é a voz do cão contando; os humanos falam no `dialogo`. Engraçado e com o ponto de vista dele (o que ele entende errado).
+- `grupo` — a história é contada quase só pelo grupo do condomínio/família: gancho → 3–4 cenas `chat` com reações, prints, áudio "transcrito" → 1–2 cenas `historia` → cta. Fofoca, indireta, figurinha em texto.
+- `quiz` — gancho é uma pergunta ("O que você faria?"); mostra a situação em 2–3 cenas; uma cena (virada ou curiosidade) mostra "1, 2 ou 3?" e PARA (fala: "Comenta 1, 2 ou 3 antes de ver a resposta"); depois revela a resposta certa. A legenda pede o número nos comentários.
+- `serie` — história em 2 partes com os mesmos personagens: campos `"serie": "slug-da-serie"` e `"parte": 1` ou `2`. A Parte 1 termina num gancho forte ("…e aí a síndica abriu a porta.") e o cta diz "Segue pra ver a Parte 2". A Parte 2 começa recapitulando em 1 frase. O robô posta a Parte 2 logo depois da Parte 1.
+- `erros` — "3 coisas que você faz e o seu cão entende errado": gancho → 3 cenas curtas (cada uma com o tutor fazendo o erro e o cão reagindo) → 1 cena com o certo → cta.
+- `antes_depois` — mesma situação duas vezes: "Mês passado:" (caos) e "Hoje:" (calma), cenas espelhadas, mesmo cenário e horário, com a reação de alguém de fora no final.
+
+### Proibido (vira repetição)
+- A frase da virada "X não era Y. Ninguém tinha ensinado/mostrado…" e qualquer variação ("não era teimoso/bagunceiro/desobediente… ninguém ensinou"). Ela foi usada em TODAS as histórias antigas.
+- Virar sempre pela mesma pessoa. Varie QUEM revela: um vizinho que já passou por isso, a criança da casa, o veterinário, a síndica, o próprio cão (pov_cao), um comentário no grupo, o tutor sozinho às 2h da manhã.
+- Mais de 2 cenas `historia` no MESMO cenário por vídeo (antes, quase metade era "sala"). Use corredor, rua, cozinha, quarto e noite.
+- Repetir a mesma `acao` do cão em mais de 2 cenas (antes "senta" aparecia em quase tudo). Varie late, pula, corre, dorme, feliz e cenas sem ação.
+- Repetir premissa, nome de cão ou nome de tutor de uma história recente.
+
+### Comentários e legenda
+- A última fala ou a legenda faz uma pergunta fácil de responder: "O seu faz isso? Comenta 1 pra sim, 2 pra não" / "Qual você escolheria?".
+- Legenda: gancho único + pergunta + "(História ilustrativa, inspirada no que muitos tutores vivem.)" + chamada pro teste do link do perfil.
 
 Cena `historia`:
 - `cenario`: sala | noite | quarto | cozinha | corredor | rua ; `relogio` ("02:47"), `quando` (tag curta), `campainha` (0–1 ou palavra)
@@ -61,12 +85,12 @@ Cena `historia`:
 
 Cena `chat` (grupo do prédio etc.): `grupo`, `membros`, `quando` ("22:47"), `fala`, `dialogo` [{quem, texto, eu?}].
 
-Regras: 1–2 falas por cena, frases curtas e faladas; dor real (vizinho, condomínio, visita, aluguel, bebê, passeio) → vergonha → quase desistir → virada "ninguém ensinou" → 15 min/dia → reação de outra pessoa. Sem prometer prazo de resultado; legenda termina com "(História ilustrativa…)" + chamada pro teste do link do perfil. Sem emoji dentro de textos que aparecem no vídeo.
+Regras: 1–2 falas por cena, frases curtas e faladas; dor real (vizinho, condomínio, visita, aluguel, bebê, passeio). A solução cita treino curto e diário quando fizer sentido, sem fórmula fixa. Sem prometer prazo de resultado; legenda termina com "(História ilustrativa…)" + chamada pro teste do link do perfil. Sem emoji dentro de textos que aparecem no vídeo.
 
 Final das histórias (`cta_quiz`): sempre `"seguir": true` e a fala termina com "Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil." (aparece o botão vermelho "+ SEGUE PRA MAIS HISTÓRIAS").
-Ritmo de produção: o TikTok usa 9 histórias por dia (renderizadas de madrugada, enviadas em 3 lotes). Manter sempre pelo menos 18 histórias não usadas no banco.
+Ritmo de produção: o TikTok usa 9 histórias por dia (renderizadas de madrugada, 1 rascunho a cada 2h). Manter sempre pelo menos 18 histórias não usadas no banco.
 
-História + curiosidade: em pelo menos metade das histórias, logo depois da `virada`, inclua 1 cena `curiosidade` com `"tag": "VOCÊ SABIA?"` explicando o PORQUÊ do comportamento (fato verdadeiro e conhecido; use `numero` só se o número for amplamente aceito, senão `"numero": null`). Campos: fala (começa com "Você sabia?"), numero, numero_palavra, prefixo, sufixo, rotulo [linha grande, linha pequena], icone (sino osso moeda casa relogio coracao lampada bola guia calendario megafone pata alvo cerebro focinho porta escudo).
+História + curiosidade: em cerca de metade das histórias (não em todas, e nem sempre no mesmo lugar), inclua 1 cena `curiosidade` com `"tag": "VOCÊ SABIA?"` explicando o PORQUÊ do comportamento (fato verdadeiro e conhecido; use `numero` só se o número for amplamente aceito, senão `"numero": null`). Campos: fala (começa com "Você sabia?"), numero, numero_palavra, prefixo, sufixo, rotulo [linha grande, linha pequena], icone (sino osso moeda casa relogio coracao lampada bola guia calendario megafone pata alvo cerebro focinho porta escudo).
 
 ## Padrões dos perfis de referência (observados em 09/10 — @medicadopet, @adestradorbernardo, @avetday, @comandocanino, @petlinie)
 - Gancho em forma de ORDEM ou ALERTA: "Pare de…", "Para de fazer X errado", "3 erros que fazem ele te morder", "ALERTA: …", "… está me envenenando em silêncio". Os maiores (@medicadopet, 4 mi / 2,6 mi / 1,5 mi) usam pergunta prática do dia a dia: "O que meu cachorro pode beber além de água?", "Quais as formas certas de carregar seu cachorro no colo?".
