@@ -1,0 +1,13 @@
+lottie ok
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper: Faltavam três dias para a vistoria do apartamento e o Thor resolveu fazer xixi bem no tapete novo. Thor, de novo não. Até que ela trocou a bronca por um petisco no lugar certo. Seu cão faz isso? Comenta um ou dois.
+Traceback (most recent call last):
+  File "/home/runner/work/meucaoobedece-postss/meucaoobedece-postss/teste_efeitos/render.py", line 102, in <module>
+    main()
+  File "/home/runner/work/meucaoobedece-postss/meucaoobedece-postss/teste_efeitos/render.py", line 70, in main
+    wavfile.write(pasta / 'mus.wav', SR, (np.clip(gerar_musica(dur, 3, [seg[1]['ini'], seg[3]['ini']]), -1, 1) * 32767).astype(np.int16))
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/meucaoobedece-postss/meucaoobedece-postss/scripts/reels_audio.py", line 112, in gerar_musica
+    for a, b in cortes: gate[(tt > a) & (tt < b)] = 0
+        ^^^^
+TypeError: cannot unpack non-iterable float object
