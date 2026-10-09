@@ -10,7 +10,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ / 'scripts'))
 import reels  # noqa: E402
 
-LIMITE_MIN = int(os.environ.get('TURNO_MIN', '330'))
+LIMITE_MIN = int(os.environ.get('TURNO_MIN', '300'))
 
 
 def passo():

@@ -1,0 +1,36 @@
+name: Vigia dos plantões
+
+# Leva poucos segundos: confere se o plantão dos vídeos (TikTok/YouTube) está vivo e religa se tiver caído.
+# Vários horários de propósito, porque o agendador do GitHub pula execuções.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+    - cron: "5,25,45 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+concurrency:
+  group: vigia
+  cancel-in-progress: true
+
+jobs:
+  vigia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Plantão dos vídeos está vivo?
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          W="repos/${{ github.repository }}/actions/workflows/tiktok-rascunhos.yml"
+          N=0
+          for st in in_progress queued waiting pending requested; do
+            k=$(gh api "$W/runs?status=$st&per_page=10" --jq '.workflow_runs | length' || echo 0); N=$((N + k))
+          done
+          echo "execuções ativas do plantão: $N"
+          if [ "$N" = "0" ]; then
+            echo "⚠️ plantão caído — religando"
+            gh api -X POST "$W/dispatches" -f ref=main -f "inputs[acao]=turno"
+          fi

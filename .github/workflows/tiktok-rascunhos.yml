@@ -2,7 +2,7 @@ name: TikTok — rascunhos diários
 
 on:
   schedule:
-    - cron: "27 */6 * * *"   # só reserva: o plantão se religa sozinho (renderiza de madrugada, lotes 05:20 / 11:50 / 17:20, Shorts)
+    - cron: "27 */6 * * *"   # só reserva: o plantão se religa sozinho (renderiza de madrugada, lotes 04:30 / 11:30 / 17:00, Shorts)
   workflow_dispatch:
     inputs:
       acao:

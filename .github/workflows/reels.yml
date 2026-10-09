@@ -33,6 +33,18 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Vigiar o plantão dos vídeos (TikTok/YouTube)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          W="repos/${{ github.repository }}/actions/workflows/tiktok-rascunhos.yml"
+          N=0
+          for st in in_progress queued waiting pending requested; do
+            k=$(gh api "$W/runs?status=$st&per_page=10" --jq '.workflow_runs | length' || echo 0); N=$((N + k))
+          done
+          if [ "$N" = "0" ]; then echo "plantão dos vídeos caído — religando"; gh api -X POST "$W/dispatches" -f ref=main -f "inputs[acao]=turno"; fi
+
       - name: Já tem plantão rodando?
         id: dup
         env:
