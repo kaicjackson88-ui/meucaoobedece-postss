@@ -341,7 +341,8 @@ def enviar_lote(n):
             pid, st = enviar_video(at, arq)
             if st == 'FAILED': raise RuntimeError('status FAILED')
         except Exception as e:
-            print('TikTok não aceitou agora (provável limite de 5 rascunhos pendentes) — tento na próxima hora:', e); break
+            print('TikTok não aceitou agora (provável limite de 5 rascunhos pendentes) — tento na próxima hora:', e)
+            (RAIZ / 'dados' / 'tiktok_erro.txt').write_text(f"{datetime.now(reels.BRT).isoformat()} {x['id']}: {e}\n", encoding='utf-8'); break
         x['enviado'] = datetime.now(reels.BRT).isoformat(); x['status'] = st
         env = reels.ler_json(ENVIADOS, [])
         env.append({'data': hoje(), 'id': x['id'], 'tipo': 'lote', 'legenda': x['legenda'], 'publish_id': pid, 'status': st, 'quando': x['enviado']})
@@ -409,6 +410,11 @@ def main():
         avisar_lote([x for x in reels.ler_json(PRONTOS, []) if (x.get('enviado') or '').startswith(hoje())][-POR_LOTE:])
     elif a[0] == 'status':
         at = access_token(); saida = []
+        try:
+            u = http('GET', 'https://open.tiktokapis.com/v2/user/info/?fields=display_name,username,video_count', headers={'Authorization': f'Bearer {at}'})
+            saida.append('CONTA: ' + json.dumps(u.get('data', u), ensure_ascii=False)[:300])
+        except RuntimeError as er:
+            saida.append(f'CONTA: erro {er}')
         for e in [x for x in reels.ler_json(ENVIADOS, []) if x.get('publish_id')][-6:]:
             try:
                 r = http('POST', 'https://open.tiktokapis.com/v2/post/publish/status/fetch/', headers={'Authorization': f'Bearer {at}'}, json_body={'publish_id': e['publish_id']})
