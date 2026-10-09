@@ -47,7 +47,7 @@ def gerar(seg, usados_assin, pasta, tentativas=8):
 
 
 def escolher_tema(feitos):
-    recentes = [f['seg'] for f in feitos[-12:]]
+    recentes = [f['seg'] for f in feitos[-12:] if f.get('seg')]  # ignora registros de erro
     cont = {s: recentes.count(s) for s in SEGS}
     ultimo = recentes[-1] if recentes else None
     cand = sorted([s for s in SEGS if s != ultimo], key=lambda s: (cont[s], random.random()))

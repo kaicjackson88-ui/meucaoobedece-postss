@@ -10,7 +10,7 @@ on:
         required: false
         default: ""
       modo:
-        description: "teste = só gera o vídeo | postar = gera e posta agora | turno = liga o plantão agora"
+        description: "teste = só gera o vídeo | postar = gera e posta agora | turno = liga o plantão agora | checar = testa a conexão com a Meta"
         required: false
         default: "teste"
 
@@ -57,8 +57,25 @@ jobs:
         id: precisa
         run: |
           if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ steps.dup.outputs.outros }}" != "0" ]; then echo "sim=nao" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.inputs.modo }}" = "checar" ]; then echo "sim=nao" >> "$GITHUB_OUTPUT"
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "sim=sim" >> "$GITHUB_OUTPUT"
           else echo "sim=$(python scripts/reels.py precisa)" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Testar a conexão com a Meta
+        if: github.event.inputs.modo == 'checar'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: |
+          python - <<'PY' 2>&1 | tee dados/meta_status.txt
+          import sys, datetime; sys.path.insert(0, 'scripts')
+          from postar import chamar, conta_instagram
+          print(datetime.datetime.utcnow().isoformat(), 'UTC')
+          for nome, f in [('token', lambda: chamar('GET', 'me', {'fields': 'id,name'})),
+                          ('conta', lambda: conta_instagram()),
+                          ('permissões', lambda: chamar('GET', 'me/permissions', {}))]:
+              try: print(nome, '→ OK', str(f())[:600])
+              except BaseException as e: print(nome, '→ ERRO', str(e)[:600])
+          PY
 
       - name: Instalar ferramentas de vídeo
         if: steps.precisa.outputs.sim == 'sim'
