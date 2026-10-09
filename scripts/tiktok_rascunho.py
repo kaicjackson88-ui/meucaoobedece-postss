@@ -373,13 +373,14 @@ def main():
     if a[0] == 'autorizar':
         autorizar(a[1])
     elif a[0] == 'status':
-        at = access_token()
+        at = access_token(); saida = []
         for e in [x for x in reels.ler_json(ENVIADOS, []) if x.get('publish_id')][-6:]:
             try:
                 r = http('POST', 'https://open.tiktokapis.com/v2/post/publish/status/fetch/', headers={'Authorization': f'Bearer {at}'}, json_body={'publish_id': e['publish_id']})
             except RuntimeError as er:
                 r = str(er)
-            print(e['id'], e.get('quando', '')[:16], '→', json.dumps(r, ensure_ascii=False)[:400])
+            saida.append(f"{e['id']} {e.get('quando', '')[:16]} → {json.dumps(r, ensure_ascii=False)[:400]}"); print(saida[-1])
+        (RAIZ / 'dados' / 'tiktok_status.txt').write_text('\n'.join(saida) + '\n', encoding='utf-8')
         atualizar_pagina_legendas()
     elif a[0] == 'enviar':
         ciclo(int(a[1]) if len(a) > 1 and a[1].isdigit() else None)
