@@ -1,0 +1,1 @@
+2026-10-09T09:34:11.227094-03:00 h002-sogra-visita: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261009203411945894EE3D23EE87CBB7"}}
