@@ -411,7 +411,7 @@ def main():
     elif a[0] == 'status':
         at = access_token(); saida = []
         try:
-            u = http('GET', 'https://open.tiktokapis.com/v2/user/info/?fields=display_name,username,video_count', headers={'Authorization': f'Bearer {at}'})
+            u = http('GET', 'https://open.tiktokapis.com/v2/user/info/?fields=display_name,video_count,follower_count', headers={'Authorization': f'Bearer {at}'})
             saida.append('CONTA: ' + json.dumps(u.get('data', u), ensure_ascii=False)[:300])
         except RuntimeError as er:
             saida.append(f'CONTA: erro {er}')
