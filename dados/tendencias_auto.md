@@ -1,4 +1,4 @@
-# Pesquisa automática (08/10 20:41)
+# Pesquisa automática (09/10 03:12)
 
 Fontes: Instagram (sem perfis de referência ou sem IG_TOKEN), 40 manchetes, 0 Shorts.
 
