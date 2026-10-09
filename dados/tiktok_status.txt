@@ -1,0 +1,4 @@
+h001-quase-devolveu 2026-10-08T19:01 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "20261009181728DCD4076D29AE8045D002"}}
+h002-sogra-visita 2026-10-09T06:57 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "202610091817297B7C5988A687C7B40F33"}}
+h003-sozinho-em-casa 2026-10-09T06:58 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "20261009181729ECAEF35E7B2B64FD251F"}}
+h004-passeio-vexame 2026-10-09T06:59 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "20261009181729E7D91315FE29FC9DA4A0"}}
