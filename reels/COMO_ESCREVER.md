@@ -67,3 +67,10 @@ Final das histórias (`cta_quiz`): sempre `"seguir": true` e a fala termina com 
 Ritmo de produção: o TikTok usa 9 histórias por dia (renderizadas de madrugada, enviadas em 3 lotes). Manter sempre pelo menos 18 histórias não usadas no banco.
 
 História + curiosidade: em pelo menos metade das histórias, logo depois da `virada`, inclua 1 cena `curiosidade` com `"tag": "VOCÊ SABIA?"` explicando o PORQUÊ do comportamento (fato verdadeiro e conhecido; use `numero` só se o número for amplamente aceito, senão `"numero": null`). Campos: fala (começa com "Você sabia?"), numero, numero_palavra, prefixo, sufixo, rotulo [linha grande, linha pequena], icone (sino osso moeda casa relogio coracao lampada bola guia calendario megafone pata alvo cerebro focinho porta escudo).
+
+## Padrões dos perfis de referência (observados em 09/10 — @medicadopet, @adestradorbernardo, @avetday, @comandocanino, @petlinie)
+- Gancho em forma de ORDEM ou ALERTA: "Pare de…", "Para de fazer X errado", "3 erros que fazem ele te morder", "ALERTA: …", "… está me envenenando em silêncio". Os maiores (@medicadopet, 4 mi / 2,6 mi / 1,5 mi) usam pergunta prática do dia a dia: "O que meu cachorro pode beber além de água?", "Quais as formas certas de carregar seu cachorro no colo?".
+- Objeção do tutor como gancho: "Tutor: sempre dei e nunca morreu" — ótimo para histórias (o tutor fala a frase errada e a história mostra a consequência).
+- Séries numeradas ("Parte 3") prendem o seguidor — use "parte" no gancho de histórias em sequência com os mesmos personagens.
+- "O que acontece no cérebro do seu cachorro quando…" e "O coração do seu cão se parte em silêncio toda vez que você faz essas 3 coisas" — curiosidade emocional; bom para a cena "VOCÊ SABIA?".
+- Texto grande no topo da tela, curto (até ~8 palavras), em caixa de cor forte — nosso gancho já segue isso; manter frases curtas.
