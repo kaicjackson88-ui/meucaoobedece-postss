@@ -327,11 +327,16 @@ def enviar_lote(n):
         return
     at = access_token(); saiu = []
     for x in pend:
-        try:
-            arq = Path(tempfile.mkdtemp(prefix='ttl-')) / 'v.mp4'
-            urllib.request.urlretrieve(x['url'], arq)
-        except Exception as e:
-            print('Vídeo pronto sumiu, descartei', x['id'], e); x['enviado'] = 'descartado'; continue
+        arq = Path(tempfile.mkdtemp(prefix='ttl-')) / 'v.mp4'; erro = None
+        for t in range(4):
+            try:
+                urllib.request.urlretrieve(x['url'], arq); erro = None; break
+            except Exception as e:
+                erro = e; print('download falhou, tentando de novo:', x['id'], e, flush=True); time.sleep(15 * (t + 1))
+        if erro is not None:
+            if '404' in str(erro):
+                print('Vídeo pronto sumiu, descartei', x['id']); x['enviado'] = 'descartado'; continue
+            print('Não consegui baixar agora, tento no próximo ciclo:', x['id'], erro); break
         try:
             pid, st = enviar_video(at, arq)
             if st == 'FAILED': raise RuntimeError('status FAILED')
