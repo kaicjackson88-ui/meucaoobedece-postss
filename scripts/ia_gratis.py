@@ -6,7 +6,32 @@ Busca do Google embutida (grounding) para pesquisar na internet antes de respond
 """
 import json, os, time, urllib.error, urllib.request
 
-MODELOS = [m.strip() for m in os.environ.get('GEMINI_MODELOS', 'gemini-2.5-flash,gemini-flash-latest,gemini-2.0-flash').split(',') if m.strip()]
+PREFERIDOS = [m.strip() for m in os.environ.get('GEMINI_MODELOS', 'gemini-3.8-flash,gemini-flash-latest,gemini-flash-lite-latest').split(',') if m.strip()]
+_cache = None
+
+
+def modelos(chave):
+    """Pergunta ao Google quais modelos 'flash' existem hoje (os nomes mudam com o tempo) e junta com os preferidos."""
+    global _cache
+    if _cache is not None:
+        return _cache
+    achados = []
+    try:
+        with urllib.request.urlopen(f'https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key={chave}', timeout=60) as r:
+            for m in json.loads(r.read().decode()).get('models', []):
+                nome = m.get('name', '').replace('models/', '')
+                if 'flash' in nome and 'generateContent' in m.get('supportedGenerationMethods', []) and not any(x in nome for x in ('image', 'tts', 'audio', 'live', 'embedding', 'thinking-exp')):
+                    achados.append(nome)
+    except Exception as e:
+        print('  IA: não consegui listar modelos:', e)
+    def versao(n):
+        import re
+        v = re.findall(r'(\d+(?:\.\d+)?)', n)
+        return (float(v[0]) if v else 0, 'lite' not in n, 'preview' not in n and 'exp' not in n)
+    achados.sort(key=versao, reverse=True)
+    _cache = list(dict.fromkeys(PREFERIDOS + achados))[:8]
+    print('  IA: modelos disponíveis:', ', '.join(_cache))
+    return _cache
 BASE = 'https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={k}'
 
 
@@ -26,7 +51,7 @@ def perguntar(sistema, usuario, max_tokens=3500, temperatura=0.8, json_saida=Fal
     if pesquisar:
         corpo['tools'] = [{'google_search': {}}]
     ultimo = None
-    for m in MODELOS:
+    for m in modelos(chave):
         for tentativa in range(3):
             req = urllib.request.Request(BASE.format(m=m, k=chave), data=json.dumps(corpo).encode(), method='POST',
                                          headers={'Content-Type': 'application/json'})
