@@ -1,16 +1,88 @@
 {
  "perfil": {
-  "display_name": "Meucaobedece",
   "follower_count": 0,
-  "likes_count": 42,
-  "video_count": 2
+  "likes_count": 43,
+  "video_count": 8,
+  "display_name": "Meucaobedece"
  },
- "atualizado": "2026-10-09T06:35:55.032818-03:00",
+ "atualizado": "2026-10-09T12:46:56.609381-03:00",
  "videos": [
+  {
+   "video": "7694688405896121606",
+   "roteiro": "h002-sogra-visita",
+   "views": 4,
+   "curtidas": 0,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0,
+   "duracao": 83,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7694688405896121606?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-09T15:21:22+00:00"
+  },
+  {
+   "video": "7694678450388487430",
+   "roteiro": "h005-vistoria-apartamento",
+   "views": 7,
+   "curtidas": 0,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0,
+   "duracao": 80,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7694678450388487430?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-09T14:42:46+00:00"
+  },
+  {
+   "video": "7694677000820231476",
+   "roteiro": "h005-vistoria-apartamento",
+   "views": 11,
+   "curtidas": 0,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0,
+   "duracao": 74,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7694677000820231476?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-09T14:37:07+00:00"
+  },
+  {
+   "video": "7694648202984803636",
+   "roteiro": "h005-vistoria-apartamento",
+   "views": 43,
+   "curtidas": 0,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0,
+   "duracao": 83,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7694648202984803636?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-09T12:45:35+00:00"
+  },
+  {
+   "video": "7694645811409325313",
+   "roteiro": "h006-bebe-campainha",
+   "views": 32,
+   "curtidas": 1,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0312,
+   "duracao": 72,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7694645811409325313?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-09T12:36:33+00:00"
+  },
+  {
+   "video": "7694629561518099718",
+   "roteiro": "h005-vistoria-apartamento",
+   "views": 54,
+   "curtidas": 0,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0,
+   "duracao": 83,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7694629561518099718?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-09T11:33:38+00:00"
+  },
   {
    "video": "7694401697090702593",
    "roteiro": null,
-   "views": 96,
+   "views": 99,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -22,11 +94,11 @@
   {
    "video": "7694336062948117766",
    "roteiro": null,
-   "views": 123,
+   "views": 158,
    "curtidas": 7,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0569,
+   "engaj": 0.0443,
    "duracao": 85,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694336062948117766?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-08T16:33:49+00:00"
