@@ -10,7 +10,7 @@ on:
         required: true
         default: "enviar"
         type: choice
-        options: [turno, enviar, autorizar, reserva, status]
+        options: [turno, enviar, autorizar, reserva, status, avisar]
       codigo:
         description: "Código que apareceu depois de conectar (só para autorizar)"
         required: false
@@ -25,7 +25,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: tiktok-${{ github.event.inputs.acao == 'status' && 'status' || 'rascunhos' }}
+  group: tiktok-${{ (github.event.inputs.acao == 'status' || github.event.inputs.acao == 'avisar') && 'rapido' || 'rascunhos' }}
   cancel-in-progress: false
 
 jobs:
@@ -37,6 +37,7 @@ jobs:
       TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
       GITHUB_TOKEN: ${{ github.token }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
       YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
     steps:
@@ -54,11 +55,11 @@ jobs:
         env:
           QTD: ${{ github.event.inputs.quantidade }}
         run: python scripts/gerador_historias.py ${QTD:-45}
-      - name: Conferir status no TikTok
-        if: github.event.inputs.acao == 'status'
-        run: python scripts/tiktok_rascunho.py status
+      - name: Conferir status no TikTok / reavisar no celular
+        if: github.event.inputs.acao == 'status' || github.event.inputs.acao == 'avisar'
+        run: python scripts/tiktok_rascunho.py ${{ github.event.inputs.acao }}
       - name: Instalar ferramentas de vídeo
-        if: github.event.inputs.acao != 'autorizar' && github.event.inputs.acao != 'reserva' && github.event.inputs.acao != 'status'
+        if: github.event.inputs.acao != 'autorizar' && github.event.inputs.acao != 'reserva' && github.event.inputs.acao != 'status' && github.event.inputs.acao != 'avisar'
         run: |
           pip install -q imageio-ffmpeg && sudo ln -sf "$(python -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg && ffmpeg -version | head -1  # sem apt: o espelho do Ubuntu às vezes trava
           pip install -q edge-tts==7.2.8 playwright==1.55.0 numpy scipy

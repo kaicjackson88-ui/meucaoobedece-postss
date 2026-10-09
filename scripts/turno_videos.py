@@ -2,7 +2,7 @@
 (renderizar de madrugada, mandar lote de rascunhos, subir Shorts) e no fim o workflow se religa sozinho.
 Não depende do agendador do GitHub, que pula horários.
 """
-import os, sys, time
+import importlib, os, sys, time
 from datetime import datetime
 from pathlib import Path
 
@@ -18,6 +18,7 @@ def passo():
     if os.environ.get('TIKTOK_CLIENT_SECRET'):
         try:
             import tiktok_rascunho as tt
+            tt = importlib.reload(tt)  # pega melhorias enviadas no meio do plantão
             if tt.TOKEN_ARQ.exists() and (tt.noite_pendente() or tt.a_enviar() > 0 or reels.ler_json(tt.FILA, [])):
                 print(datetime.now(reels.BRT).strftime('%H:%M'), 'TikTok: trabalhando…', flush=True)
                 tt.ciclo(); fez = True
@@ -26,6 +27,7 @@ def passo():
     if os.environ.get('YT_CLIENT_SECRET'):
         try:
             import youtube as yt
+            yt = importlib.reload(yt)
             if yt.TOKEN.exists() and yt.faltam_agora() > 0:
                 print(datetime.now(reels.BRT).strftime('%H:%M'), 'YouTube: subindo…', flush=True)
                 yt.enviar(); fez = True

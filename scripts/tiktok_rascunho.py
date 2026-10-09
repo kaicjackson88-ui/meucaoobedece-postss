@@ -324,7 +324,7 @@ def enviar_lote(n):
     pend = [x for x in pr if not x.get('enviado')][:n]
     if not pend:
         return
-    at = access_token()
+    at = access_token(); saiu = []
     for x in pend:
         try:
             arq = Path(tempfile.mkdtemp(prefix='ttl-')) / 'v.mp4'
@@ -340,8 +340,29 @@ def enviar_lote(n):
         env = reels.ler_json(ENVIADOS, [])
         env.append({'data': hoje(), 'id': x['id'], 'tipo': 'lote', 'legenda': x['legenda'], 'publish_id': pid, 'status': st, 'quando': x['enviado']})
         reels.gravar_json(ENVIADOS, env); reels.gravar_json(PRONTOS, pr)
-        print('  nos rascunhos:', x['id'], st)
+        print('  nos rascunhos:', x['id'], st); saiu.append(x)
     reels.gravar_json(PRONTOS, pr); atualizar_pagina_legendas()
+    if saiu:
+        avisar_lote(saiu)
+
+
+def avisar_lote(saiu):
+    """Avisa no celular (ntfy) — não depende da notificação do TikTok, que às vezes não aparece."""
+    try:
+        import relatorio_diario as rd
+        h = datetime.now(reels.BRT).strftime('%H:%M')
+        lote = 'manhã' if h < '11:00' else ('tarde' if h < '16:30' else 'noite')
+        linhas = []
+        for x in saiu:
+            p = BANCO / f"{x['id']}.json"
+            r = json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+            g = next((c for c in r.get('cenas', []) if c.get('tipo') == 'gancho'), {})
+            linhas.append('🎬 ' + (' '.join(g.get('linhas', [])) or x['id']))
+        texto = ('\n'.join(linhas) + '\n\nToque aqui › em cada vídeo: Copiar legenda e ⬇️ Baixar vídeo › no TikTok: + › Galeria › cole a legenda e publique.'
+                 '\n(Se a notificação do TikTok aparecer, pode usar ela também.)')
+        rd.enviar(f'🐾 Lote da {lote}: {len(saiu)} vídeos prontos pro TikTok', texto)
+    except Exception as e:
+        print('aviso no celular falhou:', e)
 
 
 def ciclo(qtd=None):
@@ -372,6 +393,8 @@ def main():
         sys.exit('Faltam os segredos TIKTOK_CLIENT_KEY e TIKTOK_CLIENT_SECRET no GitHub.')
     if a[0] == 'autorizar':
         autorizar(a[1])
+    elif a[0] == 'avisar':  # reenvia ao celular o aviso dos vídeos mandados hoje
+        avisar_lote([x for x in reels.ler_json(PRONTOS, []) if (x.get('enviado') or '').startswith(hoje())][-POR_LOTE:])
     elif a[0] == 'status':
         at = access_token(); saida = []
         for e in [x for x in reels.ler_json(ENVIADOS, []) if x.get('publish_id')][-6:]:
