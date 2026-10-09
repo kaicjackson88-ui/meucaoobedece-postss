@@ -1,4 +1,6 @@
-h001-quase-devolveu 2026-10-08T19:01 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "2026100918392413D9F2F525814451AA94"}}
-h002-sogra-visita 2026-10-09T06:57 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "2026100918392513D9F2F525814451AAB5"}}
-h003-sozinho-em-casa 2026-10-09T06:58 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "2026100918392513D9F2F525814451AACC"}}
-h004-passeio-vexame 2026-10-09T06:59 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "2026100918392613D9F2F525814451AAE6"}}
+CONTA: erro TikTok respondeu 401: {"data":{},"error":{"code":"scope_not_authorized","message":"The user did not authorize the scope required for completing this request.","log_id":"20261009193521821C25D989570A96C73A"}}
+h001-quase-devolveu 2026-10-08T19:01 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "202610091935227B07899720A72473660F"}}
+h002-sogra-visita 2026-10-09T06:57 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "202610091935227B07899720A724736655"}}
+h003-sozinho-em-casa 2026-10-09T06:58 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "202610091935227B07899720A72473667E"}}
+h004-passeio-vexame 2026-10-09T06:59 → {"data": {"status": "SEND_TO_USER_INBOX"}, "error": {"code": "ok", "message": "", "log_id": "202610091935237B07899720A7247366BA"}}
+h005-vistoria-apartamento 2026-10-09T07:46 → {"data": {"publicaly_available_post_id": [7694629561518099718], "status": "PUBLISH_COMPLETE"}, "error": {"code": "ok", "message": "", "log_id": "202610091935237B07899720A7247366E5"}}
