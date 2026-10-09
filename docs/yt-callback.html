@@ -1,0 +1,8 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>YouTube conectado</title><link rel="stylesheet" href="estilo.css"></head>
+<body><main><div class="marca">🐾 Meu Cão Obedece</div><h1>YouTube</h1><div id="c"></div>
+<script>
+const q=new URLSearchParams(location.search),code=q.get('code'),err=q.get('error');const c=document.getElementById('c');
+if(code){c.innerHTML='<p>Copie o código abaixo e mande no chat do Claude (ou cole no GitHub › Actions › YouTube › Run workflow › autorizar). Ele vale só alguns minutos:</p><div class="caixa" id="k"></div><p><button id="cp">Copiar código</button></p>';
+ document.getElementById('k').textContent=code;document.getElementById('cp').onclick=()=>{const t=document.createElement('textarea');t.value=code;document.body.appendChild(t);t.select();try{document.execCommand('copy')}catch(e){};navigator.clipboard&&navigator.clipboard.writeText(code);document.getElementById('cp').textContent='Copiado ✓'}}
+else c.innerHTML='<p>Não veio código. '+(err?('Erro: '+err):'')+' Tente conectar de novo.</p>';
+</script></main></body></html>

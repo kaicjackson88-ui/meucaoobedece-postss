@@ -70,6 +70,11 @@ def montar():
         f'💰 Candidato a anúncio: {anuncio}',
         f"📦 Estoque: {len(hist_livres)} histórias (~{len(hist_livres) // max(por_dia, 1)} dias) e {len(reels_livres)} Reels" + (f' · {len(reserva)} da reserva' if reserva else ''),
     ]
+    yt = ler('youtube_metricas.json', {})
+    yt_hoje = [e for e in ler('youtube_enviados.json', []) if e.get('data') == hoje]
+    if yt or yt_hoje:
+        privados = sum(1 for v in yt.get('videos', []) if v.get('privacidade') == 'private')
+        linhas.insert(4, f"▶️ YouTube: {yt.get('canal', {}).get('subscriberCount', '?')} inscritos · {sum(v['views'] for v in yt.get('videos', []))} views · {len(yt_hoje)} Shorts hoje" + (f' · {privados} privados p/ publicar' if privados else ''))
     if alerta: linhas.append('⚠️ ' + ' · '.join(alerta))
     linhas.append('✅ Amanhã: postar os 3 lotes (6h30, 12h15, 18h) colando a legenda da página e responder os comentários.')
     return f"📊 Meu Cão Obedece — {agora.strftime('%d/%m')}", '\n'.join(linhas)

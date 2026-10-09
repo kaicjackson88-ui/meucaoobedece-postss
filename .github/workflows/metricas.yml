@@ -31,6 +31,12 @@ jobs:
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
         run: python scripts/tiktok_metricas.py
+      - name: Métricas do YouTube
+        continue-on-error: true
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+        run: '[ -f dados/youtube_token.enc ] && python scripts/youtube.py metricas || true'
       - name: Relatório diário no celular (ntfy)
         continue-on-error: true
         env:

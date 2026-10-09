@@ -1,0 +1,10 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Conectar YouTube</title><link rel="stylesheet" href="estilo.css"></head>
+<body><main><div class="marca">🐾 Meu Cão Obedece</div><h1>Conectar o YouTube</h1>
+<p>Cole o <b>ID do cliente</b> (Client ID) do Google Cloud e toque em conectar. Entre com a conta do canal, autorize e volte para cá com um código.</p>
+<input id="ck" placeholder="ID do cliente (termina com .apps.googleusercontent.com)" autocomplete="off"><p><button id="ir">Conectar com o YouTube</button></p>
+<script>
+const R=location.origin+location.pathname.replace('yt-conectar.html','yt-callback.html');
+document.getElementById('ir').onclick=()=>{const ck=document.getElementById('ck').value.trim();if(!ck){alert('Cole o ID do cliente');return}
+ const sc='https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.readonly';
+ location.href='https://accounts.google.com/o/oauth2/v2/auth?client_id='+encodeURIComponent(ck)+'&redirect_uri='+encodeURIComponent(R)+'&response_type=code&access_type=offline&prompt=consent&include_granted_scopes=true&scope='+encodeURIComponent(sc)};
+</script></main></body></html>

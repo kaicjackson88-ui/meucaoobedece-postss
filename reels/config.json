@@ -50,5 +50,11 @@
   "comandocanino",
   "petlinie",
   "felipe.dermatovet"
- ]
+ ],
+ "yt_horarios": [
+  "07:10",
+  "12:40",
+  "18:40"
+ ],
+ "yt_privacidade": "private"
 }

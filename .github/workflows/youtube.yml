@@ -1,0 +1,62 @@
+name: YouTube Shorts
+
+on:
+  schedule:
+    - cron: "41 * * * *"   # de hora em hora: sobe as histórias nos horários do YouTube (07:10 / 12:40 / 18:40)
+  workflow_dispatch:
+    inputs:
+      acao:
+        description: "enviar = sobe o que falta | autorizar = conecta o canal (cole o código)"
+        required: true
+        default: "enviar"
+        type: choice
+        options: [enviar, autorizar]
+      codigo:
+        description: "Código da página yt-callback (só para autorizar)"
+        required: false
+        default: ""
+      quantidade:
+        description: "Quantos vídeos subir agora (vazio = o que falta)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube
+  cancel-in-progress: false
+
+jobs:
+  youtube:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Conectar canal
+        if: github.event.inputs.acao == 'autorizar'
+        env:
+          CODIGO: ${{ github.event.inputs.codigo }}
+        run: python scripts/youtube.py autorizar "$CODIGO" 2>&1 | tee dados/youtube.log
+      - name: Subir Shorts
+        if: github.event.inputs.acao != 'autorizar'
+        env:
+          QTD: ${{ github.event.inputs.quantidade }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(python scripts/youtube.py precisa)" = "sim" ]; then
+            python scripts/youtube.py enviar $QTD 2>&1 | tee dados/youtube.log
+          fi
+      - name: Salvar
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain dados)" ]; then
+            git config user.name "robo-meu-cao-obedece"
+            git config user.email "robo@users.noreply.github.com"
+            git add dados && git commit -qm "YouTube: registros" && git pull --rebase --autostash -q && git push -q
+          fi
