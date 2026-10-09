@@ -1,16 +1,16 @@
 {
  "perfil": {
+  "display_name": "Meucaobedece",
   "follower_count": 0,
-  "likes_count": 40,
-  "video_count": 2,
-  "display_name": "Meucaobedece"
+  "likes_count": 42,
+  "video_count": 2
  },
- "atualizado": "2026-10-08T20:17:08.690216-03:00",
+ "atualizado": "2026-10-09T06:35:55.032818-03:00",
  "videos": [
   {
    "video": "7694401697090702593",
    "roteiro": null,
-   "views": 36,
+   "views": 96,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -22,11 +22,11 @@
   {
    "video": "7694336062948117766",
    "roteiro": null,
-   "views": 83,
-   "curtidas": 5,
+   "views": 123,
+   "curtidas": 7,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0602,
+   "engaj": 0.0569,
    "duracao": 85,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694336062948117766?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-08T16:33:49+00:00"
