@@ -1,0 +1,33 @@
+name: Arte estilo Pixar (personagens e fundos)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "ids para refazer (vazio = gera o que falta)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  arte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar
+        run: pip install -q "rembg[cpu]" pillow
+      - name: Gerar
+        run: python arte/gerar_arte.py ${{ inputs.ids }} 2>&1 | tee arte/log.txt
+      - name: Salvar
+        if: always()
+        run: |
+          git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
+          git add -f arte && git commit -qm "arte: personagens estilo Pixar" && git pull -q --rebase && git push -q || echo nada
