@@ -95,4 +95,12 @@ if __name__ == '__main__':
     t, m = montar()
     print(t); print(m)
     if '--teste' not in sys.argv:
-        enviar(t, m)
+        ult = D / 'relatorio_ultimo.txt'
+        try:
+            antes = datetime.fromisoformat(ult.read_text().strip())
+        except Exception:
+            antes = None
+        if antes and (datetime.now(reels.BRT) - antes).total_seconds() < 12 * 3600 and '--forcar' not in sys.argv:
+            print('relatório já enviado há menos de 12h — não repito')
+        else:
+            enviar(t, m); ult.write_text(datetime.now(reels.BRT).isoformat())

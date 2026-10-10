@@ -33,9 +33,29 @@ def passo():
                 yt.enviar(); fez = True
         except Exception as e:
             print('⚠️ YouTube falhou:', e, flush=True)
+    try:
+        fez = relatorio_na_hora() or fez
+    except Exception as e:
+        print('⚠️ disparo do relatório falhou:', e, flush=True)
     if fez:
         reels.salvar_git('Vídeos: plantão')
     return fez
+
+
+def relatorio_na_hora():
+    """O agendador do GitHub atrasa horas; o plantão dispara o relatório diário no horário certo (23:40)."""
+    import subprocess
+    agora = datetime.now(reels.BRT); hoje = agora.strftime('%Y-%m-%d')
+    marca = RAIZ / 'dados' / 'relatorio_disparo.txt'
+    if agora.strftime('%H:%M') < '23:40' or (marca.exists() and marca.read_text().strip() == hoje):
+        return False
+    repo = os.environ.get('GITHUB_REPOSITORY', 'kaicjackson88-ui/meucaoobedece-postss')
+    r = subprocess.run(['gh', 'api', '-X', 'POST', f'repos/{repo}/actions/workflows/metricas.yml/dispatches', '-f', 'ref=main'],
+                       capture_output=True, text=True, env={**os.environ, 'GH_TOKEN': os.environ.get('GITHUB_TOKEN', '')})
+    print(datetime.now(reels.BRT).strftime('%H:%M'), 'relatório diário disparado', r.returncode, r.stderr[:200], flush=True)
+    if r.returncode == 0:
+        marca.write_text(hoje); return True
+    return False
 
 
 def main():
