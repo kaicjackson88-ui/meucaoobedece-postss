@@ -1,0 +1,102 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'FR';font-weight:600;src:url('fontes/fredoka-latin-600-normal.woff2')}
+@font-face{font-family:'FR';font-weight:700;src:url('fontes/fredoka-latin-700-normal.woff2')}
+@font-face{font-family:'NU';font-weight:800;src:url('fontes/nunito-latin-800-normal.woff2')}
+@font-face{font-family:'NU';font-weight:900;src:url('fontes/nunito-latin-900-normal.woff2')}
+html,body{margin:0;background:#000}canvas{display:block}#lot1,#lot2{position:absolute;left:-2000px;width:700px;height:700px}
+</style></head><body>
+<canvas id="c" width="1080" height="1920"></canvas><div id="lot1"></div><div id="lot2"></div>
+<script src="svgs.js"></script><script src="base.js"></script>
+<script src="gsap.min.js"></script><script src="lottie.min.js"></script>
+<script src="dados.js"></script><!-- PALAVRAS, SEG, DUR, GANCHO, DEPS, LOTTIE_* -->
+<script>
+cx=document.getElementById('c').getContext('2d');
+const S1=SEG[1],S2=SEG[2],S3=SEG[3],S4=SEG[4];
+const achar=(re,ini,d)=>{const p=PALAVRAS.find(p=>p.ini>=ini-.1&&re.test(p.w.toLowerCase()));return p?p.ini:d};
+const TD=[achar(/adriano/,S2.ini,S2.ini+.6),achar(/rafael/,S2.ini,S2.ini+2.8),achar(/adriana/,S2.ini+2,S2.ini+5)];
+const T_800=achar(/oitocentos|800/,S3.ini,S3.ini+.8),T_37=achar(/trinta|37/,S3.ini,S3.ini+2.2),T_GAR=achar(/garantia/,S3.ini,S3.fim-1);
+const DEPIMG=[];
+const S={g:GANCHO.map(()=>({y:380,s:0,r:-20,o:0})),shake:0,fone:0,prog:0,chk:0,dep:[0,0,0],risca:0,preco:0,chips:0,btn:0,seta:0};
+const tl=gsap.timeline({paused:true});
+tl.to(S.g,{y:0,s:1,r:0,o:1,duration:.65,ease:'back.out(2.6)',stagger:.14},.05)
+  .to(S,{keyframes:[{shake:1,duration:.05},{shake:-1,duration:.05},{shake:.5,duration:.05},{shake:0,duration:.1}]},.45)
+  .to(S,{fone:1,duration:.7,ease:'back.out(1.6)'},S1.ini-.2)
+  .to(S,{prog:1,duration:Math.max(1.5,S1.fim-S1.ini-.6),ease:'power2.inOut'},S1.ini+.4)
+  .to(S,{chk:3,duration:1.6,ease:'steps(3)'},S1.ini+.9)
+  .to(S.dep,{0:1,duration:.6,ease:'back.out(1.8)'},TD[0]-.15).to(S.dep,{1:1,duration:.6,ease:'back.out(1.8)'},TD[1]-.15).to(S.dep,{2:1,duration:.6,ease:'back.out(1.8)'},TD[2]-.15)
+  .to(S,{risca:1,duration:.4,ease:'power2.out'},T_800+.5)
+  .to(S,{preco:1,duration:.8,ease:'elastic.out(1,.45)'},T_37-.05)
+  .to(S,{chips:2,duration:.8,ease:'steps(2)'},T_GAR-.2)
+  .to(S,{btn:1,duration:.7,ease:'back.out(2)'},S4.ini-.15)
+  .to(S,{seta:1,duration:.5,ease:'power2.out',yoyo:true,repeat:9},S4.ini+.5);
+// Lottie
+const L={};
+function lot(id,d){return new Promise(ok=>{const a=lottie.loadAnimation({container:document.getElementById(id),renderer:'canvas',loop:false,autoplay:false,animationData:d});
+  const p=()=>{L[id]={a,cv:document.querySelector('#'+id+' canvas')};ok()};if(a.isLoaded)p();else{a.addEventListener('DOMLoaded',p);setTimeout(p,1500)}})}
+function lottieEm(id,t,t0,x,y,e=1){const l=L[id];if(!l||!l.cv)return;const f=(t-t0)*30;if(f<0||f>l.a.totalFrames-1)return;l.a.goToAndStop(f,true);cx.drawImage(l.cv,x-350*e,y-350*e,700*e,700*e)}
+function pill(x,y,w,h,cor,texto,tam,corT=C.cream){rr(x-w/2,y-h/2,w,h,h/2);cx.fillStyle=cor;cx.fill();txtFit(texto,x,y+2,tam,corT,w-40,{w:900,f:'NU'})}
+// ---------- cenas ----------
+function cGancho(t){fundoBase(t,C.cream,'#FBE3C8');listras(t,C.amb,.12);
+  GANCHO.forEach((l,i)=>{const w=S.g[i];if(!w.o)return;cx.save();cx.translate(W/2,520+i*175+w.y);cx.rotate(w.r*Math.PI/180);cx.scale(w.s,w.s);
+    const dest=i===GANCHO.length-1;if(dest){sh();rr(-470,-88,940,176,40);cx.fillStyle=C.red;cx.fill();nosh()}
+    txtFit(l,0,0,dest?110:104,dest?C.cream:C.ink,880,{w:700,f:'FR'});cx.restore()});
+  lottieEm('lot2',t,.45,W/2,640,1.6);
+  dog('bravo',W/2,1500,1.05,Math.sin(t*12)*.06,Math.max(0,Math.sin(t*15))*.04)}
+function fone(t){const k=S.fone;if(!k)return;cx.save();cx.translate(W/2,1060+(1-k)*700);cx.rotate((1-k)*.2);
+  sh('rgba(42,38,34,.35)',30,20);rr(-270,-520,540,1040,70);cx.fillStyle=C.ink;cx.fill();nosh();rr(-246,-496,492,992,52);cx.fillStyle=C.cream;cx.fill();
+  cx.save();rr(-246,-496,492,992,52);cx.clip();cx.fillStyle=C.teal;cx.fillRect(-246,-496,492,120);cx.restore();paw(-190,-436,.55,C.cream);txt('Meu Cão Obedece',20,-436,38,C.cream,{w:700,f:'FR'});
+  const dia=Math.max(1,Math.round(S.prog*21));txt('DIA '+dia+' DE 21',0,-320,52,C.ink,{w:900,f:'NU'});
+  rr(-200,-262,400,30,15);cx.fillStyle='#EADFCF';cx.fill();if(S.prog>.02){rr(-200,-262,400*S.prog,30,15);cx.fillStyle=C.amb;cx.fill()}
+  dog(S.prog>.6?'feliz':'normal',0,40,.62,Math.sin(t*4)*.05);
+  ['Sentar e ficar','Vem aqui','Xixi no lugar'].forEach((s,i)=>{const ok=S.chk>i;rr(-210,110+i*100,420,80,22);cx.fillStyle=ok?'#E3F2EE':'#fff';cx.fill();contorno(4);
+    cx.beginPath();cx.arc(-160,150+i*100,22,0,7);cx.fillStyle=ok?C.teal:'#fff';cx.fill();contorno(4);if(ok){cx.save();cx.strokeStyle=C.cream;cx.lineWidth=7;cx.lineCap='round';cx.beginPath();cx.moveTo(-170,150+i*100);cx.lineTo(-162,158+i*100);cx.lineTo(-148,140+i*100);cx.stroke();cx.restore()}
+    txt(s,30,150+i*100,34,C.ink,{w:900,f:'NU'})});
+  cx.restore();
+  if(S.fone>.9)pill(W/2,300,700,110,C.amb,'15 MIN POR DIA • 21 DIAS',48)}
+function cMetodo(t){fundoBase(t,'#EAF5F2','#D2ECE6');pontos(t,'rgba(31,122,108,.10)');fone(t)}
+function cProva(t){fundoBase(t,C.cream,'#FBE3C8');grade(t,'rgba(232,145,60,.10)');
+  txt('QUEM JÁ APLICOU:',W/2,190,64,C.ink,{w:900,f:'NU'});
+  DEPS.slice(0,3).forEach((d,i)=>{const k=S.dep[i];if(!k)return;const im=DEPIMG[i];const rot=[-.04,.035,-.02][i];const y=[500,920,1340][i],x=[470,610,500][i];
+    cx.save();cx.translate(x+(1-k)*900,y);cx.rotate(rot*k);cx.scale(.75+.25*k,.75+.25*k);
+    const w=640,hs=w*im.height/im.width,h=Math.min(250,hs);sh('rgba(42,38,34,.3)',24,14);rr(-w/2-14,-h/2-70,w+28,h+160,30);cx.fillStyle='#fff';cx.fill();nosh();
+    cx.save();rr(-w/2,-h/2,w,h,18);cx.clip();cx.drawImage(im,0,(im.height-im.height*h/hs),im.width,im.height*h/hs,-w/2,-h/2,w,h);cx.restore();
+    txt(d.nome+' • '+d.cao,0,-h/2-36,34,C.teal,{w:900,f:'NU'});
+    pill(0,h/2+48,w,72,C.gold,'“'+d.frase+'”',36,C.ink);cx.restore()});
+  txt('Conversas reais, publicadas com autorização.',W/2,1850,30,'rgba(42,38,34,.6)',{w:800,f:'NU'})}
+function cOferta(t){fundoBase(t,C.cream,'#FBE3C8');raios(t,'rgba(232,145,60,.08)','rgba(232,145,60,0)');
+  txt('ADESTRADOR PRESENCIAL',W/2,420,52,C.ink,{w:900,f:'NU'});txt('até R$ 800',W/2,530,96,'rgba(42,38,34,.75)',{w:700,f:'FR'});
+  if(S.risca){cx.save();cx.lineCap='round';cx.lineWidth=18;cx.strokeStyle=C.red;cx.beginPath();cx.moveTo(W/2-260,570);cx.lineTo(W/2-260+520*S.risca,570-60*S.risca);cx.stroke();cx.restore()}
+  if(S.preco){cx.save();cx.translate(W/2,860);cx.scale(S.preco,S.preco);sh();rr(-380,-170,760,340,70);cx.fillStyle=C.teal;cx.fill();nosh();contorno(10);
+    txt('MEU CÃO OBEDECE',0,-100,46,C.cream,{w:900,f:'NU'});txt('R$ 37',0,20,190,C.gold,{w:700,f:'FR',stroke:C.ink,sw:14});txt('pagamento único',0,125,40,C.cream,{w:800,f:'NU'});cx.restore()}
+  lottieEm('lot1',t,T_37,W/2,860,1.7);
+  if(S.chips>=1)pill(W/2,1160,620,100,C.amb,'21 DIAS NO CELULAR',44);if(S.chips>=2)pill(W/2,1290,620,100,C.red,'GARANTIA DE 7 DIAS',44);
+  dog('feliz',W/2,1740,.85,Math.sin(t*5)*.05)}
+function cFinal(t){fundoBase(t,C.teal,'#145C51');pontos(t,'rgba(253,247,238,.07)');
+  txt('DESCUBRA O PERFIL',W/2,380,78,C.cream,{w:900,f:'NU'});txt('DO SEU CÃO',W/2,480,78,C.gold,{w:900,f:'NU'});
+  txt('teste grátis de 1 minuto',W/2,580,44,C.cream,{w:800,f:'NU'});
+  if(S.btn){const p=1+.05*Math.sin(t*8);cx.save();cx.translate(W/2,820);cx.scale(S.btn*p,S.btn*p);sh('rgba(0,0,0,.35)',30,16);rr(-400,-95,800,190,95);cx.fillStyle=C.amb;cx.fill();nosh();contorno(10);
+    txt('FAZER O TESTE',0,4,84,C.cream,{w:900,f:'NU',stroke:C.ink,sw:10});cx.restore();
+    cx.save();cx.translate(W/2,1010+S.seta*30);cx.fillStyle=C.gold;cx.beginPath();cx.moveTo(0,-40);cx.lineTo(40,10);cx.lineTo(-40,10);cx.closePath();cx.fill();cx.restore();
+    txt('Toque em "Saiba mais"',W/2,1110,46,C.cream,{w:800,f:'NU'})}
+  dog('lendario',W/2,1650,.95,Math.sin(t*4)*.05);
+  txt('Resultados variam de cão para cão.',W/2,1860,28,'rgba(253,247,238,.7)',{w:800,f:'NU'})}
+const CENAS=[[0,cGancho],[S1.ini-.25,cMetodo],[S2.ini-.25,cProva],[S3.ini-.25,cOferta],[S4.ini-.25,cFinal]];
+// legenda karaokê
+const BL=(()=>{const b=[];let c=[];PALAVRAS.forEach((p,i)=>{const g=i?p.ini-PALAVRAS[i-1].fim:0;if(c.length&&(c.length>=3||g>.25)){b.push(c);c=[]}c.push(i)});if(c.length)b.push(c);return b})();
+function legenda(t,y){let bi=-1;BL.forEach((b,i)=>{if(t>=PALAVRAS[b[0]].ini-.08)bi=i});if(bi<0)return;const b=BL[bi];if(t>PALAVRAS[b[b.length-1]].fim+.5)return;
+  cx.font='900 72px NU';const gap=34;const ws=b.map(i=>PALAVRAS[i].w.toUpperCase().replace(/[.,!?…:]/g,''));const wd=ws.map(w=>cx.measureText(w).width);
+  const tot=wd.reduce((a,c)=>a+c,0)+gap*(ws.length-1);const k0=Math.min(1,960/tot);let x=W/2-tot*k0/2;const ap=spring(t-PALAVRAS[b[0]].ini+.08,14,8);
+  ws.forEach((w,k)=>{const p=PALAVRAS[b[k]],on=t>=p.ini-.03&&t<p.fim+.1,ww=wd[k]*k0;const pk=on?1+.1*Math.sin(cl((t-p.ini)/.18)*Math.PI):1;
+    cx.save();cx.translate(x+ww/2,y);cx.scale(ap*pk*k0,ap*pk*k0);if(on){sh('rgba(42,38,34,.35)',0,8);rr(-wd[k]/2-14,-48,wd[k]+28,94,24);cx.fillStyle=C.amb;cx.fill();nosh()}
+    cx.font='900 72px NU';cx.textAlign='center';cx.textBaseline='middle';cx.lineJoin='round';cx.lineWidth=16;cx.strokeStyle=C.ink;cx.strokeText(w,0,4);cx.fillStyle=C.cream;cx.fillText(w,0,4);cx.restore();x+=ww+gap*k0})}
+window.render=t=>{tl.seek(t,false);let i=0;CENAS.forEach((c,j)=>{if(t>=c[0])i=j});const lt=t-CENAS[i][0];
+  cx.save();cx.translate(S.shake*18,S.shake*-10);
+  if(i>0&&lt<.35){const k=eio(lt/.35);CENAS[i-1][1](t);cx.save();cx.beginPath();cx.arc(W/2,960,k*1250,0,7);cx.clip();CENAS[i][1](t);cx.restore();
+    cx.beginPath();cx.arc(W/2,960,k*1250,0,7);cx.lineWidth=24;cx.strokeStyle=C.amb;cx.stroke()}else CENAS[i][1](t);
+  cx.restore();if(i!==2&&i!==4)legenda(t,i===3?1460:1720);
+  cx.fillStyle='rgba(42,38,34,.25)';cx.fillRect(0,0,W,10);cx.fillStyle=C.amb;cx.fillRect(0,0,W*cl(t/DUR),10);vinheta(.2);grao(t)};
+window.load=async()=>{await carregar();for(const d of DEPS){const im=new Image();im.src=d.img;await im.decode();DEPIMG.push(im)}
+  await lot('lot1',LOTTIE_EXPLOSAO);await lot('lot2',LOTTIE_SUSTO);
+  window.SFX={whoosh:CENAS.slice(1).map(c=>c[0]),boom:[.45,T_37],latido:[.9]};return true};
+</script></body></html>
