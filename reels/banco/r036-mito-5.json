@@ -1,0 +1,78 @@
+{
+ "id": "r036-mito-5",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "coleira",
+ "legenda": "Mito ou verdade? A segunda engana quase todo mundo 👇\n\n❌ Cão que puxa a guia quer ser o líder\n✅ Parar quando a guia estica ajuda\n❌ Passeio longo resolve tudo sozinho\n\nQuantas você acertou? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#passeiocomcachorro #puxarguia #adestramento #meucaoobedece #andarjunto",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mito ou verdade? Três frases sobre cachorro que puxa a guia.",
+   "linhas": [
+    "PUXA A GUIA?",
+    "MITO OU VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "guia"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Cão que puxa a guia quer ser o líder. Mito. Ele só aprendeu que puxar leva ele aonde quer.",
+   "frase": "Cão que puxa quer ser o líder",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "PUXAR",
+    "FUNCIONOU PRA ELE"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Parar quando a guia estica ajuda. Verdade. Guia frouxa faz o passeio continuar.",
+   "frase": "Parar quando a guia estica ajuda",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "GUIA FROUXA",
+    "O PASSEIO SEGUE"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Passeio longo resolve tudo sozinho. Mito. Cansa o corpo, mas não ensina a andar junto.",
+   "frase": "Passeio longo resolve tudo",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "CANSA O CORPO",
+    "NÃO ENSINA"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

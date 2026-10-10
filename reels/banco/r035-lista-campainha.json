@@ -1,0 +1,66 @@
+{
+ "id": "r035-lista-campainha",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "latido",
+ "legenda": "Campainha tocou e seu cão vira um alarme? 🔔\n\n1️⃣ Treine com a campainha de mentira\n2️⃣ Som tocou: petisco no tapete\n3️⃣ Só depois abra a porta de verdade\n\nComece com o volume baixinho e vá subindo aos poucos. Seu cão late pra campainha? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrolatindo #campainha #adestramento #meucaoobedece #adestramentodecaes",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A campainha toca e o seu cão vira um alarme? Três passos pra mudar isso.",
+   "linhas": [
+    "CAMPAINHA TOCOU,",
+    "ELE VIROU ALARME?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: treine com a campainha de mentira, gravada no celular, com o volume baixinho.",
+   "titulo": "Campainha de mentira",
+   "sub": "volume baixinho",
+   "icone": "sino"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: tocou? Petisco no tapete. Repita até ele correr pro tapete sozinho.",
+   "titulo": "Tocou? Tapete",
+   "sub": "petisco lá",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: só depois teste com a campainha de verdade, com alguém da família lá fora.",
+   "titulo": "Depois, de verdade",
+   "sub": "com alguém de casa",
+   "icone": "porta"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

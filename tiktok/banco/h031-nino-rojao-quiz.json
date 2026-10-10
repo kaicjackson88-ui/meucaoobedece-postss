@@ -1,0 +1,147 @@
+{
+ "id": "h031-nino-rojao-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "Primeiro rojão da noite. O Nino tremendo debaixo da cama 🎆 O que você faria?\n1 dar bronca, 2 levar pra rua pra acostumar, 3 deixar no cantinho dele e ficar por perto, com calma. O Réveillon está chegando. Se o medo for muito intenso, vale conversar com o veterinário.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Rojão. O Nino tremendo debaixo da cama. O que você faria?",
+   "linhas": [
+    "ROJÃO",
+    "ELE TREMENDO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "23:50",
+   "fala": "Final de campeonato. Vieram os rojões.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Nino? Cadê você?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "23:52",
+   "fala": "A Fernanda achou o Nino debaixo da cama, tremendo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: bronca. Dois: rua, pra acostumar. Três: cantinho dele e você por perto. Comenta 1, 2 ou 3 antes de ver a resposta.",
+   "topo": [
+    "1 BRONCA",
+    "2 IR PRA RUA",
+    "3 CANTINHO E CALMA"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Os cães ouvem sons mais agudos e mais baixinhos que a gente.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "AUDIÇÃO",
+    "bem mais sensível que a nossa"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "A RESPOSTA",
+   "fala": "É a três. Esconderijo, você por perto, voz baixa. Bronca e rua aumentam o susto.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DESDE ENTÃO",
+   "fala": "E pro Réveillon, ela começou cedo: som de fogos baixinho e petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 bronca",
+    "2 ir pra rua",
+    "3 cantinho e calma"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

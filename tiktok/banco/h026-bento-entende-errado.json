@@ -1,0 +1,153 @@
+{
+ "id": "h026-bento-entende-errado",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "menta",
+ "legenda": "3 coisas que você faz todo dia e o seu cão entende tudo errado 🙃\nChamar pra bronca, dar comida quando ele late na mesa e só pegar a guia na hora de ir embora do parque.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#vemaqui #chamadocanino #reforcopositivo #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz, e o seu cão entende errado.",
+   "linhas": [
+    "3 COISAS",
+    "QUE SEU CÃO",
+    "ENTENDE ERRADO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1",
+   "fala": "Um: chamar pra dar bronca. O Bento veio. E levou bronca.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Bento, que bagunça é essa?",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 2",
+   "fala": "Dois: dar comida da mesa quando ele late. Latir virou pedido.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU!"
+    },
+    {
+     "quem": "ana",
+     "texto": "Toma, mas fica quieto!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ERRO 3",
+   "fala": "Três: pegar a guia só pra ir embora do parque. Guia virou fim da festa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Bento, volta!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão liga o que fez com o que acontece logo depois, em segundos.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "POUCOS SEGUNDOS",
+    "é o que ele liga"
+   ],
+   "icone": "relogio"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "O CERTO",
+   "fala": "O certo: chamar pra coisa boa. Ignorar o latido. E no parque, chamar, petisco, e soltar de novo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual erro você já cometeu?",
+   "opcoes": [
+    "Chamar pra bronca",
+    "Comida da mesa",
+    "Guia só no fim"
+   ],
+   "escolha": 0,
+   "resultado": "TODO MUNDO JÁ FEZ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

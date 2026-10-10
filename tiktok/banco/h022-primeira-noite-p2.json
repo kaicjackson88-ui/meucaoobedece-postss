@@ -1,0 +1,193 @@
+{
+ "id": "h022-primeira-noite-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "ansiedade",
+ "estilo": "noite",
+ "legenda": "PARTE 2: às 3 da manhã, quem tocou a campainha da Marina foi o vizinho 🚪\nEle não veio reclamar. Veio com uma ideia simples: cheiro conhecido e caminha do lado da cama.\nE o seu, chorou na primeira noite? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhote #primeiranoite #cachorros #adestramentodefilhotes #historiadecachorro",
+ "serie": "brigadeiro-primeira-noite",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. Três da manhã, alguém tocou a campainha do Brigadeiro.",
+   "linhas": [
+    "3 DA MANHÃ",
+    "A CAMPAINHA",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "dorminhoco",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "03:01",
+   "fala": "Era o seu Arlindo, do lado, de pijama.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "normal",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Calma, menina. Não vim reclamar."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "03:05",
+   "fala": "Ele pediu uma camiseta usada dela.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "parado"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Cheiro conhecido. E a caminha do lado da sua cama."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Até mudar de casa, o filhote dormia grudado na mãe e nos irmãos.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "NINHADA",
+    "ele nunca dormiu sozinho"
+   ],
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "03:20",
+   "fala": "A mão dela pertinho. E o choro foi diminuindo.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco B · Moradores",
+   "membros": "38 participantes",
+   "quando": "08:15",
+   "fala": "De manhã, no grupo:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ontem o 504 dormiu. E o prédio também."
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Truque da camiseta, dona Sônia."
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Sônia",
+    "vizinho": "Seu Arlindo (503)",
+    "bia": "Marina (504)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DIAS DEPOIS",
+   "fala": "Dias depois, no corredor:",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "parado"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Agora a gente dorme. Quase sempre."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu chorou na primeira noite? Comenta 1 ou 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na primeira noite, seu cão…",
+   "opcoes": [
+    "Chorou muito",
+    "Dormiu de boa",
+    "Não lembro"
+   ],
+   "escolha": 0,
+   "resultado": "NOITE EM PAZ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

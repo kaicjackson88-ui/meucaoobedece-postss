@@ -1,0 +1,193 @@
+{
+ "id": "h027-chico-jantar-sogra",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "Mês passado, o jantar com a sogra virou o show do Chico 🍝 Hoje, olha só.\nCada pedacinho dado \"pra ele ficar quieto\" era um prêmio pro escândalo. O Otávio criou um cantinho longe da mesa e treinou um pouco todo dia.\nE o seu, pede comida na mesa? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#ansiedadenacomida #cachorrocomendo #adestramentointeligente #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, o jantar com a sogra virou o show do Chico.",
+   "linhas": [
+    "JANTAR",
+    "COM A SOGRA",
+    "ANTES E DEPOIS"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "MÊS PASSADO · 20H",
+   "fala": "Mês passado. Oito da noite.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_cabeca",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU!"
+    },
+    {
+     "quem": "sindica",
+     "texto": "Ele vai subir na mesa!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "MÊS PASSADO · 20H10",
+   "fala": "Choro, latido, guardanapo roubado.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Toma, mas fica quieto!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Lavando a louça, o Otávio caiu na real: cada pedacinho era um prêmio pro escândalo.",
+   "topo": [
+    "CADA PEDACINHO"
+   ],
+   "de": "ACALMA",
+   "para": "PREMIA",
+   "para_palavra": "prêmio"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "TREINO",
+   "fala": "Cantinho com tapete e brinquedo recheado, longe da mesa. Um pouco todo dia.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "HOJE · 20H",
+   "fala": "Hoje. Oito da noite.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "parado"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 560,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Cadê o Chico?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 20H10",
+   "fala": "Ele no tapete, roendo o brinquedo.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Otávio, me ensina isso?"
+    }
+   ],
+   "camera": {
+    "foco": "sindica",
+    "z": 1.4,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu pede comida na mesa? Comenta 1 ou 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na hora da janta, seu cão…",
+   "opcoes": [
+    "Pede chorando",
+    "Rouba se der",
+    "Fica no cantinho"
+   ],
+   "escolha": 0,
+   "resultado": "PIDÃO OFICIAL",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

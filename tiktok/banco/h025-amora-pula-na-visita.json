@@ -1,0 +1,181 @@
+{
+ "id": "h025-amora-pula-na-visita",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "A visita chegou de blusa branca… e a Amora já estava no ar 😬 O que você faria?\n1 empurrar com o joelho, 2 gritar \"não\", 3 virar de costas. Só uma não vira brincadeira pra ela.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #visitasemcaos #educacaocanina #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A visita chegou de blusa branca. E a Amora pulou. O que você faria?",
+   "linhas": [
+    "A VISITA CHEGOU",
+    "E ELA PULOU",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "19:00",
+   "fala": "A porta abriu e a Amora voou na tia Teresa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_cabeca",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Minha blusa!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "carla",
+    "z": 1.45,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "19:02",
+   "fala": "E o Diego, desesperado:",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Desce, Amora! Não!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: empurrar. Dois: gritar não. Três: virar de costas. Comenta 1, 2 ou 3 antes de ver a resposta.",
+   "topo": [
+    "1 EMPURRAR",
+    "2 GRITAR NÃO",
+    "3 VIRAR DE COSTAS"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Pra muitos cães, empurrão e grito também são atenção.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ATENÇÃO",
+    "até bronca conta"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "A RESPOSTA",
+   "fala": "É a três. Virar de costas e dar carinho só com as quatro patas no chão.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO SEGUINTE",
+   "fala": "No domingo seguinte, a tia virou de costas.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Agora sim. Oi, Amora!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 empurrar",
+    "2 gritar não",
+    "3 virar de costas"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

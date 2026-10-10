@@ -1,0 +1,166 @@
+{
+ "id": "h029-feijao-tapete-da-sala",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "menta",
+ "legenda": "O Feijão explica por que o tapete da sala era o banheiro preferido dele 🐽\nPro nariz dele, o cheiro antigo ficava lá. O Caio mudou o jogo levando ele pro tapetinho na hora certa.\nE o seu, já errou o lugar do xixi? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #filhote #tapetehigienico #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Feijão. E o tapete da sala é o meu banheiro.",
+   "linhas": [
+    "EU SOU O FEIJÃO",
+    "E O TAPETE",
+    "É MEU BANHEIRO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "07:10",
+   "fala": "Fiz xixi no tapete. O Caio pisou descalço.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Feijão! De novo?",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 520,
+     "y": 1450,
+     "em": 0.2
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "07:15",
+   "fala": "Ele esfregou tudo. Mas o meu cheiro continuava lá.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Snif… snif…"
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O nariz do cão tem até trezentos milhões de receptores de cheiro.",
+   "numero": 300,
+   "numero_palavra": "trezentos",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "MILHÕES",
+    "de receptores de cheiro"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TODO DIA",
+   "fala": "Aí o Caio mudou o jogo: acordei, tapetinho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Xixi aqui. Isso!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "E eu descobri: xixi no tapetinho dá petisco. No tapete da sala, nada.",
+   "topo": [
+    "DESCOBRI"
+   ],
+   "de": "TAPETE DA SALA",
+   "para": "TAPETINHO",
+   "para_palavra": "tapetinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE",
+   "fala": "Hoje eu corro pro tapetinho. Às vezes erro. Mas o petisco mora lá.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já errou o lugar? Comenta 1 ou 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O xixi do seu cão…",
+   "opcoes": [
+    "Sai em qualquer canto",
+    "Às vezes erra",
+    "Só no tapetinho"
+   ],
+   "escolha": 0,
+   "resultado": "XIXI ARTISTA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

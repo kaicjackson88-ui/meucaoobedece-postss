@@ -1,0 +1,78 @@
+{
+ "id": "r037-erro-sair-escondido",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "ansiedade",
+ "legenda": "Você sai de casa escondido pro seu cão não ver? 🚪\n\n1️⃣ Treine saídas curtinhas\n2️⃣ Saída e chegada sem festa\n3️⃣ Deixe um brinquedo recheado\n\nSe ele sofre muito sozinho, converse com o veterinário ou um adestrador. O seu fica bem sozinho? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#ansiedadedeseparacao #cachorroansioso #adestramento #meucaoobedece #comportamentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de sair de casa escondido do seu cão.",
+   "linhas": [
+    "PARE DE SAIR",
+    "ESCONDIDO"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "porta",
+   "carimbo": "PARE!",
+   "carimbo_palavra": "Pare"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Sumir de repente não evita a tristeza. Pode deixar ele mais atento a cada movimento seu.",
+   "topo": [
+    "SUMIR DE REPENTE"
+   ],
+   "de": "PROTEGE",
+   "para": "DEIXA ALERTA",
+   "para_palavra": "atento"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: treine saídas curtinhas. Pega a chave, sai, volta em um minuto.",
+   "titulo": "Saídas curtinhas",
+   "sub": "sai e volta",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: saída e chegada sem festa. Calma na porta.",
+   "titulo": "Sem festa na porta",
+   "sub": "calma contagia",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: deixe um brinquedo recheado pra sua saída virar coisa boa.",
+   "titulo": "Brinquedo recheado",
+   "sub": "sair vira coisa boa",
+   "icone": "osso"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

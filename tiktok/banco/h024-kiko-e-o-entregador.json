@@ -1,0 +1,176 @@
+{
+ "id": "h024-kiko-e-o-entregador",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "menta",
+ "legenda": "Todo dia o Kiko late pro entregador. E todo dia ele acha que venceu 📦\nEle late, o entregador vai embora. Pra ele, o latido funcionou. Quem resolveu foi uma vizinha no grupo do prédio.\nE o seu, late pra quem? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #condominio #adestramentodecaes #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Todo dia, o Kiko late pro entregador. E acha que venceu.",
+   "linhas": [
+    "ELE LATE",
+    "PRO ENTREGADOR",
+    "E ACHA QUE VENCEU"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "10:10",
+   "fala": "Interfone, latido, entregador indo embora. Todo dia.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU!"
+    },
+    {
+     "quem": "carla",
+     "texto": "Kiko, para!",
+     "grito": true
+    }
+   ],
+   "campainha": 0.0
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê",
+   "membros": "64 participantes",
+   "quando": "10:12",
+   "fala": "No grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "O cachorro do 203 de novo."
+    },
+    {
+     "quem": "sindica",
+     "texto": "Terceira reclamação, Renata."
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Neide",
+    "vizinho": "Seu Valdir (102)",
+    "bia": "Fernanda (401)",
+    "carla": "Renata (203)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê",
+   "membros": "64 participantes",
+   "quando": "10:20",
+   "fala": "Aí a moradora do 401 escreveu:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Pra ele, o latido funciona. Ele late, o entregador some."
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Neide",
+    "vizinho": "Seu Valdir (102)",
+    "bia": "Fernanda (401)",
+    "carla": "Renata (203)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê",
+   "membros": "64 participantes",
+   "quando": "10:24",
+   "fala": "E deu a dica:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Interfone tocou, petisco no tapete. Treina com alguém tocando de mentira."
+    },
+    {
+     "quem": "carla",
+     "texto": "Vou testar hoje.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Neide",
+    "vizinho": "Seu Valdir (102)",
+    "bia": "Fernanda (401)",
+    "carla": "Renata (203)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIAS DEPOIS",
+   "fala": "Dias depois, o interfone tocou. O Kiko correu. Pro tapete.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "campainha": 0.0
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê",
+   "membros": "64 participantes",
+   "quando": "18:40",
+   "fala": "À noite:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Hoje eu nem ouvi o 203."
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Neide",
+    "vizinho": "Seu Valdir (102)",
+    "bia": "Fernanda (401)",
+    "carla": "Renata (203)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, late pra quem? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão late pra…",
+   "opcoes": [
+    "Entregador",
+    "Campainha",
+    "Moto na rua"
+   ],
+   "escolha": 0,
+   "resultado": "LATIDO ALARME",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

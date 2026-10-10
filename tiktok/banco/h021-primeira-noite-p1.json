@@ -1,0 +1,175 @@
+{
+ "id": "h021-primeira-noite-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "ansiedade",
+ "estilo": "noite",
+ "legenda": "Primeira noite do Brigadeiro em casa. Ninguém dormiu no prédio 😳 PARTE 1\nChoro, colo, bronca, música… nada funcionava. E às 3 da manhã alguém tocou a campainha.\nQuem você acha que era? Comenta 1, 2 ou 3 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhote #primeiranoite #cachorros #adestramentodefilhotes #historiadecachorro",
+ "serie": "brigadeiro-primeira-noite",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Primeira noite do Brigadeiro em casa. Ninguém dormiu no prédio.",
+   "linhas": [
+    "PRIMEIRA NOITE",
+    "NINGUÉM DORMIU",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "dorminhoco",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "23:40",
+   "fala": "Onze e quarenta. Luz apagada. E o choro começou.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Auuuu…"
+    },
+    {
+     "quem": "bia",
+     "texto": "Shhh, Brigadeiro. Dorme."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "01:15",
+   "fala": "À uma, a Marina já tinha tentado música, colo e bronca.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Se eu solto, recomeça."
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco B · Moradores",
+   "membros": "38 participantes",
+   "quando": "02:03",
+   "fala": "Às duas, o grupo do prédio acordou.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Quem mais tá ouvindo esse choro?"
+    },
+    {
+     "quem": "vizinho",
+     "texto": "É no 504."
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Sônia",
+    "vizinho": "Seu Arlindo (503)",
+    "bia": "Marina (504)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "02:40",
+   "fala": "Ela sentou no chão, quase chorando junto.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Será que eu não dou conta?",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "03:00",
+   "fala": "Três da manhã. A campainha tocou.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Quem é, a essa hora?"
+    }
+   ],
+   "campainha": 0.0,
+   "camera": {
+    "foco": "bia",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Quem era? Comenta 1, 2 ou 3. Segue pra ver a Parte dois. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quem tocou a campainha?",
+   "opcoes": [
+    "A síndica brava",
+    "O vizinho do lado",
+    "A polícia do sono"
+   ],
+   "escolha": 0,
+   "resultado": "PARTE 2 JÁ JÁ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

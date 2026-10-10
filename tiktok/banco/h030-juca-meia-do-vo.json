@@ -1,0 +1,201 @@
+{
+ "id": "h030-juca-meia-do-vo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "O Juca roubou a meia do vô. E a família inteira entrou na perseguição 🧦\nQuanto mais correm atrás, mais ele foge. Quem resolveu foi o tio Zé, no grupo da família: parar de correr e oferecer uma troca.\nE o seu, rouba o quê? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolevado #educacaocanina #reforcopositivo #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Juca roubou a meia do vô. E a família inteira correu atrás.",
+   "linhas": [
+    "ELE ROUBOU",
+    "A MEIA DO VÔ",
+    "E SAIU CORRENDO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "bola"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 13H",
+   "fala": "Almoço de domingo. Meia na boca, e lá foi ele.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "bravo",
+     "pose": "aponta",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Pega ele!",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "sapato",
+     "x": 600,
+     "y": 1450,
+     "em": 0.3
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Moraes",
+   "membros": "12 participantes",
+   "quando": "15:30",
+   "fala": "À tarde, no grupo da família:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "O vô correndo kkkk"
+    },
+    {
+     "quem": "sindica",
+     "texto": "Ele quase caiu, Tiago."
+    }
+   ],
+   "nomes": {
+    "sindica": "Vó Neusa",
+    "vizinho": "Vô Lauro",
+    "bia": "Prima Clara",
+    "joao": "Tio Zé",
+    "pedro": "Tiago"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Moraes",
+   "membros": "12 participantes",
+   "quando": "15:34",
+   "fala": "O Tiago desabafou:",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Quanto mais eu corro, mais ele corre.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "sindica": "Vó Neusa",
+    "vizinho": "Vô Lauro",
+    "bia": "Prima Clara",
+    "joao": "Tio Zé",
+    "pedro": "Tiago"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Moraes",
+   "membros": "12 participantes",
+   "quando": "15:41",
+   "fala": "E o tio Zé respondeu:",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Correr atrás é brincadeira pra ele. Para e oferece uma troca."
+    }
+   ],
+   "nomes": {
+    "sindica": "Vó Neusa",
+    "vizinho": "Vô Lauro",
+    "bia": "Prima Clara",
+    "joao": "Tio Zé",
+    "pedro": "Tiago"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 19H",
+   "fala": "No dia seguinte, chinelo na boca. O Tiago parou e mostrou o petisco.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Troca? Isso!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.45,
+    "em": 0.6
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Moraes",
+   "membros": "12 participantes",
+   "quando": "19:05",
+   "fala": "E no grupo:",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ele trocou o chinelo!",
+     "eu": true
+    },
+    {
+     "quem": "vizinho",
+     "texto": "E a minha meia?"
+    }
+   ],
+   "nomes": {
+    "sindica": "Vó Neusa",
+    "vizinho": "Vô Lauro",
+    "bia": "Prima Clara",
+    "joao": "Tio Zé",
+    "pedro": "Tiago"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu rouba o quê? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu cão rouba…",
+   "opcoes": [
+    "Meia",
+    "Chinelo",
+    "Controle remoto"
+   ],
+   "escolha": 0,
+   "resultado": "LADRÃO DE MEIA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

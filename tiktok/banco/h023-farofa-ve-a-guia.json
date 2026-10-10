@@ -1,0 +1,154 @@
+{
+ "id": "h023-farofa-ve-a-guia",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "A Farofa vê a guia e vira um foguete 🚀 Contado por ela mesma.\nPular, girar, morder a guia… e a porta continuava fechada. Até ela sacar o segredo.\nE o seu, como fica quando vê a guia? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #guia #cachorros #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Farofa. E quando a guia aparece, eu perco a cabeça.",
+   "linhas": [
+    "EU SOU A FAROFA",
+    "E A GUIA",
+    "ME ENLOUQUECE"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "18:00",
+   "fala": "O Rafa pegou a guia. Eu pulei no peito dele e mordi a guia. Tô ajudando!",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Farofa, calma!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:05",
+   "fala": "Aí ele largou a guia e sentou na escada. Estranho.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au? AU!"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Sossegou, a gente vai."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:07",
+   "fala": "Eu lati. Nada. Girei. Nada. Cansei e sentei.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Isso!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.6
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Descobri o segredo: pular deixa a porta fechada. Sentar faz a porta abrir.",
+   "topo": [
+    "O SEGREDO"
+   ],
+   "de": "PULAR",
+   "para": "SENTAR",
+   "para_palavra": "Sentar"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DIAS DEPOIS",
+   "fala": "Agora eu sento e espero. E a rua é toda minha.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, como fica com a guia? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando vê a guia, seu cão…",
+   "opcoes": [
+    "Vira um foguete",
+    "Late sem parar",
+    "Senta e espera"
+   ],
+   "escolha": 0,
+   "resultado": "CÃO FOGUETE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

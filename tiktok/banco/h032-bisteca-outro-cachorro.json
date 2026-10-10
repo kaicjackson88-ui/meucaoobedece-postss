@@ -1,0 +1,170 @@
+{
+ "id": "h032-bisteca-outro-cachorro",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "menta",
+ "legenda": "Bastava ver outro cachorro e a Bisteca virava um furacão na guia 🌪️\nA Júlia já passeava de madrugada pra não cruzar com ninguém. Quem mudou o jogo foi o veterinário: distância primeiro. Se o seu cão tem medo intenso ou agressividade, procure um veterinário ou adestrador.\nE o seu, como reage a outro cachorro na rua? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #puxarguia #comportamentocanino #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Bastava ver outro cachorro, e a Bisteca virava um furacão.",
+   "linhas": [
+    "OUTRO CACHORRO",
+    "NA CALÇADA",
+    "E ELA EXPLODIU"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "07:30",
+   "fala": "Um cachorro do outro lado da rua. E a Bisteca explodiu.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU!"
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Segura essa fera!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "00:10",
+   "fala": "A Júlia passou a passear de madrugada. Rua vazia.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "CONSULTA",
+   "fala": "Na consulta, ela contou tudo pro veterinário.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "preocupado",
+     "pose": "parado"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Ela tá perto demais pra pensar. Começa de longe."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O segredo: ver o outro cão bem de longe, ganhar petisco, e sair antes de explodir.",
+   "topo": [
+    "O SEGREDO É"
+   ],
+   "de": "SEGURAR FORTE",
+   "para": "DISTÂNCIA",
+   "para_palavra": "longe"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Entre cães, chegar de frente e encarar pode soar como desafio.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "DE FRENTE",
+    "pode soar como desafio"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DIAS DEPOIS",
+   "fala": "Dias depois: outro cachorro. A Bisteca olhou pra Júlia. E ganhou o petisco.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, com outro cachorro? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando vê outro cão, o seu…",
+   "opcoes": [
+    "Vira um furacão",
+    "Quer brincar",
+    "Nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "FURACÃO NA GUIA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

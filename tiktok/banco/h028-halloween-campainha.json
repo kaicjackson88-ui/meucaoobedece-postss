@@ -1,0 +1,184 @@
+{
+ "id": "h028-halloween-campainha",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "Noite de Halloween: 30 campainhas. 30 crises de latido da Jujuba 🎃\nQuem resolveu foi a sobrinha de 15 anos: a campainha virou sinal de petisco no tapete.\nO seu, como fica com a campainha? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#halloween #cachorrolatindo #campainha #adestramentodecaes #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Halloween. Trinta campainhas. E a Jujuba latiu pra todas.",
+   "linhas": [
+    "HALLOWEEN",
+    "30 CAMPAINHAS",
+    "30 LATIDOS"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "19:30",
+   "fala": "Primeira campainha: doces ou travessuras.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU!"
+    },
+    {
+     "quem": "ana",
+     "texto": "São só crianças!",
+     "grito": true
+    }
+   ],
+   "campainha": 0.0
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "20:15",
+   "fala": "Na décima, a Lívia estava sem voz.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "campainha": 0.0
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "20:40",
+   "fala": "Aí a sobrinha, a Lara, largou o celular.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "parado"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Tia, deixa a porta comigo?"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "A ideia da Lara: a campainha ia virar sinal de petisco.",
+   "topo": [
+    "A CAMPAINHA"
+   ],
+   "de": "INVASÃO",
+   "para": "PETISCO",
+   "para_palavra": "petisco"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "21:00",
+   "fala": "Campainha, petisco no tapete. De novo e de novo, de brincadeira.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Tapete, Juju!"
+    }
+   ],
+   "campainha": 0.0
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · FESTA",
+   "fala": "Sábado, na festa do prédio: um latido só. E tapete.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Lara, você é um gênio!"
+    }
+   ],
+   "campainha": 0.0
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, com a campainha? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Campainha tocou, seu cão…",
+   "opcoes": [
+    "Late sem parar",
+    "Corre pra porta",
+    "Nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "PORTEIRO LATIDOR",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
