@@ -1,21 +1,21 @@
-# TikTok — o que está funcionando (09/10 12:46)
+# TikTok — o que está funcionando (09/10 23:37)
 
-Seguidores: 0 · curtidas no perfil: 43 · vídeos: 8
-Mediana de views: 37 · mediana de engajamento: 0.000
+Seguidores: 1 · curtidas no perfil: 48 · vídeos: 11
+Mediana de views: 106 · mediana de engajamento: 0.009
 
 ## Top 5
-- 158 views · eng 0.044 · (vídeo manual) · https://www.tiktok.com/@meucaobedece/video/7694336062948117766?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91
-- 99 views · eng 0.000 · (vídeo manual) · https://www.tiktok.com/@meucaobedece/video/7694401697090702593?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91
-- 54 views · eng 0.000 · h005-vistoria-apartamento · https://www.tiktok.com/@meucaobedece/video/7694629561518099718?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91
-- 43 views · eng 0.000 · h005-vistoria-apartamento · https://www.tiktok.com/@meucaobedece/video/7694648202984803636?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91
-- 32 views · eng 0.031 · h006-bebe-campainha · https://www.tiktok.com/@meucaobedece/video/7694645811409325313?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91
+- 159 views · eng 0.044 · (vídeo manual) · https://www.tiktok.com/@meucaobedece/video/7694336062948117766?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91
+- 124 views · eng 0.000 · h005-vistoria-apartamento · https://www.tiktok.com/@meucaobedece/video/7694678450388487430?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91
+- 114 views · eng 0.018 · h005-vistoria-apartamento · https://www.tiktok.com/@meucaobedece/video/7694677000820231476?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91
+- 109 views · eng 0.009 · h005-vistoria-apartamento · https://www.tiktok.com/@meucaobedece/video/7694648202984803636?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91
+- 108 views · eng 0.000 · h002-sogra-visita · https://www.tiktok.com/@meucaobedece/video/7694688405896121606?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91
 
 ## Piores 5
-- 43 views · h005-vistoria-apartamento
-- 32 views · h006-bebe-campainha
-- 11 views · h005-vistoria-apartamento
-- 7 views · h005-vistoria-apartamento
-- 4 views · h002-sogra-visita
+- 105 views · h005-vistoria-apartamento
+- 95 views · h007-fogos-12-semanas
+- 82 views · h006-bebe-campainha
+- 65 views · h009-home-office
+- 28 views · h008-dia-das-criancas
 
 ## Pesos (positivo = repetir mais, negativo = evitar)
 

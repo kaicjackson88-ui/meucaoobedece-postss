@@ -1,16 +1,52 @@
 {
  "perfil": {
-  "follower_count": 0,
-  "likes_count": 43,
-  "video_count": 8,
-  "display_name": "Meucaobedece"
+  "display_name": "Meucaobedece",
+  "follower_count": 1,
+  "likes_count": 48,
+  "video_count": 11
  },
- "atualizado": "2026-10-09T12:46:56.609381-03:00",
+ "atualizado": "2026-10-09T23:37:27.520403-03:00",
  "videos": [
+  {
+   "video": "7694781081647713588",
+   "roteiro": "h009-home-office",
+   "views": 65,
+   "curtidas": 0,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0,
+   "duracao": 95,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7694781081647713588?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-09T21:21:26+00:00"
+  },
+  {
+   "video": "7694780337368386868",
+   "roteiro": "h008-dia-das-criancas",
+   "views": 28,
+   "curtidas": 0,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0,
+   "duracao": 79,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7694780337368386868?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-09T21:18:15+00:00"
+  },
+  {
+   "video": "7694732218106776838",
+   "roteiro": "h007-fogos-12-semanas",
+   "views": 95,
+   "curtidas": 1,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0105,
+   "duracao": 90,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7694732218106776838?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-09T18:11:08+00:00"
+  },
   {
    "video": "7694688405896121606",
    "roteiro": "h002-sogra-visita",
-   "views": 4,
+   "views": 108,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -22,7 +58,7 @@
   {
    "video": "7694678450388487430",
    "roteiro": "h005-vistoria-apartamento",
-   "views": 7,
+   "views": 124,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -34,11 +70,11 @@
   {
    "video": "7694677000820231476",
    "roteiro": "h005-vistoria-apartamento",
-   "views": 11,
-   "curtidas": 0,
+   "views": 114,
+   "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0,
+   "engaj": 0.0175,
    "duracao": 74,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694677000820231476?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T14:37:07+00:00"
@@ -46,11 +82,11 @@
   {
    "video": "7694648202984803636",
    "roteiro": "h005-vistoria-apartamento",
-   "views": 43,
-   "curtidas": 0,
+   "views": 109,
+   "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0,
+   "engaj": 0.0092,
    "duracao": 83,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694648202984803636?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T12:45:35+00:00"
@@ -58,11 +94,11 @@
   {
    "video": "7694645811409325313",
    "roteiro": "h006-bebe-campainha",
-   "views": 32,
+   "views": 82,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0312,
+   "engaj": 0.0122,
    "duracao": 72,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694645811409325313?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T12:36:33+00:00"
@@ -70,7 +106,7 @@
   {
    "video": "7694629561518099718",
    "roteiro": "h005-vistoria-apartamento",
-   "views": 54,
+   "views": 105,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -82,11 +118,11 @@
   {
    "video": "7694401697090702593",
    "roteiro": null,
-   "views": 99,
-   "curtidas": 0,
+   "views": 106,
+   "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0,
+   "engaj": 0.0094,
    "duracao": 30,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694401697090702593?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-08T20:48:36+00:00"
@@ -94,11 +130,11 @@
   {
    "video": "7694336062948117766",
    "roteiro": null,
-   "views": 158,
+   "views": 159,
    "curtidas": 7,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0443,
+   "engaj": 0.044,
    "duracao": 85,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694336062948117766?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-08T16:33:49+00:00"
