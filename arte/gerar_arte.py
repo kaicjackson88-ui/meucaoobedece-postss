@@ -98,8 +98,18 @@ def previa():
 def main():
     if not CHAVE: sys.exit('sem GEMINI_API_KEY')
     pedidos = sys.argv[1:] or [k for k, (t, _) in ITENS.items() if not ((PERS if t == 'p' else FUNDOS) / f'{k}.png').exists()]
-    modelos = modelos_imagem()
-    if not modelos: sys.exit('Nenhum modelo de imagem disponível para esta chave.')
+    # imagens feitas à mão (app Gemini/ChatGPT) colocadas em arte/bruto/<id>.png|jpg: só recorta
+    for k in list(pedidos):
+        feito = next((x for x in BRUTO.glob(f'{k}.*')), None)
+        if feito:
+            tipo = ITENS[k][0]; dados = feito.read_bytes()
+            if tipo == 'p': recortar(dados, PERS / f'{k}.png')
+            else:
+                from PIL import Image
+                Image.open(io.BytesIO(dados)).convert('RGB').save(FUNDOS / f'{k}.png')
+            print(f'{k}: recortado da imagem enviada', flush=True); pedidos.remove(k)
+    modelos = modelos_imagem() if pedidos else []
+    if pedidos and not modelos: sys.exit('Nenhum modelo de imagem disponível para esta chave.')
     ref = AQUI / 'ref' / 'estilo.jpg'
     falhas, mortos, t0 = [], set(), time.time()
     for k in pedidos:
