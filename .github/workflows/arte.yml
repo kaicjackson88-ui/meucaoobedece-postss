@@ -25,6 +25,8 @@ jobs:
       - name: Instalar
         run: pip install -q "rembg[cpu]" pillow
       - name: Gerar
+        timeout-minutes: 25
+        continue-on-error: true
         run: python arte/gerar_arte.py ${{ inputs.ids }} 2>&1 | tee arte/log.txt
       - name: Salvar
         if: always()

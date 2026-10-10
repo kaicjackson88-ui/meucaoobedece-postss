@@ -39,6 +39,8 @@ def pedir(url, corpo=None, tent=4):
                 return json.load(r)
         except urllib.error.HTTPError as e:
             msg = e.read().decode('utf-8', 'replace')[:400]
+            if e.code == 429 and ('limit: 0' in msg or 'quota' in msg.lower()):
+                raise RuntimeError(f'SEM COTA (429): {msg}')
             if e.code in (429, 500, 503) and i < tent - 1:
                 print(f'  aguardando ({e.code})…', flush=True); time.sleep(20 * (i + 1)); continue
             raise RuntimeError(f'HTTP {e.code}: {msg}')
@@ -99,13 +101,14 @@ def main():
     modelos = modelos_imagem()
     if not modelos: sys.exit('Nenhum modelo de imagem disponível para esta chave.')
     ref = AQUI / 'ref' / 'estilo.jpg'
-    falhas = []
+    falhas, mortos, t0 = [], set(), time.time()
     for k in pedidos:
+        if time.time() - t0 > 20 * 60: falhas.append(k); continue
         tipo, desc = ITENS[k]
         # referência de estilo + uma imagem já pronta do mesmo personagem (mantém o rosto igual)
         refs = [ref] + [x for x in [PERS / ('ana_base.png' if k.startswith('ana') else 'thor_sentado.png')] if x.exists() and x.stem != k][:1]
         texto = f'{ESTILO} {desc} Keep the character identical to the reference images.' if tipo == 'p' else f'{ESTILO} {desc}'
-        for m in modelos:
+        for m in [x for x in modelos if x not in mortos]:
             try:
                 print(f'{k}: gerando com {m}…', flush=True)
                 dados = gerar(m, texto, refs)
@@ -117,6 +120,7 @@ def main():
                 print(f'{k}: ok', flush=True); break
             except Exception as e:  # noqa: BLE001
                 print(f'{k}: falhou em {m}: {e}', flush=True)
+                if 'SEM COTA' in str(e) or 'HTTP 404' in str(e) or 'HTTP 403' in str(e): mortos.add(m)
         else:
             falhas.append(k)
         time.sleep(6)
