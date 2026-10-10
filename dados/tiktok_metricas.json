@@ -1,16 +1,16 @@
 {
  "perfil": {
+  "video_count": 11,
   "display_name": "Meucaobedece",
   "follower_count": 1,
-  "likes_count": 48,
-  "video_count": 11
+  "likes_count": 48
  },
- "atualizado": "2026-10-09T23:37:27.520403-03:00",
+ "atualizado": "2026-10-10T05:56:28.827448-03:00",
  "videos": [
   {
    "video": "7694781081647713588",
    "roteiro": "h009-home-office",
-   "views": 65,
+   "views": 84,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -22,7 +22,7 @@
   {
    "video": "7694780337368386868",
    "roteiro": "h008-dia-das-criancas",
-   "views": 28,
+   "views": 37,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -34,11 +34,11 @@
   {
    "video": "7694732218106776838",
    "roteiro": "h007-fogos-12-semanas",
-   "views": 95,
+   "views": 98,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0105,
+   "engaj": 0.0102,
    "duracao": 90,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694732218106776838?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T18:11:08+00:00"
@@ -46,7 +46,7 @@
   {
    "video": "7694688405896121606",
    "roteiro": "h002-sogra-visita",
-   "views": 108,
+   "views": 114,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -58,7 +58,7 @@
   {
    "video": "7694678450388487430",
    "roteiro": "h005-vistoria-apartamento",
-   "views": 124,
+   "views": 128,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -70,11 +70,11 @@
   {
    "video": "7694677000820231476",
    "roteiro": "h005-vistoria-apartamento",
-   "views": 114,
+   "views": 122,
    "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0175,
+   "engaj": 0.0164,
    "duracao": 74,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694677000820231476?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T14:37:07+00:00"
@@ -94,11 +94,11 @@
   {
    "video": "7694645811409325313",
    "roteiro": "h006-bebe-campainha",
-   "views": 82,
+   "views": 83,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0122,
+   "engaj": 0.012,
    "duracao": 72,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694645811409325313?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T12:36:33+00:00"
@@ -106,7 +106,7 @@
   {
    "video": "7694629561518099718",
    "roteiro": "h005-vistoria-apartamento",
-   "views": 105,
+   "views": 108,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
