@@ -1,6 +1,6 @@
-# TikTok — o que está funcionando (10/10 23:40)
+# TikTok — o que está funcionando (11/10 06:16)
 
-Seguidores: 1 · curtidas no perfil: 54 · vídeos: 18
+Seguidores: 2 · curtidas no perfil: 56 · vídeos: 18
 Mediana de views: 94 · mediana de engajamento: 0.009
 
 ## Top 5
@@ -13,16 +13,16 @@ Mediana de views: 94 · mediana de engajamento: 0.009
 ## Piores 5
 - 83 views · h022-primeira-noite-p2
 - 83 views · h020-ia-hidratacao
+- 82 views · h026-bento-entende-errado
 - 80 views · h021-primeira-noite-p1
 - 73 views · h008-dia-das-criancas
-- 72 views · h026-bento-entende-errado
 
 ## Pesos (positivo = repetir mais, negativo = evitar)
 - tema: xixi +0.03, pulo +0.01, fogos +0.00, latido -0.03, obediencia -0.03
 - curiosidade: sim +0.01, nao -0.03
 - chat: sim +0.00, nao -0.01
 - tamanho: media +0.00, longa -0.01
-- hashtag: #apartamento +0.03, #xixinolugarcerto +0.03, #adestramento +0.02, #cachorro +0.02, #cachorropulando +0.01, #sogra +0.01, #fogosnao +0.00, #reveillon +0.00, #cachorroemedo +0.00, #cachorroansioso +0.00, #adestramentocomportamental +0.00, #historiadecachorro +0.00, #latidoexcessivo -0.02, #cachorros -0.02, #homeoffice -0.02, #adestramentodecaes -0.02, #maedeprimeiraviagem -0.02, #cachorrolatindo -0.03, #esperar -0.03, #diadascriancas -0.03, #cachorrocomendo -0.03, #adestramentointeligente -0.03, #ansiedadenacomida -0.03
+- hashtag: #apartamento +0.03, #xixinolugarcerto +0.03, #adestramento +0.02, #cachorro +0.02, #sogra +0.01, #cachorropulando +0.01, #adestramentocomportamental +0.00, #fogosnao +0.00, #cachorroemedo +0.00, #cachorroansioso +0.00, #reveillon +0.00, #historiadecachorro +0.00, #homeoffice -0.02, #cachorros -0.02, #latidoexcessivo -0.02, #adestramentodecaes -0.02, #maedeprimeiraviagem -0.02, #cachorrolatindo -0.03, #cachorrocomendo -0.03, #adestramentointeligente -0.03, #ansiedadenacomida -0.03, #esperar -0.03, #diadascriancas -0.03
 - cenarios: corredor +0.03, cozinha +0.01, sala +0.00, noite -0.01, quarto -0.02
 - elenco: vizinho +0.03, joao +0.01, sindica +0.01, pedro +0.00, bia -0.01, carla -0.02, ana -0.04
 
