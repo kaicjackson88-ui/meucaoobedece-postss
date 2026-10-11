@@ -1,0 +1,143 @@
+{
+ "id": "h041-gaspar-chegada-em-casa",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz quando chega em casa e o seu cão entende tudo errado 🏠\nFesta na chegada, carinho quando ele pula e bronca pelo xixi achado horas depois. A Rita só percebeu às 2 da manhã, revendo a câmera.\nVocê faz alguma? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #educacaocanina #adestramentodecaes #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz quando chega em casa e o seu cão entende errado.",
+   "linhas": [
+    "3 COISAS",
+    "NA CHEGADA EM CASA",
+    "ELE ENTENDE ERRADO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 1",
+   "fala": "Um: chegar fazendo festa. O Gaspar entendia: chegada é euforia.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Cadê o meu bebê?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 2",
+   "fala": "Dois: carinho quando ele pula. Ele entendia: pular funciona.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 3",
+   "fala": "Três: bronca pelo xixi achado horas depois. Ele entendia: ela chega e fica brava.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 560,
+     "y": 1450,
+     "em": 0.2
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão liga a consequência ao que fez segundos antes. Não horas antes.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "SEGUNDOS",
+    "não horas"
+   ],
+   "icone": "relogio"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "02:00 · O CERTO",
+   "fala": "Às duas da manhã, revendo a câmera, a Rita entendeu. Agora ela entra calma, e carinho só com as quatro patas no chão.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você faz alguma dessas? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na chegada, você…",
+   "opcoes": [
+    "1 faz festa",
+    "2 dá carinho no pulo",
+    "3 briga depois"
+   ],
+   "escolha": 0,
+   "resultado": "QUAL É A SUA?",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

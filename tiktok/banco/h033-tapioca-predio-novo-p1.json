@@ -1,0 +1,177 @@
+{
+ "id": "h033-tapioca-predio-novo-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "Primeira semana no prédio novo. E a Tapioca latia pra cada passo no corredor 🏢 PARTE 1\nBronca, ignorar, pedir desculpa no grupo… nada adiantava. E na manhã seguinte, a síndica bateu na porta.\nO que você acha que ela trouxe? Comenta 1, 2 ou 3 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #apartamento #cachorros #historiadecachorro",
+ "serie": "tapioca-predio-novo",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Primeira semana no prédio novo. E a Tapioca latia pra cada passo no corredor.",
+   "linhas": [
+    "PRÉDIO NOVO",
+    "LATIDO A NOITE TODA",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "22:10",
+   "fala": "Dez da noite. Alguém passou no corredor.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU!"
+    },
+    {
+     "quem": "ana",
+     "texto": "Tapioca, é só o vizinho!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "22:40",
+   "fala": "O elevador abriu. Lá foi ela de novo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê · Moradores",
+   "membros": "42 participantes",
+   "quando": "23:05",
+   "fala": "Às onze, no grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Mudou cachorro novo no setecentos e dois?"
+    },
+    {
+     "quem": "bia",
+     "texto": "Ninguém dorme mais aqui."
+    }
+   ],
+   "nomes": {
+    "vizinho": "Seu Clóvis (701)",
+    "bia": "Kátia (803)",
+    "ana": "Luana (702)",
+    "sindica": "Síndica Glória"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "23:30",
+   "fala": "A Luana tentou bronca. Tentou ignorar. Nada.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "triste",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "E se pedirem pra gente sair?",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DIA SEGUINTE · 08:00",
+   "fala": "Oito da manhã. Tocaram a campainha.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "normal",
+     "pose": "bilhete",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Precisamos conversar sobre a Tapioca."
+    }
+   ],
+   "camera": {
+    "foco": "sindica",
+    "z": 1.5,
+    "em": 0.5
+   },
+   "campainha": 0.0
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que a síndica trouxe? Comenta 1, 2 ou 3. Segue pra ver a Parte dois. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que a síndica trouxe?",
+   "opcoes": [
+    "Uma multa",
+    "Uma advertência",
+    "Uma ideia"
+   ],
+   "escolha": 0,
+   "resultado": "PARTE 2 JÁ JÁ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

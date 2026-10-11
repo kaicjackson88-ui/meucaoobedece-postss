@@ -1,0 +1,160 @@
+{
+ "id": "h044-dengo-cava-a-horta",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "cavar",
+ "estilo": "sol",
+ "legenda": "Três meses cuidando da horta. O Dengo cavou tudo numa tarde 🌱\nQuem resolveu foi a avó da Elisa: em vez de só proibir, dar um lugar onde cavar é permitido.\nE o seu, cava? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocavando #enriquecimentoambiental #quintal #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três meses cuidando da horta. O Dengo cavou tudo numa tarde.",
+   "linhas": [
+    "3 MESES DE HORTA",
+    "1 TARDE",
+    "E ELE CAVOU TUDO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 15:00",
+   "fala": "Sábado. A Elisa voltou do mercado.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Minha alface!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "15:05",
+   "fala": "Terra até no focinho. E o rabo abanando.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Dengo, isso não é brinquedo!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "20:00",
+   "fala": "À noite, ela já pesquisava cerca pra horta.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "triste",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cavar é natural pro cão. Os terriers, por exemplo, foram criados pra cavar atrás de bichos.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CAVAR",
+    "é instinto, não pirraça"
+   ],
+   "icone": "pata"
+  },
+  {
+   "tipo": "virada",
+   "fala": "No domingo, a avó dela olhou e falou: dá pra ele um lugar onde cavar é permitido.",
+   "topo": [
+    "A AVÓ OLHOU E FALOU"
+   ],
+   "de": "PROIBIDO CAVAR",
+   "para": "CANTINHO DE CAVAR",
+   "para_palavra": "permitido"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DESDE ENTÃO",
+   "fala": "Uma caixa de areia no quintal, com brinquedo enterrado. Cavou lá, ganhou festa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "comemora"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, cava? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão…",
+   "opcoes": [
+    "Cava tudo",
+    "Só no sofá",
+    "Nunca cavou"
+   ],
+   "escolha": 0,
+   "resultado": "ESCAVADOR OFICIAL",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

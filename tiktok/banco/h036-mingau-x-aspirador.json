@@ -1,0 +1,177 @@
+{
+ "id": "h036-mingau-x-aspirador",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "menta",
+ "legenda": "O Mingau conta a guerra dele contra o aspirador 🌀\nQuem deu a dica foi o seu Arnaldo, do lado: aspirador desligado no meio da sala, petisco perto, e só depois ligado lá longe.\nE o seu, briga com o aspirador? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #aspirador #cachorros #educacaocanina #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Mingau. E o aspirador é o meu maior inimigo.",
+   "linhas": [
+    "EU SOU O MINGAU",
+    "O ASPIRADOR",
+    "É MEU INIMIGO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEXTA · 09:00",
+   "fala": "Sexta de faxina. O monstro acordou rugindo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU!"
+    },
+    {
+     "quem": "carla",
+     "texto": "Mingau, sai da frente!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "09:05",
+   "fala": "Eu mordi o rabo dele. Duas vezes.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "09:30",
+   "fala": "A Patrícia desligou e foi de vassoura. Eu venci. Achei eu.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "09:40",
+   "fala": "Aí o seu Arnaldo, do lado, bateu na porta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Deixa ele desligado no meio da sala. E petisco do lado."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "DIAS DEPOIS",
+   "fala": "O monstro parado. Eu cheirei. Petisco. Depois, ligado lá longe. Petisco de novo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE",
+   "fala": "Hoje ele ronca, e eu fico no meu tapete. Cada um no seu canto.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, briga com o aspirador? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Com o aspirador, seu cão…",
+   "opcoes": [
+    "Ataca",
+    "Foge",
+    "Nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "INIMIGO DO ASPIRADOR",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

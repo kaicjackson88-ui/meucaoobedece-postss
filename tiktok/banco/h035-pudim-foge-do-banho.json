@@ -1,0 +1,162 @@
+{
+ "id": "h035-pudim-foge-do-banho",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "O Pudim explica por que some toda vez que escuta o chuveiro 🚿\nPra ele, banheiro era sinônimo de susto. O Henrique transformou o banheiro em lugar de petisco, sem água, e foi indo aos poucos.\nE o seu, foge do banho? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#banhodecachorro #cachorros #reforcopositivo #educacaocanina #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Pudim. E quando escuto o chuveiro, eu sumo.",
+   "linhas": [
+    "EU SOU O PUDIM",
+    "OUVIU O CHUVEIRO?",
+    "EU SUMO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "SÁBADO · 10:00",
+   "fala": "Sábado. O Henrique ligou o chuveiro. Eu, pra baixo da cama.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Pudim? Cadê você?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "10:20",
+   "fala": "Ele me puxou. Eu travei as quatro patas.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Nem pensar!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "10:50",
+   "fala": "Depois do banho, eu me esfreguei no tapete da casa toda.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Toda semana é isso."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Aí ele mudou o jogo. O banheiro virou lugar de petisco. Sem água nenhuma.",
+   "topo": [
+    "NA SEMANA SEGUINTE"
+   ],
+   "de": "BANHEIRO = SUSTO",
+   "para": "PETISCO",
+   "para_palavra": "petisco"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "AOS POUCOS",
+   "fala": "Primeiro, só entrar. Depois, água morna nas patas. Ele parava antes de eu querer sair.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "HOJE",
+   "fala": "Hoje eu não amo banho. Mas entro andando. O petisco mora lá.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, foge do banho? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na hora do banho, seu cão…",
+   "opcoes": [
+    "Some na hora",
+    "Entra resmungando",
+    "Ama banho"
+   ],
+   "escolha": 0,
+   "resultado": "FUJÃO DO BANHO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

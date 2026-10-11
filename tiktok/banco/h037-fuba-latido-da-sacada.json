@@ -1,0 +1,176 @@
+{
+ "id": "h037-fuba-latido-da-sacada",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Todo sábado, o Fubá latia da sacada pra piscina do prédio inteiro 🏊\nQuem resolveu foi a Rose, num comentário no grupo: tampa a vista da grade e dá algo pra ele fazer naquele horário.\nE o seu, late pro que vê da janela? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #condominio #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Todo sábado, o Fubá latia da sacada pra piscina.",
+   "linhas": [
+    "LATIDO DA SACADA",
+    "PRA PISCINA",
+    "DO PRÉDIO INTEIRO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 14:00",
+   "fala": "Sábado, duas da tarde. Piscina cheia.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU!"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Fubá, entra!"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Cond. Jardim das Flores",
+   "membros": "56 participantes",
+   "quando": "14:12",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Alguém mais ouvindo o show da sacada?"
+    },
+    {
+     "quem": "vizinho",
+     "texto": "É o do quatrocentos e um."
+    }
+   ],
+   "nomes": {
+    "carla": "Tati (204)",
+    "vizinho": "Seu Osmar (101)",
+    "pedro": "Igor (401)",
+    "bia": "Rose (302)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Cond. Jardim das Flores",
+   "membros": "56 participantes",
+   "quando": "14:20",
+   "fala": "O Igor:",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Já tentei de tudo."
+    },
+    {
+     "quem": "bia",
+     "texto": "Já tentou tirar a plateia dele?"
+    }
+   ],
+   "nomes": {
+    "carla": "Tati (204)",
+    "vizinho": "Seu Osmar (101)",
+    "pedro": "Igor (401)",
+    "bia": "Rose (302)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Cond. Jardim das Flores",
+   "membros": "56 participantes",
+   "quando": "14:25",
+   "fala": "A Rose:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Ele vê a piscina pela grade. Tampa a vista e dá algo pra ele fazer."
+    }
+   ],
+   "nomes": {
+    "carla": "Tati (204)",
+    "vizinho": "Seu Osmar (101)",
+    "pedro": "Igor (401)",
+    "bia": "Rose (302)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO SEGUINTE",
+   "fala": "Tela na parte de baixo da grade. Petisco escondido na hora da piscina.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Cond. Jardim das Flores",
+   "membros": "56 participantes",
+   "quando": "14:30",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Cadê o show do quatrocentos e um?"
+    },
+    {
+     "quem": "carla",
+     "texto": "Hoje deu pra ouvir os passarinhos."
+    }
+   ],
+   "nomes": {
+    "carla": "Tati (204)",
+    "vizinho": "Seu Osmar (101)",
+    "pedro": "Igor (401)",
+    "bia": "Rose (302)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, late pro que vê da janela? Comenta 1 ou 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na janela, seu cão…",
+   "opcoes": [
+    "Late pra tudo",
+    "Só pra cachorro",
+    "Nem olha"
+   ],
+   "escolha": 0,
+   "resultado": "FISCAL DA JANELA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

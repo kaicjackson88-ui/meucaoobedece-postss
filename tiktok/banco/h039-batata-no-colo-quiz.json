@@ -1,0 +1,163 @@
+{
+ "id": "h039-batata-no-colo-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "menta",
+ "legenda": "A visita pegou o Batata no colo como um bebê… e ele chorou 🌭 Qual é o jeito certo?\n1 pelas axilas, 2 pela nuca, 3 uma mão no peito e outra apoiando o traseiro.\nComenta 1, 2 ou 3 antes de ver a resposta 👇 Se ele chorar sempre que é pego, vale conversar com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrosalsicha #dachshund #cuidadoscomcachorro #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A visita pegou o Batata no colo como um bebê. Qual é o jeito certo?",
+   "linhas": [
+    "PEGOU NO COLO",
+    "COMO UM BEBÊ",
+    "QUAL O JEITO CERTO?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 16:00",
+   "fala": "Domingo. A amiga da Sandra se encantou.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "acena"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Que salsichinha! Vem cá!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "16:01",
+   "fala": "Pelas axilas, corpo pendurado. O Batata chorou.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Cai cai!"
+    },
+    {
+     "quem": "bia",
+     "texto": "Ai! Machuquei?"
+    }
+   ],
+   "camera": {
+    "foco": "bia",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: pelas axilas. Dois: pela nuca. Três: uma mão no peito e outra apoiando o traseiro. Comenta 1, 2 ou 3 antes de ver a resposta.",
+   "topo": [
+    "1 PELAS AXILAS",
+    "2 PELA NUCA",
+    "3 PEITO E TRASEIRO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cães de corpo comprido, como o salsicha, precisam de apoio no corpo todo quando estão no colo.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CORPO COMPRIDO",
+    "apoio no corpo todo"
+   ],
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "A RESPOSTA",
+   "fala": "É a três. Corpo na horizontal, bem apoiado.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Peito e bumbum. Assim ele fica seguro."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 pelas axilas",
+    "2 pela nuca",
+    "3 peito e traseiro"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

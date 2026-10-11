@@ -1,0 +1,140 @@
+{
+ "id": "h042-lupi-tres-frases",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "menta",
+ "legenda": "3 frases que você fala pro seu cão e ele não entende 🗣️\n\"Não, não, não\", o nome só na bronca e cinco jeitos de dizer \"senta\". Quem percebeu foi a Nina, de 9 anos: com ela, uma palavra só, sempre igual.\nQual você mais fala? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#adestramentopositivo #educacaocanina #comandos #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três frases que você fala pro seu cão e ele não entende.",
+   "linhas": [
+    "3 FRASES",
+    "QUE VOCÊ FALA",
+    "E ELE NÃO ENTENDE"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "FRASE 1",
+   "fala": "Um: não, não, não, Lupi, não! Pra ele, vira só barulho.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "FRASE 2",
+   "fala": "Dois: o nome dele só na bronca. Lupi passou a significar problema.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "LUPI!",
+     "grito": true
+    },
+    {
+     "quem": "cao",
+     "texto": "…"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "FRASE 3",
+   "fala": "Três: senta, sentadinho, senta aí. Pra ele, são palavras diferentes.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Estudos mostram que o cão presta atenção na palavra e também no tom de voz.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "PALAVRA E TOM",
+    "ele ouve os dois"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "O CERTO",
+   "fala": "Quem percebeu foi a Nina, de nove anos. Com ela, uma palavra só, sempre igual. E o nome do Lupi, só pra coisa boa.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual você mais fala? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você mais fala…",
+   "opcoes": [
+    "1 não não não",
+    "2 nome na bronca",
+    "3 senta sentadinho"
+   ],
+   "escolha": 0,
+   "resultado": "QUAL É A SUA?",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

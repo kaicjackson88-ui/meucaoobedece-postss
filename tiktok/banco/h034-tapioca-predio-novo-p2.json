@@ -1,0 +1,191 @@
+{
+ "id": "h034-tapioca-predio-novo-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "PARTE 2: a síndica bateu na porta da Luana. E não era multa 📝\nA dona Glória já teve uma cachorra que latia pra porta. A ideia dela: barulho no corredor vira aviso de petisco, treinando um pouquinho todo dia.\nE o seu, late pra barulho de corredor? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #apartamento #cachorros #historiadecachorro",
+ "serie": "tapioca-predio-novo",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. A síndica bateu na porta da Tapioca. E não era multa.",
+   "linhas": [
+    "A SÍNDICA BATEU",
+    "NÃO ERA MULTA",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "08:01",
+   "fala": "A dona Glória tinha um bilhete na mão.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Eu tive uma cachorra igualzinha."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "08:05",
+   "fala": "No bilhete, um plano simples.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "parado"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "normal",
+     "pose": "bilhete",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Passo no corredor, petisco no chão. Antes do latido."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O barulho do corredor deixava de ser alarme e virava aviso de petisco.",
+   "topo": [
+    "O BARULHO DO CORREDOR"
+   ],
+   "de": "ALARME",
+   "para": "PETISCO",
+   "para_palavra": "petisco"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TODO DIA",
+   "fala": "Todo dia, um pouquinho: som de passos gravado, bem baixinho.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "DIAS DEPOIS · 22:10",
+   "fala": "Dias depois. Passos no corredor.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au?"
+    },
+    {
+     "quem": "ana",
+     "texto": "Só isso? Isso, Tapioca!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê · Moradores",
+   "membros": "42 participantes",
+   "quando": "23:00",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ué, o setecentos e dois trocou de cachorro?"
+    },
+    {
+     "quem": "sindica",
+     "texto": "Trocou não. Treinou."
+    }
+   ],
+   "nomes": {
+    "vizinho": "Seu Clóvis (701)",
+    "bia": "Kátia (803)",
+    "ana": "Luana (702)",
+    "sindica": "Síndica Glória"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, late pra barulho de corredor? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Barulho no corredor, seu cão…",
+   "opcoes": [
+    "Late pra tudo",
+    "Só pra campainha",
+    "Nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "PRÉDIO EM PAZ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

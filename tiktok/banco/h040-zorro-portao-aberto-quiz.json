@@ -1,0 +1,156 @@
+{
+ "id": "h040-zorro-portao-aberto-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "sol",
+ "legenda": "O portão ficou aberto e o Zorro disparou pra rua 🚪 O que você faria?\n1 correr atrás gritando, 2 ficar parado e bravo, 3 chamar animado e correr pro lado contrário.\nComenta 1, 2 ou 3 antes de ver a resposta 👇 E portão sempre fechado, né?\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#vemaqui #chamadocanino #cachorrofugiu #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Portão aberto. O Zorro disparou pra rua. O que você faria?",
+   "linhas": [
+    "PORTÃO ABERTO",
+    "ELE DISPAROU",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:30",
+   "fala": "O entregador saiu e o portão ficou aberto.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Zorro, não!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "18:31",
+   "fala": "O Vítor correu atrás. O Zorro correu mais.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: correr atrás gritando. Dois: ficar parado e bravo. Três: chamar animado e correr pro lado contrário. Comenta 1, 2 ou 3 antes de ver a resposta.",
+   "topo": [
+    "1 CORRER ATRÁS",
+    "2 FICAR BRAVO",
+    "3 CORRER PRO OUTRO LADO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Pra muitos cães, ser perseguido é a melhor brincadeira.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "PEGA-PEGA",
+    "correr atrás vira jogo"
+   ],
+   "icone": "bola"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "A RESPOSTA",
+   "fala": "É a três. Uma moça com a cachorra gritou: corre pro outro lado! E ele veio.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "parado"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "normal",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DESDE ENTÃO",
+   "fala": "Desde então, o Vítor treina o chamado em casa, todo dia, com festa.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 correr atrás",
+    "2 ficar bravo",
+    "3 correr pro outro lado"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

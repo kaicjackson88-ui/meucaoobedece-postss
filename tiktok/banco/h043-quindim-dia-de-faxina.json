@@ -1,0 +1,195 @@
+{
+ "id": "h043-quindim-dia-de-faxina",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "roer",
+ "estilo": "sol",
+ "legenda": "Mês passado, dia de faxina era guerra entre o Quindim e o rodo 🧹 Hoje, olha só.\nA dica foi da dona Cida: cachorro cheio de energia acha que rodo é brinquedo. Agora, antes da faxina, tem passeio de cheirada e brinquedo recheado.\nE o seu, briga com vassoura ou rodo? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorroagitado #enriquecimentoambiental #educacaocanina #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, dia de faxina era guerra entre o Quindim e o rodo.",
+   "linhas": [
+    "DIA DE FAXINA",
+    "QUINDIM CONTRA O RODO",
+    "ANTES E DEPOIS"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sofa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "MÊS PASSADO · 9H",
+   "fala": "Mês passado. Nove da manhã.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "GRRR!"
+    },
+    {
+     "quem": "sindica",
+     "texto": "Ele pegou o rodo de novo!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 9H20",
+   "fala": "Pano roubado. Balde virado.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 560,
+     "y": 1450,
+     "em": 0.2
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Foi a dona Cida que deu a dica: cachorro cheio de energia acha que rodo é brinquedo.",
+   "topo": [
+    "A DICA DA DONA CIDA"
+   ],
+   "de": "RODO",
+   "para": "BRINQUEDO",
+   "para_palavra": "brinquedo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "O TREINO",
+   "fala": "Agora, antes da faxina: passeio de cheirada na rua e brinquedo recheado no quarto.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 9H",
+   "fala": "Hoje. Nove da manhã.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "comemora"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 560,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Cadê o meu adversário?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 9H20",
+   "fala": "O Quindim dormindo, cansado de tanto farejar.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Murilo, agora até sobra tempo pro café."
+    }
+   ],
+   "camera": {
+    "foco": "sindica",
+    "z": 1.4,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, briga com vassoura ou rodo? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na faxina, seu cão…",
+   "opcoes": [
+    "Ataca o rodo",
+    "Rouba o pano",
+    "Nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "FISCAL DA FAXINA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

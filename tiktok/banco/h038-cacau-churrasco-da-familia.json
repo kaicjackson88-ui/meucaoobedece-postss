@@ -1,0 +1,164 @@
+{
+ "id": "h038-cacau-churrasco-da-familia",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "Churrasco da família. E a Cacau atacou a mesa do pão de alho 🍖\nQuem resolveu foi a prima veterinária, no grupo da família: osso cozido longe dela e um cantinho só dela, longe da churrasqueira.\nNo churrasco, o seu fica onde? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #churrasco #educacaocanina #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Churrasco da família. E a Cacau atacou a mesa do pão de alho.",
+   "linhas": [
+    "CHURRASCO",
+    "DA FAMÍLIA",
+    "E A CACAU NA MESA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Albuquerque",
+   "membros": "23 participantes",
+   "quando": "13:10",
+   "fala": "No grupo da família:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Alguém viu o pão de alho?"
+    },
+    {
+     "quem": "bia",
+     "texto": "A Cacau. De boca cheia."
+    }
+   ],
+   "nomes": {
+    "vizinho": "Tio Nonato",
+    "bia": "Gabi",
+    "carla": "Prima Joana (veterinária)",
+    "joao": "Rafael"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "13:20",
+   "fala": "O Rafael correu. Ela já tinha fugido com um osso.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Larga isso, Cacau!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Albuquerque",
+   "membros": "23 participantes",
+   "quando": "13:25",
+   "fala": "A prima veterinária:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Tira o osso cozido dela. E dá um lugar só dela, longe da churrasqueira."
+    }
+   ],
+   "nomes": {
+    "vizinho": "Tio Nonato",
+    "bia": "Gabi",
+    "carla": "Prima Joana (veterinária)",
+    "joao": "Rafael"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Osso cozido fica quebradiço e pode soltar lascas.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "OSSO COZIDO",
+    "pode lascar"
+   ],
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "OUTRO DOMINGO",
+   "fala": "Domingo seguinte: cercadinho na sombra e brinquedo recheado.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Albuquerque",
+   "membros": "23 participantes",
+   "quando": "14:00",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "A Cacau tá de folga hoje?"
+    },
+    {
+     "quem": "bia",
+     "texto": "Tá ocupada com o brinquedo dela."
+    }
+   ],
+   "nomes": {
+    "vizinho": "Tio Nonato",
+    "bia": "Gabi",
+    "carla": "Prima Joana (veterinária)",
+    "joao": "Rafael"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "No churrasco, o seu fica onde? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No churrasco, seu cão fica…",
+   "opcoes": [
+    "Embaixo da grelha",
+    "Pedindo na mesa",
+    "No cantinho dele"
+   ],
+   "escolha": 0,
+   "resultado": "FISCAL DO CHURRASCO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
