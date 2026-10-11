@@ -1,1 +1,62 @@
-{}
+{
+ "tema": {
+  "latido": -0.027,
+  "obediencia": -0.028,
+  "fogos": 0.004,
+  "pulo": 0.007,
+  "xixi": 0.029
+ },
+ "curiosidade": {
+  "sim": 0.01,
+  "nao": -0.028
+ },
+ "chat": {
+  "sim": 0.004,
+  "nao": -0.008
+ },
+ "tamanho": {
+  "longa": -0.009,
+  "media": 0.004
+ },
+ "hashtag": {
+  "#latidoexcessivo": -0.017,
+  "#historiadecachorro": 0.0,
+  "#cachorros": -0.017,
+  "#cachorrolatindo": -0.027,
+  "#homeoffice": -0.017,
+  "#adestramentodecaes": -0.017,
+  "#esperar": -0.028,
+  "#diadascriancas": -0.028,
+  "#cachorrocomendo": -0.028,
+  "#adestramentointeligente": -0.028,
+  "#ansiedadenacomida": -0.028,
+  "#fogosnao": 0.004,
+  "#reveillon": 0.004,
+  "#cachorroemedo": 0.004,
+  "#cachorroansioso": 0.004,
+  "#adestramentocomportamental": 0.004,
+  "#adestramento": 0.019,
+  "#cachorropulando": 0.007,
+  "#sogra": 0.007,
+  "#cachorro": 0.019,
+  "#apartamento": 0.029,
+  "#xixinolugarcerto": 0.029,
+  "#maedeprimeiraviagem": -0.017
+ },
+ "cenarios": {
+  "noite": -0.013,
+  "sala": 0.0,
+  "quarto": -0.02,
+  "cozinha": 0.012,
+  "corredor": 0.029
+ },
+ "elenco": {
+  "joao": 0.01,
+  "bia": -0.011,
+  "ana": -0.036,
+  "carla": -0.017,
+  "pedro": 0.004,
+  "sindica": 0.007,
+  "vizinho": 0.029
+ }
+}

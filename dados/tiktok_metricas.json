@@ -1,16 +1,100 @@
 {
  "perfil": {
-  "video_count": 11,
   "display_name": "Meucaobedece",
   "follower_count": 1,
-  "likes_count": 48
+  "likes_count": 54,
+  "video_count": 18
  },
- "atualizado": "2026-10-10T05:56:28.827448-03:00",
+ "atualizado": "2026-10-10T23:40:48.147730-03:00",
  "videos": [
+  {
+   "video": "7695157914356452614",
+   "roteiro": "h026-bento-entende-errado",
+   "views": 72,
+   "curtidas": 1,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0139,
+   "duracao": 48,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7695157914356452614?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-10T21:43:47+00:00"
+  },
+  {
+   "video": "7695133786509511937",
+   "roteiro": "h025-amora-pula-na-visita",
+   "views": 94,
+   "curtidas": 1,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0106,
+   "duracao": 49,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7695133786509511937?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-10T20:09:55+00:00"
+  },
+  {
+   "video": "7695110002331192577",
+   "roteiro": "h024-kiko-e-o-entregador",
+   "views": 88,
+   "curtidas": 2,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0227,
+   "duracao": 51,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7695110002331192577?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-10T18:37:30+00:00"
+  },
+  {
+   "video": "7695089673311423750",
+   "roteiro": "h023-farofa-ve-a-guia",
+   "views": 83,
+   "curtidas": 1,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.012,
+   "duracao": 46,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7695089673311423750?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-10T17:18:32+00:00"
+  },
+  {
+   "video": "7695038449627286785",
+   "roteiro": "h022-primeira-noite-p2",
+   "views": 83,
+   "curtidas": 0,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0,
+   "duracao": 49,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7695038449627286785?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-10T13:59:49+00:00"
+  },
+  {
+   "video": "7695017629429419270",
+   "roteiro": "h021-primeira-noite-p1",
+   "views": 80,
+   "curtidas": 0,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0,
+   "duracao": 44,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7695017629429419270?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-10T12:39:01+00:00"
+  },
+  {
+   "video": "7694974119573474612",
+   "roteiro": "h020-ia-hidratacao",
+   "views": 83,
+   "curtidas": 0,
+   "comentarios": 0,
+   "compart": 0,
+   "engaj": 0.0,
+   "duracao": 37,
+   "link": "https://www.tiktok.com/@meucaobedece/video/7694974119573474612?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
+   "criado": "2026-10-10T09:50:04+00:00"
+  },
   {
    "video": "7694781081647713588",
    "roteiro": "h009-home-office",
-   "views": 84,
+   "views": 94,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -22,11 +106,11 @@
   {
    "video": "7694780337368386868",
    "roteiro": "h008-dia-das-criancas",
-   "views": 37,
-   "curtidas": 0,
+   "views": 73,
+   "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0,
+   "engaj": 0.0137,
    "duracao": 79,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694780337368386868?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T21:18:15+00:00"
@@ -34,11 +118,11 @@
   {
    "video": "7694732218106776838",
    "roteiro": "h007-fogos-12-semanas",
-   "views": 98,
+   "views": 106,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0102,
+   "engaj": 0.0094,
    "duracao": 90,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694732218106776838?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T18:11:08+00:00"
@@ -46,7 +130,7 @@
   {
    "video": "7694688405896121606",
    "roteiro": "h002-sogra-visita",
-   "views": 114,
+   "views": 120,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -58,7 +142,7 @@
   {
    "video": "7694678450388487430",
    "roteiro": "h005-vistoria-apartamento",
-   "views": 128,
+   "views": 135,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -70,11 +154,11 @@
   {
    "video": "7694677000820231476",
    "roteiro": "h005-vistoria-apartamento",
-   "views": 122,
+   "views": 130,
    "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0164,
+   "engaj": 0.0154,
    "duracao": 74,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694677000820231476?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T14:37:07+00:00"
@@ -94,11 +178,11 @@
   {
    "video": "7694645811409325313",
    "roteiro": "h006-bebe-campainha",
-   "views": 83,
+   "views": 84,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.012,
+   "engaj": 0.0119,
    "duracao": 72,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694645811409325313?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T12:36:33+00:00"
