@@ -1617,3 +1617,10 @@ voz pt-BR-AntonioNeural falhou (narrador): 403, message='Invalid response status
   falhou: Não consegui gerar a narração.
 Produzindo h047-churros-dono-da-cama
 Narração...
+voz pt-BR-AntonioNeural falhou (narrador): 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=38634a9b79b6433e9fbdb3513b33f096&Sec-MS-GEC=558259C3BE2277D2A7D25EC9C3411408933FFC3C14610478374178F724166276&Sec-MS-GEC-Version=1-143.0.3650.75'
+voz pt-BR-AntonioNeural falhou (narrador): 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=7f2f59a3005e4d7fa21faf31a4f9cea7&Sec-MS-GEC=558259C3BE2277D2A7D25EC9C3411408933FFC3C14610478374178F724166276&Sec-MS-GEC-Version=1-143.0.3650.75'
+voz pt-BR-AntonioNeural falhou (narrador): 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=56ac5ba7c3ff4d069804e289a67062b6&Sec-MS-GEC=558259C3BE2277D2A7D25EC9C3411408933FFC3C14610478374178F724166276&Sec-MS-GEC-Version=1-143.0.3650.75'
+voz pt-BR-AntonioNeural falhou (narrador): 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=98d5b85d694245d7bdf16c80f5c1a50e&Sec-MS-GEC=558259C3BE2277D2A7D25EC9C3411408933FFC3C14610478374178F724166276&Sec-MS-GEC-Version=1-143.0.3650.75'
+  falhou: Não consegui gerar a narração.
+Nenhum lote vencido agora.
+Plantão dos vídeos encerrado; o workflow vai religar.
