@@ -1,0 +1,62 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'FR';font-weight:700;src:url('../../motor/fontes/fredoka-latin-700-normal.woff2')}
+@font-face{font-family:'NU';font-weight:900;src:url('../../motor/fontes/nunito-latin-900-normal.woff2')}
+@font-face{font-family:'NU';font-weight:800;src:url('../../motor/fontes/nunito-latin-800-normal.woff2')}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#ddd;display:flex;flex-direction:column;gap:40px;padding:40px;font-family:NU;color:#2A2622}
+.c{position:relative;overflow:hidden;flex:none;background:radial-gradient(900px 700px at 50% 35%,#FFFDF8 0%,#FDF3E4 55%,#F5DDBE 100%)}
+.c.teal{background:radial-gradient(900px 700px at 50% 30%,#3DB3A0,#2F9C8A 50%,#1F6E61);color:#FDF7EE}
+.c:before{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(232,145,60,.16) 3px,transparent 3.5px);background-size:56px 56px}
+.c.teal:before{background-image:radial-gradient(rgba(253,247,238,.12) 3px,transparent 3.5px)}
+.q{width:1080px;height:1080px}.b{width:1280px;height:400px}
+.abs{position:absolute}.t{font-family:FR;font-weight:700;line-height:1;letter-spacing:-1px}
+.tag{display:inline-block;padding:14px 30px;border-radius:999px;font:900 34px NU;letter-spacing:2px}
+.chip{position:absolute;padding:16px 26px;border-radius:24px;background:#fff;font:900 30px NU;box-shadow:0 20px 40px rgba(42,38,34,.18);white-space:nowrap}
+.sh{filter:drop-shadow(0 30px 40px rgba(42,38,34,.25))}
+</style></head><body>
+<script src="mascote.js"></script>
+<script>
+const M=(op)=>mascote(Object.assign({itens:[],vivo:false},op));
+const THOR={pelo:0,orelha:0,coleira:1};
+const add=h=>document.body.insertAdjacentHTML('beforeend',h);
+// 1 PRODUTO PRINCIPAL
+add(`<div class="c q" id="capa-principal">
+ <div class="abs" style="left:0;right:0;top:70px;text-align:center"><span class="tag" style="background:#2F9C8A;color:#fff">PROTOCOLO DE 21 DIAS</span></div>
+ <div class="abs t" style="left:0;right:0;top:170px;text-align:center;font-size:132px">Meu Cão<br><span style="color:#E8913C">Obedece</span></div>
+ <div class="abs sh" style="left:330px;top:460px;width:420px;height:480px">${M(Object.assign({},THOR,{olhar:3,itens:itensSkin(3)}))}</div>
+ <div class="abs sh" style="left:60px;top:560px;width:230px;height:265px">${M({pelo:6,corpo:3,orelha:2,itens:itensSkin(1)})}</div>
+ <div class="abs sh" style="left:790px;top:560px;width:230px;height:265px">${M({pelo:2,corpo:2,itens:itensSkin(2)})}</div>
+ <div class="abs" style="left:0;right:0;top:965px;text-align:center;font:900 40px NU">15 min por dia · direto no celular</div>
+</div>`);
+// 2 BUMP RECEITAS
+const tigela=`<svg viewBox="0 0 300 170" width="420"><ellipse cx="150" cy="150" rx="140" ry="16" fill="#2A2622" opacity=".1"/><path d="M20 70 H280 C272 130 230 160 150 160 C70 160 28 130 20 70 Z" fill="#D9503A" stroke="#2A2622" stroke-width="7" stroke-linejoin="round"/><ellipse cx="150" cy="70" rx="130" ry="26" fill="#F5C98A" stroke="#2A2622" stroke-width="7"/><circle cx="105" cy="62" r="16" fill="#C08850" stroke="#2A2622" stroke-width="5"/><circle cx="150" cy="56" r="18" fill="#E8913C" stroke="#2A2622" stroke-width="5"/><circle cx="195" cy="64" r="15" fill="#7BB661" stroke="#2A2622" stroke-width="5"/><text x="150" y="128" text-anchor="middle" font-family="FR" font-weight="700" font-size="34" fill="#FDF7EE">THOR</text></svg>`;
+add(`<div class="c q" id="capa-receitas">
+ <div class="abs" style="left:0;right:0;top:70px;text-align:center"><span class="tag" style="background:#E8913C;color:#fff">BÔNUS · CARDÁPIO NATURAL</span></div>
+ <div class="abs t" style="left:40px;right:40px;top:170px;text-align:center;font-size:118px">10 Receitas<br><span style="color:#2F9C8A">Caseiras</span></div>
+ <div class="abs" style="left:40px;right:40px;top:425px;text-align:center;font:900 44px NU;color:#6E655C">o que ele pode comer e como preparar</div>
+ <div class="abs sh" style="left:150px;top:520px;width:360px;height:410px">${M(Object.assign({},THOR,{olhar:3,itens:['bandana']}))}</div>
+ <div class="abs sh" style="left:520px;top:720px">${tigela}</div>
+ <div class="chip" style="left:600px;top:580px;color:#2F9C8A">✓ Ingredientes seguros</div>
+ <div class="chip" style="left:60px;top:950px;color:#C9741F">✓ Passo a passo simples</div>
+</div>`);
+// 3 BUMP XIXI
+const tapete=`<svg viewBox="0 0 340 200" width="440"><ellipse cx="170" cy="188" rx="150" ry="12" fill="#2A2622" opacity=".12"/><rect x="40" y="40" width="270" height="140" rx="22" fill="#E9F5F2" stroke="#2A2622" stroke-width="7" transform="skewX(-10) translate(25 0)"/><g transform="translate(175 110)"><circle r="46" fill="#2F9C8A" stroke="#2A2622" stroke-width="6"/><path d="M-20 0 L-5 16 L22 -16" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></g></svg>`;
+add(`<div class="c q teal" id="capa-xixi">
+ <div class="abs" style="left:0;right:0;top:70px;text-align:center"><span class="tag" style="background:#FDF7EE;color:#1F6E61">GUIA DE 7 DIAS</span></div>
+ <div class="abs t" style="left:40px;right:40px;top:170px;text-align:center;font-size:118px">Xixi e cocô<br><span style="color:#F5C451">no lugar certo</span></div>
+ <div class="abs" style="left:40px;right:40px;top:425px;text-align:center;font:900 44px NU;color:#DDF1EC">casa limpa, sem cheiro e sem bronca</div>
+ <div class="abs sh" style="left:120px;top:520px;width:360px;height:410px">${M(Object.assign({},THOR,{olhar:3,itens:['peitoral','plaquinha']}))}</div>
+ <div class="abs sh" style="left:500px;top:700px">${tapete}</div>
+</div>`);
+// 4 BANNER DO CHECKOUT
+add(`<div class="c b" id="banner-checkout">
+ <div class="abs sh" style="left:50px;top:28px;width:300px;height:345px">${M(Object.assign({},THOR,{olhar:3,itens:itensSkin(3)}))}</div>
+ <div class="abs t" style="left:380px;top:70px;font-size:84px">Meu Cão <span style="color:#E8913C">Obedece</span></div>
+ <div class="abs" style="left:384px;top:172px;font:900 34px NU;color:#6E655C">Protocolo de 21 dias · 15 min por dia</div>
+ <div class="abs" style="left:380px;top:250px;display:flex;gap:14px">
+  <span class="tag" style="background:#2F9C8A;color:#fff;font-size:24px;padding:12px 22px">ACESSO IMEDIATO</span>
+  <span class="tag" style="background:#E8913C;color:#fff;font-size:24px;padding:12px 22px">GARANTIA DE 7 DIAS</span>
+ </div>
+</div>`);
+</script></body></html>
