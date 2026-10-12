@@ -34,13 +34,24 @@ FPS = 30
 
 
 async def tts(texto, saida):
+    """Voz da Microsoft; se ela recusar, Kokoro (neural offline); por último Piper."""
     import edge_tts
-    for i in range(6):  # o serviço de voz às vezes recusa (403) por alguns instantes
-        try:
-            await edge_tts.Communicate(texto, VOZ['voz'], rate=VOZ['rate'], pitch=VOZ['pitch']).save(str(saida)); return
-        except Exception as e:  # noqa: BLE001
-            print('  voz falhou, tentando de novo:', str(e)[:80], flush=True); await asyncio.sleep(15 * (i + 1))
-    raise RuntimeError('serviço de voz indisponível')
+    if not MOTOR.get('fora'):
+        for i in range(2):
+            try:
+                await edge_tts.Communicate(texto, VOZ['voz'], rate=VOZ['rate'], pitch=VOZ['pitch']).save(str(saida)); MOTOR['usado'] = 'edge'; return
+            except Exception as e:  # noqa: BLE001
+                print('  voz Microsoft falhou:', str(e)[:60], flush=True); await asyncio.sleep(5)
+        MOTOR['fora'] = True
+    import voz_offline
+    try:
+        voz_offline.falar_kokoro(texto, saida, 'pf_dora', 1.08); MOTOR['usado'] = 'kokoro'; return
+    except Exception as e:  # noqa: BLE001
+        print('  Kokoro falhou:', str(e)[:200], flush=True)
+    voz_offline.falar(texto, saida, velocidade=1.05); MOTOR['usado'] = 'piper'
+
+
+MOTOR = {}
 
 
 def wav(mp3, w):
@@ -104,7 +115,7 @@ def main():
     voz = np.concatenate(partes); wavfile.write(pasta / 'voz.wav', SR, (voz * 32767).astype(np.int16))
     pal = palavras_whisper(voz, seg)
     dur = round(seg[-1]['fim'] + 2.2, 2)
-    print('Duração:', dur, 's', flush=True)
+    print('Duração:', dur, 's — voz:', MOTOR.get('usado'), flush=True)
     work = pasta / 'pg'; work.mkdir()
     shutil.copytree(RAIZ / 'motor' / 'fontes', work / 'fontes'); shutil.copytree(AQUI / 'deps', work / 'deps')
     shutil.copy(RAIZ / 'node_modules' / 'gsap' / 'dist' / 'gsap.min.js', work)

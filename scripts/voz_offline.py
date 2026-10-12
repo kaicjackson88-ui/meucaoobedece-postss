@@ -35,3 +35,18 @@ def falar(texto, saida, voz='narrador', velocidade=1.0):
         else:
             v.synthesize(texto, w, length_scale=1 / velocidade)
     return saida
+
+
+_kok = {}
+
+
+def falar_kokoro(texto, saida, voz='pf_dora', velocidade=1.0):
+    """Voz neural grátis e offline (Kokoro-82M, pt-BR: pf_dora feminina, pm_alex masculina). Mais natural que o Piper."""
+    import numpy as np
+    from scipy.io import wavfile
+    from kokoro import KPipeline
+    if 'p' not in _kok: _kok['p'] = KPipeline(lang_code='p')
+    partes = [np.asarray(a, dtype=np.float32) for _, _, a in _kok['p'](texto, voice=voz, speed=velocidade)]
+    x = np.concatenate(partes) if partes else np.zeros(2400, np.float32)
+    wavfile.write(str(saida), 24000, (np.clip(x, -1, 1) * 32767).astype(np.int16))
+    return saida

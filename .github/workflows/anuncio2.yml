@@ -21,6 +21,8 @@ jobs:
           pip install -q edge-tts==7.2.8 piper-tts playwright==1.55.0 numpy scipy faster-whisper
           timeout 300 python -m playwright install --with-deps chromium || python -m playwright install chromium
           npm i --no-save gsap
+          sudo apt-get install -y -qq espeak-ng >/dev/null || true
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q 'kokoro>=0.9' soundfile || echo 'kokoro não instalou'
       - name: Gerar anúncio
         run: set -o pipefail; python criativos/anuncio2/render.py 2>&1 | tee criativos/anuncio2/log.txt
       - name: Subir os vídeos
