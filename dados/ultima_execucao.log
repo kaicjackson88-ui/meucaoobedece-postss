@@ -1,8 +1,40 @@
-Aguardando o horário 07:00 (319 min)...
-Preparing worktree (detached HEAD 8e15ab6)
-HEAD is now at 8e15ab6 Vídeos: plantão
-Switched to a new branch 'tmp-midia-20261012-0700-c-roer'
+Aguardando o horário 09:00 (118 min)...
+Roteiro: r037-erro-sair-escondido (erro, estilo sol) — horário 2026-10-12 09:00
+Narração...
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=9f6c8d1f03d843c48cdb9774145df1f6&Sec-MS-GEC=B5A60B9EB28CEB9BEC03EA2A2D9A3F26562E16C69FD9436717DB0F05DE4FA88A&Sec-MS-GEC-Version=1-143.0.3650.75'
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=19ebcbedb0534260a1c1b403a83bfeb2&Sec-MS-GEC=B5A60B9EB28CEB9BEC03EA2A2D9A3F26562E16C69FD9436717DB0F05DE4FA88A&Sec-MS-GEC-Version=1-143.0.3650.75'
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=bee000ed3d1a4731b5c6f9451097ef90&Sec-MS-GEC=B5A60B9EB28CEB9BEC03EA2A2D9A3F26562E16C69FD9436717DB0F05DE4FA88A&Sec-MS-GEC-Version=1-143.0.3650.75'
+⚠️ Falhou este horário: Não consegui gerar a narração.
+Roteiro: r031-lista-fogos-antes (lista, estilo sol) — horário 2026-10-12 09:00
+Narração...
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=2bcd190c484e49d180904a24d38d298b&Sec-MS-GEC=5DA40E9A114336B6B3C77DD8A467E20970F0C0746E78A32EB6FF1F1B8459135F&Sec-MS-GEC-Version=1-143.0.3650.75'
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=3aaec9af884445e58fddf527791a090d&Sec-MS-GEC=5DA40E9A114336B6B3C77DD8A467E20970F0C0746E78A32EB6FF1F1B8459135F&Sec-MS-GEC-Version=1-143.0.3650.75'
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=f58eb0003204438792812db75660d68f&Sec-MS-GEC=5DA40E9A114336B6B3C77DD8A467E20970F0C0746E78A32EB6FF1F1B8459135F&Sec-MS-GEC-Version=1-143.0.3650.75'
+⚠️ Falhou este horário: Não consegui gerar a narração.
+Roteiro: r023-obj-caro (objecao, estilo sol) — horário 2026-10-12 09:00
+Narração...
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=3cebf1cc24074bd486472eb1737110ce&Sec-MS-GEC=8D7492704C08C0B95BB478B18622B5266EBF2AB9AAA0C927DBAFA62E6FCE623B&Sec-MS-GEC-Version=1-143.0.3650.75'
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=c10c5b6b07804e95a6846bd944161c53&Sec-MS-GEC=8D7492704C08C0B95BB478B18622B5266EBF2AB9AAA0C927DBAFA62E6FCE623B&Sec-MS-GEC-Version=1-143.0.3650.75'
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=eb6e2ae12c994e88bab4599f09f1fad9&Sec-MS-GEC=8D7492704C08C0B95BB478B18622B5266EBF2AB9AAA0C927DBAFA62E6FCE623B&Sec-MS-GEC-Version=1-143.0.3650.75'
+⚠️ Falhou este horário: Não consegui gerar a narração.
+Roteiro: r033-lista-espera-comida (lista, estilo sol) — horário 2026-10-12 09:00
+Narração...
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=a191a6c7074846f58f41d509fd29961b&Sec-MS-GEC=FBFFCBF948FFA890C523F8DD81E20C5B9678BD9775CF0F839539BB35C68DEE0D&Sec-MS-GEC-Version=1-143.0.3650.75'
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=1b4a692396084bbf92a6ce5f249be44a&Sec-MS-GEC=FBFFCBF948FFA890C523F8DD81E20C5B9678BD9775CF0F839539BB35C68DEE0D&Sec-MS-GEC-Version=1-143.0.3650.75'
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=0745ce4bca0d4640856c78262de164f7&Sec-MS-GEC=FBFFCBF948FFA890C523F8DD81E20C5B9678BD9775CF0F839539BB35C68DEE0D&Sec-MS-GEC-Version=1-143.0.3650.75'
+⚠️ Falhou este horário: Não consegui gerar a narração.
+Roteiro: r031-lista-fogos-antes (lista, estilo sol) — horário 2026-10-12 09:00
+Narração...
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=0c7aff17c3014ea0a7843d4a1cf184f1&Sec-MS-GEC=94C87CEF80D54D358D4A874338B291D77A65224296384528EBC76EF9528D4B1F&Sec-MS-GEC-Version=1-143.0.3650.75'
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=079b91d53d584510bf1111fb7fc7b85e&Sec-MS-GEC=94C87CEF80D54D358D4A874338B291D77A65224296384528EBC76EF9528D4B1F&Sec-MS-GEC-Version=1-143.0.3650.75'
+narração falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=06ef35cacf5343f4b9e04d30b590d080&Sec-MS-GEC=94C87CEF80D54D358D4A874338B291D77A65224296384528EBC76EF9528D4B1F&Sec-MS-GEC-Version=1-143.0.3650.75'
+⚠️ Falhou este horário: Não consegui gerar a narração.
+Roteiro: r006-lista-pulo (lista, estilo sol) — horário 2026-10-12 09:00
+Narração...
+Preparing worktree (detached HEAD 8e0e320)
+HEAD is now at 8e0e320 Carrossel: erro registrado
+Switched to a new branch 'tmp-midia-20261012-0930-c-mordida'
 remote: 
-remote: Create a pull request for 'midia-20261012-0700-c-roer' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261012-0700-c-roer        
+remote: Create a pull request for 'midia-20261012-0930-c-mordida' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261012-0930-c-mordida        
 remote: 
