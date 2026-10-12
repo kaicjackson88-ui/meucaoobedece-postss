@@ -1,24 +1,21 @@
-  voz falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-  voz falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-  voz falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-  voz falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-  voz falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-  voz falhou, tentando de novo: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-Traceback (most recent call last):
-  File "/home/runner/work/meucaoobedece-postss/meucaoobedece-postss/criativos/anuncio2/render.py", line 132, in <module>
-    main()
-  File "/home/runner/work/meucaoobedece-postss/meucaoobedece-postss/criativos/anuncio2/render.py", line 99, in main
-    mp3 = pasta / f'f{i}.mp3'; asyncio.run(tts(texto, mp3)); x = wav(mp3, pasta / f'f{i}.wav')
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 195, in run
-    return runner.run(main)
-           ^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
-    return future.result()
-           ^^^^^^^^^^^^^^^
-  File "/home/runner/work/meucaoobedece-postss/meucaoobedece-postss/criativos/anuncio2/render.py", line 43, in tts
-    raise RuntimeError('serviço de voz indisponível')
-RuntimeError: serviço de voz indisponível
+  voz Microsoft falhou: 403, message='Invalid response status', url='wss://speech.pl
+  voz Microsoft falhou: 403, message='Invalid response status', url='wss://speech.pl
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+Duração: 51.09 s — voz: kokoro
+  quadro 0/1532
+  quadro 150/1532
+  quadro 300/1532
+  quadro 450/1532
+  quadro 600/1532
+  quadro 750/1532
+  quadro 900/1532
+  quadro 1050/1532
+  quadro 1200/1532
+  quadro 1350/1532
+  quadro 1500/1532
+Pronto: /home/runner/work/meucaoobedece-postss/meucaoobedece-postss/criativos/anuncio2/videos/anuncio-completo.mp4 51.09 s
