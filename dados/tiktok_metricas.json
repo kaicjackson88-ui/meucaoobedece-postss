@@ -1,20 +1,20 @@
 {
  "perfil": {
-  "follower_count": 4,
-  "likes_count": 89,
   "video_count": 27,
-  "display_name": "Meucaobedece"
+  "display_name": "Meucaobedece",
+  "follower_count": 4,
+  "likes_count": 89
  },
- "atualizado": "2026-10-11T23:40:29.642446-03:00",
+ "atualizado": "2026-10-12T06:42:56.182456-03:00",
  "videos": [
   {
    "video": "7695549701541645574",
    "roteiro": "h030-juca-meia-do-vo",
-   "views": 39,
+   "views": 78,
    "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0513,
+   "engaj": 0.0256,
    "duracao": 46,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695549701541645574?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-11T23:04:02+00:00"
@@ -22,11 +22,11 @@
   {
    "video": "7695549457051553030",
    "roteiro": "h039-batata-no-colo-quiz",
-   "views": 56,
+   "views": 92,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0179,
+   "engaj": 0.0109,
    "duracao": 51,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695549457051553030?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-11T23:02:53+00:00"
@@ -34,11 +34,11 @@
   {
    "video": "7695549203442830598",
    "roteiro": "h032-bisteca-outro-cachorro",
-   "views": 49,
+   "views": 85,
    "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0408,
+   "engaj": 0.0235,
    "duracao": 50,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695549203442830598?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-11T23:02:07+00:00"
@@ -58,11 +58,11 @@
   {
    "video": "7695443866828279092",
    "roteiro": "h040-zorro-portao-aberto-quiz",
-   "views": 93,
+   "views": 95,
    "curtidas": 3,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0323,
+   "engaj": 0.0316,
    "duracao": 52,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695443866828279092?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-11T16:12:57+00:00"
