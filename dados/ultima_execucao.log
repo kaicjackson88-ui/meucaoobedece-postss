@@ -1,42 +1,21 @@
-Roteiro: r034-mito-4 (mito, estilo sol) — horário 2026-10-12 09:00
+Roteiro: h001-quase-devolveu (tiktok-historia, estilo sol) — horário 2026-10-12 14:00
 Narração...
 voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-[0;93m2026-10-12 15:27:22.673841996 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Render...
-  frame 0/730
-  frame 300/730
-  frame 600/730
-Áudio...
-Preparing worktree (detached HEAD 0d0bc99)
-HEAD is now at 0d0bc99 TikTok: história pronta
-Switched to a new branch 'tmp-20261012-1229-r034-mito-4'
-remote: 
-remote: Create a pull request for 'midia-20261012-1229-r034-mito-4' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261012-1229-r034-mito-4        
-remote: 
-Pronto: /tmp/reel-mxylp9wc/reel.mp4 (24.4s)
-Vídeo público: https://raw.githubusercontent.com/kaicjackson88-ui/meucaoobedece-postss/midia-20261012-1229-r034-mito-4/20261012-1229-r034-mito-4.mp4
-⚠️ Falhou este horário: Erro da Meta em me/accounts: API access blocked. (código 200)
-⏸️ Meta bloqueou/limitou o acesso — pausando 2h pra não piorar
-Roteiro: r024-mito-1 (mito, estilo sol) — horário 2026-10-12 09:00
-Narração...
+[0;93m2026-10-12 21:18:46.199566382 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
 Render...
-  frame 0/635
-  frame 300/635
-  frame 600/635
+  frame 0/2059
+  frame 300/2059
+  frame 600/2059
+  frame 900/2059
+  frame 1200/2059
+  frame 1500/2059
+  frame 1800/2059
 Áudio...
-Preparing worktree (detached HEAD 0d0bc99)
-HEAD is now at 0d0bc99 TikTok: história pronta
-Switched to a new branch 'tmp-20261012-1431-r024-mito-1'
+Preparing worktree (detached HEAD 83f3fa9)
+HEAD is now at 83f3fa9 Reels: registros atualizados
+Switched to a new branch 'tmp-20261012-1824-h001-quase-devolveu'
 remote: 
-remote: Create a pull request for 'midia-20261012-1431-r024-mito-1' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261012-1431-r024-mito-1        
-remote: 
-Preparing worktree (detached HEAD 0d0bc99)
-HEAD is now at 0d0bc99 TikTok: história pronta
-Switched to a new branch 'tmp-midia-20261012-1500-c-latido'
-remote: 
-remote: Create a pull request for 'midia-20261012-1500-c-latido' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261012-1500-c-latido        
+remote: Create a pull request for 'midia-20261012-1824-h001-quase-devolveu' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261012-1824-h001-quase-devolveu        
 remote: 
