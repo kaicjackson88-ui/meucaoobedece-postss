@@ -35,7 +35,12 @@ FPS = 30
 
 async def tts(texto, saida):
     import edge_tts
-    await edge_tts.Communicate(texto, VOZ['voz'], rate=VOZ['rate'], pitch=VOZ['pitch']).save(str(saida))
+    for i in range(6):  # o serviço de voz às vezes recusa (403) por alguns instantes
+        try:
+            await edge_tts.Communicate(texto, VOZ['voz'], rate=VOZ['rate'], pitch=VOZ['pitch']).save(str(saida)); return
+        except Exception as e:  # noqa: BLE001
+            print('  voz falhou, tentando de novo:', str(e)[:80], flush=True); await asyncio.sleep(15 * (i + 1))
+    raise RuntimeError('serviço de voz indisponível')
 
 
 def wav(mp3, w):
