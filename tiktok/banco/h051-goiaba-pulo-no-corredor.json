@@ -1,0 +1,203 @@
+{
+ "id": "h051-goiaba-pulo-no-corredor",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "Mês passado, a Goiaba pulava em todo vizinho no corredor 🏢 Hoje, olha só.\nA dica foi do Seu Raimundo, o porteiro: ela pulava porque o pulo ganhava atenção. Agora, carinho só com as patas no chão, treinando um pouquinho todo dia.\nE o seu, pula nas pessoas? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #apartamento #adestramento #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, a Goiaba pulava em todo vizinho no corredor. Hoje, olha só.",
+   "linhas": [
+    "MÊS PASSADO: PULO",
+    "HOJE: OLHA SÓ",
+    "ANTES E DEPOIS"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 08:00",
+   "fala": "Mês passado. Oito da manhã, sexto andar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_cabeca",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Minha camisa do trabalho!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 08:05",
+   "fala": "Na portaria, o mesmo show.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Segura que lá vem ela!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O porteiro, Seu Raimundo, reparou: o pulo ganhava atenção. Carinho, só com patas no chão.",
+   "topo": [
+    "O PORTEIRO REPAROU"
+   ],
+   "de": "PULO = ATENÇÃO",
+   "para": "PATAS NO CHÃO",
+   "para_palavra": "chão"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "O TREINO",
+   "fala": "Um pouquinho todo dia: patas no chão, carinho e petisco. Pulou? Vira de costas.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 08:00",
+   "fala": "Hoje. Oito da manhã, sexto andar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ué, cadê o pulo?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 08:05",
+   "fala": "Na portaria, rabo abanando e as quatro patas no chão.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "comemora"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Essa é a Goiaba mesmo?"
+    }
+   ],
+   "camera": {
+    "foco": "joao",
+    "z": 1.4,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, pula nas pessoas? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando chega alguém, seu cão…",
+   "opcoes": [
+    "Pula em todo mundo",
+    "Só em quem conhece",
+    "Fica no chão"
+   ],
+   "escolha": 0,
+   "resultado": "RECEPÇÃO SEM PULO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

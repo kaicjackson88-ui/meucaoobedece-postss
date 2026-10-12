@@ -1,0 +1,176 @@
+{
+ "id": "h055-sushi-reveillon-da-familia",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "O grupo da família decidiu o Réveillon na praia. E alguém lembrou do Sushi 🎆\nQuem trouxe o plano foi a prima Yasmin: começar agora, com som de fogos baixinho, petisco e um cantinho seguro. E, se o medo for muito forte, conversar com o veterinário antes.\nE o seu, tem medo de fogos? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Réveillon na praia, decidido no grupo. E o Sushi?",
+   "linhas": [
+    "RÉVEILLON NA PRAIA",
+    "E O SUSHI?",
+    "GRUPO DA FAMÍLIA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Antunes",
+   "membros": "14 participantes",
+   "quando": "21:10",
+   "fala": "No grupo da família:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Réveillon na praia! Todos confirmados?"
+    },
+    {
+     "quem": "joao",
+     "texto": "Leva o Sushi, ele adora festa!"
+    }
+   ],
+   "nomes": {
+    "sindica": "Vó Lurdes",
+    "joao": "Tio Beto",
+    "carla": "Camila",
+    "bia": "Yasmin (prima)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Antunes",
+   "membros": "14 participantes",
+   "quando": "21:12",
+   "fala": "A Camila, dona dele:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Ano passado ele passou a virada atrás da máquina de lavar."
+    }
+   ],
+   "nomes": {
+    "sindica": "Vó Lurdes",
+    "joao": "Tio Beto",
+    "carla": "Camila",
+    "bia": "Yasmin (prima)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "ANO PASSADO · 00:00",
+   "fala": "Meia-noite. Rojão pra todo lado.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Sushi? Cadê você?"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Antunes",
+   "membros": "14 participantes",
+   "quando": "21:15",
+   "fala": "A prima Yasmin:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Começa agora: fogos baixinho, petisco e cantinho seguro."
+    },
+    {
+     "quem": "carla",
+     "texto": "E se o medo for forte?"
+    },
+    {
+     "quem": "bia",
+     "texto": "Aí, veterinário antes."
+    }
+   ],
+   "nomes": {
+    "sindica": "Vó Lurdes",
+    "joao": "Tio Beto",
+    "carla": "Camila",
+    "bia": "Yasmin (prima)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "TODO DIA",
+   "fala": "Todo dia: som baixinho, petisco, cobertor.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Antunes",
+   "membros": "14 participantes",
+   "quando": "21:30",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Quarto dos fundos é do Sushi."
+    },
+    {
+     "quem": "joao",
+     "texto": "O tio leva os petiscos."
+    }
+   ],
+   "nomes": {
+    "sindica": "Vó Lurdes",
+    "joao": "Tio Beto",
+    "carla": "Camila",
+    "bia": "Yasmin (prima)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, tem medo de fogos? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Nos fogos, seu cão…",
+   "opcoes": [
+    "Se esconde",
+    "Late pra tudo",
+    "Nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "PLANO DE RÉVEILLON",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

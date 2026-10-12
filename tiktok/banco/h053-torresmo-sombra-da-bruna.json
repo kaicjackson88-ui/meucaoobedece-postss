@@ -1,0 +1,163 @@
+{
+ "id": "h053-torresmo-sombra-da-bruna",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "ansiedade",
+ "estilo": "sol",
+ "legenda": "O Torresmo explica por que segue a Bruna até no banheiro 🚪\nA dica veio da veterinária, numa consulta de rotina: ensinar que ficar no tapetinho também é bom, um passo de cada vez. Se ele sofre muito quando você sai, vale conversar com um profissional.\nE o seu, te segue até no banheiro? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrogrudento #reforcopositivo #adestramento #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Torresmo. Aonde a Bruna vai, eu vou. Até no banheiro.",
+   "linhas": [
+    "EU SOU O TORRESMO",
+    "AONDE ELA VAI",
+    "EU VOU"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "08:00",
+   "fala": "Ela foi pegar café. Eu fui junto. Ela tropeçou em mim.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Torresmo, de novo!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "08:05",
+   "fala": "Ela fechou a porta do banheiro. Eu protestei.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AUUU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "14:00",
+   "fala": "À tarde, reunião online. Eu deitei no pé dela.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Gente, ele não me larga."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "A veterinária deu a dica: ensinar que ficar no tapetinho também é bom.",
+   "topo": [
+    "A DICA DA VETERINÁRIA"
+   ],
+   "de": "GRUDADO NELA",
+   "para": "NO TAPETINHO",
+   "para_palavra": "tapetinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "TODO DIA",
+   "fala": "Jogo do tapetinho: eu deito, ganho petisco. Ela se afasta e volta. Mais petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "HOJE",
+   "fala": "Hoje eu ainda adoro ir junto. Mas espero no tapetinho.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, te segue até no banheiro? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão é…",
+   "opcoes": [
+    "Sombra oficial",
+    "Segue às vezes",
+    "Independente"
+   ],
+   "escolha": 0,
+   "resultado": "SOMBRA OFICIAL",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

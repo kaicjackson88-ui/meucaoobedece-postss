@@ -1,0 +1,142 @@
+{
+ "id": "h050-ozzy-tres-erros-do-xixi",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz depois do xixi no lugar errado. E o seu cão entende tudo ao contrário 🙃\nFocinho no xixi, bronca horas depois e limpar só com água. O certo: levar ao lugar certo nas horas certas e fazer festa quando ele acerta.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #apartamento #adestramento #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz depois do xixi errado. E o seu cão entende ao contrário.",
+   "linhas": [
+    "3 COISAS QUE VOCÊ FAZ",
+    "DEPOIS DO XIXI ERRADO",
+    "ELE ENTENDE AO CONTRÁRIO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1",
+   "fala": "Erro um: focinho no xixi. O Ozzy entende: xixi perto da Simone é perigoso. Aí ele se esconde.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 560,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 2",
+   "fala": "Erro dois: bronca quando você chega. Ele não liga ao xixi de horas atrás.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 3",
+   "fala": "Erro três: limpar só com água. O cheiro fica e chama ele de volta.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão sente cheiros que a gente nem percebe.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O NARIZ DELE",
+    "acha o cheiro que você não sente"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "O CERTO",
+   "fala": "O certo: lugar certo nas horas certas. Acertou? Festa e petisco. Errou? Limpa bem, sem drama.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você já fez o erro…",
+   "opcoes": [
+    "1 focinho no xixi",
+    "2 bronca depois",
+    "3 só água"
+   ],
+   "escolha": 0,
+   "resultado": "AGORA VOCÊ SABE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

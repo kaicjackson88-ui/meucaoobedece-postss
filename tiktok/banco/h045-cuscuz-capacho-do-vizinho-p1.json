@@ -1,0 +1,166 @@
+{
+ "id": "h045-cuscuz-capacho-do-vizinho-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Toda manhã, o Cuscuz fazia xixi no capacho do vizinho 🚪 PARTE 1\nCapacho novo, pedido de desculpas no grupo… e à noite, uma sacola apareceu pendurada na maçaneta.\nO que você acha que tinha dentro? Comenta 1, 2 ou 3 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #apartamento #filhote #cachorro #historiadecachorro",
+ "serie": "cuscuz-capacho",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Toda manhã, o Cuscuz fazia xixi no capacho do vizinho. Parte um.",
+   "linhas": [
+    "XIXI NO CAPACHO",
+    "DO VIZINHO",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "07:02",
+   "fala": "Sete da manhã. O Otávio abriu a porta pra levar o lixo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Cuscuz, volta aqui!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "07:03",
+   "fala": "Tarde demais. Capacho do Seu Anselmo. De novo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 560,
+     "y": 1450,
+     "em": 0.3
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Aroeira · Moradores",
+   "membros": "38 participantes",
+   "quando": "07:40",
+   "fala": "No grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Alguém sentiu o cheiro no terceiro andar?"
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Eu senti. Era no meu capacho."
+    }
+   ],
+   "nomes": {
+    "vizinho": "Seu Anselmo (302)",
+    "carla": "Dalva (304)",
+    "joao": "Otávio (301)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "12:00",
+   "fala": "O Otávio comprou capacho novo e escreveu um bilhete pedindo desculpas.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "bilhete"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "21:30",
+   "fala": "À noite, alguém bateu na porta. Ninguém lá fora. Só uma sacola pendurada na maçaneta.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU!"
+    }
+   ],
+   "camera": {
+    "foco": "joao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que tinha na sacola? Comenta 1, 2 ou 3. Segue pra ver a Parte dois. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que tinha na sacola?",
+   "opcoes": [
+    "Uma multa",
+    "O capacho sujo",
+    "Um presente"
+   ],
+   "escolha": 0,
+   "resultado": "PARTE 2 JÁ JÁ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

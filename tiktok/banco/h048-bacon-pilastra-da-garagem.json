@@ -1,0 +1,170 @@
+{
+ "id": "h048-bacon-pilastra-da-garagem",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A síndica postou a foto da pilastra no grupo. E o Bacon era o culpado 📸\nQuem resolveu foi a Lu, a passeadora do bairro, num comentário: guia curtinha na garagem e festa quando ele faz no gramado da rua.\nE você, no grupo do prédio, é quem posta foto, quem manda áudio ou quem só lê? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #condominio #apartamento #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A síndica postou a foto no grupo. O culpado: Bacon.",
+   "linhas": [
+    "FOTO NO GRUPO",
+    "XIXI NA GARAGEM",
+    "ADIVINHA DE QUEM"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Cond. Vila Serena",
+   "membros": "64 participantes",
+   "quando": "07:15",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Pilastra da vaga doze. De novo."
+    },
+    {
+     "quem": "carla",
+     "texto": "Todo dia?"
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Neuza",
+    "carla": "Jéssica (203)",
+    "joao": "Thiago (vaga 12)",
+    "vizinho": "Seu Amaro (101)",
+    "bia": "Lu (passeadora)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "06:50",
+   "fala": "Era o Bacon. Primeira parada do passeio: a pilastra.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Cond. Vila Serena",
+   "membros": "64 participantes",
+   "quando": "07:20",
+   "fala": "O Thiago respondeu:",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Foi ele. Desculpa."
+    },
+    {
+     "quem": "vizinho",
+     "texto": "No meu tempo, cachorro morava no quintal."
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Neuza",
+    "carla": "Jéssica (203)",
+    "joao": "Thiago (vaga 12)",
+    "vizinho": "Seu Amaro (101)",
+    "bia": "Lu (passeadora)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Cond. Vila Serena",
+   "membros": "64 participantes",
+   "quando": "07:26",
+   "fala": "Aí comentou a Lu, a passeadora:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Guia curtinha na garagem e festa quando ele fizer no gramado da rua."
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Neuza",
+    "carla": "Jéssica (203)",
+    "joao": "Thiago (vaga 12)",
+    "vizinho": "Seu Amaro (101)",
+    "bia": "Lu (passeadora)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DIA SEGUINTE",
+   "fala": "Dia seguinte: guia curta na garagem, direto pro gramado. Fez lá? Petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Cond. Vila Serena",
+   "membros": "64 participantes",
+   "quando": "07:15",
+   "fala": "Dias depois:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Pilastra da vaga doze: limpinha."
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Áudio comemorando em breve."
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Neuza",
+    "carla": "Jéssica (203)",
+    "joao": "Thiago (vaga 12)",
+    "vizinho": "Seu Amaro (101)",
+    "bia": "Lu (passeadora)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E você, no grupo do prédio: posta foto, manda áudio ou só lê? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No grupo do prédio, você…",
+   "opcoes": [
+    "Posta foto",
+    "Manda áudio",
+    "Só lê"
+   ],
+   "escolha": 0,
+   "resultado": "GRUPO EM PAZ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

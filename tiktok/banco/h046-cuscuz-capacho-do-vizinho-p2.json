@@ -1,0 +1,173 @@
+{
+ "id": "h046-cuscuz-capacho-do-vizinho-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "PARTE 2: na sacola pendurada na porta tinha um tapete higiênico e um bilhete do Seu Anselmo 📝\nO plano dele: levar o filhote ao lugar certo logo que acorda, depois de comer e de brincar, e fazer festa quando acerta.\nE o seu, já escolheu um lugar errado preferido? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #apartamento #filhote #adestramento #historiadecachorro",
+ "serie": "cuscuz-capacho",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. A sacola na maçaneta era do Seu Anselmo. E não era bronca.",
+   "linhas": [
+    "A SACOLA",
+    "DO SEU ANSELMO",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "21:31",
+   "fala": "Na sacola: tapete higiênico e bilhete.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "O meu Tufão fazia igualzinho."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "21:35",
+   "fala": "E explicou:",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Filhote faz xixi quando acorda, depois de comer e de brincar. Chega antes dele."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Filhote ainda não segura o xixi por muito tempo.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "FILHOTE",
+    "segura o xixi por menos tempo"
+   ],
+   "icone": "relogio"
+  },
+  {
+   "tipo": "virada",
+   "fala": "O plano: chegar antes do xixi. E fazer festa no lugar certo.",
+   "topo": [
+    "O PLANO DO SEU ANSELMO"
+   ],
+   "de": "BRONCA DEPOIS",
+   "para": "FESTA NA HORA",
+   "para_palavra": "festa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TODO DIA · 07:00",
+   "fala": "Acordou? Direto pro tapete. Fez lá? Petisco e festa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "COM O TEMPO",
+   "fala": "Com o tempo, o capacho do vizinho ficou sequinho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Bom dia, Cuscuz!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, já teve um lugar errado preferido? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O lugar errado do seu cão…",
+   "opcoes": [
+    "Capacho",
+    "Tapete da sala",
+    "Nunca errou"
+   ],
+   "escolha": 0,
+   "resultado": "CAPACHO SALVO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

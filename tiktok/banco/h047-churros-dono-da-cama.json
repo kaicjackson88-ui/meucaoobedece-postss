@@ -1,0 +1,165 @@
+{
+ "id": "h047-churros-dono-da-cama",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "cama",
+ "estilo": "noite",
+ "legenda": "O Churros explica por que a cama do Heitor é dele 🛏️\nPra ele, ser tirado da cama virava brincadeira. Foi a Helena que deu a ideia: uma caminha só dele, com a camiseta velha do Heitor.\nE o seu, dorme na sua cama? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorronacama #reforcopositivo #adestramento #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Churros. E a cama do Heitor é minha.",
+   "linhas": [
+    "EU SOU O CHURROS",
+    "A CAMA DO HEITOR",
+    "É MINHA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "sofa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "23:40",
+   "fala": "Toda noite eu pulo na cama primeiro.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Churros, desce!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "23:41",
+   "fala": "Ele me tira. Eu volto. Que jogo bom!",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "De novo!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO",
+   "fala": "Aí a Helena veio passar o fim de semana.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "maos_cintura"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "E eu durmo onde?"
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O olfato do cão é muito mais poderoso que o nosso.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "OLFATO",
+    "muito mais forte que o nosso"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "virada",
+   "fala": "A Helena teve uma ideia: uma caminha só minha, com a camiseta velha do Heitor.",
+   "topo": [
+    "A IDEIA DA HELENA"
+   ],
+   "de": "CAMA DO HEITOR",
+   "para": "MINHA CAMINHA",
+   "para_palavra": "caminha"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "HOJE",
+   "fala": "Hoje é assim: deitei na caminha, ganho petisco. Subi na cama, acabou o jogo.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, dorme na sua cama? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na hora de dormir, seu cão…",
+   "opcoes": [
+    "Na minha cama",
+    "Na caminha dele",
+    "Onde quiser"
+   ],
+   "escolha": 0,
+   "resultado": "DONO DA CAMA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

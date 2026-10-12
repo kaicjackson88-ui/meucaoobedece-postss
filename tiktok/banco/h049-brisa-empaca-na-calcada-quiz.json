@@ -1,0 +1,159 @@
+{
+ "id": "h049-brisa-empaca-na-calcada-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "Na volta do passeio, a Brisa deitou na calçada e não quis mais andar 🐾 O que você faria?\n1 puxar a guia, 2 pegar no colo toda vez, 3 deixar a volta pra casa mais interessante. Se ele começou a empacar de repente ou parece sentir dor, vale passar no veterinário.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #adestramento #cachorro #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Na volta do passeio, a Brisa deitou na calçada. O que você faria?",
+   "linhas": [
+    "ELA DEITOU",
+    "NA CALÇADA",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "18:30",
+   "fala": "Faltava uma quadra pra casa. A Brisa deitou e travou.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Vamos, Brisa, casa!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "18:40",
+   "fala": "Dez minutos. Com plateia.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ela quebrou?"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: puxar. Dois: colo. Três: deixar a volta mais interessante. Comenta 1, 2 ou 3 antes de ver a resposta.",
+   "topo": [
+    "1 PUXAR A GUIA",
+    "2 COLO TODA VEZ",
+    "3 VOLTA MAIS LEGAL"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cheirar é o jeito do cão explorar o mundo.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "FAREJAR",
+    "é o jeito dele ler o mundo"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "A RESPOSTA",
+   "fala": "É a três. Petisco no caminho de volta e brincadeira em casa. Puxar vira cabo de guerra.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DESDE ENTÃO",
+   "fala": "Agora a volta termina com bolinha na sala. E a Brisa vai na frente.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 puxar a guia",
+    "2 colo toda vez",
+    "3 volta mais legal"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

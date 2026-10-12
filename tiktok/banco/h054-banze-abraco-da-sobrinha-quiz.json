@@ -1,0 +1,165 @@
+{
+ "id": "h054-banze-abraco-da-sobrinha-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "sol",
+ "legenda": "A Sofia chegou correndo pra abraçar o Banzé 🤗 O que você faria?\n1 deixar abraçar, 2 segurar o cão pra ela abraçar, 3 ela para, abaixa e deixa ele chegar. Se o cão rosna ou tenta morder, procure um profissional.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorroecrianca #linguagemcanina #adestramento #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A sobrinha chegou correndo pra abraçar o Banzé. O que você faria?",
+   "linhas": [
+    "ELA QUER ABRAÇAR",
+    "O CACHORRO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 15:00",
+   "fala": "Almoço de domingo. A Sofia viu o Banzé e correu.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "acena"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Que fofo! Vem cá!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "15:01",
+   "fala": "O Banzé lambeu o focinho, bocejou e virou a cabeça.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: deixa abraçar. Dois: segura ele. Três: ela abaixa e deixa ele chegar. Comenta 1, 2 ou 3 antes de ver a resposta.",
+   "topo": [
+    "1 DEIXA ABRAÇAR",
+    "2 SEGURA O CÃO",
+    "3 DEIXA ELE VIR"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Lamber o focinho e bocejar podem ser sinais de desconforto.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "LINGUAGEM DO CÃO",
+    "ele avisa antes"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "A RESPOSTA",
+   "fala": "É a três. Quem decide chegar perto é o cão. Se vier, carinho no peito.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "carinho"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DESDE ENTÃO",
+   "fala": "Agora a Sofia é a favorita dele. Esperou ele escolher.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 deixa abraçar",
+    "2 segura o cão",
+    "3 deixa ele vir"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

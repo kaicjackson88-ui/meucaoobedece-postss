@@ -1,0 +1,159 @@
+{
+ "id": "h052-pitanga-racao-da-gata",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "A gata da casa não conseguia mais comer. A Pitanga chegava primeiro 🐱\nQuem resolveu foi a Alice, sobrinha do Gustavo: pote da gata no alto, onde só gato sobe, e um brinquedo recheado pra Pitanga na mesma hora.\nNa sua casa tem cão e gato? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#caoegato #cachorro #adestramento #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A gata não conseguia mais comer. A Pitanga chegava primeiro.",
+   "linhas": [
+    "A GATA SEM COMIDA",
+    "A PITANGA CHEGAVA",
+    "PRIMEIRO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "07:10",
+   "fala": "Sete da manhã. O Gustavo serviu a ração da Frida, a gata.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Pitanga, essa não é sua!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "07:11",
+   "fala": "Dois segundos. Pote vazio. Frida no armário, ofendida.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "23:00",
+   "fala": "À noite, o Gustavo pesquisava o que fazer.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Ração de gato tem mais proteína e gordura do que o cão precisa.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "RAÇÃO DE GATO",
+    "é feita pra gato"
+   ],
+   "icone": "osso"
+  },
+  {
+   "tipo": "virada",
+   "fala": "A Alice, sobrinha dele, resolveu: pote da Frida no alto, onde só gato sobe.",
+   "topo": [
+    "A SOBRINHA ALICE"
+   ],
+   "de": "POTE NO CHÃO",
+   "para": "POTE NO ALTO",
+   "para_palavra": "alto"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DESDE ENTÃO",
+   "fala": "Pote da gata na bancada. Pra Pitanga, brinquedo recheado na mesma hora.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "carinho",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Na sua casa tem cão e gato? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na sua casa…",
+   "opcoes": [
+    "Cão e gato",
+    "Só cão",
+    "Cão, gato e caos"
+   ],
+   "escolha": 0,
+   "resultado": "CASA DE BICHOS",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
