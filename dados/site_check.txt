@@ -1,4 +1,5 @@
-Conferido em: 2026-10-12 23:42 UTC
-https://meucaoobedece.vercel.app/ -> HTTP 200, 498409 bytes
-  quiz antigo (bloqueio): AINDA NO AR
-https://meucaoobedece.vercel.app/upsell.html -> HTTP 404, 79 bytes
+Conferido em: 2026-10-12 23:47 UTC
+https://meucaoobedece.vercel.app/ -> HTTP 200, 496894 bytes
+  quiz corrigido: SIM
+https://meucaoobedece.vercel.app/upsell.html -> HTTP 200, 25395 bytes
+  upsell: OK
