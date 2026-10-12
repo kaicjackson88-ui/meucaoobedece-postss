@@ -59,4 +59,27 @@ add(`<div class="c b" id="banner-checkout">
   <span class="tag" style="background:#E8913C;color:#fff;font-size:24px;padding:12px 22px">GARANTIA DE 7 DIAS</span>
  </div>
 </div>`);
+
+// 5 CAPA ANSIEDADE (upsell)
+const porta=`<svg viewBox="0 0 220 320" width="250"><rect x="20" y="10" width="180" height="300" rx="14" fill="#C08850" stroke="#2A2622" stroke-width="7"/><rect x="42" y="34" width="136" height="110" rx="10" fill="#A66A3E" stroke="#2A2622" stroke-width="5"/><rect x="42" y="166" width="136" height="120" rx="10" fill="#A66A3E" stroke="#2A2622" stroke-width="5"/><circle cx="168" cy="160" r="12" fill="#F5C451" stroke="#2A2622" stroke-width="5"/></svg>`;
+const cor=`<svg viewBox="0 0 120 110" width="120"><path d="M60 100 C10 65 5 35 25 18 C42 4 58 14 60 30 C62 14 78 4 95 18 C115 35 110 65 60 100 Z" fill="#E86A9E" stroke="#2A2622" stroke-width="7"/></svg>`;
+add(`<div class="c q" id="capa-ansiedade">
+ <div class="abs" style="left:0;right:0;top:70px;text-align:center"><span class="tag" style="background:#6C5CC4;color:#fff">PLANO DE 14 DIAS</span></div>
+ <div class="abs t" style="left:40px;right:40px;top:170px;text-align:center;font-size:112px">Ansiedade de<br><span style="color:#6C5CC4">Separação</span></div>
+ <div class="abs" style="left:40px;right:40px;top:425px;text-align:center;font:900 44px NU;color:#6E655C">calma quando você sai de casa</div>
+ <div class="abs sh" style="left:640px;top:540px">${porta}</div>
+ <div class="abs sh" style="left:230px;top:520px;width:360px;height:410px">${M(Object.assign({},THOR,{olhar:2,itens:['bandana']}))}</div>
+ <div class="abs sh" style="left:520px;top:520px">${cor}</div>
+ <div class="chip" style="left:60px;top:950px;color:#6C5CC4">✓ Treino de ficar sozinho</div>
+</div>`);
+// BANNERS DOS PRODUTOS
+function banner(id,titulo,cor,sub,tags,op){add(`<div class="c b" id="${id}">
+ <div class="abs sh" style="left:50px;top:28px;width:300px;height:345px">${M(Object.assign({},THOR,op))}</div>
+ <div class="abs t" style="left:380px;top:70px;font-size:76px">${titulo}</div>
+ <div class="abs" style="left:384px;top:168px;font:900 34px NU;color:#6E655C">${sub}</div>
+ <div class="abs" style="left:380px;top:250px;display:flex;gap:14px">${tags.map(t=>`<span class="tag" style="background:${t[1]};color:#fff;font-size:24px;padding:12px 22px">${t[0]}</span>`).join('')}</div>
+</div>`)}
+banner('banner-receitas','10 Receitas <span style="color:#2F9C8A">Caseiras</span>','','O que seu cão pode comer e como preparar',[['ACESSO IMEDIATO','#2F9C8A'],['GARANTIA DE 7 DIAS','#E8913C']],{olhar:3,itens:['bandana']});
+banner('banner-xixi','Xixi e cocô <span style="color:#2F9C8A">no lugar certo</span>','','Guia de 7 dias · casa limpa e sem cheiro',[['ACESSO IMEDIATO','#2F9C8A'],['GARANTIA DE 7 DIAS','#E8913C']],{olhar:3,itens:['peitoral','plaquinha']});
+banner('banner-ansiedade','Ansiedade de <span style="color:#6C5CC4">Separação</span>','','Plano de 14 dias · calma quando você sai',[['ACESSO IMEDIATO','#6C5CC4'],['GARANTIA DE 7 DIAS','#E8913C']],{olhar:2,itens:['bandana']});
 </script></body></html>
