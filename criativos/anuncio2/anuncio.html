@@ -188,13 +188,13 @@ function construir(){
     .fromTo('#arco',{y:0},{y:-16,duration:.4,ease:'back.out(3)'},tDest+.25);
   SFX.sucesso.push(tDest+.25);
   // 3 gamificação
-  const s3=S(3).ini, f3=S(3).fim, tAp=achar(/apetrech/,s3,s3+3.5);
+  const s3=S(3).ini, f3=S(3).fim, tAp=Math.min(achar(/cada/,s3+1,s3+3.2),f3-2.4);
   T.monta=[s3+.3,Math.max(s3+1.2,Math.min(tAp-.4,s3+3))];T.itens=[];
   tl.fromTo('#g0',{scale:.5,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:0,duration:.55,ease:'back.out(2.5)'},s3-.15)
     .fromTo('#gm',{scale:.4,opacity:0},{scale:1,opacity:1,duration:.6,ease:'back.out(2)'},s3-.1)
     .fromTo('#gcont',{y:300,opacity:0},{y:0,opacity:1,duration:.5,ease:'back.out(2)'},s3+.4);
   T.num={n:0};tl.to(T.num,{n:400,duration:1.6,ease:'power2.out'},s3+.6);
-  DIAS.forEach((d,i)=>{const tt=tAp+.1+i*Math.min(.42,Math.max(.25,(f3-tAp)/6.5));T.itens.push(tt);
+  DIAS.forEach((d,i)=>{const tt=tAp+.1+i*Math.min(.45,Math.max(.28,(f3-tAp)/6.5));T.itens.push(tt);
     tl.fromTo('#gi'+i,{opacity:0,scale:.3,z:-400},{opacity:1,scale:1,z:0,duration:.4,ease:'back.out(2.5)'},tt);SFX.pop.push(tt)});
   for(let k=0;k<12;k++)SFX.tick.push(T.monta[0]+k*(T.monta[1]-T.monta[0])/12);
   // 4 skins — carrossel girando
