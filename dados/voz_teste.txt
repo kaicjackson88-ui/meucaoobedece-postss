@@ -38,3 +38,5 @@ falhou padrão: 403, message='Invalid response status', url='wss://speech.platfo
   161.0.5000.51: 403, message='Invalid response status', 
 versão que funciona: None
 Piper OK (2.5s)
+reserva narrador: 11 palavras, 45740 bytes, fim 2.571s
+reserva ana: 11 palavras, 45740 bytes, fim 2.577s
