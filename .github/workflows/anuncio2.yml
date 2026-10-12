@@ -18,7 +18,7 @@ jobs:
       - name: Instalar ferramentas
         run: |
           pip install -q imageio-ffmpeg && sudo ln -sf "$(python -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
-          pip install -q edge-tts==7.2.8 playwright==1.55.0 numpy scipy faster-whisper
+          pip install -q edge-tts==7.2.8 piper-tts playwright==1.55.0 numpy scipy faster-whisper
           timeout 300 python -m playwright install --with-deps chromium || python -m playwright install chromium
           npm i --no-save gsap
       - name: Gerar anúncio

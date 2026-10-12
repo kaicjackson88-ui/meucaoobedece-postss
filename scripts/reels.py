@@ -43,8 +43,28 @@ def tokens(fala):
 
 
 # ---------------- narração ----------------
+_EDGE_FORA = {'n': 0}
+
+
 async def _narrar(texto, mp3, voz, rate, pitch='+0Hz'):
+    if _EDGE_FORA['n'] < 2:  # depois de 2 recusas seguidas, vai direto pra voz reserva
+        try:
+            pal = await _narrar_edge(texto, mp3, voz, rate, pitch)
+            _EDGE_FORA['n'] = 0
+            return pal
+        except Exception as e:  # noqa: BLE001
+            _EDGE_FORA['n'] += 1
+            print('voz da Microsoft indisponível, usando a voz reserva:', str(e)[:60], flush=True)
+    return _narrar_reserva(texto, mp3, voz, rate)
+
+
+async def _narrar_edge(texto, mp3, voz, rate, pitch='+0Hz'):
     import edge_tts
+    try:
+        import voz_edge
+        voz_edge.aplicar_salva()
+    except Exception:  # noqa: BLE001
+        pass
     com = edge_tts.Communicate(texto, voz, rate=rate, pitch=pitch, boundary='WordBoundary')
     pal = []
     with open(mp3, 'wb') as f:
@@ -54,6 +74,37 @@ async def _narrar(texto, mp3, voz, rate, pitch='+0Hz'):
             elif parte['type'] == 'WordBoundary':
                 pal.append({'palavra': parte['text'], 'inicio': round(parte['offset'] / 1e7, 3),
                             'fim': round((parte['offset'] + parte['duration']) / 1e7, 3)})
+    if not pal:
+        raise RuntimeError('sem áudio')
+    return pal
+
+
+def _narrar_reserva(texto, mp3, voz, rate):
+    """Voz offline (Piper). Vozes femininas ganham um tom mais agudo; o tempo das palavras é estimado."""
+    import os, subprocess, sys, tempfile, numpy as np
+    from scipy.io import wavfile
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import voz_offline
+    try:
+        vel = 1 + int(str(rate).replace('%', '').replace('+', '') or 0) / 100
+    except ValueError:
+        vel = 1.0
+    wav = tempfile.mktemp(suffix='.wav')
+    voz_offline.falar(texto, wav, velocidade=vel)
+    fem = any(n in voz for n in ('Francisca', 'Thalita', 'Leila', 'Manuela'))
+    filtro = 'asetrate=22050*1.22,aresample=24000,atempo=0.82,highpass=f=120' if fem else 'aresample=24000'
+    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', wav, '-af', filtro, '-ac', '1', '-b:a', '128k', mp3], check=True)
+    w2 = tempfile.mktemp(suffix='.wav')
+    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', mp3, '-ac', '1', '-ar', '16000', w2], check=True)
+    sr, x = wavfile.read(w2)
+    x = np.abs(x.astype(np.float32)) / 32768
+    nz = np.where(x > .02)[0]
+    ini, fim = (nz[0] / sr, nz[-1] / sr) if len(nz) else (0, len(x) / sr)
+    ws = tokens(texto) or [texto]
+    tot = sum(len(w) + 2 for w in ws); t = ini; pal = []
+    for w in ws:
+        d = (fim - ini) * (len(w) + 2) / tot
+        pal.append({'palavra': w, 'inicio': round(t, 3), 'fim': round(t + d * .9, 3)}); t += d
     return pal
 
 

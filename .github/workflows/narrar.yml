@@ -26,7 +26,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install edge-tts==7.2.8
+      - run: pip install edge-tts==7.2.8 piper-tts
       - name: Gerar uma narração por voz
         env:
           PASTA: ${{ github.event.inputs.pasta }}

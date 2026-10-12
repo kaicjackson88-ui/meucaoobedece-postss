@@ -19,7 +19,12 @@ def _modelo(nome, q):
 
 
 def falar(texto, saida, voz='narrador', velocidade=1.0):
-    from piper import PiperVoice
+    try:
+        from piper import PiperVoice
+    except ImportError:  # instala na hora se o robô já estava rodando sem ela
+        import subprocess, sys
+        subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'piper-tts'], check=True)
+        from piper import PiperVoice
     nome, q = VOZES.get(voz, VOZES['narrador'])
     if nome not in _cache: _cache[nome] = PiperVoice.load(str(_modelo(nome, q)))
     v = _cache[nome]

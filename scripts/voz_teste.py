@@ -33,7 +33,14 @@ def main():
         log(f'Piper OK ({time.time() - t:.1f}s)')
     except Exception as e:  # noqa: BLE001
         log('Piper falhou: ' + str(e)[:200])
-    (RAIZ / 'dados' / 'voz_teste.txt').write_text('\n'.join(out) + '\n')
+    try:
+        import reels
+        for nome, voz in (('narrador', 'pt-BR-AntonioNeural'), ('ana', 'pt-BR-FranciscaNeural')):
+            dest = RAIZ / 'dados' / f'voz_reserva_{nome}.mp3'
+            pal = asyncio.run(reels._narrar('O Thor fez xixi no tapete novo. Thor, de novo não!', str(dest), voz, '+12%'))
+            log(f'reserva {nome}: {len(pal)} palavras, {dest.stat().st_size} bytes, fim {pal[-1]["fim"]}s')
+    except Exception as e:  # noqa: BLE001
+        import traceback; log('reserva no robô falhou: ' + traceback.format_exc()[-400:])
 
 
 if __name__ == '__main__':
