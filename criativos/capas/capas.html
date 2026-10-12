@@ -82,4 +82,11 @@ function banner(id,titulo,cor,sub,tags,op){add(`<div class="c b" id="${id}">
 banner('banner-receitas','10 Receitas <span style="color:#2F9C8A">Caseiras</span>','','O que seu cão pode comer e como preparar',[['ACESSO IMEDIATO','#2F9C8A'],['GARANTIA DE 7 DIAS','#E8913C']],{olhar:3,itens:['bandana']});
 banner('banner-xixi','Xixi e cocô <span style="color:#2F9C8A">no lugar certo</span>','','Guia de 7 dias · casa limpa e sem cheiro',[['ACESSO IMEDIATO','#2F9C8A'],['GARANTIA DE 7 DIAS','#E8913C']],{olhar:3,itens:['peitoral','plaquinha']});
 banner('banner-ansiedade','Ansiedade de <span style="color:#6C5CC4">Separação</span>','','Plano de 14 dias · calma quando você sai',[['ACESSO IMEDIATO','#6C5CC4'],['GARANTIA DE 7 DIAS','#E8913C']],{olhar:2,itens:['bandana']});
+
+// BANNERS SEM TEXTO (fundo da faixa da Kiwify: o nome fica por cima, à esquerda)
+function limpo(id,cls,dogs){add(`<div class="c b ${cls}" id="${id}">${dogs.map(d=>`<div class="abs sh" style="left:${d[0]}px;top:${d[1]}px;width:${d[2]}px;height:${Math.round(d[2]*1.14)}px">${M(d[3])}</div>`).join('')}</div>`)}
+limpo('limpo-principal','',[[800,40,280,Object.assign({},THOR,{olhar:3,itens:itensSkin(3)})],[1060,130,190,{pelo:2,corpo:2,itens:itensSkin(2)}],[640,140,180,{pelo:6,corpo:3,orelha:2,itens:itensSkin(1)}]]);
+limpo('limpo-receitas','',[[900,50,280,Object.assign({},THOR,{olhar:3,itens:['bandana']})],[720,150,180,{pelo:4,corpo:2,orelha:1,olhar:3}]]);
+limpo('limpo-xixi','teal',[[900,50,280,Object.assign({},THOR,{olhar:3,itens:['peitoral','plaquinha']})],[720,150,180,{pelo:8,corpo:4,orelha:3}]]);
+limpo('limpo-ansiedade','',[[900,50,280,Object.assign({},THOR,{olhar:2,itens:['bandana']})],[720,150,180,{pelo:5,olhar:3,orelha:1}]]);
 </script></body></html>
