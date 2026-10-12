@@ -257,3 +257,10 @@ voz pt-BR-AntonioNeural falhou (narrador): 403, message='Invalid response status
   falhou: Não consegui gerar a narração.
 Produzindo h038-cacau-churrasco-da-familia
 Narração...
+voz pt-BR-AntonioNeural falhou (narrador): 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=ff3bceffefdf459cadc14cafc71b0812&Sec-MS-GEC=E4DDE7178492B09CDC1D896E694A635E6A9FBC5CC3DEBCB9345B251FF3388573&Sec-MS-GEC-Version=1-143.0.3650.75'
+voz pt-BR-AntonioNeural falhou (narrador): 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=b26b64e96fb54c808f79f45584cf2135&Sec-MS-GEC=E4DDE7178492B09CDC1D896E694A635E6A9FBC5CC3DEBCB9345B251FF3388573&Sec-MS-GEC-Version=1-143.0.3650.75'
+voz pt-BR-AntonioNeural falhou (narrador): 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=9a15a233b75c4738af72023aca99ee3c&Sec-MS-GEC=E4DDE7178492B09CDC1D896E694A635E6A9FBC5CC3DEBCB9345B251FF3388573&Sec-MS-GEC-Version=1-143.0.3650.75'
+voz pt-BR-AntonioNeural falhou (narrador): 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=074515317e2842aa83def32f14c698b2&Sec-MS-GEC=E4DDE7178492B09CDC1D896E694A635E6A9FBC5CC3DEBCB9345B251FF3388573&Sec-MS-GEC-Version=1-143.0.3650.75'
+  falhou: Não consegui gerar a narração.
+Nenhum lote vencido agora.
+Plantão dos vídeos encerrado; o workflow vai religar.
