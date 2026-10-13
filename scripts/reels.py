@@ -392,13 +392,12 @@ def slot_vencido(publicados, agora=None):
     if agora.strftime('%Y-%m-%d') < CFG.get('comecar_em', '0000'):
         return None
     feitos = {p.get('slot') for p in publicados}
-    for h in CFG['horarios']:
-        hh, mm = map(int, h.split(':'))
-        s = agora.replace(hour=hh, minute=mm, second=0, microsecond=0)
-        nome = s.strftime('%Y-%m-%d %H:%M')
-        if s <= agora < s + timedelta(hours=6) and nome not in feitos:
-            return nome
-    return None
+    # só o horário mais recente que já passou conta: se o robô ficou parado, não posta os atrasados em sequência
+    passados = [agora.replace(hour=int(h[:2]), minute=int(h[3:]), second=0, microsecond=0) for h in CFG['horarios']]
+    passados = [s for s in passados if s <= agora]
+    if not passados: return None
+    s = max(passados); nome = s.strftime('%Y-%m-%d %H:%M')
+    return nome if agora < s + timedelta(hours=6) and nome not in feitos else None
 
 
 # ---------------- Instagram ----------------
@@ -527,11 +526,10 @@ def _carr_feitos_set():
 def carrossel_vencido(agora=None):
     agora = agora or datetime.now(BRT)
     feitos = _carr_feitos_set()
-    for s in _slots_carrossel(agora):
-        nome = s.strftime('%Y-%m-%d %H:%M')
-        if s <= agora < s + timedelta(hours=6) and nome not in feitos:
-            return nome
-    return None
+    passados = [s for s in _slots_carrossel(agora) if s <= agora]  # só o mais recente (sem rajada de atrasados)
+    if not passados: return None
+    s = max(passados); nome = s.strftime('%Y-%m-%d %H:%M')
+    return nome if agora < s + timedelta(hours=6) and nome not in feitos else None
 
 
 def proximo_carrossel(agora=None):
