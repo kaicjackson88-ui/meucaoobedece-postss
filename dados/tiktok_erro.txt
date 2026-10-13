@@ -1,1 +1,1 @@
-2026-10-13T15:46:13.559304-03:00 h054-banze-abraco-da-sobrinha-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610140246138FD23A0A5439F5224CDC"}}
+2026-10-13T15:57:02.220026-03:00 h054-banze-abraco-da-sobrinha-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610140257022B478E8F33E4FC284FC8"}}
