@@ -22,6 +22,7 @@ jobs:
               grep -q "Quiz | marcou mordida" /tmp/p.html && echo "  quiz corrigido: SIM" || true
               grep -q "Por que não indico o método" /tmp/p.html && echo "  quiz antigo (bloqueio): AINDA NO AR" || true
               grep -q "Plano Ansiedade de Separação" /tmp/p.html && echo "  upsell: OK" || true
+              grep -q "1702277674672285" /tmp/p.html && echo "  pixel novo: OK" || true
             done
           } | tee dados/site_check.txt
           git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
