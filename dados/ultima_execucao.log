@@ -1,44 +1,21 @@
-Carrossel agendado: 2026-10-13-1200-xixi
-⚠️ Carrossel falhou: Erro da Meta em me/accounts: API access blocked. (código 200)
-Roteiro: r033-lista-espera-comida (lista, estilo sol) — horário 2026-10-13 09:00
+Roteiro: h001-quase-devolveu (tiktok-historia, estilo sol) — horário 2026-10-13 14:00
 Narração...
 voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-[0;93m2026-10-13 15:56:30.768614976 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Render...
-  frame 0/671
-  frame 300/671
-  frame 600/671
-Áudio...
-Preparing worktree (detached HEAD ac5bce0)
-HEAD is now at ac5bce0 Carrossel: erro registrado
-Switched to a new branch 'tmp-20261013-1258-r033-lista-espera-comida'
-remote: 
-remote: Create a pull request for 'midia-20261013-1258-r033-lista-espera-comida' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261013-1258-r033-lista-espera-comida        
-remote: 
-Pronto: /tmp/reel-zhncow_a/reel.mp4 (22.4s)
-Vídeo público: https://raw.githubusercontent.com/kaicjackson88-ui/meucaoobedece-postss/midia-20261013-1258-r033-lista-espera-comida/20261013-1258-r033-lista-espera-comida.mp4
-⚠️ Falhou este horário: Erro da Meta em me/accounts: API access blocked. (código 200)
-⏸️ Meta bloqueou/limitou o acesso — pausando 2h pra não piorar
-Roteiro: r030-erro-regras (erro, estilo sol) — horário 2026-10-13 09:00
-Narração...
+[0;93m2026-10-13 21:45:23.913124327 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
 Render...
-  frame 0/705
-  frame 300/705
-  frame 600/705
+  frame 0/2056
+  frame 300/2056
+  frame 600/2056
+  frame 900/2056
+  frame 1200/2056
+  frame 1500/2056
+  frame 1800/2056
 Áudio...
-Preparing worktree (detached HEAD ac5bce0)
-HEAD is now at ac5bce0 Carrossel: erro registrado
-Switched to a new branch 'tmp-20261013-1500-r030-erro-regras'
+Preparing worktree (detached HEAD 6d5f774)
+HEAD is now at 6d5f774 Reels: registros atualizados
+Switched to a new branch 'tmp-20261013-1851-h001-quase-devolveu'
 remote: 
-remote: Create a pull request for 'midia-20261013-1500-r030-erro-regras' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261013-1500-r030-erro-regras        
-remote: 
-Preparing worktree (detached HEAD ac5bce0)
-HEAD is now at ac5bce0 Carrossel: erro registrado
-Switched to a new branch 'tmp-midia-20261013-1500-c-latido'
-remote: 
-remote: Create a pull request for 'midia-20261013-1500-c-latido' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261013-1500-c-latido        
+remote: Create a pull request for 'midia-20261013-1851-h001-quase-devolveu' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261013-1851-h001-quase-devolveu        
 remote: 
