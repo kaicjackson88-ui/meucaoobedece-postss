@@ -1,0 +1,10 @@
+== iPhone ==
+  PageView           pixel 1702277674672285  HTTP 200  
+  ?                  pixel ?  HTTP 200  
+  ViewContent        pixel 1702277674672285  HTTP 200  Quiz - pulado
+  ViewContent        pixel 1702277674672285  HTTP 200  Meu Cao Obedece - Protocolo 21 dias
+  Lead               pixel 1702277674672285  HTTP 200  scroll 50%
+  ?                  pixel ?  HTTP 200  
+  InitiateCheckout   pixel 1702277674672285  HTTP 200  Meu Cao Obedece - Protocolo 21 dias | botao: final
+== PC ==
+  NENHUM evento enviado
