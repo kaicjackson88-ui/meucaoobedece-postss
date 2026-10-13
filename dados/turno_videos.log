@@ -43,3 +43,10 @@ TikTok não aceitou agora (provável limite de 5 rascunhos pendentes) — tento 
 18:08 TikTok: trabalhando…
 Último rascunho há 10 min — o próximo sai em 50 min (1 por vez).
 18:18 TikTok: trabalhando…
+Último rascunho há 20 min — o próximo sai em 40 min (1 por vez).
+  git push -q → 1 the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
