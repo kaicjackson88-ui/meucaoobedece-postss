@@ -1,5 +1,6 @@
-Conferido em: 2026-10-12 23:47 UTC
+Conferido em: 2026-10-13 20:41 UTC
 https://meucaoobedece.vercel.app/ -> HTTP 200, 496894 bytes
   quiz corrigido: SIM
+  pixel novo: OK
 https://meucaoobedece.vercel.app/upsell.html -> HTTP 200, 25395 bytes
   upsell: OK
