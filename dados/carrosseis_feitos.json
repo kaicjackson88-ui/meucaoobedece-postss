@@ -133,5 +133,16 @@
   "pasta": "2026-10-13-1900-coleira",
   "media_id": "18189760498397294",
   "link": "https://www.instagram.com/p/Dec94e9l_8b/"
+ },
+ {
+  "slot": "2026-10-14 07:00",
+  "seg": "obedece",
+  "tema": "Não obedece",
+  "gancho": "Você fala “senta” e seu cão deita?",
+  "assin": "obedece|Você fala “senta” e seu cão [deita]?|0,1,2",
+  "seed": 641848800,
+  "media_id": "17968795311189636",
+  "link": "https://www.instagram.com/p/DeeHq5KjIGz/",
+  "publicado_em": "2026-10-14T10:00:53.395993+00:00"
  }
 ]
