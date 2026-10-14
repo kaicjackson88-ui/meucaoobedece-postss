@@ -8,7 +8,7 @@ GRUPOS = [
     ['cachorro xixi', 'adestramento', 'adestrar cachorro', 'cachorro pulando', 'cachorro não obedece'],
 ]
 out = []
-py = TrendReq(hl='pt-BR', tz=180, retries=3, backoff_factor=2)
+py = TrendReq(hl='pt-BR', tz=180)
 for g in GRUPOS:
     for tent in range(4):
         try:
