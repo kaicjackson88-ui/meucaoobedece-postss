@@ -10,13 +10,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import garimpo_videos as gv  # noqa: E402
 
 _BRUTA = os.environ.get('PIXABAY_API_KEY', '')
-_ACHOU = re.search(r'\d{4,}-[0-9a-fA-F]{16,}', _BRUTA)  # formato da chave do Pixabay; ignora "Sua chave API:", espaços etc.
-CHAVE = _ACHOU.group(0) if _ACHOU else _BRUTA.strip()
+# o celular às vezes troca o hífen por travessão ou cola caractere invisível: normaliza antes de procurar a chave
+_LIMPA = re.sub(r'[\s​-‍⁠﻿]', '', re.sub(r'[‐-―−﹘﹣－]', '-', _BRUTA))
+_ACHOU = re.search(r'\d{4,}-[0-9a-fA-F]{16,}', _LIMPA)  # formato da chave do Pixabay; ignora "Sua chave API:" etc.
+CHAVE = _ACHOU.group(0) if _ACHOU else _LIMPA
 
 
 def diagnostico():
-    """Descreve a chave sem revelar: tamanho e se bate com o formato número-hex."""
-    return f'tamanho bruto {len(_BRUTA)}, usado {len(CHAVE)}, formato número-hex: {"sim" if _ACHOU else "NÃO"}'
+    """Descreve a chave sem revelar o valor: tamanhos e tipos de caractere."""
+    s = _BRUTA
+    blocos = [len(b) for b in re.split(r'[^0-9A-Za-z]+', s) if b]
+    return (f'tamanho bruto {len(s)}, usado {len(CHAVE)}, formato número-hex: {"sim" if _ACHOU else "NÃO"}; '
+            f'dígitos {sum(c.isdigit() for c in s)}, letras a-f {sum(c in "abcdefABCDEF" for c in s)}, '
+            f'outras letras {sum(c.isalpha() and c not in "abcdefABCDEF" for c in s)}, hífens {s.count("-")}, '
+            f'não-ASCII {sum(ord(c) > 127 for c in s)}, espaços {sum(c.isspace() for c in s)}, blocos {blocos}')
 API = 'https://pixabay.com/api/videos/'
 CAES = {'canine', 'pet', 'pets', 'pup', 'labrador', 'retriever', 'beagle', 'chihuahua', 'poodle', 'husky', 'bulldog', 'terrier',
         'shepherd', 'corgi', 'pug', 'dachshund', 'spitz', 'pomeranian', 'schnauzer', 'collie', 'rottweiler', 'doberman'}
