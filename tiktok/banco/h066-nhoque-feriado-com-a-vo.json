@@ -1,0 +1,175 @@
+{
+ "id": "h066-nhoque-feriado-com-a-vo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "A Tati viajou no feriado. O Nhoque ficou com a Vó Cida. E o grupo da família virou um diário de bordo 📱\nQuem resolveu foi a Duda, de 11 anos: esconder petisco pra ele procurar antes do almoço. Farejar cansa e acalma.\nE o seu, fica bem com outra pessoa? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#comportamentocanino #adestramento #cachorro #enriquecimentoambiental #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A Tati viajou. O Nhoque ficou com a vó. E o grupo da família ferveu.",
+   "linhas": [
+    "FERIADO NA VÓ",
+    "O NHOQUE FICOU",
+    "GRUPO DA FAMÍLIA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Moreira",
+   "membros": "11 participantes",
+   "quando": "12:05",
+   "fala": "Primeiro dia:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ele latiu o almoço inteiro pedindo frango."
+    },
+    {
+     "quem": "joao",
+     "texto": "A vó deu?"
+    }
+   ],
+   "nomes": {
+    "carla": "Tati",
+    "sindica": "Vó Cida",
+    "joao": "Tio Edu",
+    "bia": "Duda (neta, 11 anos)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Moreira",
+   "membros": "11 participantes",
+   "quando": "12:06",
+   "fala": "A vó respondeu:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Dei três vezes. Agora ele não sai da cadeira."
+    }
+   ],
+   "nomes": {
+    "carla": "Tati",
+    "sindica": "Vó Cida",
+    "joao": "Tio Edu",
+    "bia": "Duda (neta, 11 anos)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDO DIA · 12:00",
+   "fala": "Segundo dia. O Nhoque do lado da cadeira dela, latindo.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Moreira",
+   "membros": "11 participantes",
+   "quando": "12:20",
+   "fala": "Aí a neta, Duda, de onze anos:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Vó, a mãe esconde petisco pra ele achar antes do almoço. Aí ele dorme."
+    }
+   ],
+   "nomes": {
+    "carla": "Tati",
+    "sindica": "Vó Cida",
+    "joao": "Tio Edu",
+    "bia": "Duda (neta, 11 anos)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "TERCEIRO DIA · 11:30",
+   "fala": "Terceiro dia: caça ao petisco no quintal.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Moreira",
+   "membros": "11 participantes",
+   "quando": "12:40",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Almocei em paz. Ele tá roncando."
+    },
+    {
+     "quem": "carla",
+     "texto": "Duda, você é a nova babá oficial."
+    }
+   ],
+   "nomes": {
+    "carla": "Tati",
+    "sindica": "Vó Cida",
+    "joao": "Tio Edu",
+    "bia": "Duda (neta, 11 anos)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, fica bem com outra pessoa? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Longe de você, seu cão…",
+   "opcoes": [
+    "Pede comida",
+    "Fica triste",
+    "Nem sente falta"
+   ],
+   "escolha": 0,
+   "resultado": "BABÁ APROVADA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,148 @@
+{
+ "id": "h067-mel-lixo-do-banheiro-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "O Gustavo chegou do trabalho e o lixo do banheiro estava espalhado pela casa toda 🧻 O que você faria?\n1 bronca e mostrar o lixo pra ela, 2 deixar ela presa no banheiro, 3 limpar sem drama, tampar o lixo e dar mais o que fazer.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#comportamentocanino #adestramento #cachorro #apartamento #enriquecimentoambiental",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Chegou do trabalho e o lixo estava pela casa toda. O que você faria?",
+   "linhas": [
+    "LIXO ESPALHADO",
+    "PELA CASA TODA",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:45",
+   "fala": "O Gustavo abriu a porta. Papel picado até o corredor.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "18:46",
+   "fala": "A Mel trouxe o último pedaço. Toda feliz.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: bronca e mostra o lixo. Dois: presa no banheiro. Três: tampa o lixo e dá o que fazer. Comenta 1, 2 ou 3 antes de ver a resposta.",
+   "topo": [
+    "1 BRONCA E MOSTRA",
+    "2 PRESA NO BANHEIRO",
+    "3 TAMPA E OCUPA"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Bronca horas depois não ensina. O cão não liga a bronca ao que fez antes.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "BRONCA ATRASADA",
+    "ele não liga ao que fez"
+   ],
+   "icone": "relogio"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "A RESPOSTA",
+   "fala": "É a três. Limpa sem drama, lixo com tampa e um brinquedo de petisco antes de sair.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEMANA SEGUINTE",
+   "fala": "Semana seguinte, a Mel estava dormindo com o brinquedo.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 bronca",
+    "2 presa",
+    "3 tampa e ocupa"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

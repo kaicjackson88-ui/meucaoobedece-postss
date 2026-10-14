@@ -1,0 +1,185 @@
+{
+ "id": "h060-tutu-vizinha-com-medo-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "A porta do elevador abriu. E a vizinha tem pavor de cachorro 🛗 O que você faria?\n1 deixa o cão cheirar ela pra perder o medo, 2 entra rapidinho e segura a guia, 3 oferece o elevador pra ela e espera o próximo.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #apartamento #passeiocomcachorro #adestramento #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O elevador abriu. E a vizinha tem pavor de cachorro. O que você faria?",
+   "linhas": [
+    "ELA TEM MEDO",
+    "DE CACHORRO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "08:10",
+   "fala": "Oito e dez. O Tutu esperando o elevador. A porta abre: Dona Laura.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "guia"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ai, meu Deus. Ele morde?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ONTEM",
+   "fala": "Ontem, o Tutu pulou nela no portão.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: deixa cheirar. Dois: entra segurando a guia. Três: espera o próximo. Comenta 1, 2 ou 3 antes de ver a resposta.",
+   "topo": [
+    "1 DEIXA CHEIRAR",
+    "2 ENTRA SEGURANDO",
+    "3 ESPERA O PRÓXIMO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "A RESPOSTA",
+   "fala": "É a três. Medo não passa forçando.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 280,
+     "humor": "normal",
+     "pose": "acena"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Pode ir, Dona Laura. A gente pega o próximo."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "EM CASA",
+   "fala": "Em casa, treino de esperar sentado a porta abrir.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "UM MÊS DEPOIS",
+   "fala": "Um mês depois, foi ela quem cumprimentou primeiro.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 280,
+     "humor": "feliz",
+     "pose": "acena"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Bom dia, Tutu. De longe, tá?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 deixa cheirar",
+    "2 entra segurando",
+    "3 espera o próximo"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

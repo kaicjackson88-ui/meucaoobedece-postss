@@ -1,0 +1,169 @@
+{
+ "id": "h059-rabanete-caminhao-do-lixo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "Cinco e meia da manhã. O caminhão do lixo passou. E o Rabanete acordou o prédio inteiro 🚛\nQuem resolveu foi uma moradora no grupo: a Priscila, veterinária do 12º, sugeriu gravar o som do caminhão e tocar baixinho durante o dia, com petisco.\nE o seu, late pra algum barulho da rua? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #condominio #apartamento #latidoexcessivo #adestramento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Cinco e meia. O caminhão do lixo passou. E o Rabanete também.",
+   "linhas": [
+    "05:30 DA MANHÃ",
+    "CAMINHÃO DO LIXO",
+    "E O RABANETE"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "05:31",
+   "fala": "Todo dia de coleta, o mesmo show.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipê Roxo",
+   "membros": "64 participantes",
+   "quando": "05:34",
+   "fala": "No grupo do condomínio:",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Bom dia pra quem já tá acordado graças ao 804."
+    },
+    {
+     "quem": "sindica",
+     "texto": "Eu já tava acordada. Agora tô brava."
+    }
+   ],
+   "nomes": {
+    "joao": "Henrique (804)",
+    "sindica": "Dona Célia (502)",
+    "carla": "Priscila (veterinária, 1201)",
+    "pedro": "Marcos (806)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipê Roxo",
+   "membros": "64 participantes",
+   "quando": "05:36",
+   "fala": "O Henrique, dono dele:",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Desculpa, gente. Ele acha que o caminhão é invasor.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Henrique (804)",
+    "sindica": "Dona Célia (502)",
+    "carla": "Priscila (veterinária, 1201)",
+    "pedro": "Marcos (806)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipê Roxo",
+   "membros": "64 participantes",
+   "quando": "07:10",
+   "fala": "Aí a Priscila, veterinária do prédio:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Grava o som do caminhão. Toca baixinho de dia, com petisco."
+    }
+   ],
+   "nomes": {
+    "joao": "Henrique (804)",
+    "sindica": "Dona Célia (502)",
+    "carla": "Priscila (veterinária, 1201)",
+    "pedro": "Marcos (806)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "À TARDE",
+   "fala": "À tarde, som do caminhão bem baixinho. Petisco. No outro dia, um pouco mais alto.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipê Roxo",
+   "membros": "64 participantes",
+   "quando": "05:40",
+   "fala": "Semanas depois:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "O caminhão passou e eu nem vi."
+    },
+    {
+     "quem": "pedro",
+     "texto": "Cadê o despertador do 804?"
+    }
+   ],
+   "nomes": {
+    "joao": "Henrique (804)",
+    "sindica": "Dona Célia (502)",
+    "carla": "Priscila (veterinária, 1201)",
+    "pedro": "Marcos (806)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu late pra barulho da rua? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão late pra…",
+   "opcoes": [
+    "Caminhão",
+    "Moto",
+    "Nada"
+   ],
+   "escolha": 0,
+   "resultado": "MADRUGADA EM PAZ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

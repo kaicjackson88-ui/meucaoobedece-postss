@@ -1,0 +1,173 @@
+{
+ "id": "h057-pacoca-interfone-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "PARTE 2: a síndica subiu, mas quem trouxe a ideia foi o Seu Damião, o porteiro 🔔\nO plano: o toque do interfone vira o aviso de ir pro tapetinho ganhar petisco. Treino curto, todo dia, com o porteiro tocando de propósito.\nE o seu, late pro interfone ou pra campainha? Comenta 1 pra interfone, 2 pra campainha 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #condominio #apartamento #adestramento",
+ "serie": "pacoca-interfone",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. A síndica subiu. E trouxe o porteiro junto.",
+   "linhas": [
+    "A SÍNDICA SUBIU",
+    "COM O PORTEIRO",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · 21:45",
+   "fala": "A síndica Rute veio. E não trouxe multa.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 280,
+     "humor": "normal",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "O Seu Damião tem uma ideia. Escuta ele."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "21:47",
+   "fala": "O porteiro explicou:",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Pra ela, o interfone é aviso de invasão. Vamos trocar o aviso."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cão aprende rápido o que vem depois de um som.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "SOM QUE AVISA",
+    "ele liga o toque ao que vem depois"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "virada",
+   "fala": "O combinado: o porteiro toca de propósito. Paçoca vai pro tapetinho e ganha petisco.",
+   "topo": [
+    "O PLANO DO PORTEIRO"
+   ],
+   "de": "TOQUE = ALARME",
+   "para": "TOQUE = TAPETINHO",
+   "para_palavra": "tapetinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TODO DIA · 18:00",
+   "fala": "Um pouquinho todo dia. Toque, tapetinho, petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, pizza de novo. Um latido só. E tapetinho.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "comemora"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ué, acabou o show?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, late pro interfone ou pra campainha? Comenta 1 pra interfone, 2 pra campainha. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão late pra…",
+   "opcoes": [
+    "Interfone",
+    "Campainha",
+    "Os dois"
+   ],
+   "escolha": 2,
+   "resultado": "TOQUE SEM SHOW",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

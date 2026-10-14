@@ -1,0 +1,190 @@
+{
+ "id": "h062-tremoco-patas-de-lama",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "Mês passado, dia de chuva era dia de pegada de lama no sofá 🐾 Hoje, olha só.\nQuem teve a ideia foi a Clarinha, de 9 anos: um tapete na porta e a brincadeira de 'esperar a toalha' antes de entrar, treinada um pouquinho todo dia.\nE o seu, entra correndo depois do passeio? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #adestramento #cachorro #apartamento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, dia de chuva era lama no sofá. Hoje, olha só.",
+   "linhas": [
+    "MÊS PASSADO: LAMA",
+    "HOJE: OLHA SÓ",
+    "ANTES E DEPOIS"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sofa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 18:00",
+   "fala": "Mês passado. Seis da tarde, chuva e poça em cada esquina.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 620,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "MÊS PASSADO · 18:20",
+   "fala": "A porta abriu e o Tremoço foi direto pro sofá.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "O sofá não!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "A ideia foi da Clarinha, de nove anos: tapete na porta e esperar a toalha.",
+   "topo": [
+    "A IDEIA DA CLARINHA"
+   ],
+   "de": "PORTA = CORRIDA",
+   "para": "PORTA = TOALHA",
+   "para_palavra": "toalha"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "O TREINO",
+   "fala": "Todo dia um pouquinho: tapete, espera, toalha, petisco.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Um, dois, três… pode!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 18:00",
+   "fala": "Hoje. Seis da tarde, chuva e poça em cada esquina.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 620,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 18:20",
+   "fala": "A porta abriu. Ele parou no tapete e esperou a toalha. A avó nem acreditou.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "comemora",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Esse é o mesmo cachorro?"
+    }
+   ],
+   "camera": {
+    "foco": "sindica",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, entra correndo depois do passeio? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Depois do passeio, seu cão…",
+   "opcoes": [
+    "Corre pro sofá",
+    "Sacode na sala",
+    "Espera a toalha"
+   ],
+   "escolha": 0,
+   "resultado": "SOFÁ SALVO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

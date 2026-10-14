@@ -1,0 +1,170 @@
+{
+ "id": "h065-croquete-ladrao-do-controle",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "O Croquete explica por que rouba o controle remoto toda noite 📺\nEle mesmo descobriu: pegar o controle era o jeito mais rápido de ganhar atenção. Quando a família passou a brincar com ele antes da novela e a trocar o controle por um brinquedo, o jogo mudou.\nE o seu, rouba alguma coisa pra você correr atrás? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#comportamentocanino #adestramento #cachorro #cachorrolevado #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Croquete. E eu achei o botão que liga a família inteira.",
+   "linhas": [
+    "EU SOU O CROQUETE",
+    "DESCOBRI O BOTÃO",
+    "QUE LIGA A FAMÍLIA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "20:59",
+   "fala": "Nove da noite. Todo mundo olhando a tela. Ninguém olhando pra mim.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "normal",
+     "pose": "parado"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "normal",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "21:00",
+   "fala": "Aí eu pego o controle. E todo mundo levanta. Mágica.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "surpreso",
+     "pose": "aponta"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "bravo",
+     "pose": "maos_cintura",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Croquete, larga isso!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "21:01",
+   "fala": "Eles correm atrás de mim. Melhor jogo do dia.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Pra muitos cães, ser perseguido é brincadeira. Correr atrás pode ensinar a roubar mais.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "PEGA-PEGA",
+    "pra ele, é brincadeira"
+   ],
+   "icone": "bola"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "20:30",
+   "fala": "Agora a Helena brinca comigo antes da novela. Eu chego cansado.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "21:00",
+   "fala": "Se eu pego o controle, ela troca por um brinquedo. Ninguém corre. Perdeu a graça.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, rouba alguma coisa pra você correr atrás? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que seu cão rouba?",
+   "opcoes": [
+    "Controle",
+    "Meia",
+    "Nada"
+   ],
+   "escolha": 0,
+   "resultado": "TROCA, NÃO CORRIDA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

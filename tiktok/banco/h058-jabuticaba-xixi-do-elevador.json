@@ -1,0 +1,177 @@
+{
+ "id": "h058-jabuticaba-xixi-do-elevador",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A Jabuticaba explica por que o elevador virou o banheiro dela 🛗\nQuem deu a dica foi o Seu Ivo, do 9º: descer no colo nas primeiras semanas e ir direto pro cantinho de grama, com festa quando ela acerta.\nO seu já fez xixi no elevador? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #apartamento #condominio #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Jabuticaba. E eu achava que o elevador era o meu banheiro.",
+   "linhas": [
+    "EU SOU A JABUTICABA",
+    "O ELEVADOR ERA",
+    "MEU BANHEIRO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "07:00",
+   "fala": "A Nina pega a guia. Eu seguro, seguro… e o elevador abre.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "07:01",
+   "fala": "Fiz ali mesmo. E o Seu Ivo entrou.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_cabeca",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Bom dia, Jabuticaba. Que surpresa."
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 560,
+     "y": 1450,
+     "em": 0.3
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "07:05",
+   "fala": "Na grama, eu só cheirei.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "À NOITE",
+   "fala": "À noite, o Seu Ivo bateu na porta. Ele também já teve filhote.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Nas primeiras semanas, desce com ela no colo. Direto pra grama."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Filhote costuma precisar fazer xixi logo depois de acordar.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "LOGO AO ACORDAR",
+    "o filhote precisa ir"
+   ],
+   "icone": "relogio"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 07:02",
+   "fala": "Agora eu desço no colo. Grama, xixi, e a Nina faz festa. Eu adoro festa.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já fez xixi no elevador? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O lugar mais vergonhoso…",
+   "opcoes": [
+    "Elevador",
+    "Portaria",
+    "Nunca rolou"
+   ],
+   "escolha": 0,
+   "resultado": "ELEVADOR LIMPO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

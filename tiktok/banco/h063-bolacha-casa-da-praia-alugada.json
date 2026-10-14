@@ -1,0 +1,166 @@
+{
+ "id": "h063-bolacha-casa-da-praia-alugada",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Casa de praia alugada, aceita pet. E a Bolacha marcou território na cama da anfitriã 🏖️\nQuem salvou a viagem foi a própria dona da casa, que também tem cachorro: levar o tapete higiênico de casa, com o cheiro dele, e mostrar o lugar logo na chegada.\nE o seu, estranha casa nova? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #viajarcomcachorro #adestramento #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Casa alugada, aceita pet. E a Bolacha fez xixi na cama da dona.",
+   "linhas": [
+    "CASA ALUGADA",
+    "ACEITA PET",
+    "XIXI NA CAMA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "SÁBADO · 10:00",
+   "fala": "Primeira manhã. Lençol branco. E uma mancha bem no meio.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "10:05",
+   "fala": "A Rafa já via a avaliação de uma estrela.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Como eu conto isso pra ela?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "10:30",
+   "fala": "A dona da casa chegou em dez minutos. Com o cachorro dela.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 280,
+     "humor": "normal",
+     "pose": "guia"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Calma. Isso acontece toda temporada."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão usa o cheiro pra escolher onde fazer xixi.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O NARIZ ESCOLHE",
+    "lugar novo confunde"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "virada",
+   "fala": "A dica: levar o tapetinho de casa, com o cheiro dele, e mostrar o lugar na chegada.",
+   "topo": [
+    "A DICA DA DONA DA CASA"
+   ],
+   "de": "LUGAR ESTRANHO",
+   "para": "TAPETINHO DE CASA",
+   "para_palavra": "tapetinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 08:00",
+   "fala": "No domingo, a Bolacha acordou e foi direto pro tapetinho.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, estranha casa nova? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Em lugar novo, seu cão…",
+   "opcoes": [
+    "Faz xixi em tudo",
+    "Fica desconfiado",
+    "Nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "VIAGEM SALVA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

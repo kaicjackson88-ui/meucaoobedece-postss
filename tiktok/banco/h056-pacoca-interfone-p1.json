@@ -1,0 +1,161 @@
+{
+ "id": "h056-pacoca-interfone-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "Como fazer o cachorro parar de latir pro interfone? A Paçoca ainda não sabia a resposta 🔔 PARTE 1\nCada vez que o interfone tocava, o 11º andar inteiro ficava sabendo. E na sexta, quem interfonou foi a síndica.\nO que você acha que ela queria? Comenta 1, 2 ou 3 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #condominio #apartamento #adestramento",
+ "serie": "pacoca-interfone",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Se o seu cachorro late pro interfone, assiste até o fim. Parte um.",
+   "linhas": [
+    "LATE PRO INTERFONE?",
+    "ASSISTE ATÉ O FIM",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 19:02",
+   "fala": "Segunda, sete da noite. O interfone tocou. A Paçoca disparou pra porta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "19:03",
+   "fala": "O Caio, do lado, bateu na parede.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "De novo, Paçoca?",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Jatobá · Moradores",
+   "membros": "52 participantes",
+   "quando": "19:10",
+   "fala": "No grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "O interfone do 1103 tem alarme de cachorro embutido?"
+    },
+    {
+     "quem": "carla",
+     "texto": "Desculpa, gente. Tô tentando."
+    }
+   ],
+   "nomes": {
+    "carla": "Lívia (1103)",
+    "vizinho": "Seu Damião (porteiro)",
+    "sindica": "Síndica Rute",
+    "pedro": "Caio (1104)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUARTA · 20:15",
+   "fala": "Quarta, entrega de pizza. Ela latiu até a pizza esfriar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEXTA · 21:40",
+   "fala": "Sexta à noite, o interfone tocou de novo. Era o Seu Damião, da portaria.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Dona Lívia, a síndica tá subindo pra falar com a senhora."
+    }
+   ],
+   "camera": {
+    "foco": "carla",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que a síndica queria? Comenta 1, 2 ou 3. Segue pra ver a Parte dois. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que a síndica queria?",
+   "opcoes": [
+    "Dar uma multa",
+    "Pedir silêncio",
+    "Outra coisa"
+   ],
+   "escolha": 0,
+   "resultado": "PARTE 2 JÁ JÁ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,163 @@
+{
+ "id": "h064-tico-foge-do-cortador-de-unha",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "sol",
+ "legenda": "Era só cortar a unha do Tico. Precisou de três pessoas e uma toalha 😅\nQuem mostrou outro caminho foi a veterinária: deixar ele cheirar o cortador, ganhar petisco, e ir aos poucos, uma unha por dia se precisar. Se ele sente dor ou fica muito estressado, quem corta é o profissional.\nE o seu, deixa cortar a unha? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cuidadoscomcachorro #cachorro #adestramento #reforcopositivo #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Era só cortar a unha do Tico. Precisou de três pessoas e uma toalha.",
+   "linhas": [
+    "SÓ CORTAR A UNHA",
+    "3 PESSOAS",
+    "E UMA TOALHA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 16:00",
+   "fala": "Domingo. O Vítor pegou o cortador. O Tico viu e sumiu.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Tico, é rapidinho!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "16:02",
+   "fala": "Achou ele embaixo da cama. A namorada segurou a toalha, o irmão as patas.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 280,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AUUU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "16:20",
+   "fala": "Vinte minutos depois: uma unha. E todo mundo exausto.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Na consulta, a veterinária mostrou outro caminho: o cortador tem que virar coisa boa.",
+   "topo": [
+    "A DICA DA VETERINÁRIA"
+   ],
+   "de": "CORTADOR = LUTA",
+   "para": "CORTADOR = PETISCO",
+   "para_palavra": "petisco"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TODO DIA",
+   "fala": "Todo dia, um pouquinho. Cheira o cortador, petisco. Toca na pata, petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE",
+   "fala": "Hoje o Tico estica a pata. E só precisa de uma pessoa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, deixa cortar a unha? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na hora da unha, seu cão…",
+   "opcoes": [
+    "Foge",
+    "Deixa com petisco",
+    "Nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "UNHA SEM LUTA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

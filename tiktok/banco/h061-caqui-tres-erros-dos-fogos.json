@@ -1,0 +1,139 @@
+{
+ "id": "h061-caqui-tres-erros-dos-fogos",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "3 coisas que você faz quando o seu cão tem medo de fogos. E ele entende tudo errado 🎆\nTirar ele do esconderijo, deixar sozinho no quintal e esperar o dia 31 pra pensar nisso. O certo: cantinho seguro desde já, som baixinho com petisco. Se o medo for muito forte, converse com o veterinário com antecedência.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #cachorroansioso #adestramento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz quando o seu cão tem medo de fogos. E ele entende tudo errado.",
+   "linhas": [
+    "3 ERROS COM FOGOS",
+    "QUE VOCÊ JÁ FEZ",
+    "ELE ENTENDE ERRADO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "ERRO 1",
+   "fala": "Erro um: puxar o Caqui de baixo da cama. Ele entende: nem o esconderijo é seguro.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ERRO 2",
+   "fala": "Erro dois: sozinho no quintal na virada. Ele entende: o mundo acabou e eu tô sozinho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AUUU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "ERRO 3",
+   "fala": "Erro três: lembrar só no dia trinta e um. Aí não dá tempo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": false
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão escuta bem mais que a gente. O estouro chega mais forte pra ele.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O OUVIDO DELE",
+    "escuta muito mais que o seu"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "O CERTO",
+   "fala": "O certo: começar agora. Cantinho seguro, som baixinho e petisco. Medo forte? Veterinário antes.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "objetos": [
+    {
+     "nome": "almofada",
+     "x": 760,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você já fez o erro…",
+   "opcoes": [
+    "1 tirar do esconderijo",
+    "2 sozinho no quintal",
+    "3 deixar pra dezembro"
+   ],
+   "escolha": 0,
+   "resultado": "PLANO DE RÉVEILLON",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
