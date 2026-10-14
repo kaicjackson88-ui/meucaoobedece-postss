@@ -3,13 +3,20 @@ crédito obrigatório (não vale distribuir o vídeo cru, nem usar pessoa reconh
 Busca cães fazendo as dores do nosso produto, confere pelas tags se o vídeo mostra mesmo aquilo, prioriza vídeo
 em pé (9:16) e os mais baixados, e monta as mesmas pranchas/compilado/lista do garimpo do Mixkit em garimpo/.
 Precisa do segredo PIXABAY_API_KEY (variável de ambiente). Uso: python scripts/garimpo_pixabay.py"""
-import json, os, sys, time, urllib.error, urllib.parse, urllib.request
+import json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import garimpo_videos as gv  # noqa: E402
 
-CHAVE = os.environ.get('PIXABAY_API_KEY', '').strip()
+_BRUTA = os.environ.get('PIXABAY_API_KEY', '')
+_ACHOU = re.search(r'\d{4,}-[0-9a-fA-F]{16,}', _BRUTA)  # formato da chave do Pixabay; ignora "Sua chave API:", espaços etc.
+CHAVE = _ACHOU.group(0) if _ACHOU else _BRUTA.strip()
+
+
+def diagnostico():
+    """Descreve a chave sem revelar: tamanho e se bate com o formato número-hex."""
+    return f'tamanho bruto {len(_BRUTA)}, usado {len(CHAVE)}, formato número-hex: {"sim" if _ACHOU else "NÃO"}'
 API = 'https://pixabay.com/api/videos/'
 CAES = {'canine', 'pet', 'pets', 'pup', 'labrador', 'retriever', 'beagle', 'chihuahua', 'poodle', 'husky', 'bulldog', 'terrier',
         'shepherd', 'corgi', 'pug', 'dachshund', 'spitz', 'pomeranian', 'schnauzer', 'collie', 'rottweiler', 'doberman'}
@@ -47,7 +54,7 @@ def api(**extra):
         except urllib.error.HTTPError as e:
             corpo = e.read().decode('utf-8', 'ignore')[:120]
             if e.code in (400, 401, 403) and 'key' in corpo.lower():
-                sys.exit('CHAVE_INVALIDA: o Pixabay recusou a chave. Confira o segredo PIXABAY_API_KEY.')
+                sys.exit(f'CHAVE_INVALIDA: o Pixabay recusou a chave ({e.code}: {corpo[:60]}; {diagnostico()}). Confira o segredo PIXABAY_API_KEY.')
             print('  busca falhou', rotulo, e.code, corpo); time.sleep(30 if e.code == 429 else 5 * (t + 1))
         except Exception as e:  # noqa: BLE001
             print('  busca falhou', rotulo, str(e)[:60]); time.sleep(5 * (t + 1))
