@@ -1,0 +1,29 @@
+name: Gravar a tela do quiz (iPhone)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gravar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar
+        run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+          pip install -q playwright==1.55.0
+          timeout 300 python -m playwright install --with-deps chromium || python -m playwright install chromium
+      - name: Gravar
+        run: python scripts/gravar_quiz.py
+      - name: Subir num branch próprio
+        if: always()
+        run: |
+          git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
+          python -c "import sys,glob;sys.path.insert(0,'scripts');import reels;print(reels.subir_arquivos(sorted(glob.glob('quiz/*')),'gravacao-quiz'))"
