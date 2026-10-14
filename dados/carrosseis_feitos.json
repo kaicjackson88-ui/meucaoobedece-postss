@@ -162,5 +162,16 @@
   "pasta": "2026-10-14-1200-pulo",
   "media_id": "17949460077324747",
   "link": "https://www.instagram.com/p/Deep90AIB2l/"
+ },
+ {
+  "slot": "2026-10-14 15:00",
+  "seg": "pulo",
+  "tema": "Pula nas pessoas",
+  "gancho": "Seu cão pula em todo mundo que chega?",
+  "assin": "pulo|Seu cão [pula] em todo mundo que chega?|0,1,3",
+  "seed": 796516689,
+  "media_id": "17927759538184919",
+  "link": "https://www.instagram.com/p/Dee-mg9GHiX/",
+  "publicado_em": "2026-10-14T18:00:52.114108+00:00"
  }
 ]
