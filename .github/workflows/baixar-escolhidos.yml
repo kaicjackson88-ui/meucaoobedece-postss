@@ -1,0 +1,41 @@
+name: Baixar escolhidos em HD (cifrados)
+
+on:
+  workflow_dispatch:
+    inputs:
+      escolhidos:
+        description: "Números das pranchas e/ou links do Pixabay/Mixkit, separados por vírgula"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ferramentas
+        run: sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Lista do último garimpo
+        run: |
+          git fetch -q origin garimpo-videos:refs/remotes/origin/garimpo-videos || true
+          git show origin/garimpo-videos:candidatos.json > /tmp/candidatos.json 2>/dev/null || echo '[]' > /tmp/candidatos.json
+          python -c "import json;print(len(json.load(open('/tmp/candidatos.json'))),'candidatos no último garimpo')"
+      - name: Baixar e cifrar
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          ESCOLHIDOS: ${{ inputs.escolhidos }}
+        run: |
+          set -o pipefail
+          mkdir -p escolhidos
+          python scripts/baixar_escolhidos.py /tmp/candidatos.json 2>&1 | tee escolhidos/log.txt
+      - name: Subir num branch próprio
+        if: always()
+        run: |
+          git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
+          python -c "import sys,glob;sys.path.insert(0,'scripts');import reels;print(reels.subir_arquivos(sorted(glob.glob('escolhidos/*')),'videos-escolhidos'))"

@@ -71,6 +71,23 @@ def licenca(pagina):
     return 'conferir'
 
 
+def medir(arq):
+    """Duração (s), formato e tamanho do vídeo, pelo ffprobe."""
+    dur = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(arq)], capture_output=True, text=True).stdout.strip()
+    wh = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', str(arq)], capture_output=True, text=True).stdout.strip()
+    d = {'dur': 0, 'formato': '?', 'largura': 0, 'altura': 0}
+    try:
+        d['dur'] = round(float(dur), 1)
+    except ValueError:
+        pass
+    try:
+        w, h = map(int, wh.split(',')[:2])
+        d.update(formato='vertical' if h > w else 'horizontal', largura=w, altura=h)
+    except ValueError:
+        pass
+    return d
+
+
 def main():
     todos = coletar()
     cand = []
@@ -96,23 +113,17 @@ def main():
             print('  sem prévia', v['id']); continue
         arq.write_bytes(dados)
         v['licenca'] = licenca(v['pagina'])
-        dur = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(arq)], capture_output=True, text=True).stdout.strip()
-        wh = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', str(arq)], capture_output=True, text=True).stdout.strip()
-        try:
-            v['dur'] = round(float(dur), 1)
-        except ValueError:
-            v['dur'] = 0
-        try:
-            w, h = map(int, wh.split(',')[:2]); v['formato'] = 'vertical' if h > w else 'horizontal'
-        except ValueError:
-            v['formato'] = '?'
-        v['arq'] = str(arq); ok.append(v)
+        v['hd'] = f"https://assets.mixkit.co/videos/{v['id']}/{v['id']}-720.mp4"
+        v.update(medir(arq)); v['arq'] = str(arq); ok.append(v)
     montar(ok, 'Mixkit', 'Licença gratuita do Mixkit: uso comercial e em anúncios online, sem crédito obrigatório. Itens com licença restrita NÃO podem ir em anúncio.')
     print('prontos:', len(ok))
 
 
+LADO = 540  # miniatura quadrada: no celular dá pra ver bem tanto vídeo em pé quanto deitado
+
+
 def montar(ok, fonte, aviso):
-    """Numera os candidatos e gera miniaturas, pranchas, compilado e lista em garimpo/."""
+    """Numera os candidatos e gera miniaturas, pranchas (2 colunas x 6 linhas), compilado e lista em garimpo/."""
     for n, v in enumerate(ok, 1):
         v['n'] = n
     thumbs = []
@@ -120,29 +131,30 @@ def montar(ok, fonte, aviso):
         th = TMP / f"t{v['n']}.jpg"
         meio = max(0.5, v['dur'] / 2)
         subprocess.run(['ffmpeg', '-y', '-v', 'error', '-ss', str(meio), '-i', v['arq'], '-frames:v', '1', '-vf',
-                        "scale=480:270:force_original_aspect_ratio=decrease,pad=480:270:(ow-iw)/2:(oh-ih)/2:color=black,"
-                        f"drawbox=x=0:y=0:w=74:h=46:color=black@0.75:t=fill,drawtext=text='{v['n']}':x=12:y=6:fontsize=34:fontcolor=yellow,"
-                        f"drawbox=x=0:y=236:w=480:h=34:color=black@0.6:t=fill,drawtext=text='{v['cat']}':x=10:y=242:fontsize=20:fontcolor=white",
+                        f"scale={LADO}:{LADO}:force_original_aspect_ratio=decrease,pad={LADO}:{LADO}:(ow-iw)/2:(oh-ih)/2:color=black,setsar=1,"
+                        f"drawbox=x=0:y=0:w=104:h=66:color=black@0.75:t=fill,drawtext=text='{v['n']}':x=14:y=8:fontsize=48:fontcolor=yellow,"
+                        f"drawbox=x=0:y={LADO - 46}:w={LADO}:h=46:color=black@0.6:t=fill,drawtext=text='{v['cat']}':x=12:y={LADO - 38}:fontsize=28:fontcolor=white",
                         str(th)], check=False)
         if th.exists():
             thumbs.append(th)
-    for p in range(0, len(thumbs), 12):
-        grupo = thumbs[p:p + 12]
+    cols, por = 2, 12
+    for p in range(0, len(thumbs), por):
+        grupo = thumbs[p:p + por]
         entradas = []
         for t in grupo:
             entradas += ['-i', str(t)]
-        n = len(grupo); cols = 3
-        layout = '|'.join(f'{(k % cols) * 480}_{(k // cols) * 270}' for k in range(n))
+        n = len(grupo)
+        layout = '|'.join(f'{(k % cols) * LADO}_{(k // cols) * LADO}' for k in range(n))
         filtro = f"xstack=inputs={n}:layout={layout}:fill=black" if n > 1 else 'null'
-        subprocess.run(['ffmpeg', '-y', '-v', 'error', *entradas, '-filter_complex', filtro, '-frames:v', '1', '-q:v', '3', str(OUT / f'prancha_{p // 12 + 1}.jpg')], check=False)
+        subprocess.run(['ffmpeg', '-y', '-v', 'error', *entradas, '-filter_complex', filtro, '-frames:v', '1', '-q:v', '3', str(OUT / f'prancha_{p // por + 1}.jpg')], check=False)
     partes = []
     for v in ok:
         pt = TMP / f"c{v['n']}.mp4"; ini = max(0, v['dur'] / 2 - 1.5)
         subprocess.run(['ffmpeg', '-y', '-v', 'error', '-ss', str(ini), '-t', '3', '-i', v['arq'], '-an', '-vf',
-                        "scale=640:360:force_original_aspect_ratio=decrease,pad=640:360:(ow-iw)/2:(oh-ih)/2:color=black,fps=30,"
-                        f"drawbox=x=0:y=0:w=110:h=60:color=black@0.75:t=fill,drawtext=text='{v['n']}':x=16:y=8:fontsize=44:fontcolor=yellow,"
-                        f"drawtext=text='{v['cat']}':x=126:y=18:fontsize=24:fontcolor=white:box=1:boxcolor=black@0.6:boxborderw=6",
-                        '-c:v', 'libx264', '-crf', '30', '-preset', 'veryfast', '-pix_fmt', 'yuv420p', str(pt)], check=False)
+                        "scale=720:720:force_original_aspect_ratio=decrease,pad=720:720:(ow-iw)/2:(oh-ih)/2:color=black,setsar=1,fps=30,"
+                        f"drawbox=x=0:y=0:w=134:h=82:color=black@0.75:t=fill,drawtext=text='{v['n']}':x=18:y=10:fontsize=60:fontcolor=yellow,"
+                        f"drawtext=text='{v['cat']}':x=150:y=24:fontsize=32:fontcolor=white:box=1:boxcolor=black@0.6:boxborderw=8",
+                        '-c:v', 'libx264', '-crf', '28', '-preset', 'veryfast', '-pix_fmt', 'yuv420p', str(pt)], check=False)
         if pt.exists():
             partes.append(pt)
     (TMP / 'lista.txt').write_text(''.join(f"file '{p}'\n" for p in partes))

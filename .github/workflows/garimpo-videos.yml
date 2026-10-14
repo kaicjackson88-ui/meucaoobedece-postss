@@ -1,4 +1,4 @@
-name: Garimpo de vídeos (Mixkit)
+name: Garimpo de vídeos (Pixabay / Pexels / Mixkit)
 
 on:
   workflow_dispatch:
@@ -17,12 +17,16 @@ jobs:
           python-version: "3.12"
       - name: Ferramentas
         run: sudo apt-get install -y -qq ffmpeg fonts-dejavu-core >/dev/null
-      - name: Garimpar (Pexels se houver a chave; senão Mixkit)
+      - name: Garimpar (Pixabay se houver a chave; senão Pexels; senão Mixkit)
         env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
+          set -o pipefail
           mkdir -p garimpo
-          if [ -n "$PEXELS_API_KEY" ]; then python scripts/garimpo_pexels.py 2>&1 | tee garimpo/log.txt; else python scripts/garimpo_videos.py 2>&1 | tee garimpo/log.txt; fi
+          if [ -n "$PIXABAY_API_KEY" ]; then s=garimpo_pixabay; elif [ -n "$PEXELS_API_KEY" ]; then s=garimpo_pexels; else s=garimpo_videos; fi
+          echo "fonte: $s" | tee garimpo/log.txt
+          python scripts/$s.py 2>&1 | tee -a garimpo/log.txt
       - name: Subir resultado num branch próprio
         if: always()
         run: |
