@@ -1,0 +1,32 @@
+passo 1 ok 6
+passo 2 ok 4
+passo 3 ok 5
+passo 4 ok 4
+passo 5 ok 3
+passo 6 ok 3
+passo 7 fim
+gravado: 3451532 bytes
+ok dor1
+ok dor2
+ok dor3
+ok dor4
+ok dor5
+ok painel
+ok mods
+ok mod1
+ok mod2
+ok mod3
+ok mod4
+ok mod5
+ok mod6
+ok mod7
+ok skin1
+ok skin2
+ok skin3
+ok skins
+ok stack
+ok oferta
+ok garantia
+ok mascote
+ok mecok
+ok carrossel
