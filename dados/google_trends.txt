@@ -1,14 +1,7 @@
-erro tentativa 0: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro tentativa 1: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro tentativa 2: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro tentativa 3: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro tentativa 0: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro tentativa 1: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro tentativa 2: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro tentativa 3: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro adestramento tentativa 0: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro adestramento tentativa 1: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro adestramento tentativa 2: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro cachorro xixi tentativa 0: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro cachorro xixi tentativa 1: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
-erro cachorro xixi tentativa 2: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+MÉDIA 12 MESES (0-100, relativo dentro do grupo): {"cachorro xixi": 84.8, "cachorro puxando": 0.9, "cachorro latindo": 24.3, "cachorro mordendo": 20.7, "ansiedade de separação": 4.3}
+MÉDIA 12 MESES (0-100, relativo dentro do grupo): {"cachorro xixi": 84.8, "adestramento": 22.2, "adestrar cachorro": 5.6, "cachorro pulando": 2.5, "cachorro não obedece": 0.0}
+adestramento | buscas relacionadas top: adestramento de cães (100); adestramento de cachorro (41); curso de adestramento (37); coleira adestramento (34); adestramento de caes (32); curso adestramento de cães (22); curso de adestramento de cães (22); coleira de adestramento (18); adestramento canino (13); guia de adestramento (12); adestrador de cães (10); adestramento online (7); clicker adestramento (6); clicker (6); adestramento inteligente (6)
+adestramento | buscas relacionadas rising: justiça mantém a condenação da empresa pela morte de um cão durante adestramento (20000); adestramento inteligente (40)
+adestramento | estados com mais interesse: Distrito Federal (100), Santa Catarina (90), Rio Grande do Sul (86), São Paulo (78), Paraná (70), Rio de Janeiro (66), Roraima (65), Mato Grosso do Sul (50)
+cachorro xixi | buscas relacionadas top: xixi pode (100); cachorro fazendo xixi (97); limpar xixi de cachorro (53); tapete de xixi cachorro (46); como tirar cheiro de xixi de cachorro (46); como limpar xixi de cachorro (25); cachorro nao faz xixi (17)
+cachorro xixi | estados com mais interesse: São Paulo (100), Minas Gerais (89), Rio de Janeiro (72), Paraná (71), Distrito Federal (71), Rio Grande do Sul (71), Santa Catarina (70), Espírito Santo (67)
