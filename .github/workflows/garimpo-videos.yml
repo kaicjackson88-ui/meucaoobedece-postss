@@ -1,0 +1,26 @@
+name: Garimpo de vídeos (Mixkit)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  garimpo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ferramentas
+        run: sudo apt-get install -y -qq ffmpeg fonts-dejavu-core >/dev/null
+      - name: Garimpar
+        run: mkdir -p garimpo && python scripts/garimpo_videos.py 2>&1 | tee garimpo/log.txt
+      - name: Subir resultado num branch próprio
+        if: always()
+        run: |
+          git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
+          python -c "import sys,glob;sys.path.insert(0,'scripts');import reels;print(reels.subir_arquivos(sorted(glob.glob('garimpo/*')),'garimpo-videos'))"
