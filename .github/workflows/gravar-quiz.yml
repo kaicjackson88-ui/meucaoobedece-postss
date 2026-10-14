@@ -25,6 +25,9 @@ jobs:
           set -o pipefail
           mkdir -p quiz
           python scripts/gravar_quiz.py 2>&1 | tee quiz/log.txt
+      - name: Prints dos blocos do site
+        if: always()
+        run: python scripts/capturar_site.py 2>&1 | tee -a quiz/log.txt
       - name: Subir num branch próprio
         if: always()
         run: |
