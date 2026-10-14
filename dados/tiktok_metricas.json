@@ -1,16 +1,16 @@
 {
  "perfil": {
-  "likes_count": 103,
-  "video_count": 46,
   "display_name": "Meucaobedece",
-  "follower_count": 6
+  "follower_count": 6,
+  "likes_count": 103,
+  "video_count": 46
  },
- "atualizado": "2026-10-13T23:47:59.651687-03:00",
+ "atualizado": "2026-10-14T04:59:29.778731-03:00",
  "videos": [
   {
    "video": "7696294639434812678",
    "roteiro": "h053-torresmo-sombra-da-bruna",
-   "views": 42,
+   "views": 75,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -22,7 +22,7 @@
   {
    "video": "7696294462166928641",
    "roteiro": "h037-fuba-latido-da-sacada",
-   "views": 45,
+   "views": 88,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -34,7 +34,7 @@
   {
    "video": "7696294251956686081",
    "roteiro": "h054-banze-abraco-da-sobrinha-quiz",
-   "views": 44,
+   "views": 90,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -46,7 +46,7 @@
   {
    "video": "7696258469342498100",
    "roteiro": "h052-pitanga-racao-da-gata",
-   "views": 84,
+   "views": 102,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -58,7 +58,7 @@
   {
    "video": "7696258062268534022",
    "roteiro": "h049-brisa-empaca-na-calcada-quiz",
-   "views": 84,
+   "views": 94,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -70,7 +70,7 @@
   {
    "video": "7696257804365024513",
    "roteiro": "h035-pudim-foge-do-banho",
-   "views": 83,
+   "views": 91,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -82,7 +82,7 @@
   {
    "video": "7696257484297637126",
    "roteiro": "h046-cuscuz-capacho-do-vizinho-p2",
-   "views": 80,
+   "views": 93,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -94,11 +94,11 @@
   {
    "video": "7696257201928785158",
    "roteiro": null,
-   "views": 85,
+   "views": 90,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0118,
+   "engaj": 0.0111,
    "duracao": 34,
    "link": "https://www.tiktok.com/@meucaobedece/video/7696257201928785158?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-13T20:48:55+00:00"
@@ -142,11 +142,11 @@
   {
    "video": "7695938601460288789",
    "roteiro": "h031-nino-rojao-quiz",
-   "views": 133,
+   "views": 135,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0075,
+   "engaj": 0.0074,
    "duracao": 36,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695938601460288789?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-13T00:12:23+00:00"
@@ -178,11 +178,11 @@
   {
    "video": "7695849094908005638",
    "roteiro": "h048-bacon-pilastra-da-garagem",
-   "views": 118,
+   "views": 121,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0085,
+   "engaj": 0.0083,
    "duracao": 37,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695849094908005638?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-12T18:25:24+00:00"
@@ -190,7 +190,7 @@
   {
    "video": "7695848652169907508",
    "roteiro": "h034-tapioca-predio-novo-p2",
-   "views": 102,
+   "views": 104,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -490,11 +490,11 @@
   {
    "video": "7694677000820231476",
    "roteiro": "h005-vistoria-apartamento",
-   "views": 145,
+   "views": 148,
    "curtidas": 3,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0207,
+   "engaj": 0.0203,
    "duracao": 74,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694677000820231476?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T14:37:07+00:00"
