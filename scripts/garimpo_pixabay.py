@@ -33,28 +33,28 @@ CAES = {'canine', 'pet', 'pets', 'pup', 'labrador', 'retriever', 'beagle', 'chih
 FORA = {'cat', 'cats', 'kitten', 'kittens', 'animation', 'animated', 'cartoon', 'illustration', 'render', '3d', 'statue',
         'sculpture', 'plush', 'stuffed', 'robot'}
 # (categoria, buscas, começo de palavra que precisa aparecer nas tags) — na ordem de importância para o anúncio
-BUSCAS = [
-    ('xixi', ['dog pee', 'puppy pee', 'dog peeing', 'dog urinating', 'puppy potty', 'dog poop'],
-     ('pee', 'urin', 'potty', 'toilet', 'poop', 'puddle', 'diaper')),
-    ('roendo', ['dog chewing', 'puppy chewing', 'dog shoe', 'dog destroying', 'dog slipper'],
-     ('chew', 'bite', 'biting', 'shoe', 'slipper', 'destroy', 'pillow', 'mess')),
-    ('latindo', ['dog barking', 'barking dog', 'dog bark', 'dog growling'], ('bark', 'howl', 'growl')),
-    ('puxando a guia', ['dog leash', 'dog pulling leash', 'dog walking leash'], ('leash',)),
-    ('pulando', ['dog jumping', 'excited dog', 'dog jump'], ('jump', 'excite')),
-    ('nao obedece', ['dog running away', 'stubborn dog', 'naughty dog', 'dog escaping'],
-     ('run', 'stubborn', 'naughty', 'escap', 'chas', 'disobe')),
-    ('calmo e treino', ['dog training', 'dog sit', 'dog treat', 'dog obedience', 'calm dog'],
-     ('train', 'sit', 'treat', 'obedien', 'command', 'calm', 'relax', 'lying')),
-    ('tutor no celular', ['woman phone dog', 'man phone dog', 'smartphone dog'], ('phone', 'smartphone', 'mobile', 'cellphone')),
+BUSCAS = [  # buscas curtas: o Pixabay exige todas as palavras nas tags. A triagem fina é feita olhando os vídeos.
+    ('xixi', ['dog pee', 'puppy pee', 'dog urine', 'puppy potty', 'puppy pad', 'dog toilet', 'dog accident', 'puppy indoor',
+              'puppy floor', 'puppy carpet', 'dog carpet', 'dog poop'], ()),
+    ('limpando chao', ['mopping floor', 'cleaning floor', 'cleaning carpet', 'floor cleaning', 'mop'], None),
+    ('roendo', ['dog chewing', 'puppy chewing', 'dog shoe', 'dog slipper', 'puppy shoe', 'dog sofa', 'dog pillow', 'dog mess'], ()),
+    ('latindo', ['dog barking', 'barking dog', 'dog bark', 'dog door', 'dog window', 'small dog barking'], ()),
+    ('puxando a guia', ['dog leash', 'dog walking', 'dog pulling'], ()),
+    ('pulando', ['dog jumping', 'dog jumps', 'dog jump owner', 'dog greeting'], ('jump',)),
+    ('tutor e cao', ['woman dog home', 'man dog sofa', 'dog owner', 'woman puppy', 'dog training', 'dog sit', 'dog treat'], ()),
+    ('tutor no celular', ['phone dog', 'smartphone dog', 'woman phone', 'smartphone sofa'], None),
+    ('calmo', ['calm dog', 'dog sleeping', 'dog lying', 'happy dog home'], ()),
 ]
-POR_CATEGORIA = {'xixi': 8, 'roendo': 7, 'latindo': 6, 'puxando a guia': 6, 'pulando': 5, 'nao obedece': 5, 'calmo e treino': 7, 'tutor no celular': 4}
+# None = não precisa ter cão (ex.: alguém limpando o chão); () = basta ter cão nas tags
+POR_CATEGORIA = {'xixi': 14, 'limpando chao': 8, 'roendo': 10, 'latindo': 10, 'puxando a guia': 6, 'pulando': 6, 'tutor e cao': 10,
+                 'tutor no celular': 8, 'calmo': 8}
 AVISO = ('Licença de conteúdo do Pixabay: uso comercial, inclusive em anúncio, sem crédito obrigatório. Não vale: distribuir o vídeo '
          'cru, apresentar como cliente real ou "antes e depois", nem sugerir que a pessoa do vídeo recomenda o produto.')
 
 
 def api(**extra):
     """Uma busca na API de vídeos do Pixabay (uma página, os mais populares primeiro). Nunca imprime a URL: ela leva a chave."""
-    params = {'key': CHAVE, 'video_type': 'film', 'safesearch': 'true', 'order': 'popular', 'per_page': 50, **extra}
+    params = {'key': CHAVE, 'video_type': 'film', 'safesearch': 'true', 'order': 'popular', 'per_page': 30, **extra}
     req = urllib.request.Request(API + '?' + urllib.parse.urlencode(params), headers={'User-Agent': 'meu-cao-obedece/1.0'})
     rotulo = extra.get('q') or extra.get('id')
     for t in range(3):
@@ -78,8 +78,12 @@ def palavras(tags):
 def serve(h, chaves):
     """Tem cão nas tags, não tem gato/desenho, e tem alguma palavra da dor procurada."""
     ws = palavras(h.get('tags'))
+    if any(w in FORA for w in ws):
+        return False
+    if chaves is None:  # categoria sem cão (limpeza, celular)
+        return True
     tem_cao = any(w.startswith(('dog', 'pupp')) or w in CAES for w in ws)
-    return tem_cao and not any(w in FORA for w in ws) and any(w.startswith(chaves) for w in ws)
+    return tem_cao and (not chaves or any(w.startswith(chaves) for w in ws))
 
 
 def versoes(h):
