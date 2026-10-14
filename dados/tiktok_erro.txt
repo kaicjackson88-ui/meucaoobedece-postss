@@ -1,1 +1,1 @@
-2026-10-14T17:25:44.853761-03:00 h059-rabanete-caminhao-do-lixo: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261015042544389B87DB0EF6B64E10CA"}}
+2026-10-14T17:35:48.665252-03:00 h059-rabanete-caminhao-do-lixo: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261015043548503CA8F516F26E54324E"}}
