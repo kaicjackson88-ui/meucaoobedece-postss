@@ -13,6 +13,9 @@ _BRUTA = os.environ.get('PIXABAY_API_KEY', '')
 # o celular às vezes troca o hífen por travessão ou cola caractere invisível: normaliza antes de procurar a chave
 _LIMPA = re.sub(r'[\s​-‍⁠﻿]', '', re.sub(r'[‐-―−﹘﹣－]', '-', _BRUTA))
 _ACHOU = re.search(r'\d{4,}-[0-9a-fA-F]{16,}', _LIMPA)  # formato da chave do Pixabay; ignora "Sua chave API:" etc.
+if not _ACHOU and re.fullmatch(r'\d{4,}[0-9a-fA-F]{25}', _LIMPA):  # colou sem o hífen: a 2ª parte da chave tem 25 caracteres
+    _LIMPA = _LIMPA[:-25] + '-' + _LIMPA[-25:]
+    _ACHOU = re.search(r'\d{4,}-[0-9a-fA-F]{16,}', _LIMPA)
 CHAVE = _ACHOU.group(0) if _ACHOU else _LIMPA
 
 
