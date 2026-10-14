@@ -20,19 +20,21 @@ async def main():
         await pg.wait_for_timeout(2500)
         await pg.screenshot(path=f'{OUT}/q0.png')
         for passo in range(1, 14):
-            ops = pg.locator('#qPalco .qOp')
-            if await ops.count() == 0:
+            # clique por JavaScript (o clique "físico" do Playwright travava durante a troca de tela)
+            r = await pg.evaluate("""() => {
+                const ops = document.querySelectorAll('#qPalco .qOp');
+                if (!ops.length) return 'fim';
+                const alvo = ops[Math.min(1, ops.length - 1)];
+                alvo.scrollIntoView({block: 'center'});
+                alvo.click();
+                return 'ok ' + ops.length;
+            }""")
+            print('passo', passo, r)
+            if r == 'fim':
                 break
-            alvo = ops.nth(min(1, await ops.count() - 1))
-            await alvo.scroll_into_view_if_needed()
-            await pg.wait_for_timeout(700)
-            await alvo.click()
-            await pg.wait_for_timeout(500)
-            seguir = pg.locator('#qSeguir')
-            if await seguir.count() and await seguir.is_visible():
-                await pg.wait_for_timeout(500)
-                await seguir.click()
-            await pg.wait_for_timeout(1300)
+            await pg.wait_for_timeout(900)
+            await pg.evaluate("() => { const s = document.getElementById('qSeguir'); if (s && !s.disabled) s.click(); }")
+            await pg.wait_for_timeout(1400)
             await pg.screenshot(path=f'{OUT}/q{passo}.png')
         await pg.wait_for_timeout(6000)  # carregamento + diagnóstico
         await pg.screenshot(path=f'{OUT}/diagnostico.png')

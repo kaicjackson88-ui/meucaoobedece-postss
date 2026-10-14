@@ -21,7 +21,10 @@ jobs:
           pip install -q playwright==1.55.0
           timeout 300 python -m playwright install --with-deps chromium || python -m playwright install chromium
       - name: Gravar
-        run: python scripts/gravar_quiz.py
+        run: |
+          set -o pipefail
+          mkdir -p quiz
+          python scripts/gravar_quiz.py 2>&1 | tee quiz/log.txt
       - name: Subir num branch próprio
         if: always()
         run: |
