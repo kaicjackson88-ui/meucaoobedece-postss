@@ -17,8 +17,12 @@ jobs:
           python-version: "3.12"
       - name: Ferramentas
         run: sudo apt-get install -y -qq ffmpeg fonts-dejavu-core >/dev/null
-      - name: Garimpar
-        run: mkdir -p garimpo && python scripts/garimpo_videos.py 2>&1 | tee garimpo/log.txt
+      - name: Garimpar (Pexels se houver a chave; senão Mixkit)
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: |
+          mkdir -p garimpo
+          if [ -n "$PEXELS_API_KEY" ]; then python scripts/garimpo_pexels.py 2>&1 | tee garimpo/log.txt; else python scripts/garimpo_videos.py 2>&1 | tee garimpo/log.txt; fi
       - name: Subir resultado num branch próprio
         if: always()
         run: |

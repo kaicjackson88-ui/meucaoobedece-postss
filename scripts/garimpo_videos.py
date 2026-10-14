@@ -107,6 +107,12 @@ def main():
         except ValueError:
             v['formato'] = '?'
         v['arq'] = str(arq); ok.append(v)
+    montar(ok, 'Mixkit', 'Licença gratuita do Mixkit: uso comercial e em anúncios online, sem crédito obrigatório. Itens com licença restrita NÃO podem ir em anúncio.')
+    print('prontos:', len(ok))
+
+
+def montar(ok, fonte, aviso):
+    """Numera os candidatos e gera miniaturas, pranchas, compilado e lista em garimpo/."""
     for n, v in enumerate(ok, 1):
         v['n'] = n
     thumbs = []
@@ -141,13 +147,12 @@ def main():
             partes.append(pt)
     (TMP / 'lista.txt').write_text(''.join(f"file '{p}'\n" for p in partes))
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-f', 'concat', '-safe', '0', '-i', str(TMP / 'lista.txt'), '-c', 'copy', str(OUT / 'compilado.mp4')], check=False)
-    linhas = ['# Garimpo de vídeos — Mixkit', '', 'Licença gratuita do Mixkit: uso comercial e em anúncios online, sem crédito obrigatório.', '',
+    linhas = [f'# Garimpo de vídeos — {fonte}', '', aviso, '',
               '| Nº | Categoria | Título (original) | Duração | Formato | Licença | Página |', '| --- | --- | --- | --- | --- | --- | --- |']
     for v in ok:
         linhas.append(f"| {v['n']} | {v['cat']} | {v['titulo']} | {v['dur']} s | {v['formato']} | {v['licenca']} | {v['pagina']} |")
     (OUT / 'lista.md').write_text('\n'.join(linhas) + '\n', encoding='utf-8')
-    (OUT / 'candidatos.json').write_text(json.dumps([{k: v[k] for k in ('n', 'id', 'titulo', 'cat', 'dur', 'formato', 'licenca', 'pagina')} for v in ok], ensure_ascii=False, indent=1), encoding='utf-8')
-    print('prontos:', len(ok))
+    (OUT / 'candidatos.json').write_text(json.dumps([{k: v.get(k) for k in ('n', 'id', 'titulo', 'cat', 'dur', 'formato', 'licenca', 'pagina', 'hd', 'autor')} for v in ok], ensure_ascii=False, indent=1), encoding='utf-8')
 
 
 if __name__ == '__main__':
