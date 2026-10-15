@@ -56,7 +56,7 @@ def coletar():
             itens = [('', u, '', '') for u in dict.fromkeys(AUDIO.findall(html))]
         n = 0
         for nome, u, lic, genero in itens:
-            mm = re.search(r'(\d+)\.(?:mp3|wav)$', u)
+            mm = re.search(r'/(\d+)/[^/]*$', u) or re.search(r'(\d+)(?:-[a-z]+)?\.(?:mp3|wav)$', u)
             if not mm or mm.group(1) in vistos or n >= POR_PAGINA:
                 continue
             if 'restricted' in lic.lower():
@@ -64,7 +64,7 @@ def coletar():
             vistos[mm.group(1)] = {'id': mm.group(1), 'nome': nome, 'titulo': nome or mm.group(1), 'pagina': url,
                                    'origem': origem, 'genero': genero, 'licenca': lic or 'Mixkit License (listagem)', 'url': u}
             n += 1
-        print(origem, len(itens), 'itens na página,', n, 'novos')
+        print(origem, len(itens), 'itens na página,', n, 'novos', '| ex.:', itens[0][1] if itens else '-')
         time.sleep(1)
     print('encontrados:', len(vistos))
     return list(vistos.values())
