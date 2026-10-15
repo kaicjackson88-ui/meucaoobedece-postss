@@ -213,5 +213,16 @@
   "media_id": "17991105971859304",
   "link": "https://www.instagram.com/p/DehPDFvlDtY/",
   "publicado_em": "2026-10-15T15:03:08.949360+00:00"
+ },
+ {
+  "slot": "2026-10-15 15:00",
+  "seg": "roer",
+  "tema": "Rói e destrói",
+  "gancho": "Chegou em casa e o sofá virou espuma?",
+  "assin": "roer|Chegou em casa e o sofá virou [espuma]?|0,1,3",
+  "seed": 42983660,
+  "media_id": "18130990406509206",
+  "link": "https://www.instagram.com/p/DehjZuOjAiN/",
+  "publicado_em": "2026-10-15T18:01:00.060764+00:00"
  }
 ]
