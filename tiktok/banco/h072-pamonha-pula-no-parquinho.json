@@ -1,0 +1,182 @@
+{
+ "id": "h072-pamonha-pula-no-parquinho",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "O Pamonha entrou no parquinho do condomínio e pulou em todas as crianças 🛝 O grupo do prédio não perdoou.\nQuem resolveu foi a Isa, de 9 anos: quando ele pula, a gente vira árvore. Braços cruzados, parada, olhando pro céu.\nO seu pula nas crianças? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #condominio #apartamento #adestramento #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Pamonha invadiu o parquinho. E o grupo do prédio explodiu.",
+   "linhas": [
+    "O PAMONHA",
+    "INVADIU O PARQUINHO",
+    "GRUPO DO PRÉDIO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipanema Verde",
+   "membros": "84 participantes",
+   "quando": "17:02",
+   "fala": "No grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Um cachorro caramelo derrubou meu filho no escorregador."
+    },
+    {
+     "quem": "sindica",
+     "texto": "De quem é o caramelo?"
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Zuleica (síndica)",
+    "carla": "Mãe da Isa (apto 31)",
+    "joao": "Wesley (apto 52)",
+    "bia": "Isa (9 anos)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "16:58",
+   "fala": "Minutos antes, o Pamonha pulava em quem passava.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipanema Verde",
+   "membros": "84 participantes",
+   "quando": "17:05",
+   "fala": "O Wesley, dono dele, apareceu:",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "É meu. Desculpa, gente. Ele só quer brincar.",
+     "eu": true
+    },
+    {
+     "quem": "sindica",
+     "texto": "Brincar de boliche com criança?"
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Zuleica (síndica)",
+    "carla": "Mãe da Isa (apto 31)",
+    "joao": "Wesley (apto 52)",
+    "bia": "Isa (9 anos)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipanema Verde",
+   "membros": "84 participantes",
+   "quando": "17:09",
+   "fala": "Aí chegou um áudio. Da Isa, de nove anos:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Na escola ensinaram: quando o cachorro pula, vira árvore. Ele cansa e senta."
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Zuleica (síndica)",
+    "carla": "Mãe da Isa (apto 31)",
+    "joao": "Wesley (apto 52)",
+    "bia": "Isa (9 anos)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 10:00",
+   "fala": "Sábado, as crianças viraram árvore. O pulo ficou sem plateia.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "bracos_cruzados"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "normal",
+     "pose": "petisco",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Sentou! Agora pode fazer carinho."
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipanema Verde",
+   "membros": "84 participantes",
+   "quando": "10:30",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Pamonha liberado no parquinho. Com a árvore de plantão."
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Zuleica (síndica)",
+    "carla": "Mãe da Isa (apto 31)",
+    "joao": "Wesley (apto 52)",
+    "bia": "Isa (9 anos)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu pula nas crianças? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando seu cão pula…",
+   "opcoes": [
+    "Empurro",
+    "Viro árvore",
+    "Faço carinho"
+   ],
+   "escolha": 1,
+   "resultado": "VIRA ÁRVORE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

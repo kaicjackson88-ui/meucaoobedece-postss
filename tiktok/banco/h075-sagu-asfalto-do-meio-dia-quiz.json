@@ -1,0 +1,162 @@
+{
+ "id": "h075-sagu-asfalto-do-meio-dia-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "sol",
+ "legenda": "Meio-dia, sol de rachar. O Sagu na porta pedindo passeio ☀️\nO que você faria? 1 ir rapidinho mesmo assim, 2 encostar a mão no asfalto antes de sair, 3 passear de chinelo pra ver se queima. Comenta seu número antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #cuidadoscomcachorro #adestramento #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Meio-dia, sol forte. Ele quer passear. O que você faria?",
+   "linhas": [
+    "MEIO-DIA",
+    "SOL DE RACHAR",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 12:00",
+   "fala": "Meio-dia. O Sagu com a guia na boca, chorando na porta.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Uiii!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "12:05",
+   "fala": "Na calçada, o Fábio sentiu o calor subir pelo chinelo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Nossa, isso tá fervendo.",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: vai rapidinho. Dois: encosta a mão no asfalto antes. Três: confia no chinelo. Comenta 1, 2 ou 3 antes de ver a resposta.",
+   "topo": [
+    "1 VAI RAPIDINHO",
+    "2 MÃO NO ASFALTO",
+    "3 CONFIA NO CHINELO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? É a dois. Encosta a mão no chão por sete segundos. Se você não aguenta, a pata dele também não.",
+   "numero": 7,
+   "numero_palavra": "sete",
+   "prefixo": "",
+   "sufixo": " seg",
+   "rotulo": [
+    "TESTE DA MÃO",
+    "aguentou ou não aguentou?"
+   ],
+   "icone": "relogio"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "12:10",
+   "fala": "De volta pra casa. No lugar do passeio, um jogo de farejar petisco na cozinha.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "18:30",
+   "fala": "No fim da tarde, chão fresco. O passeio aconteceu.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 vai rapidinho",
+    "2 mão no asfalto",
+    "3 confia no chinelo"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,68 @@
+{
+ "id": "r038-lista-asfalto-quente",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "coleira",
+ "legenda": "Seu cão pode passear ao meio-dia? ☀️\n\n1️⃣ Teste da mão: 7 segundos no asfalto\n2️⃣ Passeio cedo ou no fim da tarde\n3️⃣ Prefira grama e sombra\n\nNos dias quentes, leve água. Se ele mancar ou lamber muito a pata, procure o veterinário. Que horas você passeia? Comenta 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#passeiocomcachorro #cuidadoscomcachorro #adestramento #meucaoobedece #dicasdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão pode passear ao meio-dia? Faz esse teste antes de sair.",
+   "linhas": [
+    "PASSEIO AO",
+    "MEIO-DIA?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "pata",
+   "carimbo": "ALERTA",
+   "carimbo_palavra": "teste"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: encosta a mão no asfalto por sete segundos. Se você não aguenta, a pata dele também não.",
+   "titulo": "Teste da mão",
+   "sub": "7 segundos no chão",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: no calor, passeia cedinho ou no fim da tarde, com o chão fresco.",
+   "titulo": "Cedo ou fim de tarde",
+   "sub": "chão fresco",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: prefira grama e sombra. E no meio do dia, troca o passeio por um jogo de farejar em casa.",
+   "titulo": "Grama e sombra",
+   "sub": "ou faro em casa",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

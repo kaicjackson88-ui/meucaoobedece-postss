@@ -1,0 +1,76 @@
+{
+ "id": "r039-erro-produto-do-xixi",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "xixi",
+ "legenda": "Você limpa o xixi e ele volta no MESMO lugar? 🧴\n\n❌ Produto com amônia pode lembrar cheiro de xixi\n✅ Limpe sem ele ver, com produto sem amônia\n✅ Leve ao tapete ao acordar e depois de comer\n✅ Festa e petisco quando acerta\n\nQual produto você usa? Comenta 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #adestramento #meucaoobedece #apartamento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Você limpa o xixi e ele volta no mesmo lugar? O erro pode estar no produto.",
+   "linhas": [
+    "ELE FAZ XIXI",
+    "NO MESMO LUGAR?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Produto com amônia pode deixar um cheiro parecido com o do xixi. Pro nariz dele, é um convite.",
+   "topo": [
+    "PRODUTO COM AMÔNIA"
+   ],
+   "de": "LIMPA",
+   "para": "CONVIDA",
+   "para_palavra": "convite"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: limpe sem ele ver, com produto sem amônia.",
+   "titulo": "Sem amônia",
+   "sub": "e sem plateia",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: leve ao tapete ao acordar, depois de comer e de brincar.",
+   "titulo": "Horários certos",
+   "sub": "acordar, comer, brincar",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: acertou? Festa e petisco na hora.",
+   "titulo": "Festa no acerto",
+   "sub": "na hora",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

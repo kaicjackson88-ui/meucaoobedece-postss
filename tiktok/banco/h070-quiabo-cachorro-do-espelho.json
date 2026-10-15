@@ -1,0 +1,172 @@
+{
+ "id": "h070-quiabo-cachorro-do-espelho",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "O Quiabo explica por que late pro elevador do prédio novo 🛗\nTem um cachorro lá dentro. Igualzinho a ele. Que late de volta.\nA Vanessa descobriu o truque: deixar ele cheirar o espelho com calma e ganhar petisco quando olha pra ela.\nO seu já brigou com o espelho? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #condominio #apartamento #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Quiabo. E no elevador do prédio novo mora um cachorro folgado.",
+   "linhas": [
+    "EU SOU O QUIABO",
+    "TEM UM CÃO",
+    "NO ELEVADOR"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MUDANÇA · 18:00",
+   "fala": "Primeiro dia no prédio. A porta abre. E ele me encara.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:01",
+   "fala": "Eu lato. Ele late. Eu pulo. Ele pula. Que cara chato.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Moça, ele tá brigando com ele mesmo?"
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Muitos cães não se reconhecem no espelho. Eles conhecem o mundo pelo cheiro.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ESPELHO",
+    "pra ele, é outro cão"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "20:00",
+   "fala": "A Vanessa voltou com petisco no bolso.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Amanhã a gente faz as pazes com ele."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DIAS DEPOIS",
+   "fala": "Agora eu cheiro o espelho. Não tem cheiro de nada. Desisti dele.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "18:10",
+   "fala": "E quando olho pra Vanessa, ganho petisco. Esse cão do elevador é sem graça.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já brigou com o espelho? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No espelho, seu cão…",
+   "opcoes": [
+    "Late",
+    "Ignora",
+    "Fica olhando"
+   ],
+   "escolha": 0,
+   "resultado": "O VILÃO ERA ELE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

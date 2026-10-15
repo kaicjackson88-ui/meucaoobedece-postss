@@ -1,0 +1,155 @@
+{
+ "id": "h076-pirulito-tres-erros-do-vem-ca",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz quando chama o seu cão. E ele entende \"fica longe\" 🏃\nChamar só pra ir embora da praça, chamar pra dar bronca e repetir o nome dez vezes.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#vemaqui #chamadocanino #adestramento #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz quando chama o seu cão. E ele entende fica longe.",
+   "linhas": [
+    "3 ERROS DO VEM CÁ",
+    "QUE VOCÊ JÁ FEZ",
+    "ELE ENTENDE FICA LONGE"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ERRO 1",
+   "fala": "Erro um: chamar o Pirulito só pra ir embora da praça. Ele entende: vir acaba a festa.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Pirulito, vem! Acabou!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 2",
+   "fala": "Erro dois: chamar pra dar bronca pelo lixo. Ele entende: vir dá problema.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Vem cá agora!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 3",
+   "fala": "Erro três: Pirulito, Pirulito, Pirulito. Dez vezes. Ele entende: dá pra esperar a décima.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au?"
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão repete o que termina bem pra ele. Se vir dá coisa boa, ele vem mais.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "VEIO, GANHOU",
+    "ele repete o que vale a pena"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "O CERTO",
+   "fala": "O certo: chamar uma vez, animada. Veio? Festa, petisco e volta a brincar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Isso! Pode ir brincar de novo."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você já fez o erro…",
+   "opcoes": [
+    "1 só pra ir embora",
+    "2 pra dar bronca",
+    "3 dez vezes"
+   ],
+   "escolha": 0,
+   "resultado": "VEM CÁ VALE A PENA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

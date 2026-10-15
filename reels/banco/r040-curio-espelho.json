@@ -1,0 +1,78 @@
+{
+ "id": "r040-curio-espelho",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Por que seu cão late pro espelho? 🪞\n\n🐶 Muitos cães não se reconhecem no espelho\n👃 Eles conhecem o mundo mais pelo cheiro\n💡 Deixe cheirar com calma e elogie quando ele olhar pra você\n\nO seu já brigou com o espelho? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #curiosidadesdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Por que o seu cão late pro espelho? A resposta está no nariz.",
+   "linhas": [
+    "ELE LATE",
+    "PRO ESPELHO?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "Muitos cães não se reconhecem no espelho. Pra eles, pode parecer outro cachorro.",
+   "numero": null,
+   "rotulo": [
+    "OUTRO CÃO?",
+    "no espelho, pode parecer"
+   ],
+   "icone": "cerebro",
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "fala": "É que o cão conhece o mundo mais pelo cheiro do que pela imagem. E o espelho não tem cheiro de cachorro.",
+   "numero": null,
+   "rotulo": [
+    "O NARIZ MANDA",
+    "mais que os olhos"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "texto",
+   "fala": "Se ele late, deixa cheirar com calma e elogia quando ele olhar pra você.",
+   "linhas": [
+    "DEIXA CHEIRAR",
+    "ELOGIA A CALMA"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

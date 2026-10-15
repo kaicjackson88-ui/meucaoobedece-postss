@@ -1,0 +1,166 @@
+{
+ "id": "h074-pequi-cheiro-do-desinfetante-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A Tânia limpava o xixi do Pequi todo dia. E todo dia ele fazia no MESMO lugar 🧴\nO que você faria? 1 dar bronca na hora que achar, 2 limpar com produto com amônia, 3 limpar sem amônia e elogiar quando ele acerta o tapete. Comenta seu número antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #adestramento #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Ela limpava todo dia. E o xixi voltava no mesmo lugar. O que você faria?",
+   "linhas": [
+    "LIMPAVA TODO DIA",
+    "E O XIXI VOLTAVA",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 19:30",
+   "fala": "O mesmo canto, atrás da porta. De novo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Pequi, eu limpei isso ontem!"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 760,
+     "y": 1480
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "19:35",
+   "fala": "A Tânia esfregou com o produto mais forte da casa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: bronca. Dois: produto com amônia. Três: sem amônia e elogio no tapete. Comenta 1, 2 ou 3 antes de ver a resposta.",
+   "topo": [
+    "1 BRONCA",
+    "2 PRODUTO COM AMÔNIA",
+    "3 SEM AMÔNIA E ELOGIO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? É a três. A amônia tem cheiro parecido com o do xixi. Pro nariz dele, é convite.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "AMÔNIA",
+    "lembra cheiro de xixi"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TERÇA · 07:00",
+   "fala": "Ela trocou o produto e passou a levar o Pequi ao tapete ao acordar.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, o canto atrás da porta ficou em paz.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "comemora"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Só trocou o produto?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 bronca",
+    "2 com amônia",
+    "3 sem amônia"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

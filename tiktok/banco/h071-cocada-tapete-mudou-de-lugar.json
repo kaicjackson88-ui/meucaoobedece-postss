@@ -1,0 +1,162 @@
+{
+ "id": "h071-cocada-tapete-mudou-de-lugar",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A Cocada explica por que fez xixi no lugar ERRADO depois da faxina 🧽\nO Bruno mudou o tapete higiênico de lugar. E esqueceu de contar pra Cocada.\nO que ajudou: levar ela até o lugar novo depois de acordar e comer, e festa quando acerta.\nVocê já mudou o tapete de lugar? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #adestramento #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Cocada. E alguém sumiu com o meu banheiro.",
+   "linhas": [
+    "EU SOU A COCADA",
+    "SUMIRAM COM",
+    "O MEU BANHEIRO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 07:00",
+   "fala": "Sábado de faxina. O Bruno levou meu tapete pra área de serviço.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "07:40",
+   "fala": "Fui no lugar de sempre. Tapete? Nada. Fiz ali mesmo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Cocada! O tapete tá lá atrás!",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 760,
+     "y": 1480
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "07:45",
+   "fala": "Lá atrás mora a máquina barulhenta. Nem pensar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão volta onde já fez xixi, guiado pelo cheiro.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O NARIZ LEMBRA",
+    "o cheiro chama de volta"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO",
+   "fala": "No domingo, depois de eu acordar e comer, o Bruno me levou até o tapete novo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "DIAS DEPOIS",
+   "fala": "Fiz lá. Ganhei petisco e festa. Agora a área de serviço é o meu lugar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você já mudou o tapete de lugar? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O tapete do seu cão…",
+   "opcoes": [
+    "Mudou de lugar",
+    "Sempre no mesmo",
+    "Não usa tapete"
+   ],
+   "escolha": 0,
+   "resultado": "BANHEIRO NOVO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

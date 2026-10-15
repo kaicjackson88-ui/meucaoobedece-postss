@@ -1,0 +1,157 @@
+{
+ "id": "h078-mandioca-pesadelo-da-notificacao",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "O pior pesadelo de quem mora em apartamento com cachorro 😱 A síndica na porta com a notificação do latido.\nO Rogério acordou às 2h, gravou o celular e descobriu: o Mandioca latia pro barulho do elevador. Começou a treinar com o som baixinho e petisco.\nO seu late pra algum barulho do prédio? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #condominio #apartamento #adestramento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O pior pesadelo de quem mora em apartamento com cachorro.",
+   "linhas": [
+    "O PIOR PESADELO",
+    "DE QUEM MORA",
+    "EM APARTAMENTO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "08:00",
+   "fala": "A campainha toca. É a síndica. Com um papel na mão.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Terceira reclamação do latido. Vai virar multa."
+    }
+   ],
+   "campainha": 1
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "02:14",
+   "fala": "O Rogério acorda suando. Era sonho. Mas as reclamações eram reais.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "02:20",
+   "fala": "Duas da manhã, ele teve uma ideia: deixar o celular gravando quando saísse.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Amanhã eu descubro.",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "No vídeo, o Mandioca dormia em paz. Até o elevador abrir no andar.",
+   "topo": [
+    "O QUE O CELULAR GRAVOU"
+   ],
+   "de": "LATE À TOA",
+   "para": "LATE PRO ELEVADOR",
+   "para_palavra": "elevador"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão escuta sons que a gente nem percebe, e liga cada som ao que vem depois.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "OUVIDO FINO",
+    "cada som vira um aviso"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TODO DIA · 19:00",
+   "fala": "Agora, todo dia: som do elevador gravado, baixinho, e petisco. Aumentando aos poucos.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late pra algum barulho do prédio? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão late pra…",
+   "opcoes": [
+    "Elevador",
+    "Vizinho",
+    "Nada"
+   ],
+   "escolha": 0,
+   "resultado": "MISTÉRIO GRAVADO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

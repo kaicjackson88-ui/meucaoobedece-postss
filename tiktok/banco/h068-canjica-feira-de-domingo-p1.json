@@ -1,0 +1,162 @@
+{
+ "id": "h068-canjica-feira-de-domingo-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "Domingo de feira. A Canjica puxou a guia até a barraca de tomate do Seu Geraldo 🍅 PARTE 1\nCaixa no chão, freguesa assustada… e o feirante saiu de trás da banca.\nE o seu, puxa a guia no passeio? Comenta 1 pra sim, 2 pra não 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #puxarguia #adestramento #cachorro #historiadecachorro",
+ "serie": "canjica-feira",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Domingo de feira. A Canjica viu a barraca de tomate. E a Larissa perdeu o controle.",
+   "linhas": [
+    "DOMINGO DE FEIRA",
+    "A CANJICA PUXOU",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 08:30",
+   "fala": "Oito e meia. Nem saiu do prédio e a Larissa já era arrastada.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Canjica, devagar!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "08:32",
+   "fala": "A Canjica pulou na banca. Três tomates no chão.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Quando o cão puxa e a gente vai junto, ele aprende que puxar funciona.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "PUXOU, ANDOU",
+    "ele repete o que dá certo"
+   ],
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO SEGUINTE",
+   "fala": "Domingo seguinte. Ela pegou a guia. E pensou duas vezes.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "08:31",
+   "fala": "Na entrada, o Seu Geraldo veio na direção delas. Com uma guia velha na mão.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Moça, espera. Posso te mostrar uma coisa?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que ele vai mostrar? Comenta aqui. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu cão na rua…",
+   "opcoes": [
+    "Puxa muito",
+    "Puxa às vezes",
+    "Anda junto"
+   ],
+   "escolha": 0,
+   "resultado": "PARTE 2 JÁ JÁ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

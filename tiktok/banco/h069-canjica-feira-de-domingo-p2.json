@@ -1,0 +1,159 @@
+{
+ "id": "h069-canjica-feira-de-domingo-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "PARTE 2: o Seu Geraldo, o feirante, já foi arrastado pela feira por um cachorro também 🍅\nO plano dele: guia puxou, a gente para. Guia frouxa, a gente anda. Treino curto perto de casa antes de voltar pra feira.\nVocê teria paciência pra parar toda vez? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #puxarguia #guia #adestramento #cachorro",
+ "serie": "canjica-feira",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. O feirante da barraca de tomate tinha um plano.",
+   "linhas": [
+    "O FEIRANTE",
+    "TINHA UM PLANO",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO · 08:32",
+   "fala": "O Seu Geraldo contou que o cachorro dele também arrastava ele.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "normal",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Guia esticou, você vira estátua. Afrouxou, anda."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "A regra virou essa: puxou, para. Frouxa, anda.",
+   "topo": [
+    "O PLANO DO SEU GERALDO"
+   ],
+   "de": "PUXOU, ANDOU",
+   "para": "FROUXA, ANDA",
+   "para_palavra": "Frouxa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 07:00",
+   "fala": "Segunda, no corredor do prédio. Dez minutos. Parando o tempo todo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUARTA · 19:00",
+   "fala": "Quarta, a recompensa vinha quando ela olhava pra Larissa.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, a feira. Puxou duas vezes. Parou duas vezes.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Hoje o tomate sobrevive!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você teria paciência pra parar toda vez? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Pra andar junto, você…",
+   "opcoes": [
+    "Paro e espero",
+    "Puxo de volta",
+    "Desisto"
+   ],
+   "escolha": 0,
+   "resultado": "FROUXA, ANDA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

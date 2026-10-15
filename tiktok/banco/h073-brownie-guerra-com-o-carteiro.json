@@ -1,0 +1,172 @@
+{
+ "id": "h073-brownie-guerra-com-o-carteiro",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Todo dia às 10h, o Brownie declarava guerra ao carteiro ✉️ E o grupo da rua tinha opinião.\nQuem resolveu foi o próprio carteiro, o Marcelo: aviso no grupo antes de chegar e a Débora treinando o cantinho com petisco nessa hora.\nO seu late pro carteiro ou pro entregador? Comenta 1 ou 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #adestramento #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Dez da manhã. O carteiro chegou. E o Brownie declarou guerra.",
+   "linhas": [
+    "10 DA MANHÃ",
+    "O CARTEIRO CHEGOU",
+    "GUERRA DECLARADA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "10:00",
+   "fala": "Todo dia, mesma hora. O Brownie no portão, latindo sem parar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "bilhete"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Vizinhos Rua das Acácias",
+   "membros": "37 participantes",
+   "quando": "10:04",
+   "fala": "No grupo da rua:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "O Brownie de novo. Meu neto acordou."
+    },
+    {
+     "quem": "carla",
+     "texto": "Desculpa, gente. Também não aguento mais.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Débora (casa 14)",
+    "joao": "Marcelo carteiro",
+    "vizinho": "Seu Ademar (casa 9)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Vizinhos Rua das Acácias",
+   "membros": "37 participantes",
+   "quando": "10:07",
+   "fala": "Aí chegou uma mensagem inesperada:",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Aqui é o Marcelo, o carteiro. Tenho uma ideia pro Brownie."
+    }
+   ],
+   "nomes": {
+    "carla": "Débora (casa 14)",
+    "joao": "Marcelo carteiro",
+    "vizinho": "Seu Ademar (casa 9)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Vizinhos Rua das Acácias",
+   "membros": "37 participantes",
+   "quando": "10:08",
+   "fala": "O plano dele:",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Mando oi quando virar a esquina. Você chama ele pro cantinho com petisco."
+    }
+   ],
+   "nomes": {
+    "carla": "Débora (casa 14)",
+    "joao": "Marcelo carteiro",
+    "vizinho": "Seu Ademar (casa 9)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEMANA SEGUINTE · 09:58",
+   "fala": "Semana seguinte. Chegou o oi. Brownie no cantinho, roendo petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 760,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Vizinhos Rua das Acácias",
+   "membros": "37 participantes",
+   "quando": "10:15",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Hoje foi um latido só. Meu neto dormiu."
+    },
+    {
+     "quem": "joao",
+     "texto": "Carta entregue em paz."
+    }
+   ],
+   "nomes": {
+    "carla": "Débora (casa 14)",
+    "joao": "Marcelo carteiro",
+    "vizinho": "Seu Ademar (casa 9)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late pro carteiro ou pro entregador? Comenta 1 pra carteiro, 2 pra entregador. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão late pra…",
+   "opcoes": [
+    "Carteiro",
+    "Entregador",
+    "Todo mundo"
+   ],
+   "escolha": 0,
+   "resultado": "CARTA EM PAZ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

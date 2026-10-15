@@ -1,0 +1,190 @@
+{
+ "id": "h079-bombom-estrelinha-dourada",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Estrelinha dourada pro Bombom ⭐ Três xixis seguidos no tapete!\nQuem teve a ideia foi o Caíque, de 8 anos: uma tabela na geladeira. Cada acerto, estrelinha pra ele e petisco pro Bombom na hora.\nQual foi a estrelinha do seu cão essa semana? Comenta aqui 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #adestramento #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Estrelinha dourada pro Bombom. Três xixis seguidos no tapete.",
+   "linhas": [
+    "ESTRELINHA DOURADA",
+    "PRO BOMBOM",
+    "3 XIXIS NO TAPETE"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "check"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DUAS SEMANAS ATRÁS",
+   "fala": "Duas semanas atrás: xixi no tapete da sala, na almofada, no pé da mesa.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 600,
+     "y": 1480
+    },
+    {
+     "nome": "almofada",
+     "x": 820,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "07:30",
+   "fala": "A Paula limpava, bufava e mandava o Bombom pra cozinha.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "De novo, Bombom?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:00",
+   "fala": "Até que o filho dela, o Caíque, de oito anos, colou uma tabela na geladeira.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Mãe, cada vez que ele acertar, ganha estrelinha. E petisco na hora!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "A regra mudou: em vez de contar os erros, a casa passou a contar os acertos.",
+   "topo": [
+    "A TABELA DO CAÍQUE"
+   ],
+   "de": "CONTAR ERROS",
+   "para": "CONTAR ACERTOS",
+   "para_palavra": "acertos"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DEPOIS DO PASSEIO",
+   "fala": "Depois de acordar, comer e brincar, o Caíque levava o Bombom ao tapete. Acertou? Festa.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "ONTEM",
+   "fala": "Ontem, a terceira estrelinha seguida. O Caíque comemorou mais que o cachorro.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 280,
+     "humor": "radiante",
+     "pose": "comemora"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "carinho",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual foi a estrelinha do seu cão essa semana? Comenta aqui. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "A estrelinha do seu cão…",
+   "opcoes": [
+    "Xixi no lugar",
+    "Andou junto",
+    "Ainda vem"
+   ],
+   "escolha": 0,
+   "resultado": "ESTRELINHA DOURADA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
