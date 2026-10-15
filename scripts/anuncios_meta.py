@@ -229,6 +229,9 @@ def montar(arq):
             'targeting': {'geo_locations': {'countries': ['BR']}, 'age_min': 18, 'targeting_automation': {'advantage_audience': 1}},
         })['id']
         print('Conjunto criado (pausado):', est['conjunto']); gravar(saida, est)
+    else:   # orçamento do arquivo manda (só reduzir/ajustar com o conjunto ainda pausado ou por ordem do dono)
+        _try(lambda: api('POST', est['conjunto'], {'daily_budget': int(round(cfg['orcamento_dia'] * 100))}))
+        print('Orçamento do conjunto ajustado para R$', cfg['orcamento_dia'], '/dia')
     est.setdefault('anuncios', {})
     for ad in cfg['anuncios']:
         if ad.get('pular'):
