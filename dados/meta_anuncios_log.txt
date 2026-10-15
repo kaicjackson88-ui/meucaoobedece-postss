@@ -1,6 +1,4 @@
 Usando: {'conta': 'act_1654358850033325', 'pagina': '1284657694728838', 'ig': '17841474456587008', 'pixel': '1479327760890680'}
-Campanha criada (pausada): 120254642451430085
-Conjunto criado (pausado): 120254642451520085
 Pulando (marcado para depois): A_NaoTeimoso
 Pulando (marcado para depois): B_TesteComigo
   Instagram recusado, criativo sai com a identidade da Página no Instagram: Meta recusou act_1654358850033325/adcreatives: Invalid parameter (código 100/1885183) O post do criativo dos anúncios foi criado por um app que está em modo de 
