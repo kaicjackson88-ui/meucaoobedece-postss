@@ -24,7 +24,7 @@ ALVO_CPA, TETO_CPA = 28.0, 42.0
 # ---------------- chamada à API ----------------
 def api(metodo, caminho, params=None):
     p = {k: (json.dumps(v, ensure_ascii=False) if isinstance(v, (dict, list)) else v) for k, v in (params or {}).items()}
-    p['access_token'] = TOKEN
+    p.setdefault('access_token', TOKEN)
     corpo = urllib.parse.urlencode(p).encode()
     url = caminho if caminho.startswith('http') else f'{API}/{caminho}'
     req = urllib.request.Request(f'{url}?{corpo.decode()}') if metodo == 'GET' else urllib.request.Request(url, data=corpo, method=metodo)
@@ -81,9 +81,10 @@ def checar(_=None):
                'pagamento': (c.get('funding_source_details') or {}).get('display_string')} for c in r.get('data', [])]
     for c in contas:
         print('Conta de anúncio:', c)
-    r = _try(lambda: api('GET', 'me/accounts', {'fields': 'id,name,instagram_business_account{id,username}'}), {}) or {}
+    r = _try(lambda: api('GET', 'me/accounts', {'fields': 'id,name,access_token,instagram_business_account{id,username}'}), {}) or {}
     paginas = [{'id': p['id'], 'nome': p.get('name'), 'ig': (p.get('instagram_business_account') or {}).get('id'),
                 'ig_user': (p.get('instagram_business_account') or {}).get('username')} for p in r.get('data', [])]
+    tok_pag = {p['id']: p.get('access_token') for p in r.get('data', [])}
     for p in paginas:
         print('Página:', p)
     pixels = []
@@ -104,7 +105,7 @@ def checar(_=None):
     igs = []
     for p in paginas:
         for rota in (f"{p['id']}/instagram_accounts", f"{p['id']}/page_backed_instagram_accounts"):
-            d = _try(lambda: api('GET', rota, {'fields': 'id,username'}), {}) or {}
+            d = _try(lambda: api('GET', rota, {'fields': 'id,username', 'access_token': tok_pag.get(p['id']) or TOKEN}), {}) or {}
             for x in d.get('data', []):
                 igs.append({'pagina': p['id'], 'rota': rota.split('/')[1], 'id': x['id'], 'user': x.get('username')})
     for c in contas:
