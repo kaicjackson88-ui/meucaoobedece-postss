@@ -97,6 +97,8 @@ def preparar_reel(roteiro, seed, pasta):
     rnd = random.Random(seed)
     tmp = Path(tempfile.mkdtemp(prefix='real-'))
     out = {}
+    if tipos & {'historia', 'chat'} and cfg.get('historia'):
+        return _reel_historia(cfg, rnd, tmp, pasta)
     for humor in HUMORES:
         try:
             quadros = []
@@ -115,6 +117,32 @@ def preparar_reel(roteiro, seed, pasta):
         except Exception as e:  # noqa: BLE001
             print(f'  cão real "{humor}" falhou ({str(e)[:80]}); fica o mascote', flush=True)
     return out
+
+
+def _reel_historia(cfg, rnd, tmp, pasta):
+    """História: o mesmo cão (só cão, sem pessoas) em todos os humores, pra não trocar de raça no meio."""
+    h = cfg['historia']
+    itens = [('v', i) for i in h.get('videos', [])] + [('f', i) for i in h.get('fotos', [])]
+    rnd.shuffle(itens)
+    for tipo, pid in itens:
+        try:
+            if tipo == 'v':
+                quadros = _quadros_video(pid, cfg.get('segundos', 4), cfg.get('fps', 12), tmp, inicio=1.0)
+            else:
+                f = _foto(pid); quadros = [f] if f else []
+            if not quadros:
+                continue
+            for i, q in enumerate(quadros):
+                cartao(q).save(Path(pasta) / f'normal_{i:03d}.png')
+            for humor in HUMORES:
+                if humor != 'normal':
+                    for i in range(len(quadros)):
+                        (Path(pasta) / f'{humor}_{i:03d}.png').write_bytes((Path(pasta) / f'normal_{i:03d}.png').read_bytes())
+            print(f'  história: o mesmo cão real ({tipo}{pid}) em todas as cenas, {len(quadros)} quadro(s)', flush=True)
+            return {humor: len(quadros) for humor in HUMORES}
+        except Exception as e:  # noqa: BLE001
+            print(f'  história: {tipo}{pid} falhou ({str(e)[:80]})', flush=True)
+    return {}
 
 
 def preparar_carrossel(seed):
