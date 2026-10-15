@@ -1,0 +1,6 @@
+Permissões concedidas: business_management, instagram_basic, instagram_content_publish, instagram_manage_messages, pages_read_engagement, pages_show_list, public_profile
+Faltam para anúncios: ads_management, ads_read
+  aviso: Erro da Meta em me/adaccounts: (#200) Missing Permissions (código 200)
+Página: {'id': '1284657694728838', 'nome': 'Meu cão obedece', 'ig': '17841474456587008', 'ig_user': 'meu_cao_obedece'}
+Página: {'id': '592133483991652', 'nome': 'Codigo ausencia', 'ig': None, 'ig_user': None}
+Gravado em dados/meta_anuncios_status.json
