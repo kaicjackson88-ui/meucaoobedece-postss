@@ -1,12 +1,19 @@
-19:48 TikTok: trabalhando…
-  nos rascunhos: h059-rabanete-caminhao-do-lixo SEND_TO_USER_INBOX
-19:59 TikTok: trabalhando…
-Último rascunho há 10 min — o próximo sai em 50 min (1 por vez).
-20:09 TikTok: trabalhando…
-Último rascunho há 20 min — o próximo sai em 40 min (1 por vez).
-  git push -q → 1 Request ID 1C11:2217CE:23BF52:2D734A:6AD00BA6        
-remote: Time 2026-10-14T23:09:30Z
-To https://github.com/kaicjackson88-ui/meucaoobedece-postss
- ! [remote rejected] main -> main (Internal Server Error)
-error: failed to push some refs to 'https://github.com/kaicjackson88-ui/meucaoobedece-postss'
-
+01:03 TikTok: trabalhando…
+Produzindo h074-pequi-cheiro-do-desinfetante-quiz
+Narração...
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+[0;93m2026-10-15 04:03:29.461184883 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+Render...
+  frame 0/1155
+  frame 300/1155
+  frame 600/1155
+  frame 900/1155
+Áudio...
+Preparing worktree (detached HEAD 860a702)
+HEAD is now at 860a702 Métricas atualizadas
+Switched to a new branch 'tmp-20261015-0106-tt-h074-pequi-cheiro-do-desinfetante-quiz'
+remote: 
+remote: Create a pull request for 'midia-20261015-0106-tt-h074-pequi-cheiro-do-desinfetante-quiz' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261015-0106-tt-h074-pequi-cheiro-do-desinfetante-quiz        
+remote: 
