@@ -138,7 +138,7 @@ def _alvos(cfg):
         next((x['id'] for x in st.get('instagrams', []) if x.get('rota') == 'conta'), None)
     out = {'conta': conta, 'pagina': cfg.get('pagina') or pag.get('id'), 'ig': cfg.get('instagram') or pag.get('ig') or ig2,
            'pixel': cfg.get('pixel') or (pixs[0]['id'] if pixs else None)}
-    falta = [k for k, v in out.items() if not v]
+    falta = [k for k, v in out.items() if not v and k != 'ig']
     if falta:
         sys.exit(f'Não achei: {", ".join(falta)}. Rode "checar" e confira as permissões/ativos do usuário do sistema.')
     print('Usando:', out)
@@ -173,7 +173,9 @@ def _cta(link):
 
 def _criativo(alvo, cfg, ad):
     conta, link = alvo['conta'], cfg['link']
-    spec = {'page_id': alvo['pagina'], 'instagram_user_id': alvo['ig']}
+    spec = {'page_id': alvo['pagina']}
+    if alvo.get('ig'):
+        spec['instagram_user_id'] = alvo['ig']
     if ad['tipo'] == 'video':
         vid = _video(conta, cfg, ad['arquivos'][0])
         capa = _imagem(conta, cfg, ad['arquivos'][1])
@@ -188,8 +190,15 @@ def _criativo(alvo, cfg, ad):
                              'multi_share_end_card': False, 'call_to_action': _cta(link)}
     else:
         raise ValueError(ad['tipo'])
-    r = api('POST', f'{conta}/adcreatives', {'name': f"{cfg['nome']} | {ad['nome']}", 'object_story_spec': spec, 'url_tags': cfg['url_tags']})
-    return r['id']
+    corpo = {'name': f"{cfg['nome']} | {ad['nome']}", 'object_story_spec': spec, 'url_tags': cfg['url_tags']}
+    try:
+        return api('POST', f'{conta}/adcreatives', corpo)['id']
+    except RuntimeError as e:
+        if 'instagram_user_id' not in spec:
+            raise
+        print('  Instagram recusado, criativo sai com a identidade da Página no Instagram:', str(e)[:160])
+        spec.pop('instagram_user_id')
+        return api('POST', f'{conta}/adcreatives', corpo)['id']
 
 
 def montar(arq):
