@@ -4,8 +4,11 @@ Conta de anúncio: {'id': 'act_1654358850033325', 'nome': 'Protocolo ausência '
 Página: {'id': '1284657694728838', 'nome': 'Meu cão obedece', 'ig': None, 'ig_user': None}
 Pixel: {'conta': 'act_1654358850033325', 'id': '1028043296250722', 'nome': 'Dados do código ausência', 'ultimo_evento': '2026-07-28T14:50:25+0000'}
   aviso: Meta recusou 1702277674672285: (#100) Missing perms (código 100/None) 
-Pixel do site: 1702277674672285 NÃO visível para o robô
-  aviso: Meta recusou 1284657694728838/instagram_accounts: (#190) This method must be called with a Page Access Token (código 190/None) 
-  aviso: Meta recusou 1284657694728838/page_backed_instagram_accounts: (#190) This method must be called with a Page Access Token (código 190/None) 
+Pixel 1702277674672285 : NÃO visível para o robô
+Pixel 1479327760890680 : {'id': '1479327760890680', 'name': 'pixel meu cao obdece', 'last_fired_time': '2026-10-14T08:59:50+0000', 'owner_business': {'id': '3744560922226564', 'name': 'Kaic Jakson'}}
+  eventos (últimos dias): (nenhum)
+Pixel 1814241013073630 : {'id': '1814241013073630', 'name': 'pixel meu cao obdece \\veo1', 'owner_business': {'id': '3744560922226564', 'name': 'Kaic Jakson'}}
+  eventos (últimos dias): (nenhum)
 Pagamento da conta: {'funding_source': None, 'funding_source_details': None, 'disable_reason': 0, 'business': {'id': '3744560922226564', 'name': 'Kaic Jakson'}}
+Instagram p/ anúncio: {'pagina': '1284657694728838', 'rota': 'page_backed_instagram_accounts', 'id': '17841439293755946', 'user': None}
 Gravado em dados/meta_anuncios_status.json
