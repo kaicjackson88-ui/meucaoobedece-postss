@@ -1,0 +1,35 @@
+name: Gestor de anúncios Meta
+
+on:
+  workflow_dispatch:
+    inputs:
+      acao:
+        description: "checar"
+        required: false
+        default: "checar"
+
+permissions:
+  contents: write
+
+jobs:
+  anuncios:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rodar
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          META_ADS_TOKEN: ${{ secrets.META_ADS_TOKEN }}
+        run: |
+          set -o pipefail
+          mkdir -p dados
+          python scripts/anuncios_meta.py ${{ inputs.acao }} 2>&1 | tee dados/meta_anuncios_log.txt
+      - name: Salvar
+        if: always()
+        run: |
+          git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
+          git add dados/meta_anuncios_* && git commit -qm "Anúncios Meta: ${{ inputs.acao }}" && git pull -q --rebase --autostash && git push -q || echo nada
