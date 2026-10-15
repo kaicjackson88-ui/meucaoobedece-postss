@@ -7,6 +7,10 @@ on:
         description: "musica ou efeitos"
         required: false
         default: "musica"
+      buscas:
+        description: "Só efeitos: categorias do Mixkit separadas por vírgula (ex.: dog,bite,doorbell)"
+        required: false
+        default: ""
       limite:
         description: "Quantos baixar (vazio = padrão do tipo)"
         required: false
@@ -30,6 +34,7 @@ jobs:
         env:
           LIMITE: ${{ inputs.limite }}
           TIPO: ${{ inputs.tipo }}
+          BUSCAS: ${{ inputs.buscas }}
         run: |
           set -o pipefail
           mkdir -p musicas

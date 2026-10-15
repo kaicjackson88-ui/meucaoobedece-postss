@@ -14,8 +14,9 @@ RAIZ = Path(__file__).resolve().parents[1]
 OUT = RAIZ / 'musicas'
 TIPO = os.environ.get('TIPO', 'musica')
 if TIPO == 'efeitos':
-    PAGINAS = [f'https://mixkit.co/free-sound-effects/{s}/' for s in
-               ('whoosh', 'swoosh', 'transition', 'pop', 'click', 'notification', 'bubble', 'coin', 'achievement')]
+    BUSCAS = [s.strip() for s in os.environ.get('BUSCAS', '').split(',') if s.strip()] or \
+        ['whoosh', 'swoosh', 'transition', 'pop', 'click', 'notification', 'bubble', 'coin', 'achievement']
+    PAGINAS = [f'https://mixkit.co/free-sound-effects/{s}/' for s in BUSCAS]
     POR_PAGINA = 10
 else:
     PAGINAS = ['https://mixkit.co/free-stock-music/tag/ukulele/', 'https://mixkit.co/free-stock-music/mood/playful/',
