@@ -1,0 +1,21 @@
+{
+ "_leia": "Cães reais no lugar do mascote desenhado (reels e carrosséis). Só IDs do Pixabay já conferidos a olho: o cão aparece e combina com o humor. Para trocar ou acrescentar, ponha o ID na lista do humor. ativo=false volta para o mascote desenhado.",
+ "ativo": true,
+ "fps": 12,
+ "segundos": 4,
+ "pular_tipos": ["historia", "chat"],
+ "videos": {
+  "bravo": [45972],
+  "feliz": [197721, 156318],
+  "normal": [77534],
+  "dorminhoco": [37481],
+  "lendario": [219661, 197721]
+ },
+ "fotos": {
+  "normal": [1851107, 1438132, 9641853, 3692058, 4932825, 10309023, 5240935],
+  "feliz": [3879893, 9478504, 6977210, 8637542, 5220249, 110193],
+  "dorminhoco": [6292728, 1846066, 4750421, 1187270, 7874560],
+  "lendario": [5773397, 5449489, 3879893, 1438132],
+  "bravo": []
+ }
+}

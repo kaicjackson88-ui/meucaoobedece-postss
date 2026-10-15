@@ -22,6 +22,9 @@ concurrency:
   group: reels-${{ (github.event_name == 'schedule' || github.event.inputs.modo == 'turno') && 'plantao' || 'manual' }}
   cancel-in-progress: false
 
+env:
+  PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+
 jobs:
   reels:
     runs-on: ubuntu-latest

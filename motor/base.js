@@ -12,10 +12,15 @@ function rnd(s){const x=Math.sin(s*127.1+311.7)*43758.5453;return x-Math.floor(x
 function rr(x,y,w,h,r){cx.beginPath();cx.roundRect(x,y,w,h,r)}
 const boil=(t,s=0)=>{const f=Math.floor(t*10);return (rnd(f*7.3+s)-.5)*4};
 const IMG={};let GRAIN=null;
-async function carregar(){for(const k in SVGS){const im=new Image();im.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(SVGS[k]);await im.decode();IMG[k]=im}
+// cães reais (scripts/midia_real.py): REAL={humor:nº de quadros} vem no dados.js; os quadros ficam em real/
+const REALIMG={};let TNOW=0,CENA_TIPO='';
+async function carregar(){if(typeof REAL!=='undefined')for(const k in REAL){REALIMG[k]=[];for(let i=0;i<REAL[k];i++){const im=new Image();im.src='real/'+k+'_'+String(i).padStart(3,'0')+'.png';try{await im.decode();REALIMG[k].push(im)}catch(e){}}}
+  for(const k in SVGS){const im=new Image();im.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(SVGS[k]);await im.decode();IMG[k]=im}
   GRAIN=document.createElement('canvas');GRAIN.width=GRAIN.height=512;const g=GRAIN.getContext('2d');const d=g.createImageData(512,512);
   for(let i=0;i<d.data.length;i+=4){const v=rnd(i*.37)*255;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}g.putImageData(d,0,0)}
-function dog(k,x,y,s,rot=0,sq=0){const im=IMG[k]||IMG.normal;if(!im)return;const w=440*s,h=w*282/220;
+function dog(k,x,y,s,rot=0,sq=0){const fr=REALIMG[k]||REALIMG.normal;if(fr&&fr.length&&!(typeof REAL_PULA!=='undefined'&&REAL_PULA.includes(CENA_TIPO))){
+    const n=fr.length,c=Math.floor(TNOW*12);let f=n>1?c%(2*n-2):0;if(f>=n)f=2*n-2-f;const w=440*s,h=w*282/220;cx.save();cx.translate(x,y);cx.rotate(rot*.6+(k==='bravo'?0:-.03));cx.drawImage(fr[f],-w/2,-h*0.93,w,h);cx.restore();return}
+  const im=IMG[k]||IMG.normal;if(!im)return;const w=440*s,h=w*282/220;
   cx.save();cx.translate(x,y);cx.rotate(rot);cx.scale(1+sq,1-sq);cx.drawImage(im,-w/2,-h*0.93,w,h);cx.restore()}
 function txt(s,x,y,size,col,{w=700,f='FR',al='center',stroke=null,sw=0,ls=0}={}){
   cx.font=`${w} ${size}px ${f}`;cx.textAlign=al;cx.textBaseline='middle';cx.letterSpacing=ls+'px';

@@ -271,13 +271,15 @@ def alinhar(roteiro, pal):
 
 
 # ---------------- render ----------------
-async def _render(dados_js, mudo, capa):
+async def _render(dados_js, mudo, capa, real=None):
     from playwright.async_api import async_playwright
     work = Path(tempfile.mkdtemp(prefix='motor-'))
     for f in MOTOR.iterdir():
         if f.is_dir(): shutil.copytree(f, work / f.name)
         else: shutil.copy(f, work / f.name)
     (work / 'dados.js').write_text(dados_js, encoding='utf-8')
+    if real:
+        shutil.copytree(real, work / 'real')
     async with async_playwright() as p:
         kw = {}
         if Path('/opt/pw-browsers/chromium').exists(): kw['executable_path'] = '/opt/pw-browsers/chromium'
@@ -315,8 +317,17 @@ def produzir(roteiro, pasta, falso=False):
     seed = sum(map(ord, roteiro['id'] + roteiro.get('estilo', ''))) % 97
     rot = dict(roteiro); rot['seed'] = seed
     dados_js = 'const ROTEIRO=%s;\nconst PAL=%s;\nconst CENAS_T=%s;\n' % (json.dumps(rot, ensure_ascii=False), json.dumps(pal, ensure_ascii=False), json.dumps(tempos))
+    real_dir = pasta / 'real'
+    try:  # cães reais no lugar do mascote (cai no mascote se der qualquer erro)
+        import midia_real
+        real = midia_real.preparar_reel(roteiro, seed, real_dir)
+        if real:
+            dados_js += 'const REAL=%s;\nconst REAL_PULA=%s;\n' % (json.dumps(real), json.dumps(midia_real.pular()))
+    except Exception as e:  # noqa: BLE001
+        print('Cães reais: pulei', str(e)[:120], flush=True); real = {}
     print('Render...', flush=True)
-    info = asyncio.run(_render(dados_js, pasta / 'mudo.mp4', pasta / 'capa.jpg'))
+    info = asyncio.run(_render(dados_js, pasta / 'mudo.mp4', pasta / 'capa.jpg', real_dir if real else None))
+    shutil.rmtree(real_dir, ignore_errors=True)
     dur = info['dur']
     print('Áudio...', flush=True)
     sfx = gerar_sfx(info['sfx'], dur, seed)

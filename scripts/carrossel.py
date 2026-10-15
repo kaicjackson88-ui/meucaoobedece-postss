@@ -16,6 +16,14 @@ async def _gerar(seg, seed, pasta):
         pg = await b.new_page(viewport={'width': 1200, 'height': 900})
         await pg.goto(FABRICA.as_uri())
         await pg.wait_for_function('typeof montar === "function"')
+        try:  # cães reais no lugar do mascote (cai no mascote se der qualquer erro)
+            import sys; sys.path.insert(0, str(Path(__file__).resolve().parent))
+            import midia_real
+            fotos = midia_real.preparar_carrossel(seed)
+            if fotos:
+                await pg.evaluate('m => { window.FOTOS_REAIS = m }', fotos)
+        except Exception as e:  # noqa: BLE001
+            print('Cães reais: pulei', str(e)[:120], flush=True)
         r = await pg.evaluate('''async ([seg, seed]) => {
             await fontes();
             const c = montar(seg, seed); c.legenda = legendaDe(c);

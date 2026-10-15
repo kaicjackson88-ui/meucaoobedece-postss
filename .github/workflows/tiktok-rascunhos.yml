@@ -28,6 +28,9 @@ concurrency:
   group: tiktok-${{ (github.event.inputs.acao == 'status' || github.event.inputs.acao == 'avisar' || github.event.inputs.acao == 'enviar' || github.event.inputs.acao == 'autorizar') && 'rapido' || 'rascunhos' }}
   cancel-in-progress: false
 
+env:
+  PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+
 jobs:
   rascunhos:
     runs-on: ubuntu-latest

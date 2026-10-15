@@ -385,6 +385,7 @@ function quando(i){
 /* ---------- Mascote ---------- */
 const imgCache={};
 function mascote(humor,pel){
+  if(window.FOTOS_REAIS&&FOTOS_REAIS[humor]){const kr='real|'+humor;if(!imgCache[kr])imgCache[kr]=new Promise(res=>{const im=new Image();im.onload=()=>res(im);im.onerror=()=>res(null);im.src=FOTOS_REAIS[humor]});return imgCache[kr]}
   const k=humor+'|'+pel;if(imgCache[k])return imgCache[k];
   let svg=SVGS[humor]||SVGS.normal;const c=(PELAGENS[pel]||PELAGENS.caramelo).c,base=PELAGENS.caramelo.c;
   if(pel!=='caramelo')base.forEach((b,i)=>{svg=svg.split(b).join(c[i])});
