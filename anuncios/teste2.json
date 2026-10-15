@@ -1,0 +1,44 @@
+{
+ "_leia": "Campanha de teste 2 (4 conceitos diferentes num conjunto só). O robô monta tudo pausado; só liga com autorização do dono. Mídias no branch midia_branch.",
+ "id": "teste2",
+ "nome": "MCO | Teste 2 | Vendas",
+ "conjunto": "MCO | Brasil aberto",
+ "orcamento_dia": 40,
+ "limite_total": 200,
+ "link": "https://meucaoobedece.vercel.app/",
+ "url_tags": "utm_source=meta&utm_medium=pago&utm_campaign=teste2&utm_content={{ad.name}}",
+ "midia_branch": "midia-anuncios-teste2",
+ "anuncios": [
+  {
+   "nome": "A_NaoTeimoso",
+   "tipo": "video",
+   "pular": true,
+   "arquivos": ["A.mp4", "A_capa.jpg"],
+   "texto": "Seu cachorro não é teimoso. Ele só ainda não entendeu o que você quer. 🐶\n\nNo Meu Cão Obedece você faz um teste de 1 minuto, descobre o que está por trás do comportamento dele e segue um plano de 21 dias, 15 minutos por dia, no celular.\n\nR$37, pagamento único, com 7 dias de garantia.",
+   "titulo": "Veja o plano do seu cão"
+  },
+  {
+   "nome": "B_TesteComigo",
+   "tipo": "video",
+   "pular": true,
+   "arquivos": ["B.mp4", "B_capa.jpg"],
+   "texto": "Pula, late, rói tudo… e você não sabe por quê?\n\nResponde um teste de 1 minuto e descobre o perfil do seu cão e o que está causando o comportamento. Se quiser, depois segue o plano de 21 dias, 15 min por dia, por R$37.",
+   "titulo": "Descubra o perfil do seu cão"
+  },
+  {
+   "nome": "D_Oferta",
+   "tipo": "imagem",
+   "arquivos": ["D_4x5.jpg"],
+   "texto": "Adestramento em casa, 15 minutos por dia, no seu celular. 📱\n\n✅ Plano de 21 dias\n✅ 7 módulos em vídeo e texto\n✅ 7 dias de garantia\n\nR$37, pagamento único. Comece pelo teste de 1 minuto.",
+   "titulo": "Plano completo por R$37"
+  },
+  {
+   "nome": "E_6Comandos",
+   "tipo": "carrossel",
+   "arquivos": ["E_1.jpg", "E_2.jpg", "E_3.jpg", "E_4.jpg", "E_5.jpg", "E_6.jpg", "E_7.jpg", "E_8.jpg"],
+   "cartoes": ["6 comandos básicos", "Senta", "Deita", "Fica", "Vem", "Dá a pata", "Rola", "Veja o plano do seu cão"],
+   "texto": "6 comandos que todo cão pode aprender — e como ensinar cada um em casa. Salva pra treinar hoje 🐾\n\nQuer o passo a passo pro SEU cão? Faz o teste de 1 minuto e vê o plano de 21 dias (R$37).",
+   "titulo": "6 comandos básicos"
+  }
+ ]
+}
