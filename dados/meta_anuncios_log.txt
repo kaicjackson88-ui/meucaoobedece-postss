@@ -1,8 +1,6 @@
 Usando: {'conta': 'act_1654358850033325', 'pagina': '1284657694728838', 'ig': '17841474456587008', 'pixel': '1479327760890680'}
 Pulando (marcado para depois): A_NaoTeimoso
 Pulando (marcado para depois): B_TesteComigo
-  Instagram recusado, criativo sai com a identidade da Página no Instagram: Meta recusou act_1654358850033325/adcreatives: Invalid parameter (código 100/1885183) O post do criativo dos anúncios foi criado por um app que está em modo de 
-FALHOU D_Oferta → Meta recusou act_1654358850033325/adcreatives: Invalid parameter (código 100/1885183) O post do criativo dos anúncios foi criado por um app que está em modo de desenvolvimento. Ele deve estar em modo público para criar este anúncio.
-  Instagram recusado, criativo sai com a identidade da Página no Instagram: Meta recusou act_1654358850033325/adcreatives: Invalid parameter (código 100/1885183) O post do criativo dos anúncios foi criado por um app que está em modo de 
-FALHOU E_6Comandos → Meta recusou act_1654358850033325/adcreatives: Invalid parameter (código 100/1885183) O post do criativo dos anúncios foi criado por um app que está em modo de desenvolvimento. Ele deve estar em modo público para criar este anúncio.
+FALHOU D_Oferta → Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida.
+FALHOU E_6Comandos → Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida.
 Pronto: 0 anúncio(s) criados, tudo PAUSADO. Para ligar: ativar.
