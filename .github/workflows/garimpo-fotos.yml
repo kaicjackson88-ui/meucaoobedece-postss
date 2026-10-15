@@ -1,0 +1,37 @@
+name: Garimpar fotos (Pixabay, cifradas)
+
+on:
+  workflow_dispatch:
+    inputs:
+      por_busca:
+        description: "Quantas fotos por busca"
+        required: false
+        default: "8"
+
+permissions:
+  contents: write
+
+jobs:
+  garimpar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ferramentas
+        run: sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Baixar e cifrar
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          POR_BUSCA: ${{ inputs.por_busca }}
+        run: |
+          set -o pipefail
+          mkdir -p fotos
+          python scripts/garimpo_fotos.py 2>&1 | tee fotos/log.txt
+      - name: Subir num branch próprio
+        if: always()
+        run: |
+          git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
+          python -c "import sys,glob;sys.path.insert(0,'scripts');import reels;print(reels.subir_arquivos(sorted(glob.glob('fotos/*')),'fotos'))"
