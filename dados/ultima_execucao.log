@@ -1,36 +1,25 @@
-  cão real "bravo" pronto
-  cão real "feliz" pronto
-  cão real "normal" pronto
-  cão real "dorminhoco" pronto
-  cão real "lendario" pronto
-Preparing worktree (detached HEAD 86f2ce3)
-HEAD is now at 86f2ce3 Reels: registros atualizados
-Switched to a new branch 'tmp-midia-20261015-0700-c-ansiedade'
-remote: 
-remote: Create a pull request for 'midia-20261015-0700-c-ansiedade' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261015-0700-c-ansiedade        
-remote: 
-Carrossel novo: Chora sozinho — Por que seu cão não consegue ficar sozinho?
-Conta: @meu_cao_obedece (página Meu cão obedece)
-Carrossel publicado! https://www.instagram.com/p/DegsyxfGGAm/
-Aguardando o horário 09:00 (115 min)...
-Roteiro: r014-curio-cores (curiosidades, estilo noite) — horário 2026-10-15 09:00
+Roteiro: h005-vistoria-apartamento (tiktok-historia, estilo sol) — horário manual
 Narração...
 voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-[0;93m2026-10-15 12:00:06.831518767 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-  cão real "bravo": 48 quadro(s)
-  cão real "feliz": 48 quadro(s)
-  cão real "normal": 48 quadro(s)
-  cão real "dorminhoco": 48 quadro(s)
-  cão real "lendario": 48 quadro(s)
+[0;93m2026-10-15 12:30:10.278479138 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+  história: o mesmo cão real (f3879893) em todas as cenas, 1 quadro(s)
 Render...
-  frame 0/559
-  frame 300/559
+  frame 0/1908
+  frame 300/1908
+  frame 600/1908
+  frame 900/1908
+  frame 1200/1908
+  frame 1500/1908
+  frame 1800/1908
 Áudio...
-Preparing worktree (detached HEAD 2f3c4d7)
-HEAD is now at 2f3c4d7 Carrossel publicado
-Switched to a new branch 'tmp-20261015-0902-r014-curio-cores'
+Preparing worktree (detached HEAD 680d8f2)
+HEAD is now at 680d8f2 Histórias: o mesmo cão real (só cão, sem pessoas) em todas as cenas
+Switched to a new branch 'tmp-20261015-0935-h005-vistoria-apartamento'
 remote: 
-remote: Create a pull request for 'midia-20261015-0902-r014-curio-cores' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261015-0902-r014-curio-cores        
+remote: Create a pull request for 'midia-20261015-0935-h005-vistoria-apartamento' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261015-0935-h005-vistoria-apartamento        
 remote: 
+Pronto: /tmp/reel-4o1ajbk2/reel.mp4 (63.6s)
+Vídeo público: https://raw.githubusercontent.com/kaicjackson88-ui/meucaoobedece-postss/midia-20261015-0935-h005-vistoria-apartamento/20261015-0935-h005-vistoria-apartamento.mp4
+Modo teste: não postei.
