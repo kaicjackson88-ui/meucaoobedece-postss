@@ -3,6 +3,7 @@
  "id": "teste2",
  "nome": "MCO | Teste 2 | Vendas",
  "conjunto": "MCO | Brasil aberto",
+ "pixel": "1702277674672285",
  "orcamento_dia": 40,
  "limite_total": 200,
  "link": "https://meucaoobedece.vercel.app/",

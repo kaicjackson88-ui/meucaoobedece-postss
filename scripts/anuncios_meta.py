@@ -92,7 +92,30 @@ def checar(_=None):
         for px in r.get('data', []):
             pixels.append({'conta': c['id'], 'id': px['id'], 'nome': px.get('name'), 'ultimo_evento': px.get('last_fired_time')})
             print('Pixel:', pixels[-1])
-    gravar(STATUS, {'permissoes': concedidas, 'faltam': falta, 'contas_anuncio': contas, 'paginas': paginas, 'pixels': pixels})
+    # pixel do site (o que dispara no meucaoobedece) — pode não estar listado na conta
+    pixel_site = os.environ.get('PIXEL_SITE', '1702277674672285')
+    r = _try(lambda: api('GET', pixel_site, {'fields': 'id,name,last_fired_time,owner_business{id,name}'}), None)
+    print('Pixel do site:', r if r else f'{pixel_site} NÃO visível para o robô')
+    if r:
+        ev = _try(lambda: api('GET', f'{pixel_site}/stats', {'aggregation': 'event'}), None)
+        nomes = sorted({d.get('value') for b in (ev or {}).get('data', []) for d in b.get('data', [])} - {None})
+        print('  eventos recentes do pixel do site:', ', '.join(nomes) or '(nenhum lido)')
+    # Instagram para anúncio (outras rotas, já que instagram_business_account pede instagram_basic)
+    igs = []
+    for p in paginas:
+        for rota in (f"{p['id']}/instagram_accounts", f"{p['id']}/page_backed_instagram_accounts"):
+            d = _try(lambda: api('GET', rota, {'fields': 'id,username'}), {}) or {}
+            for x in d.get('data', []):
+                igs.append({'pagina': p['id'], 'rota': rota.split('/')[1], 'id': x['id'], 'user': x.get('username')})
+    for c in contas:
+        d = _try(lambda: api('GET', f"{c['id']}/instagram_accounts", {'fields': 'id,username'}), {}) or {}
+        igs += [{'conta': c['id'], 'rota': 'conta', 'id': x['id'], 'user': x.get('username')} for x in d.get('data', [])]
+        f = _try(lambda: api('GET', c['id'], {'fields': 'funding_source,funding_source_details,disable_reason,business{id,name}'}), {}) or {}
+        print('Pagamento da conta:', {k: f.get(k) for k in ('funding_source', 'funding_source_details', 'disable_reason', 'business')})
+    for x in igs:
+        print('Instagram p/ anúncio:', x)
+    gravar(STATUS, {'permissoes': concedidas, 'faltam': falta, 'contas_anuncio': contas, 'paginas': paginas, 'pixels': pixels,
+                    'pixel_site': r, 'instagrams': igs})
     print('Gravado em', STATUS.relative_to(RAIZ))
     return not falta and bool(contas)
 
@@ -108,7 +131,11 @@ def _alvos(cfg):
     pag = next((p for p in st.get('paginas', []) if p.get('ig') and 'obedece' in (p.get('nome') or '').lower()), None) or \
         next((p for p in st.get('paginas', []) if p.get('ig')), {})
     pixs = sorted([p for p in st.get('pixels', []) if p['conta'] == conta], key=lambda p: p.get('ultimo_evento') or '', reverse=True)
-    out = {'conta': conta, 'pagina': cfg.get('pagina') or pag.get('id'), 'ig': cfg.get('instagram') or pag.get('ig'),
+    if not pag:
+        pag = next((p for p in st.get('paginas', []) if 'obedece' in (p.get('nome') or '').lower()), {})
+    ig2 = next((x['id'] for x in st.get('instagrams', []) if x.get('rota') == 'instagram_accounts' and x.get('pagina') == pag.get('id')), None) or \
+        next((x['id'] for x in st.get('instagrams', []) if x.get('rota') == 'conta'), None)
+    out = {'conta': conta, 'pagina': cfg.get('pagina') or pag.get('id'), 'ig': cfg.get('instagram') or pag.get('ig') or ig2,
            'pixel': cfg.get('pixel') or (pixs[0]['id'] if pixs else None)}
     falta = [k for k, v in out.items() if not v]
     if falta:
