@@ -3,10 +3,14 @@ name: Garimpar músicas (Mixkit, cifradas)
 on:
   workflow_dispatch:
     inputs:
-      limite:
-        description: "Quantas músicas baixar"
+      tipo:
+        description: "musica ou efeitos"
         required: false
-        default: "24"
+        default: "musica"
+      limite:
+        description: "Quantos baixar (vazio = padrão do tipo)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -25,6 +29,7 @@ jobs:
       - name: Baixar e cifrar
         env:
           LIMITE: ${{ inputs.limite }}
+          TIPO: ${{ inputs.tipo }}
         run: |
           set -o pipefail
           mkdir -p musicas
@@ -33,4 +38,4 @@ jobs:
         if: always()
         run: |
           git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
-          python -c "import sys,glob;sys.path.insert(0,'scripts');import reels;print(reels.subir_arquivos(sorted(glob.glob('musicas/*')),'musicas'))"
+          python -c "import sys,glob;sys.path.insert(0,'scripts');import reels;print(reels.subir_arquivos(sorted(glob.glob('musicas/*')),'efeitos' if '${{ inputs.tipo }}'=='efeitos' else 'musicas'))"
