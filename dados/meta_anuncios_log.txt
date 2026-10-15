@@ -1,14 +1,10 @@
-Permissões concedidas: ads_management, ads_read, business_management, page_events, pages_read_engagement, pages_read_user_content, pages_show_list, public_profile
-Faltam para anúncios: nada — dá para gerenciar anúncios
-Conta de anúncio: {'id': 'act_1654358850033325', 'nome': 'Protocolo ausência ', 'moeda': 'BRL', 'status': 1, 'gasto': '0', 'pagamento': None}
-Página: {'id': '1284657694728838', 'nome': 'Meu cão obedece', 'ig': None, 'ig_user': None}
-Pixel: {'conta': 'act_1654358850033325', 'id': '1028043296250722', 'nome': 'Dados do código ausência', 'ultimo_evento': '2026-07-28T14:50:25+0000'}
-  aviso: Meta recusou 1702277674672285: (#100) Missing perms (código 100/None) 
-Pixel 1702277674672285 : NÃO visível para o robô
-Pixel 1479327760890680 : {'id': '1479327760890680', 'name': 'pixel meu cao obdece', 'last_fired_time': '2026-10-14T08:59:50+0000', 'owner_business': {'id': '3744560922226564', 'name': 'Kaic Jakson'}}
-  eventos (últimos dias): (nenhum)
-Pixel 1814241013073630 : {'id': '1814241013073630', 'name': 'pixel meu cao obdece \\veo1', 'owner_business': {'id': '3744560922226564', 'name': 'Kaic Jakson'}}
-  eventos (últimos dias): (nenhum)
-Pagamento da conta: {'funding_source': None, 'funding_source_details': None, 'disable_reason': 0, 'business': {'id': '3744560922226564', 'name': 'Kaic Jakson'}}
-Instagram p/ anúncio: {'pagina': '1284657694728838', 'rota': 'page_backed_instagram_accounts', 'id': '17841439293755946', 'user': None}
-Gravado em dados/meta_anuncios_status.json
+Usando: {'conta': 'act_1654358850033325', 'pagina': '1284657694728838', 'ig': '17841474456587008', 'pixel': '1479327760890680'}
+Campanha criada (pausada): 120254642451430085
+Conjunto criado (pausado): 120254642451520085
+Pulando (marcado para depois): A_NaoTeimoso
+Pulando (marcado para depois): B_TesteComigo
+  Instagram recusado, criativo sai com a identidade da Página no Instagram: Meta recusou act_1654358850033325/adcreatives: Invalid parameter (código 100/1885183) O post do criativo dos anúncios foi criado por um app que está em modo de 
+FALHOU D_Oferta → Meta recusou act_1654358850033325/adcreatives: Invalid parameter (código 100/1885183) O post do criativo dos anúncios foi criado por um app que está em modo de desenvolvimento. Ele deve estar em modo público para criar este anúncio.
+  Instagram recusado, criativo sai com a identidade da Página no Instagram: Meta recusou act_1654358850033325/adcreatives: Invalid parameter (código 100/1885183) O post do criativo dos anúncios foi criado por um app que está em modo de 
+FALHOU E_6Comandos → Meta recusou act_1654358850033325/adcreatives: Invalid parameter (código 100/1885183) O post do criativo dos anúncios foi criado por um app que está em modo de desenvolvimento. Ele deve estar em modo público para criar este anúncio.
+Pronto: 0 anúncio(s) criados, tudo PAUSADO. Para ligar: ativar.
