@@ -1,1 +1,1 @@
-2026-10-15T16:59:51.723040-03:00 h071-cocada-tapete-mudou-de-lugar: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261016035951200A9CA80C112AB93964"}}
+2026-10-15T17:09:56.776380-03:00 h071-cocada-tapete-mudou-de-lugar: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261016040956E3A879BC168F35B1ECC0"}}
