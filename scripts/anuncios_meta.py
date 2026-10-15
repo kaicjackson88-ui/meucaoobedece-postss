@@ -94,13 +94,20 @@ def checar(_=None):
             pixels.append({'conta': c['id'], 'id': px['id'], 'nome': px.get('name'), 'ultimo_evento': px.get('last_fired_time')})
             print('Pixel:', pixels[-1])
     # pixel do site (o que dispara no meucaoobedece) — pode não estar listado na conta
-    pixel_site = os.environ.get('PIXEL_SITE', '1702277674672285')
-    r = _try(lambda: api('GET', pixel_site, {'fields': 'id,name,last_fired_time,owner_business{id,name}'}), None)
-    print('Pixel do site:', r if r else f'{pixel_site} NÃO visível para o robô')
-    if r:
-        ev = _try(lambda: api('GET', f'{pixel_site}/stats', {'aggregation': 'event'}), None)
-        nomes = sorted({d.get('value') for b in (ev or {}).get('data', []) for d in b.get('data', [])} - {None})
-        print('  eventos recentes do pixel do site:', ', '.join(nomes) or '(nenhum lido)')
+    r = None
+    for pixel_site in os.environ.get('PIXEL_SITE', '1702277674672285,1479327760890680,1814241013073630').split(','):
+        x = _try(lambda: api('GET', pixel_site, {'fields': 'id,name,last_fired_time,owner_business{id,name}'}), None)
+        print('Pixel', pixel_site, ':', x if x else 'NÃO visível para o robô')
+        if x:
+            ev = _try(lambda: api('GET', f'{pixel_site}/stats', {'aggregation': 'event'}), None)
+            cont = {}
+            for b in (ev or {}).get('data', []):
+                for d in b.get('data', []):
+                    cont[d.get('value')] = cont.get(d.get('value'), 0) + int(d.get('count') or 0)
+            print('  eventos (últimos dias):', cont or '(nenhum)')
+            x['eventos'] = cont
+            r = r or {}
+            r[pixel_site] = x
     # Instagram para anúncio (outras rotas, já que instagram_business_account pede instagram_basic)
     igs = []
     for p in paginas:
