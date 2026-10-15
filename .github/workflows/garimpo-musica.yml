@@ -1,0 +1,36 @@
+name: Garimpar músicas (Mixkit, cifradas)
+
+on:
+  workflow_dispatch:
+    inputs:
+      limite:
+        description: "Quantas músicas baixar"
+        required: false
+        default: "24"
+
+permissions:
+  contents: write
+
+jobs:
+  garimpar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ferramentas
+        run: sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Baixar e cifrar
+        env:
+          LIMITE: ${{ inputs.limite }}
+        run: |
+          set -o pipefail
+          mkdir -p musicas
+          python scripts/garimpo_musica.py 2>&1 | tee musicas/log.txt
+      - name: Subir num branch próprio
+        if: always()
+        run: |
+          git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
+          python -c "import sys,glob;sys.path.insert(0,'scripts');import reels;print(reels.subir_arquivos(sorted(glob.glob('musicas/*')),'musicas'))"
