@@ -3,7 +3,7 @@
  "ativo": true,
  "fps": 12,
  "segundos": 4,
- "pular_tipos": ["historia", "chat"],
+ "pular_tipos": [],
  "videos": {
   "bravo": [45972],
   "feliz": [197721, 156318],
