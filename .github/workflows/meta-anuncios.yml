@@ -43,4 +43,8 @@ jobs:
         if: always()
         run: |
           git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
-          git add dados/meta_* && git commit -qm "Anúncios Meta: registro" && git pull -q --rebase --autostash && git push -q || echo nada
+          git add dados/meta_* && git commit -qm "Anúncios Meta: ${ACAO:-registro}" || { echo "nada novo"; exit 0; }
+          for i in 1 2 3 4 5 6; do git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && exit 0; sleep $((i*5)); done
+          echo "não consegui salvar o registro"; exit 1
+        env:
+          ACAO: ${{ github.event_name == 'schedule' && 'relatorio' || inputs.acao }}
