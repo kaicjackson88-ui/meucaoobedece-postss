@@ -235,13 +235,16 @@ def montar(arq):
             print('Pulando (marcado para depois):', ad['nome']); continue
         if est['anuncios'].get(ad['nome'], {}).get('id'):
             continue
+        cid = est['anuncios'].get(ad['nome'], {}).get('criativo')
         try:
-            cid = _criativo(alvo, cfg, ad)
+            if not cid:
+                cid = _criativo(alvo, cfg, ad)
+                est['anuncios'][ad['nome']] = {'criativo': cid}; gravar(saida, est)
             aid = api('POST', f'{conta}/ads', {'name': ad['nome'], 'adset_id': est['conjunto'], 'creative': {'creative_id': cid}, 'status': 'PAUSED'})['id']
             est['anuncios'][ad['nome']] = {'id': aid, 'criativo': cid}
             print('Anúncio criado (pausado):', ad['nome'], aid)
         except Exception as e:  # noqa: BLE001
-            est['anuncios'][ad['nome']] = {'erro': str(e)[:400]}
+            est['anuncios'][ad['nome']] = {'erro': str(e)[:400], 'criativo': cid}
             print('FALHOU', ad['nome'], '→', str(e)[:400])
         gravar(saida, est)
     est['montado_em'] = datetime.now(BRT).isoformat()
