@@ -95,7 +95,7 @@ def checar(_=None):
             print('Pixel:', pixels[-1])
     # pixel do site (o que dispara no meucaoobedece) — pode não estar listado na conta
     r = None
-    for pixel_site in os.environ.get('PIXEL_SITE', '1702277674672285,1479327760890680,1814241013073630').split(','):
+    for pixel_site in os.environ.get('PIXEL_SITE', '1479327760890680').split(','):
         x = _try(lambda: api('GET', pixel_site, {'fields': 'id,name,last_fired_time,owner_business{id,name}'}), None)
         print('Pixel', pixel_site, ':', x if x else 'NÃO visível para o robô')
         if x:
@@ -215,6 +215,7 @@ def montar(arq):
     alvo = _alvos(cfg)
     conta = alvo['conta']
     est.update({k: alvo[k] for k in alvo})
+    _try(lambda: api('POST', f"{alvo['pixel']}/shared_accounts", {'account_id': conta.replace('act_', ''), 'business': os.environ.get('BM_ID', '3744560922226564')}))
     if not est.get('campanha'):
         est['campanha'] = api('POST', f'{conta}/campaigns', {'name': cfg['nome'], 'objective': 'OUTCOME_SALES', 'status': 'PAUSED',
                                                              'special_ad_categories': [], 'is_adset_budget_sharing_enabled': 'false'})['id']
