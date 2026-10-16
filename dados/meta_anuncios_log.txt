@@ -1,9 +1,7 @@
-  aviso: tuple indices must be integers or slices, not str
-Conta: {'account_status': None, 'disable_reason': None, 'balance': None, 'amount_spent': None, 'spend_cap': None} pagamento: None
-Traceback (most recent call last):
-  File "/home/runner/work/meucaoobedece-postss/meucaoobedece-postss/scripts/anuncios_meta.py", line 373, in <module>
-    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio, 'situacao': situacao}[cmd](arq)
-  File "/home/runner/work/meucaoobedece-postss/meucaoobedece-postss/scripts/anuncios_meta.py", line 357, in situacao
-    for nome, oid in [('Campanha', est.get('campanha')), ('Conjunto', est.get('conjunto'))] + [(k, v.get('id')) for k, v in est.get('anuncios', {}).items()]:
-                                   ^^^^^^^
-AttributeError: 'tuple' object has no attribute 'get'
+Conta: {'account_status': 1, 'disable_reason': 0, 'balance': '0', 'amount_spent': '183937', 'spend_cap': '189207'} pagamento: Saldo disponível (R$59,99 BRL)
+Campanha: ACTIVE (configurado ACTIVE)
+Conjunto: ACTIVE (configurado ACTIVE)
+A_NaoTeimoso: ACTIVE (configurado ACTIVE)
+B_TesteComigo: ACTIVE (configurado ACTIVE)
+D_Oferta: ACTIVE (configurado ACTIVE)
+E_6Comandos: ACTIVE (configurado ACTIVE)
