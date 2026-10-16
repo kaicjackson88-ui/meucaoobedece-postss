@@ -14,7 +14,6 @@
   {
    "nome": "A_NaoTeimoso",
    "tipo": "video",
-   "pular": true,
    "arquivos": [
     "A.mp4",
     "A_capa.jpg"
@@ -25,7 +24,6 @@
   {
    "nome": "B_TesteComigo",
    "tipo": "video",
-   "pular": true,
    "arquivos": [
     "B.mp4",
     "B_capa.jpg"
