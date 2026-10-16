@@ -1,7 +1,11 @@
-Usando: {'conta': 'act_1654358850033325', 'pagina': '1284657694728838', 'ig': '17841474456587008', 'pixel': '1479327760890680'}
-Orçamento do conjunto ajustado para R$ 25 /dia
-FALHOU A_NaoTeimoso → Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida.
-FALHOU B_TesteComigo → Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida.
-FALHOU D_Oferta → Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida.
-FALHOU E_6Comandos → Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida.
-Pronto: 0 anúncio(s) criados, tudo PAUSADO. Para ligar: ativar.
+Permissões concedidas: ads_management, ads_read, business_management, page_events, pages_read_engagement, pages_read_user_content, pages_show_list, public_profile
+Faltam para anúncios: nada — dá para gerenciar anúncios
+Conta de anúncio: {'id': 'act_1654358850033325', 'nome': 'Protocolo ausência ', 'moeda': 'BRL', 'status': 1, 'gasto': '0', 'pagamento': None}
+Página: {'id': '1284657694728838', 'nome': 'Meu cão obedece', 'ig': None, 'ig_user': None}
+Pixel: {'conta': 'act_1654358850033325', 'id': '1028043296250722', 'nome': 'Dados do código ausência', 'ultimo_evento': '2026-07-28T14:50:25+0000'}
+Pixel: {'conta': 'act_1654358850033325', 'id': '1479327760890680', 'nome': 'pixel meu cao obdece', 'ultimo_evento': '2026-10-14T08:59:50+0000'}
+Pixel 1479327760890680 : {'id': '1479327760890680', 'name': 'pixel meu cao obdece', 'last_fired_time': '2026-10-14T08:59:50+0000', 'owner_business': {'id': '3744560922226564', 'name': 'Kaic Jakson'}}
+  eventos (últimos dias): (nenhum)
+Pagamento da conta: {'funding_source': None, 'funding_source_details': None, 'disable_reason': 0, 'business': {'id': '3744560922226564', 'name': 'Kaic Jakson'}}
+Instagram p/ anúncio: {'pagina': '1284657694728838', 'rota': 'page_backed_instagram_accounts', 'id': '17841439293755946', 'user': None}
+Gravado em dados/meta_anuncios_status.json

@@ -34,6 +34,12 @@
    "id": "1028043296250722",
    "nome": "Dados do código ausência",
    "ultimo_evento": "2026-07-28T14:50:25+0000"
+  },
+  {
+   "conta": "act_1654358850033325",
+   "id": "1479327760890680",
+   "nome": "pixel meu cao obdece",
+   "ultimo_evento": "2026-10-14T08:59:50+0000"
   }
  ],
  "pixel_site": {
@@ -41,15 +47,6 @@
    "id": "1479327760890680",
    "name": "pixel meu cao obdece",
    "last_fired_time": "2026-10-14T08:59:50+0000",
-   "owner_business": {
-    "id": "3744560922226564",
-    "name": "Kaic Jakson"
-   },
-   "eventos": {}
-  },
-  "1814241013073630": {
-   "id": "1814241013073630",
-   "name": "pixel meu cao obdece \\veo1",
    "owner_business": {
     "id": "3744560922226564",
     "name": "Kaic Jakson"
