@@ -1,9 +1,5 @@
-Usando: {'conta': 'act_1799202680158211', 'pagina': '1284657694728838', 'ig': '17841474456587008', 'pixel': '1479327760890680'}
-Conta nova: act_1799202680158211 (estado da conta act_1654358850033325 arquivado)
-Campanha criada (pausada): 120253868078930279
-Conjunto criado (pausado): 120253868079300279
-Anúncio criado (pausado): A_NaoTeimoso 120253868082420279
-Anúncio criado (pausado): B_TesteComigo 120253868084300279
-Anúncio criado (pausado): D_Oferta 120253868084570279
-Anúncio criado (pausado): E_6Comandos 120253868085940279
-Pronto: 4 anúncio(s) criados, tudo PAUSADO. Para ligar: ativar.
+Ligado: A_NaoTeimoso
+Ligado: B_TesteComigo
+Ligado: D_Oferta
+Ligado: E_6Comandos
+Campanha ligada.
