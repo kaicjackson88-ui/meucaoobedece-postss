@@ -1,6 +1,5 @@
 Usando: {'conta': 'act_1799202680158211', 'pagina': '1284657694728838', 'ig': '17841474456587008', 'pixel': '1479327760890680'}
 Conta nova: act_1799202680158211 (estado da conta act_1654358850033325 arquivado)
-  aviso: Meta recusou 1479327760890680/shared_accounts: Permissions error (código 200/1784039) Para vincular um pixel a uma conta de anúncios, a empresa 3744560922226564 precisa ter acesso ao pixel e à conta de anúncios.
 Traceback (most recent call last):
   File "/home/runner/work/meucaoobedece-postss/meucaoobedece-postss/scripts/anuncios_meta.py", line 355, in <module>
     {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio}[cmd](arq)
@@ -9,4 +8,4 @@ Traceback (most recent call last):
                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/meucaoobedece-postss/meucaoobedece-postss/scripts/anuncios_meta.py", line 43, in api
     raise RuntimeError(f"Meta recusou {caminho.split('?')[0]}: {err.get('message')} "
-RuntimeError: Meta recusou act_1799202680158211/campaigns: Unsupported post request. Object with ID 'act_1799202680158211' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (código 100/33) 
+RuntimeError: Meta recusou act_1799202680158211/campaigns: Permissions error (código 200/2490585) Para criar ou editar anúncios da conta de anúncios 1799202680158211, entre em contato com um administrador para obter permissão com a função Anunciante ou superior. Verifique se o token da sua API inclui a permissão "ads_management". Detalhes: https://developers.facebook.com/docs/permissions
