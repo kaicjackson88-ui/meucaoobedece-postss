@@ -1,7 +1,9 @@
-Conta: {'account_status': 1, 'disable_reason': 0, 'balance': '0', 'amount_spent': '183937', 'spend_cap': '189207'} pagamento: Saldo disponível (R$59,99 BRL)
-Campanha: ACTIVE (configurado ACTIVE)
-Conjunto: ACTIVE (configurado ACTIVE)
-A_NaoTeimoso: ACTIVE (configurado ACTIVE)
-B_TesteComigo: ACTIVE (configurado ACTIVE)
-D_Oferta: ACTIVE (configurado ACTIVE)
-E_6Comandos: ACTIVE (configurado ACTIVE)
+# MCO | Teste 2 | Vendas — 16/10 06:02
+
+Gasto total: **R$0.00** de R$50 · vendas: **0** · dia 1 do teste
+
+| anúncio | gasto | CTR link | hook 3s | checkouts | vendas | custo/venda | decisão |
+|---|---|---|---|---|---|---|---|
+
+**Ações do robô:** nenhuma — dentro das regras.
+_Primeiros 3 dias: só pausas de segurança; nada de mexer no resto (o aprendizado reinicia)._
