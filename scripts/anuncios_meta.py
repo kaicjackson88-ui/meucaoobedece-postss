@@ -347,9 +347,27 @@ def relatorio(arq):
                      for l in linhas) + ('\n' + '\n'.join(acoes) if acoes else ''))
 
 
+
+def situacao(arq):
+    """Só leitura: em que pé está a entrega (análise, aprovado, rejeitado, problemas)."""
+    est = _estado(arq)
+    c = _try(lambda: api('GET', est['conta'], {'fields': 'account_status,disable_reason,balance,spend_cap,amount_spent,funding_source_details'}), {}) or {}
+    print('Conta:', {k: c.get(k) for k in ('account_status', 'disable_reason', 'balance', 'amount_spent', 'spend_cap')},
+          'pagamento:', (c.get('funding_source_details') or {}).get('display_string'))
+    for nome, oid in [('Campanha', est.get('campanha')), ('Conjunto', est.get('conjunto'))] + [(k, v.get('id')) for k, v in est.get('anuncios', {}).items()]:
+        if not oid:
+            continue
+        campos = 'name,status,effective_status,issues_info' + (',ad_review_feedback' if nome not in ('Campanha', 'Conjunto') else '')
+        r = _try(lambda: api('GET', oid, {'fields': campos}), {}) or {}
+        print(f"{nome}: {r.get('effective_status')} (configurado {r.get('status')})")
+        if r.get('issues_info'):
+            print('   problemas:', json.dumps(r['issues_info'], ensure_ascii=False)[:600])
+        if r.get('ad_review_feedback'):
+            print('   análise:', json.dumps(r['ad_review_feedback'], ensure_ascii=False)[:600])
+
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'checar'
     arq = sys.argv[2] if len(sys.argv) > 2 else str(RAIZ / 'anuncios' / 'teste2.json')
     if not TOKEN:
         sys.exit('Sem chave: crie o segredo META_ADS_TOKEN.')
-    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio}[cmd](arq)
+    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio, 'situacao': situacao}[cmd](arq)
