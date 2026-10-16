@@ -235,5 +235,16 @@
   "media_id": "18434480962195014",
   "link": "https://www.instagram.com/p/Deh-3XLjonA/",
   "publicado_em": "2026-10-15T22:00:54.375989+00:00"
+ },
+ {
+  "slot": "2026-10-16 07:00",
+  "seg": "fogos",
+  "tema": "Medo de fogos",
+  "gancho": "Trovão e seu cão corre pra se esconder?",
+  "assin": "fogos|Trovão e seu cão corre pra se [esconder]?|0,1,2",
+  "seed": 823226468,
+  "media_id": "18083755682687685",
+  "link": "https://www.instagram.com/p/DejRRGIGZ-S/",
+  "publicado_em": "2026-10-16T10:00:58.429623+00:00"
  }
 ]
