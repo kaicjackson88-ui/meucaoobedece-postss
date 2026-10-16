@@ -1,1 +1,1 @@
-2026-10-16T11:44:40.487340-03:00 h070-quiabo-cachorro-do-espelho: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261016224440C91B27E3812C414DF617"}}
+2026-10-16T11:54:45.144140-03:00 h070-quiabo-cachorro-do-espelho: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261016225444491D5089921AAE4AB7D5"}}
