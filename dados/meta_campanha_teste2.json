@@ -7,11 +7,21 @@
  "conjunto": "120254642451520085",
  "anuncios": {
   "D_Oferta": {
-   "erro": "Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida."
+   "erro": "Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida.",
+   "criativo": "1635623537950125"
   },
   "E_6Comandos": {
-   "erro": "Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida."
+   "erro": "Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida.",
+   "criativo": "992080197282462"
+  },
+  "A_NaoTeimoso": {
+   "erro": "Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida.",
+   "criativo": "1081030834559925"
+  },
+  "B_TesteComigo": {
+   "erro": "Meta recusou act_1654358850033325/ads: Invalid parameter (código 100/1359188) Atualize a forma de pagamento: visite a Central de Cobranças e Pagamentos para adicionar uma forma de pagamento válida.",
+   "criativo": "1432200385555167"
   }
  },
- "montado_em": "2026-10-15T20:39:51.965615-03:00"
+ "montado_em": "2026-10-15T21:19:22.952583-03:00"
 }
