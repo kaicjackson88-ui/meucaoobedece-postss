@@ -214,6 +214,10 @@ def montar(arq):
     est = ler(saida, {}) or {}
     alvo = _alvos(cfg)
     conta = alvo['conta']
+    if est.get('conta') and est['conta'] != conta:   # campanha mudou de conta: guarda o estado antigo e começa do zero
+        gravar(DADOS / f"meta_campanha_{cfg['id']}_{est['conta']}.json", est)
+        print('Conta nova:', conta, '(estado da conta', est['conta'], 'arquivado)')
+        est = {}
     est.update({k: alvo[k] for k in alvo})
     _try(lambda: api('POST', f"{alvo['pixel']}/shared_accounts", {'account_id': conta.replace('act_', ''), 'business': os.environ.get('BM_ID', '3744560922226564')}))
     if not est.get('campanha'):
