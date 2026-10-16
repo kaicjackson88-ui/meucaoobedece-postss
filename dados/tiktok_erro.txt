@@ -1,1 +1,1 @@
-2026-10-15T23:56:04.102160-03:00 h069-canjica-feira-de-domingo-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610161056032F0C3615A3510216D145"}}
+2026-10-16T10:34:07.238827-03:00 h070-quiabo-cachorro-do-espelho: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610162134072A285066D3965543F875"}}
