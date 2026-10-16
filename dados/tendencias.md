@@ -1,82 +1,83 @@
 # Tendências — Meu Cão Obedece
 
-## Atualizado em 13/10
+## Atualizado em 16/10
 
-Limite desta pesquisa: o TikTok Creative Center pediu permissão e não respondeu a tempo. As páginas /discover do TikTok bloqueiam leitura automática. Por isso, **não há ranking oficial de hashtags nem de sons do Brasil nos últimos 30 dias**. Os formatos abaixo vêm de relatórios de tendências de outubro de 2026 (agências dos EUA e do Reino Unido) adaptados ao nosso nicho, mais guias de Reels de 2026 e matérias pet do Brasil. Tudo aqui é hipótese para testar.
+Limite desta pesquisa: as páginas /discover e /tag do TikTok e o Creative Center bloqueiam leitura automática. Por isso, **não há ranking oficial de hashtags nem de sons do Brasil nos últimos 30 dias**. Os formatos vêm de relatórios semanais de tendências de 9 a 14/10/2026 (agências dos EUA e do Reino Unido), adaptados ao nosso nicho. **Nenhum desses relatórios trouxe trend específica de cachorro.** Tudo aqui é hipótese para testar.
 
-Nosso perfil (TikTok, 12/10): 27 vídeos, mediana de 88 views e engajamento mediano de 0,018. Ainda são poucos dados, então os pesos são fracos. O que puxa para cima: tema **xixi** (+0,04), cenário de **condomínio/apartamento** (top 3 é "vistoria do apartamento"), elenco **vizinho/João**, cenários **corredor/sala**, duração **média**, cenas com **chat**. O que puxa para baixo: **ansiedade**, filhote/primeira noite, cenário quarto, vídeos curtos, datas genéricas (Dia das Crianças e Halloween-campainha ficaram entre os piores). O Instagram ainda não tem Reels medidos (relatorio.md vazio).
+Nosso perfil (TikTok, 15/10): 54 vídeos, mediana de 95 views e engajamento mediano de 0,011. O que puxa para cima: temas **xixi** e **comida** (+0,07 cada), **cão e gato** (#caoegato +0,07; "Pitanga e a ração da gata" é o 2º melhor vídeo), **apartamento/condomínio** (top 1 é "vistoria do apartamento"), **fogos** (+0,04), elenco **vizinho/João**, cenários **corredor/cozinha**, duração **média**, cenas com **chat**. O que puxa para baixo: tema **cama** (-0,26), #reforcopositivo (-0,14), cenário quarto, ansiedade genérica, vídeos curtos, datas genéricas (Halloween-campainha e Dia das Crianças ficaram entre os piores). O Instagram ainda não tem Reels medidos (relatorio.md vazio).
 
 ## O que testar esta semana
 
-1. **"Foi só um pesadelo" (terror do dia a dia)**
-   - Gancho: "O pior pesadelo de quem mora em apartamento com cachorro 😱" → a síndica bate na porta com a notificação do latido / o vistoriador acha a mancha de xixi → o tutor acorda, respira, e mostra 1 passo de treino.
-   - Formato: história animada de 25 a 35s. Cenários corredor e sala. Elenco João + vizinho/síndica. Texto grande na tela.
-   - Por quê: em outubro, um formato em alta é tratar perrengues comuns como "filme de terror" e fechar com "foi só um sonho" (Pepper Agency, NewEngen). É Halloween sem fantasia, e isso importa porque o nosso Halloween-campainha foi mal. Junta isso ao tema e cenário que mais performam no perfil (xixi + condomínio).
-2. **"Estrelinha dourada ⭐": as pequenas vitórias**
-   - Gancho: "Estrelinha dourada pro Thor: 3 xixis seguidos no tapete ⭐". Em seguida, um flashback rápido de como era antes e o pequeno ajuste que ajudou.
-   - Formato: 15 a 25s, tom leve. Termina com "Qual foi a estrelinha do seu cão essa semana? 👇".
-   - Por quê: o formato de comemorar vitórias pequenas segue forte desde setembro (Pepper Agency). Também gera comentário fácil e reforça a ideia de progresso, sem prometer resultado.
-3. **"Você decide a parte 2" (história guiada pelos comentários)**
-   - Gancho: "A visita chegou e o Pipoca já tá na porta... O João abre agora ou espera ele sentar? Comenta A ou B."
-   - Formato: parte 1 de 20 a 30s com uma cena de chat do grupo do prédio. A parte 2 sai em 2 a 3 dias, como resposta ao comentário mais votado (use o recurso de responder comentário com vídeo).
-   - Por quê: conteúdo guiado pelo público (enquetes, respostas em vídeo) aparece como tendência de outubro. Cenas com chat têm peso positivo no nosso perfil, e série dá motivo para seguir.
-4. **Contagem para o Réveillon: "Faltam 11 semanas"**
-   - Gancho: "Faltam 11 semanas pros fogos. Seu cão vai passar a virada embaixo da cama de novo?"
-   - Formato: série semanal numerada de 20 a 30s, com 1 micro-passo por episódio (som baixinho + petisco, cantinho seguro). No Instagram, em carrossel "salve pra dezembro".
-   - Por quê: conteúdo de "preparação" para novembro e dezembro, feito para salvar, está em alta (Pepper Agency). Fogos tem peso levemente positivo no perfil. Fale em "mais tranquilo", nunca em "sem medo". Remédio fica com o veterinário.
-5. **Gancho de busca + situação hiper-específica**
-   - Gancho (primeira linha do texto e da fala): "Como fazer o cachorro parar de latir pro interfone". Na tela: "Se o seu late quando o porteiro interfona, assiste até o fim".
-   - Formato: 25 a 35s, uma situação bem específica do dia a dia de condomínio.
-   - Por quê: ganchos com frase pesquisável e observações hiper-específicas ("é literalmente o meu cachorro") são tendência (Pepper Agency). O Metricool reforça o uso de palavras-chave na fala, no texto da tela e na legenda.
+1. **"Plano secreto" do cão com cara de inocente (cão e gato)**
+   - Gancho: "O Pitanga tem um plano. E a vítima é a ração da gata 🐱" → cão "aperta a mão" do espectador como cúmplice, tenta o roubo, o João pega no flagra e mostra 1 passo (comida em lugar alto + "espera" antes do pote dele).
+   - Formato: história animada de 25 a 35s, cenário cozinha, texto grande na tela. Série: "Plano secreto nº 1, nº 2..."
+   - Por quê: o "Cat Handshake" (bicho cúmplice de travessura, ~534 mil vídeos até 07/10) está em alta, e série com personagem recorrente supera post isolado. Junta com comida + cão e gato, os dois maiores pesos do perfil. Copiar só a ideia de "cúmplice"; nada de usar o personagem ou o áudio da trend.
+2. **"Eu tô bem 🙂" — dancinha feliz sobre legenda de caos**
+   - Gancho na tela: "Meu cão fez xixi no tapete da sogra 5 minutos depois de chegar. Eu tô bem 🙂" com o tutor animado sorrindo/dançando sem parar enquanto a bagunça cresce. Corte final: "Tá bom, não tô. Aqui o que mudou lá em casa 👇" + 1 dica.
+   - Formato: 20 a 30s, trilha livre animada (não usar a música original), legenda de tela é o roteiro.
+   - Por quê: o formato "Be OK" (dança alegre + confissão de perrengue) entrou no top da semana (NewEngen, 14/10). O contraste "promessa e virada" em 2 tempos é apontado como o mais replicável. Usa xixi (+0,07) e a sogra (#sogra positiva).
+3. **"Fato assustador sobre o seu cão" (Halloween sem fantasia)**
+   - Gancho: "Fato assustador: pro seu cão, o interfone tocando pode significar 'invasão' 👻" → cena curta no corredor do prédio com o vizinho → como trocar o significado do som aos poucos.
+   - Formato: 20 a 30s, tom de "storytime arrepiante" leve, até 31/10. Pode virar "5 fatos assustadores" numerados.
+   - Por quê: "Creepy Fact Storytime" e séries numeradas de Halloween estão na lista de 12 a 25/10 (SocialPilot). É Halloween pelo ângulo da dor do tutor — o nosso Halloween de campainha com fantasia foi mal. Usa curiosidade + condomínio + vizinho.
+4. **Contagem para o Réveillon: "Faltam 11 semanas" (manter)**
+   - Gancho: "Faltam 11 semanas pros fogos. Esse ano seu cão vai ter um cantinho seguro?"
+   - Formato: série semanal de 25 a 35s, 1 micro-passo por episódio (som baixinho + petisco, cantinho seguro, rotina na hora da virada). No Instagram, carrossel "salve pra dezembro".
+   - Por quê: fogos tem peso positivo (+0,04) e é o tema de maior procura de dezembro. Falar em "mais tranquilo", nunca em "sem medo". Remédio é com o veterinário.
+5. **"Passeio às 6h": calor + guia**
+   - Gancho: "O João achou que o Thor puxava a guia por bagunça. Era o asfalto quente 🔥" → mostra o teste da mão no chão e o passeio cedo, guia frouxa.
+   - Formato: 25 a 35s, cenário rua, com cena de chat do grupo do prédio ("alguém mais passeia de madrugada?").
+   - Por quê: a primavera esquenta e veterinários recomendam passeio cedo (cerca de 6h a 8h) ou depois das 19h nos dias de calor forte. Une guia (+0,02), rua e chat (+0,03). Não citar risco de morte nem casos trágicos.
 
 ## Hashtags recomendadas por tema
 
-Use de 3 a 5 por post: 1 grande + 1 de intenção + 1 a 3 de nicho. Mantenha #adestramento, #apartamento e #condominio quando o cenário for prédio, porque estão entre as de maior peso no nosso TikTok. Não temos volume oficial do mês. Os volumes conhecidos são de páginas de contagem do Instagram e não são mensais.
+Use de 3 a 5 por post: 1 grande + 1 de intenção + 1 a 3 de nicho. Pesos entre parênteses são do nosso TikTok (15/10). Não temos volume oficial do mês no Brasil.
 
-- **Latido:** #cachorrolatindo #latidoexcessivo #adestramento #condominio #vizinho #adestramentodecaes #cachorro
-- **Xixi:** #xixinolugarcerto #apartamento #adestramento #tapetehigienico #cachorro #adestramentocanino
-- **Pulo:** #cachorropulando #visitasemcaos #adestramento #educacaocanina #cachorro #adestramentodecaes
-- **Guia:** #passeiocomcachorro #puxarguia #andarjunto #adestramento #cachorro #adestramentocanino
-- **Ansiedade:** #cachorroansioso #cachorroemedo #fogosnao #reveillon #adestramentocomportamental #ansiedadedeseparacao
-- **Chamado:** #vemaqui #chamadocanino #adestramento #cachorro #reforcopositivo #historiadecachorro
-- **Comida:** #cachorrocomendo #esperar #adestramento #cachorro #enriquecimentoambiental #historiadecachorro
+- **Latido:** #cachorrolatindo #latidoexcessivo #condominio (+0,03) #apartamento (+0,06) #adestramentodecaes #interfone #cachorro
+- **Xixi:** #xixinolugarcerto (+0,07) #apartamento #tapetehigienico #sogra #adestramentocanino #cachorro
+- **Pulo:** #cachorropulando #visitasemcaos #condominio #adestramentodecaes #comportamentocanino #cachorro
+- **Guia:** #passeiocomcachorro #puxarguia #calor #passeiocedo #adestramentocanino #cachorro
+- **Ansiedade:** #cachorroemedo (+0,04) #fogosnao (+0,04) #reveillon #cachorroansioso #adestramentocomportamental #ansiedadedeseparacao
+- **Chamado:** #vemaqui #chamadocanino #cachorrofugiu (+0,03) #historiadecachorro #adestramentodecaes #cachorro
+- **Comida:** #caoegato (+0,07) #cachorrocomendo #racao #historiadecachorro #adestramentodecaes #cachorro
 
-Observação: #filhote, #adestramentodefilhotes, #pet, #maedepet e #cachorros ficaram negativas no nosso TikTok. Use só se o vídeo for mesmo sobre filhote.
+Novas sem histórico no perfil (testar): #interfone, #passeiocedo, #calor, #racao.
 
 ## Estilo de legenda que está funcionando
 
-- No vídeo: texto grande e curto, com a palavra-chave da dor (latido, xixi, interfone) nos primeiros 2 segundos.
-- Na descrição: a 1ª linha é a frase pesquisável. Depois, de 1 a 3 linhas de contexto, 1 pergunta fácil (A ou B, ou "e o seu?") e 1 CTA (seguir para a parte 2 ou salvar). Use de 1 a 3 emojis.
-- Exemplo 1: "Como fazer o cachorro parar de latir pro interfone 🔔 Quase sempre o interfone virou o 'aviso' de que alguém vai chegar. Dá pra mudar esse significado aos poucos. O seu late pro interfone ou pra campainha? Comenta 👇"
-- Exemplo 2: "Estrelinha dourada pro Thor ⭐ Três xixis seguidos no lugar certo depois de semanas de bagunça. Progresso pequeno também conta. Qual foi a vitória do seu cão essa semana? Segue pra ver a próxima."
+- No vídeo: texto grande e curto. A palavra da dor (xixi, interfone, ração, fogos) aparece nos primeiros 2 segundos. Em formatos de "legenda de caos", o texto na tela É o roteiro.
+- Na descrição: 1ª linha = frase pesquisável ou confissão. Depois, de 1 a 3 linhas de contexto, 1 pergunta fácil (A ou B, "e o seu?") e 1 CTA (seguir para o próximo episódio ou salvar). Use de 1 a 3 emojis.
+- Exemplo 1: "Meu cão roubando a ração da gata com a maior cara de inocente 🐱 O plano dele é sempre o mesmo, e dá pra desmontar sem brigar. O seu também é ladrão de comida? Comenta 👇 Segue pro plano secreto nº 2."
+- Exemplo 2: "Fato assustador sobre o seu cão 👻 Pra ele, o interfone pode virar sinal de 'alguém tá invadindo'. Dá pra mudar esse significado aos poucos. O seu late pro interfone ou pra campainha? Salva pra testar hoje."
 
 ## Datas e temas do momento
 
-- **Até 31/10:** clima de Halloween. Use o formato "pesadelo do tutor", não fantasia ou campainha (já testado, ficou entre os piores).
-- **02/11 (Finados), 15/11 e 20/11 (feriados):** viagens e casa vazia. Bom gancho para "cão sozinho" e "visita/hotelzinho", com tom leve.
-- **27/11:** Black Friday (Central do Varejo). Ângulo: "antes de comprar mais um brinquedo...". Sem prometer resultado.
-- **Réveillon (31/12):** tema mais forte da temporada. Mantenha a contagem semanal.
-- **Primavera e calor:** matérias recentes alertam para asfalto quente e passeio perto do meio-dia (O Antagonista, O Hoje). Liga com o tema da guia: "passeio cedo, guia frouxa".
+- **Até 31/10 (sábado):** Halloween. Use "fato assustador" e "pesadelo do tutor", não fantasia ou campainha.
+- **02/11 (segunda), 15/11 (domingo) e 20/11 (sexta):** feriados e feriadões. Gancho para "cão sozinho em casa", viagem e visita/hotelzinho, em tom leve.
+- **27/11 (sexta):** Black Friday. Ângulo: "antes de comprar mais um brinquedo, olha a rotina". "Achadinhos de Black Friday antecipada" estão em alta no TikTok Shop; nós só usamos o formato de lista, sem empurrar produto e sem prometer resultado.
+- **31/12 (quinta):** Réveillon e fogos. Seguir a contagem semanal (76 dias a partir de hoje).
+- **Primavera e calor:** passeio cedo ou à noite, água fresca, cuidado com asfalto. Liga com o tema da guia.
 
 ## Evitar
 
-- Áudios de trends dos EUA e do Reino Unido (ex.: "Ramalama", "Patient Zero", "Bow Bow Bow"): são músicas protegidas. Copie só a estrutura e use voz própria ou trilha livre.
-- Halloween com fantasia ou campainha e datas genéricas sem dor do tutor: foram mal no perfil.
-- Cenário quarto e personagens Ana e Bia como protagonistas: pesos negativos (amostra pequena; reavalie depois).
-- Vídeos muito curtos (< 15s): peso negativo. Prefira duração média.
+- Áudios das trends da semana ("Ramalama", "Be OK", "Patient Zero", "BFF4L", "Pray For Me" etc.): são músicas protegidas. Copiar só a estrutura e usar voz própria ou trilha livre.
+- Halloween com fantasia ou campainha, Dia das Crianças e datas sem dor do tutor: foram mal no perfil.
+- Tema cama e #cachorronacama (-0,26), #reforcopositivo (-0,14), cenário quarto. Ana, Bia e Pedro como protagonistas têm pesos negativos (amostra pequena; reavaliar).
+- Vídeos curtos demais (< 15s): peso negativo. Prefira duração média.
+- #filhote, #pet, #maedepet, #comandos, #adestramentopositivo: negativas no perfil. Só use se o vídeo for mesmo sobre isso.
 - Hashtags gigantes sozinhas (#fyp, #viral, #dogs).
-- Promessas como "para de latir em 3 dias" ou "garantido". Também evite conselho de remédio para fogos e casos trágicos com cães como gancho.
+- Promessas como "para de latir em 3 dias" ou "garantido". Também evitar conselho de remédio para fogos, casos trágicos ou violência com cães como gancho, e falar do espectador por atributo pessoal.
+- Personagens ou trends geradas por IA de terceiros (ex.: o gato do "Cat Handshake"): usar só a ideia, com o nosso elenco.
 
 ## Fontes
 
-- [Pepper Agency — TikTok & Instagram trends outubro 2026](https://www.pepperagency.com/blog/tiktok-instagram-trends-for-october-2026-and-how-brands-can-actually-use-them)
-- [NewEngen — October 2026 TikTok trends](https://newengen.com/insights/october-tiktok-trends/)
-- [SocialPilot — TikTok trends outubro 2026](https://www.socialpilot.co/blog/tiktok-trends)
-- [NapoleonCat — TikTok trends](https://napoleoncat.com/blog/tiktok-trends/)
-- [Metricool — Guia de Reels 2026](https://metricool.com/pt/guia-reels-instagram/)
+- [NewEngen — TikTok Trends: October 2026 (atualizado 14/10)](https://newengen.com/insights/tiktok-trends/)
+- [Medianug — TikTok Trends Right Now (October 2026)](https://www.medianug.com/tiktok-trending-report)
+- [SocialPilot — Trending TikTok Sounds & Viral Trends in October 2026](https://www.socialpilot.co/blog/tiktok-trends)
+- [Anijam — TikTok Trends October 2026](https://www.anijam.ai/blog/tiktok-trends/)
+- [Anijam — Instagram Reels Trends 2026 (modificado 10/10)](https://www.anijam.ai/blog/instagram-reels-trends/)
+- [Itatiaia — Onda de calor: como proteger cães e gatos](https://www.itatiaia.com.br/pets-e-animais/onda-de-calor-no-brasil-saiba-como-proteger-caes-e-gatos-durante-o-calorao/)
+- [Diário do Comércio — veterinários e passeios das 10h às 16h](https://diariodocomercio.com.br/mix/veterinarios-pedem-que-donos-de-cachorros-nao-passeiem-com-os-animais-das-10h-as-16h/)
 - [Central do Varejo — Black Friday 2026](https://centraldovarejo.com.br/black-friday-2026-data-faturamento-e-preparacao-do-varejo/)
-- [O Antagonista — passeio com cães ao meio-dia](https://oantagonista.com.br/ladooa/entretenimento/donos-de-caes-que-passeiam-proximo-ao-meio-dia-precisam-saber-disso/)
-- [O Hoje — calor e asfalto](https://ohoje.com/2026/08/21/vai-passear-com-o-pet-calor-em-goiania-exige-cuidado-ate-com-o-asfalto/)
-- [Bem Paraná — medo de fogos no fim de ano](https://www.bemparana.com.br/publicacao/blogs/papopet/dicas-para-amenizar-o-medo-dos-pets-da-barulhada-de-fim-de-ano/)
-- [TikTok Creative Center](https://ads.tiktok.com/business/creativecenter/) e [TikTok Discover — dog trend 2026](https://www.tiktok.com/discover/dog-trend-2026) (não foi possível ler)
-- Dados internos: dados/tiktok_relatorio.md, dados/tiktok_pesos.json, dados/relatorio.md
+- [Diário do Nordeste — cães e gatos com medo de fogos](https://diariodonordeste.verdesmares.com.br/estilo-de-vida/pets/como-acalmar-caes-e-gatos-com-medo-de-fogos-de-artificio-no-ano-novo-1.3717826)
+- Dados internos: dados/tiktok_relatorio.md e dados/tiktok_pesos.json (15/10), dados/relatorio.md (sem Reels medidos)
