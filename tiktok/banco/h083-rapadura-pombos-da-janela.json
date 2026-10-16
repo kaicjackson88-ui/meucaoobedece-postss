@@ -1,0 +1,186 @@
+{
+ "id": "h083-rapadura-pombos-da-janela",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "A Rapadura explica por que acorda o prédio todo às 7h: os pombos da janela 🕊️\nA Elaine trocou a guerra por um jogo de faro antes da hora dos pombos, e passou a premiar quando ela olha pra ela.\nO seu late pra quê? Comenta 1 pra pombo, 2 pra moto 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #apartamento #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Rapadura. E eu protejo o prédio inteiro dos pombos.",
+   "linhas": [
+    "EU SOU A RAPADURA",
+    "PROTEJO O PRÉDIO",
+    "DOS POMBOS"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "07:00",
+   "fala": "Sete da manhã. Pombo na janela. Eu aviso o prédio todo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "07:15",
+   "fala": "O vizinho bateu na porta. Achei que era reforço.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Moça, todo dia às sete?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "07:20",
+   "fala": "A Elaine fechou a cortina. Eu latia pela fresta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Farejar faz o cérebro do cão trabalhar muito. Por isso brincar de procurar cansa e acalma.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "FARO TRABALHANDO",
+    "cansa a cabeça"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "06:50",
+   "fala": "Agora, antes dos pombos, ela esconde petisco pela cozinha. Eu procuro tudo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "07:00",
+   "fala": "Pombo apareceu. Eu olhei pra ela. Ganhei petisco. Os pombos que se virem.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Boa, olhou pra mim!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late pra quê? Comenta 1 pra pombo, 2 pra moto. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão late pra…",
+   "opcoes": [
+    "Pombo",
+    "Moto",
+    "Tudo"
+   ],
+   "escolha": 0,
+   "resultado": "OLHOU, GANHOU",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

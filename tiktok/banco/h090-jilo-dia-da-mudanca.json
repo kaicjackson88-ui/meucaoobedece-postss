@@ -1,0 +1,175 @@
+{
+ "id": "h090-jilo-dia-da-mudanca",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "sol",
+ "legenda": "Dia de mudança. Porta aberta o dia todo… e o Jiló viu a chance 📦\nQuem trouxe ele de volta foi o Ronaldo, o motorista da mudança: sentou no meio-fio e chamou animado, em vez de correr atrás. Em dia de mudança, deixe o cão num cômodo fechado.\nO seu já fugiu pela porta? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrofugiu #vemaqui #apartamento #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Dia de mudança. Porta aberta o dia todo. E o Jiló viu a chance.",
+   "linhas": [
+    "DIA DE MUDANÇA",
+    "PORTA ABERTA",
+    "O JILÓ VIU A CHANCE"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "09:00",
+   "fala": "Caixa entrando, sofá saindo. O Jiló passou entre as pernas do Ronaldo.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ô, o cachorro!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "09:02",
+   "fala": "Na calçada, a Sílvia correndo atrás. Quanto mais corria, mais ele fugia.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Jiló, volta aqui!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "09:05",
+   "fala": "Aí o Ronaldo, o motorista, sentou no meio-fio e abriu um biscoito.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Psiu, Jiló! Vem ver o que eu tenho!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "O Jiló voltou sozinho. Correr atrás era brincadeira. Chamar animado era convite.",
+   "topo": [
+    "O MOTORISTA SABIA"
+   ],
+   "de": "CORRER ATRÁS",
+   "para": "CHAMAR ANIMADO",
+   "para_palavra": "convite"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "APÊ NOVO · 20:00",
+   "fala": "No apê novo, treino todo dia: porta aberta, ele espera o pode.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Espera… pode!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ENTREGA DO ARMÁRIO",
+   "fala": "Na entrega do armário, porta aberta de novo. O Jiló ficou esperando.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já fugiu pela porta? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão e a porta aberta…",
+   "opcoes": [
+    "Já fugiu",
+    "Quase",
+    "Nunca"
+   ],
+   "escolha": 0,
+   "resultado": "SÓ SAI COM PODE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,141 @@
+{
+ "id": "h088-maracuja-tres-erros-do-calor",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz no passeio de calor. E o seu cão sente na pata ☀️\nPassear no fim da manhã, sair sem água e puxar sem deixar cheirar.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #passeiocedo #calor #adestramento #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz no passeio de calor. E o seu cão sente na pata.",
+   "linhas": [
+    "3 ERROS DO PASSEIO",
+    "NO CALOR",
+    "QUE VOCÊ JÁ FEZ"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ERRO 1 · 11:30",
+   "fala": "Erro um: a Vânia deixa o passeio pro fim da manhã. O Maracujá procura sombra a cada poste.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 2",
+   "fala": "Erro dois: sair sem água. Na volta, ele corre pro pote e bebe tudo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 3",
+   "fala": "Erro três: puxar o caminho todo, sem parar pra cheirar. Ele volta agitado do mesmo jeito.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Anda, Maracujá!"
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão quase não sua. Ele perde calor principalmente ofegando. Por isso o calor pesa mais pra ele.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE QUASE NÃO SUA",
+    "se refresca ofegando"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "O CERTO · 06:40",
+   "fala": "O certo: passeio cedinho ou depois do sol baixar, água na bolsa e tempo pra farejar.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Pode cheirar, Maracujá. Sem pressa."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você já fez o erro…",
+   "opcoes": [
+    "1 fim da manhã",
+    "2 sem água",
+    "3 sem cheirar"
+   ],
+   "escolha": 0,
+   "resultado": "PASSEIO CEDINHO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

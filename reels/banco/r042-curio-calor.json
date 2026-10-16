@@ -1,0 +1,78 @@
+{
+ "id": "r042-curio-calor",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Seu cão sente calor diferente de você ☀️\n\n🐾 Ele sua pelas almofadas das patas\n👅 Ele se refresca principalmente ofegando\n🌅 Passeio cedinho ou depois do sol baixar\n\nQue horas é o passeio aí? Comenta 1 pra manhã, 2 pra noite 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#passeiocomcachorro #calor #cachorro #meucaoobedece #curiosidadesdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão sente calor de um jeito bem diferente de você.",
+   "linhas": [
+    "ELE SENTE CALOR",
+    "DIFERENTE DE VOCÊ"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "fala": "O cão sua bem pouco, e quase só pelas almofadas das patas.",
+   "numero": null,
+   "rotulo": [
+    "SUOR NAS PATAS",
+    "e quase só ali"
+   ],
+   "icone": "pata",
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "fala": "Pra se refrescar, ele ofega. A língua pra fora é o ar-condicionado dele.",
+   "numero": null,
+   "rotulo": [
+    "ELE OFEGA",
+    "pra perder calor"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": ""
+  },
+  {
+   "tipo": "texto",
+   "fala": "Por isso, no calor, passeio cedinho ou depois do sol baixar. E água sempre por perto.",
+   "linhas": [
+    "PASSEIO CEDINHO",
+    "ÁGUA POR PERTO"
+   ],
+   "destaque": 0,
+   "mascote": "feliz",
+   "icone": "guia"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

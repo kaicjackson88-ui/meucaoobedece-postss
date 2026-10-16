@@ -1,0 +1,192 @@
+{
+ "id": "h084-caja-carrinho-do-bebe",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "O Cajá pulou no carrinho do bebê do 6º andar. E o grupo do prédio viu tudo 👶\nQuem trouxe a ideia foi a própria mãe, a Rosana: treinar juntos, de longe primeiro, com petisco quando ele olha pro tutor.\nO seu pula em quem? Comenta 1 pra visita, 2 pra vizinho 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #condominio #apartamento #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Cajá pulou no carrinho do bebê. E o grupo do prédio viu tudo.",
+   "linhas": [
+    "PULOU NO CARRINHO",
+    "DO BEBÊ",
+    "O GRUPO VIU TUDO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "17:30",
+   "fala": "A porta do elevador abriu. O Cajá voou no carrinho.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Ai, o bebê!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "64 participantes",
+   "quando": "17:42",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Alguém segura o cachorro do 603 no corredor, por favor."
+    },
+    {
+     "quem": "joao",
+     "texto": "Desculpa, Rosana. Ele só queria cheirar.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "ana": "Rosana (601)",
+    "joao": "Anderson (603)",
+    "vizinho": "Seu Nestor (604)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "64 participantes",
+   "quando": "17:45",
+   "fala": "E a fofoca esquentou:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ele pula em mim também."
+    },
+    {
+     "quem": "ana",
+     "texto": "[figurinha de bebê assustado]"
+    }
+   ],
+   "nomes": {
+    "ana": "Rosana (601)",
+    "joao": "Anderson (603)",
+    "vizinho": "Seu Nestor (604)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "64 participantes",
+   "quando": "17:50",
+   "fala": "Aí veio a ideia, da própria mãe:",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Vamos treinar? Eu passo com o carrinho, você dá petisco quando ele te olhar."
+    }
+   ],
+   "nomes": {
+    "ana": "Rosana (601)",
+    "joao": "Anderson (603)",
+    "vizinho": "Seu Nestor (604)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 10:00",
+   "fala": "No sábado, na calçada. Carrinho vazio, bem longe primeiro.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "normal",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DUAS SEMANAS DEPOIS",
+   "fala": "Semanas depois. Elevador abriu. Patas no chão.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "acena"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Olha só quem tá educado!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu pula em quem? Comenta 1 pra visita, 2 pra vizinho. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão pula em…",
+   "opcoes": [
+    "Visita",
+    "Vizinho",
+    "Todo mundo"
+   ],
+   "escolha": 0,
+   "resultado": "PASSOU EM PAZ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

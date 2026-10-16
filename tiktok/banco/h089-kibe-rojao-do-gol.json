@@ -1,0 +1,184 @@
+{
+ "id": "h089-kibe-rojao-do-gol",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "Mês passado, cada gol era um rojão. E o Kibe sumia pro banheiro 🎆 Hoje, olha só.\nO truque foi do vizinho, o Seu Tião: som de rojão bem baixinho na hora da comida, aumentando devagar, e um cantinho seguro só dele. Medo muito forte? Converse com o veterinário.\nE o seu, tem medo de rojão? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, cada gol era um rojão. E o Kibe sumia. Hoje, olha só.",
+   "linhas": [
+    "MÊS PASSADO",
+    "GOL É ROJÃO",
+    "HOJE, OLHA SÓ"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "MÊS PASSADO · 21:40",
+   "fala": "Mês passado. Final do campeonato. Gol. Rojão. O Kibe disparou.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Auuu!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "21:45",
+   "fala": "O Everton viu o segundo tempo sentado na porta do banheiro.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "triste",
+     "pose": "parado"
+    }
+   ],
+   "cao": false
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DIA SEGUINTE",
+   "fala": "No dia seguinte, o vizinho, Seu Tião, contou o truque dele.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "normal",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Som de rojão baixinho na hora da comida. Aumenta devagar, dia após dia."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Rojão baixinho virou hora do jantar. E ele ganhou um cantinho seguro pra escolher ir.",
+   "topo": [
+    "O TRUQUE DO SEU TIÃO"
+   ],
+   "de": "ROJÃO É SUSTO",
+   "para": "ROJÃO É JANTAR",
+   "para_palavra": "jantar"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 21:40",
+   "fala": "Hoje. Final de novo. Gol. Rojão. O Kibe foi pro cantinho dele.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "objetos": [
+    {
+     "nome": "almofada",
+     "x": 760,
+     "y": 1480
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "21:50",
+   "fala": "O Seu Tião veio ver o jogo e não acreditou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 560,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "É o mesmo Kibe?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, tem medo de rojão? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando tem rojão…",
+   "opcoes": [
+    "Tem muito medo",
+    "Um pouco",
+    "Nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "CANTINHO SEGURO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

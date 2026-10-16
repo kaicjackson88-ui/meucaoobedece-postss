@@ -1,0 +1,163 @@
+{
+ "id": "h087-esfiha-xixi-na-chuva-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Chovendo forte, 20 minutos na rua… e o Esfiha só fez xixi quando voltou pro tapete da sala 🌧️\nO que você faria? 1 bronca pra ele aprender, 2 procurar um lugar coberto perto de casa e esperar com petisco, 3 castigo na área. Comenta seu número antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #passeiocomcachorro #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Chuva forte. O Esfiha não faz xixi na rua. O que você faria?",
+   "linhas": [
+    "CHUVA FORTE",
+    "ELE NÃO FAZ XIXI",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "07:10",
+   "fala": "Sete e dez. Vinte minutos na chuva. O Esfiha só olhando pro Wagner.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Faz, Esfiha. Por favor."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "07:35",
+   "fala": "Voltaram pra casa. Dois minutos depois: xixi no tapete da sala.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au?"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 650,
+     "y": 1460
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: bronca. Dois: lugar coberto perto de casa, esperando com petisco. Três: castigo na área. Comenta 1, 2 ou 3 antes da resposta.",
+   "topo": [
+    "1 BRONCA",
+    "2 LUGAR COBERTO",
+    "3 CASTIGO NA ÁREA"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "08:00",
+   "fala": "No elevador, a síndica deu a resposta:",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "É a dois. A minha também odeia chuva. Eu uso a marquise da garagem."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "PRÓXIMA CHUVA · 07:10",
+   "fala": "Na próxima chuva, marquise da garagem. Xixi feito, petisco e festa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? E o seu, encara chuva? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 bronca",
+    "2 lugar coberto",
+    "3 castigo"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

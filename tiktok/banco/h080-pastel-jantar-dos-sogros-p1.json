@@ -1,0 +1,203 @@
+{
+ "id": "h080-pastel-jantar-dos-sogros-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Jantar com os pais do namorado. A campainha tocou… e o Pastel fez xixi no sapato do sogro 😳 PARTE 1\nA Michele já ia dar bronca quando o sogro se abaixou.\nO seu já fez xixi de alegria? Comenta 1 pra sim, 2 pra não 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #sogra #apartamento #adestramento #historiadecachorro",
+ "serie": "pastel-jantar-dos-sogros",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Jantar com os pais do Renan. A campainha tocou. E o Pastel não se aguentou.",
+   "linhas": [
+    "JANTAR COM OS SOGROS",
+    "A CAMPAINHA TOCOU",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · 20:00",
+   "fala": "Oito da noite. A Michele abriu a porta. O Pastel pulou de alegria.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Boa noite! Cadê o famoso Pastel?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "20:01",
+   "fala": "Pulou, girou e fez xixi. Bem no sapato do sogro.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Uiii!"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 660,
+     "y": 1460
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "20:02",
+   "fala": "A Michele ficou vermelha. O Renan tentou salvar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Pai, é o jeito dele de dizer oi."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "20:04",
+   "fala": "Na cozinha, pano na mão, a bronca já vinha pronta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Pastel, que feio!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "20:05",
+   "fala": "Aí o sogro entrou, se abaixou devagar e falou baixinho:",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Não briga. Eu sei exatamente o que é isso."
+    }
+   ],
+   "camera": {
+    "foco": "vizinho",
+    "z": 1.4,
+    "em": 0.6
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que o sogro sabe? Comenta seu palpite. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão já fez xixi de alegria?",
+   "opcoes": [
+    "Já fez",
+    "Nunca",
+    "Faz até hoje"
+   ],
+   "escolha": 0,
+   "resultado": "PARTE 2 JÁ JÁ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

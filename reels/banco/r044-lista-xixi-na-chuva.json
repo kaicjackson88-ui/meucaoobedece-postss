@@ -1,0 +1,66 @@
+{
+ "id": "r044-lista-xixi-na-chuva",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "xixi",
+ "legenda": "Seu cão não faz xixi quando chove? 🌧️\n\n1️⃣ Procure um lugar coberto perto de casa\n2️⃣ Espere com calma e premie na hora\n3️⃣ Deixe um tapete higiênico de reserva\n\nO seu encara chuva? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #adestramento #meucaoobedece #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão segura o xixi quando chove e faz assim que entra em casa?",
+   "linhas": [
+    "CHOVEU?",
+    "ELE SEGURA O XIXI?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: procure um lugar coberto perto de casa. Marquise, garagem, varanda do prédio.",
+   "titulo": "Lugar coberto",
+   "sub": "perto de casa",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: espere com calma. Fez? Petisco e festa na hora.",
+   "titulo": "Calma e prêmio",
+   "sub": "na hora certa",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: deixe um tapete higiênico de reserva pros dias de chuva forte.",
+   "titulo": "Tapete reserva",
+   "sub": "pra chuva forte",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

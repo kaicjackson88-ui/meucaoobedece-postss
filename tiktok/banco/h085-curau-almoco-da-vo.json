@@ -1,0 +1,152 @@
+{
+ "id": "h085-curau-almoco-da-vo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Almoço de domingo na vó. Cada parente deu \"só um pedacinho\" pro Curau 🍗\nQuem fez a conta foi a Yara, de 10 anos: somando, deu um almoço inteiro. A regra dela: um potinho com a ração dele, e só dá quem pedir pra ele sentar.\nNa sua família, quem dá comida escondido? Comenta 1 pra vó, 2 pra criança 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #racao #adestramentodecaes #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Almoço de domingo na vó. E o Curau ganhou comida de cada parente.",
+   "linhas": [
+    "ALMOÇO NA VÓ",
+    "CADA UM DEU",
+    "SÓ UM PEDACINHO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 13:00",
+   "fala": "Debaixo da mesa, o Curau passava de perna em perna.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Só um pedacinho, coitadinho."
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família",
+   "membros": "12 participantes",
+   "quando": "19:20",
+   "fala": "De noite, no grupo da família:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Quem deu comida pro Curau? Ele nem quis a ração.",
+     "eu": true
+    },
+    {
+     "quem": "joao",
+     "texto": "Eu dei só a pele do frango."
+    }
+   ],
+   "nomes": {
+    "carla": "Cíntia",
+    "sindica": "Vó Zilda",
+    "joao": "Tio Jairo",
+    "bia": "Yara (10 anos)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família",
+   "membros": "12 participantes",
+   "quando": "19:22",
+   "fala": "E as confissões começaram:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Eu dei arroz. Pouquinho."
+    }
+   ],
+   "nomes": {
+    "carla": "Cíntia",
+    "sindica": "Vó Zilda",
+    "joao": "Tio Jairo",
+    "bia": "Yara (10 anos)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família",
+   "membros": "12 participantes",
+   "quando": "19:30",
+   "fala": "Aí a Yara, de dez anos, mandou um áudio:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Todo mundo deu só um pedacinho. Somando, deu um almoço inteiro."
+    }
+   ],
+   "nomes": {
+    "carla": "Cíntia",
+    "sindica": "Vó Zilda",
+    "joao": "Tio Jairo",
+    "bia": "Yara (10 anos)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO SEGUINTE",
+   "fala": "A regra da Yara: um potinho com a ração dele. Quem quiser dar, dá dali.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "E só se ele sentar!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Na sua família, quem dá comida escondido? Comenta 1 pra vó, 2 pra criança. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quem dá comida escondido?",
+   "opcoes": [
+    "A vó",
+    "A criança",
+    "Eu mesmo"
+   ],
+   "escolha": 0,
+   "resultado": "POTINHO DA YARA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

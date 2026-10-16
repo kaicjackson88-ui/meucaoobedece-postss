@@ -1,0 +1,78 @@
+{
+ "id": "r041-mito-cao-e-gato",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "curiosidade",
+ "legenda": "Cão e gato na mesma casa: mito ou verdade? 🐶🐱\n\n❌ Cão e gato são inimigos naturais\n✅ Apresentar aos poucos ajuda\n❌ Ração de gato serve pro cão\n\nQuantas você acertou? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#caoegato #adestramento #cachorro #meucaoobedece #comportamentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Cão e gato na mesma casa. Mito ou verdade? Três frases.",
+   "linhas": [
+    "CÃO E GATO",
+    "MITO OU VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "pata"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Cão e gato são inimigos naturais. Mito. Muitos convivem muito bem quando a casa ajuda.",
+   "frase": "Cão e gato são inimigos",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "MUITOS CONVIVEM",
+    "MUITO BEM"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Apresentar aos poucos ajuda. Verdade. Primeiro o cheiro, depois a porta, depois a sala.",
+   "frase": "Apresentar aos poucos ajuda",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "CHEIRO, PORTA,",
+    "DEPOIS A SALA"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Ração de gato serve pro cão. Mito. Cada ração é feita pra uma espécie. Deixa a do gato no alto.",
+   "frase": "Ração de gato serve pro cão",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "CADA UM",
+    "COM A SUA"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

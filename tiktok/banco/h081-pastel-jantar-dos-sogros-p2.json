@@ -1,0 +1,154 @@
+{
+ "id": "h081-pastel-jantar-dos-sogros-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "PARTE 2: quem tinha a resposta pro xixi do Pastel era o sogro, o Seu Wanderley 👞\nVisita entra calma, ninguém faz festa na porta e o carinho vem depois. Se o xixi continuar mesmo assim, vale conversar com o veterinário.\nNa sua casa, a visita faz festa ou entra calma? Comenta 1 ou 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #sogra #visitasemcaos #adestramento #historiadecachorro",
+ "serie": "pastel-jantar-dos-sogros",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. O sogro da Michele se abaixou. E contou o que era aquilo.",
+   "linhas": [
+    "O SOGRO SABIA",
+    "O QUE ERA AQUILO",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEXTA · 20:06",
+   "fala": "O Seu Wanderley contou que o cachorro dele de infância fazia igualzinho.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "normal",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "É xixi de alegria. Bronca só deixa ele mais nervoso."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Muitos filhotes fazem xixi quando ficam muito empolgados. Recepção calma ajuda bastante.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "XIXI DE ALEGRIA",
+    "comum em filhotes"
+   ],
+   "icone": "coracao"
+  },
+  {
+   "tipo": "virada",
+   "fala": "A regra nova: visita chega, ninguém faz festa. Primeiro a calma, depois o carinho.",
+   "topo": [
+    "O PLANO DO SOGRO"
+   ],
+   "de": "FESTA NA PORTA",
+   "para": "CALMA NA PORTA",
+   "para_palavra": "calma"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 10:00",
+   "fala": "No sábado, o Renan treinou de visita. Entrar devagar, sem voz fina.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Oi, Pastel. Só isso."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "JANTAR SEGUINTE · 20:00",
+   "fala": "Jantar seguinte. Todo mundo entrou em silêncio. O Pastel cheirou o sapato. E só.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "acena"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "comemora",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Sapato seco! Agora sim, oi, Pastel."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Na sua casa, a visita faz festa ou entra calma? Comenta 1 pra festa, 2 pra calma. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando a visita chega…",
+   "opcoes": [
+    "Festa total",
+    "Entra calma",
+    "Depende"
+   ],
+   "escolha": 0,
+   "resultado": "CALMA NA PORTA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

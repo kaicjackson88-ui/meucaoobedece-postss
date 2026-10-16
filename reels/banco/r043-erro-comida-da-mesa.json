@@ -1,0 +1,78 @@
+{
+ "id": "r043-erro-comida-da-mesa",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "obediencia",
+ "legenda": "Pare de dar \"só um pedacinho\" quando ele pede na mesa 🍽️\n\n1️⃣ Lugar dele com um brinquedo na hora da refeição\n2️⃣ Ninguém da família dá escondido\n3️⃣ Premie quando ele fica no lugar\n\nNa sua casa, quem cede primeiro? Comenta 1 pra você, 2 pra vó 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrocomendo #adestramento #cachorro #meucaoobedece #comportamentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de dar só um pedacinho quando ele pede na mesa.",
+   "linhas": [
+    "PARE DE DAR",
+    "SÓ UM PEDACINHO"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "osso",
+   "carimbo": "PARE!",
+   "carimbo_palavra": "Pare"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Cada pedacinho mostra pra ele que pedir funciona. E ele pede mais.",
+   "topo": [
+    "SÓ UM PEDACINHO"
+   ],
+   "de": "AGRADO",
+   "para": "ENSINA A PEDIR",
+   "para_palavra": "pedir"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: na hora da refeição, ele vai pro lugar dele com um brinquedo.",
+   "titulo": "Lugar dele",
+   "sub": "com brinquedo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: combina com a família. Ninguém dá escondido.",
+   "titulo": "Família combinada",
+   "sub": "ninguém dá escondido",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: ficou no lugar? Premia ali, longe da mesa.",
+   "titulo": "Premia no lugar",
+   "sub": "longe da mesa",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "id": "h086-pinhao-gato-novo-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "sol",
+ "legenda": "Chegou um gatinho novo em casa. O Pinhão quer conhecer AGORA 🐱\nO que você faria? 1 soltar os dois pra se entenderem, 2 separar e apresentar aos poucos, 3 segurar o Pinhão no colo pra ver de perto. Comenta seu número antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#caoegato #comportamentocanino #adestramento #cachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Chegou um gatinho novo. O Pinhão quer conhecer. O que você faria?",
+   "linhas": [
+    "CHEGOU UM GATO",
+    "O PINHÃO QUER VER",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:00",
+   "fala": "A Natália chegou com a caixinha. O Pinhão grudou nela.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au? Au?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "18:02",
+   "fala": "Lá dentro, o gatinho soprando. Aqui fora, o rabo do Pinhão a mil.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "E agora?",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: solta os dois. Dois: separa e apresenta aos poucos. Três: segura o Pinhão no colo pra ver. Comenta 1, 2 ou 3 antes da resposta.",
+   "topo": [
+    "1 SOLTA OS DOIS",
+    "2 AOS POUCOS",
+    "3 NO COLO PRA VER"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "CLÍNICA · 09:00",
+   "fala": "A veterinária, Dra. Heloísa, respondeu: é a dois.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Primeiro o cheiro, depois a porta, depois a sala."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cães e gatos se conhecem pelo cheiro. Trocar as mantinhas ajuda antes do encontro.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "TROCA DE CHEIRO",
+    "antes de se verem"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "UMA SEMANA DEPOIS",
+   "fala": "Dias depois, cada um no seu canto, com petisco. O gato, curioso.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 760,
+     "y": 1300
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 solta os dois",
+    "2 aos poucos",
+    "3 no colo"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

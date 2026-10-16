@@ -1,0 +1,179 @@
+{
+ "id": "h082-biju-e-a-gata-cumplice",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "O Biju explica a sociedade secreta dele com a gata Mostarda 🐱 Ela empurra, ele come.\nO Raul desmontou o plano: comida longe da bancada e treino do \"deixa\" todo dia.\nO seu tem um cúmplice em casa? Comenta 1 pra gato, 2 pra criança 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#caoegato #cachorrocomendo #cachorrolevado #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Biju. E eu tenho uma sócia: a gata Mostarda.",
+   "linhas": [
+    "EU SOU O BIJU",
+    "TENHO UMA SÓCIA",
+    "A GATA MOSTARDA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "19:40",
+   "fala": "O Raul deixa o frango na bancada. A Mostarda sobe. E empurra.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au au!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "19:41",
+   "fala": "O frango cai. Eu pego. Ela empurra, eu como.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Biju! De novo?",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 680,
+     "y": 1450
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "19:45",
+   "fala": "Ele olha pra mim. Mas quem subiu na bancada foi ela. Injusto.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Comida que cai no chão é prêmio. Cada vez que acontece, o cão aprende a ficar de plantão ali.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ACHOU, VOLTA",
+    "comida no chão é prêmio"
+   ],
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DIA SEGUINTE",
+   "fala": "Aí o Raul mudou o jogo. Comida no forno fechado. E treino do deixa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Deixa. Isso! Toma o seu."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "20:30",
+   "fala": "A Mostarda ainda empurra coisas. Só que agora cai uma colher. Sociedade desfeita.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, tem um cúmplice em casa? Comenta 1 pra gato, 2 pra criança. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O cúmplice do seu cão é…",
+   "opcoes": [
+    "O gato",
+    "A criança",
+    "Age sozinho"
+   ],
+   "escolha": 0,
+   "resultado": "SOCIEDADE DESFEITA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
