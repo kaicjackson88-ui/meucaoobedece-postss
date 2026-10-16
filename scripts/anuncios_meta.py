@@ -350,7 +350,7 @@ def relatorio(arq):
 
 def situacao(arq):
     """Só leitura: em que pé está a entrega (análise, aprovado, rejeitado, problemas)."""
-    est = _estado(arq)
+    _, est = _estado(arq)
     c = _try(lambda: api('GET', est['conta'], {'fields': 'account_status,disable_reason,balance,spend_cap,amount_spent,funding_source_details'}), {}) or {}
     print('Conta:', {k: c.get(k) for k in ('account_status', 'disable_reason', 'balance', 'amount_spent', 'spend_cap')},
           'pagamento:', (c.get('funding_source_details') or {}).get('display_string'))
