@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       acao:
-        description: "checar | montar | ativar | pausar | relatorio"
+        description: "checar | montar | ativar | pausar | relatorio | situacao | funil"
         required: false
         default: "checar"
       campanha:

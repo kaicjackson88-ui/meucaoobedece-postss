@@ -5,6 +5,7 @@ Comandos (python scripts/anuncios_meta.py <comando> [arquivo de campanha]):
   ativar     → liga campanha, conjunto e anúncios (só quando o dono autorizar o gasto)
   pausar     → pausa a campanha inteira
   relatorio  → números por anúncio, aplica as regras de corte (pausa automática) e avisa no celular
+  funil      → só leitura: cliques, chegadas no site, quiz, Lead e checkout (dados/meta_funil.md)
 Regras de autonomia: o robô só PAUSA (perdedores e limite de gasto). Nunca aumenta orçamento nem cria gasto novo sozinho.
 Usa o segredo META_ADS_TOKEN (usuário do sistema com ads_management/ads_read); se não existir, tenta o IG_TOKEN. Nunca imprime a chave."""
 import base64, json, os, sys, time, urllib.error, urllib.parse, urllib.request
@@ -370,4 +371,4 @@ if __name__ == '__main__':
     arq = sys.argv[2] if len(sys.argv) > 2 else str(RAIZ / 'anuncios' / 'teste2.json')
     if not TOKEN:
         sys.exit('Sem chave: crie o segredo META_ADS_TOKEN.')
-    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio, 'situacao': situacao}[cmd](arq)
+    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio, 'situacao': situacao, 'funil': funil}[cmd](arq)
