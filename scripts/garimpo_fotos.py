@@ -29,6 +29,8 @@ BUSCAS = [  # (comando, busca, palavras que precisam aparecer nas tags além de 
     ('treino', 'dog training treat', ('training', 'treat', 'reward')),
     ('treino', 'dog owner training', ('training', 'trainer', 'owner')),
 ]
+if os.environ.get('BUSCAS_JSON', '').strip():  # lista própria: [[nome, busca, [palavras]], ...]
+    BUSCAS = [(a, b, tuple(c)) for a, b, c in json.loads(os.environ['BUSCAS_JSON'])]
 
 
 def busca(q):
