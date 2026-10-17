@@ -366,6 +366,47 @@ def situacao(arq):
         if r.get('ad_review_feedback'):
             print('   análise:', json.dumps(r['ad_review_feedback'], ensure_ascii=False)[:600])
 
+def funil(arq):
+    """Só leitura: caminho depois do clique (anúncio → site → quiz → página → checkout). Grava dados/meta_funil.md."""
+    cfg, est = _estado(arq)
+    tipos = [('link_click', 'cliques no link'), ('landing_page_view', 'chegaram no site (carregou)'),
+             ('offsite_conversion.fb_pixel_view_content', 'ViewContent (quiz iniciado/pulado ou leu a página)'),
+             ('offsite_conversion.fb_pixel_lead', 'Lead (terminou o quiz)'),
+             ('offsite_conversion.fb_pixel_initiate_checkout', 'InitiateCheckout'),
+             ('offsite_conversion.fb_pixel_purchase', 'compra')]
+    r = _try(lambda: api('GET', f"{est['campanha']}/insights", {'level': 'ad', 'date_preset': 'maximum',
+             'fields': 'ad_name,spend,actions', 'limit': 100}), {}) or {}
+    md = [f"# Funil dos anúncios — {datetime.now(BRT):%d/%m %H:%M}", '', '## Pelos anúncios (Meta atribui ao clique)', '',
+          '| anúncio | gasto | ' + ' | '.join(t[0].split('.')[-1] for t in tipos) + ' |', '|---|---|' + '---|' * len(tipos)]
+    tot = [0.0] * len(tipos)
+    for d in r.get('data', []):
+        vals = [_acao(d.get('actions'), t[0]) for t in tipos]
+        tot = [a + b for a, b in zip(tot, vals)]
+        md.append(f"| {d.get('ad_name')} | R${float(d.get('spend') or 0):.2f} | " + ' | '.join(f'{v:.0f}' for v in vals) + ' |')
+    md.append('| **total** | | ' + ' | '.join(f'**{v:.0f}**' for v in tot) + ' |')
+    md += [''] + [f'- {t[0].split(".")[-1]}: {t[1]}' for t in tipos]
+    pixel = cfg.get('pixel')
+    if pixel:
+        ini = int(datetime.fromisoformat(est['ativado_em']).timestamp()) if est.get('ativado_em') else int(time.time()) - 2 * 86400
+        md += ['', '## No pixel do site (todo o tráfego desde que o anúncio ligou, inclusive orgânico)', '']
+        s = _try(lambda: api('GET', f'{pixel}/stats', {'aggregation': 'event', 'start_time': ini}), {}) or {}
+        cont = {}
+        for b in s.get('data', []):
+            for x in b.get('data', []):
+                cont[x.get('value')] = cont.get(x.get('value'), 0) + int(x.get('count') or 0)
+        md += [f'- {k}: {v}' for k, v in sorted(cont.items(), key=lambda kv: -kv[1])] or ['- (sem dados do pixel)']
+        c = _try(lambda: api('GET', f'{pixel}/stats', {'aggregation': 'custom_data_field', 'event': 'ViewContent', 'start_time': ini}), {}) or {}
+        det = {}
+        for b in c.get('data', []):
+            for x in b.get('data', []):
+                k = f"{x.get('key', '')}={x.get('value')}"
+                det[k] = det.get(k, 0) + int(x.get('count') or 0)
+        if det:
+            md += ['', 'ViewContent por tipo:'] + [f'- {k}: {v}' for k, v in sorted(det.items(), key=lambda kv: -kv[1])]
+    (DADOS / 'meta_funil.md').write_text('\n'.join(md) + '\n', encoding='utf-8')
+    print('\n'.join(md))
+
+
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'checar'
     arq = sys.argv[2] if len(sys.argv) > 2 else str(RAIZ / 'anuncios' / 'teste2.json')
