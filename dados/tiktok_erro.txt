@@ -1,1 +1,1 @@
-2026-10-16T21:53:24.592859-03:00 h076-pirulito-tres-erros-do-vem-ca: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261017085324887FB5759FF7157770E6"}}
+2026-10-17T06:39:29.819851-03:00 h080-pastel-jantar-dos-sogros-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261017173929FF06D95A3DD637984D58"}}
