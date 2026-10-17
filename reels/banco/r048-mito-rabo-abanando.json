@@ -1,0 +1,78 @@
+{
+ "id": "r048-mito-rabo-abanando",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "curiosidade",
+ "legenda": "Mito ou verdade? A primeira engana quase todo mundo 👇\n\n❌ Rabo abanando é sempre alegria\n✅ Bocejar pode ser sinal de tensão\n❌ Cara de culpa é arrependimento\n\nQuantas você acertou? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#linguagemcanina #comportamentocanino #adestramento #meucaoobedece #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mito ou verdade? Três sinais do seu cão que todo mundo lê errado.",
+   "linhas": [
+    "VOCÊ LÊ SEU CÃO?",
+    "MITO OU VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Rabo abanando é sempre alegria. Mito. Pode ser alegria, mas também agitação ou tensão. Olhe o corpo todo.",
+   "frase": "Rabo abanando é sempre alegria",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "OLHE",
+    "O CORPO TODO"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Bocejar pode ser sinal de tensão. Verdade. Em situação nova ou chata, o bocejo pode ser um jeito de se acalmar.",
+   "frase": "Bocejo pode ser tensão",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "NEM SEMPRE",
+    "É SONO"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Cara de culpa é arrependimento. Mito. Estudos mostram que essa cara aparece mais quando o tutor dá bronca.",
+   "frase": "Cara de culpa é arrependimento",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "É REAÇÃO",
+    "À SUA BRONCA"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

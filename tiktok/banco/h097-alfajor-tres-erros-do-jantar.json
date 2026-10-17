@@ -1,0 +1,148 @@
+{
+ "id": "h097-alfajor-tres-erros-do-jantar",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz no jantar. E o Alfajor entende \"pode pedir mais\" 🍽️\nO certo: lugar dele perto, mas longe da mesa, e petisco ali quando ele fica.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #cachorrolevado #apartamento #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz no jantar. E o seu cão entende pode pedir mais.",
+   "linhas": [
+    "3 ERROS DO JANTAR",
+    "QUE ELE ENTENDE",
+    "\"PODE PEDIR MAIS\""
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1 · 20:00",
+   "fala": "Erro um: a Raquel dá só um pedacinho de frango. Só hoje. Toda noite.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 2 · 20:05",
+   "fala": "Erro dois: ela fala não, não e não. No quinto choro, ela dá.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Uiii! Uiii!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "ERRO 3 · 20:10",
+   "fala": "Erro três: ele faz a carinha. Ela ri, filma e posta. Ele aprende que carinha dá plateia.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Um estudo de dois mil e dezenove mostrou que cães têm um músculo que levanta a sobrancelha. É a famosa carinha de pidão.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O MÚSCULO DO PIDÃO",
+    "levanta a sobrancelha"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "O CERTO · 20:00",
+   "fala": "O certo: na hora do jantar, ele vai pro lugar dele com um brinquedo. Ficou ali? Ganha petisco ali.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "objetos": [
+    {
+     "nome": "almofada",
+     "x": 760,
+     "y": 1480
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você já fez o erro…",
+   "opcoes": [
+    "1 só um pedacinho",
+    "2 cede no choro",
+    "3 filma a carinha"
+   ],
+   "escolha": 0,
+   "resultado": "LUGAR DELE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

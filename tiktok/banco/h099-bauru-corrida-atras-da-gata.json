@@ -1,0 +1,197 @@
+{
+ "id": "h099-bauru-corrida-atras-da-gata",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "A gata Sueli passou a comer em cima da geladeira. Tudo por causa do Bauru 🐱\nQuem achou o caminho foi a Maitê, de 9 anos: rota de fuga alta pra gata e petisco pro Bauru quando ele olha e não corre.\nAí tem cão e gato? Comenta 1 pra paz, 2 pra guerra 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#caoegato #cachorrocomendo #apartamento #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A gata agora come em cima da geladeira. Tudo por causa do Bauru.",
+   "linhas": [
+    "A GATA COME",
+    "NA GELADEIRA",
+    "CULPA DO BAURU"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "07:00",
+   "fala": "Sete da manhã. A gata Sueli desceu pra comer. O Bauru disparou atrás.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Bauru, não!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "07:01",
+   "fala": "Volta no corredor, volta na sala. A Sueli subiu na geladeira e ficou.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 15:00",
+   "fala": "O Raul tentou bronca e grito. O Bauru achou que era torcida.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au! Au!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 15:10",
+   "fala": "Aí a Maitê, a sobrinha de nove anos, deu a ideia.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Tio, dá um caminho alto pra ela. E petisco pra ele quando ele olha e não corre."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEMANAS DEPOIS · 21:00",
+   "fala": "Prateleira pra gata, guia no Bauru. Olhou sem correr? Petisco.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 760,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "UM MÊS DEPOIS · 18:00",
+   "fala": "Um mês depois: os dois no mesmo tapete.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Tio, eles fizeram as pazes!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Aí tem cão e gato? Comenta 1 pra paz, 2 pra guerra. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Cão e gato aí…",
+   "opcoes": [
+    "Paz total",
+    "Guerra fria",
+    "Guerra mesmo"
+   ],
+   "escolha": 0,
+   "resultado": "CAMINHO ALTO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

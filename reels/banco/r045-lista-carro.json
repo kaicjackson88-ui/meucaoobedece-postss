@@ -1,0 +1,66 @@
+{
+ "id": "r045-lista-carro",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "ansiedade",
+ "legenda": "Seu cão chora ou faz xixi no carro? 🚗\n\n1️⃣ Comece com o carro parado e desligado\n2️⃣ Entrou? Petisco. Saiu. Sessões curtinhas\n3️⃣ Depois, voltas curtas que terminam em algo bom\n\nO seu vai bem de carro? Comenta 1 pra sim, 2 pra não 👇\nSe ele passa mal na viagem, vale conversar com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorronocarro #passeiocomcachorro #adestramento #meucaoobedece #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão chora no carro e às vezes até faz xixi no banco?",
+   "linhas": [
+    "ELE CHORA",
+    "NO CARRO?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: comece com o carro parado e desligado. Só entrar e sair, sem ir a lugar nenhum.",
+   "titulo": "Carro parado",
+   "sub": "e desligado",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: entrou? Petisco. Dois minutinhos e pronto. Melhor curtinho e todo dia do que longo uma vez.",
+   "titulo": "Sessões curtas",
+   "sub": "com petisco",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: depois, voltas curtas que terminam em algo bom, como uma praça. Não só no banho ou no veterinário.",
+   "titulo": "Volta curtinha",
+   "sub": "que acaba bem",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

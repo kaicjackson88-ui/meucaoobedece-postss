@@ -1,0 +1,78 @@
+{
+ "id": "r046-erro-tirar-o-pote",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "mordida",
+ "legenda": "Pare de tirar o pote do seu cão pra mostrar quem manda 🥣\n\n1️⃣ Passe perto e jogue um petisco melhor no pote\n2️⃣ Deixe ele comer em paz, num canto tranquilo\n3️⃣ Rosnou? Não brigue: o rosnado é um aviso\n\nO seu defende o pote? Comenta 1 pra sim, 2 pra não 👇\nRosnado forte ou mordida: procure um veterinário ou adestrador.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrocomendo #comportamentocanino #adestramento #meucaoobedece #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de tirar o pote do seu cão pra mostrar quem manda.",
+   "linhas": [
+    "PARE DE TIRAR",
+    "O POTE DELE"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "osso",
+   "carimbo": "PARE!",
+   "carimbo_palavra": "Pare"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Tirar o pote mostra pra ele que você chegando é perder comida. E ele defende mais.",
+   "topo": [
+    "TIRAR O POTE"
+   ],
+   "de": "RESPEITO",
+   "para": "MEDO DE PERDER",
+   "para_palavra": "perder"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: passe perto e jogue um petisco melhor no pote. Você chegando vira coisa boa.",
+   "titulo": "Petisco melhor",
+   "sub": "quando você passa",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: deixe ele comer em paz, num canto tranquilo da casa.",
+   "titulo": "Comer em paz",
+   "sub": "canto tranquilo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: rosnou? Não brigue. O rosnado é um aviso. Sem ele, o cão pode pular direto pra mordida.",
+   "titulo": "Rosnado é aviso",
+   "sub": "não brigue",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

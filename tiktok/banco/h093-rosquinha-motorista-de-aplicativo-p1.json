@@ -1,0 +1,187 @@
+{
+ "id": "h093-rosquinha-motorista-de-aplicativo-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Primeira corrida de aplicativo com a Rosquinha. Cinco minutos de chorinho… e um xixi no banco 😳 PARTE 1\nA Daniela já ia pedir desculpa quando o motorista parou o carro e se virou.\nO seu já aprontou no carro? Comenta 1 pra sim, 2 pra não 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorronocarro #xixinolugarcerto #apartamento #adestramento #historiadecachorro",
+ "serie": "rosquinha-motorista-de-aplicativo",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Primeira corrida de aplicativo com a Rosquinha. Deu tudo errado.",
+   "linhas": [
+    "1ª CORRIDA DE APP",
+    "COM A ROSQUINHA",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 08:40",
+   "fala": "Oito e quarenta. Banho marcado no pet shop. A Rosquinha no colo, tremendo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "PORTARIA · 08:45",
+   "fala": "O carro chegou. O Seu Edson olhou pra cachorra e respirou fundo.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ela tá acostumada com carro?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DENTRO DO CARRO · 08:50",
+   "fala": "Cinco minutos de chorinho. Aí o silêncio. E o cheirinho.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Iiiinh…"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 650,
+     "y": 1460
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Amigas do Pilates",
+   "membros": "6 participantes",
+   "quando": "08:52",
+   "fala": "A Daniela digitou tremendo:",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Ela fez xixi no banco do motorista de app. Socorro.",
+     "eu": true
+    },
+    {
+     "quem": "carla",
+     "texto": "Para tudo. E ele?"
+    }
+   ],
+   "nomes": {
+    "ana": "Daniela",
+    "carla": "Kátia"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DENTRO DO CARRO · 08:53",
+   "fala": "A Daniela abriu a boca pra pedir desculpa. O Seu Edson parou o carro e se virou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "aponta"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Moça, deixa eu te contar uma coisa."
+    }
+   ],
+   "camera": {
+    "foco": "vizinho",
+    "z": 1.4,
+    "em": 0.6
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que o Seu Edson vai contar? Comenta seu palpite. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão no carro…",
+   "opcoes": [
+    "Chora",
+    "Dorme",
+    "Nunca andou"
+   ],
+   "escolha": 0,
+   "resultado": "PARTE 2 JÁ JÁ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

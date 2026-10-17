@@ -1,0 +1,158 @@
+{
+ "id": "h098-pave-cabo-de-guerra-da-padaria",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "Mês passado, o passeio das 7h com o Pavê era cabo de guerra até a padaria 🥖 Hoje, olha só.\nO que mudou veio da Arlete, passeadora do bairro: puxou, para. Guia frouxa, anda.\nO seu puxa a guia? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#puxarguia #passeiocomcachorro #passeiocedo #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, passeio com o Pavê era cabo de guerra. Hoje, olha só.",
+   "linhas": [
+    "MÊS PASSADO",
+    "CABO DE GUERRA",
+    "HOJE, OLHA SÓ"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 06:55",
+   "fala": "Mês passado. Seis e cinquenta e cinco. Ouviu a guia, o Pavê arrastou a Lorena até o elevador.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Calma, Pavê!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 07:00",
+   "fala": "Sete da manhã. Cabo de guerra até a padaria. O Seu Zezé só balançava a cabeça.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "A Arlete, passeadora do bairro, ensinou a regra: puxou, para. Guia frouxa, anda.",
+   "topo": [
+    "A REGRA DA ARLETE"
+   ],
+   "de": "PUXOU, ANDA",
+   "para": "PUXOU, PARA",
+   "para_palavra": "para"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 06:55",
+   "fala": "Hoje. Seis e cinquenta e cinco. Guia na mão. O Pavê espera a porta abrir.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 07:00",
+   "fala": "Sete da manhã. Guia frouxa até a padaria. O Seu Zezé saiu do balcão.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Trocou de cachorro, Lorena?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, puxa a guia? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No passeio, seu cão…",
+   "opcoes": [
+    "Puxa muito",
+    "Às vezes",
+    "Anda do lado"
+   ],
+   "escolha": 0,
+   "resultado": "PUXOU, PARA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

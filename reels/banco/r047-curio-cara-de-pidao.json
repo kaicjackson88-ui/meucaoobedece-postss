@@ -1,0 +1,81 @@
+{
+ "id": "r047-curio-cara-de-pidao",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "A carinha de pidão do seu cão tem explicação 🥺\n\n🐾 Um músculo que levanta a sobrancelha\n👉 Ele entende quando você aponta\n👁️ Ele tem uma terceira pálpebra\n\nQual você não sabia? Comenta 1, 2 ou 3 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#curiosidadesdecachorro #comportamentocanino #cachorro #meucaoobedece #adestramento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas no rosto do seu cão que quase ninguém sabe.",
+   "linhas": [
+    "3 SEGREDOS",
+    "DO ROSTO DELE"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "MÚSCULO DO PIDÃO",
+    "os lobos quase não têm"
+   ],
+   "icone": "cerebro",
+   "numero_palavra": "",
+   "fala": "Um: um estudo de dois mil e dezenove mostrou que cães têm um músculo que levanta a parte de dentro da sobrancelha. Nos lobos, ele quase não aparece. É a carinha de pidão."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE ENTENDE",
+    "quando você aponta"
+   ],
+   "icone": "alvo",
+   "numero_palavra": "",
+   "fala": "Dois: você aponta, ele olha pra onde você apontou. Muitos cães fazem isso desde filhotes."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "3ª PÁLPEBRA",
+    "no cantinho do olho"
+   ],
+   "icone": "escudo",
+   "numero_palavra": "",
+   "fala": "Três: ele tem uma terceira pálpebra, no cantinho do olho, que ajuda a proteger."
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

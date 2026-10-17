@@ -1,0 +1,189 @@
+{
+ "id": "h096-pururuca-cadarco-do-elevador",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "O Pururuca, filhote de 4 meses, já desamarrou o cadarço de metade do prédio 👟 E o grupo do condomínio virou tribunal.\nQuem trouxe a ideia foi a Rafaela, de 15 anos, do 1002: brinquedo de corda no bolso pra trocar na hora.\nO seu filhote morde o quê? Comenta 1 pra pé, 2 pra mão 👇\nMordida forte ou que não melhora: procure um profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #condominio #apartamento #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Pururuca ataca cadarços no prédio. E o grupo viu tudo.",
+   "linhas": [
+    "O FILHOTE DO 1004",
+    "ATACA CADARÇOS",
+    "O GRUPO VIU TUDO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ELEVADOR · 07:20",
+   "fala": "Elevador lotado. O Pururuca agarrou o cadarço do Seu Moacir.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Grrr!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Solar das Palmeiras",
+   "membros": "58 participantes",
+   "quando": "07:35",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Cheguei no trabalho com o sapato babado."
+    },
+    {
+     "quem": "sindica",
+     "texto": "Peço que filhotes andem no colo no elevador."
+    }
+   ],
+   "nomes": {
+    "joao": "Wellington (1004)",
+    "sindica": "Dona Rosângela (síndica)",
+    "bia": "Rafaela (1002)",
+    "vizinho": "Seu Moacir (902)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Solar das Palmeiras",
+   "membros": "58 participantes",
+   "quando": "07:38",
+   "fala": "O Wellington se defendeu:",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Desculpa, gente. Ele tá trocando os dentes.",
+     "eu": true
+    },
+    {
+     "quem": "vizinho",
+     "texto": "[áudio de 2 minutos]"
+    }
+   ],
+   "nomes": {
+    "joao": "Wellington (1004)",
+    "sindica": "Dona Rosângela (síndica)",
+    "bia": "Rafaela (1002)",
+    "vizinho": "Seu Moacir (902)"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O filhote troca os dentes de leite entre uns três e seis meses. Morder faz parte.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "TROCA DE DENTES",
+    "entre 3 e 6 meses"
+   ],
+   "icone": "osso"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Solar das Palmeiras",
+   "membros": "58 participantes",
+   "quando": "07:41",
+   "fala": "Aí a Rafaela, de quinze anos:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Leva uma corda no bolso. Pegou o cadarço? Oferece a corda e elogia quando ele trocar."
+    }
+   ],
+   "nomes": {
+    "joao": "Wellington (1004)",
+    "sindica": "Dona Rosângela (síndica)",
+    "bia": "Rafaela (1002)",
+    "vizinho": "Seu Moacir (902)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DUAS SEMANAS DEPOIS",
+   "fala": "Semanas depois. Corda no bolso. Cadarços em paz.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Meu sapato agradece."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu filhote morde o quê? Comenta 1 pra pé, 2 pra mão. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu filhote morde…",
+   "opcoes": [
+    "Pé e cadarço",
+    "Mão",
+    "Tudo"
+   ],
+   "escolha": 0,
+   "resultado": "TROCA PELA CORDA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

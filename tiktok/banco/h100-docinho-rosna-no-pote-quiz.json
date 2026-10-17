@@ -1,0 +1,157 @@
+{
+ "id": "h100-docinho-rosna-no-pote-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "A Silvana passou perto do pote e o Docinho rosnou 🥣 O que você faria?\n1 tirar o pote pra mostrar quem manda, 2 passar perto e jogar um petisco melhor no pote, 3 brigar quando ele rosnar. Comenta seu número antes de ver a resposta 👇\nRosnado forte, mordida ou piora: procure um veterinário ou adestrador.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #comportamentocanino #adestramentocanino #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A Silvana passou perto do pote. O Docinho rosnou. O que você faria?",
+   "linhas": [
+    "PASSOU PERTO DO POTE",
+    "ELE ROSNOU",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "19:00",
+   "fala": "Sete da noite. Ração no pote. A Silvana foi pegar um copo d’água.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Grrr…"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "19:05",
+   "fala": "Ela ficou com o coração na mão. O Docinho nunca tinha feito isso.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: tirar o pote. Dois: passar perto e jogar um petisco melhor. Três: brigar no rosnado. Comenta 1, 2 ou 3 antes da resposta.",
+   "topo": [
+    "1 TIRAR O POTE",
+    "2 PETISCO MELHOR",
+    "3 BRIGAR"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 11:00",
+   "fala": "No sábado, o Tio Gilberto, que cria cachorro há anos, respondeu:",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "normal",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "É a dois. Ele tem que ver você chegando como alguém que traz coisa boa."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois. A Silvana passa, joga um pedacinho de frango. O Docinho abana o rabo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? E o seu, defende o pote? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 tirar o pote",
+    "2 petisco melhor",
+    "3 brigar"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

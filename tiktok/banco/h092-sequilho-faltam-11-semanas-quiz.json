@@ -1,0 +1,172 @@
+{
+ "id": "h092-sequilho-faltam-11-semanas-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "Faltam 11 semanas pros fogos. E o Sequilho passou o último Réveillon tremendo atrás da máquina de lavar 🎆\nO que você faria agora? 1 esperar dezembro, 2 começar hoje o cantinho seguro e o som baixinho, 3 dar remédio por conta própria. Comenta seu número antes de ver a resposta 👇\nRemédio, só com orientação do veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Faltam onze semanas pros fogos. O que você faria?",
+   "linhas": [
+    "FALTAM 11 SEMANAS",
+    "PROS FOGOS",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "RÉVEILLON PASSADO · 00:00",
+   "fala": "Réveillon passado. Meia-noite. O Sequilho sumiu atrás da máquina de lavar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Auuu…"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "OUTUBRO · 19:00",
+   "fala": "Outubro. A Cláudia olha o calendário e já sente frio na barriga.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: esperar dezembro. Dois: começar hoje, aos pouquinhos. Três: remédio por conta própria. Comenta 1, 2 ou 3.",
+   "topo": [
+    "1 ESPERAR DEZEMBRO",
+    "2 COMEÇAR HOJE",
+    "3 REMÉDIO POR CONTA"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "NO ELEVADOR · 08:10",
+   "fala": "No elevador, a veterinária do quinto andar respondeu:",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "É a dois. Começa agora, aos pouquinhos. Remédio, só se eu avaliar."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão ouve sons bem agudos que a gente nem percebe. O estouro chega muito mais forte pra ele.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "OUVIDO MAIS SENSÍVEL",
+    "o estouro pesa mais pra ele"
+   ],
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TODA NOITE · 20:00",
+   "fala": "Agora, toda noite: cantinho com cobertor, som de fogos baixinho e jantar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "almofada",
+     "x": 760,
+     "y": 1480
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? O seu sofre com fogos? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 esperar",
+    "2 começar hoje",
+    "3 remédio sozinho"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,159 @@
+{
+ "id": "h094-rosquinha-motorista-de-aplicativo-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "PARTE 2: o motorista do aplicativo, o Seu Edson, tem três cachorros. E sabia exatamente o que fazer 🚗\nO plano dele: carro parado primeiro, petisco, volta curtinha, e tapete no banco.\nO seu vai bem de carro? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorronocarro #xixinolugarcerto #passeiocomcachorro #adestramento #historiadecachorro",
+ "serie": "rosquinha-motorista-de-aplicativo",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. A Rosquinha fez xixi no carro do aplicativo. E o motorista se virou.",
+   "linhas": [
+    "PARTE 2",
+    "O MOTORISTA",
+    "SE VIROU"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DENTRO DO CARRO · 08:53",
+   "fala": "O Seu Edson tirou um pano do porta-luvas, sorrindo.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Tenho três em casa. Pra ela, carro é uma caixa que balança e leva pro banho."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "08:55",
+   "fala": "E deu o plano: começar com o carro parado. Entrou, ganhou petisco, saiu.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "GARAGEM · DOMINGO",
+   "fala": "No domingo, na garagem do prédio, carro do cunhado desligado. Dois minutinhos e petisco.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 760,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEMANA SEGUINTE · 19:00",
+   "fala": "Depois, volta curtinha até a esquina. Tapete higiênico no banco. Sem pressa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Amigas do Pilates",
+   "membros": "6 participantes",
+   "quando": "UM MÊS DEPOIS · 09:10",
+   "fala": "Um mês depois, no grupo:",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Corrida até o pet shop. Ela dormiu. Banco sequinho.",
+     "eu": true
+    },
+    {
+     "quem": "carla",
+     "texto": "Dá cinco estrelas pro Seu Edson!"
+    }
+   ],
+   "nomes": {
+    "ana": "Daniela",
+    "carla": "Kátia"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, vai bem de carro? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No carro, seu cão…",
+   "opcoes": [
+    "Chora",
+    "Dorme",
+    "Passa mal"
+   ],
+   "escolha": 0,
+   "resultado": "CARRO PARADO PRIMEIRO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
