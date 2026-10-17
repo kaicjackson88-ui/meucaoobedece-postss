@@ -1,1 +1,1 @@
-2026-10-17T19:01:06.351494-03:00 h086-pinhao-gato-novo-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610180601062964E4E9C83D67CC0F6A"}}
+2026-10-17T19:11:09.575551-03:00 h086-pinhao-gato-novo-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261018061109D2DA7DAF828215DD2F8E"}}
