@@ -1,1 +1,1 @@
-2026-10-17T06:39:29.819851-03:00 h080-pastel-jantar-dos-sogros-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261017173929FF06D95A3DD637984D58"}}
+2026-10-17T08:30:15.712850-03:00 h081-pastel-jantar-dos-sogros-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610171930153AFE981E501984A44B2B"}}
