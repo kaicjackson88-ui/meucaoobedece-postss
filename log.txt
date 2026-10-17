@@ -1,0 +1,14 @@
+senta | dog sitting → 3 fotos
+senta | puppy sitting → 5 fotos
+deita | dog lying down → 5 fotos
+deita | dog lying floor → 5 fotos
+rola | dog rolling → 5 fotos
+rola | dog belly up → 1 fotos
+pata | dog paw hand → 5 fotos
+pata | dog giving paw → 5 fotos
+fica | dog waiting → 5 fotos
+fica | dog stay → 5 fotos
+vem | dog running towards → 5 fotos
+treino | dog training treat → 5 fotos
+treino | dog owner training → 4 fotos
+total: 58
