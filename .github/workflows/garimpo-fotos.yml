@@ -7,6 +7,14 @@ on:
         description: "Quantas fotos por busca"
         required: false
         default: "8"
+      buscas:
+        description: "lista própria em JSON (opcional)"
+        required: false
+        default: ""
+      ramo:
+        description: "branch de destino"
+        required: false
+        default: "fotos"
 
 permissions:
   contents: write
@@ -26,6 +34,7 @@ jobs:
         env:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           POR_BUSCA: ${{ inputs.por_busca }}
+          BUSCAS_JSON: ${{ inputs.buscas }}
         run: |
           set -o pipefail
           mkdir -p fotos
@@ -34,4 +43,4 @@ jobs:
         if: always()
         run: |
           git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
-          python -c "import sys,glob;sys.path.insert(0,'scripts');import reels;print(reels.subir_arquivos(sorted(glob.glob('fotos/*')),'fotos'))"
+          python -c "import sys,glob;sys.path.insert(0,'scripts');import reels;print(reels.subir_arquivos(sorted(glob.glob('fotos/*')),'${{ inputs.ramo || 'fotos' }}'))"
