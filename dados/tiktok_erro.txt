@@ -1,1 +1,1 @@
-2026-10-18T08:40:48.904606-03:00 h088-maracuja-tres-erros-do-calor: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261018194048903879B495BD34028D81"}}
+2026-10-18T10:34:20.894832-03:00 h082-biju-e-a-gata-cumplice: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261018213420CB6BE97BBFCC2B365D25"}}
