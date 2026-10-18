@@ -407,9 +407,39 @@ def funil(arq):
     print('\n'.join(md))
 
 
+def analise(arq):
+    """Só leitura: tudo do teste para análise (anúncios, público, posicionamento, horário, vídeo, pixel por hora). Grava dados/meta_analise.json."""
+    cfg, est = _estado(arq)
+    camp = est['campanha']
+    base = {'date_preset': 'maximum', 'limit': 200}
+    f_ad = ('ad_name,spend,impressions,reach,frequency,cpm,clicks,inline_link_clicks,inline_link_click_ctr,cost_per_inline_link_click,'
+            'outbound_clicks,actions,video_p25_watched_actions,video_p50_watched_actions,video_p75_watched_actions,'
+            'video_p100_watched_actions,video_avg_time_watched_actions,video_thruplay_watched_actions,quality_ranking,engagement_rate_ranking')
+    out = {'gerado': datetime.now(BRT).isoformat(timespec='minutes'), 'ativado_em': est.get('ativado_em')}
+    out['anuncios'] = (_try(lambda: api('GET', f'{camp}/insights', dict(base, level='ad', fields=f_ad)), {}) or {}).get('data', [])
+    f = 'spend,impressions,inline_link_clicks,actions'
+    for nome, br in [('idade_sexo', 'age,gender'), ('posicionamento', 'publisher_platform,platform_position'), ('regiao', 'region'),
+                     ('dispositivo', 'impression_device'), ('horas', 'hourly_stats_aggregated_by_audience_time_zone')]:
+        out[nome] = (_try(lambda: api('GET', f'{camp}/insights', dict(base, fields=f, breakdowns=br)), {}) or {}).get('data', [])
+    out['por_dia'] = (_try(lambda: api('GET', f'{camp}/insights', dict(base, fields=f, time_increment=1)), {}) or {}).get('data', [])
+    pixel = cfg.get('pixel')
+    if pixel:
+        ini = int(datetime.fromisoformat(est['ativado_em']).timestamp()) - 3 * 86400 if est.get('ativado_em') else int(time.time()) - 6 * 86400
+        s = _try(lambda: api('GET', f'{pixel}/stats', {'aggregation': 'event', 'start_time': ini}), {}) or {}
+        ph = {}
+        for b in s.get('data', []):
+            for x in b.get('data', []):
+                ph.setdefault(x.get('value'), []).append({'hora': b.get('start_time'), 'qtd': int(x.get('count') or 0)})
+        out['pixel_hora'] = ph
+        for agg in ('device_type', 'url'):
+            out[f'pixel_{agg}'] = (_try(lambda: api('GET', f'{pixel}/stats', {'aggregation': agg, 'start_time': ini}), {}) or {}).get('data', [])
+    (DADOS / 'meta_analise.json').write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
+    print('ok', {k: len(v) if isinstance(v, (list, dict)) else v for k, v in out.items()})
+
+
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'checar'
     arq = sys.argv[2] if len(sys.argv) > 2 else str(RAIZ / 'anuncios' / 'teste2.json')
     if not TOKEN:
         sys.exit('Sem chave: crie o segredo META_ADS_TOKEN.')
-    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio, 'situacao': situacao, 'funil': funil}[cmd](arq)
+    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio, 'situacao': situacao, 'funil': funil, 'analise': analise}[cmd](arq)
