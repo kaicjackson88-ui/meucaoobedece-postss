@@ -1,16 +1,16 @@
 {
  "perfil": {
-  "display_name": "Meucaobedece",
   "follower_count": 5,
-  "likes_count": 120,
-  "video_count": 54
+  "likes_count": 125,
+  "video_count": 54,
+  "display_name": "Meucaobedece"
  },
- "atualizado": "2026-10-17T04:10:39.217038-03:00",
+ "atualizado": "2026-10-17T23:44:15.232212-03:00",
  "videos": [
   {
    "video": "7696660352351653121",
    "roteiro": "h059-rabanete-caminhao-do-lixo",
-   "views": 112,
+   "views": 122,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -22,7 +22,7 @@
   {
    "video": "7696660282101222708",
    "roteiro": "h057-pacoca-interfone-p2",
-   "views": 100,
+   "views": 101,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -34,7 +34,7 @@
   {
    "video": "7696659738532072705",
    "roteiro": "h056-pacoca-interfone-p1",
-   "views": 111,
+   "views": 114,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -46,11 +46,11 @@
   {
    "video": "7696659601667738932",
    "roteiro": "h038-cacau-churrasco-da-familia",
-   "views": 144,
-   "curtidas": 2,
+   "views": 179,
+   "curtidas": 6,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0139,
+   "engaj": 0.0335,
    "duracao": 37,
    "link": "https://www.tiktok.com/@meucaobedece/video/7696659601667738932?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-14T22:51:22+00:00"
@@ -58,11 +58,11 @@
   {
    "video": "7696659245416058118",
    "roteiro": "h067-mel-lixo-do-banheiro-quiz",
-   "views": 117,
+   "views": 122,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0085,
+   "engaj": 0.0082,
    "duracao": 34,
    "link": "https://www.tiktok.com/@meucaobedece/video/7696659245416058118?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-14T22:49:24+00:00"
@@ -94,11 +94,11 @@
   {
    "video": "7696453714705419526",
    "roteiro": "h055-sushi-reveillon-da-familia",
-   "views": 112,
+   "views": 114,
    "curtidas": 3,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0268,
+   "engaj": 0.0263,
    "duracao": 40,
    "link": "https://www.tiktok.com/@meucaobedece/video/7696453714705419526?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-14T09:31:28+00:00"
@@ -130,7 +130,7 @@
   {
    "video": "7696294251956686081",
    "roteiro": "h054-banze-abraco-da-sobrinha-quiz",
-   "views": 108,
+   "views": 110,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -178,11 +178,11 @@
   {
    "video": "7696257484297637126",
    "roteiro": "h046-cuscuz-capacho-do-vizinho-p2",
-   "views": 114,
-   "curtidas": 0,
+   "views": 117,
+   "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0,
+   "engaj": 0.0085,
    "duracao": 37,
    "link": "https://www.tiktok.com/@meucaobedece/video/7696257484297637126?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-13T20:49:56+00:00"
@@ -202,7 +202,7 @@
   {
    "video": "7695939287526755590",
    "roteiro": "h051-goiaba-pulo-no-corredor",
-   "views": 124,
+   "views": 131,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -238,11 +238,11 @@
   {
    "video": "7695938601460288789",
    "roteiro": "h031-nino-rojao-quiz",
-   "views": 167,
+   "views": 177,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.006,
+   "engaj": 0.0056,
    "duracao": 36,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695938601460288789?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-13T00:12:23+00:00"
@@ -298,7 +298,7 @@
   {
    "video": "7695848403648974086",
    "roteiro": "h033-tapioca-predio-novo-p1",
-   "views": 96,
+   "views": 97,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
