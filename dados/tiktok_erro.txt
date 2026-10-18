@@ -1,1 +1,1 @@
-2026-10-18T16:08:15.953223-03:00 h082-biju-e-a-gata-cumplice: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261019030815AE46354D4FA85D2EC246"}}
+2026-10-18T16:18:18.634113-03:00 h082-biju-e-a-gata-cumplice: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026101903181890C12F2D87CF8B4BAB4E"}}
