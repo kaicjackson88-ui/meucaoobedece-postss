@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-18T08:58-03:00",
+ "gerado": "2026-10-18T09:03-03:00",
  "ativado_em": "2026-10-15T22:17:49.879341-03:00",
  "anuncios": [
   {
@@ -3583,6 +3583,10 @@
    {
     "hora": "2026-10-18T00:00:00+0000",
     "qtd": 1
+   },
+   {
+    "hora": "2026-10-18T11:00:00+0000",
+    "qtd": 4
    }
   ],
   "ViewContent": [
@@ -3621,6 +3625,10 @@
    {
     "hora": "2026-10-17T01:00:00+0000",
     "qtd": 1
+   },
+   {
+    "hora": "2026-10-18T11:00:00+0000",
+    "qtd": 2
    }
   ]
  },
@@ -4006,6 +4014,16 @@
      "count": 1
     }
    ]
+  },
+  {
+   "start_time": "2026-10-18T11:00:00+0000",
+   "aggregation": "device_type",
+   "data": [
+    {
+     "value": "mobile_iphone",
+     "count": 6
+    }
+   ]
   }
  ],
  "pixel_url": [
@@ -4364,6 +4382,20 @@
     {
      "value": "https://meucaoobedece.vercel.app/",
      "count": 1
+    }
+   ]
+  },
+  {
+   "start_time": "2026-10-18T11:00:00+0000",
+   "aggregation": "url",
+   "data": [
+    {
+     "value": "https://meucaoobedece.vercel.app/",
+     "count": 3
+    },
+    {
+     "value": "https://pixels.kiwify.com.br/",
+     "count": 3
     }
    ]
   }
