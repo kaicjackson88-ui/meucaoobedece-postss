@@ -1,16 +1,16 @@
 {
  "perfil": {
+  "display_name": "Meucaobedece",
   "follower_count": 5,
   "likes_count": 125,
-  "video_count": 54,
-  "display_name": "Meucaobedece"
+  "video_count": 54
  },
- "atualizado": "2026-10-17T23:44:15.232212-03:00",
+ "atualizado": "2026-10-18T04:24:45.284844-03:00",
  "videos": [
   {
    "video": "7696660352351653121",
    "roteiro": "h059-rabanete-caminhao-do-lixo",
-   "views": 122,
+   "views": 124,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -58,11 +58,11 @@
   {
    "video": "7696659245416058118",
    "roteiro": "h067-mel-lixo-do-banheiro-quiz",
-   "views": 122,
+   "views": 123,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0082,
+   "engaj": 0.0081,
    "duracao": 34,
    "link": "https://www.tiktok.com/@meucaobedece/video/7696659245416058118?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-14T22:49:24+00:00"
