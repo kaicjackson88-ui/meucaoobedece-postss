@@ -17,6 +17,13 @@ DADOS = RAIZ / 'dados'
 API = 'https://graph.facebook.com/v26.0'
 TOKEN = (os.environ.get('META_ADS_TOKEN') or os.environ.get('IG_TOKEN') or '').strip()
 BRT = timezone(timedelta(hours=-3))
+import builtins, re as _re
+_print_original = builtins.print
+def _ESCONDE(*a, **k):
+    a = [_re.sub(r'(access_token=|"access_token":\s*")[^&"\s]+', r'\1***', str(x)) for x in a]
+    if TOKEN: a = [x.replace(TOKEN, '***') for x in a]
+    _print_original(*a, **k)
+builtins.print = _ESCONDE
 STATUS = DADOS / 'meta_anuncios_status.json'
 # economia do produto (skill gestor-trafego): líquido ≈ R$31,18; com impostos da Meta o empate fica ≈ R$27,80
 ALVO_CPA, TETO_CPA = 28.0, 42.0
@@ -444,6 +451,7 @@ def pixeldiag(arq):
     for campos in ['name,is_unavailable,last_fired_time,data_use_setting,first_party_cookie_status,enable_automatic_matching,owner_business{id,name}',
                    'is_restricted_use,restricted_reason', 'event_stats', 'config']:
         r = _try(lambda: api('GET', px_id, {'fields': campos}), None)
+        if isinstance(r, dict): r.pop('paging', None)
         print('CAMPOS', campos, '->', json.dumps(r, ensure_ascii=False)[:1500])
     for rota in ['da_checks', 'shared_accounts', 'assigned_users']:
         r = _try(lambda: api('GET', f'{px_id}/{rota}', {}), None)
@@ -451,6 +459,7 @@ def pixeldiag(arq):
     ini = int(time.time()) - 2 * 86400
     for agg in ['event', 'event_total_counts', 'event_source', 'event_processing_results', 'event_detection_method', 'pixel_fire', 'had_pii', 'match_keys']:
         r = _try(lambda: api('GET', f'{px_id}/stats', {'aggregation': agg, 'start_time': ini}), None)
+        if isinstance(r, dict): r.pop('paging', None)
         print('STATS', agg, '->', json.dumps(r, ensure_ascii=False)[:1500])
 
 
