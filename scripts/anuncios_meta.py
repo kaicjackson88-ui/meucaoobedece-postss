@@ -463,9 +463,31 @@ def pixeldiag(arq):
         print('STATS', agg, '->', json.dumps(r, ensure_ascii=False)[:1500])
 
 
+def comparar(arq):
+    """Só leitura: todas as contas, campanhas e anúncios com números do período inteiro. Grava dados/meta_comparar.json."""
+    campos = ('spend,impressions,reach,frequency,cpm,clicks,inline_link_clicks,inline_link_click_ctr,cost_per_inline_link_click,'
+              'actions,action_values,cost_per_action_type,date_start,date_stop')
+    contas = (_try(lambda: api('GET', 'me/adaccounts', {'fields': 'id,name,currency,account_status,amount_spent', 'limit': 50}), {}) or {}).get('data', [])
+    out = {'gerado': datetime.now(BRT).isoformat(timespec='minutes'), 'contas': []}
+    for c in contas:
+        cc = dict(c, campanhas=[])
+        camps = (_try(lambda: api('GET', f"{c['id']}/campaigns", {'fields': 'id,name,objective,status,effective_status,created_time,start_time,stop_time,daily_budget,lifetime_budget', 'limit': 100}), {}) or {}).get('data', [])
+        for k in camps:
+            ins = (_try(lambda: api('GET', f"{k['id']}/insights", {'date_preset': 'maximum', 'fields': campos}), {}) or {}).get('data', [])
+            ads = (_try(lambda: api('GET', f"{k['id']}/insights", {'date_preset': 'maximum', 'level': 'ad', 'fields': 'ad_name,' + campos, 'limit': 100}), {}) or {}).get('data', [])
+            sets = (_try(lambda: api('GET', f"{k['id']}/adsets", {'fields': 'name,optimization_goal,promoted_object,targeting,daily_budget', 'limit': 50}), {}) or {}).get('data', [])
+            for st in sets:
+                t = st.get('targeting') or {}
+                st['targeting'] = {x: t.get(x) for x in ('age_min', 'age_max', 'genders', 'geo_locations', 'publisher_platforms', 'flexible_spec') if x in t}
+            cc['campanhas'].append(dict(k, insights=ins[0] if ins else {}, anuncios=ads, conjuntos=sets))
+        out['contas'].append(cc)
+    (DADOS / 'meta_comparar.json').write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
+    print('ok', [(c['name'], len(c['campanhas'])) for c in out['contas']])
+
+
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'checar'
     arq = sys.argv[2] if len(sys.argv) > 2 else str(RAIZ / 'anuncios' / 'teste2.json')
     if not TOKEN:
         sys.exit('Sem chave: crie o segredo META_ADS_TOKEN.')
-    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio, 'situacao': situacao, 'funil': funil, 'analise': analise, 'pixeldiag': pixeldiag}[cmd](arq)
+    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio, 'situacao': situacao, 'funil': funil, 'analise': analise, 'pixeldiag': pixeldiag, 'comparar': comparar}[cmd](arq)
