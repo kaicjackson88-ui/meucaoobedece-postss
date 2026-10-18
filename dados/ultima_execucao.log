@@ -1,22 +1,23 @@
-Aguardando o horário 09:00 (116 min)...
-Roteiro: r041-mito-cao-e-gato (mito, estilo noite) — horário 2026-10-18 09:00
+Aguardando o horário 14:00 (118 min)...
+Roteiro: h010-viagem-de-carro (tiktok-historia, estilo sol) — horário 2026-10-18 14:00
 Narração...
 voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-[0;93m2026-10-18 12:00:06.558354972 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-  cão real "bravo": 48 quadro(s)
-  cão real "feliz": 48 quadro(s)
-  cão real "normal": 48 quadro(s)
-  cão real "dorminhoco": 48 quadro(s)
-  cão real "lendario": 48 quadro(s)
+[0;93m2026-10-18 17:00:07.453923465 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+  história: o mesmo cão real (f1851107) em todas as cenas, 1 quadro(s)
 Render...
-  frame 0/774
-  frame 300/774
-  frame 600/774
+  frame 0/1983
+  frame 300/1983
+  frame 600/1983
+  frame 900/1983
+  frame 1200/1983
+  frame 1500/1983
+  frame 1800/1983
 Áudio...
-Preparing worktree (detached HEAD 441f1e9)
-HEAD is now at 441f1e9 Carrossel publicado
-Switched to a new branch 'tmp-20261018-0902-r041-mito-cao-e-gato'
+Preparing worktree (detached HEAD 6186b8a)
+HEAD is now at 6186b8a Carrossel publicado
+Switched to a new branch 'tmp-20261018-1405-h010-viagem-de-carro'
 remote: 
-remote: Create a pull request for 'midia-20261018-0902-r041-mito-cao-e-gato' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261018-0902-r041-mito-cao-e-gato        
+remote: Create a pull request for 'midia-20261018-1405-h010-viagem-de-carro' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261018-1405-h010-viagem-de-carro        
 remote: 
