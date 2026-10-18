@@ -1,1 +1,1 @@
-ok {'gerado': '2026-10-18T09:03-03:00', 'ativado_em': '2026-10-15T22:17:49.879341-03:00', 'anuncios': 4, 'idade_sexo': 14, 'posicionamento': 13, 'regiao': 26, 'dispositivo': 4, 'horas': 24, 'por_dia': 2, 'pixel_hora': 2, 'pixel_device_type': 36, 'pixel_url': 36}
+ok {'gerado': '2026-10-18T09:14-03:00', 'ativado_em': '2026-10-15T22:17:49.879341-03:00', 'anuncios': 4, 'idade_sexo': 14, 'posicionamento': 13, 'regiao': 26, 'dispositivo': 4, 'horas': 24, 'por_dia': 2, 'pixel_hora': 2, 'pixel_device_type': 36, 'pixel_url': 36}
