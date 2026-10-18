@@ -1,1 +1,1 @@
-2026-10-17T22:02:39.429908-03:00 h089-kibe-rojao-do-gol: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610180902395D6346E2C5F879EDA8C3"}}
+2026-10-18T06:39:47.059277-03:00 h087-esfiha-xixi-na-chuva-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261018173946D9587F8FF3564E1ED3C9"}}
