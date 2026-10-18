@@ -1,1 +1,1 @@
-2026-10-18T06:39:47.059277-03:00 h087-esfiha-xixi-na-chuva-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261018173946D9587F8FF3564E1ED3C9"}}
+2026-10-18T08:30:45.610563-03:00 h088-maracuja-tres-erros-do-calor: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261018193045ECC6AED6D097C626B148"}}
