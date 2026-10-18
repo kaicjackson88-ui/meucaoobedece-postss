@@ -1,0 +1,78 @@
+{
+ "id": "r049-mito-doce-do-halloween",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "curiosidade",
+ "legenda": "Halloween chegando: mito ou verdade sobre doce e cachorro? 🍫\n\n❌ Um pedacinho de chocolate não faz mal\n✅ Chocolate amargo é o mais perigoso\n✅ Comeu chocolate? Liga pro veterinário\n\nQuantas você acertou? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#halloween #cuidadoscomcachorro #adestramento #meucaoobedece #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Halloween chegando. Mito ou verdade sobre doce e cachorro?",
+   "linhas": [
+    "DOCE E CACHORRO",
+    "MITO OU VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Um pedacinho de chocolate não faz mal. Mito. O chocolate tem teobromina, que o corpo do cão elimina bem devagar.",
+   "frase": "Um pedacinho não faz mal",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "TEM TEOBROMINA",
+    "FAZ MAL PRA ELE"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Chocolate amargo é o mais perigoso. Verdade. Quanto mais cacau, mais teobromina.",
+   "frase": "Amargo é o mais perigoso",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "MAIS CACAU",
+    "MAIS RISCO"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Comeu chocolate? Liga pro veterinário na hora, com o peso dele e o tipo do chocolate. Verdade.",
+   "frase": "Comeu? Liga pro veterinário",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "PESO DO CÃO",
+    "TIPO DO CHOCOLATE"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

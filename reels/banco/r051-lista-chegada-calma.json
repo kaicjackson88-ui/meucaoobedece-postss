@@ -1,0 +1,77 @@
+{
+ "id": "r051-lista-chegada-calma",
+ "formato": "lista",
+ "gancho_tipo": "numero",
+ "tema": "pulo",
+ "legenda": "3 jeitos de chegar em casa sem virar festa (nem poça no tapete) 🏠\n\n1️⃣ Entra falando baixinho\n2️⃣ Larga a bolsa e espera uns minutos\n3️⃣ Cumprimenta quando ele acalmar\n\nO seu pula ou faz xixi quando você chega? Comenta 1 pra pula, 2 pra xixi 👇\n\nSe o xixi escapa também fora desses momentos, vale consultar o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorropulando #xixinolugarcerto #adestramento #meucaoobedece #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três jeitos de chegar em casa sem virar festa. Nem poça no tapete.",
+   "linhas": [
+    "3 JEITOS DE CHEGAR",
+    "SEM VIRAR FESTA"
+   ],
+   "destaque": 0,
+   "mascote": "feliz",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: entra falando baixinho. Voz animada deixa ele mais agitado.",
+   "titulo": "Entra calmo",
+   "sub": "voz baixinha",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: larga a bolsa, tira o sapato e espera uns minutos.",
+   "titulo": "Espera um pouco",
+   "sub": "sem festa na porta",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: acalmou? Agora sim, carinho com calma, agachado de lado.",
+   "titulo": "Carinho na calma",
+   "sub": "agachado de lado",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Com o tempo, ele aprende que a calma é que traz o carinho.",
+   "linhas": [
+    "CALMA",
+    "TRAZ CARINHO"
+   ],
+   "destaque": 1,
+   "icone": "check",
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "id": "h101-coentro-escritorio-pet-friendly-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Primeiro dia do Coentro no escritório pet friendly. Durou 40 minutos 😳 PARTE 1\nXixi no pé da mesa, bem na reunião com a diretoria. E aí a chefe abriu a porta.\nO que ela vai dizer? Comenta 1 pra bronca, 2 pra ajuda 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #cachorronotrabalho #adestramentocanino #adestramento #historiadecachorro",
+ "serie": "coentro-escritorio-pet-friendly",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Primeiro dia do Coentro no escritório. Durou quarenta minutos.",
+   "linhas": [
+    "1º DIA NO ESCRITÓRIO",
+    "COM O COENTRO",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEGUNDA · 08:50",
+   "fala": "Segunda cedo. O Rodrigo chegou orgulhoso: o escritório agora aceita cachorro.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "RECEPÇÃO · 09:00",
+   "fala": "Na recepção, o Coentro cheirou tudo. Até a mochila do estagiário.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "REUNIÃO · 09:30",
+   "fala": "Reunião com a diretoria. E o Coentro levantou a perna no pé da mesa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 700,
+     "y": 1480
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Equipe Comercial",
+   "membros": "14 participantes",
+   "quando": "09:32",
+   "fala": "No grupo da equipe:",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Gente, que cheiro é esse na sala 3?"
+    },
+    {
+     "quem": "bia",
+     "texto": "O estagiário novo já marcou território kkk"
+    }
+   ],
+   "nomes": {
+    "joao": "Rodrigo",
+    "bia": "Thaís (RH)",
+    "pedro": "Nilton"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "COPA · 09:40",
+   "fala": "Ele limpou com detergente. Dez minutos depois, o Coentro voltou no mesmo lugar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "09:45",
+   "fala": "E aí a porta abriu. Era a Rosilene. A chefe.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "bracos_cruzados"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Rodrigo. Na minha sala. Agora. E traz o Coentro."
+    }
+   ],
+   "camera": {
+    "foco": "carla",
+    "z": 1.4,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Bronca ou ajuda? Comenta 1 ou 2. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "A chefe vai…",
+   "opcoes": [
+    "1 dar bronca",
+    "2 ajudar",
+    "3 proibir cachorro"
+   ],
+   "escolha": 0,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

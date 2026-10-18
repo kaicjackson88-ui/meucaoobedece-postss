@@ -1,0 +1,177 @@
+{
+ "id": "h109-amendoim-solto-no-playground",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "sol",
+ "legenda": "Cachorro solto no playground. Três adultos correndo atrás. Quem resolveu foi a menina do 302 🐕\nCachorro gosta de perseguir, não de ser perseguido.\nO seu volta quando você chama? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#vemaqui #chamadocanino #cachorrofugiu #condominio #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Tem um cachorro solto no playground. Era o Amendoim.",
+   "linhas": [
+    "CACHORRO SOLTO",
+    "NO PLAYGROUND",
+    "ERA O MEU"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Bloco B",
+   "membros": "88 participantes",
+   "quando": "16:10",
+   "fala": "Quatro e dez, no grupo do bloco:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Tem um caramelo solto no playground!"
+    },
+    {
+     "quem": "pedro",
+     "texto": "É o Amendoim! Tô descendo.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "pedro": "Leonel (B-54)",
+    "vizinho": "Seu Ernesto (B-12)",
+    "sindica": "Dona Zélia (síndica)",
+    "bia": "Isadora (B-302)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "PLAYGROUND · 16:13",
+   "fala": "O Leonel correu atrás. Quanto mais corria, mais o Amendoim fugia. Era pega-pega.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Amendoim! Vem cá!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Bloco B",
+   "membros": "88 participantes",
+   "quando": "16:15",
+   "fala": "No grupo, a plateia:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Já são três correndo atrás dele."
+    },
+    {
+     "quem": "bia",
+     "texto": "Para de correr atrás! Tô descendo."
+    }
+   ],
+   "nomes": {
+    "pedro": "Leonel (B-54)",
+    "vizinho": "Seu Ernesto (B-12)",
+    "sindica": "Dona Zélia (síndica)",
+    "bia": "Isadora (B-302)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "16:17",
+   "fala": "A Isadora, de dez anos, chamou animada e correu pro lado contrário. O Amendoim foi atrás dela.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Bloco B",
+   "membros": "88 participantes",
+   "quando": "16:20",
+   "fala": "Depois, ela explicou:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Cachorro gosta de perseguir, não de ser perseguido."
+    }
+   ],
+   "nomes": {
+    "pedro": "Leonel (B-54)",
+    "vizinho": "Seu Ernesto (B-12)",
+    "sindica": "Dona Zélia (síndica)",
+    "bia": "Isadora (B-302)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DIAS DEPOIS",
+   "fala": "Agora, todo dia, cinco minutinhos: o Leonel chama, o Amendoim vem e ganha frango.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, volta quando você chama? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu no vem cá…",
+   "opcoes": [
+    "1 volta na hora",
+    "2 só com petisco",
+    "3 vira pega-pega"
+   ],
+   "escolha": 0,
+   "resultado": "NÃO CORRA ATRÁS",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

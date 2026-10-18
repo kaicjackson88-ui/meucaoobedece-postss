@@ -1,0 +1,175 @@
+{
+ "id": "h110-quentao-ciclovia-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "Mesma ciclovia, mesmo horário. Mês passado o Quentão se jogava em toda bicicleta 🚲\nO que mudou: treino longe da ciclovia, petisco a cada bicicleta e chegar perto aos poucos.\nO seu late pra quê? Comenta 1 pra bicicleta, 2 pra skate, 3 pra moto 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #puxarguia #cachorrolatindo #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mesma ciclovia. Mesmo horário. Olha a diferença.",
+   "linhas": [
+    "MESMA CICLOVIA",
+    "MÊS PASSADO",
+    "X HOJE"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 18:00",
+   "fala": "Mês passado. Seis da tarde, ciclovia do bairro. Passou a primeira bicicleta.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 18:05",
+   "fala": "O Quentão se jogou na guia. O Jefferson voltou pra casa no meio do passeio.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Muitos cães reagem a coisas que passam rápido, como bicicleta e skate. É o instinto de perseguir.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "MOVIMENTO RÁPIDO",
+    "chama a perseguição"
+   ],
+   "icone": "alvo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "O QUE MUDOU",
+   "fala": "O que mudou: treino longe da ciclovia. Bicicleta passou, ele olhou, ganhou petisco. Depois, mais perto.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 18:00",
+   "fala": "Hoje. Seis da tarde, mesma ciclovia. Passa a bicicleta. O Quentão olha pro Jefferson.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 18:05",
+   "fala": "E o Seu Hamilton, que pedala ali todo dia, parou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "acena"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Esse é o mesmo cachorro do mês passado?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, late pra quê? Comenta 1 pra bicicleta, 2 pra skate, 3 pra moto. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu late pra…",
+   "opcoes": [
+    "1 bicicleta",
+    "2 skate",
+    "3 moto"
+   ],
+   "escolha": 0,
+   "resultado": "DISTÂNCIA + PETISCO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,175 @@
+{
+ "id": "h103-gergelim-bombom-do-halloween-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Festa de Halloween, caiu um bombom no chão e o Gergelim pegou 🍫 O que você faria?\n1 enfiar a mão na boca dele, 2 trocar por um petisco e ligar pro veterinário, 3 esperar pra ver. Comenta seu número antes de ver a resposta 👇\nCão comeu chocolate? Ligue para o veterinário na hora.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#halloween #cachorrocomendo #cuidadoscomcachorro #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Caiu um bombom. O Gergelim pegou. O que você faria?",
+   "linhas": [
+    "CAIU UM BOMBOM",
+    "O CÃO PEGOU",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "FESTA DE HALLOWEEN · 21:00",
+   "fala": "Halloween na casa da Fabiana. Bombom na mesinha.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "21:15",
+   "fala": "Um caiu. O Gergelim já mastigava o papel.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: mão na boca. Dois: trocar por petisco e ligar pro veterinário. Três: esperar. Comenta 1, 2 ou 3 antes da resposta.",
+   "topo": [
+    "1 MÃO NA BOCA",
+    "2 TROCA E LIGA",
+    "3 ESPERAR"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "21:17",
+   "fala": "Resposta: dois. A Fabiana trocou o bombom por um petisco e ligou pra veterinária.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "AO TELEFONE",
+   "fala": "A Doutora Marlene:",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Fez bem em ligar. Qual chocolate e quanto ele pesa?"
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O chocolate tem teobromina, que o corpo do cão elimina bem devagar. Por isso é perigoso pra ele.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CHOCOLATE",
+    "longe do cachorro"
+   ],
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO",
+   "fala": "Depois disso, doce só no alto do armário.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? Doce aí fica longe do cão? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 mão na boca",
+    "2 troca e liga",
+    "3 esperar"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

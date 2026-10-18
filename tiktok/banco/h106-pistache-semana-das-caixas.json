@@ -1,0 +1,168 @@
+{
+ "id": "h106-pistache-semana-das-caixas",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "roer",
+ "estilo": "sol",
+ "legenda": "O Pistache explica a semana da Black Friday: cinco brinquedos novos e ele preferiu a caixa 📦\nA Tainá trocou a pilha de brinquedos por um por vez e uns minutos de faro todo dia.\nE o seu, enjoa de brinquedo novo? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#blackfriday #cachorroentediado #brinquedoparacachorro #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Pistache. E essa semana chegou caixa todo dia.",
+   "linhas": [
+    "EU SOU O PISTACHE",
+    "CHEGOU CAIXA",
+    "TODO DIA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 14:00",
+   "fala": "Segunda: interfone, caixa, brinquedo novo. Amei.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Promoção de Black Friday, Pistache!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA E QUARTA",
+   "fala": "Terça, mais dois. Quarta, mais três. Cheirei, mordi e fui dormir.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUINTA · 20:00",
+   "fala": "Quinta, tédio. Aí achei o melhor brinquedo da casa: a caixa.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Rrrasga!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "QUINTA · 23:00",
+   "fala": "A Tainá sentou no papelão picado. E pensou alto.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Ele não quer brinquedo novo. Ele quer fazer alguma coisa comigo.",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Farejar é um dos jeitos mais naturais do cachorro gastar energia e usar a cabeça.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "FAREJAR",
+    "cansa a cabeça"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "AGORA · 19:00",
+   "fala": "Agora ela esconde ração pela sala, dez minutos por dia. E os brinquedos saem um por vez.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, enjoa de brinquedo novo? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu com brinquedo…",
+   "opcoes": [
+    "1 enjoa rápido",
+    "2 ama todos",
+    "3 prefere a caixa"
+   ],
+   "escolha": 0,
+   "resultado": "UM POR VEZ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

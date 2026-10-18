@@ -1,0 +1,149 @@
+{
+ "id": "h104-cookie-tres-erros-da-mordida",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz e o filhote entende \"pode morder\" 🦷\nO certo: mordeu a mão, a brincadeira para. Pegou o mordedor, a brincadeira volta.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\nMordida forte ou que piora: procure um veterinário ou adestrador.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #filhote #adestramentodefilhotes #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz e o filhote entende: pode morder.",
+   "linhas": [
+    "3 ERROS QUE FAZEM",
+    "O FILHOTE ENTENDER",
+    "\"PODE MORDER\""
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1 · 18:00",
+   "fala": "Erro um: o Vinícius puxa a mão rápido. Pro Cookie, mão que foge vira presa.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Nhac!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 2 · 18:10",
+   "fala": "Erro dois: lutinha com a mão. Depois ele quer que o Cookie não morda a mão.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 3 · 18:20",
+   "fala": "Erro três: ele grita e sai pulando. O Cookie acha que virou festa.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ai! Ai! Ai!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   },
+   "fala_depois": true
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Filhote explora o mundo com a boca. É brincando que ele aprende a controlar a força da mordida.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "A BOCA É A MÃO DELE",
+    "na fase de filhote"
+   ],
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "O CERTO · 18:00",
+   "fala": "O certo: mordeu a mão? A brincadeira para na hora. Pegou o mordedor? A brincadeira volta, com festa.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você já fez o erro…",
+   "opcoes": [
+    "1 puxa a mão",
+    "2 lutinha",
+    "3 grita e pula"
+   ],
+   "escolha": 0,
+   "resultado": "MORDEDOR NA HORA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

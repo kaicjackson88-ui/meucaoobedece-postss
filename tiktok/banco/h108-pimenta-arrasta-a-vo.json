@@ -1,0 +1,161 @@
+{
+ "id": "h108-pimenta-arrasta-a-vo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "A Pimenta arrastava a Dona Cidinha até a padaria todo dia 🥖 Quem resolveu foi a neta de onze anos.\n\"Vó, quando ela puxar, vira árvore.\" Puxou, para. Afrouxou, anda.\nO seu puxa a guia? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#puxarguia #passeiocomcachorro #guia #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Todo dia a Pimenta arrasta a Dona Cidinha até a padaria.",
+   "linhas": [
+    "A PIMENTA",
+    "ARRASTA A VÓ",
+    "ATÉ A PADARIA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "07:00",
+   "fala": "Sete da manhã. A Dona Cidinha pegou a guia. A Pimenta já saiu puxando.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "07:05",
+   "fala": "Cada poste, um puxão. Cada pombo, outro. Duas quadras viraram maratona.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au! Au!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "07:20",
+   "fala": "Na volta, o pão chegou amassado. E o braço, dolorido.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "triste",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 10:00",
+   "fala": "No sábado, a neta Lia, de onze anos, viu da janela. E deu a ideia.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "explica"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Vó, quando ela puxar, você vira árvore. Para e espera."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Puxou, a vó parou. Afrouxou, a vó andou. E petisco quando a Pimenta olhava pra trás.",
+   "topo": [
+    "GUIA ESTICOU?",
+    "VIRA ÁRVORE"
+   ],
+   "de": "PUXOU, ANDOU",
+   "para": "PUXOU, PAROU",
+   "para_palavra": "parou"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEMANAS DEPOIS · 07:00",
+   "fala": "Semanas depois, ainda tem pombo. Mas a Pimenta anda do lado, e o pão chega inteiro.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu puxa a guia? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu na guia…",
+   "opcoes": [
+    "1 puxa muito",
+    "2 às vezes",
+    "3 anda do lado"
+   ],
+   "escolha": 0,
+   "resultado": "VIRA ÁRVORE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

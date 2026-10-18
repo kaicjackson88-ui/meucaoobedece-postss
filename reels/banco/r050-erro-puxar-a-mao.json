@@ -1,0 +1,78 @@
+{
+ "id": "r050-erro-puxar-a-mao",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "mordida",
+ "legenda": "Pare de puxar a mão rápido quando o filhote morde 🦷\n\n1️⃣ Mordeu a mão? A brincadeira para\n2️⃣ Ofereça o mordedor\n3️⃣ Pegou o mordedor? A brincadeira volta\n\nO seu filhote morde mão ou pé? Comenta 1 pra mão, 2 pra pé 👇\n\nMordida forte ou que piora: procure um profissional.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#filhotemordendo #filhote #adestramento #meucaoobedece #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de puxar a mão quando o filhote morde.",
+   "linhas": [
+    "PARE DE PUXAR",
+    "A MÃO"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "pata",
+   "carimbo": "PARE!",
+   "carimbo_palavra": "Pare"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Mão que foge rápido vira presa. E o jogo fica ainda mais divertido pra ele.",
+   "topo": [
+    "MÃO QUE FOGE"
+   ],
+   "de": "DEFESA",
+   "para": "VIRA PRESA",
+   "para_palavra": "presa"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: mordeu a mão? A brincadeira para, na hora.",
+   "titulo": "Brincadeira para",
+   "sub": "na hora da mordida",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: oferece um mordedor no lugar da mão.",
+   "titulo": "Mordedor",
+   "sub": "no lugar da mão",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: pegou o mordedor? A brincadeira volta, com festa.",
+   "titulo": "Brincadeira volta",
+   "sub": "com o mordedor",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

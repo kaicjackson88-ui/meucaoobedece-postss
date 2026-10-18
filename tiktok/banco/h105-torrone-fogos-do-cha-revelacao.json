@@ -1,0 +1,171 @@
+{
+ "id": "h105-torrone-fogos-do-cha-revelacao",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "Chá revelação com fogos no prédio vizinho. O Torrone sumiu dentro de casa 🎆\nQuem ajudou foi o vizinho do 401, que já passou por isso com o cachorro dele.\nO seu tem medo de fogos? Comenta 1 pra sim, 2 pra não 👇\nMedo intenso: converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #condominio #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Fogos de chá revelação no prédio vizinho. O Torrone sumiu.",
+   "linhas": [
+    "CHÁ REVELAÇÃO",
+    "COM FOGOS",
+    "O TORRONE SUMIU"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim Primavera",
+   "membros": "52 participantes",
+   "quando": "19:41",
+   "fala": "Sete e quarenta, no grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Fogos de novo e o Torrone sumiu dentro de casa.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Marisa (203)",
+    "vizinho": "Seu Osvaldo (401)",
+    "pedro": "Gilmar (101)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "19:45",
+   "fala": "Ela achou ele atrás do vaso do banheiro. Tremendo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim Primavera",
+   "membros": "52 participantes",
+   "quando": "19:50",
+   "fala": "O grupo respondeu:",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "É menino! Desculpa, foi meu cunhado."
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Meu Duque era assim. Mando um áudio."
+    }
+   ],
+   "nomes": {
+    "carla": "Marisa (203)",
+    "vizinho": "Seu Osvaldo (401)",
+    "pedro": "Gilmar (101)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim Primavera",
+   "membros": "52 participantes",
+   "quando": "19:52",
+   "fala": "O áudio:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Deixa ele onde se sente seguro. Não puxa. Fica perto, com voz calma."
+    }
+   ],
+   "nomes": {
+    "carla": "Marisa (203)",
+    "vizinho": "Seu Osvaldo (401)",
+    "pedro": "Gilmar (101)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim Primavera",
+   "membros": "52 participantes",
+   "quando": "19:53",
+   "fala": "E a dica principal:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Começa agora pro Réveillon. Som de fogos bem baixinho, com petisco."
+    },
+    {
+     "quem": "carla",
+     "texto": "Faltam umas dez semanas. Começo hoje.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Marisa (203)",
+    "vizinho": "Seu Osvaldo (401)",
+    "pedro": "Gilmar (101)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois: som baixinho, e o Torrone come o petisco tranquilo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu tem medo de fogos? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu com fogos…",
+   "opcoes": [
+    "1 se esconde",
+    "2 late",
+    "3 nem liga"
+   ],
+   "escolha": 0,
+   "resultado": "COMEÇA AGORA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

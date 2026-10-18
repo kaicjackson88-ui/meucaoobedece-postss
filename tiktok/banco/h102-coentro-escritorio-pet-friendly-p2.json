@@ -1,0 +1,193 @@
+{
+ "id": "h102-coentro-escritorio-pet-friendly-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A chefe chamou o Rodrigo na sala depois do xixi do Coentro na reunião 😬 PARTE 2\nEla já tinha passado por isso: tirar o cheiro do jeito certo e premiar o xixi lá fora.\nO seu já marcou território na casa dos outros? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #cachorronotrabalho #apartamento #adestramentocanino #historiadecachorro",
+ "serie": "coentro-escritorio-pet-friendly",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. A chefe chamou o Rodrigo na sala.",
+   "linhas": [
+    "A CHEFE CHAMOU",
+    "NA SALA DELA",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SALA DA CHEFE · 09:50",
+   "fala": "Resumo: xixi na reunião. Duas vezes. A Rosilene fechou a porta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "bracos_cruzados"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Minha beagle fez igualzinho no primeiro dia."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O nariz do cão é muito mais sensível que o nosso. Se sobra cheiro de xixi, pra ele ali ainda é banheiro.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O CHEIRO FICA",
+    "pro nariz dele"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "COPA · 10:00",
+   "fala": "Ela mostrou o armário da copa.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Produto enzimático. Detergente não tira o cheiro pra ele."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "A CADA HORA",
+   "fala": "A cada hora, uma voltinha na calçada. Xixi lá fora? Petisco na hora.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Semanas depois, o Coentro passa pela sala três sem olhar pro pé da mesa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEMANAS DEPOIS · 17:00",
+   "fala": "Veredito:",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "aponta"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Esse aí pode vir toda sexta."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, já marcou território fora de casa? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu já marcou…",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 na casa da sogra"
+   ],
+   "escolha": 0,
+   "resultado": "TIRA O CHEIRO + PRÊMIO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
