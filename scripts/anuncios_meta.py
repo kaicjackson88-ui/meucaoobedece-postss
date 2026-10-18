@@ -437,9 +437,26 @@ def analise(arq):
     print('ok', {k: len(v) if isinstance(v, (list, dict)) else v for k, v in out.items()})
 
 
+def pixeldiag(arq):
+    """Só leitura: configuração e diagnósticos do pixel (por que um evento não chega)."""
+    cfg, _ = _estado(arq)
+    px_id = cfg.get('pixel')
+    for campos in ['name,is_unavailable,last_fired_time,data_use_setting,first_party_cookie_status,enable_automatic_matching,owner_business{id,name}',
+                   'is_restricted_use,restricted_reason', 'event_stats', 'config']:
+        r = _try(lambda: api('GET', px_id, {'fields': campos}), None)
+        print('CAMPOS', campos, '->', json.dumps(r, ensure_ascii=False)[:1500])
+    for rota in ['da_checks', 'shared_accounts', 'assigned_users']:
+        r = _try(lambda: api('GET', f'{px_id}/{rota}', {}), None)
+        print('ROTA', rota, '->', json.dumps(r, ensure_ascii=False)[:2500])
+    ini = int(time.time()) - 2 * 86400
+    for agg in ['event', 'event_total_counts', 'event_source', 'event_processing_results', 'event_detection_method', 'pixel_fire', 'had_pii', 'match_keys']:
+        r = _try(lambda: api('GET', f'{px_id}/stats', {'aggregation': agg, 'start_time': ini}), None)
+        print('STATS', agg, '->', json.dumps(r, ensure_ascii=False)[:1500])
+
+
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'checar'
     arq = sys.argv[2] if len(sys.argv) > 2 else str(RAIZ / 'anuncios' / 'teste2.json')
     if not TOKEN:
         sys.exit('Sem chave: crie o segredo META_ADS_TOKEN.')
-    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio, 'situacao': situacao, 'funil': funil, 'analise': analise}[cmd](arq)
+    {'checar': checar, 'montar': montar, 'ativar': ativar, 'pausar': pausar, 'relatorio': relatorio, 'situacao': situacao, 'funil': funil, 'analise': analise, 'pixeldiag': pixeldiag}[cmd](arq)
