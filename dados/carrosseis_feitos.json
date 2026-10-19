@@ -422,5 +422,16 @@
   "media_id": "18138706975725398",
   "link": "https://www.instagram.com/p/Der2mOHGHSB/",
   "publicado_em": "2026-10-19T18:01:04.201472+00:00"
+ },
+ {
+  "slot": "2026-10-19 19:00",
+  "seg": "ansiedade",
+  "tema": "Chora sozinho",
+  "gancho": "Seu cão chora quando você sai de casa?",
+  "assin": "ansiedade|Seu cão [chora] quando você sai de casa?|0,1,3",
+  "seed": 331981779,
+  "media_id": "18084667793705494",
+  "link": "https://www.instagram.com/p/DesSDLTDFZ7/",
+  "publicado_em": "2026-10-19T22:00:57.880580+00:00"
  }
 ]
