@@ -1,6 +1,6 @@
-# MCO | Teste 2 | Vendas — 18/10 12:46
+# MCO | Teste 2 | Vendas — 19/10 01:31
 
-Gasto total: **R$50.53** de R$50 · vendas: **0** · dia 3 do teste
+Gasto total: **R$50.53** de R$50 · vendas: **0** · dia 4 do teste
 
 | anúncio | gasto | CTR link | hook 3s | checkouts | vendas | custo/venda | decisão |
 |---|---|---|---|---|---|---|---|
@@ -10,4 +10,3 @@ Gasto total: **R$50.53** de R$50 · vendas: **0** · dia 3 do teste
 | E_6Comandos | R$5.91 | 3.98% | — | 0 | 0 | — | manter |
 
 **Ações do robô:** 🛑 pausei a campanha: gastou R$50.53 (limite R$50) sem venda — hora de revisar oferta/página
-_Primeiros 3 dias: só pausas de segurança; nada de mexer no resto (o aprendizado reinicia)._
