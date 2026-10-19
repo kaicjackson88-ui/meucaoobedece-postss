@@ -1,1 +1,1 @@
-2026-10-19T17:45:42.388990-03:00 h093-rosquinha-motorista-de-aplicativo-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610200445420CE12F28EC5CA6B9D28D"}}
+2026-10-19T17:55:47.261216-03:00 h093-rosquinha-motorista-de-aplicativo-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610200455469280875197FA98AFBB1D"}}
