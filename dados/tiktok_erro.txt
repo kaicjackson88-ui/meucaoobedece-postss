@@ -1,1 +1,1 @@
-2026-10-18T22:02:51.093276-03:00 h095-baiao-plano-secreto-do-pao-de-queijo: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610190902509F6F136507C3A16EB59D"}}
+2026-10-19T06:35:38.897865-03:00 h092-sequilho-faltam-11-semanas-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026101917353833CE471B75890A65BFBC"}}
