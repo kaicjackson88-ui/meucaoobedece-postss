@@ -1,1 +1,1 @@
-2026-10-19T08:48:16.104024-03:00 h096-pururuca-cadarco-do-elevador: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261019194815F0BA270F6F2546819928"}}
+2026-10-19T10:39:01.555755-03:00 h093-rosquinha-motorista-de-aplicativo-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610192139013533DA351ECBBC8E40DE"}}
