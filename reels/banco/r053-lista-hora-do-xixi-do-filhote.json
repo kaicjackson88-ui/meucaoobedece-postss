@@ -1,0 +1,77 @@
+{
+ "id": "r053-lista-hora-do-xixi-do-filhote",
+ "formato": "lista",
+ "gancho_tipo": "numero",
+ "tema": "xixi",
+ "legenda": "3 momentos em que o filhote mais precisa fazer xixi 💦\n\n1️⃣ Logo que acorda\n2️⃣ Depois de comer\n3️⃣ Depois de brincar\n\nNesses momentos, leva ele até o lugar certo e faz festa quando acertar.\n\nQual desses pega você de surpresa? Comenta 1, 2 ou 3 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#xixinolugarcerto #filhote #tapetehigienico #meucaoobedece #adestramento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três momentos em que o filhote mais precisa fazer xixi. O segundo pega todo mundo.",
+   "linhas": [
+    "3 HORAS DE XIXI",
+    "QUE VOCÊ PERDE"
+   ],
+   "destaque": 0,
+   "mascote": "normal",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: logo que acorda. Da cama, direto pro lugar certo.",
+   "titulo": "Ao acordar",
+   "sub": "direto pro lugar certo",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: depois de comer. Fica de olho nos minutos seguintes.",
+   "titulo": "Depois de comer",
+   "sub": "fica de olho",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: depois de brincar. Agitação também aperta a bexiga.",
+   "titulo": "Depois de brincar",
+   "sub": "agito aperta",
+   "icone": "bola"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Leva até o lugar certo e faz festa quando ele acertar.",
+   "linhas": [
+    "ACERTOU?",
+    "FESTA!"
+   ],
+   "destaque": 1,
+   "icone": "check",
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

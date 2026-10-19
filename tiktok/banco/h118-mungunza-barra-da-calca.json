@@ -1,0 +1,175 @@
+{
+ "id": "h118-mungunza-barra-da-calca",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "Todo vizinho do corredor já saiu com o Mungunzá pendurado na barra da calça 👖\nQuem resolveu foi o zelador, Seu Josué, com uma corda velha no bolso.\nO seu filhote morde a calça? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #condominio #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Todo vizinho saía com o Mungunzá pendurado na calça.",
+   "linhas": [
+    "FILHOTE NA CALÇA",
+    "DE TODO VIZINHO",
+    "DO CORREDOR"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "08:00",
+   "fala": "Oito da manhã. A vizinha saiu, e o Mungunzá foi junto, na barra da calça.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Fabrício!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "08:05",
+   "fala": "Em casa, era o chinelo e o tornozelo do Fabrício.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "sapato",
+     "x": 700,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "PASSEIO · 18:00",
+   "fala": "Ele tentou bronca. O filhote achou que era brincadeira.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Não! Solta!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:30",
+   "fala": "Aí o zelador, Seu Josué, tirou uma corda do bolso.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Filhote morde pra brincar. Dá o que pode morder."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Mordeu a calça? Para, oferece a corda e brinca. Mordeu a pele? Pausa de um minutinho.",
+   "topo": [
+    "MORDEU A CALÇA?"
+   ],
+   "de": "BRONCA",
+   "para": "TROCA PELA CORDA",
+   "para_palavra": "corda"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEMANAS DEPOIS",
+   "fala": "Brincadeira curta todo dia. Hoje a vizinha passa, e ele corre buscar a corda.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu filhote morde a calça? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu filhote morde…",
+   "opcoes": [
+    "1 a calça",
+    "2 a mão",
+    "3 já passou"
+   ],
+   "escolha": 0,
+   "resultado": "TROCA PELA CORDA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,69 @@
+{
+ "id": "r056-erro-correr-atras-quando-rouba",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "obediencia",
+ "legenda": "Ele roubou a meia e você correu atrás? Pra ele, começou a brincadeira 🧦\n\n❌ Correr atrás vira pega-pega\n❌ Puxar da boca vira cabo de guerra\n✅ Oferece um petisco e troca\n✅ Treina a troca em dias calmos, com brinquedo\n\nO seu rouba o quê? Comenta 1 pra meia, 2 pra comida 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrolevado #comportamentocanino #adestramento #meucaoobedece #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Ele roubou a meia e você correu atrás? Pra ele, começou a brincadeira.",
+   "linhas": [
+    "ROUBOU A MEIA?",
+    "NÃO CORRA ATRÁS"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "x"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Correr atrás vira pega-pega. E puxar da boca vira cabo de guerra.",
+   "linhas": [
+    "PEGA-PEGA E",
+    "CABO DE GUERRA"
+   ],
+   "destaque": 0,
+   "icone": "x",
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "virada",
+   "fala": "O certo é trocar. Mostra um petisco, ele solta, ele ganha.",
+   "topo": [
+    "EM VEZ DE CORRER"
+   ],
+   "de": "PERSEGUIR",
+   "para": "TROCAR",
+   "para_palavra": "trocar"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "E treina a troca em dias calmos, com um brinquedo, antes de precisar.",
+   "titulo": "Treine a troca",
+   "sub": "em dias calmos",
+   "icone": "bola"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

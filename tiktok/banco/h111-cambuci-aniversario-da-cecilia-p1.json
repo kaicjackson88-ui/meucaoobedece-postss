@@ -1,0 +1,204 @@
+{
+ "id": "h111-cambuci-aniversario-da-cecilia-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Festa de 1 ano da Cecília. E o Cambuci chegou primeiro na mesa dos salgados 🎂 PARTE 1\nCoxinha no chão, criança chorando e o bolo na mira. E aí a avó abriu a bolsa.\nO que tinha na bolsa? Comenta 1, 2 ou 3 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #festadeaniversario #condominio #adestramentocanino #historiadecachorro",
+ "serie": "cambuci-aniversario-da-cecilia",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Festa de um ano da Cecília. O Cambuci chegou primeiro na mesa.",
+   "linhas": [
+    "FESTA DE 1 ANO",
+    "O CAMBUCI NA MESA",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SALÃO DE FESTAS · 15:00",
+   "fala": "Salão do prédio. O Ezequiel soltou a guia por um segundo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Cambuci, não!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "MESA DOS SALGADOS · 15:01",
+   "fala": "Em dez segundos, a bandeja de coxinha foi pro chão.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família da Cecília",
+   "membros": "23 participantes",
+   "quando": "15:04",
+   "fala": "No grupo da família:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "O Cambuci tá comendo até o guardanapo"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Segura ele antes do bolo!"
+    }
+   ],
+   "nomes": {
+    "carla": "Tia Jussara",
+    "pedro": "Primo Juninho",
+    "joao": "Ezequiel",
+    "sindica": "Vó Celeste"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "PARQUINHO · 15:10",
+   "fala": "Ele levou o Cambuci pra fora. Lá dentro, criança chorando pela coxinha.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au! Au!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "PARABÉNS · 16:00",
+   "fala": "No parabéns, ele escapou de novo. Direto pro bolo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "16:01",
+   "fala": "E aí a avó da Cecília abriu a bolsa e tirou uma coisa.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ezequiel, segura isso."
+    }
+   ],
+   "camera": {
+    "foco": "sindica",
+    "z": 1.4,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que tinha na bolsa? Comenta 1, 2 ou 3. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na bolsa da avó…",
+   "opcoes": [
+    "1 petisco",
+    "2 guia nova",
+    "3 brinquedo de roer"
+   ],
+   "escolha": 2,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

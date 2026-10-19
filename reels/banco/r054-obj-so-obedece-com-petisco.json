@@ -1,0 +1,79 @@
+{
+ "id": "r054-obj-so-obedece-com-petisco",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "obediencia",
+ "legenda": "“Se eu usar petisco, ele só vai obedecer com comida.” Será? 🍖\n\n✅ No começo, petisco toda vez\n✅ Depois, petisco de vez em quando\n✅ Junta carinho, brincadeira e passeio como prêmio\n\nO seu só faz com petisco na mão? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #obedienciacanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Se usar petisco, ele só vai obedecer com comida? Não precisa ser assim.",
+   "linhas": [
+    "SÓ OBEDECE",
+    "COM PETISCO",
+    "NA MÃO?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "osso"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "Muita gente pensa que petisco vicia. Não é bem assim. O petisco é o começo, não o fim.",
+   "objecao": "Com petisco ele fica viciado",
+   "resposta": "NÃO É BEM ASSIM",
+   "resposta_palavra": "assim",
+   "explica": [
+    "PETISCO É",
+    "O COMEÇO"
+   ],
+   "resposta_cor": "teal"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "No começo, petisco toda vez que ele acerta.",
+   "titulo": "Toda vez",
+   "sub": "no começo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Quando ele já sabe, o petisco vem de vez em quando.",
+   "titulo": "De vez em quando",
+   "sub": "quando ele já sabe",
+   "icone": "moeda"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "E entra outro prêmio: carinho, bola, abrir a porta do passeio.",
+   "titulo": "Outros prêmios",
+   "sub": "carinho, bola, passeio",
+   "icone": "bola"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "id": "h115-pitomba-patas-no-carro-do-vizinho",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "Patas no carro preto da garagem. O grupo do prédio já sabia quem era: a Pitomba 🚗\nQuem resolveu foi a Gisele, do 41, com um áudio de dois minutos.\nO seu pula em carro ou em gente? Comenta 1 pra carro, 2 pra gente 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #condominio #apartamento #passeiocomcachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Patas no carro do vizinho. O prédio já sabia quem era.",
+   "linhas": [
+    "PATAS NO CARRO",
+    "DO VIZINHO",
+    "ERA A PITOMBA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "pata"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "112 participantes",
+   "quando": "07:12",
+   "fala": "No grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "De quem são essas patas no meu carro?"
+    },
+    {
+     "quem": "sindica",
+     "texto": "Isso é pata de cachorro grande."
+    }
+   ],
+   "nomes": {
+    "vizinho": "Seu Belmiro (vaga 18)",
+    "sindica": "Dona Ivone (síndica)",
+    "ana": "Valquíria (apto 72)",
+    "bia": "Gisele (apto 41)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "GARAGEM · 07:30",
+   "fala": "Na garagem, a Valquíria viu: a Pitomba pulando no carro dele.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "112 participantes",
+   "quando": "07:41",
+   "fala": "A plateia:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "A Pitomba de novo?"
+    },
+    {
+     "quem": "ana",
+     "texto": "Desculpa! Eu lavo hoje.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "vizinho": "Seu Belmiro (vaga 18)",
+    "sindica": "Dona Ivone (síndica)",
+    "ana": "Valquíria (apto 72)",
+    "bia": "Gisele (apto 41)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "112 participantes",
+   "quando": "07:45",
+   "fala": "Aí a Gisele, do quarenta e um:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "A Kiara fazia igual. Guia curta e um senta valendo petisco antes dos carros."
+    }
+   ],
+   "nomes": {
+    "vizinho": "Seu Belmiro (vaga 18)",
+    "sindica": "Dona Ivone (síndica)",
+    "ana": "Valquíria (apto 72)",
+    "bia": "Gisele (apto 41)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "CALÇADA · SEMANAS DEPOIS",
+   "fala": "Agora são cinco minutinhos de senta por dia. E ela passa sem pular.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "112 participantes",
+   "quando": "18:20",
+   "fala": "Semanas depois:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Carro limpo há quinze dias."
+    },
+    {
+     "quem": "ana",
+     "texto": "Ela agradece!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "vizinho": "Seu Belmiro (vaga 18)",
+    "sindica": "Dona Ivone (síndica)",
+    "ana": "Valquíria (apto 72)",
+    "bia": "Gisele (apto 41)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu pula em carro ou em gente? Comenta 1 pra carro, 2 pra gente. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu pula em…",
+   "opcoes": [
+    "1 carro",
+    "2 gente",
+    "3 nada"
+   ],
+   "escolha": 0,
+   "resultado": "GUIA CURTA + SENTA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

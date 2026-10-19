@@ -1,0 +1,187 @@
+{
+ "id": "h112-cambuci-aniversario-da-cecilia-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "PARTE 2: o que a Vó Celeste tirou da bolsa salvou o bolo da Cecília 🎂\nUm brinquedo de roer recheado e um tapetinho num canto, longe da mesa.\nE o seu, em festa, fica tranquilo? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #festadeaniversario #condominio #adestramentocanino #historiadecachorro",
+ "serie": "cambuci-aniversario-da-cecilia",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. Da bolsa da avó saiu um brinquedo de roer.",
+   "linhas": [
+    "O QUE TINHA",
+    "NA BOLSA DA AVÓ?",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 2,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "16:02",
+   "fala": "A Vó Celeste já criou quatro cachorros.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Cachorro em festa precisa de uma tarefa."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "16:05",
+   "fala": "Recheou o brinquedo com ração molhada e pôs um tapetinho longe da mesa.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Lamber e roer costumam acalmar o cão. Por isso ajuda em dia de agito.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "LAMBER E ROER",
+    "costumam acalmar"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "PARABÉNS · 16:20",
+   "fala": "No parabéns, o Cambuci ficou no tapetinho, lambendo o brinquedo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760
+   },
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 700,
+     "y": 1300
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "SEMANA SEGUINTE",
+   "fala": "Agora, cinco minutinhos por dia em casa: deita no tapete, ganha petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família da Cecília",
+   "membros": "23 participantes",
+   "quando": "21:40",
+   "fala": "À noite, no grupo:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Convidado mais educado da festa: Cambuci."
+    },
+    {
+     "quem": "carla",
+     "texto": "Mais que o Juninho"
+    }
+   ],
+   "nomes": {
+    "carla": "Tia Jussara",
+    "pedro": "Primo Juninho",
+    "joao": "Ezequiel",
+    "sindica": "Vó Celeste"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, em festa, fica no canto? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Na festa, o seu…",
+   "opcoes": [
+    "1 fica no canto",
+    "2 ataca a mesa",
+    "3 pula nas visitas"
+   ],
+   "escolha": 0,
+   "resultado": "TAPETINHO + BRINQUEDO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

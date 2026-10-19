@@ -1,0 +1,78 @@
+{
+ "id": "r052-erro-bronca-no-rosnado",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "mordida",
+ "legenda": "Pare de dar bronca quando seu cão rosna 🛑\n\nRosnar é aviso. Quem leva bronca por avisar pode parar de avisar… e ir direto pra mordida.\n\n✅ Afaste com calma o que incomodou\n✅ Observe o que causou o rosnado\n✅ Evite repetir a situação\n\nO seu já rosnou pra alguém da casa? Comenta 1 pra sim, 2 pra não 👇\n\nRosnado frequente ou mordida: procure um veterinário ou um adestrador profissional.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrorosnando #comportamentocanino #adestramento #meucaoobedece #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de dar bronca quando o seu cão rosna. Você pode estar desligando o alarme.",
+   "linhas": [
+    "PARE DE DAR BRONCA",
+    "QUANDO ELE ROSNA"
+   ],
+   "destaque": 0,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Rosnar é o jeito do cão dizer: para, eu tô incomodado.",
+   "linhas": [
+    "ROSNAR É",
+    "UM AVISO"
+   ],
+   "destaque": 1,
+   "icone": "megafone",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Se ele leva bronca por avisar, pode parar de avisar. E aí a mordida vem sem sinal.",
+   "topo": [
+    "COM BRONCA, ELE"
+   ],
+   "de": "AVISA",
+   "para": "MORDE SEM AVISO",
+   "para_palavra": "mordida"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 2,
+   "fala": "O certo: afaste com calma o que incomodou, sem gritar.",
+   "titulo": "Afaste com calma",
+   "sub": "sem gritar",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 2,
+   "fala": "Depois, observe o que causou o rosnado e evite repetir a situação.",
+   "titulo": "Ache a causa",
+   "sub": "e evite repetir",
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "id": "h117-manjar-van-da-escola-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "Mês passado, a van da escola chegava e o Manjar derrubava o Benício no portão 🚐 Hoje, olha só.\nA ideia veio do próprio Benício: pulo não ganha carinho, senta ganha.\nE o seu, pula em quem chega? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #cachorroecrianca #adestramentocanino #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, a van chegava e o Manjar derrubava o Benício. Hoje, olha.",
+   "linhas": [
+    "MÊS PASSADO X HOJE",
+    "A VAN DA ESCOLA",
+    "E O MANJAR"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 12:30",
+   "fala": "Mês passado. A van buzinou e o Manjar disparou pro portão.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Manjar, espera!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 12:31",
+   "fala": "O Benício levou um pulo no peito. Lanche espalhado.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 12:30",
+   "fala": "Hoje. Mesma buzina, mesmo horário. O Manjar senta no portão e espera.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 12:31",
+   "fala": "O Benício entra, conta até três e faz carinho.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 700,
+     "y": 1300
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "O QUE MUDOU",
+   "fala": "A ideia foi do Benício, de nove anos: pulo não ganha carinho, senta ganha. Cinco minutos de treino por dia.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Van do Tio Tonho",
+   "membros": "18 participantes",
+   "quando": "12:40",
+   "fala": "No grupo da van:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "O Manjar agora é o mais educado da rota."
+    },
+    {
+     "quem": "ana",
+     "texto": "Treinado pelo Benício!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "vizinho": "Tio Tonho (van)",
+    "ana": "Tereza"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, pula em quem chega? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando alguém chega, o seu…",
+   "opcoes": [
+    "1 pula",
+    "2 senta",
+    "3 foge"
+   ],
+   "escolha": 1,
+   "resultado": "SENTA GANHA CARINHO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

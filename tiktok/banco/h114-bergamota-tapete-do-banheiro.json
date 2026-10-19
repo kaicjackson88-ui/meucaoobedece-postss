@@ -1,0 +1,191 @@
+{
+ "id": "h114-bergamota-tapete-do-banheiro",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "noite",
+ "legenda": "A Bergamota explica por que o tapete do banheiro virou o banheiro dela 🛁 Quem descobriu foi a Luíza, de 8 anos: era igualzinho ao tapetinho higiênico.\nO seu já confundiu tapete? Comenta 1 pra sim, 2 pra não 👇\nSe o xixi fora do lugar começar do nada, vale consultar o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Bergamota. E eu achei um banheiro novo: o tapete do banheiro.",
+   "linhas": [
+    "EU SOU A BERGAMOTA",
+    "ACHEI UM BANHEIRO",
+    "NOVO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "02:10",
+   "fala": "Duas da manhã. No banheiro dos humanos, achei um tapete igualzinho ao meu.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "relogio": "02:10"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "quarto",
+   "quando": "07:00",
+   "fala": "De manhã, a Rebeca pisou de meia.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Bergamota! De novo!",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 700,
+     "y": 1460
+    }
+   ],
+   "camera": {
+    "foco": "carla",
+    "z": 1.4,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "07:05",
+   "fala": "Ela apontou pro meu tapetinho. Achei que era pra comparar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "CAFÉ · 07:20",
+   "fala": "Aí a Luíza, de oito anos, falou.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Mãe, o tapete do banheiro é igualzinho ao dela."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão aprende o lugar do xixi também pelas patas. Tapete parecido confunde.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "A PATA SENTE",
+    "textura também ensina"
+   ],
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEMANAS DEPOIS · 02:10",
+   "fala": "Agora o tapete do banheiro fica pendurado. Acerto o meu, ganho petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ],
+   "relogio": "02:10"
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já confundiu tapete? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu já confundiu…",
+   "opcoes": [
+    "1 tapete do banheiro",
+    "2 tapete da sala",
+    "3 nunca"
+   ],
+   "escolha": 0,
+   "resultado": "TIRA O TAPETE PARECIDO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

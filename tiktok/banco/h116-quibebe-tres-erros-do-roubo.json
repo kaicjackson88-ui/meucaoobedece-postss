@@ -1,0 +1,170 @@
+{
+ "id": "h116-quibebe-tres-erros-do-roubo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "menta",
+ "legenda": "3 coisas que você faz quando o cão rouba algo. E ele entende \"oba, brincadeira!\" 🥖\nO certo veio da vizinha, Dona Iolanda: trocar por um petisco.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\nSe ele rosna ou morde pra proteger objetos, procure um adestrador profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #comportamentocanino #adestramentocanino #adestramento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz quando o cão rouba algo. E ele entende: brincadeira!",
+   "linhas": [
+    "ELE ROUBOU",
+    "VOCÊ FAZ ISSO",
+    "ELE AMA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1",
+   "fala": "Erro um: correr atrás. O Quibebe pegou o pão, o Nicolas correu. Virou pega-pega.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Volta aqui!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 2",
+   "fala": "Erro dois: gritar. Cada grito virou torcida. Ele abanou o rabo e fugiu de novo.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Larga isso!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 3",
+   "fala": "Erro três: arrancar da boca à força. O Quibebe apertou ainda mais.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "objetos": [
+    {
+     "nome": "sapato",
+     "x": 700,
+     "y": 1460
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Muitos cães seguram mais forte o que acham que vão perder. Puxar costuma piorar.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "SEGURAR É INSTINTO",
+    "puxar piora"
+   ],
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "O CERTO",
+   "fala": "O certo veio da vizinha, Dona Iolanda: trocar. Mostra o petisco, ele solta, ganha. Treine em dias calmos.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você já fez o erro…",
+   "opcoes": [
+    "1 correr atrás",
+    "2 gritar",
+    "3 puxar da boca"
+   ],
+   "escolha": 0,
+   "resultado": "O CERTO: TROCA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

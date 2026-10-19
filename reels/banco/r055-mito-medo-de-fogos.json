@@ -1,0 +1,78 @@
+{
+ "id": "r055-mito-medo-de-fogos",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "fogos",
+ "legenda": "Mito ou verdade? Medo de fogos 🎆\n\n❌ Consolar o cão com medo reforça o medo\n❌ Ele se acostuma sozinho com o barulho\n✅ Um esconderijo ajuda ele a se sentir seguro\n\nQuantas você acertou? Conta aqui 👇\n\nMedo muito intenso: converse com o veterinário antes das festas.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #meucaoobedece #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mito ou verdade? Três coisas sobre cachorro com medo de fogos.",
+   "linhas": [
+    "MEDO DE FOGOS",
+    "MITO OU VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Consolar o cão com medo reforça o medo. Mito. Ficar perto e calmo pode ajudar ele a se sentir seguro.",
+   "frase": "Consolar reforça o medo",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "FICAR PERTO",
+    "E CALMO AJUDA"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Ele se acostuma sozinho com o barulho. Mito. Muitos cães ficam com mais medo a cada festa.",
+   "frase": "Ele se acostuma sozinho",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "O MEDO",
+    "PODE AUMENTAR"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Um esconderijo ajuda. Verdade. Um cantinho fechado e conhecido dá sensação de segurança.",
+   "frase": "Esconderijo ajuda",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "CANTINHO",
+    "CONHECIDO"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

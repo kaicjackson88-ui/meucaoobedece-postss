@@ -1,0 +1,176 @@
+{
+ "id": "h113-siriguela-rosnou-pro-davi-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "menta",
+ "legenda": "O Davi puxou o rabo da Siriguela. E ela rosnou 😬 O que você faria?\n1 bronca nela por rosnar, 2 separar com calma e explicar pro Davi, 3 deixar os dois se entenderem. Comenta seu número antes de ver a resposta 👇\nSe o rosnado vira mordida ou acontece com frequência, procure um veterinário ou um adestrador profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #cachorroecrianca #comportamentocanino #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Puxou o rabo, a Siriguela rosnou. O que você faria?",
+   "linhas": [
+    "PUXOU O RABO",
+    "ELA ROSNOU",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 14:00",
+   "fala": "O Davi, de seis anos, achou que o rabo dela era brinquedo.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Grrr!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "14:01",
+   "fala": "A Flávia congelou.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "E agora, o que eu faço?",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: bronca nela. Dois: separar com calma e explicar pro Davi. Três: deixar. Comenta 1, 2 ou 3 antes da resposta.",
+   "topo": [
+    "1 BRONCA NELA",
+    "2 SEPARAR COM CALMA",
+    "3 DEIXAR"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "CLÍNICA · TERÇA",
+   "fala": "Na consulta, a veterinária, Doutora Graça, respondeu.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "É a dois. O rosnado foi o aviso dela."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Rosnar é aviso. Quem leva bronca por rosnar pode parar de avisar antes de morder.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ROSNAR É AVISO",
+    "não castigue o aviso"
+   ],
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO SEGUINTE",
+   "fala": "Agora a regra do Davi é: carinho só quando ela vem até ele. E ela vem.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 700,
+     "y": 1300
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? Comenta qual você escolheu. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 bronca nela",
+    "2 separar com calma",
+    "3 deixar"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
