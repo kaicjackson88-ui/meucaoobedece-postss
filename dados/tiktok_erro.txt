@@ -1,1 +1,1 @@
-2026-10-19T08:38:13.466093-03:00 h096-pururuca-cadarco-do-elevador: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261019193813E10B1CE51832E5968C7C"}}
+2026-10-19T08:48:16.104024-03:00 h096-pururuca-cadarco-do-elevador: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261019194815F0BA270F6F2546819928"}}
