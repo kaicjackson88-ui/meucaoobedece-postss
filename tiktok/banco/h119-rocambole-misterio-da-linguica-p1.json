@@ -1,0 +1,173 @@
+{
+ "id": "h119-rocambole-misterio-da-linguica-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Sumiram 3 linguiças do churrasco da Dona Hilda. E a família inteira tinha um suspeito 🕵️ PARTE 1\nAté que o neto apareceu com o vídeo da câmera da campainha.\nQuem você acha que pegou? Comenta 1, 2 ou 3 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#churrasco #cachorrocomendo #comportamentocanino #adestramentocanino #historiadecachorro",
+ "serie": "rocambole-misterio-da-linguica",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Sumiram três linguiças do churrasco. E a família inteira tinha um suspeito.",
+   "linhas": [
+    "SUMIRAM 3 LINGUIÇAS",
+    "TODO MUNDO É SUSPEITO",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "QUINTAL · 13:00",
+   "fala": "Domingo, quintal da Dona Hilda. O Washington virou as linguiças e foi buscar sal.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Já volto. Ninguém mexe!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "13:02",
+   "fala": "Voltou trinta segundos depois. A grelha estava vazia.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Cadê as linguiças?",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "joao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família da Dona Hilda",
+   "membros": "17 participantes",
+   "quando": "13:05",
+   "fala": "No grupo da família, começou a investigação.",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Foi o Tio Sandro, tava rondando a grelha"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Eu tava no banheiro, tenho álibi"
+    },
+    {
+     "quem": "sindica",
+     "texto": "E o Rocambole, cadê?"
+    }
+   ],
+   "nomes": {
+    "carla": "Tia Cleide",
+    "pedro": "Tio Sandro",
+    "sindica": "Dona Hilda"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "13:07",
+   "fala": "O Rocambole estava no sofá. Com cara de santo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Ele nem levantou...",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "13:10",
+   "fala": "Aí o Breno, de oito anos, chegou com o tablet: Vó, a câmera da campainha gravou tudo.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "camera": {
+    "foco": "sindica",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Quem pegou as linguiças? Comenta 1, 2 ou 3. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quem pegou?",
+   "opcoes": [
+    "1 Tio Sandro",
+    "2 Rocambole",
+    "3 Tia Cleide"
+   ],
+   "escolha": 1,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

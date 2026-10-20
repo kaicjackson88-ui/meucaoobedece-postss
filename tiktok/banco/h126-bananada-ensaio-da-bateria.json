@@ -1,0 +1,154 @@
+{
+ "id": "h126-bananada-ensaio-da-bateria",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "Toda quinta tem ensaio de bateria na quadra da rua. E toda quinta a Bananada some 🥁\nFoi a Dona Edite, no grupo da rua, que ensinou o caminho: som baixinho em casa, petisco e paciência, subindo aos poucos.\nE o seu, tem medo de qual barulho? Comenta 1, 2 ou 3 👇\nSe o medo é muito intenso, converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorroemedo #fogosnao #comportamentocanino #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Toda quinta tem ensaio de bateria na rua. E a Bananada some.",
+   "linhas": [
+    "ENSAIO DE BATERIA",
+    "TODA QUINTA",
+    "A BANANADA SOME"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "QUINTA · 20:00",
+   "fala": "O surdo começou, e a Bananada puxou a guia pra casa.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "20:15",
+   "fala": "Em casa, andou de um lado pro outro a noite toda.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Rua das Acácias",
+   "membros": "64 participantes",
+   "quando": "20:40",
+   "fala": "No grupo da rua:",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Até quando vai esse ensaio? A Bananada sofre.",
+     "eu": true
+    },
+    {
+     "quem": "sindica",
+     "texto": "Até o Carnaval. Mas dá pra ajudar ela."
+    }
+   ],
+   "nomes": {
+    "pedro": "Dênis",
+    "sindica": "Dona Edite"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "A Dona Edite já passou por isso: som da bateria baixinho em casa, e petisco a cada batida.",
+   "topo": [
+    "A DICA DA DONA EDITE"
+   ],
+   "de": "FUGIR DO BARULHO",
+   "para": "BARULHO = PETISCO",
+   "para_palavra": "petisco"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 19:00",
+   "fala": "Cinco minutos por noite. Som baixinho, petisco, brincadeira. O volume só sobe se ela fica tranquila.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA · 20:00",
+   "fala": "Na quinta seguinte, ela foi pro cantinho dela, com o brinquedo de roer. Mais tranquila.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, tem medo de qual barulho? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu tem medo de…",
+   "opcoes": [
+    "1 rojão",
+    "2 trovão",
+    "3 bateria"
+   ],
+   "escolha": 0,
+   "resultado": "BAIXINHO + PETISCO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

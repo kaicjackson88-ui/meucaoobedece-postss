@@ -1,0 +1,165 @@
+{
+ "id": "h121-canela-fato-assustador-do-rojao-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "Fato assustador 👻 O rojão que você mal escuta chega muito mais forte no ouvido do seu cão. A Canela se enfiou atrás do vaso do banheiro. O que você faria?\n1 puxar ela de lá, 2 deixar no esconderijo e ficar perto com calma, 3 levar pra varanda pra acostumar. Comenta seu número antes de ver a resposta 👇\nSe o medo é muito intenso, converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Fato assustador: o rojão chega muito mais forte no ouvido do seu cão. O que você faria?",
+   "linhas": [
+    "FATO ASSUSTADOR",
+    "O ROJÃO NO OUVIDO DELE",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SÁBADO · 23:40",
+   "fala": "Sábado, meia-noite. Começou o rojão do vizinho.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Canela? Cadê você?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "23:41",
+   "fala": "A Canela se enfiou atrás do vaso do banheiro. Tremendo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: puxar ela de lá. Dois: deixar ela ali e ficar perto. Três: levar pra varanda. Comenta 1, 2 ou 3 antes da resposta.",
+   "topo": [
+    "1 PUXAR DE LÁ",
+    "2 DEIXAR E FICAR PERTO",
+    "3 VARANDA PRA ACOSTUMAR"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEGUNDA · CLÍNICA",
+   "fala": "Na segunda, a veterinária respondeu na hora.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "É a dois. Ali ela se sente segura."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cães escutam sons mais baixos e mais agudos que a gente.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "OUVIDO SUPERSENSÍVEL",
+    "escuta o que você não escuta"
+   ],
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO SEGUINTE · 23:40",
+   "fala": "No rojão seguinte, a Sabrina deixou o cantinho pronto, com cobertor. E ficou por perto.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? Comenta o número que você escolheu. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 puxar de lá",
+    "2 deixar e ficar perto",
+    "3 varanda"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

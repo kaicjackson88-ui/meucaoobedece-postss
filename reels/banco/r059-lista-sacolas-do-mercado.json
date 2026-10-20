@@ -1,0 +1,66 @@
+{
+ "id": "r059-lista-sacolas-do-mercado",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "pulo",
+ "legenda": "Você chega do mercado e o seu cão pula nas sacolas? 🛒\n\n1️⃣ Treine o tapete com a sacola vazia\n2️⃣ Pulou? Sacola pro alto e silêncio\n3️⃣ Quatro patas no chão? Petisco no tapete\n\nO seu pula nas sacolas? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorropulando #apartamento #adestramento #meucaoobedece #comportamentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Você chega do mercado e o seu cão pula nas sacolas? Três passos.",
+   "linhas": [
+    "CHEGOU DO MERCADO?",
+    "ELE PULA NAS SACOLAS"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: treina o tapete primeiro com a sacola vazia, cinco minutinhos por dia.",
+   "titulo": "Sacola vazia primeiro",
+   "sub": "5 minutos por dia",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: pulou? Sacola pro alto e silêncio. Pulo não ganha nada.",
+   "titulo": "Pulou? Silêncio",
+   "sub": "pulo não ganha nada",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: quatro patas no chão? Petisco ali no tapete. Ele aprende onde vale a pena ficar.",
+   "titulo": "Patas no chão",
+   "sub": "petisco no tapete",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

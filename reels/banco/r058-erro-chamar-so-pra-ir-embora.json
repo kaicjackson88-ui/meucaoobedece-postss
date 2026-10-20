@@ -1,0 +1,69 @@
+{
+ "id": "r058-erro-chamar-so-pra-ir-embora",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "chamado",
+ "legenda": "Você só chama o seu cão no parque na hora de ir embora? Ele aprende que \"vem cá\" é o fim da diversão 🏞️\n\n❌ Chamar só pra colocar a guia e ir pra casa\n✅ Chamar várias vezes no passeio\n✅ Petisco gostoso e liberar pra brincar de novo\n\nO seu volta quando você chama? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#vemaqui #chamadocanino #passeiocomcachorro #meucaoobedece #adestramento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de chamar o seu cão só na hora de ir embora do parque.",
+   "linhas": [
+    "PARE DE CHAMAR",
+    "SÓ PRA IR EMBORA"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Se vem cá sempre significa guia e fim da brincadeira, ele aprende a fingir que não ouviu.",
+   "linhas": [
+    "VEM CÁ =",
+    "FIM DA DIVERSÃO"
+   ],
+   "destaque": 1,
+   "icone": "relogio",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "virada",
+   "fala": "O certo é chamar várias vezes no passeio. Ele vem, ganha petisco e volta a brincar.",
+   "topo": [
+    "EM VEZ DISSO"
+   ],
+   "de": "VEM CÁ = FIM",
+   "para": "VEM CÁ = PRÊMIO",
+   "para_palavra": "petisco"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "Comece em lugar fechado e com guia longa, até ele voltar sempre.",
+   "titulo": "Guia longa primeiro",
+   "sub": "em lugar fechado",
+   "icone": "guia"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

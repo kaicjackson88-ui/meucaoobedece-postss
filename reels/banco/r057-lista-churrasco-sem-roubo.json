@@ -1,0 +1,66 @@
+{
+ "id": "r057-lista-churrasco-sem-roubo",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "obediencia",
+ "legenda": "Churrasco no domingo e o seu cão vira fiscal da grelha? 🍖\n\n1️⃣ Um cantinho só dele, longe da grelha, com brinquedo de roer\n2️⃣ Treino de \"deixa\" na semana anterior, em dias calmos\n3️⃣ Combinado com a família: ninguém dá pedaço\n\nO seu fica de olho na grelha? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#churrasco #cachorrocomendo #adestramento #meucaoobedece #comportamentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Churrasco no domingo e o seu cão vira fiscal da grelha? Três passos pra mudar isso.",
+   "linhas": [
+    "CHURRASCO NO DOMINGO?",
+    "ELE VIRA FISCAL DA GRELHA"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: monta um cantinho só dele, longe da grelha, com um brinquedo de roer.",
+   "titulo": "Cantinho só dele",
+   "sub": "longe da grelha",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: treina o deixa na semana anterior, em dias calmos, com petisco na mão.",
+   "titulo": "Treine o deixa",
+   "sub": "antes do churrasco",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: combina com a família. Ninguém dá pedaço, nem escondido.",
+   "titulo": "Ninguém dá pedaço",
+   "sub": "nem escondido",
+   "icone": "x"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

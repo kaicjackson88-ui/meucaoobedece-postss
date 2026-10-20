@@ -1,0 +1,165 @@
+{
+ "id": "h127-cuca-sanduiche-do-piquenique",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "sol",
+ "legenda": "A Cuca roubou o sanduíche de um piquenique. Do piquenique de um desconhecido 🥪\nQuem deu a real foi a Rayane, passeadora do condomínio: o problema não era soltar, era ela não voltar quando chamada. Guia longa + treino de \"vem cá\" todo dia.\nO seu volta quando você chama no parque? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#vemaqui #chamadocanino #passeiocomcachorro #cachorrocomendo #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A Cuca roubou o sanduíche do piquenique de um desconhecido.",
+   "linhas": [
+    "ROUBOU O SANDUÍCHE",
+    "DE UM DESCONHECIDO",
+    "NO PARQUE"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "PARQUE · 10:00",
+   "fala": "Domingo no parque. O Fernando soltou a Cuca.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Cuca, volta aqui!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "10:01",
+   "fala": "Ela cruzou o gramado e parou na toalha de uma família. Com o sanduíche na boca.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Ei! O meu lanche!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "DOMINGO · 22:00",
+   "fala": "À noite, ele ainda morria de vergonha.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Nunca mais solto essa cachorra.",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Pets do Condomínio",
+   "membros": "29 participantes",
+   "quando": "22:15",
+   "fala": "A passeadora do condomínio respondeu:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "O problema não é soltar. É ela não voltar quando você chama. Guia longa e treino de vem cá, todo dia."
+    }
+   ],
+   "nomes": {
+    "bia": "Rayane passeadora",
+    "joao": "Fernando"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEMANA SEGUINTE",
+   "fala": "Agora a Cuca treina com guia longa. Chamou, ela vem e ganha petisco. Piquenique, só de longe.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu volta quando você chama no parque? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No parque, o seu…",
+   "opcoes": [
+    "1 volta",
+    "2 finge que não ouve",
+    "3 nem solto"
+   ],
+   "escolha": 1,
+   "resultado": "GUIA LONGA + VEM CÁ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

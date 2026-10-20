@@ -1,0 +1,170 @@
+{
+ "id": "h125-muqueca-sacolas-do-mercado-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Mês passado, a Muqueca rasgava as sacolas do mercado. Hoje ela espera no tapete 🛒\nA dica veio do Seu Abílio, do térreo: treinar o tapete todo dia, primeiro com a sacola vazia.\nE o seu, pula nas sacolas do mercado? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #apartamento #cachorropulando #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, a Muqueca rasgava as sacolas do mercado. Hoje, olha.",
+   "linhas": [
+    "MÊS PASSADO X HOJE",
+    "AS SACOLAS",
+    "E A MUQUECA"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 19:00",
+   "fala": "Mês passado. A Clarice abriu a porta com as sacolas, e a Muqueca voou em cima.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Muqueca, desce!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "MÊS PASSADO · 19:01",
+   "fala": "Sacola rasgada, frango no chão, e a Muqueca correndo com ele pela casa.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 19:00",
+   "fala": "Hoje. Mesmas sacolas, mesmo horário. A Muqueca vai pro tapete e espera.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "HOJE · 19:01",
+   "fala": "A Clarice guarda tudo. Depois chama, e ela ganha um petisco ali no tapete.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "O QUE MUDOU",
+   "fala": "A dica veio do Seu Abílio, do térreo: treino do tapete, cinco minutinhos por dia, primeiro com a sacola vazia.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Olha só, mais educada que o meu neto!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, pula nas sacolas do mercado? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Quando chegam as sacolas…",
+   "opcoes": [
+    "1 pula",
+    "2 espera",
+    "3 some"
+   ],
+   "escolha": 1,
+   "resultado": "TAPETE GANHA PETISCO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

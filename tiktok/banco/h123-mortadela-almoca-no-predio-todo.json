@@ -1,0 +1,150 @@
+{
+ "id": "h123-mortadela-almoca-no-predio-todo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "O Mortadela almoça em 4 apartamentos por dia. E nenhum deles é o dele 🍗\nO grupo do bloco B descobriu que todo mundo dava \"só um pedacinho\". Até que o Seu Nelson propôs uma regra.\nNo seu prédio, alguém dá comida pro seu cachorro escondido? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #apartamento #cachorrocomendo #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Mortadela almoça em quatro apartamentos. Nenhum é o dele.",
+   "linhas": [
+    "ALMOÇA EM 4 APÊS",
+    "NENHUM É O DELE",
+    "GRUPO DO BLOCO B"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco B · Moradores",
+   "membros": "41 participantes",
+   "quando": "12:20",
+   "fala": "No grupo do bloco B:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "O Mortadela tá no 302 de novo, pedindo arroz"
+    },
+    {
+     "quem": "carla",
+     "texto": "Ontem ele comeu frango aqui no 104"
+    }
+   ],
+   "nomes": {
+    "vizinho": "Seu Nelson 302",
+    "carla": "Iara 104"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "12:25",
+   "fala": "Porta aberta, pra ele, é restaurante.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Só um pedacinho."
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco B · Moradores",
+   "membros": "41 participantes",
+   "quando": "12:40",
+   "fala": "Aí a dona dele apareceu.",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Gente, ele largou a ração. Quem tá dando comida?",
+     "eu": true
+    },
+    {
+     "quem": "pedro",
+     "texto": "Eu dei pão de queijo"
+    }
+   ],
+   "nomes": {
+    "ana": "Mirela 201",
+    "pedro": "Valter 405",
+    "carla": "Iara 104"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco B · Moradores",
+   "membros": "41 participantes",
+   "quando": "12:45",
+   "fala": "E veio a resposta que mudou tudo.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Regra do prédio: comida de gente, ninguém dá. Combinado?"
+    },
+    {
+     "quem": "ana",
+     "texto": "Combinado. Quem quiser agradar, faz carinho!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "vizinho": "Seu Nelson 302",
+    "ana": "Mirela 201"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEMANA SEGUINTE · 12:00",
+   "fala": "Agora ele almoça em casa, num brinquedo que solta a ração aos poucos. No corredor, só carinho.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "No seu prédio, alguém dá comida escondido pro seu cão? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "No seu prédio…",
+   "opcoes": [
+    "1 todo mundo dá",
+    "2 ninguém dá",
+    "3 nem sei"
+   ],
+   "escolha": 1,
+   "resultado": "COMIDA DE GENTE, NINGUÉM DÁ",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

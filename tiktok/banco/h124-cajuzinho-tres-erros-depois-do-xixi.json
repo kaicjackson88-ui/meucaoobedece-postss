@@ -1,0 +1,143 @@
+{
+ "id": "h124-cajuzinho-tres-erros-depois-do-xixi",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "menta",
+ "legenda": "3 coisas que você faz depois do xixi no lugar errado, e o seu cão entende tudo ao contrário 🚫 O 2º quase todo mundo faz.\nBronca na hora, produto com amônia e bronca atrasada. O certo: limpar sem plateia, com produto enzimático, e festa quando ele acerta.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #apartamento #adestramentocanino #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz depois do xixi errado, e ele entende ao contrário.",
+   "linhas": [
+    "3 ERROS DEPOIS",
+    "DO XIXI ERRADO",
+    "O 2º QUASE TODO MUNDO FAZ"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1 · 08:00",
+   "fala": "Erro um: a Nádia mostra a poça e briga. O Cajuzinho entende: fazer xixi perto dela é perigoso.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 650,
+     "y": 1480
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 2 · 08:05",
+   "fala": "Erro dois: limpa com produto de amônia. Pro nariz dele, ainda cheira a banheiro.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 3 · 18:00",
+   "fala": "Erro três: acha o xixi seco e briga. Ele não liga a bronca ao xixi de horas atrás.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? A amônia de muitos produtos tem cheiro parecido com o de xixi.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "AMÔNIA LEMBRA XIXI",
+    "troque o produto"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "O CERTO",
+   "fala": "O certo: limpar sem plateia, com produto enzimático. Levar ao lugar certo depois de comer e de acordar. Acertou? Festa e petisco.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você já fez o erro…",
+   "opcoes": [
+    "1 bronca na hora",
+    "2 amônia",
+    "3 bronca atrasada"
+   ],
+   "escolha": 1,
+   "resultado": "LIMPA SEM PLATEIA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

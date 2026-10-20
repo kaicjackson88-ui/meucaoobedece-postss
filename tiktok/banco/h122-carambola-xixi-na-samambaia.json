@@ -1,0 +1,170 @@
+{
+ "id": "h122-carambola-xixi-na-samambaia",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "menta",
+ "legenda": "A Carambola explica por que o vaso da samambaia virou o banheiro dela 🌿\nO cheiro ficava, e cheiro de xixi diz pro cão: é aqui. Produto enzimático + levar pra fora assim que ela acorda mudou o jogo.\nE o seu, tem um lugar favorito errado pro xixi? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #apartamento #comportamentocanino #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Carambola. E achei o banheiro mais cheiroso da casa: a samambaia.",
+   "linhas": [
+    "EU SOU A CARAMBOLA",
+    "ACHEI O BANHEIRO",
+    "MAIS CHEIROSO DA CASA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "07:10",
+   "fala": "Sete da manhã. Acordei e fui direto pro meu vaso favorito.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "07:12",
+   "fala": "Aí o Ítalo viu a terra molhada. E fez aquela cara.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Carambola! De novo na samambaia?",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 650,
+     "y": 1480
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "07:20",
+   "fala": "Ele limpou só com água. Mas o cheirinho ficou.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cães tendem a voltar onde sentem o cheiro do próprio xixi.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O CHEIRO MARCA O LUGAR",
+    "limpar bem faz diferença"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "02:00",
+   "fala": "Uma noite, às duas da manhã, ele pesquisou no celular.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Produto enzimático. E levar pra fora quando ela acorda.",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "07:10",
+   "fala": "Agora eu acordo e ele já tá com a guia. Xixi lá fora, e ganho festa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, tem um lugar errado favorito? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O xixi errado do seu é…",
+   "opcoes": [
+    "1 no tapete",
+    "2 no vaso",
+    "3 no lugar certo"
+   ],
+   "escolha": 1,
+   "resultado": "LIMPA BEM + LEVA CEDO",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

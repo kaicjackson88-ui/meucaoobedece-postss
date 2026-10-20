@@ -1,0 +1,154 @@
+{
+ "id": "h120-rocambole-misterio-da-linguica-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "PARTE 2 do mistério das linguiças 🕵️ A câmera da campainha mostrou o culpado. E o Breno, de 8 anos, ainda trouxe a solução.\nCantinho dele no churrasco + treino de \"deixa\" todo dia.\nVocê acertou quem foi? E o seu, já roubou comida da mesa? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#churrasco #cachorrocomendo #comportamentocanino #adestramentocanino #historiadecachorro",
+ "serie": "rocambole-misterio-da-linguica",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. Sumiram as linguiças, e a câmera da campainha gravou tudo.",
+   "linhas": [
+    "A CÂMERA GRAVOU",
+    "QUEM FOI?",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "13:11",
+   "fala": "O Breno deu play. Todo mundo em volta do tablet.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Não acredito!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "VÍDEO · 13:01",
+   "fala": "Na tela, o Rocambole em pé na grelha. Uma, duas, três linguiças. E volta pro sofá.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O olfato do cão é muito mais potente que o nosso. Churrasco, pra ele, é irresistível.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "NARIZ DE CAMPEÃO",
+    "churrasco chama de longe"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "13:15",
+   "fala": "E o Breno deu o veredito: Vó, ele precisa de um cantinho dele no churrasco.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO SEGUINTE",
+   "fala": "Agora tem regra. Grelha com cerquinha, e o Rocambole no tapete dele, com um brinquedo de roer. E cinco minutos de treino de deixa por dia.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1460
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? E o seu, já roubou comida da mesa? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu já roubou comida?",
+   "opcoes": [
+    "1 sim, várias",
+    "2 nunca",
+    "3 só do lixo"
+   ],
+   "escolha": 0,
+   "resultado": "CANTINHO + DEIXA",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
