@@ -1,16 +1,16 @@
 {
  "perfil": {
-  "video_count": 54,
   "display_name": "Meucaobedece",
   "follower_count": 5,
-  "likes_count": 130
+  "likes_count": 131,
+  "video_count": 54
  },
- "atualizado": "2026-10-19T05:04:10.346407-03:00",
+ "atualizado": "2026-10-19T23:42:13.485014-03:00",
  "videos": [
   {
    "video": "7696660352351653121",
    "roteiro": "h059-rabanete-caminhao-do-lixo",
-   "views": 125,
+   "views": 127,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -22,7 +22,7 @@
   {
    "video": "7696660282101222708",
    "roteiro": "h057-pacoca-interfone-p2",
-   "views": 103,
+   "views": 104,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -94,11 +94,11 @@
   {
    "video": "7696453714705419526",
    "roteiro": "h055-sushi-reveillon-da-familia",
-   "views": 131,
+   "views": 152,
    "curtidas": 6,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0458,
+   "engaj": 0.0395,
    "duracao": 40,
    "link": "https://www.tiktok.com/@meucaobedece/video/7696453714705419526?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-14T09:31:28+00:00"
@@ -118,7 +118,7 @@
   {
    "video": "7696294462166928641",
    "roteiro": "h037-fuba-latido-da-sacada",
-   "views": 105,
+   "views": 147,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -130,7 +130,7 @@
   {
    "video": "7696294251956686081",
    "roteiro": "h054-banze-abraco-da-sobrinha-quiz",
-   "views": 113,
+   "views": 121,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -166,11 +166,11 @@
   {
    "video": "7696257804365024513",
    "roteiro": "h035-pudim-foge-do-banho",
-   "views": 140,
-   "curtidas": 1,
+   "views": 214,
+   "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0071,
+   "engaj": 0.0093,
    "duracao": 34,
    "link": "https://www.tiktok.com/@meucaobedece/video/7696257804365024513?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-13T20:51:16+00:00"
@@ -213,7 +213,7 @@
   },
   {
    "video": "7695938985994079508",
-   "roteiro": "h050-ozzy-tres-erros-do-xixi",
+   "roteiro": "h124-cajuzinho-tres-erros-depois-do-xixi",
    "views": 207,
    "curtidas": 2,
    "comentarios": 0,
@@ -238,11 +238,11 @@
   {
    "video": "7695938601460288789",
    "roteiro": "h031-nino-rojao-quiz",
-   "views": 189,
+   "views": 190,
    "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0106,
+   "engaj": 0.0105,
    "duracao": 36,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695938601460288789?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-13T00:12:23+00:00"
@@ -262,7 +262,7 @@
   {
    "video": "7695850052480158982",
    "roteiro": null,
-   "views": 85,
+   "views": 86,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
