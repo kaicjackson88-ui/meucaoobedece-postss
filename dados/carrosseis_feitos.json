@@ -455,5 +455,16 @@
   "media_id": "18096017969671502",
   "link": "https://www.instagram.com/p/Det1nWzlRbR/",
   "publicado_em": "2026-10-20T12:31:00.360749+00:00"
+ },
+ {
+  "slot": "2026-10-20 12:00",
+  "seg": "obedece",
+  "tema": "Não obedece",
+  "gancho": "Seu cão só obedece quando tem petisco?",
+  "assin": "obedece|Seu cão só obedece quando tem [petisco]?|3,4,5",
+  "seed": 840321172,
+  "media_id": "18337638331277876",
+  "link": "https://www.instagram.com/p/DeuGyAvj2tM/",
+  "publicado_em": "2026-10-20T15:01:00.359599+00:00"
  }
 ]
