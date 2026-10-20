@@ -1,24 +1,13 @@
-Aguardando o horário 14:00 (118 min)...
-Roteiro: h014-fuga-no-parque (tiktok-historia, estilo menta) — horário 2026-10-20 14:00
-Narração...
-voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-[0;93m2026-10-20 17:00:06.579240694 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-  história: o mesmo cão real (v156318) em todas as cenas, 48 quadro(s)
-Render...
-  frame 0/2108
-  frame 300/2108
-  frame 600/2108
-  frame 900/2108
-  frame 1200/2108
-  frame 1500/2108
-  frame 1800/2108
-  frame 2100/2108
-Áudio...
-Preparing worktree (detached HEAD 5ee2be5)
-HEAD is now at 5ee2be5 Carrossel publicado
-Switched to a new branch 'tmp-20261020-1406-h014-fuga-no-parque'
+Aguardando o horário 19:00 (115 min)...
+  cão real "bravo" pronto
+  cão real "feliz" pronto
+  cão real "normal" pronto
+  cão real "dorminhoco" pronto
+  cão real "lendario" pronto
+Preparing worktree (detached HEAD 3830b5e)
+HEAD is now at 3830b5e Reels publicado
+Switched to a new branch 'tmp-midia-20261020-1900-c-latido'
 remote: 
-remote: Create a pull request for 'midia-20261020-1406-h014-fuga-no-parque' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261020-1406-h014-fuga-no-parque        
+remote: Create a pull request for 'midia-20261020-1900-c-latido' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261020-1900-c-latido        
 remote: 
