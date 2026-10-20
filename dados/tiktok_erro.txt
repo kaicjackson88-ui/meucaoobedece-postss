@@ -1,1 +1,1 @@
-2026-10-20T19:36:50.898514-03:00 h110-quentao-ciclovia-antes-e-depois: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610210636505A25F03FD103674F57DB"}}
+2026-10-20T19:46:54.084248-03:00 h110-quentao-ciclovia-antes-e-depois: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261021064653AE76D30D61A6A149BFEC"}}
