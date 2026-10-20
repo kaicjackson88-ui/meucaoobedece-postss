@@ -1,1 +1,1 @@
-2026-10-20T08:57:17.851514-03:00 h102-coentro-escritorio-pet-friendly-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610201957176700A9712B674912CB9F"}}
+2026-10-20T10:38:08.231237-03:00 h110-quentao-ciclovia-antes-e-depois: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026102021380740B24C8F2696C31C4608"}}
