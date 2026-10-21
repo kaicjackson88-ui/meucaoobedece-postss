@@ -1,0 +1,177 @@
+{
+ "id": "h133-chuchu-tres-erros-do-banho",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "menta",
+ "legenda": "3 coisas que você faz no banho e o seu cão entende errado 🛁 O 1º quase todo mundo faz: chamar \"vem cá\" só na hora do banho.\nQuem mostrou o jeito certo pro Otávio foi a banhista do pet shop.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#banhodecachorro #cuidadoscomcachorro #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três erros no banho que o seu cão entende errado.",
+   "linhas": [
+    "3 ERROS NO BANHO",
+    "QUE ELE ENTENDE ERRADO",
+    "O 1º QUASE TODO MUNDO FAZ"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1",
+   "fala": "Erro um: o Otávio só chama vem cá pro banho. O Chuchu entendeu: vem cá é banho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Chuchu, vem cá!"
+    },
+    {
+     "quem": "cao",
+     "texto": "Nem pensar"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 2 · LAVANDERIA",
+   "fala": "Erro dois: água direto na cabeça. Ele quase pulou do tanque.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 3",
+   "fala": "Erro três: secador forte, perto do focinho. Ele fugiu molhado.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cães aprendem por associação. Palavra que sempre acaba em coisa chata vira aviso pra fugir.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "APRENDE POR ASSOCIAÇÃO",
+    "a palavra ganha significado"
+   ],
+   "icone": "lampada"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "PET SHOP · SÁBADO",
+   "fala": "A banhista do pet shop mostrou o certo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Começa pelas patas, água morna e petisco. E usa o vem cá pra coisa boa."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · BANHO",
+   "fala": "No banho seguinte, com pausas e petisco, o Chuchu entrou abanando o rabo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você já fez?",
+   "opcoes": [
+    "1 vem cá só pro banho",
+    "2 água na cabeça",
+    "3 secador no focinho"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

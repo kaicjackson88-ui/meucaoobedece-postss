@@ -1,0 +1,66 @@
+{
+ "id": "r060-lista-porta-sem-disparar",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "obediencia",
+ "legenda": "Abriu a porta e o seu cão dispara pelo corredor? 🚪\n\n1️⃣ Abra só um pouquinho\n2️⃣ Levantou? A porta fecha, sem bronca\n3️⃣ Esperou? \"Pode\" e vocês saem juntos\n\nO seu espera ou dispara? Comenta 1 pra espera, 2 pra dispara 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #apartamento #meucaoobedece #comportamentocanino #obediencia",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Abriu a porta e o seu cão dispara pelo corredor? Faz assim.",
+   "linhas": [
+    "ABRIU A PORTA?",
+    "ELE DISPARA"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: abre só um pouquinho, com ele do seu lado, de guia.",
+   "titulo": "Abra só um pouquinho",
+   "sub": "com ele de guia",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: levantou pra sair? A porta fecha devagar. Sem bronca, sem grito.",
+   "titulo": "Levantou? Fecha",
+   "sub": "sem bronca",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: esperou um segundinho? Fala pode, e vocês saem juntos. Aos poucos, você aumenta a espera.",
+   "titulo": "Esperou? Pode ir",
+   "sub": "aumente aos poucos",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

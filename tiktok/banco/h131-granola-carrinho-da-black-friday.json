@@ -1,0 +1,159 @@
+{
+ "id": "h131-granola-carrinho-da-black-friday",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "roer",
+ "estilo": "sol",
+ "legenda": "Black Friday chegando: antes de comprar mais um brinquedo, olha a rotina 🛒 A Patrícia comprou 6 pra Granola parar de roer o sofá. Ela cheirou um e voltou pra almofada.\nQuem resolveu foi a prima, no grupo da família.\nQual você escolheria? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#blackfriday #cachorroroendo #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Black Friday. A Patrícia pôs seis brinquedos no carrinho e mandou no grupo.",
+   "linhas": [
+    "6 BRINQUEDOS NO CARRINHO",
+    "BLACK FRIDAY",
+    "E A GRANOLA?"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "moeda"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Albuquerque",
+   "membros": "12 participantes",
+   "quando": "21:12",
+   "fala": "Print do carrinho:",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Tudo pra Granola parar de roer o sofá",
+     "eu": true
+    },
+    {
+     "quem": "sindica",
+     "texto": "Mais seis? Ela tem uma caixa cheia"
+    }
+   ],
+   "nomes": {
+    "ana": "Patrícia",
+    "sindica": "Mãe",
+    "pedro": "Gustavo (irmão)",
+    "carla": "Tia Neide",
+    "bia": "Prima Júlia"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Albuquerque",
+   "membros": "12 participantes",
+   "quando": "21:15",
+   "fala": "O irmão mandou áudio.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Áudio: ela ignora tudo e vai na almofada"
+    },
+    {
+     "quem": "carla",
+     "texto": "Rindo aqui"
+    }
+   ],
+   "nomes": {
+    "ana": "Patrícia",
+    "sindica": "Mãe",
+    "pedro": "Gustavo (irmão)",
+    "carla": "Tia Neide",
+    "bia": "Prima Júlia"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 15:00",
+   "fala": "Chegou a caixa. A Granola cheirou um brinquedo, e voltou pro sofá.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   },
+   "objetos": [
+    {
+     "nome": "almofada",
+     "x": 820,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Albuquerque",
+   "membros": "12 participantes",
+   "quando": "15:20",
+   "fala": "Aí a prima, estudante de veterinária:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Brinquedo novo não substitui você. Dez minutinhos por dia: farejar petisco e brincar junto"
+    }
+   ],
+   "nomes": {
+    "ana": "Patrícia",
+    "sindica": "Mãe",
+    "pedro": "Gustavo (irmão)",
+    "carla": "Tia Neide",
+    "bia": "Prima Júlia"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEMANA SEGUINTE · 07:00",
+   "fala": "A Patrícia trocou dois brinquedos por passeio de farejar e brincadeira com ela. O sofá ganhou folga.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual você escolheria? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você escolheria?",
+   "opcoes": [
+    "1 brinquedo novo",
+    "2 passeio de farejar",
+    "3 brincar junto"
+   ],
+   "escolha": 1,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,174 @@
+{
+ "id": "h135-coxinha-xixi-na-mala-da-sogra",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A sogra chegou pro feriado e o Coxinha fez xixi na mala dela em 10 minutos 😳 Quem salvou o clima foi a própria sogra.\nVocê já passou vergonha assim com visita? Comenta 1 pra sim, 2 pra não 👇\nSe o xixi fora do lugar começou de repente, vale conversar com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #sogra #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A sogra chegou pro feriado. Dez minutos depois, o Coxinha fez xixi na mala dela.",
+   "linhas": [
+    "A SOGRA CHEGOU",
+    "XIXI NA MALA DELA",
+    "EM 10 MINUTOS"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEXTA · 18:00",
+   "fala": "Sexta, seis da tarde. A Dona Jurema deixou a mala no chão da sala.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "acena"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "campainha": 1
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "18:10",
+   "fala": "Dez minutos depois, a Heloísa viu a poça. Na mala.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "ana",
+    "z": 1.5,
+    "em": 0.5
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 700,
+     "y": 1200
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "18:11",
+   "fala": "Ela gritou. Ele se enfiou embaixo da mesa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Coxinha! Que vergonha!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Aí a Dona Jurema riu. O Bolinha dela fazia igual com cheiro novo em casa.",
+   "topo": [
+    "A SOGRA RIU",
+    "E EXPLICOU"
+   ],
+   "de": "VERGONHA",
+   "para": "RECADO DE CHEIRO",
+   "para_palavra": "cheiro"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cães usam o xixi pra deixar recado de cheiro. Objeto novo pode chamar essa marcação.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "XIXI TAMBÉM É RECADO",
+    "cheiro novo chama marcação"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 07:00",
+   "fala": "No resto do feriado: mala de porta fechada, mais saídas pro xixi, e festa quando ele acertava.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "comemora",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Já passou vergonha com visita? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Já passou vergonha?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 ainda não"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

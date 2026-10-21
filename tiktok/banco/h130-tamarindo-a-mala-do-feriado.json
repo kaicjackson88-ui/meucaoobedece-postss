@@ -1,0 +1,180 @@
+{
+ "id": "h130-tamarindo-a-mala-do-feriado",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "menta",
+ "legenda": "Feriado chegando e o Tamarindo viu a mala 🧳 Entrou nela, escondeu a meia e chorou na porta do vizinho.\nA ideia que funcionou veio do Seu Valdemar: visitinhas curtas antes da viagem.\nO seu também surta quando vê a mala? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#feriado #cachorrosozinho #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Tamarindo. E hoje apareceu uma mala na sala.",
+   "linhas": [
+    "APARECEU UMA MALA",
+    "O FERIADO CHEGOU",
+    "EU SOU O TAMARINDO"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA · 20:00",
+   "fala": "Mala aberta quer dizer: eles vão embora. Então eu entrei nela.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 620,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Tamarindo, sai da mala!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "21:00",
+   "fala": "Depois, escondi a meia dela. Sem meia, ninguém viaja.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Cadê minha meia?"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "sapato",
+     "x": 860,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · 08:00",
+   "fala": "Na sexta, ela me deixou com o vizinho. Eu chorei na porta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "triste",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "normal",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ele fica comigo até segunda."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEXTA · 23:00",
+   "fala": "O Seu Valdemar já tinha passado por isso. E ligou pra ela.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Da próxima, traz ele antes, só pra visitar."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEMANA SEGUINTE · 18:00",
+   "fala": "Agora é assim: visitinhas curtas, com petisco. Quando vejo a mala, já sei pra onde vou.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "petisco",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, surta quando vê a mala? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele surta com a mala?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 nunca viajei"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

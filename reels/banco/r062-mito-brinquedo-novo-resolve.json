@@ -1,0 +1,78 @@
+{
+ "id": "r062-mito-brinquedo-novo-resolve",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "roer",
+ "legenda": "Black Friday chegando: antes de comprar mais um brinquedo, olha isso 🛒\n\n❌ Mais brinquedo resolve o tédio\n✅ Farejar cansa a cabeça do cão\n✅ Brincar junto vale mais que brinquedo novo\n\nQuantas você acertou? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorroroendo #blackfriday #meucaoobedece #comportamentocanino #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Antes de comprar mais um brinquedo pro seu cão: mito ou verdade?",
+   "linhas": [
+    "MAIS UM BRINQUEDO?",
+    "MITO OU VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "bola"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Mais brinquedo resolve o tédio. Mito. Brinquedo largado no chão perde a graça rápido.",
+   "frase": "Mais brinquedo resolve",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "BRINQUEDO PARADO",
+    "PERDE A GRAÇA"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Farejar cansa a cabeça do cão. Verdade. Esconder petisco pra ele procurar é um ótimo exercício.",
+   "frase": "Farejar cansa a cabeça",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "ESCONDA PETISCO",
+    "ELE PROCURA"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Brincar junto vale mais que brinquedo novo. Verdade. Dez minutinhos com você fazem diferença.",
+   "frase": "Brincar junto vale mais",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "10 MINUTOS",
+    "COM VOCÊ"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

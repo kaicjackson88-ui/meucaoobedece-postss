@@ -1,0 +1,177 @@
+{
+ "id": "h132-merengue-foto-dos-80-anos-da-vo-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "Festa de 80 anos da vó, e o Merengue só sentava pra foto se visse o petisco 📸 O que você faria?\n1 nunca mais dar petisco, 2 pedir com a mão vazia e dar o petisco depois, 3 segurar o petisco mais alto. Comenta seu número antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#obediencia #adestramentocanino #cachorros #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Festa de oitenta anos da vó. O Merengue só sentava se visse o petisco. O que você faria?",
+   "linhas": [
+    "FOTO DOS 80 ANOS",
+    "SÓ SENTA COM PETISCO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 17:00",
+   "fala": "Hora da foto. O fotógrafo contou até três.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Merengue, senta!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "17:02",
+   "fala": "Ele pulou na vó. Só sentou quando o Tobias abriu o pote.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "petisco",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 700,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: nunca mais petisco. Dois: mão vazia, petisco depois. Três: petisco mais alto. Comenta 1, 2 ou 3 antes da resposta.",
+   "topo": [
+    "1 NUNCA MAIS PETISCO",
+    "2 MÃO VAZIA, PETISCO DEPOIS",
+    "3 PETISCO MAIS ALTO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:00",
+   "fala": "Quem respondeu foi a aniversariante.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "É a dois. No meu tempo, petisco ficava no bolso."
+    }
+   ],
+   "camera": {
+    "foco": "sindica",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Quando o prêmio às vezes vem de surpresa, o cão continua tentando.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "PRÊMIO SURPRESA",
+    "mantém ele interessado"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO · 10:00",
+   "fala": "Treino curto, mão vazia. Na foto de domingo, ele sentou. Petisco depois do clique.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? Comenta o seu número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 nunca mais",
+    "2 mão vazia",
+    "3 mais alto"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

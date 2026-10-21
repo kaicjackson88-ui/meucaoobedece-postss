@@ -1,0 +1,179 @@
+{
+ "id": "h129-brigadeiro-estalinhos-do-halloween-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "PARTE 2: a síndica bateu na porta, e não foi pra reclamar 🎃\nEla já tinha passado por isso: esconderijo respeitado, cantinho seguro e treino curto com som baixinho.\nO seu tem medo de estalo ou rojão? Comenta 1 pra sim, 2 pra não 👇\nSe o medo é muito intenso, converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #condominio #comportamentocanino #historiadecachorro",
+ "serie": "brigadeiro-estalinhos-do-halloween",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. O Brigadeiro se escondeu, e a síndica bateu na porta.",
+   "linhas": [
+    "A SÍNDICA BATEU",
+    "O QUE ELA QUERIA?",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "21:16",
+   "fala": "A Dona Odete foi direto ao ponto.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Meu Tobi também tinha pavor. Deixa ele no esconderijo."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Com medo, muitos cães procuram um cantinho fechado. Ali eles se sentem protegidos.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ESCONDERIJO É SEGURANÇA",
+    "não puxe ele de lá"
+   ],
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "21:20",
+   "fala": "Cantinho com cobertor, e a Lívia por perto, falando baixinho.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "objetos": [
+    {
+     "nome": "almofada",
+     "x": 760,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 10:00",
+   "fala": "No domingo, começou o treino: estalo baixinho no celular, e petisco.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "64 participantes",
+   "quando": "18:00",
+   "fala": "E a síndica mandou no grupo:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Estalinho só no fundo do terreno, longe dos blocos"
+    },
+    {
+     "quem": "bia",
+     "texto": "O Brigadeiro agradece!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "bia": "Lívia (A-12)",
+    "vizinho": "Seu Abelardo (B-03)",
+    "carla": "Rose (vaga 22)",
+    "sindica": "Dona Odete (síndica)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO SEGUINTE · 19:30",
+   "fala": "Sábado seguinte. Estalo lá longe. Ele olhou, e voltou pro petisco.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu tem medo de estalo ou rojão? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão tem medo?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 um pouco"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

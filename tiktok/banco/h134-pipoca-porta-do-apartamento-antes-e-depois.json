@@ -1,0 +1,165 @@
+{
+ "id": "h134-pipoca-porta-do-apartamento-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "Mês passado, abrir a porta era largada de corrida. Hoje a Pipoca espera o \"pode\" 🚪\nO treino da Simone: abre um pouquinho, levantou fecha, esperou pode ir. Uns minutos por dia.\nO seu espera na porta ou dispara? Comenta 1 pra espera, 2 pra dispara 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#obediencia #apartamento #condominio #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, abrir a porta era uma corrida. Hoje, olha a Pipoca.",
+   "linhas": [
+    "ABRIR A PORTA",
+    "MÊS PASSADO X HOJE",
+    "OLHA A PIPOCA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 07:30",
+   "fala": "Mês passado. Sete e meia. A Simone abriu a porta, e a Pipoca disparou pelo corredor.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Pipoca, volta!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 07:32",
+   "fala": "Na portaria, quase derrubou o Seu Gervásio e a sacola de pão.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "vizinho",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Naquela noite, a Simone montou um treino de dois minutos. Abre um pouquinho. Levantou, fecha. Esperou, pode ir.",
+   "topo": [
+    "ABRE UM POUQUINHO",
+    "LEVANTOU? FECHA"
+   ],
+   "de": "DISPARA",
+   "para": "ESPERA",
+   "para_palavra": "esperou"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 07:30",
+   "fala": "Hoje. Sete e meia. A porta abre. A Pipoca espera o pode.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Pode!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 07:32",
+   "fala": "Na portaria, o Seu Gervásio parou com o pão na mão.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "guia"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Essa é a mesma cachorra?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu espera na porta ou dispara? Comenta 1 pra espera, 2 pra dispara. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Espera ou dispara?",
+   "opcoes": [
+    "1 espera",
+    "2 dispara",
+    "3 depende do dia"
+   ],
+   "escolha": 1,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,177 @@
+{
+ "id": "h128-brigadeiro-estalinhos-do-halloween-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "Estalinho no Halloween do condomínio: o Brigadeiro sumiu em 3 segundos 🎃 PARTE 1\nEle foi parar embaixo de um carro na garagem. E à noite a síndica tocou a campainha.\nO que você acha que ela queria? Comenta 1, 2 ou 3 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #condominio #comportamentocanino #historiadecachorro",
+ "serie": "brigadeiro-estalinhos-do-halloween",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Halloween no condomínio. Estalinho no playground. E o Brigadeiro sumiu.",
+   "linhas": [
+    "ESTALINHO NO HALLOWEEN",
+    "O BRIGADEIRO SUMIU",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "PLAYGROUND · 19:30",
+   "fala": "Sábado, sete e meia. Primeiro estalo.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Brigadeiro, volta!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "64 participantes",
+   "quando": "19:34",
+   "fala": "Em quatro minutos, o grupo pegou fogo.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Passou um cachorro marrom voando pela garagem"
+    },
+    {
+     "quem": "carla",
+     "texto": "Tá embaixo do meu carro, vaga 22"
+    },
+    {
+     "quem": "bia",
+     "texto": "É o Brigadeiro! Tô descendo",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "bia": "Lívia (A-12)",
+    "vizinho": "Seu Abelardo (B-03)",
+    "carla": "Rose (vaga 22)",
+    "sindica": "Dona Odete (síndica)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "GARAGEM · 19:40",
+   "fala": "A Lívia achou ele embaixo do carro. E puxou pela coleira.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Sai daí, Brigadeiro!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SÁBADO · 21:00",
+   "fala": "Em casa, ele não quis comer. Ficou atrás da máquina de lavar.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "triste",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "21:15",
+   "fala": "Aí a campainha tocou. Era a síndica, Dona Odete, com o neto do lado.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "normal",
+     "pose": "bilhete",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Lívia, precisamos conversar."
+    }
+   ],
+   "camera": {
+    "foco": "sindica",
+    "z": 1.4,
+    "em": 0.5
+   },
+   "campainha": 1
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que a síndica queria? Comenta 1, 2 ou 3. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que ela queria?",
+   "opcoes": [
+    "1 dar bronca",
+    "2 multar",
+    "3 ajudar"
+   ],
+   "escolha": 2,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

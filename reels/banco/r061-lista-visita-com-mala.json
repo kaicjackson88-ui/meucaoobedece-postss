@@ -1,0 +1,66 @@
+{
+ "id": "r061-lista-visita-com-mala",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "xixi",
+ "legenda": "Visita chegando pro feriado? Cuidado com a mala 🧳\n\n1️⃣ Mala em cômodo de porta fechada\n2️⃣ Mais saídas pro xixi nos primeiros dias\n3️⃣ Acertou o lugar? Festa e petisco na hora\n\nSeu cão já aprontou com visita? Comenta 1 pra sim, 2 pra não 👇\n\nXixi fora do lugar que começou de repente: converse com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#xixinolugarcerto #sogra #meucaoobedece #adestramento #feriado",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Visita chegando pro feriado? Três cuidados pra mala não virar banheiro.",
+   "linhas": [
+    "VISITA NO FERIADO?",
+    "CUIDADO COM A MALA"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: mala e sacolas num cômodo de porta fechada. Cheiro novo no chão chama o xixi de marcação.",
+   "titulo": "Mala de porta fechada",
+   "sub": "cheiro novo chama xixi",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: nos primeiros dias, mais saídas pro xixi. Depois de comer, de acordar e de brincar.",
+   "titulo": "Mais saídas pro xixi",
+   "sub": "comer, acordar, brincar",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: acertou o lugar? Festa e petisco na hora. Errou? Limpa em silêncio, sem bronca.",
+   "titulo": "Acertou? Festa",
+   "sub": "errou? limpa e segue",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}
