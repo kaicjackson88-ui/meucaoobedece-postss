@@ -1,1 +1,1 @@
-2026-10-20T22:18:19.788409-03:00 h083-rapadura-pombos-da-janela: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610210918190CE5C0C75D84925809B1"}}
+2026-10-21T08:31:39.640468-03:00 h106-pistache-semana-das-caixas: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261021193139982449A650640682C464"}}
