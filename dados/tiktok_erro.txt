@@ -1,1 +1,1 @@
-2026-10-21T08:31:39.640468-03:00 h106-pistache-semana-das-caixas: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261021193139982449A650640682C464"}}
+2026-10-21T08:41:42.773344-03:00 h106-pistache-semana-das-caixas: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610211941420F6C02BA3AA9847ACE34"}}
