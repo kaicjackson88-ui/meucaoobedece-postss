@@ -1,1 +1,1 @@
-2026-10-21T16:40:14.641182-03:00 h091-polenta-ronda-da-geladeira: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610220340148A0B7D1B05887BA12EB9"}}
+2026-10-21T16:50:18.324406-03:00 h091-polenta-ronda-da-geladeira: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261022035018F522FB126C64FFA6B197"}}
