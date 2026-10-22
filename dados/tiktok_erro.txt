@@ -1,1 +1,1 @@
-2026-10-22T08:37:33.783027-03:00 h125-muqueca-sacolas-do-mercado-antes-e-depois: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261022193733AD943C2E174DD8F9481C"}}
+2026-10-22T08:47:37.141565-03:00 h125-muqueca-sacolas-do-mercado-antes-e-depois: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610221947368384423CD6A083F85256"}}
