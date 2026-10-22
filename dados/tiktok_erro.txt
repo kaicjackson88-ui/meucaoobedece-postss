@@ -1,1 +1,1 @@
-2026-10-22T13:40:58.517052-03:00 h122-carambola-xixi-na-samambaia: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261023004058011461FFC1977F12FDE4"}}
+2026-10-22T13:51:02.365711-03:00 h122-carambola-xixi-na-samambaia: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026102300510292EB1DEFEB29D4003A91"}}
