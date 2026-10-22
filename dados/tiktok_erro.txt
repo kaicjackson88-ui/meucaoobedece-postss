@@ -1,1 +1,1 @@
-2026-10-21T22:25:35.508418-03:00 h114-bergamota-tapete-do-banheiro: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610220925351F30ABD9FE667BC6C935"}}
+2026-10-22T08:37:33.783027-03:00 h125-muqueca-sacolas-do-mercado-antes-e-depois: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261022193733AD943C2E174DD8F9481C"}}
