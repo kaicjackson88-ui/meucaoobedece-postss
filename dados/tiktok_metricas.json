@@ -1,16 +1,16 @@
 {
  "perfil": {
-  "display_name": "Meucaobedece",
-  "follower_count": 5,
   "likes_count": 133,
-  "video_count": 54
+  "video_count": 54,
+  "display_name": "Meucaobedece",
+  "follower_count": 5
  },
- "atualizado": "2026-10-21T04:58:44.327210-03:00",
+ "atualizado": "2026-10-21T23:47:44.288581-03:00",
  "videos": [
   {
    "video": "7696660352351653121",
    "roteiro": "h059-rabanete-caminhao-do-lixo",
-   "views": 128,
+   "views": 129,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -310,11 +310,11 @@
   {
    "video": "7695748017877536001",
    "roteiro": "h041-gaspar-chegada-em-casa",
-   "views": 77,
+   "views": 78,
    "curtidas": 3,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.039,
+   "engaj": 0.0385,
    "duracao": 47,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695748017877536001?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-12T11:53:15+00:00"
@@ -334,11 +334,11 @@
   {
    "video": "7695549701541645574",
    "roteiro": "h030-juca-meia-do-vo",
-   "views": 80,
+   "views": 81,
    "curtidas": 3,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0375,
+   "engaj": 0.037,
    "duracao": 46,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695549701541645574?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-11T23:04:02+00:00"
@@ -346,11 +346,11 @@
   {
    "video": "7695549457051553030",
    "roteiro": "h039-batata-no-colo-quiz",
-   "views": 95,
+   "views": 96,
    "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0211,
+   "engaj": 0.0208,
    "duracao": 51,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695549457051553030?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-11T23:02:53+00:00"
