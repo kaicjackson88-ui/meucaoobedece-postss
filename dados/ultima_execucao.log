@@ -1,22 +1,24 @@
-Aguardando o horário 09:00 (114 min)...
-Roteiro: r050-erro-puxar-a-mao (erro, estilo menta) — horário 2026-10-22 09:00
+Aguardando o horário 14:00 (118 min)...
+Roteiro: h018-sofa-novo-da-mae (tiktok-historia, estilo noite) — horário 2026-10-22 14:00
 Narração...
 voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-[0;93m2026-10-22 12:00:06.537019472 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-  cão real "bravo": 48 quadro(s)
-  cão real "feliz": 48 quadro(s)
-  cão real "normal": 48 quadro(s)
-  cão real "dorminhoco": 48 quadro(s)
-  cão real "lendario": 48 quadro(s)
+[0;93m2026-10-22 17:00:06.770133219 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+  história: o mesmo cão real (f9641853) em todas as cenas, 1 quadro(s)
 Render...
-  frame 0/639
-  frame 300/639
-  frame 600/639
+  frame 0/2196
+  frame 300/2196
+  frame 600/2196
+  frame 900/2196
+  frame 1200/2196
+  frame 1500/2196
+  frame 1800/2196
+  frame 2100/2196
 Áudio...
-Preparing worktree (detached HEAD 0e60814)
-HEAD is now at 0e60814 Carrossel publicado
-Switched to a new branch 'tmp-20261022-0902-r050-erro-puxar-a-mao'
+Preparing worktree (detached HEAD 21e29f6)
+HEAD is now at 21e29f6 Carrossel publicado
+Switched to a new branch 'tmp-20261022-1406-h018-sofa-novo-da-mae'
 remote: 
-remote: Create a pull request for 'midia-20261022-0902-r050-erro-puxar-a-mao' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261022-0902-r050-erro-puxar-a-mao        
+remote: Create a pull request for 'midia-20261022-1406-h018-sofa-novo-da-mae' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261022-1406-h018-sofa-novo-da-mae        
 remote: 
