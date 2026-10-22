@@ -554,5 +554,16 @@
   "media_id": "17897846604410901",
   "link": "https://www.instagram.com/p/DeyuDOaAcXr/",
   "publicado_em": "2026-10-22T10:01:10.630297+00:00"
+ },
+ {
+  "slot": "2026-10-22 09:30",
+  "seg": "chamado",
+  "tema": "Não vem quando chama",
+  "gancho": "Seu cão só vem quando quer?",
+  "assin": "chamado|Seu cão só vem quando [quer]?|0,2,4",
+  "seed": 171559693,
+  "media_id": "17991826029098280",
+  "link": "https://www.instagram.com/p/Dey_NtNmGRg/",
+  "publicado_em": "2026-10-22T12:31:04.868071+00:00"
  }
 ]
