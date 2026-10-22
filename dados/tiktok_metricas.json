@@ -1,11 +1,11 @@
 {
  "perfil": {
-  "likes_count": 133,
-  "video_count": 54,
   "display_name": "Meucaobedece",
-  "follower_count": 5
+  "follower_count": 5,
+  "likes_count": 133,
+  "video_count": 54
  },
- "atualizado": "2026-10-21T23:47:44.288581-03:00",
+ "atualizado": "2026-10-22T04:55:48.335417-03:00",
  "videos": [
   {
    "video": "7696660352351653121",
@@ -213,7 +213,7 @@
   },
   {
    "video": "7695938985994079508",
-   "roteiro": "h124-cajuzinho-tres-erros-depois-do-xixi",
+   "roteiro": "h050-ozzy-tres-erros-do-xixi",
    "views": 207,
    "curtidas": 2,
    "comentarios": 0,
