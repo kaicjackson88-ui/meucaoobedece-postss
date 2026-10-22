@@ -1,0 +1,69 @@
+{
+ "id": "r064-erro-varanda-nos-fogos",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "fogos",
+ "legenda": "Deixar o cão na varanda pra ele \"se acostumar\" com os fogos? Pare 🎆\n\n❌ Varanda ou quintal no meio do barulho\n✅ Cantinho seguro dentro de casa, montado semanas antes\n✅ Janela fechada, som ambiente e você por perto, com calma\n\nO seu tem um cantinho seguro? Comenta 1 pra sim, 2 pra não 👇\nSe o medo é muito intenso, converse com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #meucaoobedece #comportamentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de deixar o seu cão na varanda pra ele se acostumar com os fogos.",
+   "linhas": [
+    "PARE DE DEIXAR",
+    "NA VARANDA NOS FOGOS"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Exposto ao barulho forte, sem ter pra onde ir, o medo costuma aumentar. E o risco de fuga também.",
+   "linhas": [
+    "MAIS BARULHO",
+    "NÃO É TREINO"
+   ],
+   "destaque": 1,
+   "icone": "sino",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "virada",
+   "fala": "O certo é um cantinho seguro dentro de casa, com caminha e cobertor, montado semanas antes.",
+   "topo": [
+    "EM VEZ DISSO"
+   ],
+   "de": "VARANDA",
+   "para": "CANTINHO SEGURO",
+   "para_palavra": "cantinho"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "Na noite dos fogos: janela fechada, som ambiente, coleira com identificação e você por perto, calmo.",
+   "titulo": "Janela fechada",
+   "sub": "e você por perto",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

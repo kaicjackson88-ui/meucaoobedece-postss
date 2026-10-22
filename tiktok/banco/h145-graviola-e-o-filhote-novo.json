@@ -1,0 +1,169 @@
+{
+ "id": "h145-graviola-e-o-filhote-novo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "menta",
+ "legenda": "A Graviola, de 11 anos, explica o problema do filhote novo: ele come a ração dela 🥣 Quem resolveu foi a veterinária, na vacina do Pinha: um pote em cada cômodo, no mesmo horário.\nNa sua casa, cada cão tem o seu pote? Comenta 1 pra sim, 2 pra não 👇\nSe o rosnado virar briga, procure um veterinário ou um profissional de comportamento.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #comportamentocanino #adestramentocanino #apartamento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Graviola, onze anos. E chegou um filhote.",
+   "linhas": [
+    "EU SOU A GRAVIOLA",
+    "11 ANOS",
+    "CHEGOU UM FILHOTE"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "dorminhoco",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 08:00",
+   "fala": "O Pinha terminou a ração dele e enfiou a cara no meu pote.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 08:00",
+   "fala": "Sou educada. Mas rosnei. O Kelvin levou um susto.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Grrr"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 10:00",
+   "fala": "Desisti. Fiquei no sofá, de olho no pote.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "TERÇA · CLÍNICA",
+   "fala": "Na vacina do Pinha, ele contou tudo pra veterinária.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Um pote em cada cômodo, no mesmo horário."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Rosnar é o jeito do cão avisar que está incomodado.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ROSNAR É UM AVISO",
+    "ele está pedindo espaço"
+   ],
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEMANA SEGUINTE · 19:00",
+   "fala": "Agora eu janto na lavanderia, em paz. Ele na cozinha. Depois a gente brinca.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Cada cão tem seu pote aí? Comenta 1 ou 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Cada um tem seu pote?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só tenho um"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

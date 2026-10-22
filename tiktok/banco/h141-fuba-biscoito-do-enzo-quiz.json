@@ -1,0 +1,148 @@
+{
+ "id": "h141-fuba-biscoito-do-enzo-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "O Fubá arrancou o biscoito da mão do Enzo, de 4 anos 🍪 O que você faria?\n1 bronca no Fubá, 2 lanche na mesa e o Fubá no tapete dele com um mordedor, 3 dar biscoito pro Fubá também. Comenta seu número antes de ver a resposta 👇\nCriança e cachorro juntos, sempre com um adulto por perto.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorroecrianca #cachorrocomendo #comportamentocanino #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Fubá arrancou o biscoito da mão do Enzo. O que você faria?",
+   "linhas": [
+    "ARRANCOU O BISCOITO",
+    "DA MÃO DO ENZO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 16:00",
+   "fala": "Domingo. O Enzo, de quatro anos, lanchando no sofá. O Fubá de olho.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "16:01",
+   "fala": "Num segundo, o biscoito sumiu.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Fubá! Devolve!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: bronca. Dois: lanche na mesa, e o Fubá no tapete com um mordedor. Três: biscoito pra ele também. Comenta 1, 2 ou 3 antes da resposta.",
+   "topo": [
+    "1 BRONCA NO FUBÁ",
+    "2 MESA E TAPETE DELE",
+    "3 BISCOITO PRO FUBÁ"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 08:00",
+   "fala": "Quem respondeu foi a avó, Dona Nilza.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "É a dois. Criança come na mesa. Cachorro come no lugar dele."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO SEGUINTE · 16:00",
+   "fala": "Domingo seguinte: Enzo na mesa, Fubá no tapete. Todo mundo comeu em paz.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? Comenta o número que você escolheu. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 bronca",
+    "2 mesa e tapete",
+    "3 biscoito pra ele"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

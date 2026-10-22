@@ -1,0 +1,171 @@
+{
+ "id": "h139-garapa-votacao-dos-fogos",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "Enquete no grupo do prédio: fogos na festa de fim de ano? A Selma pensou na Garapa 🎆 E quem virou a votação foi o áudio do Seu Otacílio.\nNo seu prédio, você votaria em quê? Comenta 1 pra fogos, 2 pra show de luzes 👇\nSe o medo do seu cão é muito intenso, converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #condominio #reveillon #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Enquete no grupo do prédio: fogos na festa de fim de ano?",
+   "linhas": [
+    "ENQUETE NO GRUPO",
+    "FOGOS NA FESTA?",
+    "E A GARAPA?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê Amarelo",
+   "membros": "88 participantes",
+   "quando": "20:14",
+   "fala": "A enquete abriu às oito.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Enquete: fogos na festa?"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Sim! É tradição"
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Marlene",
+    "pedro": "Rogério (204)",
+    "ana": "Selma (1102)",
+    "vizinho": "Seu Otacílio (301)",
+    "carla": "Bete (902)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "ÚLTIMO RÉVEILLON",
+   "fala": "A Selma lembrou do último Réveillon: a Garapa tremendo atrás do vaso.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê Amarelo",
+   "membros": "88 participantes",
+   "quando": "20:20",
+   "fala": "Ela escreveu.",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "A Garapa treme a noite toda. Dá pra pensar em outra coisa?",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Marlene",
+    "pedro": "Rogério (204)",
+    "ana": "Selma (1102)",
+    "vizinho": "Seu Otacílio (301)",
+    "carla": "Bete (902)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê Amarelo",
+   "membros": "88 participantes",
+   "quando": "20:31",
+   "fala": "Aí, o áudio do Seu Otacílio.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Áudio: meu Tufão fugiu num Réveillon. Voto em show de luzes, sem estampido."
+    },
+    {
+     "quem": "carla",
+     "texto": "Meu bebê agradece"
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Marlene",
+    "pedro": "Rogério (204)",
+    "ana": "Selma (1102)",
+    "vizinho": "Seu Otacílio (301)",
+    "carla": "Bete (902)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê Amarelo",
+   "membros": "88 participantes",
+   "quando": "22:00",
+   "fala": "Resultado:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ganhou o show de luzes"
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Marlene",
+    "pedro": "Rogério (204)",
+    "ana": "Selma (1102)",
+    "vizinho": "Seu Otacílio (301)",
+    "carla": "Bete (902)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "OUTUBRO · 19:00",
+   "fala": "E a Selma já montou o cantinho da Garapa. Porque o rojão da rua, ninguém vota.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E você? Comenta 1 pra fogos, 2 pra luzes. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você votaria em…",
+   "opcoes": [
+    "1 fogos",
+    "2 show de luzes",
+    "3 tanto faz"
+   ],
+   "escolha": 1,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

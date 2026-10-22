@@ -1,0 +1,66 @@
+{
+ "id": "r063-lista-latido-no-corredor",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "latido",
+ "legenda": "Passou alguém no corredor e o seu cão late como se fosse um assalto? 🚪\n\n1️⃣ Tapete perto de você, com um mordedor só dele\n2️⃣ Passou gente? Petisco no tapete, antes do latido\n3️⃣ Rádio baixinho ajuda a abafar o corredor\n\nO seu late pro corredor? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#latidoexcessivo #apartamento #meucaoobedece #comportamentocanino #condominio",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O seu cão late pra cada passo no corredor? Faz assim.",
+   "linhas": [
+    "LATE PRA CADA PASSO",
+    "NO CORREDOR?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: um tapete perto de você, com um mordedor que ele só ganha ali.",
+   "titulo": "Tapete com mordedor",
+   "sub": "só ganha ali",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: ouviu passos? Petisco no tapete, de preferência antes do latido. Ele aprende que barulho no corredor é coisa boa.",
+   "titulo": "Passos? Petisco",
+   "sub": "antes do latido",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: um rádio baixinho ajuda a abafar o barulho de fora. E treina um pouquinho todo dia.",
+   "titulo": "Rádio baixinho",
+   "sub": "abafa o corredor",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

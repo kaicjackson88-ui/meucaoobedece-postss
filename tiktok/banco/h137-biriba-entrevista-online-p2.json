@@ -1,0 +1,157 @@
+{
+ "id": "h137-biriba-entrevista-online-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 2: a entrevistadora virou a câmera. E no colo dela tinha um vira-lata 🐕 A dica dela pro Biribá: tapete com mordedor recheado na hora das reuniões, rádio baixinho e petisco no tapete toda vez que passa gente no corredor.\nO seu late pra quem passa no corredor? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#latidoexcessivo #apartamento #condominio #comportamentocanino #historiadecachorro",
+ "serie": "biriba-entrevista-online",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. A entrevistadora do Cleber tinha um segredo.",
+   "linhas": [
+    "A ENTREVISTADORA",
+    "TINHA UM SEGREDO",
+    "PARTE 2"
+   ],
+   "destaque": 2,
+   "parte": 2,
+   "mascote": "normal",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "10:09",
+   "fala": "Ela virou a câmera. No colo, um vira-lata.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Esse é o Tenente. Já latiu pro diretor."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Se o cão late e a pessoa vai embora, pra ele o latido funcionou.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O LATIDO PARECE FUNCIONAR",
+    "a pessoa vai embora"
+   ],
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "10:12",
+   "fala": "A dica dela:",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Tapete perto da mesa e mordedor recheado só pras reuniões."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 16:00",
+   "fala": "No sábado, o irmão passava no corredor. O Biribá olhava pra porta e ganhava petisco no tapete.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "normal",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 10:00",
+   "fala": "Segunda entrevista. Passou gente no corredor. Um latidinho, e ele voltou pro mordedor. O Cleber? Começa na segunda.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, late pro corredor? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late pro corredor?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só de noite"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

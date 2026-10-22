@@ -1,0 +1,66 @@
+{
+ "id": "r066-lista-dois-caes-na-hora-da-racao",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "comida",
+ "legenda": "Dois cães em casa e um come a ração do outro? 🥣\n\n1️⃣ Um pote pra cada, em cômodos diferentes\n2️⃣ Mesmo horário pros dois\n3️⃣ Acabou? Pote recolhido\n\nNa sua casa, cada um tem o seu pote? Comenta 1 pra sim, 2 pra não 👇\nSe rolar briga na comida, procure um profissional.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrocomendo #comportamentocanino #meucaoobedece #adestramento #cachorros",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Dois cães em casa, e um come a ração do outro? Faz assim.",
+   "linhas": [
+    "UM COME A RAÇÃO",
+    "DO OUTRO?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: um pote pra cada, em cômodos diferentes. Cada um come em paz.",
+   "titulo": "Cômodos diferentes",
+   "sub": "um pote pra cada",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: mesmo horário pros dois. Ninguém fica esperando a sobra do outro.",
+   "titulo": "Mesmo horário",
+   "sub": "pros dois",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: terminou? Pote recolhido. Assim ninguém fica rondando o pote vazio.",
+   "titulo": "Acabou? Recolhe",
+   "sub": "nada de pote rondado",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

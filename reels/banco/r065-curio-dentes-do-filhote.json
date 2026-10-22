@@ -1,0 +1,81 @@
+{
+ "id": "r065-curio-dentes-do-filhote",
+ "formato": "curiosidades",
+ "gancho_tipo": "numero",
+ "tema": "mordida",
+ "legenda": "Seu filhote morde tudo? Os dentes explicam muita coisa 🦷\n\n🐾 Filhote tem 28 dentes de leite\n🐾 Adulto tem 42\n🐾 A troca costuma ir até uns 6 meses\n\nQual você não sabia? Comenta 1, 2 ou 3 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#filhotemordendo #curiosidadesdecachorro #meucaoobedece #comportamentocanino #filhote",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O seu filhote morde tudo? Três números explicam.",
+   "linhas": [
+    "ELE MORDE TUDO?",
+    "3 NÚMEROS EXPLICAM"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": 28,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "DENTES DE LEITE",
+    "no filhote"
+   ],
+   "icone": "osso",
+   "numero_palavra": "vinte",
+   "fala": "Um: o filhote tem vinte e oito dentes de leite. Fininhos e pontudos."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": 42,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "DENTES",
+    "no cão adulto"
+   ],
+   "icone": "escudo",
+   "numero_palavra": "quarenta",
+   "fala": "Dois: o cão adulto tem quarenta e dois dentes."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "TROCA DE DENTES",
+    "costuma ir até uns 6 meses"
+   ],
+   "icone": "calendario",
+   "numero_palavra": "",
+   "fala": "Três: a troca costuma ir até uns seis meses. Nessa fase, ele quer morder ainda mais. Dá um mordedor pra ele e tira a mão da brincadeira."
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

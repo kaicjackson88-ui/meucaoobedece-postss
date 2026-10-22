@@ -1,0 +1,189 @@
+{
+ "id": "h144-kiwi-pajem-do-casamento",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "O Kiwi ia levar as alianças. No ensaio, foi direto pro buffet 💍 Quem salvou o casamento foi a daminha, a Lis, de 7 anos: ela ia na frente, com petisco, um pouquinho por dia.\nO seu levaria as alianças ou ia pro buffet? Comenta 1 pra alianças, 2 pra buffet 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#adestramentocanino #comportamentocanino #educacaocanina #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Kiwi ia levar as alianças. Foi direto pro buffet.",
+   "linhas": [
+    "O PAJEM DO CASAMENTO",
+    "LEVA AS ALIANÇAS",
+    "FOI PRO BUFFET"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SALÃO DE FESTAS · 16:00",
+   "fala": "Ensaio no salão. A música começou, e o Kiwi correu atrás do salgadinho.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "aponta",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Kiwi! As alianças!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "16:02",
+   "fala": "Estava na cozinha, com a almofadinha das alianças na boca.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Faltam três semanas, Kiwi."
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "almofada",
+     "x": 860,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "16:10",
+   "fala": "Segunda tentativa: sentou no meio do caminho e se coçou.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Aí a daminha, a Lis, de sete anos, deu a ideia: ela ia na frente, com petisco.",
+   "topo": [
+    "A DAMINHA, 7 ANOS:"
+   ],
+   "de": "CORRE PRO BUFFET",
+   "para": "SEGUE A LIS",
+   "para_palavra": "petisco"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TODA TARDE · 10 MIN",
+   "fala": "Dez minutinhos por dia no corredor do prédio. Lis na frente, Kiwi atrás.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "CASAMENTO · 17:00",
+   "fala": "No casamento, foi até o altar. Com uma paradinha pra cheirar o buquê.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "comemora",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 560,
+     "y": 1300
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu? Comenta 1 pra alianças, 2 pra buffet. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele levaria as alianças?",
+   "opcoes": [
+    "1 alianças",
+    "2 buffet",
+    "3 fugia com tudo"
+   ],
+   "escolha": 1,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,183 @@
+{
+ "id": "h140-tucuma-ladrao-de-bolinha-do-parcao",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "Grupo do parcão: sumiram as bolinhas de todo mundo. E a foto entregou o Tucumã 🎾 Quem resolveu foi o Seu Edmilson, num áudio: não corre atrás, faz a troca.\nO seu devolve ou foge com o brinquedo? Comenta 1 pra devolve, 2 pra foge 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #adestramentocanino #comportamentocanino #educacaocanina #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Grupo do parcão. Sumiu a bolinha de todo mundo.",
+   "linhas": [
+    "GRUPO DO PARCÃO",
+    "SUMIU A BOLINHA",
+    "DE TODO MUNDO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "bola"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "PARCÃO · 07:30",
+   "fala": "Sábado. O Tucumã pegou a terceira bolinha. Nenhuma era dele.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Tucumã, devolve!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Parcão da Praça",
+   "membros": "41 participantes",
+   "quando": "08:05",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Cadê minha bolinha verde?"
+    },
+    {
+     "quem": "bia",
+     "texto": "A roxa também sumiu"
+    }
+   ],
+   "nomes": {
+    "carla": "Cris (dona da Mel)",
+    "bia": "Duda (dona da Pérola)",
+    "pedro": "Ramon (dono do Tucumã)",
+    "vizinho": "Seu Edmilson (dono da Baronesa)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Parcão da Praça",
+   "membros": "41 participantes",
+   "quando": "08:07",
+   "fala": "Aí veio a foto.",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Foto: o Tucumã com três bolinhas"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Desculpa, gente. Ele não solta",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Cris (dona da Mel)",
+    "bia": "Duda (dona da Pérola)",
+    "pedro": "Ramon (dono do Tucumã)",
+    "vizinho": "Seu Edmilson (dono da Baronesa)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Parcão da Praça",
+   "membros": "41 participantes",
+   "quando": "08:20",
+   "fala": "E o áudio do Seu Edmilson:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Áudio: não corre atrás. Oferece coisa boa e fala troca."
+    }
+   ],
+   "nomes": {
+    "carla": "Cris (dona da Mel)",
+    "bia": "Duda (dona da Pérola)",
+    "pedro": "Ramon (dono do Tucumã)",
+    "vizinho": "Seu Edmilson (dono da Baronesa)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TERÇA · 19:00",
+   "fala": "O Ramon treinou em casa a semana toda.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Troca! Isso!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO SEGUINTE · 07:30",
+   "fala": "Sábado seguinte: pegou a bolinha, ouviu troca, e ela voltou pra dona.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu? Comenta 1 pra devolve, 2 pra foge. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele devolve?",
+   "opcoes": [
+    "1 devolve",
+    "2 foge",
+    "3 depende"
+   ],
+   "escolha": 1,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,179 @@
+{
+ "id": "h143-acerola-poca-do-quinto-andar-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Mês passado: uma poça no corredor do 5º andar toda manhã 💦 Hoje, olha só. Quem desvendou foi a Dona Zuleide, da limpeza: filhote costuma fazer xixi logo depois de acordar e de comer.\nO seu faz logo depois de comer? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #condominio #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado: poça no corredor toda manhã. Hoje, olha só.",
+   "linhas": [
+    "MÊS PASSADO: POÇA",
+    "NO CORREDOR DO 5º",
+    "HOJE, OLHA SÓ"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 07:10",
+   "fala": "Sete e dez. A Acerola, filhote do Guilherme, fazia xixi antes do elevador.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 680,
+     "y": 1490
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco C",
+   "membros": "36 participantes",
+   "quando": "07:25",
+   "fala": "No grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "A poça das sete de novo"
+    },
+    {
+     "quem": "sindica",
+     "texto": "Guilherme, passa aqui?"
+    }
+   ],
+   "nomes": {
+    "carla": "Rita (504)",
+    "sindica": "Dona Zuleide (limpeza)",
+    "pedro": "Guilherme (502)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "PORTARIA · 07:30",
+   "fala": "A Dona Zuleide, da limpeza, explicou.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Filhote faz xixi logo depois de acordar e comer. Desce com ela no colo."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 07:10",
+   "fala": "Hoje. Sete e dez. Acerola no colo, direto pro elevador.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 07:12",
+   "fala": "Xixi na grama. Festa e petisco.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco C",
+   "membros": "36 participantes",
+   "quando": "07:40",
+   "fala": "Depois, no grupo:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Cadê a poça das sete?"
+    },
+    {
+     "quem": "sindica",
+     "texto": "Aposentou"
+    }
+   ],
+   "nomes": {
+    "carla": "Rita (504)",
+    "sindica": "Dona Zuleide (limpeza)",
+    "pedro": "Guilherme (502)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu faz depois de comer? Comenta 1 ou 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Faz depois de comer?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 nunca reparei"
+   ],
+   "escolha": 2,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

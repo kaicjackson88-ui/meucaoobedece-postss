@@ -1,0 +1,183 @@
+{
+ "id": "h138-maxixe-o-pe-da-talita",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "menta",
+ "legenda": "O Maxixe, 3 meses, explica o melhor brinquedo da casa: o pé da Talita 🦶 Ela trocou o grito por uma pausa de 10 segundos e um jacaré de borracha. Pé: a festa acaba. Brinquedo: a festa continua.\nO seu filhote ataca o seu pé? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #comportamentocanino #adestramentocanino #apartamento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Maxixe, três meses. Achei o melhor brinquedo da casa.",
+   "linhas": [
+    "EU SOU O MAXIXE",
+    "3 MESES",
+    "ACHEI O MELHOR BRINQUEDO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 09:00",
+   "fala": "O pé da Talita. Mexe, foge e ainda grita.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Ai, meu pé!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "12:30",
+   "fala": "No almoço, pé embaixo da mesa. Ataquei. Ela gritou mais alto. Que jogo bom.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Não, não, não!"
+    },
+    {
+     "quem": "cao",
+     "texto": "Mais!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "15:00",
+   "fala": "Aí ela mudou as regras. Mordi, ela virou estátua e saiu.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Acabou a brincadeira."
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "15:01",
+   "fala": "Dez segundos depois, voltou com um jacaré de borracha.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Filhote explora o mundo com a boca, e troca os dentes até uns seis meses.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "EXPLORA COM A BOCA",
+    "troca de dentes até uns 6 meses"
+   ],
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEXTA · 21:00",
+   "fala": "Entendi. Pé, a festa acaba. Jacaré, a festa continua. Sou um gênio.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 760,
+     "y": 1300
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu ataca o pé? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele ataca o seu pé?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 a mão também"
+   ],
+   "escolha": 2,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,176 @@
+{
+ "id": "h136-biriba-entrevista-online-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Entrevista de emprego por vídeo. E o Biribá latiu pra cada passo no corredor 😳 PARTE 1\nO Cleber trancou ele na cozinha. Piorou. Aí a entrevistadora pediu pra mostrar uma coisa.\nO que você acha que era? Comenta 1, 2 ou 3 👇 Segue pra ver a Parte 2.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#latidoexcessivo #apartamento #condominio #comportamentocanino #historiadecachorro",
+ "serie": "biriba-entrevista-online",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Entrevista de emprego por vídeo. E o Biribá do lado.",
+   "linhas": [
+    "ENTREVISTA POR VÍDEO",
+    "E O BIRIBÁ DO LADO",
+    "PARTE 1"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 10:02",
+   "fala": "Dois minutos de entrevista. Alguém passou no corredor.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU"
+    },
+    {
+     "quem": "joao",
+     "texto": "Biribá, agora não!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "10:03",
+   "fala": "Era só o vizinho indo pro elevador. O Biribá correu pra porta.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 300,
+    "acao": "corre"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Cleber e Mãe",
+   "membros": "online",
+   "quando": "10:04",
+   "fala": "Debaixo da mesa, ele mandou mensagem pra mãe.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Mãe, o Biribá tá latindo na entrevista",
+     "eu": true
+    },
+    {
+     "quem": "sindica",
+     "texto": "Dá um pão pra ele, filho"
+    }
+   ],
+   "nomes": {
+    "joao": "Cleber",
+    "sindica": "Mãe"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "10:06",
+   "fala": "Ele trancou o Biribá na cozinha. Aí começou o choro atrás da porta.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Auuu"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "10:08",
+   "fala": "Ele voltou pra tela, vermelho. E a entrevistadora ficou em silêncio.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "parado"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Cleber, posso te mostrar uma coisa?"
+    }
+   ],
+   "camera": {
+    "foco": "carla",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que ela ia mostrar? Comenta 1, 2 ou 3. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que ela ia mostrar?",
+   "opcoes": [
+    "1 a porta da rua",
+    "2 o cachorro dela",
+    "3 outra vaga"
+   ],
+   "escolha": 1,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
