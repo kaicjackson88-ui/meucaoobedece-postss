@@ -1,1 +1,1 @@
-2026-10-23T09:12:25.774566-03:00 h131-granola-carrinho-da-black-friday: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026102320122559326A0CD81EB45CA149"}}
+2026-10-23T10:33:08.019978-03:00 h090-jilo-dia-da-mudanca: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261023213307827D7AF8EDCCC34D336B"}}
