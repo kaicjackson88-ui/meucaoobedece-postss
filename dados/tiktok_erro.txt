@@ -1,1 +1,1 @@
-2026-10-22T22:28:39.756228-03:00 h121-canela-fato-assustador-do-rojao-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261023092839CE68F1BC15820A38C180"}}
+2026-10-23T08:32:13.417615-03:00 h131-granola-carrinho-da-black-friday: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610231932139F8043E1B8352A3D8BAB"}}
