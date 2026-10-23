@@ -1,1 +1,1 @@
-2026-10-23T20:06:36.687766-03:00 h090-jilo-dia-da-mudanca: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610240706362C5B974A698788A85611"}}
+2026-10-23T20:16:39.851104-03:00 h090-jilo-dia-da-mudanca: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261024071639F351D78BFABF65841DA0"}}
