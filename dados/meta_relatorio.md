@@ -1,6 +1,6 @@
-# MCO | Teste 2 | Vendas — 23/10 13:57
+# MCO | Teste 2 | Vendas — 24/10 01:27
 
-Gasto total: **R$50.53** de R$50 · vendas: **0** · dia 8 do teste
+Gasto total: **R$50.53** de R$50 · vendas: **0** · dia 9 do teste
 
 | anúncio | gasto | CTR link | hook 3s | checkouts | vendas | custo/venda | decisão |
 |---|---|---|---|---|---|---|---|
