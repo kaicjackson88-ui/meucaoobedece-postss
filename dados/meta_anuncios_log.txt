@@ -1,4 +1,4 @@
-# MCO | Teste 2 | Vendas — 24/10 01:27
+# MCO | Teste 2 | Vendas — 24/10 12:50
 
 Gasto total: **R$50.53** de R$50 · vendas: **0** · dia 9 do teste
 
