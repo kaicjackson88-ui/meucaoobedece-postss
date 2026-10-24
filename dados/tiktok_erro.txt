@@ -1,1 +1,1 @@
-2026-10-24T07:28:35.327616-03:00 h144-kiwi-pajem-do-casamento: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261024182835E21608BB2222BFB858A4"}}
+2026-10-24T08:39:20.898713-03:00 h141-fuba-biscoito-do-enzo-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261024193920EDD5277A3004E8B815D6"}}
