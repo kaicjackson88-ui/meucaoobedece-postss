@@ -1,1 +1,1 @@
-2026-10-24T17:42:23.740038-03:00 h142-umbu-tres-erros-dos-fogos: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610250442230973965DC138A5E373FC"}}
+2026-10-24T17:52:26.976004-03:00 h142-umbu-tres-erros-dos-fogos: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026102504522628DD6BA976F1D7CE8A0D"}}
