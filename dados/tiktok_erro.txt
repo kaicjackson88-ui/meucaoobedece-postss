@@ -1,1 +1,1 @@
-2026-10-24T08:39:20.898713-03:00 h141-fuba-biscoito-do-enzo-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261024193920EDD5277A3004E8B815D6"}}
+2026-10-24T08:49:24.202277-03:00 h141-fuba-biscoito-do-enzo-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261024194923E8412A21E991B4ADCB71"}}
