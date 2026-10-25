@@ -752,5 +752,16 @@
   "media_id": "17879221164565061",
   "link": "https://www.instagram.com/p/De7TcRbjlVR/",
   "publicado_em": "2026-10-25T18:01:49.652154+00:00"
+ },
+ {
+  "slot": "2026-10-25 19:00",
+  "seg": "obedece",
+  "tema": "Não obedece",
+  "gancho": "Você fala “senta” e seu cão deita?",
+  "assin": "obedece|Você fala “senta” e seu cão [deita]?|0,1,5",
+  "seed": 773712681,
+  "media_id": "18023992100718381",
+  "link": "https://www.instagram.com/p/De7u1CjGPEd/",
+  "publicado_em": "2026-10-25T22:01:03.766450+00:00"
  }
 ]
