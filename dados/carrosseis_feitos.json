@@ -719,5 +719,16 @@
   "media_id": "17989275183085044",
   "link": "https://www.instagram.com/p/De6cbZNDZVz/",
   "publicado_em": "2026-10-25T10:01:01.391559+00:00"
+ },
+ {
+  "slot": "2026-10-25 09:30",
+  "seg": "fogos",
+  "tema": "Medo de fogos",
+  "gancho": "Seu cão entra em pânico com barulho alto?",
+  "assin": "fogos|Seu cão entra em [pânico] com barulho alto?|1,4,5",
+  "seed": 173573598,
+  "media_id": "18351234400249892",
+  "link": "https://www.instagram.com/p/De6tlMtF5F7/",
+  "publicado_em": "2026-10-25T12:30:57.858973+00:00"
  }
 ]
