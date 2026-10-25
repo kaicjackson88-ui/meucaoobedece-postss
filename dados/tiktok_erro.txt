@@ -1,1 +1,1 @@
-2026-10-25T20:36:53.357508-03:00 h132-merengue-foto-dos-80-anos-da-vo-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026102607365345C8D7F8A6F7776717CB"}}
+2026-10-25T20:49:29.849096-03:00 h132-merengue-foto-dos-80-anos-da-vo-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610260749298F66256871D87D48211C"}}
