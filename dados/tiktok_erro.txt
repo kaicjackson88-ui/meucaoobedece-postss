@@ -1,1 +1,1 @@
-2026-10-25T08:42:37.765726-03:00 h140-tucuma-ladrao-de-bolinha-do-parcao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610251942370FE6A028578BE4273A5E"}}
+2026-10-25T08:52:40.902715-03:00 h140-tucuma-ladrao-de-bolinha-do-parcao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261025195240D60C7B33C2B12A3BB0E7"}}
