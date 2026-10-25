@@ -1,0 +1,78 @@
+{
+ "id": "r075-obj-apartamento-nao-precisa-passear",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "guia",
+ "legenda": "“Ele tem o apartamento todo, não precisa passear.” Será? 🏢\n\n✅ Passeio é cheiro, novidade e gasto de energia\n✅ Cão cansado da cabeça fica mais calmo em casa\n✅ Comece com voltas curtas, todo dia\n\nO seu passeia todo dia? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#apartamento #passeiocomcachorro #meucaoobedece #adestramento #condominio",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Cão de apartamento não precisa passear? Precisa, sim.",
+   "linhas": [
+    "CÃO DE APÊ",
+    "PRECISA PASSEAR?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "casa"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "O apartamento ele já conhece de cor. Na rua tem cheiro novo, som novo e gente nova.",
+   "objecao": "Ele tem o apê todo",
+   "resposta": "PRECISA SIM",
+   "resposta_palavra": "sim",
+   "explica": [
+    "A RUA É",
+    "NOVIDADE PRA ELE"
+   ],
+   "resposta_cor": "teal"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: passeio gasta energia do corpo e da cabeça.",
+   "titulo": "Corpo e cabeça",
+   "sub": "gasta energia",
+   "icone": "pata"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: cão que gastou energia costuma ficar mais calmo em casa. Menos latido, menos estrago.",
+   "titulo": "Mais calmo em casa",
+   "sub": "menos latido",
+   "icone": "sofa"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: comece com voltas curtas, todo dia, no horário mais fresco.",
+   "titulo": "Voltas curtas",
+   "sub": "no horário fresco",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

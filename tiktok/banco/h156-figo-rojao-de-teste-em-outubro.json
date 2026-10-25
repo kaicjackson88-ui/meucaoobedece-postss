@@ -1,0 +1,160 @@
+{
+ "id": "h156-figo-rojao-de-teste-em-outubro",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "Ainda é outubro, e o vizinho já testou o rojão do Réveillon 🎆 O Figo sumiu atrás do tanque. Quem resolveu foi a Vó Zuza, com um lençol e duas cadeiras.\nO seu tem um cantinho seguro? Comenta 1 pra sim, 2 pra não 👇\nSe o medo for muito intenso, converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Ainda é outubro, e o vizinho já testou o rojão do Réveillon.",
+   "linhas": [
+    "AINDA É OUTUBRO",
+    "E JÁ TEM ROJÃO",
+    "CADÊ O FIGO?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 20:00",
+   "fala": "Sábado à noite, o vizinho testou o rojão. Pou.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 20:01",
+   "fala": "O Figo sumiu. A Nair procurou pela casa toda.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Figo? Cadê você?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 20:10",
+   "fala": "Atrás do tanque, tremendo. Ela tentou puxar. Ele foi mais pro fundo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "triste",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 10:00",
+   "fala": "No domingo, a Vó Zuza chegou com um lençol e duas cadeiras.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Se ele quer uma toca, a gente faz uma. Ninguém puxa ele de lá."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Ela montou uma cabaninha no canto da sala, com caminha e cobertor. E petisco lá dentro.",
+   "topo": [
+    "O QUE A VÓ FEZ"
+   ],
+   "de": "PUXAR DE LÁ",
+   "para": "UMA TOCA",
+   "para_palavra": "cabaninha"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO SEGUINTE · 20:00",
+   "fala": "Sábado seguinte, outro rojão. O Figo foi direto pra cabaninha. E deitou.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu tem um cantinho seguro? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele tem um cantinho?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 vou montar"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

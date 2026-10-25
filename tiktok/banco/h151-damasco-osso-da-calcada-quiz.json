@@ -1,0 +1,169 @@
+{
+ "id": "h151-damasco-osso-da-calcada-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "No passeio de domingo, o Damasco achou um osso de frango na calçada 🍗 O que você faria? 1 puxar à força, 2 trocar por petisco ou 3 correr atrás? Comenta antes de ver a resposta 👇\nSe ele engolir algo estranho, ligue para o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #cachorrocomendo #churrasco #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Damasco achou um osso na calçada. O que você faria?",
+   "linhas": [
+    "OSSO NA CALÇADA",
+    "NA BOCA DO DAMASCO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO · 07:30",
+   "fala": "Domingo cedo, depois do churrasco da rua.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO · 07:31",
+   "fala": "Num segundo, o Damasco já estava com o osso na boca.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Larga isso!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: puxar à força. Dois: trocar por um petisco gostoso. Três: correr atrás dele. Comenta 1, 2 ou 3 antes da resposta.",
+   "topo": [
+    "1 PUXAR À FORÇA",
+    "2 TROCAR POR PETISCO",
+    "3 CORRER ATRÁS"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 07:35",
+   "fala": "Quem respondeu foi a Dona Lourdes, que passeia com três cães.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "É a dois. Troca. Puxar vira briga, correr vira brincadeira."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Osso cozido pode lascar. Trocar é mais seguro.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "OSSO COZIDO LASCA",
+    "melhor trocar do que puxar"
+   ],
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DIAS DEPOIS · 19:00",
+   "fala": "Em casa, o Vanderlei treina a troca. Agora, na rua, o Damasco solta.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? Comenta o número que você escolheu. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 puxar",
+    "2 trocar",
+    "3 correr atrás"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

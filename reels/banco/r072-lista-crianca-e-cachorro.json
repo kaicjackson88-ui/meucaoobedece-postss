@@ -1,0 +1,66 @@
+{
+ "id": "r072-lista-crianca-e-cachorro",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "mordida",
+ "legenda": "Criança e cachorro juntos? 3 regras pra visita das crianças 👧🐶\n\n1️⃣ Nada de abraço no pescoço\n2️⃣ Deixa o cão vir, não corra atrás\n3️⃣ Ele tem um cantinho pra descansar, e um adulto sempre por perto\n\nTem criança em casa? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorroecrianca #comportamentocanino #meucaoobedece #adestramento #cachorros",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Visita com criança em casa? Três regras pra todo mundo ficar bem.",
+   "linhas": [
+    "CRIANÇA E CACHORRO",
+    "3 REGRAS"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: nada de abraço no pescoço. Pra muitos cães, isso aperta e assusta. Carinho no peito, com calma.",
+   "titulo": "Nada de abraço",
+   "sub": "carinho no peito",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: deixa o cão vir. Correr atrás dele vira bagunça ou medo.",
+   "titulo": "Deixa ele vir",
+   "sub": "sem correr atrás",
+   "icone": "pata"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: ele tem um cantinho pra descansar, onde ninguém mexe. E um adulto sempre por perto.",
+   "titulo": "Cantinho e adulto",
+   "sub": "sempre por perto",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

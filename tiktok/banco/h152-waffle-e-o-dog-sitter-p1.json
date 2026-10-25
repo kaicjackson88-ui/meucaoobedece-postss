@@ -1,0 +1,144 @@
+{
+ "id": "h152-waffle-e-o-dog-sitter-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "A Viviane viajou. O dog sitter chegou. E o Waffle não deixou ele passar da porta 🚪 PARTE 1. Às 23h40 chegou um áudio...\nO que você acha que o Waffle fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #comportamentocanino #apartamento #adestramentocanino #historiadecachorro",
+ "serie": "waffle-e-o-dog-sitter",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A Viviane viajou. O dog sitter chegou. E o Waffle não deixou ele entrar.",
+   "linhas": [
+    "A DONA VIAJOU",
+    "O WAFFLE NÃO DEIXOU",
+    "PARTE 1"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · 19:00",
+   "fala": "Sexta, sete da noite. O Hugo, o dog sitter, abriu a porta.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEXTA · 19:05",
+   "fala": "O Waffle latiu, rosnou, e se plantou na frente do sofá.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Viviane e Hugo",
+   "membros": "conversa",
+   "quando": "19:12",
+   "fala": "O Hugo mandou mensagem.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ele não me deixa passar da porta"
+    },
+    {
+     "quem": "ana",
+     "texto": "Calma! Ele é assim com todo mundo",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "ana": "Viviane",
+    "pedro": "Hugo (dog sitter)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "HOTEL · 22:00",
+   "fala": "No hotel, a Viviane não dormia. Já pensava em voltar.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "triste",
+     "pose": "celular"
+    }
+   ],
+   "cao": false
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Viviane e Hugo",
+   "membros": "conversa",
+   "quando": "23:40",
+   "fala": "Às onze e quarenta, chegou um áudio do Hugo.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Áudio: Viviane, você não vai acreditar no que o Waffle fez"
+    }
+   ],
+   "nomes": {
+    "ana": "Viviane",
+    "pedro": "Hugo (dog sitter)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que o Waffle fez? Comenta 1, 2 ou 3. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que ele fez?",
+   "opcoes": [
+    "1 fugiu",
+    "2 mordeu",
+    "3 fez amizade"
+   ],
+   "escolha": 2,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

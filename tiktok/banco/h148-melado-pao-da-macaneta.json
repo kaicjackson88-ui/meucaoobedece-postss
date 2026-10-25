@@ -1,0 +1,168 @@
+{
+ "id": "h148-melado-pao-da-macaneta",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Toda semana sumia um saquinho de pão das portas do prédio 🥖 O grupo descobriu o culpado. E quem ajudou foi a própria vítima, a Dona Noêmia: guia curta no corredor e o comando \"deixa\".\nO seu já roubou comida de alguém? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #condominio #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Sumiu o pão da porta do trezentos e dois. De novo.",
+   "linhas": [
+    "SUMIU O PÃO",
+    "DA PORTA DO 302",
+    "DE NOVO"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Jacarandá",
+   "membros": "46 participantes",
+   "quando": "06:52",
+   "fala": "Segunda cedo.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Alguém pegou meu saquinho de pão da maçaneta??"
+    },
+    {
+     "quem": "carla",
+     "texto": "O meu sumiu semana passada"
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Noêmia (302)",
+    "pedro": "Juliano (401)",
+    "vizinho": "Seu Ademir (portaria)",
+    "carla": "Jaque (504)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Jacarandá",
+   "membros": "46 participantes",
+   "quando": "07:05",
+   "fala": "Veio a câmera.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Foto: cachorro caramelo com o saquinho na boca"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Gente... é o Melado. Desculpa",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Noêmia (302)",
+    "pedro": "Juliano (401)",
+    "vizinho": "Seu Ademir (portaria)",
+    "carla": "Jaque (504)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 06:40",
+   "fala": "Guia comprida, Juliano no celular. E o Melado no pão.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Jacarandá",
+   "membros": "46 participantes",
+   "quando": "07:20",
+   "fala": "E a vítima respondeu.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Meu Bidu fazia igual. Guia curta no corredor e ensina o deixa. Eu ajudo"
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Noêmia (302)",
+    "pedro": "Juliano (401)",
+    "vizinho": "Seu Ademir (portaria)",
+    "carla": "Jaque (504)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TERÇA · 19:00",
+   "fala": "Toda noite, cinco minutinhos: petisco na mão fechada, ele espera, ganha. Deixa.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA SEGUINTE · 06:40",
+   "fala": "Segunda seguinte. Guia curta, saquinho na porta. O Melado olhou, e seguiu.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já roubou comida de alguém? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele já roubou comida?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 de mim mesmo"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

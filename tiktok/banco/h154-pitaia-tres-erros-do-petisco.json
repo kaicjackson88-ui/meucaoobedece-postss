@@ -1,0 +1,173 @@
+{
+ "id": "h154-pitaia-tres-erros-do-petisco",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "obediencia",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz com o petisco e o seu cão entende tudo errado 🍖 Quem corrigiu o Odair foi a sobrinha, a Laís: petisco no segundo certo, e escondido no bolso.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#adestramentocanino #comportamentocanino #educacaocanina #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz com o petisco. E o seu cão entende errado.",
+   "linhas": [
+    "3 ERROS COM PETISCO",
+    "ELE ENTENDE ERRADO",
+    "O 3º É O MAIS COMUM"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 1",
+   "fala": "Erro um: a Pitaia latiu pedindo e ganhou. Latir funciona.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 2",
+   "fala": "Erro dois: sentou, levantou, e aí veio o petisco. Premiou o levantar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ERRO 3",
+   "fala": "Erro três: mostrar o petisco antes. Sem petisco na mão, nada feito.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Vem, Pitaia! Vem!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 10:00",
+   "fala": "Quem corrigiu foi a sobrinha, a Laís.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Petisco logo depois do acerto. E escondido no bolso."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão liga o prêmio ao que fez logo antes.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O MOMENTO É TUDO",
+    "prêmio logo depois do acerto"
+   ],
+   "icone": "relogio"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DIAS DEPOIS · 19:00",
+   "fala": "Agora o Odair fala senta uma vez. Ela senta, e o petisco sai do bolso na hora.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você já fez?",
+   "opcoes": [
+    "1 petisco no latido",
+    "2 petisco atrasado",
+    "3 mostrar antes"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,69 @@
+{
+ "id": "r077-erro-racao-o-dia-todo",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "comida",
+ "legenda": "Pare de deixar a ração no pote o dia inteiro 🥣\n\n❌ Pote cheio o dia todo\n✅ Horário fixo pras refeições\n✅ Acabou o tempo? Pote recolhido\n\nO pote do seu fica cheio o dia todo? Comenta 1 pra sim, 2 pra não 👇\nQuantidade e número de refeições: confirme com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrocomendo #xixinolugarcerto #meucaoobedece #adestramento #dicasdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de deixar a ração no pote o dia inteiro.",
+   "linhas": [
+    "RAÇÃO NO POTE",
+    "O DIA INTEIRO?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Comendo a qualquer hora, fica difícil saber quando ele vai precisar fazer xixi e cocô.",
+   "linhas": [
+    "SEM HORÁRIO",
+    "SEM ROTINA"
+   ],
+   "destaque": 1,
+   "icone": "relogio",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Faz assim: horário fixo pras refeições. A rotina do banheiro fica mais previsível.",
+   "topo": [
+    "EM VEZ DISSO"
+   ],
+   "de": "POTE CHEIO",
+   "para": "HORÁRIO FIXO",
+   "para_palavra": "horário"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "Comeu, ou acabou o tempo? Pote recolhido. E depois, leve ele pro lugar do xixi.",
+   "titulo": "Pote recolhido",
+   "sub": "depois, lugar do xixi",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

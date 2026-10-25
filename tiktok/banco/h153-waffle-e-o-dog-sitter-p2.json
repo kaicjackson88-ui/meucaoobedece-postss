@@ -1,0 +1,172 @@
+{
+ "id": "h153-waffle-e-o-dog-sitter-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "PARTE 2: o áudio das 23h40. O que o dog sitter fez pro Waffle confiar nele 🐾 Sentou no chão, não olhou e deixou ele vir no tempo dele.\nO seu demora pra confiar em visita? Comenta 1 pra sim, 2 pra não 👇\nSe o rosnado vier com mordida, procure um profissional de comportamento.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #comportamentocanino #apartamento #adestramentocanino #historiadecachorro",
+ "serie": "waffle-e-o-dog-sitter",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. Às onze e quarenta, chegou o áudio.",
+   "linhas": [
+    "O ÁUDIO DAS 23:40",
+    "O QUE O WAFFLE FEZ?",
+    "PARTE 2"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEXTA · 19:30",
+   "fala": "Horas antes, o Hugo sentou no chão, longe, sem olhar pro Waffle.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Pra muitos cães, olhar fixo e chegar de frente parece ameaça.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "OLHAR FIXO ASSUSTA",
+    "chegue de lado, devagar"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEXTA · 20:30",
+   "fala": "De vez em quando, jogava um petisco pro lado. Sem chamar, sem tocar.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEXTA · 23:38",
+   "fala": "Às onze e trinta e oito, o Waffle deitou no pé dele. E dormiu.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Viviane e Hugo",
+   "membros": "conversa",
+   "quando": "23:41",
+   "fala": "A Viviane:",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Ele nunca fez isso nem com a minha mãe",
+     "eu": true
+    },
+    {
+     "quem": "pedro",
+     "texto": "Deixa ele vir no tempo dele"
+    }
+   ],
+   "nomes": {
+    "ana": "Viviane",
+    "pedro": "Hugo (dog sitter)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 18:00",
+   "fala": "Domingo, a Viviane voltou. E o Waffle levou o Hugo até a porta.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "acena"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu demora pra confiar em visita? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele demora pra confiar?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 depende da visita"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

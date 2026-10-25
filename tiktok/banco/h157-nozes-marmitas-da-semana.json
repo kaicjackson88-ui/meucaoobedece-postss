@@ -1,0 +1,166 @@
+{
+ "id": "h157-nozes-marmitas-da-semana",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Domingo: 10 marmitas prontas pra semana. Segunda: sobraram 7 🍱 Quem resolveu foi o vizinho, Seu Ademir, que cria dois labradores: bancada vazia e um trabalho só do Nozes na hora de cozinhar.\nO seu já roubou comida da bancada? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #adestramentocanino #comportamentocanino #apartamento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Domingo, dez marmitas prontas pra semana. Segunda de manhã, sobraram sete.",
+   "linhas": [
+    "10 MARMITAS",
+    "SOBRARAM 7",
+    "QUEM FOI?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 16:00",
+   "fala": "A Érica deixou as marmitas esfriando na bancada e foi tomar banho.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 16:20",
+   "fala": "Voltou, e o Nozes estava de pé na bancada. Com tampa e tudo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "NOZES!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO SEGUINTE · 16:00",
+   "fala": "Domingo seguinte, cozinha fechada. Ele latiu a tarde inteira.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 17:00",
+   "fala": "Aí o vizinho, Seu Ademir, que cria dois labradores, tocou a campainha.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Bancada sempre vazia. E enquanto você cozinha, ele ganha um brinquedo recheado."
+    }
+   ],
+   "campainha": 1
+  },
+  {
+   "tipo": "virada",
+   "fala": "Comida longe do alcance, e um trabalho só dele. A bancada ficou vazia.",
+   "topo": [
+    "O QUE MUDOU"
+   ],
+   "de": "BANCADA CHEIA",
+   "para": "BANCADA VAZIA",
+   "para_palavra": "vazia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 16:00",
+   "fala": "Agora, no domingo, marmita no forno desligado. E o Nozes no tapete, lambendo o brinquedo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já roubou comida da bancada? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Já roubou da bancada?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 ele alcança tudo"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,176 @@
+{
+ "id": "h146-castanha-celular-do-rojao",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "A Castanha explica por que agora ama o celular do Jonas: ele faz \"pou\" baixinho e chove petisco 🎆 A ideia veio do próprio Jonas, às 2h da manhã, depois do rojão de teste do vizinho.\nO seu tem medo de rojão? Comenta 1 pra sim, 2 pra não 👇\nSe o medo for muito intenso, converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #condominio #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Castanha. E o celular do Jonas faz rojão.",
+   "linhas": [
+    "EU SOU A CASTANHA",
+    "O CELULAR FAZ ROJÃO",
+    "E EU ADORO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 18:00",
+   "fala": "Sábado, o vizinho testou um rojão pro Réveillon. Eu voei pra casa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Castanha, calma!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 18:05",
+   "fala": "Me enfiei atrás da geladeira. E dali eu não saía.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "DOMINGO · 02:00",
+   "fala": "Duas da manhã, o Jonas pesquisando sem parar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Som baixinho, petisco, um pouco todo dia...",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão escuta sons que a gente nem percebe. Por isso o rojão chega mais forte pra ele.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE OUVE MAIS QUE VOCÊ",
+    "sons que você nem percebe"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 20:00",
+   "fala": "Agora o celular faz pou, baixinho, e chove petisco. Virou máquina de petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO SEGUINTE · 18:00",
+   "fala": "Sábado, rojão de novo lá fora. Eu olhei pro Jonas. Cadê o meu petisco?",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Au?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu tem medo de rojão? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu cão tem medo de rojão?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 um pouco"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

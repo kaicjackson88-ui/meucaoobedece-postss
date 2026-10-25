@@ -1,0 +1,78 @@
+{
+ "id": "r071-obj-ja-tentei-de-tudo",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "obediencia",
+ "legenda": "“Já tentei de tudo e nada funciona.” Será? 🤔\n\n✅ Uma coisa de cada vez\n✅ Todo mundo da casa usa a mesma palavra\n✅ Treino curto, todo dia\n\nQuantas coisas você já tentou ao mesmo tempo? Comenta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #cachorro #meucaoobedece #dicasdecachorro #educacaocanina",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Já tentou de tudo e nada funciona? Talvez esse seja o problema.",
+   "linhas": [
+    "JÁ TENTEI",
+    "DE TUDO!"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "Tentar de tudo ao mesmo tempo confunde o cão. Cada dia é uma regra nova.",
+   "objecao": "Já tentei de tudo",
+   "resposta": "ESSE É O PROBLEMA",
+   "resposta_palavra": "problema",
+   "explica": [
+    "MUITA COISA",
+    "AO MESMO TEMPO"
+   ],
+   "resposta_cor": "teal"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: escolha uma coisa só pra ensinar agora.",
+   "titulo": "Uma coisa só",
+   "sub": "de cada vez",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: todo mundo da casa usa a mesma palavra. Senta é senta pra todo mundo.",
+   "titulo": "A mesma palavra",
+   "sub": "pra casa toda",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: treino curto, todo dia. Cinco minutos bem feitos valem mais que uma hora no domingo.",
+   "titulo": "Curto e todo dia",
+   "sub": "cinco minutos",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "r073-erro-passeio-sem-cheirar",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "guia",
+ "legenda": "Pare de puxar o seu cão toda vez que ele para pra cheirar 🌳\n\n❌ Passeio só pra fazer xixi e voltar\n✅ Deixa ele cheirar em parte do passeio\n✅ Cheirar também cansa, e acalma\n\nO seu passeio é corrido? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#passeiocomcachorro #puxarguia #meucaoobedece #comportamentocanino #adestramento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de puxar o seu cão toda vez que ele para pra cheirar.",
+   "linhas": [
+    "PARE DE PUXAR",
+    "QUANDO ELE CHEIRA"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Cheirar é o jeito dele ler o bairro. Um passeio só de ida e volta deixa a cabeça dele com fome.",
+   "linhas": [
+    "CHEIRAR É",
+    "LER O BAIRRO"
+   ],
+   "destaque": 1,
+   "icone": "focinho",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Faz assim: uma parte do passeio é dele. Guia frouxa e tempo pra cheirar.",
+   "topo": [
+    "EM VEZ DISSO"
+   ],
+   "de": "PASSEIO CORRIDO",
+   "para": "TEMPO PRA CHEIRAR",
+   "para_palavra": "cheirar"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "Muitos tutores contam que o cão chega em casa mais calmo. Cheirar também cansa.",
+   "titulo": "Cheirar cansa",
+   "sub": "e acalma",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

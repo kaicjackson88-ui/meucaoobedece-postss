@@ -1,0 +1,66 @@
+{
+ "id": "r068-lista-ladrao-da-bancada",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "comida",
+ "legenda": "Virou as costas e o seu cão já estava com as patas na bancada? 🍗\n\n1️⃣ Bancada sempre vazia\n2️⃣ Na hora de cozinhar, ele ganha um brinquedo recheado no tapete\n3️⃣ Nunca dê comida que saiu da bancada\n\nO seu já roubou da bancada? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrocomendo #meucaoobedece #adestramento #comportamentocanino #dicasdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Virou as costas e ele já estava com as patas na bancada? Faz assim.",
+   "linhas": [
+    "PATAS NA BANCADA",
+    "TODA VEZ?"
+   ],
+   "destaque": 0,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: bancada vazia. Se ele acha comida lá uma vez, vai voltar pra procurar.",
+   "titulo": "Bancada vazia",
+   "sub": "nada ao alcance",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: na hora de cozinhar, ele ganha um brinquedo recheado no tapete dele. Um trabalho só dele.",
+   "titulo": "Brinquedo no tapete",
+   "sub": "enquanto você cozinha",
+   "icone": "bola"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: nunca dê pra ele comida que saiu da bancada. Pra ele, isso vira prêmio por subir.",
+   "titulo": "Nada da bancada",
+   "sub": "senão vira prêmio",
+   "icone": "x"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

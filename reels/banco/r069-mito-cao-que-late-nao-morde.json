@@ -1,0 +1,78 @@
+{
+ "id": "r069-mito-cao-que-late-nao-morde",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "mordida",
+ "legenda": "Mito ou verdade? Sobre latido, rosnado e mordida 🐕\n\n❌ Cão que late não morde\n✅ Rosnar é um aviso\n✅ Bocejo e lambida no focinho podem ser incômodo\n\nQuantas você acertou? Conta aqui 👇\nSe houver mordida, procure um profissional de comportamento.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#comportamentocanino #linguagemcanina #meucaoobedece #adestramento #cachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mito ou verdade? Três coisas sobre latido, rosnado e mordida.",
+   "linhas": [
+    "CÃO QUE LATE",
+    "NÃO MORDE?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Cão que late não morde. Mito. O latido pode ser um aviso. Respeite o espaço dele.",
+   "frase": "Cão que late não morde",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "RESPEITE",
+    "O ESPAÇO DELE"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Rosnar é um aviso. Verdade. É ele dizendo: me dá espaço. Bronca no rosnado pode tirar o aviso.",
+   "frase": "Rosnar é um aviso",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "ELE PEDE",
+    "ESPAÇO"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Bocejar e lamber o focinho podem ser sinal de incômodo. Verdade. Fique de olho no contexto.",
+   "frase": "Bocejo pode ser incômodo",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "OLHE O",
+    "CONTEXTO"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

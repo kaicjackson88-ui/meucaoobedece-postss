@@ -1,0 +1,81 @@
+{
+ "id": "r078-curio-por-que-ele-te-segue",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Por que o seu cão te segue até no banheiro? 🚪\n\n🐾 Cães são animais sociais, gostam de estar com o grupo\n🐾 Você é quem traz comida, passeio e carinho\n🐾 Seguir pode ser só curiosidade: o que você vai fazer agora?\n\nO seu te segue pela casa? Comenta 1 pra sim, 2 pra não 👇\nSe ele sofre quando fica sozinho, procure um profissional.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#comportamentocanino #cachorrogrudento #meucaoobedece #curiosidadesdecachorro #adestramento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Por que o seu cão te segue até no banheiro?",
+   "linhas": [
+    "ELE TE SEGUE",
+    "ATÉ NO BANHEIRO?"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "porta"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ANIMAL SOCIAL",
+    "o grupo dele é você"
+   ],
+   "icone": "coracao",
+   "numero_palavra": "",
+   "fala": "Um: cães são animais sociais. Eles gostam de estar perto do grupo. E o grupo é você."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "VOCÊ É A FONTE",
+    "de comida, passeio e carinho"
+   ],
+   "icone": "osso",
+   "numero_palavra": "",
+   "fala": "Dois: é com você que vem comida, passeio e carinho. Faz sentido ficar de olho."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "PURA CURIOSIDADE",
+    "o que vem agora?"
+   ],
+   "icone": "cerebro",
+   "numero_palavra": "",
+   "fala": "Três: às vezes é só curiosidade. Ele quer saber o que vai acontecer agora."
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

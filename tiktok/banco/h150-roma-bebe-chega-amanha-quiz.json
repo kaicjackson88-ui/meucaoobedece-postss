@@ -1,0 +1,148 @@
+{
+ "id": "h150-roma-bebe-chega-amanha-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "sol",
+ "legenda": "O bebê chega da maternidade amanhã. E a Romã nunca viu um bebê 👶 O que você faria? 1, 2 ou 3? Comenta antes de ver a resposta 👇 Quem respondeu foi a tia Ingrid, veterinária.\nBebê e cão juntos, sempre com um adulto por perto.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorroecrianca #comportamentocanino #adestramentocanino #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O bebê chega amanhã. A Romã nunca viu um bebê. O que você faria?",
+   "linhas": [
+    "BEBÊ CHEGANDO",
+    "A ROMÃ NUNCA VIU UM",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA · 20:00",
+   "fala": "A Rejane montando o carrinho. A Romã pulando dentro, curiosa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUINTA · 20:30",
+   "fala": "A Rejane pensou alto.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "E se ela pular no bebê?",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: mostrar o bebê no colo, direto. Dois: antes, a Romã cheira uma roupinha, e conhece o bebê com calma, na guia. Três: presa no quintal. Comenta 1, 2 ou 3 antes da resposta.",
+   "topo": [
+    "1 MOSTRAR NO COLO",
+    "2 ROUPINHA E CALMA",
+    "3 PRESA NO QUINTAL"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEXTA · 08:00",
+   "fala": "Quem respondeu foi a tia Ingrid, que é veterinária.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "É a dois. Primeiro o cheiro, depois o bebê. Com calma."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 15:00",
+   "fala": "Sábado. A Romã cheirou a roupinha, ganhou petisco, e deitou perto do moisés.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? Comenta o número que você escolheu. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 no colo",
+    "2 roupinha e calma",
+    "3 presa no quintal"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,66 @@
+{
+ "id": "r076-lista-cao-e-gato-em-casa",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "obediencia",
+ "legenda": "Cão e gato na mesma casa? 3 passos pra começar bem 🐶🐱\n\n1️⃣ Primeiro o cheiro: troca de mantinha\n2️⃣ O gato precisa de um lugar alto pra fugir\n3️⃣ Comida do gato fora do alcance do cão\n\nTem cão e gato aí? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#caoegato #meucaoobedece #comportamentocanino #adestramento #cachorros",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Cão e gato na mesma casa? Três passos pra começar bem.",
+   "linhas": [
+    "CÃO E GATO",
+    "NA MESMA CASA?"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: primeiro o cheiro. Troca a mantinha de um com a do outro antes de se verem.",
+   "titulo": "Primeiro o cheiro",
+   "sub": "troca de mantinha",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: o gato precisa de um lugar alto pra fugir. Prateleira, estante, alto da cadeira.",
+   "titulo": "Lugar alto",
+   "sub": "rota de fuga do gato",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: a comida e a caixinha do gato ficam fora do alcance do cão. Paz na casa.",
+   "titulo": "Comida do gato no alto",
+   "sub": "fora do alcance",
+   "icone": "osso"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

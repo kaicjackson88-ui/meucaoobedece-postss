@@ -1,0 +1,69 @@
+{
+ "id": "r067-erro-tapete-perto-do-pote",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "xixi",
+ "legenda": "Pare de colocar o tapete higiênico do lado do pote de comida 🥣\n\n❌ Tapete colado na comida ou na caminha\n✅ Tapete num canto longe de onde ele come e dorme\n✅ Leve ele até lá depois de comer, dormir e brincar\n\nOnde fica o tapete aí? Comenta 1 perto da comida, 2 longe 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #meucaoobedece #adestramento #apartamento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de colocar o tapete higiênico do lado do pote de comida.",
+   "linhas": [
+    "TAPETE DO LADO",
+    "DO POTE DE COMIDA?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "texto",
+   "fala": "A maioria dos cães evita fazer xixi perto de onde come e dorme. Aí ele procura outro canto. Às vezes, o seu tapete da sala.",
+   "linhas": [
+    "ELE EVITA",
+    "SUJAR PERTO DA COMIDA"
+   ],
+   "destaque": 1,
+   "icone": "osso",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "virada",
+   "fala": "O certo é um canto só pro xixi, longe da comida e da caminha.",
+   "topo": [
+    "MUDA DE LUGAR"
+   ],
+   "de": "PERTO DO POTE",
+   "para": "CANTO SÓ DELE",
+   "para_palavra": "canto"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "E leve ele até lá depois de comer, de dormir e de brincar. Acertou? Festa e petisco.",
+   "titulo": "Leve na hora certa",
+   "sub": "comer, dormir, brincar",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

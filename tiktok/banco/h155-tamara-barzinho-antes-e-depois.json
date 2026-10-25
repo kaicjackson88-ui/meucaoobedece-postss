@@ -1,0 +1,188 @@
+{
+ "id": "h155-tamara-barzinho-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Mesmo barzinho, mesma mesa. Mês passado, a Tâmara latia pra cada garçom e derrubou o copo 🍻 Hoje, olha ela no tapetinho. A dica veio do grupo de tutores do bairro.\nO seu já te fez passar vergonha na rua? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #passeiocomcachorro #adestramentocanino #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mesmo barzinho, mesma mesa. Olha a diferença da Tâmara.",
+   "linhas": [
+    "MÊS PASSADO: CAOS",
+    "HOJE: OLHA ELA",
+    "MESMO BARZINHO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 18:00",
+   "fala": "Mês passado, mesa na calçada. Latido pra cada garçom.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "MÊS PASSADO · 18:30",
+   "fala": "A porção chegou. Ela pulou na mesa, e o copo foi pro chão.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Tutores do Bairro",
+   "membros": "130 participantes",
+   "quando": "22:10",
+   "fala": "A Marta pediu socorro no grupo.",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Alguém leva o cão pro bar sem passar vergonha?",
+     "eu": true
+    },
+    {
+     "quem": "bia",
+     "texto": "Leva o tapetinho dela. Em casa, treina deitar nele com petisco"
+    }
+   ],
+   "nomes": {
+    "carla": "Marta",
+    "vizinho": "Seu Edilson",
+    "bia": "Lu"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 18:00",
+   "fala": "Hoje. Mesma mesa. Tapetinho no chão, e ela deitada.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "HOJE · 18:30",
+   "fala": "A porção chegou. Ela olhou, e ganhou o petisco dela.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · SAÍDA",
+   "fala": "Na saída, o garçom, Seu Edilson, parou a Marta.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Essa é a mesma cachorra do mês passado?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já te fez passar vergonha na rua? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Já passou vergonha?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 nem levo ele"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

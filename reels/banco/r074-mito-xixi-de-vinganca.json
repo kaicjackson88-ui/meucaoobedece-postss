@@ -1,0 +1,78 @@
+{
+ "id": "r074-mito-xixi-de-vinganca",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "xixi",
+ "legenda": "Mito ou verdade? Xixi no lugar errado 💦\n\n❌ Ele fez xixi por vingança\n❌ Bronca depois ensina\n✅ Levar no lugar certo nas horas certas ajuda\n\nQuantas você acertou? Conta aqui 👇\nSe o xixi mudou de repente, converse com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#xixinolugarcerto #meucaoobedece #adestramento #comportamentocanino #tapetehigienico",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mito ou verdade? Três coisas sobre xixi no lugar errado.",
+   "linhas": [
+    "XIXI DE VINGANÇA?",
+    "MITO OU VERDADE?"
+   ],
+   "destaque": 0,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Ele fez xixi por vingança. Mito. Ele ainda não sabe onde é o lugar, ou ficou tempo demais sem ir.",
+   "frase": "Foi vingança",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "ELE AINDA",
+    "NÃO SABE O LUGAR"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Bronca depois ensina. Mito. Ele não liga a bronca ao xixi de horas atrás.",
+   "frase": "Bronca depois ensina",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "ELE NÃO",
+    "ENTENDE O PORQUÊ"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Levar no lugar certo depois de comer, dormir e brincar ajuda. Verdade. E acertou, festa.",
+   "frase": "Levar na hora certa",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "DEPOIS DE COMER",
+    "DORMIR E BRINCAR"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

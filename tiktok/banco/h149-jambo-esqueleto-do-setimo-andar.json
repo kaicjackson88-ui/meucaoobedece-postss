@@ -1,0 +1,186 @@
+{
+ "id": "h149-jambo-esqueleto-do-setimo-andar",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "Um esqueleto de 2 metros no 7º andar. E o Jambo latindo pro elevador inteiro ouvir 💀 Quem resolveu foi o dono do esqueleto, o Seu Cláudio: petisco no pé dele e tempo pra cheirar.\nO seu late pra decoração nova? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #condominio #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Tem um esqueleto gigante no sétimo andar. E o Jambo descobriu.",
+   "linhas": [
+    "UM ESQUELETO",
+    "NO 7º ANDAR",
+    "E O JAMBO VIU"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 08:00",
+   "fala": "A porta do elevador abriu. Um esqueleto de dois metros.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Flamboyant",
+   "membros": "72 participantes",
+   "quando": "08:03",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Que latido foi esse no elevador?"
+    },
+    {
+     "quem": "sindica",
+     "texto": "Decoração só até dia primeiro, pessoal"
+    }
+   ],
+   "nomes": {
+    "ana": "Cristiane (603)",
+    "vizinho": "Seu Cláudio (701)",
+    "carla": "Paty (602)",
+    "sindica": "Síndica Vera"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Flamboyant",
+   "membros": "72 participantes",
+   "quando": "08:10",
+   "fala": "E veio um áudio.",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Desculpa! O Jambo achou que era invasor",
+     "eu": true
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Áudio: o esqueleto é meu. Traz o Jambo pra conhecer"
+    }
+   ],
+   "nomes": {
+    "ana": "Cristiane (603)",
+    "vizinho": "Seu Cláudio (701)",
+    "carla": "Paty (602)",
+    "sindica": "Síndica Vera"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 17:00",
+   "fala": "À tarde, petisco no pé do esqueleto. E o Jambo chegando, cheirando, devagar.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "normal",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cheirar é o jeito do cão entender o que é novo.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CHEIRAR É ENTENDER",
+    "deixa ele investigar"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Flamboyant",
+   "membros": "72 participantes",
+   "quando": "DOMINGO · 09:00",
+   "fala": "Domingo:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Foto: o Jambo deitado do lado do esqueleto"
+    },
+    {
+     "quem": "carla",
+     "texto": "Agora são amigos kkkk"
+    }
+   ],
+   "nomes": {
+    "ana": "Cristiane (603)",
+    "vizinho": "Seu Cláudio (701)",
+    "carla": "Paty (602)",
+    "sindica": "Síndica Vera"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late pra decoração nova? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late pra decoração?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só pra abóbora"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

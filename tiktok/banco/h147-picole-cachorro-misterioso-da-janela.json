@@ -1,0 +1,178 @@
+{
+ "id": "h147-picole-cachorro-misterioso-da-janela",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "O Picolé explica a guerra dele com o \"cachorro\" da janela do vizinho. Spoiler: era um papagaio 🦜 Quem resolveu foi o Seu Lúcio, o dono do papagaio.\nO seu late pra qualquer barulho? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#latidoexcessivo #cachorrolatindo #apartamento #condominio #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Picolé. E tem um cachorro na janela do vizinho que eu nunca vi.",
+   "linhas": [
+    "EU SOU O PICOLÉ",
+    "TEM UM CÃO NA JANELA",
+    "QUE EU NUNCA VI"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 07:00",
+   "fala": "Todo dia, às sete, ele late. Eu respondo. Mais alto.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TERÇA · 07:10",
+   "fala": "A Denise já achou dois bilhetes debaixo da porta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "bilhete"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "QUARTA · 17:00",
+   "fala": "Na calçada, o Seu Lúcio apresentou o culpado.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "É o Teodoro, meu papagaio. Ele imita o seu cachorro."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Muitos cães latem pra avisar a casa de um som estranho.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "LATIDO É ALARME",
+    "ele avisa a casa"
+   ],
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUINTA · 07:00",
+   "fala": "Agora, às sete, janela fechada e mordedor recheado. O Teodoro late. Eu lambo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 17:00",
+   "fala": "No sábado, conheci o Teodoro de perto. Ele falou: au. Eu falei: oi.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Oi?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late pra qualquer barulho? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late pra tudo?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só pra campainha"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,81 @@
+{
+ "id": "r070-curio-nariz-que-separa-o-ar",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Por que o seu cão cheira tudo (e todo mundo) 👃\n\n🐾 Cheirar é o jeito dele de conhecer\n🐾 O nariz separa o ar: uma parte pra respirar, outra pra cheirar\n🐾 Ele solta o ar pelas laterais do nariz\n\nQual você não sabia? Comenta 1, 2 ou 3 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#curiosidadesdecachorro #comportamentocanino #meucaoobedece #cachorro #adestramento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Por que o seu cão cheira tudo? Três segredos do nariz dele.",
+   "linhas": [
+    "3 SEGREDOS",
+    "DO NARIZ DELE"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CHEIRAR É CONHECER",
+    "o cheiro conta quem passou"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "",
+   "fala": "Um: cheirar é o jeito dele de conhecer. Um cheiro conta quem passou ali e muito mais."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O NARIZ SEPARA O AR",
+    "respirar de um lado, cheirar do outro"
+   ],
+   "icone": "cerebro",
+   "numero_palavra": "",
+   "fala": "Dois: o nariz dele separa o ar. Uma parte vai pra respirar. A outra, só pra cheirar."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O AR SAI PELOS LADOS",
+    "e o cheiro continua entrando"
+   ],
+   "icone": "pata",
+   "numero_palavra": "",
+   "fala": "Três: ele solta o ar pelas laterais do nariz. Assim o cheiro novo continua entrando. Por isso, deixa ele cheirar no passeio."
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}
