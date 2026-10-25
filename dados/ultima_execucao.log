@@ -1,22 +1,21 @@
-Aguardando o horário 09:00 (116 min)...
-Roteiro: r076-lista-cao-e-gato-em-casa (lista, estilo menta) — horário 2026-10-25 09:00
+Aguardando o horário 14:00 (118 min)...
+Roteiro: h024-kiko-e-o-entregador (tiktok-historia, estilo menta) — horário 2026-10-25 14:00
 Narração...
 voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-[0;93m2026-10-25 12:00:06.515166579 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-  cão real "bravo": 48 quadro(s)
-  cão real "feliz": 48 quadro(s)
-  cão real "normal": 48 quadro(s)
-  cão real "dorminhoco": 48 quadro(s)
-  cão real "lendario": 48 quadro(s)
+[0;93m2026-10-25 17:00:06.645389933 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+  história: o mesmo cão real (f5449489) em todas as cenas, 1 quadro(s)
 Render...
-  frame 0/687
-  frame 300/687
-  frame 600/687
+  frame 0/1227
+  frame 300/1227
+  frame 600/1227
+  frame 900/1227
+  frame 1200/1227
 Áudio...
-Preparing worktree (detached HEAD dfa1f7a)
-HEAD is now at dfa1f7a Carrossel publicado
-Switched to a new branch 'tmp-20261025-0902-r076-lista-cao-e-gato-em-casa'
+Preparing worktree (detached HEAD 72ee455)
+HEAD is now at 72ee455 Carrossel publicado
+Switched to a new branch 'tmp-20261025-1403-h024-kiko-e-o-entregador'
 remote: 
-remote: Create a pull request for 'midia-20261025-0902-r076-lista-cao-e-gato-em-casa' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261025-0902-r076-lista-cao-e-gato-em-casa        
+remote: Create a pull request for 'midia-20261025-1403-h024-kiko-e-o-entregador' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261025-1403-h024-kiko-e-o-entregador        
 remote: 
