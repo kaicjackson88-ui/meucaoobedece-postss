@@ -1,1 +1,1 @@
-2026-10-25T09:12:48.332533-03:00 h140-tucuma-ladrao-de-bolinha-do-parcao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261025201248136EB0BBB814C8218AFE"}}
+2026-10-25T10:36:19.414979-03:00 h132-merengue-foto-dos-80-anos-da-vo-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261025213619E11DCA3FA3E6DA21EEFC"}}
