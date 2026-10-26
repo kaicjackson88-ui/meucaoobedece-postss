@@ -1,13 +1,22 @@
-Aguardando o horário 07:00 (319 min)...
-  cão real "bravo" pronto
-  cão real "feliz" pronto
-  cão real "normal" pronto
-  cão real "dorminhoco" pronto
-  cão real "lendario" pronto
-Preparing worktree (detached HEAD 7273ea5)
-HEAD is now at 7273ea5 Anúncios Meta: relatorio
-Switched to a new branch 'tmp-midia-20261026-0700-c-latido'
+Aguardando o horário 09:00 (117 min)...
+Roteiro: r074-mito-xixi-de-vinganca (mito, estilo menta) — horário 2026-10-26 09:00
+Narração...
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+[0;93m2026-10-26 12:00:06.915881765 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  cão real "bravo": 48 quadro(s)
+  cão real "feliz": 48 quadro(s)
+  cão real "normal": 48 quadro(s)
+  cão real "dorminhoco": 48 quadro(s)
+  cão real "lendario": 48 quadro(s)
+Render...
+  frame 0/725
+  frame 300/725
+  frame 600/725
+Áudio...
+Preparing worktree (detached HEAD 7e21128)
+HEAD is now at 7e21128 Carrossel publicado
+Switched to a new branch 'tmp-20261026-0902-r074-mito-xixi-de-vinganca'
 remote: 
-remote: Create a pull request for 'midia-20261026-0700-c-latido' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261026-0700-c-latido        
+remote: Create a pull request for 'midia-20261026-0902-r074-mito-xixi-de-vinganca' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261026-0902-r074-mito-xixi-de-vinganca        
 remote: 
