@@ -1,1 +1,1 @@
-2026-10-26T19:11:48.633515-03:00 h012-comeu-do-chao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610270611486FB82CAED6D71FBAB546"}}
+2026-10-26T19:21:52.317446-03:00 h012-comeu-do-chao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610270621520596AB3B3742BBA6AE8B"}}
