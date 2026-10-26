@@ -1,1 +1,1 @@
-2026-10-25T22:50:39.330924-03:00 h064-tico-foge-do-cortador-de-unha: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610260950394B1417E30CE0835DD5BE"}}
+2026-10-26T12:39:53.426996-03:00 h012-comeu-do-chao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610262339533578BB49521F67947DCB"}}
