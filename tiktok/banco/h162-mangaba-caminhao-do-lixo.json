@@ -1,0 +1,150 @@
+{
+ "id": "h162-mangaba-caminhao-do-lixo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "Toda terça, 6h da manhã, o caminhão do lixo passa. E a Mangaba acorda o prédio inteiro 🚛 Quem ajudou foi o Seu Juvenal, do térreo: na hora do caminhão, cozinha e brinquedo recheado.\nNo seu prédio tem um cão despertador? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #condominio #apartamento #latidoexcessivo #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Terça, seis da manhã, passa o caminhão do lixo. E a Mangaba acorda o prédio.",
+   "linhas": [
+    "06:00 · CAMINHÃO DO LIXO",
+    "A MANGABA ACORDA",
+    "O PRÉDIO INTEIRO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 06:00",
+   "fala": "Na janela, a Mangaba latia pro caminhão como se fosse um monstro.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Primavera",
+   "membros": "86 participantes",
+   "quando": "06:02",
+   "fala": "Seis e dois, o grupo acordou junto.",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Áudio transcrito: de novo esse cachorro"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Figurinha: cachorro com megafone"
+    }
+   ],
+   "nomes": {
+    "bia": "Dona Lindalva",
+    "pedro": "Gabriel",
+    "carla": "Nívea",
+    "vizinho": "Seu Juvenal (térreo)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Primavera",
+   "membros": "86 participantes",
+   "quando": "07:20",
+   "fala": "A Nívea pediu ajuda. O Seu Juvenal, do térreo, respondeu.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Meu Boris era igual. Na hora do caminhão, cozinha e brinquedo recheado. Olhou pra você sem latir? Petisco."
+    }
+   ],
+   "nomes": {
+    "bia": "Dona Lindalva",
+    "pedro": "Gabriel",
+    "carla": "Nívea",
+    "vizinho": "Seu Juvenal (térreo)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TERÇA SEGUINTE · 06:00",
+   "fala": "Terça seguinte, seis da manhã. A Mangaba na cozinha, lambendo o brinquedo. O caminhão passou.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Primavera",
+   "membros": "86 participantes",
+   "quando": "06:40",
+   "fala": "No grupo, silêncio. Até o Gabriel escrever.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Gente, o caminhão não passou hoje?"
+    }
+   ],
+   "nomes": {
+    "bia": "Dona Lindalva",
+    "pedro": "Gabriel",
+    "carla": "Nívea",
+    "vizinho": "Seu Juvenal (térreo)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "No seu prédio tem um cão despertador? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Tem cão despertador?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 é o meu"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

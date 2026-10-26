@@ -1,0 +1,66 @@
+{
+ "id": "r080-lista-elevador-sem-pulo",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "pulo",
+ "legenda": "A porta do elevador abre e o seu cão pula em quem está lá dentro? 🛗\n\n1️⃣ Treine no elevador vazio primeiro\n2️⃣ Ele senta no canto e ganha petisco\n3️⃣ Combine com os vizinhos: pulou, ninguém faz festa\n\nNo seu prédio, o elevador é uma aventura? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorropulando #condominio #meucaoobedece #adestramento #apartamento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A porta do elevador abre, e o seu cão pula em quem está lá dentro? Faz assim.",
+   "linhas": [
+    "ELE PULA EM QUEM",
+    "ESTÁ NO ELEVADOR?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: treine primeiro com o elevador vazio. Sobe, desce, e ele aprende o lugar dele.",
+   "titulo": "Elevador vazio",
+   "sub": "primeiro treino",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: o lugar dele é o canto. Sentou no canto, ganha petisco.",
+   "titulo": "Canto e petisco",
+   "sub": "sentou, ganhou",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: combine com os vizinhos. Pulou, ninguém faz festa. Quatro patas no chão, aí sim, oi.",
+   "titulo": "Pulou? Sem festa",
+   "sub": "patas no chão, aí sim",
+   "icone": "pata"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

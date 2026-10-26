@@ -1,0 +1,81 @@
+{
+ "id": "r081-curio-por-que-ele-late-pro-caminhao",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "latido",
+ "legenda": "Por que o seu cão late pro caminhão do lixo (e pro carteiro, e pro motoboy)? 🚛\n\n🐾 Ele escuta o barulho antes de você\n🐾 Latiu e o caminhão foi embora: pra ele, funcionou\n🐾 A janela vira posto de vigia\n\nO seu late pra quem passa na rua? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #meucaoobedece #comportamentocanino #condominio",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Por que o seu cão late pro caminhão do lixo? Tem explicação.",
+   "linhas": [
+    "POR QUE ELE LATE",
+    "PRO CAMINHÃO?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE OUVE ANTES",
+    "sons que você nem percebe"
+   ],
+   "icone": "sino",
+   "numero_palavra": "",
+   "fala": "Um: ele escuta sons que a gente nem percebe. Ouve o caminhão bem antes de você."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "LATIU, FOI EMBORA",
+    "pra ele, funcionou"
+   ],
+   "icone": "cerebro",
+   "numero_palavra": "",
+   "fala": "Dois: ele latiu, e o caminhão foi embora. Pra ele, o latido funcionou. Por isso repete."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "JANELA É POSTO",
+    "de vigia"
+   ],
+   "icone": "casa",
+   "numero_palavra": "",
+   "fala": "Três: janela vira posto de vigia. Na hora do caminhão, tire ele dali e dê um brinquedo recheado."
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

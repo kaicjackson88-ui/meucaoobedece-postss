@@ -1,0 +1,162 @@
+{
+ "id": "h164-araca-mao-da-visita-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "A visita esticou a mão e o Araçá mostrou os dentes 😬 O que você faria? 1 segurar ele pra ela fazer carinho, 2 bronca, 3 a visita ignora e ele chega no tempo dele.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Se ele rosna ou mostra os dentes com frequência, procure um profissional de comportamento. Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#comportamentocanino #linguagemcanina #adestramentocanino #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A visita esticou a mão. O Araçá mostrou os dentes. O que você faria?",
+   "linhas": [
+    "A VISITA ESTICOU A MÃO",
+    "ELE MOSTROU OS DENTES",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 15:00",
+   "fala": "A cunhada do Sérgio, a Bianca, chegou e esticou a mão pro Araçá.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "acena"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "GRRR"
+    }
+   ],
+   "campainha": 1
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 15:01",
+   "fala": "O Araçá recuou, rosnou e mostrou os dentes. A Bianca congelou.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: segurar ele pro carinho. Dois: bronca. Três: a visita ignora, e ele chega no tempo dele. Comenta antes da resposta.",
+   "topo": [
+    "1 SEGURAR PRO CARINHO",
+    "2 BRONCA",
+    "3 IGNORAR E ESPERAR"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 15:05",
+   "fala": "Quem respondeu foi a própria Bianca, que tem uma cadela resgatada.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "É a três. Eu sento, não olho pra ele e deixo um petisco no chão."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 15:40",
+   "fala": "Meia hora depois, o Araçá cheirou o tênis dela. E pegou o petisco do chão sozinho.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? Comenta o número que você escolheu. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 segurar",
+    "2 bronca",
+    "3 ignorar e esperar"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

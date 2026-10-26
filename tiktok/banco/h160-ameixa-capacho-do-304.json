@@ -1,0 +1,164 @@
+{
+ "id": "h160-ameixa-capacho-do-304",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A Ameixa explica por que o capacho do 304 virou o mural de recados dela 💦 Quem resolveu foi o dono do capacho, Seu Dirceu: produto que tira o cheiro e descer direto pra calçada.\nO seu já marcou o capacho de alguém? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #condominio #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Ameixa. E o capacho do vizinho é o meu mural.",
+   "linhas": [
+    "EU SOU A AMEIXA",
+    "O CAPACHO DO 304",
+    "É O MEU MURAL"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 07:10",
+   "fala": "Toda manhã, na saída, deixo um recado no capacho do trezentos e quatro. De xixi.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "AMEIXA!",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 620,
+     "y": 1480
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim",
+   "membros": "62 participantes",
+   "quando": "08:00",
+   "fala": "No grupo, já tinha foto.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "De quem é o xixi no meu capacho? Terceira vez."
+    },
+    {
+     "quem": "ana",
+     "texto": "Desculpa, Seu Dirceu. É a Ameixa.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "ana": "Silvia",
+    "vizinho": "Seu Dirceu (304)"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Onde sobra cheiro de xixi, o cão entende: aqui é banheiro.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O CHEIRO FICA",
+    "e chama o próximo xixi"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 19:00",
+   "fala": "Aí o Seu Dirceu tocou a campainha, com um frasco na mão.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Produto enzimático tira o cheiro. E desce com ela direto pra calçada."
+    }
+   ],
+   "campainha": 1
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "QUARTA · 07:05",
+   "fala": "Agora desço no colo até a calçada. Xixi na árvore, e petisco. Mural novo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já marcou o capacho de alguém? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Já marcou um capacho?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 o meu mesmo"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

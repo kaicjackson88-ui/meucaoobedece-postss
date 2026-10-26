@@ -1,0 +1,78 @@
+{
+ "id": "r082-obj-ele-so-late-quando-eu-saio",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "latido",
+ "legenda": "\"Mas quando eu saio, ele dorme.\" Será? 🎥\n\n✅ Grave a sala por uma manhã\n✅ Veja se o latido tem hora e motivo\n✅ Treine aquele som, baixinho, com petisco\n\nVocê já gravou o seu sozinho em casa? Comenta 1 pra sim, 2 pra não 👇\nSe ele sofre muito quando fica sozinho, procure um profissional.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrolatindo #apartamento #meucaoobedece #adestramento #condominio",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Quando você sai, ele dorme? Tem certeza?",
+   "linhas": [
+    "QUANDO EU SAIO",
+    "ELE DORME!"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "porta"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "Muita gente só descobre o latido pelo vizinho. Antes de qualquer coisa, grave.",
+   "objecao": "Quando eu saio, ele dorme",
+   "resposta": "GRAVA PRA VER",
+   "resposta_palavra": "grave",
+   "explica": [
+    "O VIZINHO",
+    "ESCUTA TUDO"
+   ],
+   "resposta_cor": "teal"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: deixe o celular gravando a sala por uma manhã.",
+   "titulo": "Grave a sala",
+   "sub": "uma manhã basta",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: veja se o latido tem hora e motivo. Elevador, campainha, passos no corredor.",
+   "titulo": "Hora e motivo",
+   "sub": "elevador, campainha, passos",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: treine aquele som, baixinho, com petisco. E deixe um brinquedo recheado quando sair.",
+   "titulo": "Som baixinho",
+   "sub": "com petisco",
+   "icone": "sino"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

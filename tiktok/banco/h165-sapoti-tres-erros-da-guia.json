@@ -1,0 +1,164 @@
+{
+ "id": "h165-sapoti-tres-erros-da-guia",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz com a guia, e o seu cão entende \"pode puxar\" 🦮 Quem corrigiu a Amanda foi o Felipe, que passeia com os cães do bairro: guia esticou, para; afrouxou, anda.\nQual desses erros você comete? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #puxarguia #adestramentocanino #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz com a guia, e o seu cão entende: pode puxar.",
+   "linhas": [
+    "3 ERROS COM A GUIA",
+    "ELE ENTENDE:",
+    "PODE PUXAR"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1 · 07:00",
+   "fala": "Erro um: pegar a guia fazendo festa. O Sapoti já sai voando pela porta.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Vamos passear?!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 2 · 07:05",
+   "fala": "Erro dois: ele puxou, e você foi junto. Pronto, puxar funciona.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ERRO 3 · 07:10",
+   "fala": "Erro três: dar tranco de volta. Vira cabo de guerra, e ele puxa mais.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 07:30",
+   "fala": "Quem corrigiu a Amanda foi o Felipe, passeador do bairro.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "A guia só sai com ele calmo. Esticou, você para. Afrouxou, vocês andam."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Guia esticada, para tudo. Guia frouxa, o passeio continua.",
+   "topo": [
+    "O CERTO"
+   ],
+   "de": "PUXOU, ANDOU",
+   "para": "FROUXA, ANDA",
+   "para_palavra": "frouxa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "TERÇA · 19:00",
+   "fala": "Terça à noite. Passeio devagar, cheio de paradas, e guia frouxa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses erros você comete? Comenta 1, 2 ou 3. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual erro é o seu?",
+   "opcoes": [
+    "1 festa na guia",
+    "2 ir junto",
+    "3 tranco"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

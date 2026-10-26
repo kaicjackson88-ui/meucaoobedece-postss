@@ -1,0 +1,174 @@
+{
+ "id": "h168-murici-assembleia-do-condominio",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "noite",
+ "legenda": "Assembleia do condomínio, item 3 da pauta: o latido do Murici 📋 O André jurava que ele dormia. Às 2h da manhã, a câmera mostrou outra coisa: o latido tinha hora, e era o elevador.\nO seu late quando você sai? Comenta 1 pra sim, 2 pra não, 3 não sei 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Se ele sofre muito quando fica sozinho, procure um profissional. Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #condominio #latidoexcessivo #apartamento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Assembleia do condomínio. Item três da pauta: o latido do Murici.",
+   "linhas": [
+    "ASSEMBLEIA",
+    "ITEM 3 DA PAUTA:",
+    "O MURICI"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA · 20:00",
+   "fala": "Quinta, assembleia no salão. A síndica leu a reclamação.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Latido das nove ao meio-dia. Todo dia."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · 08:50",
+   "fala": "O André jurava: quando ele saía, o Murici dormia.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ele é um anjo."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEXTA · 02:00",
+   "fala": "Duas da manhã, sem sono, o André abriu as gravações da câmera da sala.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": false
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "GRAVAÇÃO · 09:15",
+   "fala": "No vídeo, cada vez que o elevador parava no andar, o Murici corria pra porta latindo.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "O latido tinha hora e motivo: o barulho do elevador.",
+   "topo": [
+    "O QUE A CÂMERA MOSTROU"
+   ],
+   "de": "LATE O DIA TODO",
+   "para": "LATE PRO ELEVADOR",
+   "para_palavra": "elevador"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 10:00",
+   "fala": "No sábado, começou o treino: som de elevador baixinho com petisco, e brinquedo recheado ao sair.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late quando você sai? Comenta 1 pra sim, 2 pra não, 3 não sei. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late quando você sai?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 não sei"
+   ],
+   "escolha": 2,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

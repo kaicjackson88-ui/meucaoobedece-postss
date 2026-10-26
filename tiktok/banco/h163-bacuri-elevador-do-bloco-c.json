@@ -1,0 +1,173 @@
+{
+ "id": "h163-bacuri-elevador-do-bloco-c",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "Calça branca, elevador do bloco C. E o Bacuri de patas nela 🛗 O grupo já queria enquete. Quem resolveu foi o porteiro, Seu Genésio: no elevador, ele senta no canto e ganha petisco.\nQual você escolheria: elevador de serviço ou treino no canto? Comenta 1 ou 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #condominio #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Calça branca, elevador do bloco C. E o Bacuri de patas nela.",
+   "linhas": [
+    "ELEVADOR DO BLOCO C",
+    "PATAS NA CALÇA BRANCA",
+    "DE NOVO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 08:10",
+   "fala": "A porta do elevador abriu, e o Bacuri pulou na primeira pessoa.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Minha calça!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Bloco C",
+   "membros": "40 participantes",
+   "quando": "08:20",
+   "fala": "Em dez minutos, o grupo já sabia.",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Quem é o dono do cachorro marrom do elevador?"
+    },
+    {
+     "quem": "ana",
+     "texto": "Ontem foi o meu uniforme"
+    }
+   ],
+   "nomes": {
+    "carla": "Carolina",
+    "ana": "Edna",
+    "joao": "Mateus"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Bloco C",
+   "membros": "40 participantes",
+   "quando": "08:25",
+   "fala": "E veio a enquete.",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Enquete: cachorro só no elevador de serviço?"
+    },
+    {
+     "quem": "joao",
+     "texto": "Gente, ele só quer dar oi",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Carolina",
+    "ana": "Edna",
+    "joao": "Mateus"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "TERÇA · 08:05",
+   "fala": "Na terça, o porteiro, Seu Genésio, deu a dica.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "No elevador, ele senta no canto e ganha petisco. Pulou? Ninguém faz festa."
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Bloco C",
+   "membros": "40 participantes",
+   "quando": "08:30",
+   "fala": "Na quinta, nova mensagem.",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Hoje o marrom foi sentadinho no canto. Calça salva!"
+    }
+   ],
+   "nomes": {
+    "carla": "Carolina",
+    "ana": "Edna",
+    "joao": "Mateus"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual você escolheria? Comenta 1 pra elevador de serviço, 2 pra treino no canto. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você escolheria?",
+   "opcoes": [
+    "1 serviço",
+    "2 treino no canto",
+    "3 escada"
+   ],
+   "escolha": 1,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

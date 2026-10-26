@@ -1,0 +1,167 @@
+{
+ "id": "h159-cupuacu-rojao-da-final-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "PARTE 2: o que a Letícia, do 702, trouxe na caixa pro Cupuaçu 📦 Uma toca com cobertor velho, num canto escuro, montada antes do susto. E treino de som baixinho com petisco até o Réveillon.\nO seu tem um esconderijo só dele? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Se o medo for muito intenso, converse com o veterinário. Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #condominio #historiadecachorro",
+ "serie": "cupuacu-rojao-da-final",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. A Letícia chegou com uma caixa pro Cupuaçu.",
+   "linhas": [
+    "A CAIXA DO 702",
+    "O QUE TINHA DENTRO?",
+    "PARTE 2"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 18:46",
+   "fala": "A Letícia, onze anos, abriu a caixa. Dentro, um cobertor velho.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "É uma toca. A minha cachorra só se acalma na dela."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 18:50",
+   "fala": "Colocaram a toca no canto mais escuro da sala, longe da janela.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 780
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 18:55",
+   "fala": "O Cupuaçu saiu de trás da máquina, cheirou o cobertor, e entrou na toca.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 19:10",
+   "fala": "Rojão do terceiro gol. Ele ficou lá dentro, quietinho. E ninguém puxou ele pra fora.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Esconderijo respeitado, e preparado antes do susto.",
+   "topo": [
+    "O QUE MUDOU"
+   ],
+   "de": "ATRÁS DA MÁQUINA",
+   "para": "TOCA DELE",
+   "para_palavra": "preparado"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEGUNDA · 21:00",
+   "fala": "Na segunda, começou o treino: som de rojão baixinho e petisco, um pouco por dia.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu tem um esconderijo só dele? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele tem esconderijo?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 vou montar"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,78 @@
+{
+ "id": "r079-erro-festa-na-hora-da-guia",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "guia",
+ "legenda": "Pare de fazer festa quando pega a guia 🦮\n\n❌ \"Vamos passear?!\" com pulo e correria\n✅ Guia só sai com ele calmo\n✅ Pulou? A guia volta pro gancho\n\nO seu vira um foguete quando vê a guia? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#passeiocomcachorro #puxarguia #meucaoobedece #adestramento #dicasdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de fazer festa quando pega a guia.",
+   "linhas": [
+    "PARE DE FAZER FESTA",
+    "COM A GUIA NA MÃO"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Se o passeio começa com pulo e correria, ele já sai de casa elétrico. E puxa a guia até a esquina.",
+   "linhas": [
+    "COMEÇOU ELÉTRICO",
+    "PUXA ATÉ A ESQUINA"
+   ],
+   "destaque": 1,
+   "icone": "x",
+   "mascote": "bravo"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Faz assim: a guia só sai do gancho quando ele estiver calmo.",
+   "topo": [
+    "EM VEZ DISSO"
+   ],
+   "de": "FESTA NA GUIA",
+   "para": "GUIA COM CALMA",
+   "para_palavra": "calmo"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 2,
+   "fala": "Um: pulou? A guia volta pro gancho. Espera uns segundos e tenta de novo.",
+   "titulo": "Pulou? Volta",
+   "sub": "e tenta de novo",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 2,
+   "fala": "Dois: quatro patas no chão, guia no peitoral, e porta aberta. A calma é que abre a porta.",
+   "titulo": "Calma abre a porta",
+   "sub": "quatro patas no chão",
+   "icone": "porta"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "id": "h158-cupuacu-rojao-da-final-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "Final do campeonato: cada gol, um rojão. E o Cupuaçu sumiu atrás da máquina de lavar ⚽🎆 PARTE 1. Aí a menina do 702 tocou a campainha com uma caixa...\nO que você acha que tinha na caixa? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #condominio #reveillon #historiadecachorro",
+ "serie": "cupuacu-rojao-da-final",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Final do campeonato. Cada gol, um rojão. E o Cupuaçu sumiu.",
+   "linhas": [
+    "FINAL DO CAMPEONATO",
+    "CADA GOL, UM ROJÃO",
+    "PARTE 1"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 17:40",
+   "fala": "Primeiro gol. O prédio inteiro gritou. E veio o rojão.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "GOOOL!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 17:42",
+   "fala": "O Cupuaçu se enfiou atrás da máquina de lavar. Tremendo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco A · Torcida",
+   "membros": "48 participantes",
+   "quando": "17:50",
+   "fala": "O Rubens pediu ajuda no grupo.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Meu cachorro tá tremendo atrás da máquina. Alguém?",
+     "eu": true
+    },
+    {
+     "quem": "vizinho",
+     "texto": "No segundo tempo vai ter mais rojão, viu"
+    }
+   ],
+   "nomes": {
+    "joao": "Rubens",
+    "vizinho": "Seu Alberto"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão escuta sons que a gente nem percebe. O rojão chega mais forte pra ele.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE OUVE MAIS QUE VOCÊ",
+    "o rojão chega mais forte"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 18:45",
+   "fala": "Aí tocou a campainha. Era a Letícia, do setecentos e dois, com uma caixa.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Eu sei o que fazer com ele."
+    }
+   ],
+   "campainha": 1
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que tinha na caixa? Comenta 1, 2 ou 3. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que tinha na caixa?",
+   "opcoes": [
+    "1 um brinquedo",
+    "2 uma toca",
+    "3 um petisco"
+   ],
+   "escolha": 1,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

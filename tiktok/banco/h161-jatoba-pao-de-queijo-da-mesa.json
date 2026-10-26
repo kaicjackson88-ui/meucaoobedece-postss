@@ -1,0 +1,175 @@
+{
+ "id": "h161-jatoba-pao-de-queijo-da-mesa",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "O Jatobá explica como um pedaço de pão de queijo virou plantão na mesa 🧀 Quem resolveu foi a veterinária, na consulta de rotina: petisco só no tapete dele, nunca do prato.\nO seu pede comida na mesa? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #comportamentocanino #adestramentocanino #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Jatobá. E domingo tem pão de queijo na mesa.",
+   "linhas": [
+    "EU SOU O JATOBÁ",
+    "DOMINGO TEM",
+    "PÃO DE QUEIJO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 09:00",
+   "fala": "Domingo, o Tarcísio me deu um pedaço de pão de queijo. Da mesa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 12:30",
+   "fala": "Pronto: mesa é onde cai comida. No almoço, chorei, lati e botei a pata em todo mundo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família",
+   "membros": "8 participantes",
+   "quando": "13:00",
+   "fala": "A irmã dele reclamou.",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "O Jatobá comeu o frango do meu prato"
+    },
+    {
+     "quem": "joao",
+     "texto": "Ele só pede...",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "bia": "Cristina",
+    "joao": "Tarcísio"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 10:00",
+   "fala": "Terça, consulta de rotina. A doutora Beatriz perguntou da comida.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Pedir na mesa ele aprendeu. Petisco só no tapete dele."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Agora a comida só vem no meu tapete.",
+   "topo": [
+    "O QUE MUDOU"
+   ],
+   "de": "PEDAÇO DA MESA",
+   "para": "PETISCO NO TAPETE",
+   "para_palavra": "tapete"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO SEGUINTE · 09:00",
+   "fala": "Domingo seguinte. Pão de queijo na mesa. E eu, no tapete, esperando o meu.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu pede comida na mesa? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele pede na mesa?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 ele rouba"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,169 @@
+{
+ "id": "h167-inga-feira-de-domingo-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "Mesma feira de domingo, mesma barraca de pastel. Mês passado, o Ingá subiu no balcão 🥟 Hoje, olha ele. A dica veio da Valéria, no grupo do bairro: treino em casa primeiro, rua calma depois, feira só no fim.\nVocê levaria o seu na feira? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #puxarguia #adestramentocanino #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mesma feira de domingo, mesma barraca de pastel. Olha a diferença do Ingá.",
+   "linhas": [
+    "MÊS PASSADO: CAOS",
+    "HOJE: OLHA ELE",
+    "MESMA FEIRA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 09:00",
+   "fala": "Mês passado. Barraca de pastel. O Ingá de pé no balcão.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 09:10",
+   "fala": "Depois arrastou a Mariana até a barraca do peixe. E latiu pro peixe.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Vizinhos da Vila",
+   "membros": "57 participantes",
+   "quando": "12:00",
+   "fala": "A Mariana desabafou no grupo do bairro.",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Alguém leva cachorro na feira sem passar vergonha?",
+     "eu": true
+    },
+    {
+     "quem": "bia",
+     "texto": "Treina em casa: guia frouxa e petisco. Depois rua calma. Feira só no fim."
+    }
+   ],
+   "nomes": {
+    "carla": "Mariana",
+    "bia": "Valéria"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 09:00",
+   "fala": "Hoje. Mesma barraca. O Ingá sentado, olhando pra Mariana.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 09:10",
+   "fala": "Passou pelo peixe com a guia frouxa. E o pasteleiro, Seu Valmir, não acreditou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "É o mesmo cachorro que subiu no meu balcão?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você levaria o seu na feira? Comenta 1 pra sim, 2 pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Levaria na feira?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 nem pensar"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
