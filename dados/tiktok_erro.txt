@@ -1,1 +1,1 @@
-2026-10-27T17:00:12.215918-03:00 h156-figo-rojao-de-teste-em-outubro: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610280400123DA43F53B5700629D3CC"}}
+2026-10-27T17:10:18.729640-03:00 h156-figo-rojao-de-teste-em-outubro: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261028041018FBDD88931695B824FA4A"}}
