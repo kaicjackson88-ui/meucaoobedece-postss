@@ -840,5 +840,16 @@
   "media_id": "17977029549006016",
   "link": "https://www.instagram.com/p/De_3LP9l2NZ/",
   "publicado_em": "2026-10-27T12:30:56.963780+00:00"
+ },
+ {
+  "slot": "2026-10-27 12:00",
+  "seg": "fogos",
+  "tema": "Medo de fogos",
+  "gancho": "Seu cão treme quando tem fogos?",
+  "assin": "fogos|Seu cão [treme] quando tem fogos?|1,3,4",
+  "seed": 218155830,
+  "media_id": "17914034664508066",
+  "link": "https://www.instagram.com/p/DfAIV8oDoYM/",
+  "publicado_em": "2026-10-27T15:00:59.470119+00:00"
  }
 ]
