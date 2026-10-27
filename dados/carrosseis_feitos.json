@@ -818,5 +818,16 @@
   "media_id": "18092592185213102",
   "link": "https://www.instagram.com/p/De-TnSSjf7c/",
   "publicado_em": "2026-10-26T22:01:02.319458+00:00"
+ },
+ {
+  "slot": "2026-10-27 07:00",
+  "seg": "chamado",
+  "tema": "Não vem quando chama",
+  "gancho": "Seu cão foge quando você chama?",
+  "assin": "chamado|Seu cão [foge] quando você chama?|0,2,4",
+  "seed": 583031731,
+  "media_id": "18010397783779681",
+  "link": "https://www.instagram.com/p/De_mBdNAVjE/",
+  "publicado_em": "2026-10-27T10:01:08.870746+00:00"
  }
 ]
