@@ -1,0 +1,170 @@
+{
+ "id": "h171-requeijao-sumico-do-banho-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "sol",
+ "legenda": "PARTE 2: a ideia da Nathalia, de 12 anos, pro Requeijão parar de fugir do banho 🛁 Primeiro o banheiro virou lugar de petisco. A água veio depois, aos poucos.\nO seu foge do banho? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#banhodecachorro #apartamento #comportamentocanino #adestramentocanino #historiadecachorro",
+ "serie": "requeijao-sumico-do-banho",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. O Requeijão fugia do banho. A Nathalia tinha um plano.",
+   "linhas": [
+    "PARTE 2",
+    "O PLANO DA",
+    "NATHALIA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 15:00",
+   "fala": "Recapitulando: o Requeijão fugia do banho. O plano começou sem água.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Banheiro agora é só petisco e brincadeira."
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 15:00",
+   "fala": "No dia seguinte, ele já entrava sozinho no banheiro, procurando petisco.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 18:00",
+   "fala": "Depois, o chuveiro de longe, com petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família · Casa 12",
+   "membros": "6 participantes",
+   "quando": "18:10",
+   "fala": "A vó não acreditou na foto.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Foto: o Requeijão sentado no box?!"
+    },
+    {
+     "quem": "joao",
+     "texto": "Sem água ainda, mãe. Um passo de cada vez.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Douglas",
+    "sindica": "Vó Nena",
+    "bia": "Nathalia"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Antes, banheiro era susto. Agora, banheiro é petisco.",
+   "topo": [
+    "O QUE MUDOU"
+   ],
+   "de": "BANHO = SUMIR",
+   "para": "BANHEIRO = PETISCO",
+   "para_palavra": "petisco"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEMANAS DEPOIS · 10:00",
+   "fala": "Semanas depois: banho curto, petisco no fim. E o Requeijão ficou.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu foge do banho? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele foge do banho?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 ele ama banho"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

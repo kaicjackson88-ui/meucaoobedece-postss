@@ -1,0 +1,81 @@
+{
+ "id": "r086-curio-xixi-no-poste",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "xixi",
+ "legenda": "Por que ele faz um pinguinho de xixi em cada poste? 🐾\n\n🐾 Xixi é recado de cheiro\n🐾 Cheirar o xixi dos outros é ler as notícias\n🐾 Pouquinho em vários lugares = marcar território\n\nO seu marca tudo no passeio? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#xixinolugarcerto #curiosidadesdecachorro #meucaoobedece #comportamentocanino #passeiocomcachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Por que o seu cão faz um pinguinho de xixi em cada poste? Três curiosidades.",
+   "linhas": [
+    "UM PINGUINHO",
+    "EM CADA POSTE?"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "XIXI É RECADO",
+    "de cheiro"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "",
+   "fala": "Um: o xixi é um recado de cheiro. Ele deixa ali quem passou."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CHEIRAR O POSTE",
+    "é ler as notícias"
+   ],
+   "icone": "lampada",
+   "numero_palavra": "",
+   "fala": "Dois: cheirar o xixi de outros cães é como ler as notícias do bairro."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "POUQUINHO EM VÁRIOS LUGARES",
+    "é marcar território"
+   ],
+   "icone": "pata",
+   "numero_palavra": "",
+   "fala": "Três: pouquinho em vários lugares é marcação. Por isso ele guarda o xixi pro passeio inteiro."
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

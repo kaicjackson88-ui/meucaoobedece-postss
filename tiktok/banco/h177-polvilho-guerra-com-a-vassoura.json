@@ -1,0 +1,161 @@
+{
+ "id": "h177-polvilho-guerra-com-a-vassoura",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "Toda vez que alguém varre a casa, o Polvilho declara guerra à vassoura 🧹 Quem resolveu foi a Dona Marlene, a diarista: 10 minutos de corda antes da faxina, e a vassoura ficou sem graça.\nO seu briga com a vassoura? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #comportamentocanino #adestramentocanino #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Toda vez que alguém varre a casa, o Polvilho declara guerra à vassoura.",
+   "linhas": [
+    "VASSOURA NA MÃO?",
+    "O POLVILHO",
+    "DECLARA GUERRA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 09:00",
+   "fala": "A vassoura saía, e o Polvilho cravava os dentes.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Solta, Polvilho!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 09:05",
+   "fala": "A Bárbara puxava. Ele puxava mais. Melhor jogo do dia.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUARTA · 09:00",
+   "fala": "Aí a diarista, Dona Marlene, riu.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Vassoura fugindo é brinquedo, menina. Cansa ele na corda antes de varrer."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Muitos filhotes perseguem o que se mexe rápido. É instinto.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "MEXEU RÁPIDO?",
+    "virou brincadeira"
+   ],
+   "icone": "bola"
+  },
+  {
+   "tipo": "virada",
+   "fala": "A vassoura ficou sem graça. O jogo agora é a corda.",
+   "topo": [
+    "O QUE MUDOU"
+   ],
+   "de": "VASSOURA = JOGO",
+   "para": "CORDA = JOGO",
+   "para_palavra": "corda"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEXTA · 09:00",
+   "fala": "Sexta. Corda antes da faxina. Depois, a vassoura passou, e o Polvilho cochilou.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu briga com a vassoura? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele briga com a vassoura?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 com o aspirador"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

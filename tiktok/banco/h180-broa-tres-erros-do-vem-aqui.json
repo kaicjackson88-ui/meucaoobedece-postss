@@ -1,0 +1,171 @@
+{
+ "id": "h180-broa-tres-erros-do-vem-aqui",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz quando chama o seu cão, e ele entende \"corre pro outro lado\" 🏃 Quem mostrou o certo pro Adriano foi a sobrinha, Estela: chama uma vez, festa e petisco quando ela vem, e nunca chamar pra coisa chata. Treine primeiro dentro de casa.\nQual desses erros você comete? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#vemaqui #chamadocanino #adestramentocanino #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três erros quando você chama o seu cão. E ele corre pro outro lado.",
+   "linhas": [
+    "3 ERROS NO \"VEM AQUI\"",
+    "ELE ENTENDE:",
+    "CORRE PRO OUTRO LADO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1 · 18:00",
+   "fala": "Erro um: chamar só pra banho e bronca. Vem aqui virou coisa chata.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Broa, vem aqui!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ERRO 2 · 07:00",
+   "fala": "Erro dois: repetir vem, vem, vem. Ela aprende que só a décima vale.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ERRO 3 · 07:05",
+   "fala": "Erro três: correr atrás dela. Pra Broa, começou o pega-pega.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 10:00",
+   "fala": "Quem corrigiu foi a sobrinha, Estela.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Tio, chama uma vez só. Veio? Festa e petisco. E nunca chama pra coisa chata."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Chamou uma vez. Veio, ganhou festa.",
+   "topo": [
+    "O CERTO"
+   ],
+   "de": "VEM, VEM, VEM",
+   "para": "UMA VEZ E FESTA",
+   "para_palavra": "festa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUINTA · 18:00",
+   "fala": "Quinta. Um vem aqui, e a Broa chegou voando.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses erros você comete? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual erro é o seu?",
+   "opcoes": [
+    "1 chamar pra bronca",
+    "2 repetir",
+    "3 correr atrás"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

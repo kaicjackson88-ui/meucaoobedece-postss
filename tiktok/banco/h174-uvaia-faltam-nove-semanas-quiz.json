@@ -1,0 +1,157 @@
+{
+ "id": "h174-uvaia-faltam-nove-semanas-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "noite",
+ "legenda": "Faltam 9 semanas pro Réveillon. E a Uvaia já se esconde com um rojão só 🎆 O que você faria? 1 esperar dezembro, 2 prender no quintal pra acostumar, 3 começar agora com cantinho seguro e som baixinho.\nComenta 1, 2 ou 3 antes de ver a resposta 👇 Remédio e casos de muito medo: só com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#reveillon #fogosnao #cachorroemedo #condominio #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Faltam nove semanas pro Réveillon, e a Uvaia já se esconde. O que você faria?",
+   "linhas": [
+    "FALTAM 9 SEMANAS",
+    "PRO RÉVEILLON",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SÁBADO · 22:00",
+   "fala": "Sábado. Um rojão na rua de trás, e a Uvaia sumiu no banheiro.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "relogio": "22:00",
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 22:05",
+   "fala": "O Cristiano pensou na virada do ano e gelou.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Imagina a meia-noite?",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: esperar dezembro. Dois: prender no quintal. Três: começar agora. Comenta antes da resposta.",
+   "topo": [
+    "1 ESPERAR DEZEMBRO",
+    "2 PRENDER NO QUINTAL",
+    "3 COMEÇAR AGORA"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 10:00",
+   "fala": "Resposta: três, disse a veterinária, doutora Graça.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Começa agora: cantinho seguro e som de fogos bem baixinho, com petisco. O resto a gente vê aqui."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "QUINTA · 21:00",
+   "fala": "Toda noite, cinco minutinhos: som baixinho, petisco e toca.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "relogio": "21:00",
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Acertou? Comenta o número que você escolheu. E o seu, já começou? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 esperar",
+    "2 quintal",
+    "3 começar agora"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

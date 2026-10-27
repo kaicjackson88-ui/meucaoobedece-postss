@@ -1,0 +1,173 @@
+{
+ "id": "h176-picanha-churrasco-da-laje-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Mesmo churrasco, mesmo domingo. Mês passado, o Picanha roubou a linguiça da tábua 🍖 Hoje ele espera no tapete dele. A ideia foi da sogra do Edinho: tapete longe da grelha, e petisco só lá.\nO seu vira fiscal do churrasco? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#churrasco #cachorrocomendo #adestramentocanino #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mesmo churrasco, mesmo domingo. Mês passado, o Picanha era o ladrão da grelha.",
+   "linhas": [
+    "MÊS PASSADO",
+    "O LADRÃO DA GRELHA",
+    "E HOJE?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "MÊS PASSADO · 11:00",
+   "fala": "Mês passado. O Edinho temperando a carne. E o Picanha com as patas na pia.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "DESCE, PICANHA!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 13:00",
+   "fala": "Na churrasqueira, ele pegou a linguiça e sumiu.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "A sogra, Dona Lurdes, deu a ideia: um tapete só dele, longe da grelha.",
+   "topo": [
+    "O QUE MUDOU"
+   ],
+   "de": "PATA NA PIA",
+   "para": "TAPETE DELE",
+   "para_palavra": "tapete"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "HOJE · 11:00",
+   "fala": "Hoje. O Edinho temperando a carne. E o Picanha deitado no tapete, de olho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 13:00",
+   "fala": "Linguiça na tábua. E ele no tapete, esperando o petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 13:10",
+   "fala": "Aí chegou o cunhado, Josias.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Cadê o ladrão de linguiça?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu vira fiscal do churrasco? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele rouba no churrasco?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só a farofa"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

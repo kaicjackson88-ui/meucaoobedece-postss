@@ -1,0 +1,175 @@
+{
+ "id": "h175-pupunha-tres-erros-do-tapete",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz com o tapete higiênico, e o seu cão entende \"xixi é em qualquer lugar\" 💦 Quem mostrou o certo pro Hélio foi o Seu Natanael, do 101: tapete longe da comida, sempre no mesmo canto, e limpeza sem cheiro forte.\nQual desses erros você comete? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três erros com o tapete higiênico que bagunçam o xixi.",
+   "linhas": [
+    "3 ERROS COM O",
+    "TAPETE HIGIÊNICO",
+    "ELE ENTENDE ERRADO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 1 · 07:00",
+   "fala": "Erro um: tapete colado no pote de comida.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 2 · 12:00",
+   "fala": "Erro dois: cada dia o tapete num canto. A Pupunha faz no corredor.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 620,
+     "y": 1480
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 3 · 18:00",
+   "fala": "Erro três: limpar com amônia. O cheiro lembra xixi, e ela volta ali.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 620,
+     "y": 1480
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 08:00",
+   "fala": "Quem mostrou o certo foi o Seu Natanael, do cento e um.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Longe da comida, sempre no mesmo canto. E limpa sem cheiro forte."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Tapete longe da comida, sempre no mesmo lugar. E festa quando ela acerta.",
+   "topo": [
+    "O CERTO"
+   ],
+   "de": "TAPETE ANDANDO",
+   "para": "TAPETE FIXO",
+   "para_palavra": "lugar"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "TERÇA · 21:00",
+   "fala": "Terça. Xixi no tapete. Petisco e festa.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "relogio": "21:00",
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses erros você comete? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual erro é o seu?",
+   "opcoes": [
+    "1 perto da comida",
+    "2 muda de lugar",
+    "3 amônia"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

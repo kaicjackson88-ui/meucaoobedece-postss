@@ -1,0 +1,69 @@
+{
+ "id": "r085-erro-comida-de-madrugada",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "latido",
+ "legenda": "Ele late de madrugada e você levanta pra pôr ração? ⏰\n\n❌ Latiu, ganhou comida\n✅ Refeições sempre no mesmo horário\n✅ Comida só quando ele está quieto\n\nO seu te acorda pra comer? Comenta 1 pra sim, 2 pra não 👇\nNo começo ele pode insistir mais. Se o latido vier com sinal de dor ou mal-estar, procure o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #meucaoobedece #adestramento #apartamento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de levantar de madrugada pra dar comida quando ele late.",
+   "linhas": [
+    "ELE LATE ÀS 4H",
+    "E VOCÊ SERVE?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Cada vez que o latido traz comida, ele aprende: latir funciona. E late mais cedo.",
+   "linhas": [
+    "LATIU,",
+    "GANHOU COMIDA"
+   ],
+   "destaque": 1,
+   "icone": "megafone",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Faz assim: refeição no mesmo horário, todo dia. E a comida só vem com ele quieto.",
+   "topo": [
+    "EM VEZ DISSO"
+   ],
+   "de": "LATIU, COMEU",
+   "para": "QUIETO, COME",
+   "para_palavra": "quieto"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "E capriche no passeio da noite. Cão cansado dorme melhor.",
+   "titulo": "Passeio à noite",
+   "sub": "cansado dorme melhor",
+   "icone": "guia"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

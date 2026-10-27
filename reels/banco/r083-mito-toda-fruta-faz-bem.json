@@ -1,0 +1,78 @@
+{
+ "id": "r083-mito-toda-fruta-faz-bem",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "curiosidade",
+ "legenda": "Fruta é sempre um petisco saudável pro cão? Nem sempre 🍇\n\n❌ Toda fruta faz bem\n✅ Uva e uva-passa podem fazer mal\n✅ Petisco novo: pergunte ao veterinário antes\n\nVocê sabia da uva? Comenta 1 pra sim, 2 pra não 👇\nSe ele comeu algo suspeito, ligue pro veterinário na hora.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cuidadoscomcachorro #cachorrocomendo #meucaoobedece #adestramento #dicasdecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Fruta é sempre um petisco saudável pro seu cão? Mito ou verdade?",
+   "linhas": [
+    "TODA FRUTA",
+    "FAZ BEM PRO CÃO?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Toda fruta faz bem pro cão. Mito. Algumas não servem pra ele.",
+   "frase": "Toda fruta faz bem pro cão",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "NEM TODA",
+    "FRUTA SERVE"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "Uva e uva-passa podem fazer mal pro cão, mesmo em pouca quantidade. Verdade. Deixe longe do alcance.",
+   "frase": "Uva pode fazer mal",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "UVA E PASSA",
+    "LONGE DELE"
+   ],
+   "icone": "check"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Se ele comeu algo suspeito, é melhor esperar pra ver. Mito. Ligue pro veterinário na hora.",
+   "frase": "Comeu? Espera pra ver",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "LIGUE PRO",
+    "VETERINÁRIO"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

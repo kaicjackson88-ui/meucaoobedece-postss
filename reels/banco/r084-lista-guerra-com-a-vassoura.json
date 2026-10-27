@@ -1,0 +1,66 @@
+{
+ "id": "r084-lista-guerra-com-a-vassoura",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "mordida",
+ "legenda": "Pegou a vassoura e o seu cão declarou guerra? 🧹\n\n1️⃣ Gaste a energia antes, com um brinquedo de puxar\n2️⃣ Deixe um mordedor no cantinho dele durante a faxina\n3️⃣ Não puxe a vassoura de volta: vira cabo de guerra\n\nO seu briga com a vassoura? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#filhotemordendo #comportamentocanino #meucaoobedece #adestramento #apartamento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pegou a vassoura e o seu cão declarou guerra? Três passos pra faxina em paz.",
+   "linhas": [
+    "VASSOURA NA MÃO?",
+    "ELE DECLARA GUERRA"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: antes da faxina, gaste a energia dele com um brinquedo de puxar.",
+   "titulo": "Brinque antes",
+   "sub": "brinquedo de puxar",
+   "icone": "bola"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: durante a faxina, deixe um mordedor no cantinho dele.",
+   "titulo": "Mordedor no cantinho",
+   "sub": "durante a faxina",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: se ele morder a vassoura, não puxe de volta. Pra ele, vira cabo de guerra.",
+   "titulo": "Não puxe de volta",
+   "sub": "vira brincadeira",
+   "icone": "x"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

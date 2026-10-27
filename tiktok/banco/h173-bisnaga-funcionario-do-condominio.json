@@ -1,0 +1,197 @@
+{
+ "id": "h173-bisnaga-funcionario-do-condominio",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "O Bisnaga decidiu que é o novo funcionário do condomínio. A recepção dele: duas patas no peito de quem chega 😅 Quem resolveu foi o Seu Jair, da portaria: pulou, a pessoa vira de costas; 4 patas no chão, aí sim carinho.\nNo seu prédio tem um recepcionista assim? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #cachorropulando #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Bisnaga decidiu que é o novo funcionário do condomínio.",
+   "linhas": [
+    "O BISNAGA É O",
+    "NOVO FUNCIONÁRIO",
+    "DO CONDOMÍNIO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 08:00",
+   "fala": "A recepção do Bisnaga: duas patas no peito de quem chega.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Ai, meu casaco!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "92 participantes",
+   "quando": "09:14",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Foto: patas no meu casaco branco"
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Hoje ele pulou até no carteiro"
+    }
+   ],
+   "nomes": {
+    "pedro": "Alessandro (402)",
+    "ana": "Mônica",
+    "carla": "Jaqueline",
+    "vizinho": "Seu Jair (portaria)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "92 participantes",
+   "quando": "09:20",
+   "fala": "O Seu Jair, da portaria, respondeu.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Pulou, a gente vira de costas. Quatro patas no chão, aí sim carinho"
+    }
+   ],
+   "nomes": {
+    "pedro": "Alessandro (402)",
+    "ana": "Mônica",
+    "carla": "Jaqueline",
+    "vizinho": "Seu Jair (portaria)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "QUARTA · 08:00",
+   "fala": "O prédio todo topou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "bracos_cruzados"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Patas no chão, campeão."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · 08:00",
+   "fala": "Sexta. Quatro patas no chão pra Mônica. E carinho.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "comemora",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Jardim das Flores",
+   "membros": "92 participantes",
+   "quando": "08:30",
+   "fala": "E o grupo?",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Promovido a recepcionista oficial"
+    }
+   ],
+   "nomes": {
+    "pedro": "Alessandro (402)",
+    "ana": "Mônica",
+    "carla": "Jaqueline",
+    "vizinho": "Seu Jair (portaria)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "No seu prédio tem um recepcionista assim? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Tem um desses aí?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 é o meu"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,155 @@
+{
+ "id": "h179-panqueca-uva-no-chao-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "A sacola rasgou, as uvas caíram e a Panqueca comeu antes de alguém abaixar 🍇 O que você faria? 1 esperar pra ver se passa, 2 dar leite, 3 ligar pro veterinário na hora.\nComenta 1, 2 ou 3 antes de ver a resposta 👇 Uva e uva-passa podem fazer mal ao cão: na dúvida, veterinário sempre.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #cuidadoscomcachorro #apartamento #cachorros #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Caiu uva no chão, e a Panqueca comeu. O que você faria?",
+   "linhas": [
+    "UVA CAIU NO CHÃO",
+    "A PANQUECA COMEU",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 16:00",
+   "fala": "A sacola rasgou, e a Panqueca comeu antes da Giovana abaixar.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 16:02",
+   "fala": "Ela parecia ótima. A Giovana ficou na dúvida.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Ela tá bem... né?",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: esperar pra ver se passa. Dois: dar leite. Três: ligar pro veterinário agora. Comenta antes da resposta.",
+   "topo": [
+    "1 ESPERAR",
+    "2 DAR LEITE",
+    "3 LIGAR PRO VETERINÁRIO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Uva e uva-passa podem fazer mal pro cão.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "UVA NÃO É PETISCO",
+    "nem uva-passa"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 16:05",
+   "fala": "Resposta: três. Ela ligou, e o doutor Paulo orientou.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "celular"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Doutor, ela comeu uva!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO · 16:30",
+   "fala": "Seguiu o que ele pediu. E agora, fruta só no alto.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você sabia dessa da uva? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 esperar",
+    "2 leite",
+    "3 veterinário"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,163 @@
+{
+ "id": "h170-requeijao-sumico-do-banho-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "sol",
+ "legenda": "PARTE 1: o Requeijão ouviu a palavra BANHO. E ninguém sabe onde ele se escondeu 🛁 Aí a Nathalia, de 12 anos, teve uma ideia...\nO que você acha que ela fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#banhodecachorro #apartamento #comportamentocanino #cachorros #historiadecachorro",
+ "serie": "requeijao-sumico-do-banho",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte um. O Requeijão ouviu a palavra banho. E sumiu.",
+   "linhas": [
+    "ELE OUVIU \"BANHO\"",
+    "E SUMIU",
+    "PARTE 1"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 10:00",
+   "fala": "O Douglas falou banho. O Requeijão disparou.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Hoje é dia de banho!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 10:05",
+   "fala": "Banheiro, quarto, varanda. Nada do Requeijão.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Cadê esse cachorro?",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família · Casa 12",
+   "membros": "6 participantes",
+   "quando": "10:12",
+   "fala": "A família toda procurou.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Alguém viu o Requeijão?",
+     "eu": true
+    },
+    {
+     "quem": "sindica",
+     "texto": "Áudio: fugiu do banho de novo?"
+    },
+    {
+     "quem": "bia",
+     "texto": "Pai, olha atrás do sofá"
+    }
+   ],
+   "nomes": {
+    "joao": "Douglas",
+    "sindica": "Vó Nena",
+    "bia": "Nathalia"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão aprende rápido a palavra que vem antes do que ele não gosta.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE APRENDE A PALAVRA",
+    "e o que vem depois dela"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 10:20",
+   "fala": "Achou, atrás do sofá. Aí a Nathalia teve uma ideia.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Pai, e se o banheiro virasse o lugar mais legal da casa?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que ela fez? Comenta um, dois ou três. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que a Nathalia fez?",
+   "opcoes": [
+    "1 petisco no banheiro",
+    "2 banho na rua",
+    "3 desistir do banho"
+   ],
+   "escolha": 0,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

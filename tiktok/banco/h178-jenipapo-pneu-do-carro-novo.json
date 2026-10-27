@@ -1,0 +1,171 @@
+{
+ "id": "h178-jenipapo-pneu-do-carro-novo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Carro novo na garagem. E toda manhã, xixi no pneu 🚗 O grupo do prédio achou o culpado: o Jenipapo, do 204. Quem resolveu foi a Dona Eunice, do térreo: na garagem, guia curta; xixi só no canteiro da rua, com elogio.\nNo seu prédio tem um Jenipapo? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #condominio #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Carro novo na garagem. E toda manhã, xixi no pneu.",
+   "linhas": [
+    "CARRO NOVO",
+    "XIXI NO PNEU",
+    "TODA MANHÃ"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Garagem · Edifício Aurora",
+   "membros": "64 participantes",
+   "quando": "07:15",
+   "fala": "O Moisés mandou foto no grupo.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Foto: o pneu do meu carro novo molhado. De novo."
+    },
+    {
+     "quem": "ana",
+     "texto": "Isso é cachorro marcando território"
+    }
+   ],
+   "nomes": {
+    "pedro": "Moisés (301)",
+    "joao": "Lucas (204)",
+    "sindica": "Dona Eunice (térreo)",
+    "ana": "Simara"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Garagem · Edifício Aurora",
+   "membros": "64 participantes",
+   "quando": "07:20",
+   "fala": "O Lucas gelou. Era o Jenipapo.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Moisés, desculpa. É o meu. Vou resolver.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "pedro": "Moisés (301)",
+    "joao": "Lucas (204)",
+    "sindica": "Dona Eunice (térreo)",
+    "ana": "Simara"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "TERÇA · 06:50",
+   "fala": "Terça cedo, flagrante: o Jenipapo direto no pneu.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 620,
+     "y": 1480
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Garagem · Edifício Aurora",
+   "membros": "64 participantes",
+   "quando": "07:40",
+   "fala": "A Dona Eunice, do térreo, deu a dica.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Garagem, guia curta. Xixi só no canteiro, com elogio."
+    }
+   ],
+   "nomes": {
+    "pedro": "Moisés (301)",
+    "joao": "Lucas (204)",
+    "sindica": "Dona Eunice (térreo)",
+    "ana": "Simara"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEXTA · 06:50",
+   "fala": "Sexta. Guia curta na garagem, xixi no canteiro, e festa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Garagem · Edifício Aurora",
+   "membros": "64 participantes",
+   "quando": "07:15",
+   "fala": "E o Moisés?",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Foto: pneu sequinho. Valeu, Jenipapo"
+    }
+   ],
+   "nomes": {
+    "pedro": "Moisés (301)",
+    "joao": "Lucas (204)",
+    "sindica": "Dona Eunice (térreo)",
+    "ana": "Simara"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "No seu prédio tem um Jenipapo? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Tem um Jenipapo aí?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 é o meu"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
