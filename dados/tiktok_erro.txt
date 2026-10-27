@@ -1,1 +1,1 @@
-2026-10-27T07:40:28.152006-03:00 h146-castanha-celular-do-rojao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261027184027E654C7302297600FC196"}}
+2026-10-27T10:34:09.596404-03:00 h147-picole-cachorro-misterioso-da-janela: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261027213409F91FF74E191B72195451"}}
