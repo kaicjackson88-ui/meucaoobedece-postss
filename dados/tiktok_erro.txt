@@ -1,1 +1,1 @@
-2026-10-27T10:34:09.596404-03:00 h147-picole-cachorro-misterioso-da-janela: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261027213409F91FF74E191B72195451"}}
+2026-10-27T12:34:58.364439-03:00 h156-figo-rojao-de-teste-em-outubro: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261027233458265E38D67CAEEB2AE77C"}}
