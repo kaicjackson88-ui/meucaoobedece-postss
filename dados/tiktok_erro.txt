@@ -1,1 +1,1 @@
-2026-10-26T22:56:10.528710-03:00 h017-proibido-no-elevador: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261027095610B96D6AC460109DCD50CC"}}
+2026-10-27T07:20:22.892092-03:00 h146-castanha-celular-do-rojao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610271820226F836E6D86A9071314FA"}}
