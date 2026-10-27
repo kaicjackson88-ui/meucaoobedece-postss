@@ -1,1 +1,1 @@
-2026-10-27T07:30:25.497896-03:00 h146-castanha-celular-do-rojao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261027183025360549DDC309D7F6B03B"}}
+2026-10-27T07:40:28.152006-03:00 h146-castanha-celular-do-rojao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261027184027E654C7302297600FC196"}}
