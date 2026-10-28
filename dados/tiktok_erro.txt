@@ -1,1 +1,1 @@
-2026-10-28T07:38:15.893734-03:00 h153-waffle-e-o-dog-sitter-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261028183815AE222FF4EF2C5309DE85"}}
+2026-10-28T07:48:19.117530-03:00 h153-waffle-e-o-dog-sitter-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261028184818C7F2468F6E115C09D0AB"}}
