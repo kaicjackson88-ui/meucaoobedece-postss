@@ -1,16 +1,16 @@
 {
  "perfil": {
-  "display_name": "Meucaobedece",
   "follower_count": 5,
   "likes_count": 133,
-  "video_count": 54
+  "video_count": 54,
+  "display_name": "Meucaobedece"
  },
- "atualizado": "2026-10-27T05:21:51.536520-03:00",
+ "atualizado": "2026-10-27T23:46:39.559402-03:00",
  "videos": [
   {
    "video": "7696660352351653121",
    "roteiro": "h059-rabanete-caminhao-do-lixo",
-   "views": 131,
+   "views": 132,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
