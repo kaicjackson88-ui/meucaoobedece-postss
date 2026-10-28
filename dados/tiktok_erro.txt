@@ -1,1 +1,1 @@
-2026-10-27T22:54:27.111633-03:00 h149-jambo-esqueleto-do-setimo-andar: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261028095426E5784E3F4F66134BB5A7"}}
+2026-10-27T23:04:29.780510-03:00 h149-jambo-esqueleto-do-setimo-andar: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261028100429D7FF8A336EF9201A6C55"}}
