@@ -1,20 +1,13 @@
-Aguardando o horário 14:00 (118 min)...
-Roteiro: h030-juca-meia-do-vo (tiktok-historia, estilo sol) — horário 2026-10-28 14:00
-Narração...
-voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-[0;93m2026-10-28 17:00:06.512858360 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-  história: o mesmo cão real (f1851107) em todas as cenas, 1 quadro(s)
-Render...
-  frame 0/1128
-  frame 300/1128
-  frame 600/1128
-  frame 900/1128
-Áudio...
-Preparing worktree (detached HEAD ec3525f)
-HEAD is now at ec3525f Carrossel publicado
-Switched to a new branch 'tmp-20261028-1403-h030-juca-meia-do-vo'
+Aguardando o horário 19:00 (115 min)...
+  cão real "bravo" pronto
+  cão real "feliz" pronto
+  cão real "normal" pronto
+  cão real "dorminhoco" pronto
+  cão real "lendario" pronto
+Preparing worktree (detached HEAD 82f3c3d)
+HEAD is now at 82f3c3d Reels publicado
+Switched to a new branch 'tmp-midia-20261028-1900-c-coleira'
 remote: 
-remote: Create a pull request for 'midia-20261028-1403-h030-juca-meia-do-vo' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261028-1403-h030-juca-meia-do-vo        
+remote: Create a pull request for 'midia-20261028-1900-c-coleira' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261028-1900-c-coleira        
 remote: 
