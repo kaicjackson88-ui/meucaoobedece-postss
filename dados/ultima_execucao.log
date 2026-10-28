@@ -1,13 +1,22 @@
-Aguardando o horário 07:00 (319 min)...
-  cão real "bravo" pronto
-  cão real "feliz" pronto
-  cão real "normal" pronto
-  cão real "dorminhoco" pronto
-  cão real "lendario" pronto
-Preparing worktree (detached HEAD 0a51261)
-HEAD is now at 0a51261 TikTok: história pronta
-Switched to a new branch 'tmp-midia-20261028-0700-c-roer'
+Aguardando o horário 09:00 (116 min)...
+Roteiro: r067-erro-tapete-perto-do-pote (erro, estilo menta) — horário 2026-10-28 09:00
+Narração...
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+[0;93m2026-10-28 12:00:06.499040926 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  cão real "bravo": 48 quadro(s)
+  cão real "feliz": 48 quadro(s)
+  cão real "normal": 48 quadro(s)
+  cão real "dorminhoco": 48 quadro(s)
+  cão real "lendario": 48 quadro(s)
+Render...
+  frame 0/747
+  frame 300/747
+  frame 600/747
+Áudio...
+Preparing worktree (detached HEAD cf0d6fa)
+HEAD is now at cf0d6fa Carrossel publicado
+Switched to a new branch 'tmp-20261028-0902-r067-erro-tapete-perto-do-pote'
 remote: 
-remote: Create a pull request for 'midia-20261028-0700-c-roer' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261028-0700-c-roer        
+remote: Create a pull request for 'midia-20261028-0902-r067-erro-tapete-perto-do-pote' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261028-0902-r067-erro-tapete-perto-do-pote        
 remote: 
