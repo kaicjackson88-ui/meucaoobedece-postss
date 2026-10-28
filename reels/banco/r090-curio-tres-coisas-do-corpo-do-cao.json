@@ -1,0 +1,81 @@
+{
+ "id": "r090-curio-tres-coisas-do-corpo-do-cao",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "3 coisas do corpo do seu cão que quase ninguém sabe 🐶\n\n🐾 O focinho tem desenho único, como a nossa digital\n🐾 Ele sua pelas almofadas das patas e se refresca ofegando\n🐾 Ele escuta sons agudos que a gente não ouve\n\nQual você não sabia? Comenta 1, 2 ou 3 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#curiosidadesdecachorro #meucaoobedece #comportamentocanino #cachorros #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas do corpo do seu cão que quase ninguém sabe.",
+   "linhas": [
+    "3 COISAS DO SEU CÃO",
+    "QUE NINGUÉM SABE"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O FOCINHO É ÚNICO",
+    "como uma digital"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "",
+   "fala": "Um: o focinho tem um desenho único, como a nossa impressão digital."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE SUA PELAS PATAS",
+    "e se refresca ofegando"
+   ],
+   "icone": "pata",
+   "numero_palavra": "",
+   "fala": "Dois: ele sua pelas almofadas das patas. E pra se refrescar, ele ofega com a língua pra fora."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE OUVE MAIS AGUDO",
+    "do que a gente"
+   ],
+   "icone": "sino",
+   "numero_palavra": "",
+   "fala": "Três: ele escuta sons agudos que a gente nem percebe. Por isso reage a barulhos que você não ouviu."
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "r087-lista-rojao-no-fim-de-semana",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "fogos",
+ "legenda": "Tem rojão no fim de semana e o seu cão treme? 🎆\n\n🐾 Cantinho fechado, montado antes\n🐾 Janela fechada e som de fundo\n🐾 Você por perto, com calma\n\nO seu treme ou late com rojão? Comenta 1 pra treme, 2 pra late 👇 Medo muito forte: converse com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #meucaoobedece #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Tem rojão no fim de semana e o seu cão treme? Faz isso antes.",
+   "linhas": [
+    "TEM ROJÃO",
+    "E ELE TREME?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: monte um cantinho fechado antes, com a caminha e um pano com o seu cheiro.",
+   "titulo": "Cantinho antes",
+   "sub": "com o seu cheiro",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: feche a janela e deixe a TV ou uma música baixinha de fundo.",
+   "titulo": "Janela fechada",
+   "sub": "e som de fundo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: fique por perto, com voz calma. Se ele vier pedir colo, tudo bem acolher.",
+   "titulo": "Você por perto",
+   "sub": "com calma",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

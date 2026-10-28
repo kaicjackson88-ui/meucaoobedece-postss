@@ -1,0 +1,195 @@
+{
+ "id": "h184-tucupi-alarme-das-entregas",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Toda entrega, o Tucupi latia, e o grupo do prédio contava: \"terceira vez hoje\" 📦 Com a Black Friday chegando, veio até enquete. Quem ajudou foi o porteiro, Seu Jurandir: som do interfone baixinho, petisco e o tapetinho dele.\nO seu late pra entrega? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #condominio #entregador #apartamento #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Chegou entrega? O Tucupi avisa o prédio inteiro.",
+   "linhas": [
+    "CHEGOU ENTREGA?",
+    "O TUCUPI AVISA",
+    "O PRÉDIO INTEIRO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipê · Bloco B",
+   "membros": "38 participantes",
+   "quando": "14:12",
+   "fala": "Terça, terceira entrega do dia.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Terceira vez hoje que o 302 late"
+    },
+    {
+     "quem": "ana",
+     "texto": "Desculpa, gente. É o interfone",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Márcio (401)",
+    "carla": "Gláucia (303)",
+    "ana": "Telma (302)",
+    "vizinho": "Seu Jurandir (portaria)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TERÇA · 14:15",
+   "fala": "O entregador nem quis chegar perto.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Deixo na portaria!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipê · Bloco B",
+   "membros": "38 participantes",
+   "quando": "18:40",
+   "fala": "À noite, enquete.",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Enquete: o que fazer com o latido do 302?"
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Áudio: Dona Telma, desce aqui"
+    }
+   ],
+   "nomes": {
+    "joao": "Márcio (401)",
+    "carla": "Gláucia (303)",
+    "ana": "Telma (302)",
+    "vizinho": "Seu Jurandir (portaria)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "PORTARIA · 18:50",
+   "fala": "Quem ajudou foi o porteiro.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Grava o som do interfone. Toca baixinho, petisco e tapetinho."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 10:00",
+   "fala": "Ela treinou um pouquinho todo dia.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio Ipê · Bloco B",
+   "membros": "38 participantes",
+   "quando": "14:20",
+   "fala": "Na outra terça:",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Duas entregas e silêncio no 302?"
+    },
+    {
+     "quem": "ana",
+     "texto": "Tá no tapetinho, esperando o petisco",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Márcio (401)",
+    "carla": "Gláucia (303)",
+    "ana": "Telma (302)",
+    "vizinho": "Seu Jurandir (portaria)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late pra entrega? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late pra entrega?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 até pro vizinho"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

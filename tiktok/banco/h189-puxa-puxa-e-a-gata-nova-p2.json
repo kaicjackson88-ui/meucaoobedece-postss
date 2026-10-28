@@ -1,0 +1,166 @@
+{
+ "id": "h189-puxa-puxa-e-a-gata-nova-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "PARTE 2: a Mimosa deu um tapa no focinho do Puxa-puxa. Quem resolveu foi o vizinho, Seu Laércio, que tem 2 gatos e 1 cão 🐱🐶 Comida de gato no alto, cada um no seu canto, hora certa.\nNa sua casa tem cão e gato? Comenta 1 pra sim, 2 pra não 👇 Se a convivência estiver tensa, apresente devagar e converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#caoegato #cachorrocomendo #apartamento #comportamentocanino #historiadecachorro",
+ "serie": "puxa-puxa-e-a-gata-nova",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. A gata deu um tapa no focinho do Puxa-puxa. E agora?",
+   "linhas": [
+    "A GATA REAGIU",
+    "E AGORA?",
+    "PARTE 2"
+   ],
+   "destaque": 0,
+   "parte": 2,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SÁBADO · 22:01",
+   "fala": "Na Parte 1, a Mimosa deu um tapa nele. Sem unha, só recado.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "CAI!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 09:00",
+   "fala": "O vizinho, Seu Laércio, que tem dois gatos e um cão, ajudou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "cansado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Comida de gato no alto. Cada um come no seu canto."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 12:00",
+   "fala": "A tigela da Mimosa foi pro alto. A dele, hora certa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? No alto, o gato se sente seguro.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "GATO GOSTA DO ALTO",
+    "é onde ele se sente seguro"
+   ],
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "UMA SEMANA DEPOIS",
+   "fala": "Uma semana depois: Mimosa no alto. Puxa-puxa cochilando. Rosário, enfim, no sofá.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "objetos": [
+    {
+     "nome": "coracoes",
+     "x": 640,
+     "y": 1300
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Na sua casa tem cão e gato? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Tem cão e gato aí?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 quero ter"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

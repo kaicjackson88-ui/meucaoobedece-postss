@@ -1,0 +1,78 @@
+{
+ "id": "r089-erro-comida-da-mesa",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "comida",
+ "legenda": "Pare de dar comida da mesa pro seu cão 🍗\n\nUm pedacinho vira plantão debaixo da mesa. E tempero com cebola e alho pode fazer mal pra ele.\n\n🐾 Combine com a família: ninguém dá\n🐾 Na hora do almoço, ração num brinquedo, no tapete dele\n\nNa sua casa, quem dá escondido? Comenta 1 se é você, 2 se é a família 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrocomendo #churrasco #meucaoobedece #comportamentocanino #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de dar comida da mesa pro seu cão.",
+   "linhas": [
+    "PARE DE DAR",
+    "COMIDA DA MESA"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Um pedacinho hoje vira plantão debaixo da mesa amanhã. E tempero com cebola e alho pode fazer mal pra ele.",
+   "linhas": [
+    "UM PEDACINHO",
+    "VIRA PLANTÃO"
+   ],
+   "destaque": 1,
+   "icone": "x",
+   "mascote": "bravo"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Faz assim: combina com a família que ninguém dá nada da mesa.",
+   "topo": [
+    "EM VEZ DISSO"
+   ],
+   "de": "PEDACINHO",
+   "para": "COMBINADO",
+   "para_palavra": "combina"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 2,
+   "fala": "Um: na hora do almoço, dê a ração dele num brinquedo recheado.",
+   "titulo": "Ração no brinquedo",
+   "sub": "na hora do almoço",
+   "icone": "bola"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 2,
+   "fala": "Dois: o brinquedo fica no tapete dele, longe da mesa. Ficou lá? Ganha elogio.",
+   "titulo": "Tapete dele",
+   "sub": "longe da mesa",
+   "icone": "casa"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

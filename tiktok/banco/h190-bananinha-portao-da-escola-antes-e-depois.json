@@ -1,0 +1,192 @@
+{
+ "id": "h190-bananinha-portao-da-escola-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "Mesmo portão da escola, mesmo horário. Mês passado, a Bananinha pulava em toda criança 🎒 Hoje, olha ela. A dica veio da inspetora, a Tia Dirce: pulou, ninguém dá atenção. Patas no chão, ganha carinho.\nO seu pula em quem chega? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #passeiocomcachorro #cachorroecrianca #adestramentocanino #comportamentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, a Bananinha pulava em toda criança.",
+   "linhas": [
+    "MÊS PASSADO",
+    "PULAVA EM TODA CRIANÇA",
+    "E HOJE?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 07:00",
+   "fala": "Portão da escola, sete da manhã. Pulou na mochila de um menino.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Bananinha, desce!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 07:05",
+   "fala": "Uma mãe reclamou. A Cibele quis sumir.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bracos_cruzados"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Segura esse cachorro, por favor!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "A inspetora, Tia Dirce, deu a dica: pulou, ninguém olha. Quatro patas no chão, carinho.",
+   "topo": [
+    "O QUE MUDOU"
+   ],
+   "de": "PULO = ATENÇÃO",
+   "para": "PATAS NO CHÃO",
+   "para_palavra": "patas"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 07:00",
+   "fala": "Hoje. Mesmo portão, mesmo horário. E as quatro patas no chão.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 07:05",
+   "fala": "Uma menina pediu pra fazer carinho.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "petisco",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Posso fazer carinho nela?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 07:10",
+   "fala": "E a Tia Dirce não acreditou.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "comemora",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Essa é a mesma Bananinha?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu pula em quem chega? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele pula em quem chega?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 até em criança"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

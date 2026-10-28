@@ -1,0 +1,177 @@
+{
+ "id": "h187-cajuina-xixi-de-alegria-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A visita chegou, a Cajuína fez festa e deixou uma poça no tapete 💦 O que você faria? 1 bronca na hora, 2 chegada calma e festa lá fora, 3 trancar no quarto.\nComenta 1, 2 ou 3 antes de ver a resposta 👇 Se o xixi acontece sempre, vale levar ao veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #limparxixi #apartamento #visitas #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A visita chegou, e a Cajuína fez xixi de alegria. O que você faria?",
+   "linhas": [
+    "A VISITA CHEGOU",
+    "E ELA FEZ XIXI",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 16:00",
+   "fala": "A Noélia tocou. A Cajuína voou pra porta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Cadê a fofura?"
+    }
+   ],
+   "campainha": 1
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 16:01",
+   "fala": "Um abraço, uma festa, e uma poça no tapete.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "maos_cabeca",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: bronca. Dois: chegada calma e carinho lá fora. Três: trancar no quarto. Comenta!",
+   "topo": [
+    "1 BRONCA NA HORA",
+    "2 CHEGADA CALMA",
+    "3 TRANCAR NO QUARTO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 16:05",
+   "fala": "Resposta: dois. Quem explicou foi a Noélia.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Entra sem festa. Carinho só quando ela acalmar."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Xixi de emoção é comum em filhote e em cão muito animado. E bronca costuma piorar.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "XIXI DE EMOÇÃO",
+    "bronca piora"
+   ],
+   "icone": "coracao"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO SEGUINTE · 16:00",
+   "fala": "Na visita seguinte, festa na calçada. Tapete sequinho.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você escolheu qual? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 bronca",
+    "2 chegada calma",
+    "3 trancar"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

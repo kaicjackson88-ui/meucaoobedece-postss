@@ -1,0 +1,78 @@
+{
+ "id": "r088-mito-focinho-no-xixi",
+ "formato": "mito",
+ "gancho_tipo": "negacao",
+ "tema": "xixi",
+ "legenda": "Esfregar o focinho no xixi ensina? 💦\n\n🐾 Mito: ele não liga a bronca ao xixi de horas atrás\n🐾 Verdade: o cheiro chama ele de volta pro mesmo lugar\n🐾 Mito: xixi de emoção se resolve com bronca\n\nVocê já ouviu essa do focinho? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#xixinolugarcerto #limparxixi #meucaoobedece #tapetehigienico #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de esfregar o focinho dele no xixi. Mito ou verdade sobre xixi.",
+   "linhas": [
+    "FOCINHO NO XIXI",
+    "ENSINA?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Esfregar o focinho no xixi ensina. Mito. Ele não liga a bronca ao xixi que fez antes.",
+   "frase": "Focinho no xixi ensina",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "ELE NÃO LIGA",
+    "UMA COISA À OUTRA"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "O cheiro do xixi chama ele de volta pro mesmo lugar. Verdade. Por isso limpar bem faz diferença.",
+   "frase": "O cheiro chama de volta",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "LIMPE BEM",
+    "O LUGAR"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Xixi de emoção, na chegada da visita, se resolve com bronca. Mito. Bronca costuma piorar. Chegada calma ajuda mais.",
+   "frase": "Bronca resolve xixi de emoção",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "CHEGADA CALMA",
+    "AJUDA MAIS"
+   ],
+   "icone": "coracao"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

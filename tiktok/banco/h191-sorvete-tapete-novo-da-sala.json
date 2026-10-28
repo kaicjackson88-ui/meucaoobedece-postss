@@ -1,0 +1,207 @@
+{
+ "id": "h191-sorvete-tapete-novo-da-sala",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Tapete novo na sala. E na primeira noite, o Sorvete fez xixi bem no meio 💦 Quem explicou foi a vendedora da loja: tapete fofinho parece tapete higiênico pro cão, e o cheiro chama ele de volta.\nO seu já estreou um tapete novo assim? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #limparxixi #tapetehigienico #apartamento #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Tapete novo na sala. E na primeira noite, o Sorvete fez xixi nele.",
+   "linhas": [
+    "TAPETE NOVO",
+    "PRIMEIRA NOITE",
+    "XIXI NELE"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEXTA · 18:00",
+   "fala": "O Bira comprou o tapete dos sonhos. Fofinho, clarinho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 07:00",
+   "fala": "Sábado: poça no meio.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "SORVETE!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "joao",
+    "z": 1.5,
+    "em": 0.5
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "DOMINGO · 02:00",
+   "fala": "Domingo, duas da manhã: outra poça, no mesmo lugar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Logo no tapete?",
+     "pensa": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEGUNDA · LOJA",
+   "fala": "Na loja, quem explicou foi a vendedora, Tainá.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Tapete fofinho parece tapete higiênico pro cão."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão volta onde sente cheiro de xixi. Limpar bem faz diferença.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O CHEIRO CHAMA",
+    "ele de volta"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Tapete guardado por um tempo. Sorvete no higiênico depois de acordar e comer.",
+   "topo": [
+    "O QUE MUDOU"
+   ],
+   "de": "TAPETE FOFINHO",
+   "para": "LUGAR CERTO",
+   "para_palavra": "higiênico"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO SEGUINTE",
+   "fala": "Sábado seguinte: xixi no lugar certo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já estreou tapete novo? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele já estreou tapete novo?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 o sofá também"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

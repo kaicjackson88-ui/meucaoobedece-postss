@@ -1,0 +1,78 @@
+{
+ "id": "r091-obj-ele-pula-porque-gosta",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "pulo",
+ "legenda": "\"Ele pula porque gosta de mim.\" Gosta, sim. E aprendeu que pular dá atenção 🐾\n\n🐾 Pulou: vire de lado, sem falar\n🐾 Quatro patas no chão: carinho na hora\n🐾 Combine com as visitas a mesma regra\n\nO seu pula em quem chega? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorropulando #condominio #meucaoobedece #comportamentocanino #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Ele pula porque gosta de mim. Gosta. Mas presta atenção.",
+   "linhas": [
+    "ELE PULA",
+    "PORQUE GOSTA DE MIM"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "Ele gosta, sim. E aprendeu que pular é o jeito mais rápido de ganhar atenção.",
+   "objecao": "Ele pula porque gosta de mim",
+   "resposta": "E APRENDEU",
+   "resposta_palavra": "aprendeu",
+   "explica": [
+    "PULAR DÁ",
+    "ATENÇÃO"
+   ],
+   "resposta_cor": "teal"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: pulou? Vire de lado, sem falar e sem empurrar.",
+   "titulo": "Pulou? Vire de lado",
+   "sub": "sem falar",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: quatro patas no chão? Carinho e elogio na hora.",
+   "titulo": "Patas no chão",
+   "sub": "carinho na hora",
+   "icone": "check"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: combine a mesma regra com quem chega. Se um deixa pular, ele tenta com todos.",
+   "titulo": "Mesma regra",
+   "sub": "pra todo mundo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

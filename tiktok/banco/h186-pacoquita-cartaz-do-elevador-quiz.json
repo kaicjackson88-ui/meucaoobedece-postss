@@ -1,0 +1,158 @@
+{
+ "id": "h186-pacoquita-cartaz-do-elevador-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "Cartaz no elevador: sábado tem festa no prédio da frente, com rojão 🎆 E a Paçoquita treme com um só. O que você faria? 1 passear na hora da festa, 2 deixar no quintal, 3 montar um cantinho antes.\nComenta 1, 2 ou 3 antes de ver a resposta 👇 Se o medo for muito forte, converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #condominio #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Sábado tem rojão. E a Paçoquita treme. O que você faria?",
+   "linhas": [
+    "SÁBADO TEM ROJÃO",
+    "E ELA TREME",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUINTA · 19:00",
+   "fala": "Cartaz no elevador: sábado tem festa com fogos.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "bilhete"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Sábado? Ai, não.",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "NO ÚLTIMO JOGO",
+   "fala": "No último rojão, ela se enfiou atrás da geladeira.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: passear na hora. Dois: deixar no quintal. Três: montar um cantinho antes. Comenta!",
+   "topo": [
+    "1 PASSEAR NA HORA",
+    "2 DEIXAR NO QUINTAL",
+    "3 CANTINHO ANTES"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEXTA · 08:00",
+   "fala": "Resposta: três. Quem explicou foi a síndica, Dona Vilma.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Canto fechado, cobertor dela, janela fechada e som de fundo."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão escuta sons que a gente nem percebe. Por isso o rojão assusta tanto.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE OUVE MAIS",
+    "do que a gente"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SÁBADO · 23:50",
+   "fala": "Sábado. Rojão lá fora. E a Paçoquita no cantinho, com o Edvaldo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você escolheu qual? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 passear",
+    "2 quintal",
+    "3 cantinho"
+   ],
+   "escolha": 2,
+   "resultado": "RESPOSTA: 3",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

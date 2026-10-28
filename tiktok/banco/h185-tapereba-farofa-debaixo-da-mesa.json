@@ -1,0 +1,179 @@
+{
+ "id": "h185-tapereba-farofa-debaixo-da-mesa",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Almoço de domingo, e alguém dando comida pro Taperebá debaixo da mesa 🍗 O grupo da família investigou, e a foto do primo entregou o culpado. Quem resolveu foi o tio Silvano, veterinário: ninguém dá nada da mesa, e ele ganha a ração dele num brinquedo, no tapete.\nNa sua família tem um vô desses? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #churrasco #comportamentocanino #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Quem tá dando comida pro Taperebá debaixo da mesa?",
+   "linhas": [
+    "QUEM TÁ DANDO",
+    "COMIDA PRO CÃO",
+    "DEBAIXO DA MESA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 13:00",
+   "fala": "Domingo. O Taperebá plantado debaixo da mesa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Nogueira",
+   "membros": "14 participantes",
+   "quando": "19:00",
+   "fala": "À noite, no grupo da família:",
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Quem deu comida pro Taperebá?",
+     "eu": true
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Áudio: eu? Imagina"
+    }
+   ],
+   "nomes": {
+    "ana": "Fátima",
+    "vizinho": "Vô Adalberto",
+    "pedro": "Kauã",
+    "joao": "Tio Silvano (veterinário)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Nogueira",
+   "membros": "14 participantes",
+   "quando": "19:04",
+   "fala": "Aí o primo mandou a prova.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Foto: vô passando farofa por baixo da toalha"
+    },
+    {
+     "quem": "ana",
+     "texto": "VÔ!",
+     "eu": true
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Figurinha: vovô assobiando"
+    }
+   ],
+   "nomes": {
+    "ana": "Fátima",
+    "vizinho": "Vô Adalberto",
+    "pedro": "Kauã",
+    "joao": "Tio Silvano (veterinário)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Nogueira",
+   "membros": "14 participantes",
+   "quando": "19:10",
+   "fala": "Quem resolveu foi o tio Silvano, veterinário.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Combinado: ninguém dá nada da mesa."
+    },
+    {
+     "quem": "joao",
+     "texto": "Ração dele num brinquedo, no tapete."
+    }
+   ],
+   "nomes": {
+    "ana": "Fátima",
+    "vizinho": "Vô Adalberto",
+    "pedro": "Kauã",
+    "joao": "Tio Silvano (veterinário)"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cebola e alho do tempero podem fazer mal pro cão.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "TEMPERO NÃO É PRA CÃO",
+    "cebola e alho fazem mal"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO SEGUINTE · 13:00",
+   "fala": "Domingo seguinte: Taperebá no tapete. E o vô, na própria farofa.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "parado"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "comemora",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Tem um vô desses aí? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Tem um vô desses?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 sou eu"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

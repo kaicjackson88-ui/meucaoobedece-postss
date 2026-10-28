@@ -1,0 +1,136 @@
+{
+ "id": "h188-puxa-puxa-e-a-gata-nova-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "PARTE 1: chegou uma gatinha nova, a Mimosa. E o Puxa-puxa achou que a ração dela era buffet 🐱 Aí a gata pulou na mesa...\nO que ela fez? Comenta 1, 2 ou 3 e segue pra ver a Parte 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#caoegato #cachorrocomendo #apartamento #comportamentocanino #historiadecachorro",
+ "serie": "puxa-puxa-e-a-gata-nova",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte um. Chegou uma gata nova. E o Puxa-puxa achou a ração dela.",
+   "linhas": [
+    "GATA NOVA EM CASA",
+    "E O CÃO NA RAÇÃO DELA",
+    "PARTE 1"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEXTA · 18:00",
+   "fala": "A Rosário trouxe a Mimosa, uma gatinha resgatada. O Puxa-puxa pirou.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Puxa-puxa, essa é a Mimosa. Devagar!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 07:00",
+   "fala": "No dia seguinte, a ração da gata sumiu em dez segundos.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Isso era da Mimosa!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Ração de gato tem mais proteína e gordura. Por isso o cão acha uma delícia.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "RAÇÃO DE GATO",
+    "não é ração de cão"
+   ],
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SÁBADO · 22:00",
+   "fala": "À noite, ele foi direto na tigela da gata. E aí a Mimosa pulou na mesa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que a Mimosa fez? Comenta um, dois ou três. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que a Mimosa fez?",
+   "opcoes": [
+    "1 tapa no focinho",
+    "2 fugiu",
+    "3 dividiu a ração"
+   ],
+   "escolha": 0,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

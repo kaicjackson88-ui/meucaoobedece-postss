@@ -1,0 +1,192 @@
+{
+ "id": "h182-goiabada-show-da-racao",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "A Goiabada explica como ela \"fazia\" a ração aparecer: latindo às 5h30 da manhã 🥣 Quem mudou o jogo foi a Tati, de 9 anos: a tigela só desce quando ela está quietinha.\nO seu faz show na hora da comida? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #cachorrolatindo #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Goiabada. E eu sei fazer a ração aparecer.",
+   "linhas": [
+    "EU SOU A GOIABADA",
+    "EU FAÇO A RAÇÃO",
+    "APARECER"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 07:00",
+   "fala": "Sete da manhã. Eu latia e girava. E a tigela enchia.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Tá bom, toma!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 06:30",
+   "fala": "Funcionou! Então eu comecei mais cedo. E mais alto.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "QUARTA · 05:30",
+   "fala": "Cinco e meia: show na porta da Joelma.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Goiabada, é madrugada...",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cachorro repete o que dá certo. Se latir traz comida, ele late mais.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE REPETE",
+    "o que funciona"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA · 07:00",
+   "fala": "Aí a Tati, de nove anos, mudou as regras.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Mãe, só dá quando ela ficar quietinha."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 07:00",
+   "fala": "Agora eu fico quieta e a ração aparece. Família estranha.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu, faz show na hora da comida? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele faz show pela ração?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 até de madrugada"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
