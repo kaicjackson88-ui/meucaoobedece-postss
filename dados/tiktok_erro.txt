@@ -1,1 +1,1 @@
-2026-10-28T19:02:03.538188-03:00 h166-caja-tres-erros-da-racao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610290602032E15CD338DAD990172D8"}}
+2026-10-28T19:12:07.124422-03:00 h166-caja-tres-erros-da-racao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261029061206EC9A802F57D3BE01EC3A"}}
