@@ -1,1 +1,1 @@
-2026-10-28T23:06:29.113805-03:00 h158-cupuacu-rojao-da-final-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610291006287CD8868042AB31116B19"}}
+2026-10-29T07:32:33.601037-03:00 h164-araca-mao-da-visita-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261029183233ECEBA20F89E6152F6BFE"}}
