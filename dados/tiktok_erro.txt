@@ -1,1 +1,1 @@
-2026-10-29T10:34:20.630156-03:00 h179-panqueca-uva-no-chao-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261029213420639A0FFE41186A3C95DC"}}
+2026-10-29T10:44:24.855791-03:00 h179-panqueca-uva-no-chao-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261029214424B06F64F112A6EC42EEDA"}}
