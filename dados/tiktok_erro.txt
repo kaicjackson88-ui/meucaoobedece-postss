@@ -1,1 +1,1 @@
-2026-10-29T13:28:33.753391-03:00 h172-beiju-restaurante-da-lixeira: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610300028338EEF747DCA0FC04D91F5"}}
+2026-10-29T13:38:38.124441-03:00 h172-beiju-restaurante-da-lixeira: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610300038374E4FF90A37D77F4FA9A4"}}
