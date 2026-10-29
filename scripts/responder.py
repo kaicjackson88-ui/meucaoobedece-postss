@@ -33,8 +33,8 @@ def norm(s):
 
 def main():
     if not TOKEN: sys.exit('Falta IG_TOKEN')
-    contas = chamar('GET', 'me/accounts', {'fields': 'id,access_token,instagram_business_account{id,username}'})['data']
-    pagina = next(p for p in contas if p.get('instagram_business_account'))
+    from postar import pagina_da_conta
+    pagina = pagina_da_conta('id,name,access_token,instagram_business_account{id,username}')
     ig = pagina['instagram_business_account']; page_token = pagina.get('access_token')
     feitos_p = DADOS / 'respondidos.json'
     feitos = json.loads(feitos_p.read_text(encoding='utf-8')) if feitos_p.exists() else {}

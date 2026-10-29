@@ -46,14 +46,27 @@ def chamar(metodo, caminho, params):
         raise RuntimeError(f"Erro da Meta em {caminho}: {erro.get('message')} (código {erro.get('code')})") from None
 
 
-def conta_instagram():
-    r = chamar("GET", "me/accounts", {"fields": "name,instagram_business_account{id,username}"})
+# Este robô só posta nesta conta. O mesmo token também enxerga o perfil de histórias, que é ignorado.
+CONTA_ALVO = (os.environ.get("IG_USERNAME") or "meu_cao_obedece").lstrip("@").lower()
+
+
+def pagina_da_conta(campos="name,instagram_business_account{id,username}"):
+    r = chamar("GET", "me/accounts", {"fields": campos})
+    vistas = []
     for pagina in r.get("data", []):
         ig = pagina.get("instagram_business_account")
         if ig:
-            print(f"Conta: @{ig.get('username')} (página {pagina.get('name')})")
-            return ig["id"]
-    raise RuntimeError("Nenhuma página do Facebook com Instagram ligado foi encontrada para essa chave.")
+            vistas.append("@" + str(ig.get("username")))
+            if str(ig.get("username", "")).lower() == CONTA_ALVO:
+                return pagina
+    raise RuntimeError(f"A chave não dá acesso a @{CONTA_ALVO} (contas vistas: {', '.join(vistas) or 'nenhuma'}). Nada foi postado.")
+
+
+def conta_instagram():
+    pagina = pagina_da_conta()
+    ig = pagina["instagram_business_account"]
+    print(f"Conta: @{ig.get('username')} (página {pagina.get('name')})")
+    return ig["id"]
 
 
 def proximo_post(forcar=None):
