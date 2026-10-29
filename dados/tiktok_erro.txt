@@ -1,1 +1,1 @@
-2026-10-29T07:42:37.791506-03:00 h164-araca-mao-da-visita-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610291842373F1BACC7ABE389320D1A"}}
+2026-10-29T07:52:42.155083-03:00 h164-araca-mao-da-visita-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610291852417B32B36F9E4DD731BE85"}}
