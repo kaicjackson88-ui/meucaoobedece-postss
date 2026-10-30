@@ -1,1 +1,1 @@
-2026-10-30T07:38:51.602023-03:00 h171-requeijao-sumico-do-banho-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610301838511EBCFA75E3A60699B6FD"}}
+2026-10-30T07:48:55.537683-03:00 h171-requeijao-sumico-do-banho-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261030184855ADF8457A8A76689EDCBF"}}
