@@ -1,0 +1,156 @@
+{
+ "id": "h193-dende-camera-do-feriado-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 2: o Dendê latiu a manhã toda sozinho no feriado, e o Seu Cirilo tinha um plano 🔑 Sair sem despedida dramática, treinar saídas curtinhas e deixar um brinquedo de faro.\nO seu late quando você sai? Comenta 1 pra sim, 2 pra não 👇\nSe ele sofre muito quando fica sozinho, vale conversar com o veterinário ou um profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #latidoexcessivo #apartamento #cachorrosozinho #historiadecachorro",
+ "serie": "dende-camera-do-feriado",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. O Dendê latiu a manhã toda. E o Seu Cirilo tinha um plano.",
+   "linhas": [
+    "PARTE 2",
+    "O VIZINHO",
+    "TINHA UM PLANO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "FERIADO · 13:10",
+   "fala": "O Seu Cirilo foi direto ao ponto.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Esse drama na porta avisa que vem coisa ruim. Sai sem festa."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão aprende a sua rotina. Pegar a chave já vira aviso de que você vai sair.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE LÊ A SUA ROTINA",
+    "chave e tênis viram aviso"
+   ],
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 09:00",
+   "fala": "Sábado, treino curtinho: sai, volta logo. Sem festa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 09:30",
+   "fala": "Antes de sair, um brinquedo de faro com petisco. Nem viu a porta fechar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Bloco B",
+   "membros": "48 participantes",
+   "quando": "TERÇA · 10:00",
+   "fala": "Na terça, o grupo:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Silêncio no 302 hoje"
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Figurinha: joinha"
+    },
+    {
+     "quem": "joao",
+     "texto": "Valeu, Seu Cirilo!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Marlúcia (303)",
+    "vizinho": "Seu Cirilo (301)",
+    "joao": "Evandro (302)",
+    "sindica": "Síndica Adalgisa"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late quando você sai? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late quando você sai?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só no começo"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

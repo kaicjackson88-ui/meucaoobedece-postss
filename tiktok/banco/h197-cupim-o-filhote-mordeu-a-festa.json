@@ -1,0 +1,157 @@
+{
+ "id": "h197-cupim-o-filhote-mordeu-a-festa",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "Festa de 7 anos e o Cupim, de 4 meses, mordeu a barra de todo vestido 👗 O grupo das mães comentou… e quem resolveu foi o Ícaro, de 8 anos, num áudio: mordeu, vira estátua e dá a corda.\nO seu filhote morde tudo? Comenta 1 pra sim, 2 pra não 👇\nSe as mordidas forem fortes ou vierem com rosnado, vale conversar com o veterinário ou um profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #cachorroecrianca #filhote #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O filhote mordeu a festa. E o grupo das mães viu.",
+   "linhas": [
+    "O FILHOTE MORDEU",
+    "A FESTA INTEIRA",
+    "E O GRUPO VIU"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 15:00",
+   "fala": "Festa de sete anos. O Cupim pendurado nos vestidos.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Cupim, solta!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Mães do 2º ano B",
+   "membros": "28 participantes",
+   "quando": "SÁBADO · 19:00",
+   "fala": "No grupo das mães:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "A Yanka chegou com o vestido furado"
+    },
+    {
+     "quem": "bia",
+     "texto": "Desculpa! Ele tem quatro meses",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Karen (mãe da Yanka)",
+    "ana": "Elisângela R.",
+    "bia": "Darci (dona do Cupim)",
+    "pedro": "Fabiano (pai do Ícaro)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Mães do 2º ano B",
+   "membros": "28 participantes",
+   "quando": "19:06",
+   "fala": "Aí chegou um áudio.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Áudio do Ícaro: tia, quando ele morde, vira estátua."
+    },
+    {
+     "quem": "pedro",
+     "texto": "E dá a corda. Lá em casa deu certo."
+    }
+   ],
+   "nomes": {
+    "carla": "Karen (mãe da Yanka)",
+    "ana": "Elisângela R.",
+    "bia": "Darci (dona do Cupim)",
+    "pedro": "Fabiano (pai do Ícaro)"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Entre filhotes, se um morde forte, o outro grita e para. Assim eles aprendem a pegar leve.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "A BRINCADEIRA PARA",
+    "quando o dente aperta"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 15:00",
+   "fala": "Domingo. Mordeu? Estátua. Corda na boca.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Corda pode. Vestido, não."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu filhote morde tudo? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele morde tudo?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 até o sofá"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

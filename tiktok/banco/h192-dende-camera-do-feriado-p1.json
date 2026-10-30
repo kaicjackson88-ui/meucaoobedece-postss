@@ -1,0 +1,158 @@
+{
+ "id": "h192-dende-camera-do-feriado-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 1: feriado de Finados, almoço na casa da mãe. O Evandro deixou a câmera ligada… e o grupo do prédio viu antes dele 📹 Aí o Seu Cirilo bateu na porta.\nO que ele ensinou? Comenta 1, 2 ou 3 e segue pra ver a Parte 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #latidoexcessivo #apartamento #cachorrolatindo #historiadecachorro",
+ "serie": "dende-camera-do-feriado",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte um. Saiu no feriado e deixou a câmera ligada.",
+   "linhas": [
+    "SAIU NO FERIADO",
+    "A CÂMERA FLAGROU",
+    "PARTE 1"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "FERIADO · 10:00",
+   "fala": "Feriado. O Evandro saiu pro almoço com beijo, abraço e drama na porta.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "triste",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Tchau, meu amor! O papai volta logo!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "FERIADO · 10:15",
+   "fala": "No caminho, ele abriu a câmera. O Dendê latia pra porta.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Bloco B",
+   "membros": "48 participantes",
+   "quando": "11:02",
+   "fala": "E o grupo do prédio já sabia.",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Tem cachorro latindo no 302 há uma hora"
+    },
+    {
+     "quem": "sindica",
+     "texto": "Evandro, assim fica difícil"
+    },
+    {
+     "quem": "joao",
+     "texto": "Desculpa, gente! Tô voltando!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Marlúcia (303)",
+    "vizinho": "Seu Cirilo (301)",
+    "joao": "Evandro (302)",
+    "sindica": "Síndica Adalgisa"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "FERIADO · 13:00",
+   "fala": "Ele voltou correndo. E aí o Seu Cirilo bateu na porta.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Posso te contar o que eu fiz com o meu?"
+    }
+   ],
+   "campainha": 1
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que o Seu Cirilo ensinou? Comenta um, dois ou três. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que ele ensinou?",
+   "opcoes": [
+    "1 sair sem drama",
+    "2 deixar a TV alta",
+    "3 levar junto"
+   ],
+   "escolha": 0,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

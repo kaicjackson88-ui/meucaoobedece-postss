@@ -1,0 +1,175 @@
+{
+ "id": "h198-vatapa-documentario-do-xixi-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Neste documentário, acompanhamos o Vatapá em sua missão diária: escolher o lugar errado pro xixi 🎬 O que você faria? 1 focinho no xixi, 2 levar ao tapete na hora certa e elogiar, 3 tirar a água à noite.\nComenta 1, 2 ou 3 antes de ver a resposta 👇 Água fica sempre à vontade. Se o xixi fora do lugar começar do nada, vale levar ao veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Documentário: o Vatapá e o xixi no lugar errado. O que você faria?",
+   "linhas": [
+    "DOCUMENTÁRIO:",
+    "O XIXI NO LUGAR ERRADO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TERÇA · 07:10",
+   "fala": "Sete e dez. O espécime acorda e vai pra porta da cozinha.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "De novo, Vatapá?"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 13:00",
+   "fala": "Treze horas. Nova poça atrás do sofá.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: focinho no xixi. Dois: tapete depois de comer e acordar, com elogio. Três: tirar a água. Comenta antes da resposta!",
+   "topo": [
+    "1 FOCINHO NO XIXI",
+    "2 TAPETE NA HORA CERTA",
+    "3 TIRAR A ÁGUA"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUARTA · 08:00",
+   "fala": "Resposta: dois. Quem contou foi a Dona Valmira.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Acordou, comeu, brincou? Tapete e festa."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Bronca depois do xixi não ensina o lugar. Ensina a esconder.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "BRONCA NÃO ENSINA",
+    "o lugar certo"
+   ],
+   "icone": "lampada"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEXTA · 07:10",
+   "fala": "Sexta, sete e dez. O espécime vai direto pro tapete. Fim.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você escolheu qual? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 focinho",
+    "2 hora certa",
+    "3 tirar água"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

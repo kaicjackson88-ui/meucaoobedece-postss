@@ -1,0 +1,159 @@
+{
+ "id": "h200-mamao-tres-erros-do-latido",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Três coisas que a Jucélia fazia quando o Mamão latia, e que ele entendia tudo errado 📢 Gritar junto, pegar no colo e dar petisco pra calar. O que mudou: chamar pra perto antes do escândalo e elogiar o silêncio, um pouquinho por dia.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#latidoexcessivo #cachorrolatindo #condominio #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz quando ele late. E ele entende errado.",
+   "linhas": [
+    "3 COISAS QUE VOCÊ FAZ",
+    "QUANDO ELE LATE",
+    "E ELE ENTENDE ERRADO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1 · GRITAR",
+   "fala": "Um: gritar quieto. Pro Mamão, a Jucélia tá latindo junto.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "QUIETO, MAMÃO!",
+     "grito": true
+    },
+    {
+     "quem": "cao",
+     "texto": "AU! AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 2 · COLO",
+   "fala": "Dois: pegar no colo pra acalmar. Ele entende: latir dá colo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 3 · PETISCO",
+   "fala": "Três: petisco pra ele parar. Agora ele late pra ganhar petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "late"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Latir é comunicação. Muitas vezes, o cão late pra avisar que percebeu algo diferente.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "LATIR É AVISO",
+    "ele quer te contar algo"
+   ],
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "O CERTO",
+   "fala": "O certo: chamar pra perto antes do escândalo e elogiar o silêncio. Um pouquinho por dia.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Isso, silêncio. Muito bem."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você já fez?",
+   "opcoes": [
+    "1 gritar",
+    "2 colo",
+    "3 petisco"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

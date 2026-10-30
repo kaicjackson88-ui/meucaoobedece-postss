@@ -1,0 +1,69 @@
+{
+ "id": "r094-erro-passeio-no-asfalto-quente",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "coleira",
+ "legenda": "Ele trava no passeio do meio-dia e você puxa a guia? 🥵\n\n❌ Passeio no sol forte, no asfalto quente\n✅ Teste da mão no chão antes de sair\n✅ Passeio cedinho ou à noite\n\nO seu trava no sol? Comenta 1 pra sim, 2 pra não 👇 Pata vermelha ou machucada: procure o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#passeiocomcachorro #calor #meucaoobedece #puxarguia #cuidadoscomcachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de passear com ele no asfalto do meio-dia.",
+   "linhas": [
+    "ELE TRAVA",
+    "NO MEIO-DIA?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "pata"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Ele trava, você puxa a guia. Mas pode ser o chão queimando a pata.",
+   "linhas": [
+    "PODE SER",
+    "O CHÃO QUENTE"
+   ],
+   "destaque": 1,
+   "icone": "x",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Faz o teste: mão no chão por sete segundos. Se você não aguenta, ele também não.",
+   "topo": [
+    "TESTE DA MÃO"
+   ],
+   "de": "PUXAR A GUIA",
+   "para": "MÃO NO CHÃO",
+   "para_palavra": "teste"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "E troque o horário: passeio cedinho ou depois que o sol baixar.",
+   "titulo": "Cedinho ou à noite",
+   "sub": "longe do sol forte",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "r098-erro-brincar-com-a-mao",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "mordida",
+ "legenda": "Você brinca de luta com a mão e depois reclama que ele morde? 🐶\n\n❌ Mão vira brinquedo\n✅ Brinquedo sempre entre você e ele\n✅ Dente na pele: a brincadeira para\n\nO seu morde a sua mão? Comenta 1 pra sim, 2 pra não 👇 Mordida forte ou com rosnado: procure um profissional.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#filhotemordendo #meucaoobedece #comportamentocanino #filhote #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de brincar de luta com a mão.",
+   "linhas": [
+    "BRINCA COM A MÃO",
+    "E ELE MORDE?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Cada vez que a mão vira brinquedo, ele aprende: mão é pra morder.",
+   "linhas": [
+    "MÃO VIRA",
+    "BRINQUEDO"
+   ],
+   "destaque": 1,
+   "icone": "x",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Troque: a corda ou o mordedor sempre entre você e ele. A mão fica de fora.",
+   "topo": [
+    "EM VEZ DISSO"
+   ],
+   "de": "MÃO NA BOCA",
+   "para": "CORDA NA BOCA",
+   "para_palavra": "corda"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "E se o dente encostar na pele, a brincadeira para. Volta quando ele acalmar.",
+   "titulo": "Dente na pele",
+   "sub": "a brincadeira para",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

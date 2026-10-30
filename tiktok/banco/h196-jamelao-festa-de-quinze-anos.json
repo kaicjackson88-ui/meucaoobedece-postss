@@ -1,0 +1,148 @@
+{
+ "id": "h196-jamelao-festa-de-quinze-anos",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "Festa de 15 anos no salão do prédio. Com queima de fogos 🎆 O grupo surtou, e quem acalmou todo mundo foi a Dra. Jordana, veterinária do 4º andar: cantinho fechado, janela fechada, TV ligada e alguém do lado.\nSeu cão sofre com fogos? Comenta 1 pra sim, 2 pra não 👇\nMedo intenso de fogos é assunto pro veterinário, que indica o melhor caminho pro seu cão.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #condominio #reveillon #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Festa de quinze anos no prédio. Com queima de fogos.",
+   "linhas": [
+    "FESTA DE 15 ANOS",
+    "NO SALÃO DO PRÉDIO",
+    "COM FOGOS"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê",
+   "membros": "52 participantes",
+   "quando": "QUARTA · 20:10",
+   "fala": "A síndica avisou no grupo.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Sábado tem festa no salão. Com fogos."
+    },
+    {
+     "quem": "carla",
+     "texto": "Fogos? E o Jamelão?",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Leonor",
+    "carla": "Rosemeire (apto 12)",
+    "joao": "Adauto (apto 22)",
+    "vizinho": "Seu Anacleto",
+    "pedro": "Wilson (apto 31)",
+    "bia": "Dra. Jordana (veterinária)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê",
+   "membros": "52 participantes",
+   "quando": "20:14",
+   "fala": "Aí choveu mensagem.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "O meu se esconde atrás da geladeira"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Figurinha: cachorro tremendo"
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Leonor",
+    "carla": "Rosemeire (apto 12)",
+    "joao": "Adauto (apto 22)",
+    "vizinho": "Seu Anacleto",
+    "pedro": "Wilson (apto 31)",
+    "bia": "Dra. Jordana (veterinária)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipê",
+   "membros": "52 participantes",
+   "quando": "20:20",
+   "fala": "Quem acalmou foi a doutora Jordana, veterinária.",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Cantinho fechado, com uma roupa de vocês."
+    },
+    {
+     "quem": "bia",
+     "texto": "Janela fechada, TV ligada e fica junto."
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica Leonor",
+    "carla": "Rosemeire (apto 12)",
+    "joao": "Adauto (apto 22)",
+    "vizinho": "Seu Anacleto",
+    "pedro": "Wilson (apto 31)",
+    "bia": "Dra. Jordana (veterinária)"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão escuta sons que a gente nem percebe. Por isso o estouro assusta tanto.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "OUVIDO MAIS FINO",
+    "que o nosso"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 22:00",
+   "fala": "Dez da noite. Fogos lá fora. O Jamelão no cantinho, com a Rosemeire.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão sofre com fogos? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele sofre com fogos?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 se esconde"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

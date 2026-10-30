@@ -1,0 +1,78 @@
+{
+ "id": "r093-mito-ceia-de-fim-de-ano",
+ "formato": "mito",
+ "gancho_tipo": "negacao",
+ "tema": "curiosidade",
+ "legenda": "Ceia chegando e todo mundo querendo dar um pedacinho pro cão? 🎄\n\n🐾 Mito: leite faz bem pro cão adulto\n🐾 Verdade: uva-passa do panetone é perigosa\n🐾 Mito: um pedacinho de chocolate não faz mal\n\nQual você não sabia? Comenta 1, 2 ou 3 👇 Se ele comeu algo assim, ligue pro veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorrocomendo #natal #meucaoobedece #cuidadoscomcachorro #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de dar a ceia pro seu cão. Mito ou verdade de fim de ano.",
+   "linhas": [
+    "CEIA DE FIM DE ANO",
+    "MITO OU VERDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #1",
+   "fala": "Leite faz bem pro cão adulto. Mito. Muitos cães adultos digerem mal o leite.",
+   "frase": "Leite faz bem pro cão",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "MUITOS DIGEREM",
+    "MAL O LEITE"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #2",
+   "fala": "A uva-passa do panetone é perigosa. Verdade. Uva e uva-passa podem fazer mal ao cão.",
+   "frase": "Uva-passa é perigosa",
+   "veredito": "VERDADE",
+   "veredito_palavra": "verdade",
+   "explica": [
+    "UVA E UVA-PASSA",
+    "LONGE DELE"
+   ],
+   "icone": "escudo"
+  },
+  {
+   "tipo": "mito",
+   "tag": "MITO OU VERDADE? #3",
+   "fala": "Um pedacinho de chocolate não faz mal. Mito. Chocolate é tóxico pro cão.",
+   "frase": "Chocolate pouco não faz mal",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "CHOCOLATE É",
+    "TÓXICO PRO CÃO"
+   ],
+   "icone": "x"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

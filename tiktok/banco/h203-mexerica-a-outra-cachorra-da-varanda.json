@@ -1,0 +1,185 @@
+{
+ "id": "h203-mexerica-a-outra-cachorra-da-varanda",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Toda noite, a Mexerica latia pra varanda. E não tinha ninguém lá 🌙 Às 2h da manhã, sem sono, a Marilda entendeu: com a luz acesa, o vidro virava espelho.\nO seu late pra coisas que você não vê? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#latidoexcessivo #condominio #apartamento #cachorrolatindo #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Toda noite, a Mexerica latia pra varanda. E não tinha ninguém lá.",
+   "linhas": [
+    "TODA NOITE",
+    "ELA LATIA PRA VARANDA",
+    "E NÃO TINHA NINGUÉM"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "TERÇA · 23:10",
+   "fala": "Onze da noite. Latido pro vidro da varanda.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUARTA · 08:00",
+   "fala": "De manhã, o Seu Lindomar bateu na porta.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Vizinha, o latido da noite tá difícil."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUARTA · 23:00",
+   "fala": "Na noite seguinte, tudo de novo. A Marilda já não sabia o que fazer.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Duas da manhã, sem sono, ela viu: com a luz acesa, o vidro virava espelho.",
+   "topo": [
+    "2 DA MANHÃ"
+   ],
+   "de": "LADRÃO?",
+   "para": "REFLEXO!",
+   "para_palavra": "espelho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA · 23:00",
+   "fala": "Cortina fechada à noite. Olhou pro vidro? Chamado e petisco antes do latido.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 08:00",
+   "fala": "No sábado, o Seu Lindomar voltou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "acena"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Dormi a noite inteira!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late pra coisas que você não vê? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late pro nada?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 pro vidro"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

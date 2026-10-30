@@ -1,0 +1,170 @@
+{
+ "id": "h202-ricota-porta-da-clinica-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "sol",
+ "legenda": "Mesma clínica, mesmo sábado às 10h. Mês passado, a Ricota tremia na porta 🏥 Hoje, puxa pra entrar. A ideia veio da Kênia, da recepção: visitinhas rápidas só pra ganhar petisco, sem consulta.\nO seu treme no veterinário? Comenta 1 pra sim, 2 pra não 👇\nConsulta e vacina continuam com o veterinário, claro.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#veterinario #cachorroemedo #cuidadoscomcachorro #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, a Ricota tremia na porta do veterinário.",
+   "linhas": [
+    "MÊS PASSADO",
+    "TREMIA NA CLÍNICA",
+    "E HOJE?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 10:00",
+   "fala": "Sábado, dez da manhã. Na calçada da clínica, ela travou.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Vem, Ricota. É rapidinho."
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 10:05",
+   "fala": "Na sala de espera, tentou fugir pela porta.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "carinho"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "A Kênia, da recepção, sugeriu: visitas rápidas, sem consulta, só pra ganhar petisco.",
+   "topo": [
+    "O QUE MUDOU"
+   ],
+   "de": "CLÍNICA = SUSTO",
+   "para": "CLÍNICA = PETISCO",
+   "para_palavra": "petisco"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão liga lugares a sensações. Se a clínica só lembra susto, a porta já vira sinal de alerta.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "LUGAR TEM MEMÓRIA",
+    "pro seu cão"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 10:00",
+   "fala": "Hoje. Mesma calçada, mesmo horário. Ela puxa pra entrar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 10:05",
+   "fala": "Na sala de espera, rabo abanando.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Chegou a cliente mais animada do dia!"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu treme no veterinário? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele treme no veterinário?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só na balança"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

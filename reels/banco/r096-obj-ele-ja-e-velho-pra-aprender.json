@@ -1,0 +1,78 @@
+{
+ "id": "r096-obj-ele-ja-e-velho-pra-aprender",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "obediencia",
+ "legenda": "\"Ele já é velho pra aprender.\" Não é, não 🐾\n\n🐾 Cão aprende em qualquer idade\n🐾 Sessões curtas, de poucos minutos\n🐾 Respeite o ritmo e o corpo dele\n\nQuantos anos tem o seu? Comenta aqui 👇 Se ele sente dor pra se mexer, o veterinário vem antes do treino.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#caoidoso #meucaoobedece #adestramento #comportamentocanino #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Ele já é velho pra aprender. Será mesmo?",
+   "linhas": [
+    "ELE JÁ É VELHO",
+    "PRA APRENDER"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "Cão aprende em qualquer idade. O cão mais velho só precisa de mais paciência e de um ritmo dele.",
+   "objecao": "Ele já é velho pra aprender",
+   "resposta": "APRENDE SIM",
+   "resposta_palavra": "aprende",
+   "explica": [
+    "EM QUALQUER",
+    "IDADE"
+   ],
+   "resposta_cor": "teal"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: sessões curtas, de poucos minutos.",
+   "titulo": "Sessões curtas",
+   "sub": "poucos minutos",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: comece pelo que ele já gosta de fazer.",
+   "titulo": "Comece fácil",
+   "sub": "pelo que ele gosta",
+   "icone": "check"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: respeite o corpo dele. Nada de pulo nem escada no treino.",
+   "titulo": "Respeite o corpo",
+   "sub": "sem pulo nem escada",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

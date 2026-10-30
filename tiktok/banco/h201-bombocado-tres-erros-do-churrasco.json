@@ -1,0 +1,147 @@
+{
+ "id": "h201-bombocado-tres-erros-do-churrasco",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Churrasco de família e três erros que o Bombocado paga depois 🍖 Gordura da carne, cada parente dando um pedaço e o cão colado na grelha. O certo: um cantinho dele, longe da brasa, com água e a comida dele.\nQual já rolou aí? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#churrasco #cachorrocomendo #cuidadoscomcachorro #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três erros no churrasco. E quem paga é o cão.",
+   "linhas": [
+    "3 ERROS",
+    "NO CHURRASCO",
+    "QUE O CÃO PAGA"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 1 · GORDURA",
+   "fala": "Um: dar a gordura e a pele da carne. Pode fazer mal à barriga dele.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Toma, Bombocado, a parte boa!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 2 · CADA UM DÁ",
+   "fala": "Dois: cada parente dá um pedacinho. No fim do dia, foi um prato inteiro.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    },
+    {
+     "quem": "sindica",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "petisco",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ERRO 3 · NA GRELHA",
+   "fala": "Três: deixar ele colado na grelha. Fumaça, brasa e gordura pingando.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Osso cozido fica quebradiço e pode lascar. Por isso osso de churrasco não vai pro cão.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "OSSO COZIDO",
+    "pode lascar"
+   ],
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "O CERTO",
+   "fala": "O certo: um cantinho dele, longe da grelha, com água e a comida dele. E a família toda combinada.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual já rolou aí? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual já rolou aí?",
+   "opcoes": [
+    "1 gordura",
+    "2 cada um dá",
+    "3 na grelha"
+   ],
+   "escolha": 1,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

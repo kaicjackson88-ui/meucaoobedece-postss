@@ -1,0 +1,180 @@
+{
+ "id": "h199-brioche-jantar-com-o-sogro-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Primeiro jantar com o sogro, e o Brioche latindo pra mesa a cada garfada 🍽️ O que você faria? 1 dar um pedacinho pra calar, 2 brinquedo recheado no tapete, longe da mesa, 3 gritar com ele.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #latidoexcessivo #sogra #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Jantar com o sogro. E o Brioche latindo pra mesa.",
+   "linhas": [
+    "JANTAR COM O SOGRO",
+    "E O CÃO LATINDO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 20:00",
+   "fala": "Oito da noite. O Severino conhece o sogro. O Brioche, o frango.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "normal",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU!"
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Ele sempre late assim?"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 20:05",
+   "fala": "A cada garfada, um latido. A Claudete quis sumir.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: um pedacinho. Dois: brinquedo recheado no tapete. Três: gritar. Comenta antes da resposta!",
+   "topo": [
+    "1 DAR UM PEDACINHO",
+    "2 BRINQUEDO NO TAPETE",
+    "3 GRITAR"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 20:10",
+   "fala": "Resposta: dois. Quem ensinou foi o sogro.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Deu um pedaço, ele late pra sempre. Dá o brinquedo dele, longe da mesa."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Se o latido já rendeu comida, ele tenta de novo, e mais alto.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CEDEU UMA VEZ?",
+    "ele tenta de novo"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 20:20",
+   "fala": "Brioche no tapete, ocupado. E o sogro pediu repeteco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    },
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você escolheu qual? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 pedacinho",
+    "2 brinquedo",
+    "3 gritar"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

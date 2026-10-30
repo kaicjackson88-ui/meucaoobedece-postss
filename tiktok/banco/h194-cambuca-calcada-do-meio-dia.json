@@ -1,0 +1,144 @@
+{
+ "id": "h194-cambuca-calcada-do-meio-dia",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "O Cambucá explica por que ele trava no passeio do meio-dia 🥵 Quem descobriu foi a sobrinha do Gilson, a Heloá: pôs a mão na calçada e tirou na hora.\nO seu também trava no sol? Comenta 1 pra sim, 2 pra não 👇\nSe a pata ficar vermelha ou machucada, procure o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #calor #puxarguia #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Cambucá. E ao meio-dia a calçada queima.",
+   "linhas": [
+    "EU SOU O CAMBUCÁ",
+    "MEIO-DIA NA RUA",
+    "A CALÇADA QUEIMA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 12:00",
+   "fala": "Meio-dia. O Gilson me levou pra rua. Eu travei.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Anda, Cambucá! Que manha!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 12:05",
+   "fala": "Corri de volta pro corredor geladinho e deitei.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 12:10",
+   "fala": "Aí a sobrinha dele, a Heloá, pôs a mão no chão.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Tio, encosta a mão aqui. Tá pelando!"
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Se a sua mão não aguenta ficar no chão por alguns segundos, a pata dele também não.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "TESTE DA MÃO",
+    "no chão quente"
+   ],
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SÁBADO · 19:30",
+   "fala": "Agora o passeio é cedinho ou à noite. E eu vou na frente, feliz da vida.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu também trava no sol? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele trava no sol?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só no asfalto"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

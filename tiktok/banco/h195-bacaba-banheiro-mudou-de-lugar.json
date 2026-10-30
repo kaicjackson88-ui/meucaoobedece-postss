@@ -1,0 +1,156 @@
+{
+ "id": "h195-bacaba-banheiro-mudou-de-lugar",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A Nilce mudou o tapete higiênico de lugar, e a Bacaba continuou fazendo xixi onde ele morava 💦 Quem deu a dica foi a Dona Celina, que ajuda na faxina: levar o tapete aos pouquinhos.\nVocê já mudou o tapete de lugar? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Bacaba. E mudaram o meu banheiro de lugar.",
+   "linhas": [
+    "EU SOU A BACABA",
+    "MUDARAM MEU",
+    "BANHEIRO DE LUGAR"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 07:00",
+   "fala": "A Nilce levou meu tapete pra área. Fiz xixi onde ele morava.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Bacaba! No meio da sala?"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 640,
+     "y": 1470
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 07:05",
+   "fala": "Ela limpou com produto cheiroso. Mas o meu cheiro continuava ali.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O focinho do cão sente cheiro de xixi mesmo depois da faxina. Por isso volta no mesmo lugar.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O CHEIRO FICA",
+    "mesmo depois da faxina"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TERÇA · 09:00",
+   "fala": "Aí a Dona Celina, da faxina, olhou o chão.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Leva o tapete aos pouquinhos. Um passinho por dia."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEXTA · 07:00",
+   "fala": "Agora o tapete anda um pouquinho por dia. Eu vou atrás.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você já mudou o tapete de lugar? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Já mudou o tapete?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 nem tenho tapete"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

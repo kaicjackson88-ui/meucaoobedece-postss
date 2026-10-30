@@ -1,0 +1,81 @@
+{
+ "id": "r095-curio-quanto-o-cao-dorme",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Seu cão dorme o dia todo? Pode ser bem normal 😴\n\n🐾 Cão adulto dorme em média de 12 a 14 horas por dia\n🐾 Filhote pode dormir ainda mais\n🐾 Cão também sonha e mexe as patas\n\nO seu ronca? Comenta 1 pra sim, 2 pra não 👇 Se o sono mudar de repente, vale falar com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#curiosidadesdecachorro #meucaoobedece #comportamentocanino #cachorros #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão dorme o dia todo? Três curiosidades sobre o sono dele.",
+   "linhas": [
+    "ELE DORME",
+    "O DIA TODO?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "12 A 14 HORAS",
+    "por dia, no cão adulto"
+   ],
+   "icone": "relogio",
+   "numero_palavra": "",
+   "fala": "Um: o cão adulto dorme, em média, de doze a catorze horas por dia."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O FILHOTE",
+    "dorme ainda mais"
+   ],
+   "icone": "coracao",
+   "numero_palavra": "",
+   "fala": "Dois: o filhote dorme ainda mais. Sono faz parte do crescimento."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE SONHA",
+    "e mexe as patas"
+   ],
+   "icone": "cerebro",
+   "numero_palavra": "",
+   "fala": "Três: o cão sonha. Sabe quando ele mexe as patas dormindo? Pode estar sonhando."
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "r092-lista-feriado-sem-latido-no-predio",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "latido",
+ "legenda": "Vai sair no feriado e ele late a manhã toda pro prédio inteiro? 🔑\n\n🐾 Saída sem despedida dramática\n🐾 Treinos de saída curtinha antes do dia\n🐾 Brinquedo de faro na hora de sair\n\nO seu late quando você sai? Comenta 1 pra sim, 2 pra não 👇 Se ele sofre muito sozinho, converse com o veterinário ou um profissional.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#latidoexcessivo #condominio #meucaoobedece #cachorrosozinho #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Vai sair no feriado e ele late pro prédio inteiro? Faz isso antes.",
+   "linhas": [
+    "VAI SAIR NO FERIADO",
+    "E ELE LATE?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: corte o drama na porta. Despedida longa avisa que algo ruim vai acontecer.",
+   "titulo": "Sem drama na porta",
+   "sub": "saída tranquila",
+   "icone": "porta"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: treine saídas curtinhas antes. Pega a chave, sai, volta logo, sem festa.",
+   "titulo": "Saídas curtinhas",
+   "sub": "antes do dia",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: na hora de sair, deixe um brinquedo de faro com petisco. Ele fica ocupado.",
+   "titulo": "Brinquedo de faro",
+   "sub": "na hora de sair",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

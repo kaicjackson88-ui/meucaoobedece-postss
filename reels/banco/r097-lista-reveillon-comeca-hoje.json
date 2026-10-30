@@ -1,0 +1,66 @@
+{
+ "id": "r097-lista-reveillon-comeca-hoje",
+ "formato": "lista",
+ "gancho_tipo": "numero",
+ "tema": "fogos",
+ "legenda": "Faltam umas 9 semanas pro Réveillon. Dá tempo de preparar o seu cão 🎆\n\n🐾 Som de fogos baixinho + petisco\n🐾 Cantinho seguro montado desde já\n🐾 Conversa com o veterinário com antecedência\n\nO seu sofre com fogos? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #meucaoobedece #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão treme no Réveillon? Começa hoje. Três passos.",
+   "linhas": [
+    "TREME NO RÉVEILLON?",
+    "COMEÇA HOJE"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: som de fogos bem baixinho, com petisco. Aumenta aos poucos, só se ele estiver tranquilo.",
+   "titulo": "Som baixinho",
+   "sub": "com petisco",
+   "icone": "sino"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: monte o cantinho seguro desde já, pra ele conhecer antes da festa.",
+   "titulo": "Cantinho seguro",
+   "sub": "desde já",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: se o medo é forte, converse com o veterinário com antecedência.",
+   "titulo": "Veterinário",
+   "sub": "com antecedência",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "21 DIAS",
+    "NO SEU RITMO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}
