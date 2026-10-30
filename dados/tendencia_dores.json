@@ -1,9 +1,9 @@
 {
- "campainha": 0.143,
- "xixi": 0.071,
+ "campainha": 0.0,
+ "xixi": 0.1,
  "visita": 0.0,
- "guia": 0.071,
- "sozinho": 0.5,
- "chamado": 0.071,
- "mesa": 0.143
+ "guia": 0.0,
+ "sozinho": 0.6,
+ "chamado": 0.1,
+ "mesa": 0.2
 }
