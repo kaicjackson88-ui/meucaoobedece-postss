@@ -1,1 +1,1 @@
-2026-10-30T10:52:32.105921-03:00 h176-picanha-churrasco-da-laje-antes-e-depois: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261030215231CB688A1A2B51EFA2AE23"}}
+2026-10-30T12:33:17.639792-03:00 h182-goiabada-show-da-racao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261030233317A7FAE041F3F10CA179EC"}}
