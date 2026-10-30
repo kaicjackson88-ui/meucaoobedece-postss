@@ -1,1 +1,1 @@
-2026-10-29T23:06:57.530057-03:00 h174-uvaia-faltam-nove-semanas-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261030100657F3E16D7E7E9F7C7962F2"}}
+2026-10-30T07:28:48.597217-03:00 h171-requeijao-sumico-do-banho-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610301828489899AC01EDD99D9BF7F2"}}
