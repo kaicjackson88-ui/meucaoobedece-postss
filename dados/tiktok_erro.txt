@@ -1,1 +1,1 @@
-2026-10-30T23:12:44.500652-03:00 h186-pacoquita-cartaz-do-elevador-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610311012447673872D2C8407E5BEA1"}}
+2026-10-31T07:29:02.245610-03:00 h188-puxa-puxa-e-a-gata-nova-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610311829028B74FF49B50F6CF0DA57"}}
