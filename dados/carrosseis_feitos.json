@@ -1071,5 +1071,9 @@
   "media_id": "18146687596595729",
   "link": "https://www.instagram.com/p/DfKbhOKI8K_/",
   "publicado_em": "2026-10-31T15:00:57.779933+00:00"
+ },
+ {
+  "slot": "2026-10-31 15:00",
+  "erro": "Erro da Meta em 17841474456587008/media_publish: Media ID is not available (código 9007)"
  }
 ]
