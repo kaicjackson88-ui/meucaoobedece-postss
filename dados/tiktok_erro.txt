@@ -1,1 +1,1 @@
-2026-10-31T10:33:35.374275-03:00 h184-tucupi-alarme-das-entregas: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610312133355E1148ED5A39970EC467"}}
+2026-10-31T10:43:38.141443-03:00 h184-tucupi-alarme-das-entregas: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610312143376336F695F0A0D2FA54E4"}}
