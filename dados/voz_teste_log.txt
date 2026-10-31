@@ -84,3 +84,49 @@ voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid resp
 reserva narrador: 11 palavras, 45740 bytes, fim 2.571s
 voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
 reserva ana: 11 palavras, 45740 bytes, fim 2.577s
+  voz Google: modelos ['gemini-2.5-flash-preview-tts', 'gemini-2.5-pro-preview-tts', 'gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts']
+Google narrador (Charon): OK 18 palavras, fim 5.16s, 4.1s
+Google ana (Kore): OK 18 palavras, fim 6.02s, 4.7s
+padrão: 143.0.3650.75
+falhou padrão: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speec
+  144.0.3710.74: 403, message='Invalid response status', 
+  144.0.3725.74: 403, message='Invalid response status', 
+  145.0.3770.75: 403, message='Invalid response status', 
+  145.0.3800.75: 403, message='Invalid response status', 
+  146.0.3830.76: 403, message='Invalid response status', 
+  146.0.3875.76: 403, message='Invalid response status', 
+  147.0.3890.77: 403, message='Invalid response status', 
+  147.0.3950.77: 403, message='Invalid response status', 
+  148.0.3950.78: 403, message='Invalid response status', 
+  148.0.4025.78: 403, message='Invalid response status', 
+  149.0.4010.79: 403, message='Invalid response status', 
+  149.0.4100.79: 403, message='Invalid response status', 
+  150.0.4070.80: 403, message='Invalid response status', 
+  150.0.4175.80: 403, message='Invalid response status', 
+  151.0.4130.81: 403, message='Invalid response status', 
+  151.0.4250.81: 403, message='Invalid response status', 
+  152.0.4190.82: 403, message='Invalid response status', 
+  152.0.4325.82: 403, message='Invalid response status', 
+  153.0.4250.83: 403, message='Invalid response status', 
+  153.0.4400.83: 403, message='Invalid response status', 
+  154.0.4310.84: 403, message='Invalid response status', 
+  154.0.4475.84: 403, message='Invalid response status', 
+  155.0.4370.85: 403, message='Invalid response status', 
+  155.0.4550.85: 403, message='Invalid response status', 
+  156.0.4430.86: 403, message='Invalid response status', 
+  156.0.4625.86: 403, message='Invalid response status', 
+  157.0.4490.87: 403, message='Invalid response status', 
+  157.0.4700.87: 403, message='Invalid response status', 
+  158.0.4550.88: 403, message='Invalid response status', 
+  158.0.4775.88: 403, message='Invalid response status', 
+  159.0.4610.89: 403, message='Invalid response status', 
+  159.0.4850.89: 403, message='Invalid response status', 
+  160.0.4670.50: 403, message='Invalid response status', 
+  160.0.4925.50: 403, message='Invalid response status', 
+  161.0.4730.51: 403, message='Invalid response status', 
+  161.0.5000.51: 403, message='Invalid response status', 
+versão que funciona: None
+[0;93m2026-10-31 12:52:43.885536616 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Piper OK (3.3s)
+reserva narrador: 11 palavras, 86444 bytes, fim 4.16s
+reserva ana: 11 palavras, 97484 bytes, fim 4.7s

@@ -1,3 +1,5 @@
+Google narrador (Charon): OK 18 palavras, fim 5.16s, 4.1s
+Google ana (Kore): OK 18 palavras, fim 6.02s, 4.7s
 padrão: 143.0.3650.75
 falhou padrão: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speec
   144.0.3710.74: 403, message='Invalid response status', 
@@ -37,6 +39,6 @@ falhou padrão: 403, message='Invalid response status', url='wss://speech.platfo
   161.0.4730.51: 403, message='Invalid response status', 
   161.0.5000.51: 403, message='Invalid response status', 
 versão que funciona: None
-Piper OK (2.5s)
-reserva narrador: 11 palavras, 45740 bytes, fim 2.571s
-reserva ana: 11 palavras, 45740 bytes, fim 2.577s
+Piper OK (3.3s)
+reserva narrador: 11 palavras, 86444 bytes, fim 4.16s
+reserva ana: 11 palavras, 97484 bytes, fim 4.7s
