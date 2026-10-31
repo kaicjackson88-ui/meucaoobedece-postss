@@ -1,1 +1,1 @@
-2026-10-31T19:09:35.597929-03:00 h165-sapoti-tres-erros-da-guia: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261101060935C59C3B3252DDEE49F5EE"}}
+2026-10-31T19:19:39.138197-03:00 h165-sapoti-tres-erros-da-guia: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611010619380A6AD4FB62814834AE61"}}
