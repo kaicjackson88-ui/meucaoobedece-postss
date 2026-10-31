@@ -1075,5 +1075,16 @@
  {
   "slot": "2026-10-31 15:00",
   "erro": "Erro da Meta em 17841474456587008/media_publish: Media ID is not available (código 9007)"
+ },
+ {
+  "slot": "2026-10-31 19:00",
+  "seg": "latido",
+  "tema": "Latido nas visitas",
+  "gancho": "Visita chegou e seu cão não para de latir?",
+  "assin": "latido|Visita chegou e seu cão não [para] de latir?|0,4,5",
+  "seed": 216998503,
+  "media_id": "17892680688654396",
+  "link": "https://www.instagram.com/p/DfLLlicmrwy/",
+  "publicado_em": "2026-10-31T22:00:59.043787+00:00"
  }
 ]
