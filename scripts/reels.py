@@ -49,7 +49,7 @@ _EDGE_FORA = {'n': 0}
 async def _narrar(texto, mp3, voz, rate, pitch='+0Hz'):
     try:  # 1º: voz natural do Google (Gemini TTS), se houver GEMINI_API_KEY
         import voz_google
-        if voz_google.disponivel():
+        if os.environ.get('VOZ_GOOGLE') == '1' and voz_google.disponivel():  # só onde o workflow liga (Reels): a cota grátis é pequena
             return voz_google.falar(texto, mp3, voz, rate, pitch)
     except Exception as e:  # noqa: BLE001
         print('voz do Google indisponível, tentando a da Microsoft:', str(e)[:120], flush=True)
