@@ -1,1 +1,1 @@
-2026-10-31T07:39:05.035722-03:00 h188-puxa-puxa-e-a-gata-nova-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610311839043BE33C1F1D20E4019B2D"}}
+2026-10-31T07:49:07.991313-03:00 h188-puxa-puxa-e-a-gata-nova-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202610311849071CB1198A5910D0EF9F3F"}}
