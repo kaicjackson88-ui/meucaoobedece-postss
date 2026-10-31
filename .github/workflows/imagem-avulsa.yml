@@ -1,0 +1,27 @@
+name: Imagens avulsas (Gemini)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python arte/avulsa.py 2>&1 | tee /tmp/avulsa_log.txt
+      - name: Salvar no ramo avulsas (não mexe no main)
+        if: always()
+        run: |
+          git config user.name "robo-meu-cao-obedece"; git config user.email "robo@users.noreply.github.com"
+          mkdir -p /tmp/av && cp -r avulsas/. /tmp/av/ 2>/dev/null; cp /tmp/avulsa_log.txt /tmp/av/log.txt
+          git checkout -q --orphan avulsas && git rm -rfq . && mkdir -p avulsas && cp -r /tmp/av/. avulsas/
+          git add -f avulsas && git commit -qm "imagens avulsas" && git push -qf origin avulsas
