@@ -1,0 +1,179 @@
+{
+ "id": "h205-mocoto-reforma-do-andar-de-cima-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 2: o Mocotó latia pra cada furadeira da reforma, e o pedreiro tinha um plano 🔨 Saber o horário da obra, brinquedo recheado no cantinho antes da furadeira e passeio longo no intervalo.\nO seu late pra barulho de obra? Comenta 1 pra sim, 2 pra não 👇\nSe ele sofre muito com barulhos, vale conversar com o veterinário ou um profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #apartamento #latidoexcessivo #cachorrolatindo #historiadecachorro",
+ "serie": "mocoto-reforma-do-andar-de-cima",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. O pedreiro da obra tinha um plano pro Mocotó.",
+   "linhas": [
+    "PARTE 2",
+    "O PEDREIRO",
+    "TINHA UM PLANO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 12:05",
+   "fala": "Recapitulando: o Mocotó latia pra cada furadeira.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Eu te passo o horário da furadeira. Nessa hora, ele ganha coisa boa."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão escuta sons agudos que a gente nem percebe. A furadeira chega mais forte pra ele.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O OUVIDO DELE",
+    "pega o que você não ouve"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 07:55",
+   "fala": "Terça, antes da obra: brinquedo recheado no cantinho dele.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "TERÇA · 12:10",
+   "fala": "No intervalo do almoço, passeio longo pra gastar energia.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUARTA · 08:10",
+   "fala": "Quarta. A furadeira ligou. O Mocotó olhou pro teto… e voltou pro brinquedo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Torre 2",
+   "membros": "64 participantes",
+   "quando": "QUARTA · 09:30",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Hoje só ouvi a furadeira. Milagre?"
+    },
+    {
+     "quem": "joao",
+     "texto": "Trabalho em equipe, Seu Odilon"
+    },
+    {
+     "quem": "carla",
+     "texto": "Valeu, Genival!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Edinalva (402)",
+    "vizinho": "Seu Odilon (401)",
+    "joao": "Genival (obra do 502)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late pra barulho de obra? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late pra obra?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 até pro liquidificador"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

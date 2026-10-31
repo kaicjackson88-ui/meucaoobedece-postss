@@ -1,0 +1,69 @@
+{
+ "id": "r100-erro-petisco-quando-pula",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "pulo",
+ "legenda": "Ele pula em todo mundo que tem comida na mão? 🍦\n\n❌ Pulou e ganhou um pedacinho\n✅ Pulou: vira de costas\n✅ Quatro patas no chão: petisco\n\nO seu pula por comida? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorropulando #meucaoobedece #comportamentocanino #cachorroecrianca #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de dar comida quando ele pula em você.",
+   "linhas": [
+    "ELE PULA",
+    "POR COMIDA?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Cada pedacinho que cai depois do pulo ensina: pular funciona. E ele pula na visita, na criança, em todo mundo.",
+   "linhas": [
+    "PULOU,",
+    "GANHOU"
+   ],
+   "destaque": 1,
+   "icone": "x",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Troque: pulou, você vira de costas. Quatro patas no chão, aí sim, petisco.",
+   "topo": [
+    "EM VEZ DISSO"
+   ],
+   "de": "PULOU, GANHOU",
+   "para": "PATAS NO CHÃO",
+   "para_palavra": "chão"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "E combine com a casa toda. Se uma pessoa dá comida no pulo, ele continua tentando.",
+   "titulo": "A casa toda junto",
+   "sub": "uma pessoa cedendo já ensina",
+   "icone": "casa"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

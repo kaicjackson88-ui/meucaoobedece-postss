@@ -1,0 +1,161 @@
+{
+ "id": "h207-sururu-parada-no-posto-da-estrada",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "sol",
+ "legenda": "O Sururu conta a parada no posto da estrada no feriado ⛽ Porta aberta sem guia, pega-pega no estacionamento… e quem resolveu foi o frentista, o Seu Agenor: agachar e chamar animado, sem correr atrás.\nO seu volta quando você chama? Comenta 1 pra sim, 2 pra não 👇\nEm viagem, guia presa antes de abrir a porta do carro, sempre.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#vemaqui #cachorrofugiu #chamadocanino #viagemcomcachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Sururu. No feriado, paramos no posto. E eu achei o paraíso.",
+   "linhas": [
+    "EU SOU O SURURU",
+    "PARADA NO POSTO",
+    "E EU FUGI"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "FERIADO · 10:30",
+   "fala": "Feriado. A Lavínia abriu a porta do carro sem a guia. Fui cheirar o mundo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Sururu, volta aqui!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "FERIADO · 10:32",
+   "fala": "Ela correu atrás de mim. Melhor pega-pega da minha vida.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "FERIADO · 10:35",
+   "fala": "Aí o frentista, o Seu Agenor, agachou e bateu palminha.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "acena"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Não corre atrás, moça. Agacha, chama animada, e ele vem."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Se você corre atrás, ele entende brincadeira. Se você se afasta, ele tende a vir.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CORREU ATRÁS?",
+    "virou pega-pega"
+   ],
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 18:00",
+   "fala": "Agora a Lavínia treina o vem aqui com petisco. E a guia vai antes de abrir a porta do carro.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu volta quando você chama? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele volta quando chama?",
+   "opcoes": [
+    "1 volta",
+    "2 foge",
+    "3 só com petisco"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

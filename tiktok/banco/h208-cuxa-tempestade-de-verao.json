@@ -1,0 +1,181 @@
+{
+ "id": "h208-cuxa-tempestade-de-verao",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "Caiu a tempestade e o Cuxá tremia no banheiro ⛈️ A Cleonice pediu ajuda no grupo do prédio e choveu dica: cantinho com coberta, ficar perto sem drama e som de trovão baixinho com petisco num dia de sol.\nO seu tem medo de trovão? Comenta 1 pra sim, 2 pra não 👇\nSe o medo for intenso, converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorroemedo #trovao #condominio #apartamento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Caiu a tempestade. E o grupo do prédio virou plantão do Cuxá.",
+   "linhas": [
+    "CAIU A TEMPESTADE",
+    "O CÃO TREMENDO",
+    "E O GRUPO AJUDOU"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "TERÇA · 18:40",
+   "fala": "Primeiro trovão. O Cuxá correu pro banheiro, tremendo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Calma, Cuxá. Tô aqui."
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Vizinhos Ed. Jequitibá",
+   "membros": "36 participantes",
+   "quando": "18:52",
+   "fala": "Ela mandou no grupo:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Alguém tem cachorro que treme com trovão?",
+     "eu": true
+    },
+    {
+     "quem": "ana",
+     "texto": "O meu! Ele tem um cantinho escuro com coberta"
+    }
+   ],
+   "nomes": {
+    "carla": "Cleonice (203)",
+    "ana": "Joyce (204)",
+    "vizinho": "Seu Ednaldo (101)",
+    "pedro": "Wendel (302)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Vizinhos Ed. Jequitibá",
+   "membros": "36 participantes",
+   "quando": "18:58",
+   "fala": "E chegaram mais dicas.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Fica pertinho, calma, sem drama"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Trovão baixinho no celular, em dia de sol, com petisco"
+    }
+   ],
+   "nomes": {
+    "carla": "Cleonice (203)",
+    "ana": "Joyce (204)",
+    "vizinho": "Seu Ednaldo (101)",
+    "pedro": "Wendel (302)"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Muitos cães percebem a tempestade antes da gente, pelo vento e pelo trovão ainda longe.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE SENTE ANTES",
+    "a tempestade chegando"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 11:00",
+   "fala": "Sábado de sol: cantinho com coberta, trovão baixinho e petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Vizinhos Ed. Jequitibá",
+   "membros": "36 participantes",
+   "quando": "QUINTA · 19:10",
+   "fala": "Na tempestade seguinte:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Ele foi sozinho pro cantinho. Tremeu bem menos",
+     "eu": true
+    },
+    {
+     "quem": "ana",
+     "texto": "Figurinha: palmas"
+    }
+   ],
+   "nomes": {
+    "carla": "Cleonice (203)",
+    "ana": "Joyce (204)",
+    "vizinho": "Seu Ednaldo (101)",
+    "pedro": "Wendel (302)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu tem medo de trovão? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele tem medo de trovão?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só de fogos"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

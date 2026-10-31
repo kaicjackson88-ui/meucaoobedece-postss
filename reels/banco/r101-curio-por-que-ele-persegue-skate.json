@@ -1,0 +1,76 @@
+{
+ "id": "r101-curio-por-que-ele-persegue-skate",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Por que ele enlouquece quando passa skate, bicicleta ou gato? 🛹\n\n👉 Movimento rápido acorda o instinto de perseguir\n👉 O barulho das rodinhas avisa antes de você ver\n✅ Dê distância e premie quando ele olha pra você\n\nO seu corre atrás do quê? Comenta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#passeiocomcachorro #meucaoobedece #comportamentocanino #puxarguia #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Por que o seu cachorro enlouquece quando passa um skate?",
+   "linhas": [
+    "PASSA UM SKATE",
+    "E ELE ENLOUQUECE?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "MOVIMENTO RÁPIDO",
+    "acorda a vontade de perseguir"
+   ],
+   "icone": "alvo",
+   "numero_palavra": "",
+   "fala": "Primeiro: coisa rápida passando acorda no cão o instinto de perseguir. Skate, bicicleta e gato são o prato cheio."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE OUVE ANTES",
+    "o barulho das rodinhas"
+   ],
+   "icone": "sino",
+   "numero_palavra": "",
+   "fala": "Segundo: ele ouve as rodinhas antes de você. Por isso ele já fica tenso antes do skate aparecer."
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "O que ajuda: ouviu a rodinha, dê distância. Ele olhou pra você? Petisco.",
+   "titulo": "Distância + petisco",
+   "sub": "quando ele olha pra você",
+   "icone": "guia"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

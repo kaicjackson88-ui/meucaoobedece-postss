@@ -1,0 +1,154 @@
+{
+ "id": "h212-jurubeba-tres-erros-do-peitoral",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "3 coisas que a Railda fazia com o peitoral e a Jurubeba entendia tudo errado 🦮 Peitoral só pro banho, porta aberta com ela pulando e colocar com pressa e bronca. A troca: peitoral com petisco, sem pressa, e porta só com as quatro patas no chão.\nVocê faz alguma dessas? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #guia #peitoral #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz com o peitoral. E o seu cão entende errado.",
+   "linhas": [
+    "3 ERROS COM",
+    "O PEITORAL",
+    "QUE ELE ENTENDE ERRADO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1",
+   "fala": "Erro um: o peitoral só aparece na hora do banho. A Jurubeba vê e some.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Jurubeba, volta aqui!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 2",
+   "fala": "Erro dois: ela pula na porta, e a Railda abre. Pular virou a senha do passeio.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 3",
+   "fala": "Erro três: veste com pressa e bronca, apertando tudo. Peitoral virou briga.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Fica parada!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão liga um objeto ao que vem depois dele. Se o peitoral sempre leva ao banho, ele vira aviso de banho.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O PEITORAL AVISA",
+    "o que vem depois"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "O CERTO",
+   "fala": "O certo: peitoral com petisco, sem pressa. E a porta só abre com as quatro patas no chão.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você faz algum desses? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você faz?",
+   "opcoes": [
+    "1 só pro banho",
+    "2 abre com pulo",
+    "3 pressa e bronca"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

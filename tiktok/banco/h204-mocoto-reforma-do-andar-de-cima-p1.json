@@ -1,0 +1,162 @@
+{
+ "id": "h204-mocoto-reforma-do-andar-de-cima-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 1: começou a reforma no andar de cima e o Mocotó latiu pra cada furadeira 🔨 O grupo do prédio reclamou… e quem tocou a campainha foi o próprio pedreiro.\nO que você acha que ele sugeriu? Comenta 1, 2 ou 3 e segue pra ver a Parte 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #apartamento #latidoexcessivo #cachorrolatindo #historiadecachorro",
+ "serie": "mocoto-reforma-do-andar-de-cima",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte um. Começou a reforma no andar de cima. E o Mocotó declarou guerra.",
+   "linhas": [
+    "REFORMA NO ANDAR",
+    "DE CIMA: GUERRA",
+    "PARTE 1"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 08:00",
+   "fala": "Oito da manhã. A furadeira ligou. O Mocotó respondeu.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!"
+    },
+    {
+     "quem": "carla",
+     "texto": "Mocotó, é só a obra!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 09:00",
+   "fala": "A Edinalva foi pra reunião online no corredor. O latido foi junto.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Gente, desculpa, é o cachorro."
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Torre 2",
+   "membros": "64 participantes",
+   "quando": "09:12",
+   "fala": "E o grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "O cachorro do 402 tá mais alto que a furadeira"
+    },
+    {
+     "quem": "carla",
+     "texto": "Desculpa! Ele late pra cada barulho",
+     "eu": true
+    },
+    {
+     "quem": "joao",
+     "texto": "Desculpa também, vizinha. Posso passar aí?"
+    }
+   ],
+   "nomes": {
+    "carla": "Edinalva (402)",
+    "vizinho": "Seu Odilon (401)",
+    "joao": "Genival (obra do 502)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 12:00",
+   "fala": "Meio-dia. A furadeira parou. E aí o pedreiro tocou a campainha.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "normal",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Dona Edinalva? Sou o Genival, da obra. Tenho uma ideia."
+    }
+   ],
+   "campainha": 1
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que o Genival vai sugerir? Comenta um, dois ou três. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que ele sugeriu?",
+   "opcoes": [
+    "1 parar a obra",
+    "2 um plano com horário",
+    "3 bronca no cão"
+   ],
+   "escolha": 1,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

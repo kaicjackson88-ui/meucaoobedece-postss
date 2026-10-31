@@ -1,0 +1,160 @@
+{
+ "id": "h209-baru-plantao-no-portao",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "O Baru latia pra cada pessoa que passava no portão 🏠 A Dona Josefa reclamou no grupo da rua… e a dica veio do Kalebe, que passeia cachorros: tirar ele do plantão do portão e premiar o silêncio.\nO seu late pra quem passa? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #portao #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Baru late pra todo mundo que passa. E a rua tem grupo.",
+   "linhas": [
+    "ELE LATE PRA RUA",
+    "INTEIRA NO PORTÃO",
+    "E A RUA TEM GRUPO"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Rua das Paineiras",
+   "membros": "22 participantes",
+   "quando": "07:10",
+   "fala": "Sete da manhã, no grupo da rua:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "O cachorro da casa 12 latiu até pra mim"
+    },
+    {
+     "quem": "joao",
+     "texto": "Desculpa, Dona Josefa. Ele se acha o segurança",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Josefa (casa 8)",
+    "joao": "Benedito (casa 12)",
+    "pedro": "Kalebe (casa 3)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEGUNDA · 07:15",
+   "fala": "O Baru passa o dia colado no portão. Cada passo vira alarme.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Rua das Paineiras",
+   "membros": "22 participantes",
+   "quando": "07:30",
+   "fala": "Aí o Kalebe, passeador da rua, mandou:",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Seu Benedito, tira ele do portão. Dá um osso dentro de casa e premia quando ele fica quietinho"
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Josefa (casa 8)",
+    "joao": "Benedito (casa 12)",
+    "pedro": "Kalebe (casa 3)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 07:10",
+   "fala": "Sábado: Baru na sala, com osso. Olhou a janela calado? Petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Rua das Paineiras",
+   "membros": "22 participantes",
+   "quando": "SÁBADO SEGUINTE",
+   "fala": "Uma semana depois:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Passei hoje e só ouvi um auzinho"
+    },
+    {
+     "quem": "joao",
+     "texto": "Treininho todo dia, Dona Josefa",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Josefa (casa 8)",
+    "joao": "Benedito (casa 12)",
+    "pedro": "Kalebe (casa 3)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late pra quem passa no portão? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late no portão?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só pro carteiro"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

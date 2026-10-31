@@ -1,0 +1,66 @@
+{
+ "id": "r099-lista-trovao-sem-panico",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "fogos",
+ "legenda": "Seu cachorro treme quando começa a trovoada? ⛈️\n\n1️⃣ Cantinho seguro com coberta\n2️⃣ Fique por perto, calmo, sem drama\n3️⃣ Em dia de sol: trovão baixinho + petisco\n\nO seu tem medo de trovão? Comenta 1 pra sim, 2 pra não 👇 Medo muito intenso: converse com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorroemedo #trovao #meucaoobedece #comportamentocanino #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cachorro treme quando começa a trovoada?",
+   "linhas": [
+    "ELE TREME",
+    "NA TROVOADA?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: monte um cantinho seguro, escuro, com a coberta dele. Deixe ele ir lá quando quiser.",
+   "titulo": "Cantinho seguro",
+   "sub": "escuro, com a coberta dele",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: fique por perto e calmo. Sem drama e sem bronca pelo medo.",
+   "titulo": "Você calmo por perto",
+   "sub": "sem drama e sem bronca",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: em dia de sol, coloque som de trovão bem baixinho e dê petisco. Aumente aos poucos, se ele estiver tranquilo.",
+   "titulo": "Trovão baixinho",
+   "sub": "no dia de sol, com petisco",
+   "icone": "sino"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

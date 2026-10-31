@@ -1,0 +1,176 @@
+{
+ "id": "h211-caruru-persegue-o-skate-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "Passa um skate na praça e o Caruru vira foguete 🛹 O que você faria? 1 tranco na guia, 2 se afastar antes e premiar quando ele olha pra você, 3 soltar pra ele correr.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\nSe ele avança com muita força ou tenta morder, procure um profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #puxarguia #guia #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Passa um skate, e o Caruru vira foguete. O que você faria?",
+   "linhas": [
+    "PASSA UM SKATE",
+    "O CÃO VIRA FOGUETE",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO · 17:00",
+   "fala": "Domingo na praça. Passou um skate. O Caruru arrastou a Doralice.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Caruru, para!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "DOMINGO · 18:00",
+   "fala": "Segundo skate. Latido, puxão, e a Doralice quase no chão.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: tranco na guia. Dois: se afastar e premiar. Três: soltar ele. Comenta antes da resposta!",
+   "topo": [
+    "1 TRANCO NA GUIA",
+    "2 AFASTAR E PREMIAR",
+    "3 SOLTAR ELE"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 18:20",
+   "fala": "Resposta: dois. Quem ensinou foi o skatista, o Yuri, vizinho do sexto andar.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ouviu a rodinha, dá distância. Ele olhou pra você? Petisco."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Coisa rápida passando acorda no cão a vontade de perseguir.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "PASSOU RÁPIDO?",
+    "dá vontade de correr atrás"
+   ],
+   "icone": "alvo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "TERÇA · 17:00",
+   "fala": "Terça na praça. Ouviu rodinha, a Doralice se afasta. O Caruru olha pra ela, e ganha petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você escolheu qual? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 tranco",
+    "2 afastar e premiar",
+    "3 soltar"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

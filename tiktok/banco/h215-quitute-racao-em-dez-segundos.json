@@ -1,0 +1,152 @@
+{
+ "id": "h215-quitute-racao-em-dez-segundos",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "O Quitute comia a ração em 10 segundos e passava o resto do dia pedindo mais 🥣 Na consulta de rotina, a veterinária deu a ideia: ração espalhada no tapete de farejar.\nO seu come rápido assim? Comenta 1 pra sim, 2 pra não 👇\nSe ele vomita ou passa mal depois de comer, procure o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #racao #comportamentocanino #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Quitute come a ração em dez segundos. E ainda pede mais.",
+   "linhas": [
+    "RAÇÃO EM 10 SEGUNDOS",
+    "E AINDA PEDE",
+    "MAIS"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 07:00",
+   "fala": "Sete da manhã. O Ariovaldo pôs a ração. Dez segundos depois, pote vazio.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Já acabou?!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 07:01",
+   "fala": "E aí, latido e pote empurrado pela cozinha toda.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · 10:00",
+   "fala": "Na consulta de rotina, a doutora Lucimar ouviu tudo e deu uma ideia.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Faz ele procurar a ração. Come mais devagar e ainda gasta energia."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "No pote, a ração some num segundo. Espalhada no tapete de farejar, vira uma caça.",
+   "topo": [
+    "POTE CHEIO",
+    "ACABA NUM SEGUNDO"
+   ],
+   "de": "POTE",
+   "para": "CAÇA À RAÇÃO",
+   "para_palavra": "caça"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 07:00",
+   "fala": "Agora a ração vai pro tapete de farejar. Dez minutos de caça, e o Quitute cochila feliz.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu come rápido assim? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele come rápido?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 aspira o pote"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

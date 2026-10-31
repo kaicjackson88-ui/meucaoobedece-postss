@@ -1,0 +1,167 @@
+{
+ "id": "h214-bobo-picole-da-pracinha",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "O Bobó pulou na Abigail, de 6 anos, e levou o picolé 🍦 Quem descobriu o porquê foi ela mesma: em casa, ele pulava e ganhava biscoito. Agora, comida só com as quatro patas no chão.\nO seu pula em quem tem comida na mão? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #cachorroecrianca #passeiocomcachorro #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A Abigail ganhou um picolé. O Bobó ganhou também.",
+   "linhas": [
+    "A MENINA E O PICOLÉ",
+    "O CÃO PULOU",
+    "E LEVOU TUDO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 16:00",
+   "fala": "Sábado na pracinha. O Bobó pulou na Abigail e levou o picolé dela.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "triste",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Meu picolé!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 19:00",
+   "fala": "À noite, a mãe dela bateu na porta do Nadir.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bracos_cruzados"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Seu cachorro assustou a minha filha."
+    }
+   ],
+   "campainha": 1
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO · 16:00",
+   "fala": "No domingo, a Abigail voltou com uma teoria.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Tio, quando ele pula, o senhor dá biscoito. Eu vi!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Em casa, pular sempre rendia comida. Na praça, o Bobó só fez o de sempre. Regra nova: comida só com as quatro patas no chão.",
+   "topo": [
+    "PULAR ERA",
+    "A SENHA DO LANCHE"
+   ],
+   "de": "PULOU, GANHOU",
+   "para": "PATAS NO CHÃO",
+   "para_palavra": "chão"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 18:00",
+   "fala": "Agora, pulou? O Nadir vira de costas. Quatro patas no chão? Petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu pula em quem tem comida na mão? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele pula pela comida?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só em criança"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

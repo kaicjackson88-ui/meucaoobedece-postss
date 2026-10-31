@@ -1,0 +1,72 @@
+{
+ "id": "r102-mito-bronca-quando-chega",
+ "formato": "mito",
+ "gancho_tipo": "negacao",
+ "tema": "obediencia",
+ "legenda": "Chegou em casa, achou a bagunça e deu bronca? Ele não liga a bronca ao que fez horas antes 🏠\n\n❌ Bronca na chegada\n✅ Chegada calma\n✅ Antes de sair: passeio e brinquedo recheado\n\nVocê já fez isso? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#comportamentocanino #meucaoobedece #cachorrosozinho #educacaocanina #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Bronca quando você chega e acha a bagunça não ensina nada.",
+   "linhas": [
+    "ACHOU A BAGUNÇA",
+    "E DEU BRONCA?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "porta"
+  },
+  {
+   "tipo": "mito",
+   "frase": "Ele sabe o que fez de errado",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "A BRONCA CHEGA TARDE",
+    "ELE LIGA À SUA CHEGADA"
+   ],
+   "icone": "cerebro",
+   "tag": "BRONCA ATRASADA",
+   "fala": "Ele sabe o que fez de errado? Mito. A bronca chega horas depois, e ele liga a bronca à sua chegada."
+  },
+  {
+   "tipo": "texto",
+   "fala": "Aquela cara de culpa é ele reagindo ao seu tom de voz, não à bagunça.",
+   "linhas": [
+    "CARA DE CULPA",
+    "É O SEU TOM"
+   ],
+   "destaque": 1,
+   "icone": "focinho",
+   "mascote": "dorminhoco"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "O que ajuda: chegada calma. E antes de sair, passeio e um brinquedo recheado.",
+   "titulo": "Antes de sair",
+   "sub": "passeio + brinquedo recheado",
+   "icone": "osso"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}
