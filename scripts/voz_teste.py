@@ -18,7 +18,26 @@ async def tenta(saida):
     await edge_tts.Communicate('Teste de voz do Meu Cão Obedece.', 'pt-BR-FranciscaNeural').save(str(saida))
 
 
+def teste_google():
+    import json, voz_google
+    if not voz_google.disponivel():
+        log('Google: sem GEMINI_API_KEY'); return
+    texto = 'Seu cachorro não é teimoso. Ele só nunca entendeu o que você está pedindo. E isso muda tudo.'
+    tempos = {}
+    for nome, voz in (('narrador', 'pt-BR-AntonioNeural'), ('ana', 'pt-BR-FranciscaNeural')):
+        t = time.time()
+        try:
+            dest = RAIZ / 'dados' / f'voz_google_{nome}.mp3'
+            pal = voz_google.falar(texto, str(dest), voz, '+6%')
+            tempos[nome] = pal
+            log(f'Google {nome} ({voz_google.voz_gemini(voz)}): OK {len(pal)} palavras, fim {pal[-1]["fim"]}s, {time.time() - t:.1f}s')
+        except Exception as e:  # noqa: BLE001
+            log(f'Google {nome} falhou: ' + str(e)[:300])
+    (RAIZ / 'dados' / 'voz_google_tempos.json').write_text(json.dumps(tempos, ensure_ascii=False))
+
+
 def main():
+    teste_google()
     import voz_edge
     log('padrão: ' + voz_edge.versao_atual())
     try:

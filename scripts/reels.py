@@ -47,6 +47,12 @@ _EDGE_FORA = {'n': 0}
 
 
 async def _narrar(texto, mp3, voz, rate, pitch='+0Hz'):
+    try:  # 1º: voz natural do Google (Gemini TTS), se houver GEMINI_API_KEY
+        import voz_google
+        if voz_google.disponivel():
+            return voz_google.falar(texto, mp3, voz, rate, pitch)
+    except Exception as e:  # noqa: BLE001
+        print('voz do Google indisponível, tentando a da Microsoft:', str(e)[:120], flush=True)
     if _EDGE_FORA['n'] < 2:  # depois de 2 recusas seguidas, vai direto pra voz reserva
         try:
             pal = await _narrar_edge(texto, mp3, voz, rate, pitch)

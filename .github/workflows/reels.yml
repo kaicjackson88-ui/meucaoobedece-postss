@@ -91,6 +91,7 @@ jobs:
         if: steps.precisa.outputs.sim == 'sim'
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           ROTEIRO: ${{ github.event.inputs.roteiro }}
