@@ -1,1 +1,1 @@
-2026-10-30T21:11:38.726090-03:00 h182-goiabada-show-da-racao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261031081138AF7A9115F37837D5B0D8"}}
+2026-10-30T21:21:41.985395-03:00 h182-goiabada-show-da-racao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261031082141EA89B759BE2B1DCADE36"}}
