@@ -1,25 +1,13 @@
-Aguardando o horário 14:00 (118 min)...
-Roteiro: h038-cacau-churrasco-da-familia (tiktok-historia, estilo sol) — horário 2026-11-01 14:00
-Narração...
-  voz Google: modelos ['gemini-2.5-flash-preview-tts', 'gemini-2.5-pro-preview-tts', 'gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts']
-voz do Google indisponível, tentando a da Microsoft: voz Google sem cota agora: gemini-2.5-flash-preview-tts: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceede
-voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-  história: o mesmo cão real (f1851107) em todas as cenas, 1 quadro(s)
-Render...
-  frame 0/1202
-  frame 300/1202
-  frame 600/1202
-  frame 900/1202
-  frame 1200/1202
-Áudio...
-Preparing worktree (detached HEAD ef9d63e)
-HEAD is now at ef9d63e Carrossel publicado
-Switched to a new branch 'tmp-20261101-1403-h038-cacau-churrasco-da-familia'
+Aguardando o horário 19:00 (115 min)...
+  cão real "bravo" pronto
+  cão real "feliz" pronto
+  cão real "normal" pronto
+  cão real "dorminhoco" pronto
+  cão real "lendario" pronto
+Preparing worktree (detached HEAD d381a73)
+HEAD is now at d381a73 Reels publicado
+Switched to a new branch 'tmp-midia-20261101-1900-c-xixi'
 remote: 
-remote: Create a pull request for 'midia-20261101-1403-h038-cacau-churrasco-da-familia' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261101-1403-h038-cacau-churrasco-da-familia        
+remote: Create a pull request for 'midia-20261101-1900-c-xixi' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261101-1900-c-xixi        
 remote: 
