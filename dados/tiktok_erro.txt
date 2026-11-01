@@ -1,1 +1,1 @@
-2026-10-31T23:13:44.860319-03:00 h183-marmelo-caca-ao-tornozelo: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261101101344D0F862CC621A2B330974"}}
+2026-10-31T23:23:48.247735-03:00 h183-marmelo-caca-ao-tornozelo: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261101102348FEBAAEC31064D929CDA3"}}
