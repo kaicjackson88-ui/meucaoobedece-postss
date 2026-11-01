@@ -1,1 +1,1 @@
-2026-10-31T23:23:48.247735-03:00 h183-marmelo-caca-ao-tornozelo: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261101102348FEBAAEC31064D929CDA3"}}
+2026-11-01T07:20:20.966354-03:00 h196-jamelao-festa-de-quinze-anos: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611011820202F25D90EC71CF365B98A"}}
