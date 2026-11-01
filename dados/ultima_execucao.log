@@ -1,18 +1,21 @@
-Aguardando o horário 07:00 (318 min)...
-  cão real "bravo" pronto
-  cão real "feliz" pronto
-  cão real "normal" pronto
-  cão real "dorminhoco" pronto
-  cão real "lendario" pronto
-  cão real "bravo" pronto
-  cão real "feliz" pronto
-  cão real "normal" pronto
-  cão real "dorminhoco" pronto
-  cão real "lendario" pronto
-Preparing worktree (detached HEAD 3309340)
-HEAD is now at 3309340 TikTok: história pronta
-Switched to a new branch 'tmp-midia-20261101-0700-c-pulo'
+Aguardando o horário 09:00 (116 min)...
+Roteiro: r063-lista-latido-no-corredor (lista, estilo menta) — horário 2026-11-01 09:00
+Narração...
+  voz Google: modelos ['gemini-2.5-flash-preview-tts', 'gemini-2.5-pro-preview-tts', 'gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts']
+  cão real "bravo": 48 quadro(s)
+  cão real "feliz": 48 quadro(s)
+  cão real "normal": 48 quadro(s)
+  cão real "dorminhoco": 48 quadro(s)
+  cão real "lendario": 48 quadro(s)
+Render...
+  frame 0/885
+  frame 300/885
+  frame 600/885
+Áudio...
+Preparing worktree (detached HEAD a8f5903)
+HEAD is now at a8f5903 Carrossel publicado
+Switched to a new branch 'tmp-20261101-0902-r063-lista-latido-no-corredor'
 remote: 
-remote: Create a pull request for 'midia-20261101-0700-c-pulo' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261101-0700-c-pulo        
+remote: Create a pull request for 'midia-20261101-0902-r063-lista-latido-no-corredor' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261101-0902-r063-lista-latido-no-corredor        
 remote: 
