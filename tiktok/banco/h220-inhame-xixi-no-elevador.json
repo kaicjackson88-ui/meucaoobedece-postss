@@ -1,0 +1,178 @@
+{
+ "id": "h220-inhame-xixi-no-elevador",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Xixi no elevador social. E o grupo do prédio já tinha o print 🛗 Quem salvou a Valdirene foi um áudio do Seu Lourival: acordou, desce no colo e faz lá fora.\nO seu filhote já aprontou no elevador? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #apartamento #xixinolugarcerto #filhote #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Xixi no elevador. E o grupo do prédio já tinha o print.",
+   "linhas": [
+    "XIXI NO ELEVADOR",
+    "E O GRUPO",
+    "JÁ TINHA O PRINT"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 07:02",
+   "fala": "Sete e dois. O Inhame, de cinco meses, esperou a porta do elevador fechar.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Inhame, agora não!",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 620,
+     "y": 1450
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio das Palmeiras",
+   "membros": "72 participantes",
+   "quando": "07:15",
+   "fala": "Às sete e quinze:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Quem deixou um lago no elevador social?"
+    },
+    {
+     "quem": "joao",
+     "texto": "Tem câmera, hein"
+    },
+    {
+     "quem": "bia",
+     "texto": "Fui eu. Quer dizer, o Inhame. Já limpei!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "bia": "Valdirene (703)",
+    "carla": "Marinalva (604)",
+    "joao": "Sidnei (302)",
+    "vizinho": "Seu Lourival (101)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio das Palmeiras",
+   "membros": "72 participantes",
+   "quando": "07:20",
+   "fala": "Aí o Seu Lourival mandou um áudio.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Áudio: o meu fazia igual. Acordou, desce no colo e faz lá fora."
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Fez lá fora? Festa e petisco."
+    }
+   ],
+   "nomes": {
+    "bia": "Valdirene (703)",
+    "carla": "Marinalva (604)",
+    "joao": "Sidnei (302)",
+    "vizinho": "Seu Lourival (101)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "TERÇA · 07:00",
+   "fala": "Terça. O Inhame acordou e desceu no colo da Valdirene. Xixi na grama, festa e petisco.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Condomínio das Palmeiras",
+   "membros": "72 participantes",
+   "quando": "TERÇA · 07:12",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Elevador cheirosinho hoje, hein"
+    },
+    {
+     "quem": "bia",
+     "texto": "Valeu, Seu Lourival!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "bia": "Valdirene (703)",
+    "carla": "Marinalva (604)",
+    "joao": "Sidnei (302)",
+    "vizinho": "Seu Lourival (101)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu filhote já aprontou no elevador? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Já aprontou?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 na portaria"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

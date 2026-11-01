@@ -1,0 +1,152 @@
+{
+ "id": "h216-gengibre-ensaio-da-bateria-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "PARTE 1: começou o ensaio da escola de samba na rua de trás. Surdo, rojão… e o Gengibre sumiu atrás da geladeira 🥁🎆 Aí a Dona Iracema, do 101, chamou o Gilvan com uma caixa na mão.\nO que você acha que tem na caixa? Comenta 1, 2 ou 3 e segue pra ver a Parte 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #condominio #historiadecachorro",
+ "serie": "gengibre-ensaio-da-bateria",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte um. Começou o ensaio da bateria na rua de trás. E o Gengibre sumiu.",
+   "linhas": [
+    "ENSAIO DA BATERIA",
+    "E O CÃO SUMIU",
+    "PARTE 1"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 20:00",
+   "fala": "Sábado, oito da noite. O surdo começou. E veio o primeiro rojão.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Gengibre? Vem cá!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 20:10",
+   "fala": "O Gilvan procurou a casa toda. Achou o Gengibre atrás da geladeira, tremendo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Calma, amigão. Tô aqui."
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Bloco B",
+   "membros": "48 participantes",
+   "quando": "20:25",
+   "fala": "No grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ensaio todo sábado até o Carnaval, gente"
+    },
+    {
+     "quem": "joao",
+     "texto": "Até o Carnaval? O meu tá atrás da geladeira",
+     "eu": true
+    },
+    {
+     "quem": "sindica",
+     "texto": "Gilvan, desce aqui. Tenho uma coisa pra ele."
+    }
+   ],
+   "nomes": {
+    "joao": "Gilvan (304)",
+    "vizinho": "Seu Lourival (402)",
+    "sindica": "Dona Iracema (101)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 20:40",
+   "fala": "Ele desceu. E a Dona Iracema abriu a porta com uma caixa de papelão nos braços.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "O meu Barão também tinha esse medo."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que tem na caixa? Comenta um, dois ou três. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que tem na caixa?",
+   "opcoes": [
+    "1 um remédio",
+    "2 uma toca pronta",
+    "3 um fone"
+   ],
+   "escolha": 1,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

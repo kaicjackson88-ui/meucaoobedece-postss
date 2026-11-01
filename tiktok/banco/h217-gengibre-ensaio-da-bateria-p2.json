@@ -1,0 +1,152 @@
+{
+ "id": "h217-gengibre-ensaio-da-bateria-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "PARTE 2: o que a Dona Iracema tinha na caixa pro Gengibre 📦 Uma toca com o cobertor velho do Gilvan, no canto escuro do banheiro. Na semana, som de bateria baixinho com petisco, subindo aos poucos.\nO seu tem medo de rojão? Comenta 1 pra sim, 2 pra não 👇\nSe o medo for muito forte, vale conversar com o veterinário sobre como ajudar.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #condominio #historiadecachorro",
+ "serie": "gengibre-ensaio-da-bateria",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. O que a Dona Iracema tinha na caixa pro Gengibre.",
+   "linhas": [
+    "PARTE 2",
+    "A CAIXA DA",
+    "DONA IRACEMA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 20:45",
+   "fala": "Recapitulando: ensaio da bateria, rojão, e o Gengibre atrás da geladeira.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "normal",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "É uma toca. Ele escolhe o canto, você só deixa pronta."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão ouve sons agudos que a gente nem percebe.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O ESTALO DO ROJÃO",
+    "chega mais forte pra ele"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "DOMINGO · 22:00",
+   "fala": "Domingo. Caixa com o cobertor velho do Gilvan, no canto escuro do banheiro. O Gengibre entrou sozinho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 19:00",
+   "fala": "Na semana, som de bateria baixinho no celular, e petisco. Ficou tranquilo? Sobe um pouquinho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Bloco B",
+   "membros": "48 participantes",
+   "quando": "SÁBADO · 20:30",
+   "fala": "Sábado seguinte, no grupo:",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "O rojão começou e ele foi andando pra toca!",
+     "eu": true
+    },
+    {
+     "quem": "sindica",
+     "texto": "Um passinho por sábado, Gilvan."
+    }
+   ],
+   "nomes": {
+    "joao": "Gilvan (304)",
+    "vizinho": "Seu Lourival (402)",
+    "sindica": "Dona Iracema (101)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu tem medo de rojão? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele tem medo?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 se esconde"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

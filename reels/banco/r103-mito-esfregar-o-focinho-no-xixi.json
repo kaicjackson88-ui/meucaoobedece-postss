@@ -1,0 +1,81 @@
+{
+ "id": "r103-mito-esfregar-o-focinho-no-xixi",
+ "formato": "mito",
+ "gancho_tipo": "negacao",
+ "tema": "xixi",
+ "legenda": "Esfregar o focinho dele no xixi ensina o lugar certo? Não ensina 💦\n\n❌ Focinho no xixi e bronca\n✅ Limpar sem plateia\n✅ Levar ao tapete depois de acordar, comer e brincar\n✅ Acertou? Festa e petisco na hora\n\nVocê já ouviu esse conselho? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#xixinolugarcerto #meucaoobedece #tapetehigienico #apartamento #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de esfregar o focinho do seu cão no xixi.",
+   "linhas": [
+    "FOCINHO NO XIXI",
+    "ENSINA ALGUMA COISA?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "frase": "Esfregar o focinho ensina o lugar",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "ELE APRENDE A",
+    "ESCONDER O XIXI"
+   ],
+   "icone": "focinho",
+   "tag": "CONSELHO ANTIGO",
+   "fala": "Esfregar o focinho ensina o lugar certo? Mito. Ele aprende que fazer xixi na sua frente dá problema."
+  },
+  {
+   "tipo": "texto",
+   "fala": "Aí ele começa a fazer escondido, atrás do sofá ou embaixo da mesa.",
+   "linhas": [
+    "XIXI ESCONDIDO",
+    "ATRÁS DO SOFÁ"
+   ],
+   "destaque": 0,
+   "icone": "sofa",
+   "mascote": "dorminhoco"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 2,
+   "fala": "Um: leve ao tapete logo depois de acordar, comer e brincar.",
+   "titulo": "Hora certa",
+   "sub": "acordou, comeu, brincou",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 2,
+   "fala": "Dois: acertou? Festa e petisco na hora. Errou? Limpa sem plateia.",
+   "titulo": "Festa no acerto",
+   "sub": "erro se limpa calado",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

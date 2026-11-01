@@ -1,0 +1,155 @@
+{
+ "id": "h223-grumixama-moto-da-janela-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Passa uma moto e a Grumixama late pra rua inteira 🏍️ O que você faria? 1 gritar mais alto, 2 tapar a vista da janela e premiar o silêncio, 3 trancar ela no quarto.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrolatindo #latidoexcessivo #apartamento #condominio #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Passa uma moto, e a Grumixama late pra rua inteira. O que você faria?",
+   "linhas": [
+    "PASSA UMA MOTO",
+    "ELA LATE PRA RUA",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUARTA · 14:00",
+   "fala": "Duas da tarde. A Grumixama no encosto do sofá, de plantão na janela.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU! AU! AU!"
+    },
+    {
+     "quem": "ana",
+     "texto": "É só o motoboy, Grumixama!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? A moto sempre vai embora. Ele acha que o latido espantou, e repete.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "A MOTO FOI EMBORA",
+    "e ele acha que venceu"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: gritar. Dois: tapar a vista e premiar o silêncio. Três: trancar no quarto. Comenta antes da resposta!",
+   "topo": [
+    "1 GRITAR MAIS ALTO",
+    "2 TAPAR A VISTA + PREMIAR",
+    "3 TRANCAR NO QUARTO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUINTA · 14:00",
+   "fala": "Resposta: dois. Quem achou foi a neta, Taciana, de dez anos.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Vó, se ela não vê a moto, não tem show."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEXTA · 14:00",
+   "fala": "Sexta. Papel fosco na parte de baixo da janela. Moto passou, ela ficou quieta. Petisco na hora.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você escolheu qual? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 gritar",
+    "2 tapar a vista",
+    "3 trancar"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

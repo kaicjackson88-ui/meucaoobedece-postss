@@ -1,0 +1,166 @@
+{
+ "id": "h221-pinoli-cadarco-do-porteiro",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "O filhote do 507 levou o cadarço do porteiro 👟 O grupo do prédio riu… e quem deu a solução foi o próprio Railson: mordedor no bolso, parou, ficou parado e ofereceu a troca.\nO seu filhote ataca o pé das visitas? Comenta 1 pra sim, 2 pra não 👇\nSe as mordidas forem fortes ou vierem com rosnado, vale conversar com o veterinário ou um profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #condominio #filhote #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O filhote do 507 desamarrou o porteiro. Literalmente.",
+   "linhas": [
+    "O FILHOTE",
+    "DESAMARROU",
+    "O PORTEIRO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUINTA · 18:00",
+   "fala": "Seis da tarde. O Pinoli saiu do elevador e grudou no cadarço do Railson.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ei, esse cadarço é meu!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Ed. Solar",
+   "membros": "56 participantes",
+   "quando": "18:20",
+   "fala": "No grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "O porteiro tá de chinelo hoje?"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Tô. O Pinoli levou meu cadarço."
+    },
+    {
+     "quem": "joao",
+     "texto": "Desculpa, Railson! Eu pago outro.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "pedro": "Railson (portaria)",
+    "joao": "Clésio (507)",
+    "carla": "Olinda (201)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Ed. Solar",
+   "membros": "56 participantes",
+   "quando": "18:24",
+   "fala": "E aí o próprio Railson mandou a dica.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Ele tá trocando dente. Leva um mordedor no bolso."
+    },
+    {
+     "quem": "pedro",
+     "texto": "Pegou no pé? Para, fica parado e oferece o mordedor."
+    }
+   ],
+   "nomes": {
+    "pedro": "Railson (portaria)",
+    "joao": "Clésio (507)",
+    "carla": "Olinda (201)"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Até uns seis meses, o filhote troca os dentes. A gengiva coça.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "TROCANDO OS DENTES",
+    "a gengiva coça"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEXTA · 18:00",
+   "fala": "Sexta. Pinoli no pé do Railson. O Clésio parou e ofereceu o mordedor. Troca feita.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu filhote ataca o pé das visitas? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele ataca o pé?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só o cadarço"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

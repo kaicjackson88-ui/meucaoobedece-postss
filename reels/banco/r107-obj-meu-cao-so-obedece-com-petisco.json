@@ -1,0 +1,78 @@
+{
+ "id": "r107-obj-meu-cao-so-obedece-com-petisco",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "obediencia",
+ "legenda": "\"Ele só obedece se eu estiver com petisco na mão.\" Dá pra mudar isso 🍖\n\n🐾 Petisco fora da mão, no bolso ou na mesa\n🐾 Prêmio às vezes, não sempre\n🐾 Troque por carinho, brinquedo e passeio\n\nO seu só obedece com petisco? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#obediencia #meucaoobedece #adestramento #comportamentocanino #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Ele só obedece se tiver petisco na sua mão?",
+   "linhas": [
+    "SÓ OBEDECE",
+    "COM PETISCO?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "osso"
+  },
+  {
+   "tipo": "objecao",
+   "fala": "Dá pra mudar. O petisco à mostra virou parte do comando. Ele obedece ao petisco, não a você.",
+   "objecao": "Ele só obedece com petisco",
+   "resposta": "DÁ PRA MUDAR",
+   "resposta_palavra": "mudar",
+   "explica": [
+    "O PETISCO À MOSTRA",
+    "VIROU O COMANDO"
+   ],
+   "resposta_cor": "teal"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: tire o petisco da mão. Deixe no bolso ou na mesa.",
+   "titulo": "Fora da mão",
+   "sub": "bolso ou mesa",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: quando ele já acerta fácil, premie às vezes, não sempre.",
+   "titulo": "Prêmio às vezes",
+   "sub": "quando ele já acerta",
+   "icone": "moeda"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: varie o prêmio. Carinho, brinquedo, a porta do passeio abrindo.",
+   "titulo": "Varie o prêmio",
+   "sub": "carinho, brinquedo, passeio",
+   "icone": "bola"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

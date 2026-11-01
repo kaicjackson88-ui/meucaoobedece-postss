@@ -1,0 +1,149 @@
+{
+ "id": "h226-gelatina-praia-do-feriado",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "sol",
+ "legenda": "Feriado na praia: o Rivaldo soltou a guia por um minuto e a Gelatina foi parar no quiosque do pastel 🏖️ Quem trouxe ela de volta foi o Cosme, salva-vidas: na praia, guia sempre, e o vem aqui se treina valendo coisa boa.\nO seu volta quando você chama? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#vemaqui #chamadocanino #cachorrofugiu #passeiocomcachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Feriado na praia. Soltou a guia, e a Gelatina foi parar no quiosque.",
+   "linhas": [
+    "FERIADO NA PRAIA",
+    "A CADELA SUMIU",
+    "NO QUIOSQUE"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO · 09:00",
+   "fala": "Nove da manhã. O Rivaldo soltou a guia por um minuto. A Gelatina sentiu cheiro de pastel.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Gelatina, vem aqui!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DOMINGO · 09:03",
+   "fala": "Ele chamou dez vezes. Ela nem virou a orelha.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": false
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 09:20",
+   "fala": "Quem trouxe ela foi o Cosme, salva-vidas, com areia até a orelha.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Na praia, guia sempre. E o chamado se treina valendo coisa boa."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Pra Gelatina, vem aqui era o fim da festa. Agora, vem aqui é frango.",
+   "topo": [
+    "PRA ELA, VEM AQUI ERA"
+   ],
+   "de": "FIM DA FESTA",
+   "para": "FRANGO!",
+   "para_palavra": "frango"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "DOMINGO · 21:00",
+   "fala": "De noite, na pousada, primeiro treino: vem aqui, pedacinho de frango, festa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu volta quando você chama? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele volta?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só com petisco"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

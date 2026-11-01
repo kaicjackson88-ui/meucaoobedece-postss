@@ -1,0 +1,157 @@
+{
+ "id": "h219-cravinho-som-do-pacote",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "O Cravinho explica o som mais mágico da casa: o pacote de salgadinho abrindo 🍿 Ele latia, ganhava um. Quem mudou o jogo foi a Edileuza: abriu o pacote, ele ganha o brinquedo recheado no tapete dele. Salgadinho fica só pra gente.\nO seu também ouve o pacote de longe? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #pedindocomida #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Cravinho. E eu conheço um som mágico.",
+   "linhas": [
+    "EU SOU O CRAVINHO",
+    "CONHEÇO UM SOM",
+    "MÁGICO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEXTA · 21:00",
+   "fala": "Sexta à noite. O Kauê abriu o pacote. Eu cheguei antes do primeiro crec.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU!"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Você tava na cozinha!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEXTA · 21:05",
+   "fala": "Eu latia, ele dava um. Latia de novo, ganhava outro. Eu sou um gênio.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "late"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Pavlov mostrou que o cão liga um som à comida. O pacote virou o sino do jantar.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O PACOTE VIROU",
+    "o sino do jantar"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 21:00",
+   "fala": "Sábado, a Edileuza, namorada dele, mudou o jogo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "normal",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Abriu o pacote? Brinquedo recheado no tapete dele."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SÁBADO · 21:10",
+   "fala": "Agora o pacote faz crec e eu corro pro tapete. O recheio dura mais, confesso.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu também ouve o pacote de longe? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele ouve de longe?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 até dormindo"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

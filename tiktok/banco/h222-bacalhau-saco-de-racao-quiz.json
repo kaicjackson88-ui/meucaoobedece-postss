@@ -1,0 +1,152 @@
+{
+ "id": "h222-bacalhau-saco-de-racao-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Chegou o saco de ração da promoção. E o Bacalhau abriu antes da Jandira 🥣 O que você faria? 1 bronca na hora, 2 ração em pote fechado e comida só no horário, 3 deixar o pote cheio o dia todo.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\nSe ele comer muito de uma vez, fale com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #blackfridaypet #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Chegou o saco de ração da promoção. E o Bacalhau abriu primeiro.",
+   "linhas": [
+    "O SACO DE RAÇÃO",
+    "DA PROMOÇÃO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 10:00",
+   "fala": "O entregador deixou o saco de quinze quilos na porta. A Jandira foi buscar a tesoura.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 10:03",
+   "fala": "Três minutos depois: saco rasgado, ração no chão inteiro e um Bacalhau redondo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Bacalhau, isso era pro mês!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: bronca. Dois: pote fechado e comida no horário. Três: pote cheio o dia todo. Comenta antes da resposta!",
+   "topo": [
+    "1 BRONCA AGORA",
+    "2 POTE FECHADO + HORÁRIO",
+    "3 POTE CHEIO O DIA TODO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 15:00",
+   "fala": "Resposta: dois. Quem explicou foi o doutor Ozires, na consulta da vacina.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Bronca depois não ensina nada."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TERÇA · 19:00",
+   "fala": "Agora, ração no pote com tampa, no alto. E refeição no horário certinho.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você escolheu qual? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você escolheu…",
+   "opcoes": [
+    "1 bronca",
+    "2 pote fechado",
+    "3 pote cheio"
+   ],
+   "escolha": 1,
+   "resultado": "RESPOSTA: 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

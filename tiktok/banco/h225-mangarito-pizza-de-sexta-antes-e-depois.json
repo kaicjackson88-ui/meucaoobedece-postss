@@ -1,0 +1,167 @@
+{
+ "id": "h225-mangarito-pizza-de-sexta-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Mesma sexta, mesma pizza, mesma mesinha. Mês passado, o Mangarito levou a borda de calabresa 🍕 Hoje, ele fica no tapete com o brinquedo recheado. A Gerusa mudou uma coisa só: o brinquedo chega antes da pizza.\nO seu rouba comida da mesa? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorrocomendo #pedindocomida #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, sexta de pizza: o Mangarito levou a borda. Hoje:",
+   "linhas": [
+    "MÊS PASSADO: ROUBO",
+    "HOJE: TAPETE",
+    "SEXTA DE PIZZA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "MÊS PASSADO · 20:00",
+   "fala": "Mês passado. Sexta, oito da noite. A Gerusa virou pro lado. E a borda sumiu.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Mangarito! Era a de calabresa!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "MÊS PASSADO · 20:05",
+   "fala": "Bronca, pizza no alto, e ele latindo pelo resto da noite.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 20:00",
+   "fala": "Hoje. Sexta, oito da noite. Antes da pizza abrir, o Mangarito ganha o brinquedo recheado no tapete dele.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "HOJE · 20:05",
+   "fala": "Mesma pizza, mesma mesinha. Ele no tapete. E petisco quando fica lá.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 20:30",
+   "fala": "Às oito e meia, chegou o Nivaldo, que viu o roubo do mês passado.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 560,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Cadê o ladrão de borda? Tá dormindo?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu rouba comida da mesa? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele rouba da mesa?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só a borda"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

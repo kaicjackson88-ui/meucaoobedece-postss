@@ -1,0 +1,76 @@
+{
+ "id": "r104-curio-ele-entende-o-seu-dedo",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Você aponta pro chão e ele olha pro lugar certo? Isso é raro no mundo animal 👉\n\n🐾 Cães seguem o gesto de apontar desde filhotes\n🐾 Eles percebem o seu tom de voz\n✅ Use gesto + palavra juntos no treino\n\nO seu entende quando você aponta? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#comportamentocanino #meucaoobedece #curiosidadespet #educacaocanina #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O que acontece quando você aponta pro chão pro seu cachorro?",
+   "linhas": [
+    "VOCÊ APONTA",
+    "ELE ENTENDE?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE SEGUE O SEU DEDO",
+    "até filhote faz isso"
+   ],
+   "icone": "alvo",
+   "numero_palavra": "",
+   "fala": "Primeiro: cães seguem o gesto de apontar. Pesquisas mostram que até filhotes fazem isso."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE OUVE O SEU TOM",
+    "não só a palavra"
+   ],
+   "icone": "sino",
+   "numero_palavra": "",
+   "fala": "Segundo: o cérebro do cão percebe o seu tom de voz, não só a palavra."
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "O que ajuda: use o gesto e a palavra juntos, sempre do mesmo jeito. Fica mais fácil pra ele.",
+   "titulo": "Gesto + palavra",
+   "sub": "sempre do mesmo jeito",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

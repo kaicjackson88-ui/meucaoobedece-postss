@@ -1,0 +1,66 @@
+{
+ "id": "r106-lista-pedir-comida-na-mesa",
+ "formato": "lista",
+ "gancho_tipo": "numero",
+ "tema": "comida",
+ "legenda": "Almoço de domingo e ele de plantão do lado da cadeira? 🍽️\n\n1️⃣ Ninguém dá nada da mesa, nem escondido\n2️⃣ Tapete dele perto, com brinquedo recheado\n3️⃣ Ficou no tapete? Petisco lá\n\nQuem da sua casa dá comida escondido? Comenta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#pedindocomida #meucaoobedece #cachorrocomendo #churrasco #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três passos pro seu cão parar de pedir comida na mesa.",
+   "linhas": [
+    "ELE PEDE COMIDA",
+    "NA MESA?"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: ninguém dá nada da mesa. Nem escondido. Um pedacinho já ensina a insistir.",
+   "titulo": "Ninguém dá nada",
+   "sub": "nem escondido",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: antes de sentar, deixe o tapete dele perto, com um brinquedo recheado.",
+   "titulo": "Tapete perto",
+   "sub": "com brinquedo recheado",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: ele ficou no tapete? Petisco lá, no tapete. Não na mesa.",
+   "titulo": "Petisco no tapete",
+   "sub": "nunca da mesa",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "id": "h224-rucula-tres-erros-do-reveillon",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "Faltam umas 8 semanas pro Réveillon. 3 coisas que o Waldir fazia e a Rúcula pagava a conta 🎆 Quintal pra acostumar, passeio na hora da virada e lembrar do medo só no dia 31. O certo, segundo a doutora Creusa: preparar antes, dentro de casa, com cantinho e plaquinha na coleira.\nVocê já fez algum desses? Comenta 1, 2 ou 3 👇\nRemédio pra fogos é conversa com o veterinário, nunca por conta própria.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz no Réveillon. E o seu cão paga a conta.",
+   "linhas": [
+    "3 ERROS DO",
+    "RÉVEILLON",
+    "QUE O CÃO PAGA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "ERRO 1",
+   "fala": "Erro um: deixar no quintal pra acostumar. No primeiro estouro, a Rúcula quase pulou o portão.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Rúcula, volta!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 2",
+   "fala": "Erro dois: passear com ela às onze e meia da noite do dia trinta e um.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 3",
+   "fala": "Erro três: lembrar do medo só no dia. Sem cantinho, ela se enfiou atrás do sofá.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "O CERTO",
+   "fala": "O certo, segundo a doutora Creusa: preparar antes. Dentro de casa, cantinho com cobertor, janela fechada, TV ligada e plaquinha na coleira.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "normal",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Se o medo for forte, conversa comigo antes do dia trinta e um."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você já fez algum desses? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você já fez?",
+   "opcoes": [
+    "1 quintal",
+    "2 passeio na virada",
+    "3 deixar pro dia"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
