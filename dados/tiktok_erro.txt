@@ -1,1 +1,1 @@
-2026-11-01T07:30:24.608087-03:00 h196-jamelao-festa-de-quinze-anos: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261101183024DC2A569FF745CD54F1D0"}}
+2026-11-01T07:40:27.456344-03:00 h196-jamelao-festa-de-quinze-anos: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261101184027D058A4E88BFF9D431D64"}}
