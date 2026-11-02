@@ -1,1 +1,1 @@
-2026-11-01T22:11:33.124508-03:00 h193-dende-camera-do-feriado-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261102091132444522AD05DB5CB646FF"}}
+2026-11-01T23:22:27.295196-03:00 h200-mamao-tres-erros-do-latido: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026110210222766317C07F549A3945CDD"}}
