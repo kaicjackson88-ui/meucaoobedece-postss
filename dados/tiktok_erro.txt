@@ -1,1 +1,1 @@
-2026-11-02T10:48:07.123520-03:00 h215-quitute-racao-em-dez-segundos: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026110221480697807B4CD489C6E1A3E0"}}
+2026-11-02T10:58:10.537955-03:00 h215-quitute-racao-em-dez-segundos: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261102215810D226BE4A6A11CDBA8248"}}
