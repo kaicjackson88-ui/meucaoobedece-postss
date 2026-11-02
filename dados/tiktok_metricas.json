@@ -1,11 +1,11 @@
 {
  "perfil": {
-  "video_count": 54,
-  "display_name": "Meucaobedece",
   "follower_count": 5,
-  "likes_count": 133
+  "likes_count": 133,
+  "video_count": 54,
+  "display_name": "Meucaobedece"
  },
- "atualizado": "2026-11-01T06:41:18.229725-03:00",
+ "atualizado": "2026-11-01T23:44:48.043452-03:00",
  "videos": [
   {
    "video": "7696660352351653121",
@@ -166,7 +166,7 @@
   {
    "video": "7696257804365024513",
    "roteiro": "h035-pudim-foge-do-banho",
-   "views": 214,
+   "views": 215,
    "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
@@ -550,11 +550,11 @@
   {
    "video": "7694732218106776838",
    "roteiro": "h007-fogos-12-semanas",
-   "views": 109,
+   "views": 110,
    "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0183,
+   "engaj": 0.0182,
    "duracao": 90,
    "link": "https://www.tiktok.com/@meucaobedece/video/7694732218106776838?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-09T18:11:08+00:00"
