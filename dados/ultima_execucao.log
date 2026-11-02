@@ -1,21 +1,19 @@
-Aguardando o horário 09:00 (116 min)...
-Roteiro: r094-erro-passeio-no-asfalto-quente (erro, estilo menta) — horário 2026-11-02 09:00
+Aguardando o horário 14:00 (118 min)...
+Roteiro: h040-zorro-portao-aberto-quiz (tiktok-historia, estilo sol) — horário 2026-11-02 14:00
 Narração...
   voz Google: modelos ['gemini-2.5-flash-preview-tts', 'gemini-2.5-pro-preview-tts', 'gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts']
-  cão real "bravo": 48 quadro(s)
-  cão real "feliz": 48 quadro(s)
-  cão real "normal": 48 quadro(s)
-  cão real "dorminhoco": 48 quadro(s)
-  cão real "lendario": 48 quadro(s)
+  história: o mesmo cão real (f1851107) em todas as cenas, 1 quadro(s)
 Render...
-  frame 0/780
-  frame 300/780
-  frame 600/780
+  frame 0/1280
+  frame 300/1280
+  frame 600/1280
+  frame 900/1280
+  frame 1200/1280
 Áudio...
-Preparing worktree (detached HEAD 4eb817d)
-HEAD is now at 4eb817d Carrossel publicado
-Switched to a new branch 'tmp-20261102-0905-r094-erro-passeio-no-asfalto-quente'
+Preparing worktree (detached HEAD 4699b05)
+HEAD is now at 4699b05 Carrossel publicado
+Switched to a new branch 'tmp-20261102-1404-h040-zorro-portao-aberto-quiz'
 remote: 
-remote: Create a pull request for 'midia-20261102-0905-r094-erro-passeio-no-asfalto-quente' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261102-0905-r094-erro-passeio-no-asfalto-quente        
+remote: Create a pull request for 'midia-20261102-1404-h040-zorro-portao-aberto-quiz' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261102-1404-h040-zorro-portao-aberto-quiz        
 remote: 
