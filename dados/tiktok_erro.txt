@@ -1,1 +1,1 @@
-2026-11-02T16:12:30.893368-03:00 h204-mocoto-reforma-do-andar-de-cima-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026110303123046BA7B95DDB517064DE2"}}
+2026-11-02T16:22:34.731911-03:00 h204-mocoto-reforma-do-andar-de-cima-p1: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026110303223439466B59FCA18EE4C20E"}}
