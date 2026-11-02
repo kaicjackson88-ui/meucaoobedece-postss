@@ -1,1 +1,1 @@
-2026-11-01T23:32:31.783226-03:00 h200-mamao-tres-erros-do-latido: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261102103231237AA83B019446B90B98"}}
+2026-11-02T07:26:11.196449-03:00 h208-cuxa-tempestade-de-verao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026110218261154104D07AF5626B85F0F"}}
