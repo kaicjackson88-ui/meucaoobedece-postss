@@ -1,4 +1,4 @@
-# MCO | Teste 2 | Vendas — 02/11 02:53
+# MCO | Teste 2 | Vendas — 02/11 18:39
 
 Gasto total: **R$50.53** de R$50 · vendas: **0** · dia 18 do teste
 
