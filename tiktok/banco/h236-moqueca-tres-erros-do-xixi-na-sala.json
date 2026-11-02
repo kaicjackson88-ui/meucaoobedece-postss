@@ -1,0 +1,150 @@
+{
+ "id": "h236-moqueca-tres-erros-do-xixi-na-sala",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz e o seu cão entende que o xixi é na sala 💦 A Moqueca passou a esconder a poça atrás do sofá.\nQual desses acontece aí? Comenta 1, 2 ou 3 👇\nSe o xixi fora do lugar começar de repente, fale com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz. E o seu cão entende: o xixi é na sala.",
+   "linhas": [
+    "3 ERROS",
+    "QUE ENSINAM",
+    "XIXI NA SALA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 19:00",
+   "fala": "Erro um: a Laudelina achou a poça uma hora depois e deu bronca. A Moqueca só aprendeu a se esconder pra fazer.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 600,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 19:05",
+   "fala": "Erro dois: limpar com produto de cheiro forte de amônia. Pro nariz dela, ali continua sendo banheiro.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TERÇA · 07:00",
+   "fala": "Erro três: levar pro tapete só quando lembra. Ela acordou, ninguém levou. Poça no corredor.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 600,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O olfato do cão é muito mais forte que o nosso. O cheirinho que você não sente, ele acha na hora.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O NARIZ DELE ACHA",
+    "o que você nem sente"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 07:00",
+   "fala": "O certo: depois de acordar, comer e brincar, leva pro tapete. Acertou? Festa e petisco na hora.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 600,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses acontece aí? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual acontece aí?",
+   "opcoes": [
+    "1 bronca depois",
+    "2 cheiro forte",
+    "3 só quando lembra"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

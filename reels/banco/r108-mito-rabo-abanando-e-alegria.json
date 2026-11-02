@@ -1,0 +1,81 @@
+{
+ "id": "r108-mito-rabo-abanando-e-alegria",
+ "formato": "mito",
+ "gancho_tipo": "pergunta",
+ "tema": "curiosidade",
+ "legenda": "Rabo abanando quer dizer que ele está feliz? Nem sempre 🐕\n\n❌ Olhar só o rabo\n✅ Olhar o corpo inteiro: orelhas, boca e postura\n✅ Corpo duro e parado? Dê espaço\n\nVocê já confundiu isso? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#linguagemcanina #meucaoobedece #comportamentocanino #adestramentocanino #curiosidadespet",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Rabo abanando quer dizer que o seu cão está feliz?",
+   "linhas": [
+    "RABO ABANANDO",
+    "É SEMPRE ALEGRIA?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "pata"
+  },
+  {
+   "tipo": "mito",
+   "frase": "Rabo abanando é sempre alegria",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "ABANAR MOSTRA",
+    "QUE ELE ESTÁ AGITADO"
+   ],
+   "icone": "pata",
+   "tag": "CONSELHO ANTIGO",
+   "fala": "Mito. Abanar o rabo mostra que ele está agitado. Pode ser alegria, mas também tensão ou alerta."
+  },
+  {
+   "tipo": "texto",
+   "fala": "Por isso, olhe o corpo inteiro, e não só o rabo.",
+   "linhas": [
+    "OLHE O CORPO",
+    "INTEIRO"
+   ],
+   "destaque": 1,
+   "icone": "focinho",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 2,
+   "fala": "Um: corpo solto, boca relaxada, rabo balançando largo. Esse é o cão feliz.",
+   "titulo": "Corpo solto",
+   "sub": "boca relaxada, rabo largo",
+   "icone": "check"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 2,
+   "fala": "Dois: corpo duro, parado, rabo alto e curtinho? Dê espaço e não force o carinho.",
+   "titulo": "Corpo duro",
+   "sub": "dê espaço",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

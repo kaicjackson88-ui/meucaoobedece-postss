@@ -1,0 +1,76 @@
+{
+ "id": "r109-curio-por-que-ele-gira-antes-de-deitar",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Ele gira, gira, cava a almofada… e só depois deita? Tem explicação 🌀\n\n🐾 É um costume que vem dos ancestrais: ajeitar o lugar antes de deitar\n🐾 Cavar a cama espalha o cheiro dele pelas patas\n✅ Dê uma caminha só dele, com a manta dele\n\nO seu gira antes de deitar? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#comportamentocanino #meucaoobedece #curiosidadespet #educacaocanina #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Por que o seu cachorro gira antes de deitar?",
+   "linhas": [
+    "ELE GIRA, GIRA",
+    "E SÓ DEPOIS DEITA?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "sofa"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "UM COSTUME ANTIGO",
+    "ajeitar o lugar"
+   ],
+   "icone": "casa",
+   "numero_palavra": "",
+   "fala": "Primeiro: é um costume antigo. Os ancestrais dele ajeitavam o mato antes de deitar."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CAVAR ESPALHA",
+    "O CHEIRO DELE"
+   ],
+   "icone": "pata",
+   "numero_palavra": "",
+   "fala": "Segundo: as patas têm glândulas de cheiro. Cavar a almofada deixa a marca dele ali."
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "O que ajuda: uma caminha só dele, com a manta dele, sempre no mesmo canto.",
+   "titulo": "Caminha só dele",
+   "sub": "com a manta dele",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

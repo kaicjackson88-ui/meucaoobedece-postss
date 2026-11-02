@@ -1,0 +1,179 @@
+{
+ "id": "h235-cajarana-jaleco-do-plantao",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "pulo",
+ "estilo": "sol",
+ "legenda": "A enfermeira do 302 saiu pro plantão de jaleco branco… e a Cajarana carimbou 4 patas de lama 🐾 No grupo do prédio, quem deu a dica foi o Seu Orlando: virar de costas e só fazer carinho com as patas no chão.\nO seu pula em quem chega? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#cachorropulando #condominio #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A enfermeira do 302 saiu de jaleco branco. E a Cajarana carimbou as patas.",
+   "linhas": [
+    "JALECO BRANCO",
+    "E QUATRO PATAS",
+    "DE LAMA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "pata"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "QUARTA · 06:40",
+   "fala": "Seis e quarenta, chuva. A Cajarana voltou e pulou na Marluce.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Meu plantão começa em vinte minutos!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Ed. Jatobá",
+   "membros": "52 participantes",
+   "quando": "06:55",
+   "fala": "No grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Alguém tem jaleco M pra emprestar?"
+    },
+    {
+     "quem": "bia",
+     "texto": "Foi a Cajarana de novo? kkkk"
+    },
+    {
+     "quem": "joao",
+     "texto": "Foi. Desculpa, Marluce. Eu lavo.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Marluce (302)",
+    "bia": "Nilda (104)",
+    "joao": "Irani (301)",
+    "vizinho": "Seu Orlando (201)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Ed. Jatobá",
+   "membros": "52 participantes",
+   "quando": "07:02",
+   "fala": "E quem respondeu foi o Seu Orlando:",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ela pula porque ganha atenção. Vira de costas e fica parado."
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Patas no chão? Aí sim, carinho."
+    }
+   ],
+   "nomes": {
+    "carla": "Marluce (302)",
+    "bia": "Nilda (104)",
+    "joao": "Irani (301)",
+    "vizinho": "Seu Orlando (201)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUINTA · 06:40",
+   "fala": "Quinta. Ela veio pulando. O Irani virou de costas. Patas no chão: carinho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEXTA · 06:40",
+   "fala": "Sexta, jaleco limpinho. A Cajarana ficou no chão, abanando o rabo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "acena"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Plantão sem lama! Obrigada, Cajarana."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu pula em quem chega? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele pula em quem chega?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só com lama"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

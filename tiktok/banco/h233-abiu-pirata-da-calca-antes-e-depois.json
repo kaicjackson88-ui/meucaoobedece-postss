@@ -1,0 +1,166 @@
+{
+ "id": "h233-abiu-pirata-da-calca-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "Mês passado, toda saída pro passeio o Abiu agarrava a barra da calça da Elza 👖 Hoje ele sai com a cordinha dele na boca, e o porteiro nem acreditou.\nO seu morde a calça na hora de sair? Comenta 1 pra sim, 2 pra não 👇\nSe as mordidas forem fortes ou vierem com rosnado, vale conversar com o veterinário ou um profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #passeiocomcachorro #condominio #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, toda saída pro passeio: o Abiu na barra da calça. Hoje:",
+   "linhas": [
+    "MÊS PASSADO: CALÇA",
+    "HOJE: CORDINHA",
+    "HORA DO PASSEIO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "MÊS PASSADO · 07:00",
+   "fala": "Mês passado, sete da manhã. A Elza pegou a guia. E o Abiu pegou a calça dela.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Abiu, solta! É a calça do trabalho!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 07:05",
+   "fala": "Ela puxava a perna. Ele achava que era cabo de guerra. Melhor brincadeira do dia.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "late"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 07:00",
+   "fala": "Hoje, sete da manhã. Antes de pegar a guia, a Elza entrega a cordinha dele.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 07:05",
+   "fala": "Mesma rua, mesma calça. Ele vai com a cordinha na boca. E ganha petisco quando solta.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 600,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 07:06",
+   "fala": "Na portaria, o Seu Ubirajara olhou duas vezes.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Cadê o pirata da calça? Virou cavalheiro?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu também morde a calça na saída? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele morde a calça?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 o cadarço também"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

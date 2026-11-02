@@ -1,0 +1,154 @@
+{
+ "id": "h232-tucuma-tres-erros-do-banho",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "cuidado",
+ "estilo": "sol",
+ "legenda": "3 coisas que você faz na hora do banho e o seu cão entende tudo errado 🛁 O Tucumã fugia só de ouvir o próprio nome.\nQual desses você já fez? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#banhodecachorro #apartamento #comportamentocanino #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que você faz na hora do banho. E o seu cão entende tudo errado.",
+   "linhas": [
+    "3 ERROS DO BANHO",
+    "QUE FAZEM ELE",
+    "FUGIR"
+   ],
+   "destaque": 0,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 09:00",
+   "fala": "Erro um: o Toninho só chama o Tucumã pelo nome na hora do banho. O nome virou alarme.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Tucumã, vem cá!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 09:05",
+   "fala": "Erro dois: água fria e o jato direto na cara. A primeira coisa que ele sente é susto.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 09:10",
+   "fala": "Erro três: correr atrás dele pela casa. Pra ele, isso é pega-pega.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão aprende pelo que vem depois. Se o nome sempre traz algo chato, ele foge do nome.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE APRENDE PELO QUE VEM DEPOIS",
+    "nome bom, chamado bom"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO SEGUINTE · 09:00",
+   "fala": "O certo: chama pra um petisco. Água morna, começa pelas patas. Pausa e prêmio no meio do banho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 600,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já fez? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você já fez?",
+   "opcoes": [
+    "1 nome só pro banho",
+    "2 jato na cara",
+    "3 pega-pega"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

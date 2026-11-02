@@ -1,0 +1,173 @@
+{
+ "id": "h230-quibe-churrasco-do-salao",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "No churrasco do salão, o Quibe saiu correndo com a linguiça 🍖 O grupo do prédio viu tudo… e a síndica mandou o áudio: osso e resto de churrasco não. Guia, tapetinho e brinquedo dele.\nO seu já roubou comida de churrasco? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#churrasco #condominio #cachorrocomendo #apartamento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Churrasco no salão do prédio. E o Quibe saiu com a linguiça.",
+   "linhas": [
+    "CHURRASCO NO SALÃO",
+    "O QUIBE",
+    "LEVOU A LINGUIÇA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 13:00",
+   "fala": "Sábado, uma da tarde. O Reginaldo virou pra pegar a farofa. O Quibe pegou a linguiça.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Quibe! Volta aqui!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Ed. Ipê",
+   "membros": "61 participantes",
+   "quando": "13:10",
+   "fala": "Dez minutos depois, no grupo:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Tem um cachorro com linguiça no jardim"
+    },
+    {
+     "quem": "joao",
+     "texto": "Passou correndo na garagem kkk"
+    },
+    {
+     "quem": "pedro",
+     "texto": "É o Quibe. Desculpa, gente.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Marluce (203)",
+    "joao": "Toninho (110)",
+    "pedro": "Reginaldo (402)",
+    "sindica": "Dona Benedita (síndica)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Ed. Ipê",
+   "membros": "61 participantes",
+   "quando": "13:14",
+   "fala": "E aí a síndica mandou um áudio:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Áudio: osso de churrasco lasca, e tempero faz mal pra ele."
+    },
+    {
+     "quem": "sindica",
+     "texto": "Áudio: traz de guia, com o tapetinho e um brinquedo dele."
+    }
+   ],
+   "nomes": {
+    "carla": "Marluce (203)",
+    "joao": "Toninho (110)",
+    "pedro": "Reginaldo (402)",
+    "sindica": "Dona Benedita (síndica)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO SEGUINTE · 13:00",
+   "fala": "Sábado seguinte. Quibe de guia, no tapetinho dele, roendo o brinquedo recheado.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SÁBADO · 14:00",
+   "fala": "A Dona Benedita passou e deu o veredito.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "aponta"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Agora sim. Esse é convidado."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já roubou comida de churrasco? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Já roubou?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 a picanha"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

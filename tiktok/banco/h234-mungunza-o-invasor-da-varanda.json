@@ -1,0 +1,158 @@
+{
+ "id": "h234-mungunza-o-invasor-da-varanda",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Toda noite, às 11, o Mungunzá latia pra varanda e o prédio inteiro reclamava 🌙 Às 2 da manhã, sem sono, o Seu Valdeci descobriu quem era o invasor: o reflexo dele na porta de vidro.\nO seu late pro próprio reflexo? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#latidoexcessivo #condominio #cachorrolatindo #apartamento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Toda noite, às onze, o Mungunzá latia pra varanda. Tinha alguém lá?",
+   "linhas": [
+    "11 DA NOITE",
+    "ELE LATE",
+    "PRA VARANDA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEGUNDA · 23:00",
+   "relogio": "23:00",
+   "fala": "Segunda, onze da noite. A luz da sala acendeu. E o Mungunzá começou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Moradores Ed. Aroeira",
+   "membros": "38 participantes",
+   "quando": "23:20",
+   "fala": "No grupo do prédio:",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Quem tem cachorro latindo às onze TODO DIA?"
+    },
+    {
+     "quem": "vizinho",
+     "texto": "Sou eu. Desculpa. Ele vê alguma coisa lá fora.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "carla": "Ivanilde (502)",
+    "vizinho": "Seu Valdeci (602)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "QUARTA · 02:00",
+   "relogio": "02:00",
+   "fala": "Duas da manhã, sem sono, ele acendeu a luz. O Mungunzá latiu. E ele viu.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "No vidro, um cachorro latia de volta. O reflexo dele.",
+   "topo": [
+    "COM A LUZ ACESA",
+    "NA PORTA DE VIDRO",
+    "QUEM ESTAVA LÁ?"
+   ],
+   "de": "UM INVASOR",
+   "para": "O REFLEXO DELE",
+   "para_palavra": "reflexo"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Muitos cães não se reconhecem no espelho. Pra eles, o reflexo parece outro cão.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O REFLEXO PARECE OUTRO CÃO",
+    "pra ele, um invasor"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA · 23:00",
+   "fala": "Agora a cortina fecha antes da luz acender. E ganha petisco quando olha pra varanda e fica quieto.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late pro próprio reflexo? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late pro reflexo?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 pra TV também"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

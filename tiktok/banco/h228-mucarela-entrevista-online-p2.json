@@ -1,0 +1,157 @@
+{
+ "id": "h228-mucarela-entrevista-online-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 2: o entrevistador também tinha cachorro 🐶 O Zico ficava quietinho porque tinha cantinho, brinquedo recheado e treino curto com o som da campainha. A Cirlene copiou tudo.\nO seu late quando toca a campainha? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#latidoexcessivo #cachorrolatindo #apartamento #adestramentocanino #historiadecachorro",
+ "serie": "mucarela-entrevista-online",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. O entrevistador virou a câmera. E mostrou o cachorro dele.",
+   "linhas": [
+    "O ENTREVISTADOR",
+    "TAMBÉM TEM CÃO",
+    "PARTE 2"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TERÇA · 10:08",
+   "fala": "Recapitulando: a Muçarela latiu na entrevista. E o Hermes contou o segredo do Zico.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Antes de reunião: passeio curto e brinquedo recheado no cantinho."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Latir pra porta é alerta. O cão avisa a família que chegou alguém.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "LATIR PRA PORTA É ALERTA",
+    "ele avisa a família"
+   ],
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUARTA · 19:00",
+   "fala": "Naquela noite, a Cirlene tocou a campainha no celular, baixinho. A Muçarela olhou. Petisco no cantinho.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 600,
+     "y": 1440
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · 19:00",
+   "fala": "Toda noite, cinco minutinhos. O som um pouco mais alto. Cantinho, petisco, festa.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 10:00",
+   "campainha": 1,
+   "fala": "Segunda entrevista. A campainha tocou. A Muçarela latiu uma vez… e foi pro cantinho.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Passou pra última fase. Você e ela."
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu late quando toca a campainha? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele late pra campainha?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 até no celular"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

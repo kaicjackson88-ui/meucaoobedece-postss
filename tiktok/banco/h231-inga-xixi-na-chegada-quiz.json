@@ -1,0 +1,159 @@
+{
+ "id": "h231-inga-xixi-na-chegada-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Toda vez que a Gildete chegava, a Ingá pulava… e fazia xixi no capacho 🚪 O que você faria? 1 bronca na hora, 2 chegar calma e fazer festa depois, 3 tirar o capacho.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\nSe o xixi acontece também fora da hora da festa, fale com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A Gildete abriu a porta. E a Ingá fez xixi no capacho.",
+   "linhas": [
+    "ABRIU A PORTA",
+    "XIXI NO CAPACHO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUINTA · 18:30",
+   "fala": "Quinta, seis e meia. A Gildete chegou do trabalho. A Ingá pulou, girou e fez xixi ali mesmo.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 600,
+     "y": 1450
+    }
+   ],
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "De novo, Ingá? No capacho novo?"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA · 18:32",
+   "fala": "Toda chegada era assim. Abraço, voz fininha, pulo. E pocinha.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: bronca na hora. Dois: chegar calma e fazer festa só depois. Três: tirar o capacho. Comenta antes da resposta!",
+   "topo": [
+    "1 BRONCA NA HORA",
+    "2 CHEGAR CALMA",
+    "3 TIRAR O CAPACHO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 10:00",
+   "fala": "Resposta: dois. Quem explicou foi o doutor Firmino, na consulta de rotina.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Entra calma, leva direto pro tapete. A festa vem depois."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEGUNDA · 18:30",
+   "fala": "Segunda. A Gildete entrou falando baixinho e foi direto pro tapete. Xixi no lugar. Aí, sim, festa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual você escolheu? Comenta aqui. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você escolheu?",
+   "opcoes": [
+    "1 bronca",
+    "2 chegar calma",
+    "3 tirar o capacho"
+   ],
+   "escolha": 1,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

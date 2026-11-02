@@ -1,0 +1,175 @@
+{
+ "id": "h227-mucarela-entrevista-online-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 1: entrevista de emprego online, câmera ligada… e a Muçarela latiu pro entregador AO VIVO 💻🐶 Aí o entrevistador virou a câmera dele.\nComo você acha que o cachorro dele aprendeu a ficar quietinho? Comenta 1, 2 ou 3 e segue pra ver a Parte 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#latidoexcessivo #cachorrolatindo #apartamento #adestramentocanino #historiadecachorro",
+ "serie": "mucarela-entrevista-online",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte um. Entrevista de emprego online. E a campainha tocou.",
+   "linhas": [
+    "ENTREVISTA ONLINE",
+    "E A CAMPAINHA TOCOU",
+    "PARTE 1"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 09:58",
+   "relogio": "09:58",
+   "fala": "Terça, dez da manhã. A Cirlene ligou a câmera. O entrevistador sorriu.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Bom dia! Pode começar."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TERÇA · 10:03",
+   "campainha": 1,
+   "fala": "Três minutos depois: o entregador. E a Muçarela virou uma sirene.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família",
+   "membros": "9 participantes",
+   "quando": "10:05",
+   "fala": "No grupo da família:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "E a entrevista??"
+    },
+    {
+     "quem": "carla",
+     "texto": "A Muçarela tá latindo AO VIVO",
+     "eu": true
+    },
+    {
+     "quem": "sindica",
+     "texto": "Respira, filha."
+    }
+   ],
+   "nomes": {
+    "bia": "Creuza (irmã)",
+    "carla": "Cirlene",
+    "sindica": "Mãe"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 10:06",
+   "fala": "Ela voltou vermelha pro computador. E o Hermes, o entrevistador, falou:",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Espera. Deixa eu te mostrar uma coisa."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TERÇA · 10:07",
+   "fala": "Ele virou a câmera. E no pé dele tinha um cachorro. Deitado. Quietinho.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Como o cachorro dele aprendeu? Comenta um, dois ou três. Segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Como ele aprendeu?",
+   "opcoes": [
+    "1 dormiu cansado",
+    "2 treino de cantinho",
+    "3 é sorte"
+   ],
+   "escolha": 1,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,156 @@
+{
+ "id": "h229-cagaita-gol-do-domingo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "A Cagaita conta o domingo de futebol: grito de gol, rojão e ela atrás do fogão ⚽🎆 Quem deu a ideia foi o Seu Sebastião, da porta ao lado: não puxar ela do esconderijo, montar uma toca com coberta e deixar a TV mais alta.\nO seu também se esconde quando tem gol? Comenta 1 pra sim, 2 pra não 👇\nSe o medo for muito forte, vale conversar com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #apartamento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou a Cagaita. Todo domingo alguém grita gol. E o céu explode.",
+   "linhas": [
+    "EU SOU A CAGAITA",
+    "DOMINGO TEM GOL",
+    "E O CÉU EXPLODE"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 17:40",
+   "fala": "O Joselito gritou. Eu achei que era comigo. Aí veio o rojão.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "GOOOL!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 17:41",
+   "fala": "Eu me enfiei atrás do fogão. Ele tentou me puxar. Pior ideia.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Sai daí, Cagaita! É só rojão!"
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão escuta sons agudos que a gente nem percebe. O estouro chega inteirinho pra ele.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE OUVE MAIS QUE VOCÊ",
+    "o estouro chega inteiro"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 19:00",
+   "fala": "No intervalo do outro jogo, o Seu Sebastião, da porta ao lado, bateu.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "cansado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Não puxa ela. Faz uma toca e deixa a TV mais alta."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "DOMINGO · 21:00",
+   "fala": "Agora tenho toca, com a camiseta dele. Ainda dou um pulinho. Mas fico lá. E chega petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu também se esconde quando tem gol? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele se esconde?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 até no pênalti"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
