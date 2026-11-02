@@ -1,1 +1,1 @@
-2026-11-02T07:26:11.196449-03:00 h208-cuxa-tempestade-de-verao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026110218261154104D07AF5626B85F0F"}}
+2026-11-02T07:36:14.484132-03:00 h208-cuxa-tempestade-de-verao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611021836140C5F13856AEE4BA29B90"}}
