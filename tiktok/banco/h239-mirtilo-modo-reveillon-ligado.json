@@ -1,0 +1,164 @@
+{
+ "id": "h239-mirtilo-modo-reveillon-ligado",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "Modo Réveillon: LIGADO 🎆 Faltam 8 semanas e o Mirtilo corre com UM estalo. A veterinária mandou começar agora, com o som bem baixinho.\nO seu sofre com fogos? Comenta 1 pra sim, 2 pra não 👇\nSe o medo for intenso, converse com o veterinário antes da virada.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#reveillon #fogosnao #cachorroemedo #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Modo Réveillon: ligado. Faltam oito semanas, e o Mirtilo corre com um estalo.",
+   "linhas": [
+    "MODO RÉVEILLON",
+    "LIGADO",
+    "FALTAM 8 SEMANAS"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 16:40",
+   "fala": "Domingo, um rojão de futebol. O Mirtilo disparou pra debaixo da mesa.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "E na virada?"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família",
+   "membros": "6 participantes",
+   "quando": "16:52",
+   "fala": "No grupo da família:",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Ele passou a virada atrás da máquina de lavar."
+    }
+   ],
+   "nomes": {
+    "bia": "Cândida (irmã)",
+    "joao": "Aristeu"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEGUNDA · 10:00",
+   "fala": "Na consulta de rotina, a doutora Salete foi direta.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Som de fogos bem baixinho, petisco, dois minutos. Medo forte, volta aqui."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEGUNDA · 20:00",
+   "fala": "Naquela noite, volume no mínimo. O som toca, o petisco cai.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 620,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA · 20:00",
+   "fala": "Se ele se afasta, o volume desce. O Mirtilo ainda levanta a orelha. Mas agora olha pro pote.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu sofre com fogos? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu sofre?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só um pouco"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,66 @@
+{
+ "id": "r111-lista-interfone-sem-sirene",
+ "formato": "lista",
+ "gancho_tipo": "pergunta-dor",
+ "tema": "latido",
+ "legenda": "O interfone toca e o seu cão vira sirene? 🔔\n\n🐾 Grave o som e toque baixinho\n🐾 Som tocou, petisco no tapete\n🐾 Suba o volume aos poucos\n\nO seu faz isso? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#latidoexcessivo #meucaoobedece #condominio #adestramentocanino #apartamento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O interfone toca e o seu cão vira uma sirene?",
+   "linhas": [
+    "O INTERFONE TOCA",
+    "E ELE VIRA SIRENE?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: grave o som do interfone no celular e toque bem baixinho, por pouco tempo.",
+   "titulo": "Grave o som",
+   "sub": "toque baixinho",
+   "icone": "sino"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: o som tocou, o petisco cai no tapetinho. Sempre no mesmo lugar.",
+   "titulo": "Petisco no tapete",
+   "sub": "sempre no mesmo lugar",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: ele ficou tranquilo? Suba o volume aos poucos. Latiu? Volte um passo.",
+   "titulo": "Suba aos poucos",
+   "sub": "latiu? volte um passo",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

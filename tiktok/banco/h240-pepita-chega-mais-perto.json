@@ -1,0 +1,155 @@
+{
+ "id": "h240-pepita-chega-mais-perto",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Chega mais perto… a Pepita NÃO fez xixi na sala por vingança 👀 Quem percebeu o horário foi a sobrinha de oito anos.\nO seu faz logo depois de comer? Comenta 1 pra sim, 2 pra não 👇\nSe o xixi fora do lugar começar de repente, fale com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Chega mais perto. Eu sou a Pepita. E não fiz xixi na sala por vingança.",
+   "linhas": [
+    "CHEGA MAIS PERTO",
+    "NÃO FOI VINGANÇA",
+    "QUEM CONTA É ELA"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 07:40",
+   "fala": "Eu comi. A Wanda saiu correndo. E a minha bexiga ficou aqui, sozinha, tomando decisões.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 600,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SEGUNDA · 19:00",
+   "fala": "De noite, ela apontou pro chão e falou alto. Eu encolhi. Ela chamou isso de cara de culpa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": null
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 12:10",
+   "fala": "Aí a Maitê, oito anos, reparou.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "aponta"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Tia, ela sempre faz depois de comer."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Muitos cães fazem xixi logo depois de comer, acordar ou brincar.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "DEPOIS DE COMER E ACORDAR",
+    "são horas previsíveis"
+   ],
+   "icone": "relogio"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 12:30",
+   "fala": "Agora eu como e vou direto pro tapete. Fiz, ganhei festa. Às vezes eu erro, e ela só limpa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu faz?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 nunca reparei"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

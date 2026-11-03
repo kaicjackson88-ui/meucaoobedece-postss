@@ -1,0 +1,160 @@
+{
+ "id": "h244-cambui-cabo-de-guerra-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "Mês passado: o filhote pegava a MÃO no cabo de guerra 🦷 Hoje: mesma sala, mesma hora, e o dente vai no brinquedo. A regra coube em uma frase.\nO seu confunde a mão com o brinquedo? Comenta 1 pra sim, 2 pra não 👇\nSe houver rosnado ou mordida com medo, procure um veterinário ou profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #filhote #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, o Cambuí pegava a mão. Hoje, olha o que ele pega.",
+   "linhas": [
+    "CABO DE GUERRA",
+    "MÊS PASSADO: MÃO",
+    "HOJE: BRINQUEDO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "MÊS PASSADO · 18:00",
+   "fala": "Mês passado. Cabo de guerra. O brinquedo era curtinho, e o dente vinha direto na mão.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Ai! Cambuí!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 18:10",
+   "fala": "Ela gritava e corria. Pro filhote, a brincadeira só tinha melhorado.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 18:00",
+   "fala": "Hoje. Mesma sala, mesma hora. Brinquedo comprido, e a Solange segura lá na ponta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 18:10",
+   "fala": "Dente encostou na mão? Ela levanta e a brincadeira para. Pouco depois, recomeça.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 18:30",
+   "fala": "Às vezes ainda erra. Mas o vizinho não acreditou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Esse é o mesmo cachorro?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu confunde a mão com o brinquedo? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu confunde?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 às vezes"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

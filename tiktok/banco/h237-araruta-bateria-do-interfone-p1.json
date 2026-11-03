@@ -1,0 +1,168 @@
+{
+ "id": "h237-araruta-bateria-do-interfone-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 1: às 14h a Araruta estava com a bateria em 1%. Aí o interfone tocou e ela foi a 100% 🔋🐶 O prédio inteiro ouviu.\nO que o cachorro do vizinho fez quando o interfone dele tocou? Comenta 1, 2 ou 3 e segue pra ver a Parte 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #latidoexcessivo #apartamento #adestramentocanino #historiadecachorro",
+ "serie": "araruta-bateria-do-interfone",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte um. Duas da tarde: a bateria da Araruta estava em um por cento.",
+   "linhas": [
+    "BATERIA: 1%",
+    "INTERFONE: 100%",
+    "PARTE 1"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "dorminhoco",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 14:00",
+   "fala": "Dormindo, roncando. Aí o interfone tocou.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "campainha": 1
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TERÇA · 14:01",
+   "fala": "De um a cem por cento em um segundo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU AU AU!"
+    },
+    {
+     "quem": "carla",
+     "texto": "Araruta, pelo amor de Deus!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco A",
+   "membros": "38 participantes",
+   "quando": "14:03",
+   "fala": "No grupo do prédio, dois minutos depois:",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Que alarme é esse no 502?"
+    },
+    {
+     "quem": "carla",
+     "texto": "Gente, mil desculpas!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "sindica": "Síndica",
+    "joao": "Everaldo (301)",
+    "carla": "Irene"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "TERÇA · 21:10",
+   "fala": "De noite, um bilhete passou por baixo da porta.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "bilhete"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "\"Desce aqui. Assinado: Seu Almir, do 402.\"",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TERÇA · 21:15",
+   "fala": "Ela desceu pra pedir desculpa. Um cachorro dormia no tapete dele. E o interfone do Seu Almir tocou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "bracos_cruzados"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "campainha": 1
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que aquele cachorro fez? Comenta um, dois ou três. E segue pra ver a Parte 2. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que ele fez?",
+   "opcoes": [
+    "1 latiu igual",
+    "2 foi pro tapete",
+    "3 nem acordou"
+   ],
+   "escolha": 1,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

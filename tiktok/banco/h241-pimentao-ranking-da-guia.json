@@ -1,0 +1,144 @@
+{
+ "id": "h241-pimentao-ranking-da-guia",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "Tudo que o tutor tentou pro Pimentão parar de puxar a guia, do pior ao melhor 🏆 O 1º lugar não custou nada, só paciência.\nQual você já tentou? Comenta 1, 2 ou 3 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#puxarguia #passeiocomcachorro #cachorrolevado #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Tudo que eu tentei pro Pimentão parar de puxar a guia. Do pior ao melhor.",
+   "linhas": [
+    "TENTEI DE TUDO",
+    "DO PIOR",
+    "AO MELHOR"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "4º LUGAR",
+   "fala": "Quarto lugar: puxar de volta. Ele puxava mais. Viramos um cabo de guerra na calçada.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "3º LUGAR",
+   "fala": "Terceiro lugar: gritar junto a cada passo. Ele não entendeu. O prédio, sim.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Junto! Junto! JUNTO!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "2º LUGAR",
+   "fala": "Segundo lugar: guia mais curta. Ele puxou igual, só que mais perto de mim.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "A DICA",
+   "fala": "Aí o porteiro, que assistia tudo, mandou um áudio.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "celular"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Esticou, você para. Afrouxou, você anda."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "1º LUGAR",
+   "fala": "Primeiro lugar. Dei a volta no quarteirão em quarenta minutos. Mas a guia afrouxou mais vezes.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses você já tentou? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você tentou?",
+   "opcoes": [
+    "1 puxar de volta",
+    "2 gritar junto",
+    "3 guia curta"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

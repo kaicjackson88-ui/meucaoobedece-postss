@@ -1,0 +1,77 @@
+{
+ "id": "r114-erro-treinar-so-na-vespera-dos-fogos",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "fogos",
+ "legenda": "Treinar só na véspera do Réveillon é o erro mais comum 🎆\n\n🐾 Comece com o som bem baixinho\n🐾 Som tocou, petisco veio\n🐾 Suba só se ele estiver tranquilo\n\nJá começou aí? Comenta 1 pra sim, 2 pra não 👇\n\nMedo intenso? Converse com o veterinário antes da virada.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#reveillon #meucaoobedece #fogosnao #cachorroemedo #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de deixar os fogos pro dia trinta e um.",
+   "linhas": [
+    "PARE DE DEIXAR",
+    "OS FOGOS PRO DIA 31"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Em cima da hora, não dá tempo de ir devagar. E com medo, devagar é o que mais importa.",
+   "linhas": [
+    "COM MEDO",
+    "DEVAGAR IMPORTA"
+   ],
+   "destaque": 1,
+   "icone": "relogio",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: comece com um som de fogos bem baixinho, por poucos minutos.",
+   "titulo": "Som baixinho",
+   "sub": "poucos minutos",
+   "icone": "sino"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: som tocou, petisco veio. Som parou, petisco parou.",
+   "titulo": "Som e petisco",
+   "sub": "parou, parou",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: só suba o volume se ele continuar tranquilo.",
+   "titulo": "Suba com calma",
+   "sub": "só se estiver tranquilo",
+   "icone": "check"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

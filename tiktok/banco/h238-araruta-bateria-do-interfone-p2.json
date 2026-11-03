@@ -1,0 +1,147 @@
+{
+ "id": "h238-araruta-bateria-do-interfone-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 2: o interfone do Seu Almir tocou e o cachorro dele só levantou e foi pro tapetinho 🔋 O ensaio dele cabe em poucos minutos por dia.\nO seu vira sirene no interfone? Comenta 1 pra sim, 2 pra não, 3 pra às vezes 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #latidoexcessivo #apartamento #comportamentocanino #historiadecachorro",
+ "serie": "araruta-bateria-do-interfone",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. A Araruta virava sirene no interfone. E o cachorro do vizinho?",
+   "linhas": [
+    "O INTERFONE TOCOU",
+    "E ELE FOI PRO TAPETE",
+    "PARTE 2"
+   ],
+   "destaque": 1,
+   "parte": 2,
+   "mascote": "normal",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TERÇA · 21:16",
+   "fala": "O Alecrim levantou, foi até o tapetinho e ficou olhando pro Seu Almir.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_cabeca",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Gravei o interfone. Toco baixinho, e o petisco cai no tapete."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUARTA · 19:00",
+   "fala": "No dia seguinte, a Irene gravou o interfone no celular. Volume mínimo, petisco no tapete.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Tapete, Araruta. Isso!"
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 620,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 14:00",
+   "fala": "Poucos minutos por dia, subindo o volume aos poucos. Às vezes ela ainda late. Só que agora olha pro tapete.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco A",
+   "membros": "38 participantes",
+   "quando": "14:05",
+   "fala": "No grupo:",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Cadê o alarme do 502?"
+    },
+    {
+     "quem": "carla",
+     "texto": "Em treinamento.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Everaldo (301)",
+    "carla": "Irene"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu vira sirene no interfone? Comenta um pra sim, dois pra não, três pra às vezes. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu vira sirene?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 às vezes"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

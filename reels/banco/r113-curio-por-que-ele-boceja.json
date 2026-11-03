@@ -1,0 +1,81 @@
+{
+ "id": "r113-curio-por-que-ele-boceja",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Ele boceja e você acha que é sono? Nem sempre 🥱\n\n🐾 Pode ser sono mesmo\n🐾 Pode ser sinal de desconforto\n🐾 E pode pegar o seu bocejo\n\nO seu já bocejou junto com você? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#curiosidadespet #meucaoobedece #linguagemcanina #comportamentocanino #cachorros",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Seu cão bocejou. Mas será que é sono?",
+   "linhas": [
+    "ELE BOCEJOU",
+    "SERÁ QUE É SONO?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "numero_palavra": "",
+   "fala": "Primeiro: às vezes é sono mesmo. Depois de brincar ou antes de dormir, é só isso.",
+   "rotulo": [
+    "PODE SER SONO",
+    "às vezes é só isso"
+   ],
+   "icone": "relogio"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "numero_palavra": "",
+   "fala": "Segundo: bocejar também pode ser sinal de desconforto, numa bronca ou numa situação tensa. Olhe o resto do corpo.",
+   "rotulo": [
+    "PODE SER DESCONFORTO",
+    "olhe o resto do corpo"
+   ],
+   "icone": "alvo"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "numero_palavra": "",
+   "fala": "Terceiro: pesquisas sugerem que o bocejo humano pode contagiar cães. Tente bocejar perto do seu.",
+   "rotulo": [
+    "BOCEJO PEGA",
+    "até do humano pro cão"
+   ],
+   "icone": "coracao"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "r112-mito-cachorro-cansado-obedece",
+ "formato": "mito",
+ "gancho_tipo": "negacao",
+ "tema": "obediencia",
+ "legenda": "\"É só cansar que ele obedece.\" Gastar energia ajuda, mas não ensina 🐕\n\n🐾 Passeio gasta energia e dá faro\n🐾 Treino curto ensina o que fazer\n🐾 Os dois juntos funcionam melhor\n\nVocê já achou isso? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramentocanino #meucaoobedece #comportamentocanino #educacaocanina #cachorros",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Cachorro cansado é cachorro obediente?",
+   "linhas": [
+    "CACHORRO CANSADO",
+    "É OBEDIENTE?"
+   ],
+   "destaque": 1,
+   "mascote": "dorminhoco",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "mito",
+   "fala": "É só cansar que ele obedece. Isso é mito. Cansado, ele dorme. Mas acorda sem saber o que você quer.",
+   "frase": "É só cansar que ele obedece",
+   "veredito": "MITO",
+   "veredito_palavra": "mito",
+   "explica": [
+    "CANSADO, ELE DORME",
+    "MAS NÃO APRENDE"
+   ],
+   "icone": "cerebro",
+   "tag": "ADESTRAMENTO"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Passeio gasta energia e dá trabalho pro nariz. E isso ajuda muito.",
+   "linhas": [
+    "PASSEIO AJUDA",
+    "E MUITO"
+   ],
+   "destaque": 1,
+   "icone": "focinho",
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Só que quem ensina o que fazer na porta, na visita e na guia é o treino curto, um pouco por dia.",
+   "linhas": [
+    "QUEM ENSINA",
+    "É O TREINO CURTO"
+   ],
+   "destaque": 1,
+   "icone": "alvo",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}
