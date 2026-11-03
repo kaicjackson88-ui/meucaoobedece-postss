@@ -1,1 +1,122 @@
-{}
+{
+ "ideias": [
+  {
+   "titulo": "Cachorro que late no portão com barulho de interfone",
+   "dor": "Latido excessivo e estresse com visitas ou entregadores",
+   "gancho_exemplo": "Meu cachorro parecia um alarme de incêndio toda vez que o entregador tocava o interfone...",
+   "formato": "História animada 2D com diálogo entre tutor e cão, revelando que ninguém ensinou o cão a lidar com o estímulo",
+   "por_que": "O tema latido e contextos de apartamento possuem alta afinidade com o público e pesos positivos nos dados internos."
+  },
+  {
+   "titulo": "Xixi fora do lugar após mudança de rotina",
+   "dor": "Erros frequentes no local correto de xixi",
+   "gancho_exemplo": "Eu limpo a casa inteira e, do nada, o tapete da sala vira banheiro...",
+   "formato": "História animada 2D focada em vergonha do tutor e solução rápida em 15 minutos por dia",
+   "por_que": "O tema xixi apresenta os melhores pesos de conversão e engajamento histórico no perfil."
+  },
+  {
+   "titulo": "Comer grama e passar mal de repente",
+   "dor": "Hábitos alimentares estranhos e vômitos recorrentes",
+   "gancho_exemplo": "Meu cão resolveu virar uma cabrinha no passeio e o resultado foi trágico no carpete...",
+   "formato": "História animada 2D abordando a curiosidade validada em manchetes recentes sobre o comportamento canino",
+   "por_que": "Alinha notícias de grande repercussão sobre saúde pet com o formato de narrativa bem-sucedido."
+  },
+  {
+   "titulo": "Fuga ou pânico com barulhos de fogos e festas",
+   "dor": "Medo extremo de barulhos altos e tentativa de fuga",
+   "gancho_exemplo": "Veio o primeiro rojão e meu cachorro tentou se esconder dentro do armário da cozinha...",
+   "formato": "História animada 2D demonstrando a virada de chave para dessensibilização com reforço adequado",
+   "por_que": "O peso para temas de medo e barulhos intensos é extremamente alto nos dados de performance."
+  },
+  {
+   "titulo": "Cachorro que rouba comida da mesa no churrasco",
+   "dor": "Falta de limites na hora das refeições em família",
+   "gancho_exemplo": "Bateu a carne na grelha e meu cão virou um acrobata profissional para roubar a picanha...",
+   "formato": "História animada 2D cômica com resolução comportamental simples",
+   "por_que": "Associa tags de alto desempenho como #churrasco com situações cotidianas relatadas pelos tutores."
+  }
+ ],
+ "hashtags": {
+  "latido": [
+   "#latidoexcessivo",
+   "#cachorrolatindo",
+   "#apartamento",
+   "#condominio",
+   "#comportamentocanino",
+   "#educacaocanina"
+  ],
+  "xixi": [
+   "#xixinolugarcerto",
+   "#tapetehigienico",
+   "#adestramentocanino",
+   "#cachorrolimpo",
+   "#educacaocanina",
+   "#comportamentocanino"
+  ],
+  "pulo": [
+   "#cachorropulando",
+   "#comportamentocanino",
+   "#educacaocanina",
+   "#adestramentocanino",
+   "#cachorroagitado",
+   "#rotinapet"
+  ],
+  "guia": [
+   "#puxarguia",
+   "#passeiocomcachorro",
+   "#adestramentocanino",
+   "#comportamentocanino",
+   "#cachorro",
+   "#passeio"
+  ],
+  "ansiedade": [
+   "#cachorroansioso",
+   "#cachorrogrudento",
+   "#comportamentocanino",
+   "#adestramentocanino",
+   "#rotinapet",
+   "#educacaocanina"
+  ],
+  "chamado": [
+   "#voltanaquisição",
+   "#adestramentocanino",
+   "#comportamentocanino",
+   "#cachorro",
+   "#educacaocanina",
+   "#rotinapet"
+  ],
+  "comida": [
+   "#cachorrocomendo",
+   "#comportamentocanino",
+   "#educacaocanina",
+   "#adestramentocanino",
+   "#churrasco",
+   "#petiscos"
+  ]
+ },
+ "estilo_legenda": [
+  "Usar frases curtas e diretas que geram identificação imediata com o problema do tutor.",
+  "Incluir uma chamada para o quiz interativo no final de cada postagem.",
+  "Manter linguagem informal, leve e focada em soluções práticas de 15 minutos por dia.",
+  "O cão também comete erros, ninguém nasceu sabendo!",
+  "Seu pet faz isso em casa? Responda nos comentários."
+ ],
+ "datas_temas": [
+  "Finais de semana com churrasco e reuniões em família",
+  "Períodos de festas com barulhos e fogos",
+  "Rotinas de mudança de apartamento e condomínio"
+ ],
+ "evitar": [
+  "Abordar temas com pesos negativos como cama, roer e cavar",
+  "Usar o termo #reforçopositivo devido ao baixo desempenho histórico",
+  "Textos longos e densos sem o formato de história animada"
+ ],
+ "resumo": "Os dados indicam que histórias focadas em problemas de convivência urbana, como xixi no lugar errado e latidos em apartamento, geram os melhores resultados de engajamento. Deve-se evitar conteúdos sobre cães na cama e roer móveis, priorizando ganchos rápidos e formato animado.",
+ "perfis_referencia": [
+  "Metrópoles",
+  "CNN Brasil",
+  "Estadão",
+  "Jornal do Brasil",
+  "G1"
+ ]
+}
