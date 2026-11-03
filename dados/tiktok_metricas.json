@@ -1,11 +1,11 @@
 {
  "perfil": {
+  "video_count": 54,
   "display_name": "Meucaobedece",
   "follower_count": 5,
-  "likes_count": 133,
-  "video_count": 54
+  "likes_count": 133
  },
- "atualizado": "2026-11-02T06:57:27.500585-03:00",
+ "atualizado": "2026-11-02T23:42:19.032778-03:00",
  "videos": [
   {
    "video": "7696660352351653121",
@@ -22,7 +22,7 @@
   {
    "video": "7696660282101222708",
    "roteiro": "h057-pacoca-interfone-p2",
-   "views": 151,
+   "views": 152,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -82,11 +82,11 @@
   {
    "video": "7696453986005552436",
    "roteiro": "h013-filhote-dente-de-agulha",
-   "views": 152,
+   "views": 153,
    "curtidas": 2,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0132,
+   "engaj": 0.0131,
    "duracao": 73,
    "link": "https://www.tiktok.com/@meucaobedece/video/7696453986005552436?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-14T09:32:27+00:00"
