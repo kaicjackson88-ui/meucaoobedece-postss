@@ -1,1 +1,1 @@
-2026-11-03T10:45:37.285590-03:00 h217-gengibre-ensaio-da-bateria-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261103214537B78DE4676C7C7F046D83"}}
+2026-11-03T10:55:40.228140-03:00 h217-gengibre-ensaio-da-bateria-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261103215539048D5690302E680554F8"}}
