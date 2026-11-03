@@ -1,1 +1,1 @@
-2026-11-03T07:51:13.685162-03:00 h212-jurubeba-tres-erros-do-peitoral: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611031851130754BD717F83560F588C"}}
+2026-11-03T08:01:16.652201-03:00 h212-jurubeba-tres-erros-do-peitoral: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261103190116E4360B78759B990FA12D"}}
