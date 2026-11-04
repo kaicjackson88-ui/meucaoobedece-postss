@@ -1,0 +1,161 @@
+{
+ "id": "h246-cannoli-coral-do-predio-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 2: a regente chamou o Cannoli no salão, e vinte vizinhos ficaram olhando 🎶 O que tirou do bolso surpreendeu a Rosalva.\nO seu cão também canta quando ouve música ou sirene? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #latidoexcessivo #cachorrolatindo #adestramentocanino #historiadecachorro",
+ "serie": "cannoli-coral-do-predio",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. A regente mandou o Cannoli descer.",
+   "linhas": [
+    "A REGENTE CHAMOU",
+    "O CANNOLI DESCEU",
+    "PARTE 2"
+   ],
+   "destaque": 1,
+   "parte": 2,
+   "mascote": "normal",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUINTA · 21:05",
+   "fala": "No salão, vinte vizinhos olhando. A dona Perpétua tirou um petisco do bolso.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Já tive três cachorros cantores."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Uivar é um jeito antigo de os cães se comunicarem. E alguns sons podem puxar esse uivo.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "UIVAR É COMUNICAÇÃO",
+    "alguns sons puxam o uivo"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUINTA · 21:10",
+   "fala": "Nota baixinha no celular. Ficou quieto? Petisco.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SEXTA · 07:30",
+   "fala": "Em casa, poucos minutos por dia. O volume só sobe se ele continuar calmo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "UM ENSAIO DEPOIS",
+   "fala": "No ensaio seguinte, ainda soltou um uivo. Um só.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco B",
+   "membros": "52 participantes",
+   "quando": "19:40",
+   "fala": "E a regente escreveu.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Fica com a primeira fila. Mas de boca fechada."
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Perpétua"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu cão também canta? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu canta?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só sirene"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

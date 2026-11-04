@@ -1,0 +1,168 @@
+{
+ "id": "h245-cannoli-coral-do-predio-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "PARTE 1: o coral do prédio ensaiava pro Natal e o Cannoli entrou de solista, dois andares acima 🎤🐶 O áudio foi parar no grupo, e a regente bateu na porta.\nO que ela queria? Comenta 1, 2 ou 3 e segue pra ver a Parte 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #latidoexcessivo #apartamento #adestramentocanino #historiadecachorro",
+ "serie": "cannoli-coral-do-predio",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte um. O coral do prédio ensaiava. Aí entrou um solista não convidado.",
+   "linhas": [
+    "CORAL DE NATAL",
+    "UM SOLISTA A MAIS",
+    "PARTE 1"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "QUINTA · 19:00",
+   "fala": "Sete da noite. O coral subiu o tom no salão. E o Cannoli, dois andares acima, respondeu.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AUUUUUUU!"
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUINTA · 19:05",
+   "fala": "A Rosalva ofereceu biscoito. Ele engoliu e voltou mais afinado.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "late"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco B",
+   "membros": "52 participantes",
+   "quando": "19:20",
+   "fala": "O ensaio foi parar no grupo.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Áudio: coral e cachorro. Segundo seis."
+    },
+    {
+     "quem": "pedro",
+     "texto": "Melhor voz do bloco."
+    }
+   ],
+   "nomes": {
+    "joao": "Nilo (201)",
+    "pedro": "Otaviano (603)",
+    "carla": "Rosalva"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco B",
+   "membros": "52 participantes",
+   "quando": "19:22",
+   "fala": "E a regente apareceu.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Quem é o dono do tenor?"
+    },
+    {
+     "quem": "carla",
+     "texto": "Gente, mil desculpas!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "sindica": "Dona Perpétua",
+    "carla": "Rosalva"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "QUINTA · 21:00",
+   "fala": "Às nove, a dona Perpétua bateu na porta.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Traz esse cachorro pro salão. Agora."
+    }
+   ],
+   "campainha": 0
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que ela queria? Comenta um, dois ou três. E segue pra ver a Parte dois. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que ela queria?",
+   "opcoes": [
+    "1 dar bronca",
+    "2 multar",
+    "3 uma ideia"
+   ],
+   "escolha": 2,
+   "resultado": "VEJA A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

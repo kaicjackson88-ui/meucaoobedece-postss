@@ -1,0 +1,170 @@
+{
+ "id": "h251-focaccia-arvore-de-natal-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Ano passado: a Focaccia achou que a árvore de Natal era um poste novo dentro de casa 🎄 Hoje: mesma sala, mesma hora. A Hortência começou antes de montar.\nO seu já fez isso na árvore? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #natal #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Ano passado, a Focaccia fez xixi na árvore. Hoje, olha a mesma árvore.",
+   "linhas": [
+    "ÁRVORE DE NATAL",
+    "ANO PASSADO: POÇA",
+    "HOJE: OLHA ISSO"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ANO PASSADO · 20:00",
+   "fala": "Ano passado. Árvore montada. Pra Focaccia, um poste novo dentro de casa.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "ana",
+     "texto": "Nos presentes não!",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 620,
+     "y": 1450
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ANO PASSADO · 20:10",
+   "fala": "Ela deu bronca. A Focaccia correu pro corredor. E fez outra poça, escondida.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 800,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 20:00",
+   "fala": "Hoje. Mesma sala, mesma hora. Uma semana antes de montar, a Hortência começou: lugar certo depois de comer e de acordar.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 20:10",
+   "fala": "Primeiro dia de árvore, com cerquinha. Cheirou? Tudo bem. Foi pro tapete? Petisco na hora.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "HOJE · 20:30",
+   "fala": "Aí chegou a sogra.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cintura"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Cadê o cheiro de pinheiro com xixi?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já fez isso? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu já fez?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 ainda não tenho árvore"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

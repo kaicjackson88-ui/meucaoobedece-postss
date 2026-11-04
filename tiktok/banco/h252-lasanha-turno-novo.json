@@ -1,0 +1,153 @@
+{
+ "id": "h252-lasanha-turno-novo",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "3 anos sem errar. Do nada, a cozinha do Silvério virou banheiro 🚽 Tapete novo não adiantou. Quem matou a charada foi o porteiro.\nJá mudou de rotina e o seu cão sentiu? Comenta 1 pra sim, 2 pra não 👇\nXixi fora de hora de repente? Primeiro passe no veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três anos sem errar. Do nada, a cozinha virou banheiro.",
+   "linhas": [
+    "3 ANOS SEM ERRAR",
+    "DO NADA",
+    "A COZINHA VIROU BANHEIRO"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "relogio"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "TERÇA · 19:00",
+   "fala": "O Silvério abriu a porta e pisou na poça.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Lasanha!",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 500,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "QUARTA · 19:30",
+   "fala": "Foi na veterinária: tudo certo. Tapete novo, desinfetante. Nada.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "QUINTA · 05:50",
+   "fala": "Quem matou a charada foi o porteiro, seu Cícero.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "aponta"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Antes você descia com ela às oito. Agora sai às seis."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Quem mudou de turno foi o Silvério. E ela seguia no horário antigo.",
+   "topo": [
+    "QUEM MUDOU DE TURNO",
+    "FOI O WAGNER"
+   ],
+   "de": "PASSEIO: 8H",
+   "para": "SAÍDA: 6H",
+   "para_palavra": "antigo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · 05:30",
+   "fala": "Agora, passeio antes do turno e uma vizinha na hora do almoço. Ainda escapa um xixi. Mas a cozinha voltou a ser cozinha.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu sentiu quando a sua rotina mudou? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu sentiu?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 nem reparei"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

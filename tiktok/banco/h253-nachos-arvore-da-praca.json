@@ -1,0 +1,155 @@
+{
+ "id": "h253-nachos-arvore-da-praca",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "ALERTA: a árvore de Natal da praça acende com fogos 🎆 A Domingas levou o Nachos pra ver as luzes, e a guia escapou na contagem regressiva.\nSua cidade também solta fogos nessa data? Comenta 1 pra sim, 2 pra não 👇\nMedo intenso? Converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #natal #cachorrofugiu #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Alerta: a árvore de Natal da praça acende com fogos.",
+   "linhas": [
+    "ALERTA",
+    "ÁRVORE DA PRAÇA",
+    "ACENDE COM FOGOS"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEXTA · 19:00",
+   "fala": "Praça cheia. A Domingas levou o Nachos pra ver as luzes.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEXTA · 19:01",
+   "fala": "Três, dois, um. Rojão. Ele deu um tranco, e a guia escapou da mão.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Nachos!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "SEXTA · 19:03",
+   "fala": "Ele entrou na galeria. O pipoqueiro pisou na guia e segurou.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "guia"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Todo ano é assim aqui."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Cão assustado pode correr sem rumo. Por isso uma plaquinha com telefone na coleira ajuda tanto.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "PLAQUINHA COM TELEFONE",
+    "ajuda se ele correr"
+   ],
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "NO DIA SEGUINTE",
+   "fala": "A Domingas fez a lista: plaquinha, peitoral bem ajustado. E em noite de fogos, ele fica em casa, num cantinho seguro.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Sua cidade também solta? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Sua cidade solta?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 não sei"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

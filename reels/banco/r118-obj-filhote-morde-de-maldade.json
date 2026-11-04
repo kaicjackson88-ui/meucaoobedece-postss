@@ -1,0 +1,72 @@
+{
+ "id": "r118-obj-filhote-morde-de-maldade",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "mordida",
+ "legenda": "Filhote mordendo tudo? Quase sempre é brincadeira, e gritar pode animar ainda mais 🦷\n\n🐾 Pare a brincadeira\n🐾 Ofereça o brinquedo\n🐾 Repita sempre igual\n\nO seu faz isso? Comenta 1 pra sim, 2 pra não 👇\n\nSe houver rosnado ou mordida com medo, procure um veterinário ou profissional.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#filhotemordendo #meucaoobedece #adestramentodefilhotes #dicasdecachorro #filhote",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Meu filhote me morde de maldade. Será?",
+   "linhas": [
+    "ELE ME MORDE",
+    "DE MALDADE?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "objecao",
+   "objecao": "Ele me morde de maldade",
+   "resposta": "É BRINCADEIRA",
+   "resposta_palavra": "brincadeira",
+   "explica": [
+    "Filhote explora com a boca",
+    "E brinca mordendo"
+   ],
+   "resposta_cor": "teal",
+   "fala": "Na maioria das vezes é brincadeira. Filhote explora o mundo com a boca."
+  },
+  {
+   "tipo": "objecao",
+   "objecao": "Mas eu grito e ele para",
+   "resposta": "OU ANIMA",
+   "resposta_palavra": "anima",
+   "explica": [
+    "Grito e corrida",
+    "parecem parte do jogo"
+   ],
+   "resposta_cor": "red",
+   "fala": "Gritar? Pra muitos filhotes, isso anima. Grito e corrida parecem parte do jogo."
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 1,
+   "fala": "Mordeu a mão? Pare a brincadeira e ofereça o brinquedo. Sempre igual, em casa toda.",
+   "titulo": "Pare e troque",
+   "sub": "sempre igual",
+   "icone": "bola"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "id": "h247-misso-salada-da-pracinha",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "O Missô jura que a melhor salada da cidade fica no canteiro da pracinha 🌿 O humano dele passou a madrugada pesquisando.\nO seu também vira cabrinha no passeio? Comenta 1 pra sim, 2 pra não 👇\nSe o cão vomita com frequência ou muda de comportamento, procure o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#passeiocomcachorro #comportamentocanino #cachorrocomendo #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Missô. E a melhor salada fica na pracinha.",
+   "linhas": [
+    "EU SOU O MISSÔ",
+    "E A MELHOR SALADA",
+    "É DA PRACINHA"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "feliz",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SEGUNDA · 07:30",
+   "fala": "Toda manhã eu paro no canteiro. Meu humano dá escândalo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Larga, Missô",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "SEGUNDA · 02:10",
+   "fala": "De madrugada ele pesquisou no celular. Eu dormi bem.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Cachorro cabrinha é normal?",
+     "pensa": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "TERÇA · 10:00",
+   "fala": "Aí fomos na moça de jaleco. Ela tem petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "É comum. Vamos observar."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Muitos cães comem grama sem estar doentes. Mas vômito frequente é assunto pro veterinário.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CÃO COMER GRAMA É COMUM",
+    "vômito frequente: veterinário"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "QUARTA · 07:30",
+   "fala": "Canteiro de rua pode ter veneno. Agora eu olho o mato, olho pro humano, e ganho petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "QUARTA · 08:00",
+   "fala": "Ele acha que ganhou. Amanhã tem canteiro novo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu também vira cabrinha? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Vira cabrinha?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 às vezes"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,76 @@
+{
+ "id": "r117-mito-rosnado-e-maldade",
+ "formato": "mito",
+ "gancho_tipo": "negacao",
+ "tema": "mordida",
+ "legenda": "Rosnar é um aviso, e dar bronca pode apagar esse aviso ⚠️\n\n🐾 Dê espaço\n🐾 Observe o que causou\n🐾 Peça ajuda se repetir\n\nO seu já rosnou? Comenta 1 pra sim, 2 pra não 👇\n\nAgressividade ou medo intenso? Procure um veterinário ou profissional.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#comportamentocanino #meucaoobedece #linguagemcanina #dicasdecachorro #mordida",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de dar bronca quando o seu cão rosna.",
+   "linhas": [
+    "PARE DE DAR BRONCA",
+    "QUANDO ELE ROSNA"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "mito",
+   "frase": "Cão que rosna é cão mau",
+   "veredito": "MITO",
+   "veredito_palavra": "Mito",
+   "explica": [
+    "Rosnar é um aviso",
+    "Ele está pedindo espaço"
+   ],
+   "icone": "alvo",
+   "tag": "MITO OU VERDADE",
+   "fala": "Cão que rosna é cão mau? Mito. Rosnar é um aviso: ele está pedindo espaço."
+  },
+  {
+   "tipo": "mito",
+   "frase": "Bronca resolve o rosnado",
+   "veredito": "MITO",
+   "veredito_palavra": "Mito",
+   "explica": [
+    "Pode sumir o aviso",
+    "Não some o incômodo"
+   ],
+   "icone": "x",
+   "tag": "MITO OU VERDADE",
+   "fala": "Bronca resolve? Mito. Ele pode parar de avisar, sem parar de se incomodar."
+  },
+  {
+   "tipo": "texto",
+   "fala": "Dê espaço, veja o que causou, e se repetir, procure um profissional.",
+   "linhas": [
+    "DÊ ESPAÇO",
+    "PEÇA AJUDA"
+   ],
+   "destaque": 1,
+   "icone": "escudo",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "id": "h250-ravioli-tres-erros-da-ceia",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Pare de fazer isso na ceia de Natal 🎄 O Ravioli aprendeu que a mesa é restaurante, e a Cidália ensinou sem querer.\nQual destes já aconteceu aí? Comenta 1, 2 ou 3 👇\nSe o seu cão comer algo perigoso, ligue para o veterinário na hora.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#natal #cachorrocomendo #comportamentocanino #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de fazer isso na ceia de Natal. Seu cão entende errado.",
+   "linhas": [
+    "PARE DE FAZER ISSO",
+    "NA CEIA DE NATAL",
+    "3 ERROS"
+   ],
+   "destaque": 1,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 1",
+   "fala": "Erro um: travessa na beira da mesa. Pro Ravioli, isso é convite.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "O peru não!",
+     "grito": true
+    }
+   ],
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 2",
+   "fala": "Erro dois: restinho debaixo da mesa. Ele aprende que ali é restaurante. E osso cozido, chocolate e uva passa são perigosos pra cães.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 3",
+   "fala": "Erro três: correr atrás quando ele pega algo. Pra ele, virou pega-pega.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "AU AU!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "O CERTO",
+   "fala": "O certo, segundo o tio Anísio, que cria três cachorros: comida longe da borda, e o Ravioli no tapete, com o brinquedo dele, antes de todo mundo sentar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 560,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses já aconteceu aí? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual aconteceu aí?",
+   "opcoes": [
+    "1 travessa",
+    "2 restinho",
+    "3 pega-pega"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

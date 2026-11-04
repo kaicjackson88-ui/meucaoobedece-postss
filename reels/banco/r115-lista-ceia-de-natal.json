@@ -1,0 +1,66 @@
+{
+ "id": "r115-lista-ceia-de-natal",
+ "formato": "lista",
+ "gancho_tipo": "erro",
+ "tema": "comida",
+ "legenda": "Ceia de Natal com cachorro em casa? 🎄\n\n🐾 Comida longe da borda\n🐾 Tapete e brinquedo antes de sentar\n🐾 Nada de restinho debaixo da mesa\n\nQual é a mais difícil aí? Comenta 1, 2 ou 3 👇\n\nSe ele comer algo perigoso, ligue para o veterinário na hora.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#natal #meucaoobedece #cachorrocomendo #dicasdecachorro #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três regras pro seu cão não assaltar a ceia de Natal.",
+   "linhas": [
+    "SEU CÃO VAI",
+    "ASSALTAR A CEIA?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: comida longe da borda da mesa. O que está na beira, pra ele, é convite.",
+   "titulo": "Longe da borda",
+   "sub": "beira é convite",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: tapete e brinquedo antes de todo mundo sentar. Ensaie nos dias comuns.",
+   "titulo": "Tapete e brinquedo",
+   "sub": "ensaie antes",
+   "icone": "bola"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: nada de restinho. Osso cozido, chocolate e uva passa são perigosos pra cães.",
+   "titulo": "Nada de restinho",
+   "sub": "alguns são perigosos",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

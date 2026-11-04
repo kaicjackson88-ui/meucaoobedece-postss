@@ -1,0 +1,169 @@
+{
+ "id": "h248-pretzel-votacao-do-amigo-oculto",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "A família fez enquete: o Pretzel, de 4 meses, vai ou não vai no amigo oculto? 🎁 Placar: 14 a 1 contra. Até a prima de 10 anos mandar um áudio.\nVocê deixaria ele ir? Comenta 1 pra sim, 2 pra não 👇\nSe houver rosnado ou mordida com medo, procure um veterinário ou profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #adestramentodefilhotes #familia #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A família votou: o Pretzel vai ou não vai no amigo oculto?",
+   "linhas": [
+    "VOTAÇÃO DA FAMÍLIA",
+    "O PRETZEL",
+    "VAI OU NÃO VAI?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "bravo",
+   "icone": "pata"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Amigo Oculto",
+   "membros": "16 participantes",
+   "quando": "21:02",
+   "fala": "Começou com um print.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Olha meu tornozelo."
+    }
+   ],
+   "nomes": {
+    "sindica": "Vó Margarida",
+    "carla": "Tia Marli",
+    "pedro": "Alcides"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Amigo Oculto",
+   "membros": "16 participantes",
+   "quando": "21:05",
+   "fala": "Veio a enquete.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Filhote no amigo oculto. Sim: um. Não: catorze."
+    },
+    {
+     "quem": "pedro",
+     "texto": "Ele tem quatro meses!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Primo Tadeu",
+    "pedro": "Alcides"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Amigo Oculto",
+   "membros": "16 participantes",
+   "quando": "21:09",
+   "fala": "Até que a Jade, de dez anos, mandou áudio.",
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Tio, vocês gritam e correm. Pra ele é jogo."
+    }
+   ],
+   "nomes": {
+    "bia": "Jade"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 15:00",
+   "fala": "No domingo ela mostrou. Mordeu? Para tudo e oferece o brinquedo.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 560,
+    "acao": "pula"
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DIA DO AMIGO OCULTO",
+   "fala": "Ele treinou todo dia. Na festa, a vó esticou o pé. E ele foi no brinquedo.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cintura"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "comemora",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Família Amigo Oculto",
+   "membros": "16 participantes",
+   "quando": "22:40",
+   "fala": "E a enquete voltou.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Mudei meu voto. Vou de meia grossa."
+    }
+   ],
+   "nomes": {
+    "sindica": "Vó Margarida"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você deixaria? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Você deixaria?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 de meia grossa"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

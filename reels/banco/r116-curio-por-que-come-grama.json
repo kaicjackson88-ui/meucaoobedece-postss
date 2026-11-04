@@ -1,0 +1,81 @@
+{
+ "id": "r116-curio-por-que-come-grama",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Seu cão também vira cabrinha no passeio? 🌿\n\n🐾 Comer grama é comum entre cães\n🐾 Canteiro de rua pode ter veneno\n🐾 Vômito frequente pede veterinário\n\nO seu faz isso? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorro #meucaoobedece #curiosidadespet #dicasdecachorro #passeiocomcachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Por que o seu cachorro come grama?",
+   "linhas": [
+    "POR QUE ELE",
+    "COME GRAMA?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "É BEM COMUM",
+    "muitos cães fazem"
+   ],
+   "icone": "focinho",
+   "numero_palavra": "",
+   "fala": "Primeiro: é comum. Muitos cães comem grama, e nem sempre estão doentes."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "NEM SEMPRE VOMITAM",
+    "a minoria vomita depois"
+   ],
+   "icone": "lampada",
+   "numero_palavra": "",
+   "fala": "Segundo: a ideia de que ele come pra vomitar não explica tudo. A maioria não vomita depois."
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CUIDADO COM O CANTEIRO",
+    "pode ter veneno"
+   ],
+   "icone": "escudo",
+   "numero_palavra": "",
+   "fala": "Terceiro: canteiro de rua pode ter veneno. E vômito frequente é assunto pro veterinário."
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

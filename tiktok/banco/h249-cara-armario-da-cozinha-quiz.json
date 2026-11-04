@@ -1,0 +1,143 @@
+{
+ "id": "h249-cara-armario-da-cozinha-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "Primeiro rojão de novembro e a Cará se enfiou no armário da cozinha, atrás das panelas 🎆 O cunhado já veio com a solução. O que você faria? 1 varanda pra acostumar, 2 tirar dali e dar bronca, 3 deixar lá e ficar por perto.\nComenta 1, 2 ou 3 antes de ver a resposta 👇\nMedo intenso? Converse com o veterinário antes da virada.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#reveillon #fogosnao #cachorroemedo #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Primeiro rojão de novembro. A Cará foi pro armário. O que você faria?",
+   "linhas": [
+    "ROJÃO EM NOVEMBRO",
+    "ELA FOI PRO ARMÁRIO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "parte": 1,
+   "mascote": "normal",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "SÁBADO · 20:00",
+   "fala": "Quando a Eulália achou, só dava pra ver o rabo, atrás das panelas.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "SÁBADO · 20:02",
+   "fala": "O cunhado veio com a solução.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "aponta"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "bracos_cruzados",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Leva pra varanda que ela acostuma!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: varanda pra acostumar. Dois: tira dali e dá bronca. Três: deixa lá e fica por perto. Comenta antes da resposta!",
+   "topo": [
+    "1 VARANDA",
+    "2 TIRA E DÁ BRONCA",
+    "3 FICA POR PERTO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Resposta: três. Você sabia? Cães ouvem sons que a gente nem percebe. Forçar a ficar no barulho pode piorar o medo.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "ELE OUVE MAIS QUE VOCÊ",
+    "forçar pode piorar o medo"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 09:00",
+   "fala": "No dia seguinte, o seu Laurindo ensinou: cantinho seguro e som baixinho nos dias calmos.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "petisco",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você acertou? Comenta qual escolheu. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você escolheu?",
+   "opcoes": [
+    "1 varanda",
+    "2 bronca",
+    "3 ficar por perto"
+   ],
+   "escolha": 2,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
