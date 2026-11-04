@@ -1,1 +1,1 @@
-2026-11-03T22:26:47.820940-03:00 h226-gelatina-praia-do-feriado: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261104092647896B177E13CDFF29944B"}}
+2026-11-03T23:37:37.016535-03:00 h223-grumixama-moto-da-janela-quiz: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611041037363F162FD27C3DB72FF3DA"}}
