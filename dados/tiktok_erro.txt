@@ -1,1 +1,1 @@
-2026-11-03T21:06:20.508581-03:00 h226-gelatina-praia-do-feriado: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611040806202AF4EB8EE978A72F28F1"}}
+2026-11-03T21:16:23.936751-03:00 h226-gelatina-praia-do-feriado: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261104081623D1AA6E33CFB3C12F8D93"}}
