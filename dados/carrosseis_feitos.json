@@ -1255,5 +1255,16 @@
  {
   "slot": "2026-11-04 07:00",
   "erro": "Command '['git', 'push', '-qf', 'origin', 'HEAD:refs/heads/midia-20261104-0700-c-chamado']' returned non-zero exit status 1."
+ },
+ {
+  "slot": "2026-11-04 09:30",
+  "seg": "chamado",
+  "tema": "Não vem quando chama",
+  "gancho": "Seu cão só vem quando quer?",
+  "assin": "chamado|Seu cão só vem quando [quer]?|0,1,5",
+  "seed": 782470454,
+  "media_id": "18026846315870506",
+  "link": "https://www.instagram.com/p/DfUdigcl5d6/",
+  "publicado_em": "2026-11-04T12:30:58.812636+00:00"
  }
 ]
