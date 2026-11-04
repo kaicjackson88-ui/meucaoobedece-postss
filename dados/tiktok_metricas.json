@@ -1,11 +1,11 @@
 {
  "perfil": {
-  "video_count": 54,
-  "display_name": "Meucaobedece",
   "follower_count": 5,
-  "likes_count": 133
+  "likes_count": 133,
+  "video_count": 54,
+  "display_name": "Meucaobedece"
  },
- "atualizado": "2026-11-02T23:42:19.032778-03:00",
+ "atualizado": "2026-11-03T23:51:58.584690-03:00",
  "videos": [
   {
    "video": "7696660352351653121",
@@ -286,7 +286,7 @@
   {
    "video": "7695848652169907508",
    "roteiro": "h034-tapioca-predio-novo-p2",
-   "views": 108,
+   "views": 109,
    "curtidas": 0,
    "comentarios": 0,
    "compart": 0,
@@ -430,11 +430,11 @@
   {
    "video": "7695390670336347393",
    "roteiro": "h027-chico-jantar-sogra",
-   "views": 82,
+   "views": 83,
    "curtidas": 1,
    "comentarios": 0,
    "compart": 0,
-   "engaj": 0.0122,
+   "engaj": 0.012,
    "duracao": 42,
    "link": "https://www.tiktok.com/@meucaobedece/video/7695390670336347393?utm_campaign=tt4d_open_api&utm_source=sbaw7whf2y7geope91",
    "criado": "2026-10-11T12:46:25+00:00"
