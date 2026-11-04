@@ -1,21 +1,25 @@
-Aguardando o horário 09:00 (115 min)...
-Roteiro: r086-curio-xixi-no-poste (curiosidades, estilo menta) — horário 2026-11-04 09:00
+Aguardando o horário 14:00 (113 min)...
+Roteiro: h044-dengo-cava-a-horta (tiktok-historia, estilo sol) — horário 2026-11-04 14:00
 Narração...
   voz Google: modelos ['gemini-2.5-flash-preview-tts', 'gemini-2.5-pro-preview-tts', 'gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts']
-  cão real "bravo": 48 quadro(s)
-  cão real "feliz": 48 quadro(s)
-  cão real "normal": 48 quadro(s)
-  cão real "dorminhoco": 48 quadro(s)
-  cão real "lendario": 48 quadro(s)
+voz do Google indisponível, tentando a da Microsoft: voz Google sem cota agora: gemini-2.5-flash-preview-tts: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceede
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+[0;93m2026-11-04 17:00:38.936276659 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+  história: o mesmo cão real (v156318) em todas as cenas, 48 quadro(s)
 Render...
-  frame 0/820
-  frame 300/820
-  frame 600/820
+  frame 0/1129
+  frame 300/1129
+  frame 600/1129
+  frame 900/1129
 Áudio...
-Preparing worktree (detached HEAD 5feed0e)
-HEAD is now at 5feed0e Carrossel: erro registrado
-Switched to a new branch 'tmp-20261104-0902-r086-curio-xixi-no-poste'
+Preparing worktree (detached HEAD f3c2d0f)
+HEAD is now at f3c2d0f Carrossel publicado
+Switched to a new branch 'tmp-20261104-1404-h044-dengo-cava-a-horta'
 remote: 
-remote: Create a pull request for 'midia-20261104-0902-r086-curio-xixi-no-poste' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261104-0902-r086-curio-xixi-no-poste        
+remote: Create a pull request for 'midia-20261104-1404-h044-dengo-cava-a-horta' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261104-1404-h044-dengo-cava-a-horta        
 remote: 
