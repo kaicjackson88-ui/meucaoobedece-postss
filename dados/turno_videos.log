@@ -1,3 +1,23 @@
 23:50 TikTok: trabalhando…
 TikTok não aceitou agora (provável limite de 5 rascunhos pendentes) — tento na próxima hora: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261104105013D670A9C413DED62F8278"}}
 23:50 relatório diário disparado 0 
+01:00 TikTok: trabalhando…
+Produzindo h249-cara-armario-da-cozinha-quiz
+Narração...
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+[0;93m2026-11-04 04:00:19.115122060 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
+  história: o mesmo cão real (v156318) em todas as cenas, 48 quadro(s)
+Render...
+  frame 0/1076
+  frame 300/1076
+  frame 600/1076
+  frame 900/1076
+Áudio...
+Preparing worktree (detached HEAD 58d83d0)
+HEAD is now at 58d83d0 Métricas atualizadas
+Switched to a new branch 'tmp-20261104-0103-tt-h249-cara-armario-da-cozinha-quiz'
+remote: 
+remote: Create a pull request for 'midia-20261104-0103-tt-h249-cara-armario-da-cozinha-quiz' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261104-0103-tt-h249-cara-armario-da-cozinha-quiz        
+remote: 
