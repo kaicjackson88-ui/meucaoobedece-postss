@@ -1,1 +1,1 @@
-2026-11-04T16:19:50.548655-03:00 h214-bobo-picole-da-pracinha: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261105031950F556DD65535D691AC466"}}
+2026-11-04T16:29:54.428814-03:00 h214-bobo-picole-da-pracinha: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261105032954708E6764D0CDEA1BD4BD"}}
