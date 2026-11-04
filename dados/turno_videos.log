@@ -3,3 +3,9 @@ download falhou, tentando de novo: h223-grumixama-moto-da-janela-quiz HTTP Error
 download falhou, tentando de novo: h223-grumixama-moto-da-janela-quiz HTTP Error 404: Not Found
 download falhou, tentando de novo: h223-grumixama-moto-da-janela-quiz HTTP Error 404: Not Found
 download falhou, tentando de novo: h223-grumixama-moto-da-janela-quiz HTTP Error 404: Not Found
+Vídeo pronto sumiu, descartei h223-grumixama-moto-da-janela-quiz
+  git push -q → 1 remote: fatal error in commit_refs        
+To https://github.com/kaicjackson88-ui/meucaoobedece-postss
+ ! [remote rejected] main -> main (failure)
+error: failed to push some refs to 'https://github.com/kaicjackson88-ui/meucaoobedece-postss'
+
