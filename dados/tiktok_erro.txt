@@ -1,1 +1,1 @@
-2026-11-05T18:35:38.845844-03:00 h219-cravinho-som-do-pacote: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261106053538C9A5C35DF297B18FAC4D"}}
+2026-11-05T18:45:41.572309-03:00 h219-cravinho-som-do-pacote: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611060545414B3AFECE63F87A81991E"}}
