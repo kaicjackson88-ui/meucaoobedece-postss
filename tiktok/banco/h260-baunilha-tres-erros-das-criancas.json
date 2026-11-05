@@ -1,0 +1,142 @@
+{
+ "id": "h260-baunilha-tres-erros-das-criancas",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "mordida",
+ "estilo": "sol",
+ "legenda": "3 coisas que as crianças fazem e o filhote entende que é hora de morder 🦷 A Baunilha aprendeu as três na mesma tarde.\nQual acontece aí? Comenta 1, 2 ou 3 👇\nRosnado ou mordida com medo? Procure um profissional.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#filhotemordendo #cachorroecrianca #filhote #adestramentodefilhotes #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas que as crianças fazem e o filhote entende que é hora de morder.",
+   "linhas": [
+    "3 COISAS",
+    "QUE VIRAM",
+    "HORA DE MORDER"
+   ],
+   "destaque": 2,
+   "mascote": "bravo",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "ERRO 1",
+   "fala": "Um: correr gritando. Pra Baunilha, isso é presa fugindo.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Socorro!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ERRO 2",
+   "fala": "Dois: balançar a mão na cara dela. A mão vira brinquedo.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "ERRO 3",
+   "fala": "Três: mexer no pote enquanto ela come. Ela aprende a proteger a comida.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "normal",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Filhote explora o mundo com a boca, e na troca de dentes a vontade de morder aumenta.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "FILHOTE EXPLORA",
+    "com a boca"
+   ],
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "O CERTO",
+   "fala": "O certo: brinquedo comprido na mão. Dente na pele, a brincadeira para. E a Valquíria sempre por perto.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "carinho",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual desses acontece aí? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual acontece aí?",
+   "opcoes": [
+    "1 correr",
+    "2 mão",
+    "3 pote"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

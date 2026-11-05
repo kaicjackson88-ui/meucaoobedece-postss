@@ -1,0 +1,66 @@
+{
+ "id": "r119-lista-cantinho-dos-fogos",
+ "formato": "lista",
+ "gancho_tipo": "numero",
+ "tema": "fogos",
+ "legenda": "Falta pouco pro Réveillon. Prepare o cantinho do seu cão agora 🎆\n\n🐾 Um lugar só dele\n🐾 Janela fechada e som ligado\n🐾 Deixe ele se esconder\n\nSeu cão tem cantinho? Comenta 1 pra sim, 2 pra não 👇\n\nMedo intenso? Converse com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#fogosnao #meucaoobedece #cachorroemedo #dicasdecachorro #reveillon",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três coisas pra montar o cantinho do seu cão antes dos fogos.",
+   "linhas": [
+    "MONTE O CANTINHO",
+    "ANTES DOS FOGOS"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: escolha um lugar só dele, longe da janela, e apresente com calma desde já.",
+   "titulo": "Um lugar só dele",
+   "sub": "longe da janela",
+   "icone": "casa"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: na hora dos fogos, janela fechada e som ligado baixinho.",
+   "titulo": "Janela e som",
+   "sub": "abafa o barulho",
+   "icone": "sino"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: se ele quiser se esconder, deixe. Não puxe de lá. Fique por perto.",
+   "titulo": "Deixe se esconder",
+   "sub": "fique por perto",
+   "icone": "coracao"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

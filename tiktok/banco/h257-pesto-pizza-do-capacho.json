@@ -1,0 +1,167 @@
+{
+ "id": "h257-pesto-pizza-do-capacho",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Sumiu a pizza do capacho do 402 🍕 O grupo do prédio queria o culpado, e a câmera mostrou quatro patas.\nSeu cão já roubou comida? Comenta 1 pra sim, 2 pra não 👇\nComeu algo perigoso? Ligue para o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #apartamento #cachorrocomendo #cachorrolevado #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Roubaram a pizza do capacho do vizinho.",
+   "linhas": [
+    "ROUBARAM A PIZZA",
+    "DO CAPACHO",
+    "DO 402"
+   ],
+   "destaque": 0,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco D",
+   "membros": "47 participantes",
+   "quando": "21:02",
+   "fala": "O grupo pegou fogo.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Minha pizza sumiu do capacho!"
+    }
+   ],
+   "nomes": {
+    "joao": "Tibério (402)",
+    "carla": "Cremilda (105)",
+    "pedro": "Evandro (701)",
+    "sindica": "Dona Filomena",
+    "ana": "Jurema (403)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco D",
+   "membros": "47 participantes",
+   "quando": "21:05",
+   "fala": "No corredor, só a caixa aberta.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Comeu tudo e deixou a borda. Profissional."
+    },
+    {
+     "quem": "sindica",
+     "texto": "Vou olhar a câmera."
+    }
+   ],
+   "nomes": {
+    "joao": "Tibério (402)",
+    "carla": "Cremilda (105)",
+    "pedro": "Evandro (701)",
+    "sindica": "Dona Filomena",
+    "ana": "Jurema (403)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco D",
+   "membros": "47 participantes",
+   "quando": "21:11",
+   "fala": "E o vídeo chegou.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Porta do 403 aberta. Quatro patas."
+    },
+    {
+     "quem": "ana",
+     "texto": "Gente... é o Pesto.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Tibério (402)",
+    "carla": "Cremilda (105)",
+    "pedro": "Evandro (701)",
+    "sindica": "Dona Filomena",
+    "ana": "Jurema (403)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "21:40",
+   "fala": "A Jurema pagou outra. E a menina do quinto andar deu a ideia.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Lá em casa tem portãozinho. E a gente treina o deixa."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DIAS DEPOIS",
+   "fala": "Portãozinho na entrada e um minuto por dia: petisco no chão, mão por cima. Olhou pra ela, ganha outro.",
+   "elenco": [
+    {
+     "quem": "ana",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 560,
+     "y": 1450,
+     "em": 0.3
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão já roubou comida? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Já roubou comida?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 todo dia"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

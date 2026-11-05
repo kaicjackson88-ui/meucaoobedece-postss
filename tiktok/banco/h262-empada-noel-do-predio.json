@@ -1,0 +1,160 @@
+{
+ "id": "h262-empada-noel-do-predio",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "O Papai Noel do prédio saiu do elevador, e a Empada, que conhece ele há anos, não perdoou 🎅 Quem resolveu foi o neto dele, de 6 anos.\nSeu cão estranha roupa diferente? Comenta 1 pra sim, 2 pra não 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #natal #cachorrolatindo #apartamento #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O Papai Noel do prédio encontrou a Empada.",
+   "linhas": [
+    "PAPAI NOEL",
+    "DO PRÉDIO",
+    "ENCONTROU A EMPADA"
+   ],
+   "destaque": 2,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "ENSAIO · 19:00",
+   "fala": "O Seu Bonifácio saiu de barba e gorro, e a Empada, que conhece ele há anos, disparou.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ho, ho... ho?"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Festa do Bloco A",
+   "membros": "29 participantes",
+   "quando": "19:12",
+   "fala": "O vídeo caiu no grupo.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Ou a Empada, ou o Noel."
+    },
+    {
+     "quem": "ana",
+     "texto": "Gente, ela adora o Seu Bonifácio!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Gaspar (12)",
+    "sindica": "Síndica",
+    "ana": "Aurelina"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "19:30",
+   "fala": "O neto dele, de seis anos, foi direto na barba.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "parado"
+    },
+    {
+     "quem": "bia",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "aponta",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "pula"
+   },
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Vô, tira. Ela não sabe que é você."
+    }
+   ],
+   "camera": {
+    "foco": "bia",
+    "z": 1.4,
+    "em": 0.5
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Barba fora, rabo balançando. Aí veio o plano, com o gorro primeiro e a barba depois.",
+   "topo": [
+    "PRA ELA, DE BARBA, ERA"
+   ],
+   "de": "UM ESTRANHO",
+   "para": "O SEU ARISTEU",
+   "para_palavra": "plano"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "DIAS DEPOIS",
+   "fala": "Roupa à vista, petisco perto, e ele falando antes de chegar.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    },
+    {
+     "quem": "ana",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu cão estranha roupa diferente? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Ele estranha?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só chapéu"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

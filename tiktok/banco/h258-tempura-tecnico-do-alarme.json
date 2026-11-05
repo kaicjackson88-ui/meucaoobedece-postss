@@ -1,0 +1,162 @@
+{
+ "id": "h258-tempura-tecnico-do-alarme",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Toda tarde, às 3, uma sirene no terceiro andar 🚨 O prédio chamou o técnico do alarme, e o áudio dele parou o grupo.\nO seu uiva quando você sai? Comenta 1 pra sim, 2 pra não 👇\nSofre muito ao ficar sozinho? Converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #apartamento #cachorrosozinho #cachorrolatindo #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O prédio chamou um técnico pra um alarme que nem existia.",
+   "linhas": [
+    "CHAMARAM O TÉCNICO",
+    "DO ALARME",
+    "QUE NEM EXISTE"
+   ],
+   "destaque": 2,
+   "mascote": "normal",
+   "icone": "sino"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipês",
+   "membros": "52 participantes",
+   "quando": "15:10",
+   "fala": "Toda tarde, às três, uma sirene no prédio.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Esse alarme de novo!"
+    },
+    {
+     "quem": "pedro",
+     "texto": "Conserta isso, gente.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Aristides (101)",
+    "carla": "Neuza (204)",
+    "sindica": "Síndica",
+    "pedro": "Lindomar (302)",
+    "vizinho": "Técnico Hermínio"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipês",
+   "membros": "52 participantes",
+   "quando": "15:40",
+   "fala": "A síndica perdeu a paciência.",
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Técnico amanhã. Rateio entre todos."
+    }
+   ],
+   "nomes": {
+    "joao": "Aristides (101)",
+    "carla": "Neuza (204)",
+    "sindica": "Síndica",
+    "pedro": "Lindomar (302)",
+    "vizinho": "Técnico Hermínio"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Residencial Ipês",
+   "membros": "52 participantes",
+   "quando": "15:15",
+   "fala": "No dia seguinte, o técnico mandou um áudio.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Dona, alarme não tem rabo. Vem do 302."
+    },
+    {
+     "quem": "pedro",
+     "texto": "Eu moro no 302...",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Aristides (101)",
+    "carla": "Neuza (204)",
+    "sindica": "Síndica",
+    "pedro": "Lindomar (302)",
+    "vizinho": "Técnico Hermínio"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "15:02",
+   "fala": "O Lindomar voltou cedo e parou na porta. Era o Tempurá, uivando sozinho.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "cao",
+     "texto": "Auuuuu!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "15:30",
+   "fala": "O técnico também tinha cachorro e deu o caminho.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "pedro",
+     "x": 810,
+     "humor": "normal",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Sai um minutinho, volta sem festa. E vai aumentando aos poucos."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu uiva quando você sai? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu uiva?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 não sei"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

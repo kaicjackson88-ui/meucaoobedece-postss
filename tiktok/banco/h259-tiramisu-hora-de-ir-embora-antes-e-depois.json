@@ -1,0 +1,155 @@
+{
+ "id": "h259-tiramisu-hora-de-ir-embora-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "chamado",
+ "estilo": "sol",
+ "legenda": "Mês passado: era pegar a guia no parcão e o Tiramisu sumia 🏃 Hoje: mesmo parcão, mesma hora. O truque veio de outro tutor e não custa nada.\nO seu vem quando chama? Comenta 1 de primeira, 2 só com petisco, 3 finge que não ouve 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#vemaqui #chamadocanino #passeiocomcachorro #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, ir embora do parcão virava maratona.",
+   "linhas": [
+    "MÊS PASSADO",
+    "IR EMBORA",
+    "VIRAVA MARATONA"
+   ],
+   "destaque": 2,
+   "mascote": "bravo",
+   "icone": "guia"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "MÊS PASSADO · 18:00",
+   "fala": "Seis da tarde. A Isaura pegou a guia, e o Tiramisu entendeu tudo. Sumiu.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 780,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Tiramisu, vem!",
+     "grito": true
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "MÊS PASSADO · 18:40",
+   "fala": "Quarenta minutos depois: ela morta, ele feliz.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um tutor do parcão avisou: você só chama pra ir embora. Aí ela mudou: chama, dá petisco e solta de novo.",
+   "topo": [
+    "PRA ELE, VEM AQUI ERA"
+   ],
+   "de": "ACABOU A FESTA",
+   "para": "GANHA E VOLTA",
+   "para_palavra": "solta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "HOJE · 18:00",
+   "fala": "Hoje, seis da tarde. Ela chama, ele vem, ganha petisco e volta a brincar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 620,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Tiramisu, vem!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "HOJE · 18:10",
+   "fala": "Na última chamada, guia. E um vizinho quis saber.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "parado"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "radiante",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Ele veio sozinho?"
+    },
+    {
+     "quem": "carla",
+     "texto": "Ele nem sabe que era a última."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu vem quando chama? Comenta um de primeira, dois com petisco, três finge. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu vem?",
+   "opcoes": [
+    "1 de primeira",
+    "2 com petisco",
+    "3 finge"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

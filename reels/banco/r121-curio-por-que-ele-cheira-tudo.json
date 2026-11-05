@@ -1,0 +1,81 @@
+{
+ "id": "r121-curio-por-que-ele-cheira-tudo",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Por que seu cão para pra cheirar tudo no passeio? 👃\n\n🐾 O faro é o sentido mais forte dele\n🐾 Cheiro traz notícia\n🐾 Cheirar também gasta energia\n\nO seu cheira até o quê? Conta aqui 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#curiosidadesdecachorro #meucaoobedece #comportamentocanino #dicasdecachorro #passeiocomcachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Por que seu cão para pra cheirar cada poste do caminho?",
+   "linhas": [
+    "POR QUE ELE",
+    "CHEIRA TUDO?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "numero_palavra": "",
+   "fala": "Primeiro: o faro é o sentido mais forte do cão, muito mais apurado que o nosso.",
+   "rotulo": [
+    "O FARO É",
+    "o sentido mais forte dele"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "numero_palavra": "",
+   "fala": "Segundo: pelo cheiro, ele percebe quem passou por ali. Cada poste é um recado.",
+   "rotulo": [
+    "CADA POSTE",
+    "é um recado"
+   ],
+   "icone": "pata"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "numero_palavra": "",
+   "fala": "Terceiro: farejar ocupa a cabeça. Deixar ele cheirar um pouco também faz parte do passeio.",
+   "rotulo": [
+    "FAREJAR",
+    "ocupa a cabeça"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

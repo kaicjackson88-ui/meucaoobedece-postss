@@ -1,0 +1,144 @@
+{
+ "id": "h255-ganache-alvorada-da-festa-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "PARTE 2: o homem dos rojões bateu na porta da Ganache com um papel na mão 🎆 A lista virou o plano da casa para os 9 dias.\nSua cidade solta rojão de manhã? Comenta 1 pra sim, 2 pra não 👇\nMedo intenso? Converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #cachorroassustado #historiadecachorro",
+ "serie": "ganache-alvorada-da-festa",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "O homem dos rojões bateu na porta da Ganache.",
+   "linhas": [
+    "PARTE 2",
+    "O HOMEM DOS ROJÕES",
+    "NA PORTA DELA"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "porta",
+   "parte": 2
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:01",
+   "fala": "Nove dias de alvorada, a Ganache atrás do tanque, e o Seu Belmiro com um papel.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Minha cadela também tremia. Aqui estão os horários."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "18:20",
+   "fala": "Era a hora de cada rojão. O papel foi pra geladeira.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "16:00",
+   "fala": "Passeio longe desses horários, com a guia bem presa.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão ouve sons que a gente nem percebe. Por isso o rojão pesa tanto pra ele.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "OUVE O QUE NÃO OUVIMOS",
+    "o rojão pesa mais"
+   ],
+   "icone": "focinho"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "04:45",
+   "fala": "Quinze pras cinco: janela fechada, rádio ligado e o cantinho pronto. Se ela quiser se esconder, pode.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   },
+   "relogio": "04:45"
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Sua cidade solta rojão de manhã? Comenta um pra sim, dois pra não. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Sua cidade solta?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 só em festa"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

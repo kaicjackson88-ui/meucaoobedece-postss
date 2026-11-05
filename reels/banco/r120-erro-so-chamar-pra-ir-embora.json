@@ -1,0 +1,72 @@
+{
+ "id": "r120-erro-so-chamar-pra-ir-embora",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "chamado",
+ "legenda": "Você só chama seu cão pra ir embora? Pra ele, vem aqui pode virar fim da festa 🏃\n\n🐾 Chame várias vezes no passeio\n🐾 Petisco quando ele vier\n🐾 Solte de novo pra brincar\n\nO seu vem de primeira? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#vemaqui #meucaoobedece #chamadocanino #dicasdecachorro #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de chamar seu cão só na hora de ir embora.",
+   "linhas": [
+    "PARE DE CHAMAR",
+    "SÓ PRA IR EMBORA"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Se vem aqui sempre termina com a guia, ele aprende: quando chamam, a festa acaba.",
+   "linhas": [
+    "VEM AQUI =",
+    "ACABOU A FESTA"
+   ],
+   "destaque": 1,
+   "icone": "guia",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Faça diferente: chame várias vezes no passeio, dê um petisco e solte de novo.",
+   "linhas": [
+    "CHAMA, PETISCO,",
+    "SOLTA DE NOVO"
+   ],
+   "destaque": 1,
+   "icone": "osso",
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Assim, a última chamada fica igual a todas as outras.",
+   "linhas": [
+    "A ÚLTIMA CHAMADA",
+    "FICA IGUAL"
+   ],
+   "destaque": 1,
+   "icone": "check",
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

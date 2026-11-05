@@ -1,0 +1,74 @@
+{
+ "id": "r122-obj-xixi-por-vinganca",
+ "formato": "objecao",
+ "gancho_tipo": "objecao",
+ "tema": "xixi",
+ "legenda": "Seu cão faz xixi por vingança? Essa ideia atrapalha mais do que ajuda 💦\n\n🐾 Observe os horários\n🐾 Leve depois de comer e de acordar\n🐾 Limpe sem plateia\n\nJá achou que era vingança? Comenta 1 pra sim, 2 pra não 👇\n\nSe o xixi mudou do nada, converse com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#xixinolugarcerto #meucaoobedece #tapetehigienico #dicasdecachorro #apartamento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Ele fez xixi só porque você saiu. Vingança?",
+   "linhas": [
+    "ELE FAZ XIXI",
+    "POR VINGANÇA?"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "objecao",
+   "objecao": "Ele faz xixi por vingança",
+   "resposta": "NÃO É BEM ISSO",
+   "resposta_palavra": "isso",
+   "explica": [
+    "Vingança é plano de gente",
+    "Olhe a rotina dele"
+   ],
+   "resposta_cor": "teal",
+   "fala": "Não é bem isso. Vingança é plano de gente. O mais útil é olhar a rotina dele.",
+   "tag": "O QUE O TUTOR DIZ"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Anote os horários. E leve ao lugar certo depois de comer e de acordar.",
+   "linhas": [
+    "ANOTE OS HORÁRIOS",
+    "LEVE NA HORA CERTA"
+   ],
+   "destaque": 1,
+   "icone": "relogio",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Errou? Limpe sem plateia. Acertou? Festa e petisco na hora.",
+   "linhas": [
+    "ERROU: LIMPE",
+    "ACERTOU: FESTA"
+   ],
+   "destaque": 1,
+   "icone": "check",
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

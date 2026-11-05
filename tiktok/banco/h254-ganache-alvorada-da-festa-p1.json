@@ -1,0 +1,152 @@
+{
+ "id": "h254-ganache-alvorada-da-festa-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "PARTE 1: cinco da manhã, primeiro rojão da festa da cidade. A Ganache sumiu, e ainda faltavam 9 dias 🎆 No fim da tarde, quem bateu na porta foi o homem que solta os rojões.\nO que ele queria? Comenta 1, 2 ou 3 e segue pra ver a Parte 2 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #cachorroassustado #adestramentocanino #historiadecachorro",
+ "serie": "ganache-alvorada-da-festa",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Cinco da manhã. Rojão. E ainda faltavam nove dias de festa.",
+   "linhas": [
+    "PARTE 1",
+    "5H DA MANHÃ: ROJÃO",
+    "FALTAM 9 DIAS"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "sino",
+   "parte": 1
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "05:00",
+   "fala": "Alvorada da festa da cidade. O primeiro rojão acordou a rua, e a Ganache sumiu.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 780,
+    "acao": "corre"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Ganache?!",
+     "grito": true
+    }
+   ],
+   "relogio": "05:00"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "05:04",
+   "fala": "A Zenaide achou ela atrás do tanque, tremendo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 620
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Rua das Acácias",
+   "membros": "38 participantes",
+   "quando": "07:30",
+   "fala": "De manhã, o grupo da rua mandou o programa.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Alvorada às cinco, todo dia, até domingo!"
+    },
+    {
+     "quem": "carla",
+     "texto": "Nove dias?!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "joao": "Ubiratan (12)",
+    "carla": "Zenaide"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:00",
+   "fala": "No fim da tarde, a campainha. Era o Seu Belmiro, o homem que solta os rojões.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "A senhora é a dona da cachorra?"
+    }
+   ],
+   "campainha": 0,
+   "camera": {
+    "foco": "vizinho",
+    "z": 1.4,
+    "em": 0.6
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O que ele queria? Comenta um, dois ou três. A Parte 2 vem aí. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que ele queria?",
+   "opcoes": [
+    "1 reclamar",
+    "2 ajudar",
+    "3 se desculpar"
+   ],
+   "escolha": 0,
+   "resultado": "VEM A PARTE 2",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

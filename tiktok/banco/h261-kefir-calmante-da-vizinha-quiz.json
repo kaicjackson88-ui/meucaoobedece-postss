@@ -1,0 +1,145 @@
+{
+ "id": "h261-kefir-calmante-da-vizinha-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "Primeiro rojão do mês. A vizinha estendeu o calmante DELA pro Kefir 💊 O que você faria? 1 dá metade, 2 pergunta ao veterinário, 3 dá inteiro.\nComenta antes de ver a resposta 👇\nRemédio pra cão, só com orientação do veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #condominio #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A vizinha ofereceu o calmante dela pro seu cão. O que você faria?",
+   "linhas": [
+    "A VIZINHA OFERECEU",
+    "O CALMANTE DELA",
+    "E AGORA?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "escudo"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "22:10",
+   "fala": "Primeiro rojão do mês. O Kefir grudou na perna do Ademar, tremendo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 620
+   },
+   "relogio": "22:10"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "22:15",
+   "fala": "Dona Filomena apareceu com a solução na mão.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Dá meio comprimido do meu. Comigo funciona."
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: dá metade. Dois: pergunta ao veterinário. Três: dá inteiro. Comenta antes da resposta!",
+   "topo": [
+    "1 DÁ METADE",
+    "2 PERGUNTA AO VET",
+    "3 DÁ INTEIRO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "22:20",
+   "fala": "É a dois. O Ademar ligou pra clínica.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "normal",
+     "pose": "explica",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Remédio de gente pode fazer mal ao cão. Nunca por conta própria."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DIAS DEPOIS",
+   "fala": "Consulta marcada bem antes do Réveillon. Até lá: cantinho pronto, janela fechada e rádio baixinho.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 760,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual você escolheu? Comenta o número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você escolheu?",
+   "opcoes": [
+    "1 metade",
+    "2 veterinário",
+    "3 inteiro"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

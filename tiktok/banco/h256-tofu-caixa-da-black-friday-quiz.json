@@ -1,0 +1,150 @@
+{
+ "id": "h256-tofu-caixa-da-black-friday-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A caixa da Black Friday chegou, e o Tofu levantou a perna bem em cima dela 📦 O que você faria? 1 esfrega o focinho, 2 limpa e retoma a rotina, 3 deixa o cheiro.\nComenta o número antes de ver a resposta 👇\nSe o xixi mudou do nada, converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #apartamento #blackfriday #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Ele fez xixi na caixa nova. O que você faria?",
+   "linhas": [
+    "XIXI NA CAIXA NOVA",
+    "O QUE VOCÊ",
+    "FARIA?"
+   ],
+   "destaque": 2,
+   "mascote": "bravo",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:10",
+   "fala": "A caixa da Black Friday chegou. O Gumercindo deixou no chão e foi buscar a tesoura.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "parado"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "18:12",
+   "fala": "Voltou, e o Tofu estava de perna levantada.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760
+   },
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Tofu! A caixa!",
+     "grito": true
+    }
+   ],
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 700,
+     "y": 1450,
+     "em": 0.4
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: esfrega o focinho. Dois: limpa e retoma a rotina. Três: deixa o cheiro. Comenta antes da resposta!",
+   "topo": [
+    "1 ESFREGA O FOCINHO",
+    "2 LIMPA E RETOMA",
+    "3 DEIXA O CHEIRO"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:13",
+   "fala": "É a dois. Quem falou foi o entregador, ainda na porta.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Caixa vem cheia de cheiro de rua. Bronca não apaga isso."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "18:30",
+   "fala": "Limpador sem amônia, caixa no alto e saída depois de comer e de acordar.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual você escolheu? Comenta o número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você escolheu?",
+   "opcoes": [
+    "1 focinho",
+    "2 limpa",
+    "3 cheiro"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
