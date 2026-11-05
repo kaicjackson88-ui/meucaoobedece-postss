@@ -1,1 +1,1 @@
-2026-11-04T23:56:53.693267-03:00 h230-quibe-churrasco-do-salao: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611051056536AD0864B93DD9736A87D"}}
+2026-11-05T07:23:18.768669-03:00 h228-mucarela-entrevista-online-p2: TikTok respondeu 400: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611051823184D5B851891F74F5D1A25"}}
