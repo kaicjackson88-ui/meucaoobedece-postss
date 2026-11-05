@@ -1,25 +1,13 @@
-Aguardando o horário 14:00 (118 min)...
-Roteiro: h046-cuscuz-capacho-do-vizinho-p2 (tiktok-historia, estilo sol) — horário 2026-11-05 14:00
-Narração...
-  voz Google: modelos ['gemini-2.5-flash-preview-tts', 'gemini-2.5-pro-preview-tts', 'gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts']
-voz do Google indisponível, tentando a da Microsoft: voz Google sem cota agora: gemini-2.5-flash-preview-tts: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceede
-voz da Microsoft indisponível, usando a voz reserva: 403, message='Invalid response status', url='wss://speech.pl
-[0;93m2026-11-05 17:00:58.010803070 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-  história: o mesmo cão real (f5773397) em todas as cenas, 1 quadro(s)
-Render...
-  frame 0/1250
-  frame 300/1250
-  frame 600/1250
-  frame 900/1250
-  frame 1200/1250
-Áudio...
-Preparing worktree (detached HEAD 1cc5241)
-HEAD is now at 1cc5241 Carrossel publicado
-Switched to a new branch 'tmp-20261105-1404-h046-cuscuz-capacho-do-vizinho-p2'
+Aguardando o horário 19:00 (115 min)...
+  cão real "bravo" falhou (HTTP Error 429: Too Many Requests); fica o mascote
+  cão real "feliz" pronto
+  cão real "normal" pronto
+  cão real "dorminhoco" pronto
+  cão real "lendario" pronto
+Preparing worktree (detached HEAD 4fec806)
+HEAD is now at 4fec806 Reels publicado
+Switched to a new branch 'tmp-midia-20261105-1900-c-xixi'
 remote: 
-remote: Create a pull request for 'midia-20261105-1404-h046-cuscuz-capacho-do-vizinho-p2' on GitHub by visiting:        
-remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261105-1404-h046-cuscuz-capacho-do-vizinho-p2        
+remote: Create a pull request for 'midia-20261105-1900-c-xixi' on GitHub by visiting:        
+remote:      https://github.com/kaicjackson88-ui/meucaoobedece-postss/pull/new/midia-20261105-1900-c-xixi        
 remote: 
