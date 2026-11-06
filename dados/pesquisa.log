@@ -5,7 +5,9 @@ Conta: @meu_cao_obedece (página Meu cão obedece)
   referência falhou comandocanino Erro da Meta em 17841474456587008: (#10) Application does not have permission for this action (código 10)
   referência falhou petlinie Erro da Meta em 17841474456587008: (#10) Application does not have permission for this action (código 10)
   referência falhou felipe.dermatovet Erro da Meta em 17841474456587008: (#10) Application does not have permission for this action (código 10)
-dores em alta: {'campainha': 0, 'xixi': 0, 'visita': 0, 'guia': 1, 'sozinho': 10, 'chamado': 1, 'mesa': 2}
+  referência falhou metrópoles Erro da Meta em 17841474456587008: (#10) Application does not have permission for this action (código 10)
+  referência falhou estadão Erro da Meta em 17841474456587008: (#10) Application does not have permission for this action (código 10)
+dores em alta: {'campainha': 0, 'xixi': 0, 'visita': 0, 'guia': 1, 'sozinho': 8, 'chamado': 2, 'mesa': 1}
   IA: modelos disponíveis: gemini-3.8-flash, gemini-flash-latest, gemini-flash-lite-latest, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3.5-flash-lite, gemini-3.1-flash-lite
   IA: gemini-3.8-flash: 429 {
   "error": {
@@ -132,74 +134,34 @@ pesquisa na internet falhou: IA gratuita falhou: gemini-3.1-flash-lite: 429 {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
     "stat
-  IA: gemini-3.8-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
+análise da IA falhou: Expecting ',' delimiter: line 96 column 4 (char 3966)
+# Pesquisa automática (06/11 04:14)
 
-  IA: gemini-3.8-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-  IA: gemini-3.8-flash: The read operation timed out
-  IA: gemini-flash-latest: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-  IA: gemini-flash-latest: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-  IA: gemini-flash-latest: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-
-# Pesquisa automática (03/11 04:24)
-
-Fontes: Instagram (6 perfis consultados), 40 manchetes, 0 Shorts.
+Fontes: Instagram (8 perfis consultados), 40 manchetes, 0 Shorts.
 
 ## Resumo
-Os dados indicam que histórias focadas em problemas de convivência urbana, como xixi no lugar errado e latidos em apartamento, geram os melhores resultados de engajamento. Deve-se evitar conteúdos sobre cães na cama e roer móveis, priorizando ganchos rápidos e formato animado.
+(sem análise da IA hoje)
 
 ## O que testar esta semana
-- **Cachorro que late no portão com barulho de interfone** (Latido excessivo e estresse com visitas ou entregadores, História animada 2D com diálogo entre tutor e cão, revelando que ninguém ensinou o cão a lidar com o estímulo): "Meu cachorro parecia um alarme de incêndio toda vez que o entregador tocava o interfone..." — O tema latido e contextos de apartamento possuem alta afinidade com o público e pesos positivos nos dados internos.
-- **Xixi fora do lugar após mudança de rotina** (Erros frequentes no local correto de xixi, História animada 2D focada em vergonha do tutor e solução rápida em 15 minutos por dia): "Eu limpo a casa inteira e, do nada, o tapete da sala vira banheiro..." — O tema xixi apresenta os melhores pesos de conversão e engajamento histórico no perfil.
-- **Comer grama e passar mal de repente** (Hábitos alimentares estranhos e vômitos recorrentes, História animada 2D abordando a curiosidade validada em manchetes recentes sobre o comportamento canino): "Meu cão resolveu virar uma cabrinha no passeio e o resultado foi trágico no carpete..." — Alinha notícias de grande repercussão sobre saúde pet com o formato de narrativa bem-sucedido.
-- **Fuga ou pânico com barulhos de fogos e festas** (Medo extremo de barulhos altos e tentativa de fuga, História animada 2D demonstrando a virada de chave para dessensibilização com reforço adequado): "Veio o primeiro rojão e meu cachorro tentou se esconder dentro do armário da cozinha..." — O peso para temas de medo e barulhos intensos é extremamente alto nos dados de performance.
-- **Cachorro que rouba comida da mesa no churrasco** (Falta de limites na hora das refeições em família, História animada 2D cômica com resolução comportamental simples): "Bateu a carne na grelha e meu cão virou um acrobata profissional para roubar a picanha..." — Associa tags de alto desempenho como #churrasco com situações cotidianas relatadas pelos tutores.
 
 ## Hashtags recomendadas por tema
-- latido: #latidoexcessivo #cachorrolatindo #apartamento #condominio #comportamentocanino #educacaocanina
-- xixi: #xixinolugarcerto #tapetehigienico #adestramentocanino #cachorrolimpo #educacaocanina #comportamentocanino
-- pulo: #cachorropulando #comportamentocanino #educacaocanina #adestramentocanino #cachorroagitado #rotinapet
-- guia: #puxarguia #passeiocomcachorro #adestramentocanino #comportamentocanino #cachorro #passeio
-- ansiedade: #cachorroansioso #cachorrogrudento #comportamentocanino #adestramentocanino #rotinapet #educacaocanina
-- chamado: #voltanaquisição #adestramentocanino #comportamentocanino #cachorro #educacaocanina #rotinapet
-- comida: #cachorrocomendo #comportamentocanino #educacaocanina #adestramentocanino #churrasco #petiscos
 
 ## Estilo de legenda que está funcionando
-- Usar frases curtas e diretas que geram identificação imediata com o problema do tutor.
-- Incluir uma chamada para o quiz interativo no final de cada postagem.
-- Manter linguagem informal, leve e focada em soluções práticas de 15 minutos por dia.
-- O cão também comete erros, ninguém nasceu sabendo!
-- Seu pet faz isso em casa? Responda nos comentários.
 
+## Datas e temas do momento
+
+## Evitar
+
+## Posts que viralizaram nos perfis de referência
+- (adicione perfis em referencias_ig no reels/config.json)
+
+## Fontes
+- Idade de cachorro: como estimar e cuidar em cada fase da vida - Quero Bolsa — https://news.google.com/rss/articles/CBMiYEFVX3lxTE05ZGNDbTRwcTItOTlPeFF4SGJRRUlSNUx2MkZDV2lack9sVmU0eXBNVkQxMjlLV3pnckx0ZEFRNk96WEREZmZSbWw3WkVSbVJ4LTFzNkZsSzg3MFo4WktLMg?oc=5
+- Cachorro come grama e depois vomita: os veterinários explicam por que o hábito é mais normal do que parece - Jornal do Brasil — https://news.google.com/rss/articles/CBMingFBVV95cUxOVGhTeXJodVpDSXhJeXF3d0NwYzRJMm9VNzlLZFFiUjVzclM3OHpybUlwRGFZQm0xelJ3dVQ1a1QxUnFJX2duMHRjd3Y2eDRpV1hKV3Bla05OUXBHMU9nNWp5VGQ3ZUpRd0dQT3daTXd3UGFaOWYtZEZqR2FkTHlqS0pNQVNwdFVLZWtuem1CZUdLV21udHlkTEV2U1NNUQ?oc=5
+- Seu cachorro não para de latir no portão? Veterinário explica o que fazer - Metrópoles — https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeFRoLVgyMHVfOGZhVTRLOEc3dFpvYnV1eFNlNTlsaWJTNXZjZnBqQ3VhZEwtb1A2ZlgyblFwTk9GQ3BzbG1TcHdDTzhERjRvX2syVVZZNkVYNVZHcGZyM0lYSnkxdU5qbGlaRlc1eUxGMWdNUkxIckoxQzMxdjBPMUtVb0dMd3RENmhGVXpwVE1fN2Rmc240cXlqQUxYRlVNUzNCX0x3Zy12YnRNeFBtOThnb1BkbTNC?oc=5
+- Dormir com cachorro na cama faz mal? Estudo revela descoberta inesperada sobre o sono de quem vive com pets - NSC Total — https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNldfNXVmM0ZJM2ZjNHNKcU5vZW9WcmtHV0d2NDNRM3QtZXNNVlRfSy16RF9UOVYzS3VtbkZXOVBva21nN2ZfWUVhY3NaeHJIS2tOWGxtU1ZsSVlMMzdralV6aDlFSXc5Q1F4UWRpcklRUnVyVzAxelhnUFR6NUIwdE1lLTd0aG10dk1wRjZYWUE4TkliN2xYMWt6dkRPUTFfalM1dFduNFloWVJDRlNCTVdUbjhLV0Fkb1ZSVWFCMktmMEZKd3FHaUExa29UY3IyOXlPb3lNVF96WTVCSkJCWnRn?oc=5
+- Cachorro rasga sofá, rói chinelos e se agita quando vê o tutor se arrumar: o 'Encantador de Cães' César Millán recomenda passeios, mas nem toda destruição é ansiedade - Tribuna de Jundiaí — https://news.google.com/rss/articles/CBMiswJBVV95cUxNSDNBMDFOXzBNbkVfUjVycnQ1emdaM0Z3WnUxUmJfZXVpSGJlak1FQnMzelhzbmZ4LU1NU3QySFZqdFQzbGRmSW83Vy1YYVQxY21YR0tGdlZmZDZ2NG1xVDJZdU5tMjBacXZWYTlBMWw2cGQ2V3lad0paVTc4b0FNbW9vOWFaMVhKQ1JtWEZEdHAyV0dtN0FNclpUeEhuWFJHNVFoOFlWaDZSdm9uSGFKajdHbGRNcUw4NFBuMGlIMENTNklPekc3T2E5VkE2R3J2cDRkUndpdG83WG9jUXNpOEZCaTZscWE5TXVVYzNlbmtCM2xwRUhLbGJVRTVoUmlmdmFXQU42bksxQ0NCaktZQkEweXhfLVRvUzR5bHVOOHRjalhENFIwMjdfRE1GUjZLbklz?oc=5
+- De lama a piscina: novo espaço de diversão para cães oferece atividades voltadas aos comportamentos naturais - Estadão — https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVW9DS0hGSG13U3pHMkc1QnZpQzlHLVZlZW1faTgweXpCdTlYTGNkcEhrTVJaTTlBN3NEUjR0emFkNGVfa3k4WDctQ2ZpVHF1TnNaUkZWcVE2Q194Yno5YTVuZXhjYTFFOVdvMGt0UGt6TlpxN3lrNUM3WXNvYlgwdGpkYm8wREZaYWpUZHlscTBvSVBWYkZzNlZhRUo2akJGRWZsT1VCVnExcWhETkZBT1hEZHdEVTR3aUxpMWU5QUQtdE83aS0wVmI3OThOaHBodTU4MTBCUkxxN19scGR0cUF6bFl1c3FjNEhBeGVSazVMdTlJ0gH6AUFVX3lxTFBVX3FPNnZkOFJ5dV9aSExxRU5QUGxTWUIzNl9YY2xYcWl5WGVjak95aGM4TjBFREJmOFAzckpfSU5jdi1MUHVFdGdyekJRZHhPX2FHdlJWa1dDWk9nOUwwcGtrZ1hWZkVmQ2RpWjNkVVdFSElJYTFxYWVtN3VUd1kyejJUVGdfOFVtZi11dExRQ1QtQnctSndhakhNcTJibGZuUUVKaHZoVXBFR2JiS3A5a2NibEVLdE9uVkdRN2wtN2tIYk9PWE1xcVBvVmtsY2NXMFhNWTBJb1l4ZUhFd09MSml0eHdkcnFzQ3NFNU56cWRjV0xjZTlrQ1E?oc=5
+- 'Cara de culpado' dos cachorros pode dizer mais sobre você do que sobre eles, indica estudo - CNN Brasil — https://news.google.com/rss/articles/CBMiywFBVV95cUxNakxsb3FDUHB0anFrdnZuVnp3TmEwaWF1V2lidGU5WkJqaDIxM3VHZUhHamdtR3U5V0s4Ukp5LVlMemxlODRfek01aUNkNUMwdWRCRDRsTTRoczllVnVINE12NGh5U2NiRUFoRFM1UDVIWklsZGVJSGt1NkZmeVctRG53WTBZLU9aN1NKMGFmM2c5TFF1LUFNalJrZ09OeGlybjROMkU5WjNlczk0bG50V244Vk9WUjBUNVN3NzlPcW5BMUpsTkUtSkM2RQ?oc=5
+- Pesquisadores analisaram cães que inclinam a cabeça ao ouvir o tutor e encontraram uma possível relação com palavras conhecidas - Correio Braziliense — https://news.google.com/rss/articles/CBMiogFBVV95cUxNTUo3VUZTMDlZek5oSHRkb1BqYlZEZDJaeVFKVTJJYVRqTGZwd3Z5NVhZTTJCbEczVC1pWUF1NkhEZTBEalE3c0xrRHZSa1FkT2hfa2JsaWFvT0dlZW54czJpdGtiYnVoTldQdGJzRTN5am92T2tOb1hpb0F4SVJvSUJYclBJZFpjVTViVzVUeXhzVDBjQWdyREZadDgtOWFyNVE?oc=5
+- Estágio capacita militares para o adestramento de cães de guerra - Exército Brasileiro — https://news.google.com/rss/articles/CBMipAFBVV95cUxOblJuTmh0SWNJMkcwRDVqclAyaHdtRVE0blZYeU9KLWkzWXhRYnZvdm85eDRRSGZUV3B5WEFFVXJiN0ZPQUNTckNOMXZuRTBhMk5aNENneUI0NmlnVzYtTFNyaTlFRmlpamRjVmVoaWVrWndpNk1qLW84SmlCOE1GVXdMT0NQM3FvNGxjUzRHQnIyZ2RyU1pBOTRqajVWUHJYU1JUdw?oc=5
