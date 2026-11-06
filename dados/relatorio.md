@@ -1,5 +1,5 @@
 # Relatório de desempenho
-Atualizado em 05/11/2026 06:48 (Brasília)
+Atualizado em 06/11/2026 06:49 (Brasília)
 
 | Post | Tipo | Formato | Alcance | Views | Curtidas | Coment. | Compart. | Salvos | Pontos |
 |---|---|---|---|---|---|---|---|---|---|
