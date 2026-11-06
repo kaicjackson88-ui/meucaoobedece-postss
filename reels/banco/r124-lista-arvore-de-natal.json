@@ -1,0 +1,66 @@
+{
+ "id": "r124-lista-arvore-de-natal",
+ "formato": "lista",
+ "gancho_tipo": "numero",
+ "tema": "obediencia",
+ "legenda": "Montou a árvore de Natal? Seu cão já reparou 🎄\n\n🐾 Enfeite frágil lá no alto\n🐾 Fios fora do caminho\n🐾 Premie quando ele passa direto\n\nSeu cão respeita a árvore? Comenta 1 pra sim, 2 pra não 👇\n\nEngoliu algo? Fale com o veterinário.\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#cachorroemcasa #meucaoobedece #natal #dicasdecachorro #apartamento",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Três cuidados pra árvore de Natal não virar brinquedo do seu cão.",
+   "linhas": [
+    "ÁRVORE DE NATAL",
+    "NÃO É BRINQUEDO"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "alvo"
+  },
+  {
+   "tipo": "dica",
+   "n": 1,
+   "total": 3,
+   "fala": "Um: deixe enfeites frágeis e comestíveis lá no alto, longe do focinho.",
+   "titulo": "Enfeite no alto",
+   "sub": "longe do focinho",
+   "icone": "focinho"
+  },
+  {
+   "tipo": "dica",
+   "n": 2,
+   "total": 3,
+   "fala": "Dois: prenda os fios e tire do caminho. Fio solto parece brinquedo.",
+   "titulo": "Fios presos",
+   "sub": "fora do caminho",
+   "icone": "x"
+  },
+  {
+   "tipo": "dica",
+   "n": 3,
+   "total": 3,
+   "fala": "Três: quando ele passar pela árvore sem mexer, dê um petisco. Ele aprende que ignorar vale a pena.",
+   "titulo": "Passou direto?",
+   "sub": "petisco na hora",
+   "icone": "osso"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

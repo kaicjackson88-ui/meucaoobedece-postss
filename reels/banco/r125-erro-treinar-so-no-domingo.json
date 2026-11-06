@@ -1,0 +1,72 @@
+{
+ "id": "r125-erro-treinar-so-no-domingo",
+ "formato": "erro",
+ "gancho_tipo": "erro",
+ "tema": "obediencia",
+ "legenda": "Uma hora de treino no domingo não substitui um pouquinho por dia 🐾\n\n🐾 Sessão curta\n🐾 Todo dia\n🐾 Termine antes dele cansar\n\nVocê treina quando? Comenta 1 todo dia, 2 fim de semana, 3 quando lembro 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#adestramento #meucaoobedece #adestramentocanino #dicasdecachorro #obediencia",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de treinar seu cão uma hora só no domingo.",
+   "linhas": [
+    "PARE DE TREINAR",
+    "SÓ NO DOMINGO"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "calendario"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Sessão longa cansa vocês dois. Lá pelo meio, ele já desligou e você já ficou nervoso.",
+   "linhas": [
+    "SESSÃO LONGA",
+    "CANSA OS DOIS"
+   ],
+   "destaque": 1,
+   "icone": "relogio",
+   "mascote": "normal"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Faça diferente: sessões curtas todo dia, num horário que caiba na sua rotina.",
+   "linhas": [
+    "CURTO",
+    "E TODO DIA"
+   ],
+   "destaque": 1,
+   "icone": "calendario",
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "texto",
+   "fala": "E termine enquanto ele ainda quer mais, com um acerto fácil e festa.",
+   "linhas": [
+    "TERMINE",
+    "COM UM ACERTO"
+   ],
+   "destaque": 1,
+   "icone": "check",
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

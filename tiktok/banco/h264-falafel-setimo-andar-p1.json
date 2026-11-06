@@ -1,0 +1,140 @@
+{
+ "id": "h264-falafel-setimo-andar-p1",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "PARTE 1: você decide 🎆 Faltam 8 semanas, primeiro rojão, e o Falafel se enfiou debaixo da pia. A ou B?\nComenta antes da Parte 2 👇\nA campainha tocou, e quem estava na porta tinha opinião.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #condominio #historiadecachorro",
+ "serie": "falafel-setimo-andar",
+ "parte": 1,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte um. Você decide. Sétimo andar, primeiro rojão, e cadê o Falafel?",
+   "linhas": [
+    "PARTE 1: VOCÊ DECIDE",
+    "7º ANDAR, 1º ROJÃO",
+    "CADÊ O FALAFEL?"
+   ],
+   "destaque": 2,
+   "mascote": "normal",
+   "icone": "sino",
+   "parte": 1
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "21:40",
+   "fala": "Faltam oito semanas pro Réveillon. O prédio da frente resolveu testar um rojão.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "relogio": "21:40"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Torre B",
+   "membros": "52 participantes",
+   "quando": "21:42",
+   "fala": "Você procura o Falafel, e o grupo do prédio já opina.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Puxa de onde ele estiver e dá uma bronca."
+    },
+    {
+     "quem": "sindica",
+     "texto": "Fecha tudo e fica perto dele."
+    }
+   ],
+   "nomes": {
+    "pedro": "Telmo (703)",
+    "sindica": "Olinda (101)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "21:44",
+   "fala": "Você acha ele debaixo da pia, tremendo. Outro rojão.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 620,
+    "acao": null
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "A: você puxa e dá bronca. B: fecha tudo e fica por perto. Comenta agora!",
+   "topo": [
+    "A: PUXA E DÁ BRONCA",
+    "B: FECHA E FICA PERTO"
+   ],
+   "de": "A OU B?",
+   "para": "COMENTA!",
+   "para_palavra": "Comenta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "21:46",
+   "fala": "E aí, a campainha. Era a veterinária do oitavo andar.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "preocupado",
+     "pose": "aponta"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Segue pra ver a Parte dois. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "A ou B?",
+   "opcoes": [
+    "1 votei A",
+    "2 votei B",
+    "3 tô na dúvida"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,152 @@
+{
+ "id": "h267-paprica-portao-da-garagem",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "grupo",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Desculpa, Seu Agenor. Eu achei que era só um latidinho 🫣 O grupo do prédio esquentou, e foi ele quem descobriu a hora exata de cada latido.\nSeu vizinho já reclamou? Comenta 1 pra sim, 2 pra não, 3 pra nem me cumprimenta mais 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #latidoexcessivo #apartamento #cachorrolatindo #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Desculpa, Seu Agenor. Achei que era só um latidinho.",
+   "linhas": [
+    "DESCULPA, SEU AGENOR",
+    "ERA SÓ",
+    "UM LATIDINHO"
+   ],
+   "destaque": 2,
+   "mascote": "bravo",
+   "icone": "megafone"
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Ipê",
+   "membros": "36 participantes",
+   "quando": "19:02",
+   "fala": "Começou educado.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Boa noite. Alguém do térreo tem cachorro?"
+    },
+    {
+     "quem": "carla",
+     "texto": "A Páprica! Mas só late um pouquinho.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "vizinho": "Agenor (101)",
+    "carla": "Dirce (102)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Ipê",
+   "membros": "36 participantes",
+   "quando": "19:05",
+   "fala": "Aí veio o áudio.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Áudio: quarenta segundos de AU AU AU"
+    },
+    {
+     "quem": "sindica",
+     "texto": "Ouvi do quinto."
+    }
+   ],
+   "nomes": {
+    "vizinho": "Agenor (101)",
+    "sindica": "Lourdes (501)",
+    "joao": "Beto (302)"
+   }
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Edifício Ipê",
+   "membros": "36 participantes",
+   "quando": "19:09",
+   "fala": "E ele anotou os horários.",
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "6h10. 7h30. 18h40. Sempre que o portão da garagem abre."
+    },
+    {
+     "quem": "carla",
+     "texto": "O PORTÃO?!",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "vizinho": "Agenor (101)",
+    "carla": "Dirce (102)"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "20:00",
+   "fala": "A Dirce desceu com bolo. Ele já tinha gravado o portão.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "celular"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "vergonha",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Toca bem baixinho e dá petisco. Um pouco todo dia."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "NA OUTRA SEMANA",
+   "fala": "Agora o portão toca baixinho, e a Páprica olha pro petisco.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Seu vizinho já reclamou? Comenta um pra sim. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Seu vizinho já reclamou?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 nem fala mais"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

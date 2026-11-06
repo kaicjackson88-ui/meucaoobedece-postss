@@ -1,0 +1,145 @@
+{
+ "id": "h271-strudel-ceu-quebrado",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "O Strudel tem certeza: o céu quebrou, e só ele percebeu 🎆 Quem entendeu o recado foi o vizinho, que já passou por isso.\nOnde o seu se esconde? Comenta 1 debaixo da mesa, 2 banheiro, 3 no seu colo 👇\nMedo intenso? Converse com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Strudel. E hoje, o céu quebrou.",
+   "linhas": [
+    "O CÉU QUEBROU",
+    "E SÓ EU",
+    "PERCEBI"
+   ],
+   "destaque": 0,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "noite",
+   "quando": "22:10",
+   "fala": "Estourou lá em cima. A Zilda olhou pela janela e achou lindo. Lindo?",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "acena"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   },
+   "relogio": "22:10",
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Olha que lindo!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "22:11",
+   "fala": "Fui morar atrás da lixeira. Decisão séria. Ela tentou me puxar de lá.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "22:20",
+   "fala": "Aí chegou o Seu Romeu, que tem cão velho.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Deixa ele lá. Fecha a janela, põe um som baixinho e fica por perto."
+    }
+   ]
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Para muitos especialistas, ficar perto do cão assustado não aumenta o medo.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "FICAR PERTO",
+    "não aumenta o medo"
+   ],
+   "icone": "coracao"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "22:40",
+   "fala": "O céu continuou quebrado, mas longe. A Zilda sentou comigo.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "dorminhoco",
+    "x": 620,
+    "acao": "dorme"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu? Um mesa, dois banheiro, três colo. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Onde o seu se esconde?",
+   "opcoes": [
+    "1 mesa",
+    "2 banheiro",
+    "3 colo"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

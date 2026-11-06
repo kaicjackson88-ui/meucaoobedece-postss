@@ -1,0 +1,150 @@
+{
+ "id": "h268-cereja-elevador-com-golias-quiz",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "quiz",
+ "gancho_tipo": "historia",
+ "tema": "guia",
+ "estilo": "sol",
+ "legenda": "A porta do elevador abriu, e lá dentro estava o Golias, do nono 🛗 A Cereja, de 4 quilos, já se jogou na frente. O que você faria? 1 entra, 2 espera o próximo, 3 pega no colo e entra.\nComenta antes de ver a resposta 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #apartamento #puxarguia #passeiocomcachorro #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A porta do elevador abriu. Tinha um cão enorme lá dentro. O que você faria?",
+   "linhas": [
+    "O ELEVADOR ABRIU",
+    "UM CÃO ENORME DENTRO",
+    "O QUE VOCÊ FARIA?"
+   ],
+   "destaque": 2,
+   "mascote": "normal",
+   "icone": "porta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "07:30",
+   "fala": "Sete e meia. A Cereja já arrastava o Renan até a porta.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "cansado",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 620,
+    "acao": "pula"
+   },
+   "relogio": "07:30"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "07:31",
+   "fala": "Lá dentro, o Golias, do nono. E a Cereja, de quatro quilos, foi pra cima.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 810,
+     "humor": "feliz",
+     "pose": "acena",
+     "dir": -1
+    },
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "guia"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 560,
+    "acao": "late"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "Cabe todo mundo, pode entrar!"
+    }
+   ]
+  },
+  {
+   "tipo": "virada",
+   "fala": "Um: entra. Dois: espera o próximo. Três: colo e entra. Comenta antes da resposta!",
+   "topo": [
+    "1 ENTRA",
+    "2 ESPERA O PRÓXIMO",
+    "3 COLO E ENTRA"
+   ],
+   "de": "1, 2 OU 3?",
+   "para": "COMENTA!",
+   "para_palavra": "resposta"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "07:40",
+   "fala": "É a dois. Quem explicou foi o porteiro.",
+   "elenco": [
+    {
+     "quem": "pedro",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "Elevador é caixa fechada. Se um se assusta, ninguém tem pra onde ir."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "18:00",
+   "fala": "Agora tem ensaio: a porta abre, ela senta e ganha petisco.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 620,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual você escolheu? Comenta o número. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual você escolheu?",
+   "opcoes": [
+    "1 entra",
+    "2 espera",
+    "3 colo"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

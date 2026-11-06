@@ -1,0 +1,76 @@
+{
+ "id": "r123-mito-cara-de-culpa",
+ "formato": "mito",
+ "gancho_tipo": "negacao",
+ "tema": "obediencia",
+ "legenda": "Aquela cara de culpa pode estar enganando você 👀\n\n🐾 Ela aparece muito com a bronca\n🐾 Bronca atrasada não ensina\n🐾 Mude o ambiente e treine o certo\n\nO seu faz essa cara? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#comportamentocanino #meucaoobedece #linguagemcanina #dicasdecachorro #adestramentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Pare de achar que aquela cara é culpa.",
+   "linhas": [
+    "PARE DE ACHAR",
+    "QUE É CULPA"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "mito",
+   "frase": "Cara de culpa é arrependimento",
+   "veredito": "MITO",
+   "veredito_palavra": "Mito",
+   "explica": [
+    "Aparece muito com a bronca",
+    "Mesmo sem ele ter feito nada"
+   ],
+   "icone": "cerebro",
+   "tag": "MITO OU VERDADE",
+   "fala": "Cara de culpa é arrependimento? Mito. Em estudo com cães, ela apareceu mais com a bronca, mesmo sem o cão ter feito nada."
+  },
+  {
+   "tipo": "mito",
+   "frase": "Bronca depois resolve",
+   "veredito": "MITO",
+   "veredito_palavra": "Mito",
+   "explica": [
+    "Ele não liga com o que fez",
+    "Só vê você brava"
+   ],
+   "icone": "x",
+   "tag": "MITO OU VERDADE",
+   "fala": "Bronca depois resolve? Mito. Horas depois, ele pode só ver alguém bravo chegando."
+  },
+  {
+   "tipo": "texto",
+   "fala": "Melhor mudar o ambiente: tire a tentação do alcance e premie o que você quer ver.",
+   "linhas": [
+    "TIRE A TENTAÇÃO",
+    "PREMIE O CERTO"
+   ],
+   "destaque": 1,
+   "icone": "check",
+   "mascote": "feliz"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

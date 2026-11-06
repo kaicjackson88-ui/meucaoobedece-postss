@@ -1,0 +1,156 @@
+{
+ "id": "h263-provolone-queijo-coalho",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "pov_cao",
+ "gancho_tipo": "historia",
+ "tema": "comida",
+ "estilo": "sol",
+ "legenda": "Queijo coalho? Que queijo coalho? 😇 O Provolone jura que estava olhando pra parede, até a sobrinha de nove anos mostrar o vídeo.\nO seu já roubou comida na sua frente? Comenta 1 pra sim, 2 pra não, 3 pra nem vi 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#churrasco #cachorrocomendo #comportamentocanino #educacaocanina #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Eu sou o Provolone. Queijo coalho? Que queijo coalho?",
+   "linhas": [
+    "QUEIJO COALHO?",
+    "QUE QUEIJO COALHO?",
+    "QUEM CONTA É ELE"
+   ],
+   "destaque": 1,
+   "mascote": "feliz",
+   "icone": "osso"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO · 13:20",
+   "fala": "Cinco espetos na bancada. Agora, quatro. Eu? Olhando pra parede.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   },
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Cadê o espeto?!"
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "DOMINGO · 13:22",
+   "fala": "Ela me olhou. Eu abaixei a orelha. Ela chamou isso de confissão.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cintura"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": null
+   },
+   "camera": {
+    "foco": "cao",
+    "z": 1.5,
+    "em": 0.4
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? Em estudo, a cara de culpa apareceu mais com bronca, mesmo sem o cão ter feito nada.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "CARA DE CULPA",
+    "aparece mais com a bronca"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "DOMINGO · 13:40",
+   "fala": "Aí a Lara, de nove anos, mostrou o vídeo. Traidora.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "celular"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "maos_rosto",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Tia, essa bancada fica na altura do nariz dele."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "DOMINGO SEGUINTE",
+   "fala": "Agora a comida fica longe da borda. E no tapetinho cai petisco do céu. Aceito.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 620,
+     "y": 1400
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "O seu já roubou comida? Comenta um pra sim. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O seu já roubou comida?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 nem vi"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,81 @@
+{
+ "id": "r126-curio-por-que-ele-se-sacode",
+ "formato": "curiosidades",
+ "gancho_tipo": "curiosidade",
+ "tema": "curiosidade",
+ "legenda": "Por que seu cão se sacode inteiro depois do banho? 💦\n\n🐾 Tira a água rapidinho\n🐾 Seca o pelo sem toalha\n🐾 Também rola fora do banho\n\nO seu molha a casa toda? Comenta 1 pra sim, 2 pra não 👇\n\n👉 Quer o plano certo pro SEU cão? Comenta XIXI que eu te mando o teste.",
+ "hashtags": "#curiosidadesdecachorro #meucaoobedece #banhodecachorro #dicasdecachorro #comportamentocanino",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Por que seu cão se sacode inteiro depois do banho?",
+   "linhas": [
+    "POR QUE ELE",
+    "SE SACODE TANTO?"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "lampada"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 1,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "numero_palavra": "",
+   "fala": "Primeiro: sacudir tira boa parte da água do pelo em poucos segundos.",
+   "rotulo": [
+    "EM SEGUNDOS",
+    "boa parte da água sai"
+   ],
+   "icone": "lampada"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 2,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "numero_palavra": "",
+   "fala": "Segundo: pelo encharcado pesa e esfria. Secar rápido ajuda o corpo dele.",
+   "rotulo": [
+    "PELO MOLHADO",
+    "pesa e esfria"
+   ],
+   "icone": "pata"
+  },
+  {
+   "tipo": "curiosidade",
+   "n": 3,
+   "numero": null,
+   "prefixo": "",
+   "sufixo": "",
+   "numero_palavra": "",
+   "fala": "Terceiro: muitos cães também se sacodem sem estar molhados, depois de um momento agitado, como se soltassem a tensão.",
+   "rotulo": [
+    "SECO TAMBÉM",
+    "depois de um susto"
+   ],
+   "icone": "cerebro"
+  },
+  {
+   "tipo": "cta_meio",
+   "fala": "Quer aprender a adestrar seu cão em casa, com quinze minutos por dia?",
+   "linhas": [
+    "QUER ADESTRAR",
+    "SEU CÃO EM CASA?"
+   ],
+   "selos": [
+    "15 MIN/DIA",
+    "NO SEU RITMO",
+    "PASSO A PASSO"
+   ]
+  },
+  {
+   "tipo": "cta_final",
+   "fala": "Comenta XIXI, que eu te mando o teste.",
+   "palavra": "XIXI"
+  }
+ ]
+}

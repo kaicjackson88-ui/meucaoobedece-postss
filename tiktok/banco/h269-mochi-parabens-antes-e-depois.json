@@ -1,0 +1,149 @@
+{
+ "id": "h269-mochi-parabens-antes-e-depois",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "antes_depois",
+ "gancho_tipo": "historia",
+ "tema": "latido",
+ "estilo": "sol",
+ "legenda": "Mês passado: o Mochi latiu o parabéns inteiro e o bolo foi pro chão 🎂 Hoje: mesma sala, mesma hora. A ideia veio da aniversariante, de 7 anos.\nO que o seu faria no parabéns? Comenta 1 late, 2 pula, 3 rouba o bolo 👇\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#latidoexcessivo #cachorrolatindo #apartamento #comportamentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Mês passado, o parabéns virou caos.",
+   "linhas": [
+    "PARABÉNS PRA VOCÊ",
+    "MÊS PASSADO: CAOS",
+    "HOJE: OLHA ISSO"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "MÊS PASSADO · 19:00",
+   "fala": "Mês passado. Primeira palma, e o Mochi começou a latir e a pular na mesa.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "bravo",
+    "x": 760,
+    "acao": "late"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "MÊS PASSADO · 19:02",
+   "fala": "O bolo de fubá acabou no chão da cozinha. E a vó ficou sem falar.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bracos_cruzados"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "pula"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "NA SEMANA SEGUINTE",
+   "fala": "A solução veio da aniversariante, de sete anos.",
+   "elenco": [
+    {
+     "quem": "bia",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "carla",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "bia",
+     "texto": "Mãe, e se a gente ensaiar? Palma baixinho e petisco pra ele."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "HOJE · 19:00",
+   "fala": "Hoje, mesma hora. Primeira palma, e o Mochi foi pro tapetinho.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "radiante",
+     "pose": "comemora"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "HOJE · 19:02",
+   "fala": "O bolo inteiro na mesa. E a vó, de novo sem falar.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "surpreso",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Esse é o mesmo cachorro?"
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "E o seu? Um late, dois pula, três rouba o bolo. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "O que o seu faria?",
+   "opcoes": [
+    "1 late",
+    "2 pula",
+    "3 rouba o bolo"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

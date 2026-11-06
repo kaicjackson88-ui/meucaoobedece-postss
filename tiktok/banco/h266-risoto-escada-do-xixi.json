@@ -1,0 +1,142 @@
+{
+ "id": "h266-risoto-escada-do-xixi",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "erros",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "Minha reação a cada xixi do Risoto. No tapete: nada. Na cozinha: grito. Na mala: bronca atrasada 💦 Ele entendeu tudo errado, e o vizinho do térreo inverteu a escada.\nQual é a sua? Comenta 1, 2 ou 3 👇\nSe o xixi mudou de repente, fale com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#xixinolugarcerto #tapetehigienico #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Minha reação a cada xixi do Risoto. E o que ele entendeu de cada uma.",
+   "linhas": [
+    "MINHA REAÇÃO",
+    "A CADA XIXI",
+    "DO RISOTO"
+   ],
+   "destaque": 1,
+   "mascote": "normal",
+   "icone": "casa"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "08:00",
+   "fala": "Um: no tapete, nenhuma reação. Eu no celular. O Risoto entendeu: tanto faz.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "celular"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "senta"
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "12:30",
+   "fala": "Dois: no chão da cozinha, um grito. Ele entendeu: fazer perto de mim dá problema. E foi se esconder.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "maos_cabeca"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": "corre"
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 600,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "19:00",
+   "fala": "Três: na mala do feriado, bronca horas depois. Ele só entendeu que eu cheguei bravo.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "aponta"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 760,
+    "acao": null
+   },
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 600,
+     "y": 1450
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "SÁBADO · 07:30",
+   "fala": "Até o Seu Hermes, do térreo, inverter a escada.",
+   "elenco": [
+    {
+     "quem": "vizinho",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "guia",
+     "dir": -1
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 560,
+    "acao": "feliz"
+   },
+   "dialogo": [
+    {
+     "quem": "vizinho",
+     "texto": "No lugar certo, festa e petisco na hora. No errado, só limpa."
+    }
+   ]
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Qual dessas reações é a sua? Comenta um, dois ou três. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Qual é a sua?",
+   "opcoes": [
+    "1 nada",
+    "2 grito",
+    "3 bronca"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

@@ -1,0 +1,151 @@
+{
+ "id": "h265-falafel-setimo-andar-p2",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "serie",
+ "gancho_tipo": "historia",
+ "tema": "fogos",
+ "estilo": "sol",
+ "legenda": "PARTE 2: A ou B? 🎆 A veterinária do oitavo desceu e o plano do Falafel saiu ali, na porta da cozinha.\nVocê tinha votado em qual? Comenta 👇\nMedo intenso de fogos? Converse com o veterinário antes de dar qualquer remédio.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#fogosnao #cachorroemedo #reveillon #apartamento #historiadecachorro",
+ "serie": "falafel-setimo-andar",
+ "parte": 2,
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "Parte dois. O rojão, o Falafel debaixo da pia e a veterinária na sua porta.",
+   "linhas": [
+    "PARTE 2",
+    "A OU B?",
+    "A RESPOSTA CHEGOU"
+   ],
+   "destaque": 2,
+   "mascote": "normal",
+   "icone": "escudo",
+   "parte": 2
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "21:47",
+   "fala": "A Noemi, do oitavo, ouviu a confusão e desceu.",
+   "elenco": [
+    {
+     "quem": "carla",
+     "x": 300,
+     "humor": "normal",
+     "pose": "explica"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "preocupado",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "dialogo": [
+    {
+     "quem": "carla",
+     "texto": "Não puxa. Fecha essa varanda primeiro."
+    }
+   ]
+  },
+  {
+   "tipo": "historia",
+   "cenario": "cozinha",
+   "quando": "21:50",
+   "fala": "Era a B. Portas e janelas fechadas, você por perto, e nada de bronca.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "normal",
+     "pose": "carinho"
+    }
+   ],
+   "cao": {
+    "mascote": "normal",
+    "x": 620,
+    "acao": null
+   }
+  },
+  {
+   "tipo": "curiosidade",
+   "tag": "VOCÊ SABIA?",
+   "fala": "Você sabia? O cão escuta sons agudos que o nosso ouvido nem alcança. O rojão chega nele de outro jeito.",
+   "numero": null,
+   "numero_palavra": "",
+   "prefixo": "",
+   "sufixo": "",
+   "rotulo": [
+    "O OUVIDO DELE",
+    "alcança sons que o seu não"
+   ],
+   "icone": "sino"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "NO DIA SEGUINTE",
+   "fala": "Começou o treino: um cantinho só dele, com coisa boa, um pouco todo dia.",
+   "elenco": [
+    {
+     "quem": "joao",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   },
+   "objetos": [
+    {
+     "nome": "petisco",
+     "x": 640,
+     "y": 1400
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Torre B",
+   "membros": "52 participantes",
+   "quando": "22:05",
+   "fala": "E o grupo quis saber.",
+   "dialogo": [
+    {
+     "quem": "pedro",
+     "texto": "E o Falafel?"
+    },
+    {
+     "quem": "joao",
+     "texto": "Ainda se assusta. Mas agora tem pra onde ir.",
+     "eu": true
+    }
+   ],
+   "nomes": {
+    "pedro": "Telmo (703)",
+    "joao": "Você (702)"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Você tinha votado em qual? Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Votou em qual?",
+   "opcoes": [
+    "1 votei A",
+    "2 votei B",
+    "3 tô na dúvida"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}

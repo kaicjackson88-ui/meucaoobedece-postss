@@ -1,0 +1,148 @@
+{
+ "id": "h270-avela-multa-da-sindica",
+ "formato": "tiktok-historia",
+ "versao": 2,
+ "formato_historia": "classica",
+ "gancho_tipo": "historia",
+ "tema": "xixi",
+ "estilo": "sol",
+ "legenda": "A síndica multou o 502 por xixi no hall 🧾 Aí o porteiro pediu pra falar no privado, com a câmera na mão.\nEla devia pagar a própria multa? Comenta 1 sim, 2 não, 3 metade 👇\nSe o xixi mudou de repente, fale com o veterinário.\n(História ilustrativa, inspirada no que muitos tutores vivem.) Faz o teste grátis do link do perfil e descobre o que o SEU cão precisa 🐾",
+ "hashtags": "#condominio #xixinolugarcerto #apartamento #adestramentocanino #historiadecachorro",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "fala": "A síndica multou o 502 por xixi no hall.",
+   "linhas": [
+    "A SÍNDICA MULTOU",
+    "POR XIXI NO HALL",
+    "AÍ VEIO A CÂMERA"
+   ],
+   "destaque": 1,
+   "mascote": "bravo",
+   "icone": "x"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "corredor",
+   "quando": "TERÇA · 08:10",
+   "fala": "Poça no hall do quinto. Dona Zuleide nem pensou duas vezes.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "bravo",
+     "pose": "bilhete"
+    },
+    {
+     "quem": "joao",
+     "x": 810,
+     "humor": "surpreso",
+     "pose": "parado",
+     "dir": -1
+    }
+   ],
+   "cao": false,
+   "objetos": [
+    {
+     "nome": "poca",
+     "x": 560,
+     "y": 1450
+    }
+   ],
+   "dialogo": [
+    {
+     "quem": "sindica",
+     "texto": "Multa pro 502!"
+    },
+    {
+     "quem": "joao",
+     "texto": "Meu cão está viajando!"
+    }
+   ]
+  },
+  {
+   "tipo": "chat",
+   "grupo": "Bloco A",
+   "membros": "44 participantes",
+   "quando": "08:40",
+   "fala": "O Ramon pediu a câmera.",
+   "dialogo": [
+    {
+     "quem": "joao",
+     "texto": "Quero ver a gravação.",
+     "eu": true
+    },
+    {
+     "quem": "pedro",
+     "texto": "Dona Zuleide, posso falar com a senhora no privado?"
+    }
+   ],
+   "nomes": {
+    "joao": "Ramon (502)",
+    "pedro": "Adauto (portaria)"
+   }
+  },
+  {
+   "tipo": "virada",
+   "fala": "A câmera mostrou a culpada: a Avelã, a cachorrinha da própria síndica.",
+   "topo": [
+    "A CÂMERA MOSTROU"
+   ],
+   "de": "O CÃO DO 502",
+   "para": "A AVELÃ",
+   "para_palavra": "Avelã"
+  },
+  {
+   "tipo": "historia",
+   "cenario": "sala",
+   "quando": "09:15",
+   "fala": "Multa cancelada. E uma conta: ela comia às sete e só saía às nove.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "vergonha",
+     "pose": "maos_rosto"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": null
+   }
+  },
+  {
+   "tipo": "historia",
+   "cenario": "rua",
+   "quando": "QUARTA · 07:20",
+   "fala": "Agora, depois do café, a Avelã vai direto pra rua. No lugar certo, festa e petisco.",
+   "elenco": [
+    {
+     "quem": "sindica",
+     "x": 300,
+     "humor": "feliz",
+     "pose": "petisco"
+    }
+   ],
+   "cao": {
+    "mascote": "feliz",
+    "x": 760,
+    "acao": "feliz"
+   }
+  },
+  {
+   "tipo": "cta_quiz",
+   "fala": "Ela paga a multa? Um sim, dois não, três metade. Segue o perfil pra não perder a próxima história. E faz o teste grátis no link do perfil.",
+   "pergunta": "Pagava a multa?",
+   "opcoes": [
+    "1 sim",
+    "2 não",
+    "3 metade"
+   ],
+   "escolha": 0,
+   "resultado": "FAZ O TESTE",
+   "seguir": true
+  }
+ ],
+ "autor": "roteirista-claude"
+}
