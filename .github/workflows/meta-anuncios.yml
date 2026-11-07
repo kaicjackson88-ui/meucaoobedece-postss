@@ -33,7 +33,7 @@ jobs:
           META_ADS_TOKEN: ${{ secrets.META_ADS_TOKEN }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           ACAO: ${{ github.event_name == 'schedule' && 'relatorio' || inputs.acao }}
-          CAMPANHA: ${{ inputs.campanha || 'anuncios/teste2.json' }}
+          CAMPANHA: ${{ inputs.campanha || 'anuncios/teste3.json' }}
         run: |
           set -o pipefail
           mkdir -p dados
