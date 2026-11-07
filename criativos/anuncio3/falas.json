@@ -1,0 +1,56 @@
+[
+ {
+  "id": "n1",
+  "voz": "Charon",
+  "estilo": "Locutor de anúncio brasileiro profissional, natural e convincente, energia alta mas sem gritar, ritmo ágil, pausas curtas nas reticências, sotaque brasileiro.",
+  "texto": "Você manda sentar… repete dez vezes… e ele finge que nem é com ele."
+ },
+ {
+  "id": "n2",
+  "voz": "Charon",
+  "estilo": "Locutor de anúncio brasileiro profissional, natural e convincente, energia alta mas sem gritar, ritmo ágil, pausas curtas nas reticências, sotaque brasileiro.",
+  "texto": "Late pra tudo. Pula em quem chega. Faz xixi na sala. E na rua… te arrasta."
+ },
+ {
+  "id": "n3",
+  "voz": "Charon",
+  "estilo": "Locutor de anúncio brasileiro profissional, natural e convincente, energia alta mas sem gritar, ritmo ágil, pausas curtas nas reticências, sotaque brasileiro.",
+  "texto": "Aí vem a dúvida: será que ele é teimoso? Não é. Ele só nunca entendeu o que você quer."
+ },
+ {
+  "id": "d1",
+  "voz": "Leda",
+  "estilo": "Mulher brasileira comum, tutora de cachorro, gravando um áudio de WhatsApp para uma amiga: espontânea, sorrindo, aliviada e animada, nada de locutora. Sotaque brasileiro.",
+  "texto": "Eu achava que ele era teimoso, mas ele só não me entendia. Agora falo uma vez e ele já obedece de primeira!"
+ },
+ {
+  "id": "d2",
+  "voz": "Aoede",
+  "estilo": "Mulher brasileira comum, tutora de cachorro, gravando um áudio de WhatsApp para uma amiga: espontânea, sorrindo, aliviada e animada, nada de locutora. Sotaque brasileiro.",
+  "texto": "Antes ela me arrastava pela rua toda. Agora anda do meu lado, sem puxar a guia."
+ },
+ {
+  "id": "d3",
+  "voz": "Fenrir",
+  "estilo": "Homem brasileiro comum, tutor de cachorro, gravando um áudio de WhatsApp para um amigo: espontâneo, descontraído e convencido, nada de locutor. Sotaque brasileiro.",
+  "texto": "Ele parou de fazer xixi na sala e agora só faz no lugar certo. A casa tá limpa e sem cheiro."
+ },
+ {
+  "id": "d4",
+  "voz": "Orus",
+  "estilo": "Homem brasileiro comum, tutor de cachorro, gravando um áudio de WhatsApp para um amigo: espontâneo, descontraído e convencido, nada de locutor. Sotaque brasileiro.",
+  "texto": "Eu ia gastar quase oitocentos reais num adestrador presencial e resolvi tudo com trinta e sete, direto pelo celular."
+ },
+ {
+  "id": "n4",
+  "voz": "Charon",
+  "estilo": "Locutor de anúncio brasileiro profissional, natural e convincente, energia alta mas sem gritar, ritmo ágil, pausas curtas nas reticências, sotaque brasileiro.",
+  "texto": "No Meu Cão Obedece, você faz um teste de um minuto, descobre a causa, e segue um plano de vinte e um dias, quinze minutos por dia, no celular."
+ },
+ {
+  "id": "n5",
+  "voz": "Charon",
+  "estilo": "Locutor de anúncio brasileiro profissional, natural e convincente, energia alta mas sem gritar, ritmo ágil, pausas curtas nas reticências, sotaque brasileiro.",
+  "texto": "Trinta e sete reais, pagamento único, com sete dias de garantia. Toca em saiba mais e faz o teste grátis."
+ }
+]
