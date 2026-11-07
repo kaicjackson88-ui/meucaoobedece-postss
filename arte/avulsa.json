@@ -1,19 +1,42 @@
 [
  {
-  "id": "biel_avatar",
+  "id": "obj_coleira",
   "proporcao": "1:1",
-  "prompt": "2D digital cartoon illustration, Brazilian animated-series / graphic-novel style: bold clean outlines, painterly cel shading, warm cinematic lighting with strong contrast, slightly exaggerated proportions, very expressive face, rich textures, gritty Brazilian suburb atmosphere. No text, no letters, no logos, no watermark. Biel: 19-year-old Brazilian young man, warm brown skin, short black curly hair with a low fade, faded red baseball cap worn backwards, thin face, tired but determined dark eyes, small scar on his left eyebrow, white tank top with grease stains, navy-blue mechanic coverall tied at the waist, orange rag hanging from the back pocket. Close-up bust portrait looking straight at the camera with a confident half smile, a big silver wrench resting on his shoulder. Background: small dim auto repair garage at night, a single hanging light bulb, warm orange glow. Head and shoulders centered and filling the frame so it works as a round profile picture."
+  "prompt": "3D render, cute glossy clay toy style like a premium app icon, soft studio lighting, vivid warm colors (orange #F2A33A, yellow #FFC94A, teal #2A9D8F accents), single object centered and fully visible, isolated on a pure flat white background, no shadow on the background, no text, no letters, no logo. Object: a red nylon dog leash coiled with an orange dog collar and a small gold tag"
  },
  {
-  "id": "biel_avatar2",
+  "id": "obj_osso",
   "proporcao": "1:1",
-  "ref": "biel_avatar",
-  "prompt": "Same character and same art style as the reference image. 2D digital cartoon illustration, Brazilian animated-series / graphic-novel style: bold clean outlines, painterly cel shading, warm cinematic lighting with strong contrast, slightly exaggerated proportions, very expressive face, rich textures, gritty Brazilian suburb atmosphere. No text, no letters, no logos, no watermark. Biel: 19-year-old Brazilian young man, warm brown skin, short black curly hair with a low fade, faded red baseball cap worn backwards, thin face, tired but determined dark eyes, small scar on his left eyebrow, white tank top with grease stains, navy-blue mechanic coverall tied at the waist, orange rag hanging from the back pocket. Close-up bust portrait, worried and suspicious look over his shoulder, dramatic light from a single bulb above, dark garage background, sweat on forehead. Head and shoulders centered, fills the frame, works as a round profile picture."
+  "prompt": "3D render, cute glossy clay toy style like a premium app icon, soft studio lighting, vivid warm colors (orange #F2A33A, yellow #FFC94A, teal #2A9D8F accents), single object centered and fully visible, isolated on a pure flat white background, no shadow on the background, no text, no letters, no logo. Object: a big cartoon dog bone treat, cream colored"
  },
  {
-  "id": "capa_p1",
-  "proporcao": "9:16",
-  "ref": "biel_avatar",
-  "prompt": "Same character and same art style as the reference image. 2D digital cartoon illustration, Brazilian animated-series / graphic-novel style: bold clean outlines, painterly cel shading, warm cinematic lighting with strong contrast, slightly exaggerated proportions, very expressive face, rich textures, gritty Brazilian suburb atmosphere. No text, no letters, no logos, no watermark. Biel: 19-year-old Brazilian young man, warm brown skin, short black curly hair with a low fade, faded red baseball cap worn backwards, thin face, tired but determined dark eyes, small scar on his left eyebrow, white tank top with grease stains, navy-blue mechanic coverall tied at the waist, orange rag hanging from the back pocket. Night, 2 AM, in front of a small rundown auto repair shop on a Brazilian suburb street. Biel has just opened the trunk of a black sedan; his shocked face is lit from below by the trunk light. Inside the trunk: three black backpacks, one open showing stacks of Brazilian real banknotes. Across the street, a dark car with tinted windows is parked, watching. Vertical 9:16 composition, keep the top third of the image calm and darker (empty sky) for a title."
+  "id": "obj_megafone",
+  "proporcao": "1:1",
+  "prompt": "3D render, cute glossy clay toy style like a premium app icon, soft studio lighting, vivid warm colors (orange #F2A33A, yellow #FFC94A, teal #2A9D8F accents), single object centered and fully visible, isolated on a pure flat white background, no shadow on the background, no text, no letters, no logo. Object: a red megaphone with motion lines, shouting"
+ },
+ {
+  "id": "obj_campainha",
+  "proporcao": "1:1",
+  "prompt": "3D render, cute glossy clay toy style like a premium app icon, soft studio lighting, vivid warm colors (orange #F2A33A, yellow #FFC94A, teal #2A9D8F accents), single object centered and fully visible, isolated on a pure flat white background, no shadow on the background, no text, no letters, no logo. Object: a round house doorbell button on a small square plate"
+ },
+ {
+  "id": "obj_tapete",
+  "proporcao": "1:1",
+  "prompt": "3D render, cute glossy clay toy style like a premium app icon, soft studio lighting, vivid warm colors (orange #F2A33A, yellow #FFC94A, teal #2A9D8F accents), single object centered and fully visible, isolated on a pure flat white background, no shadow on the background, no text, no letters, no logo. Object: a folded puppy training pee pad, white and light blue, square"
+ },
+ {
+  "id": "obj_trofeu",
+  "proporcao": "1:1",
+  "prompt": "3D render, cute glossy clay toy style like a premium app icon, soft studio lighting, vivid warm colors (orange #F2A33A, yellow #FFC94A, teal #2A9D8F accents), single object centered and fully visible, isolated on a pure flat white background, no shadow on the background, no text, no letters, no logo. Object: a shiny golden trophy cup with a paw print emblem"
+ },
+ {
+  "id": "obj_escudo",
+  "proporcao": "1:1",
+  "prompt": "3D render, cute glossy clay toy style like a premium app icon, soft studio lighting, vivid warm colors (orange #F2A33A, yellow #FFC94A, teal #2A9D8F accents), single object centered and fully visible, isolated on a pure flat white background, no shadow on the background, no text, no letters, no logo. Object: a teal shield with a big white check mark, guarantee badge"
+ },
+ {
+  "id": "obj_relogio",
+  "proporcao": "1:1",
+  "prompt": "3D render, cute glossy clay toy style like a premium app icon, soft studio lighting, vivid warm colors (orange #F2A33A, yellow #FFC94A, teal #2A9D8F accents), single object centered and fully visible, isolated on a pure flat white background, no shadow on the background, no text, no letters, no logo. Object: an orange alarm clock showing 15 minutes, with a small paw print"
  }
 ]
