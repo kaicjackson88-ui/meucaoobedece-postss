@@ -1,12 +1,10 @@
-# MCO | Teste 2 | Vendas — 07/11 11:21
+# MCO | Teste 3 | Prova dublada — 07/11 11:22
 
-Gasto total: **R$50.53** de R$50 · vendas: **0** · dia 23 do teste
+Gasto total: **R$0.05** de R$50 · vendas: **0** · dia 1 do teste
 
 | anúncio | gasto | CTR link | hook 3s | checkouts | vendas | custo/venda | decisão |
 |---|---|---|---|---|---|---|---|
-| A_NaoTeimoso | R$31.01 | 1.98% | 29% | 0 | 0 | — | manter |
-| B_TesteComigo | R$13.61 | 1.03% | 33% | 0 | 0 | — | manter |
-| D_Oferta | R$0.00 | 0.00% | — | 0 | 0 | — | manter |
-| E_6Comandos | R$5.91 | 3.98% | — | 0 | 0 | — | manter |
+| P_ProvaDublada3 | R$0.05 | 0.00% | — | 0 | 0 | — | manter |
 
-**Ações do robô:** 🛑 pausei a campanha: gastou R$50.53 (limite R$50) sem venda — hora de revisar oferta/página
+**Ações do robô:** nenhuma — dentro das regras.
+_Primeiros 3 dias: só pausas de segurança; nada de mexer no resto (o aprendizado reinicia)._
