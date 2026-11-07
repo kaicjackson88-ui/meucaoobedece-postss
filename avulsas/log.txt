@@ -1,0 +1,193 @@
+Modelos de imagem: ['gemini-2.5-flash-image', 'gemini-3.1-flash-image', 'gemini-3.1-flash-lite-image', 'gemini-3.1-flash-image-preview', 'gemini-3-pro-image', 'gemini-3-pro-image-preview']
+falhou obj_coleira gemini-2.5-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_coleira gemini-3.1-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_coleira gemini-3.1-flash-lite-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_coleira gemini-3.1-flash-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_coleira gemini-3-pro-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_coleira gemini-3-pro-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_osso gemini-2.5-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_osso gemini-3.1-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_osso gemini-3.1-flash-lite-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_osso gemini-3.1-flash-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_osso gemini-3-pro-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_osso gemini-3-pro-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_megafone gemini-2.5-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_megafone gemini-3.1-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_megafone gemini-3.1-flash-lite-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_megafone gemini-3.1-flash-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_megafone gemini-3-pro-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_megafone gemini-3-pro-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_campainha gemini-2.5-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_campainha gemini-3.1-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_campainha gemini-3.1-flash-lite-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_campainha gemini-3.1-flash-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_campainha gemini-3-pro-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_campainha gemini-3-pro-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_tapete gemini-2.5-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_tapete gemini-3.1-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_tapete gemini-3.1-flash-lite-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_tapete gemini-3.1-flash-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_tapete gemini-3-pro-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_tapete gemini-3-pro-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_trofeu gemini-2.5-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_trofeu gemini-3.1-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_trofeu gemini-3.1-flash-lite-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_trofeu gemini-3.1-flash-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_trofeu gemini-3-pro-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_trofeu gemini-3-pro-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_escudo gemini-2.5-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_escudo gemini-3.1-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_escudo gemini-3.1-flash-lite-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_escudo gemini-3.1-flash-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_escudo gemini-3-pro-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_escudo gemini-3-pro-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_relogio gemini-2.5-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_relogio gemini-3.1-flash-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_relogio gemini-3.1-flash-lite-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_relogio gemini-3.1-flash-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_relogio gemini-3-pro-image SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
+falhou obj_relogio gemini-3-pro-image-preview SEM COTA (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistud
