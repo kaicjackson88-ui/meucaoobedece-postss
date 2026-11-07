@@ -794,5 +794,157 @@
    "inicio": 8.24,
    "fim": 8.68
   }
+ ],
+ "n5": [
+  {
+   "palavra": "O",
+   "inicio": 0.02,
+   "fim": 0.32
+  },
+  {
+   "palavra": "teste",
+   "inicio": 0.3,
+   "fim": 0.7
+  },
+  {
+   "palavra": "é",
+   "inicio": 0.68,
+   "fim": 0.86
+  },
+  {
+   "palavra": "grátis",
+   "inicio": 0.84,
+   "fim": 1.3
+  },
+  {
+   "palavra": "E",
+   "inicio": 1.28,
+   "fim": 1.62
+  },
+  {
+   "palavra": "o",
+   "inicio": 1.6,
+   "fim": 1.76
+  },
+  {
+   "palavra": "plano",
+   "inicio": 1.74,
+   "fim": 2.16
+  },
+  {
+   "palavra": "completo",
+   "inicio": 2.14,
+   "fim": 2.72
+  },
+  {
+   "palavra": "custa",
+   "inicio": 2.7,
+   "fim": 3.1
+  },
+  {
+   "palavra": "só",
+   "inicio": 3.08,
+   "fim": 3.42
+  },
+  {
+   "palavra": "trinta",
+   "inicio": 3.4,
+   "fim": 3.88
+  },
+  {
+   "palavra": "e",
+   "inicio": 3.86,
+   "fim": 4.02
+  },
+  {
+   "palavra": "sete",
+   "inicio": 4.0,
+   "fim": 4.34
+  },
+  {
+   "palavra": "reais",
+   "inicio": 4.32,
+   "fim": 4.94
+  },
+  {
+   "palavra": "pagamento",
+   "inicio": 4.92,
+   "fim": 5.58
+  },
+  {
+   "palavra": "único",
+   "inicio": 5.56,
+   "fim": 6.08
+  },
+  {
+   "palavra": "com",
+   "inicio": 6.06,
+   "fim": 6.34
+  },
+  {
+   "palavra": "sete",
+   "inicio": 6.32,
+   "fim": 6.66
+  },
+  {
+   "palavra": "dias",
+   "inicio": 6.64,
+   "fim": 7.0
+  },
+  {
+   "palavra": "de",
+   "inicio": 6.98,
+   "fim": 7.2
+  },
+  {
+   "palavra": "garantia",
+   "inicio": 7.18,
+   "fim": 8.32
+  },
+  {
+   "palavra": "Toca",
+   "inicio": 8.3,
+   "fim": 8.64
+  },
+  {
+   "palavra": "em",
+   "inicio": 8.62,
+   "fim": 8.86
+  },
+  {
+   "palavra": "saiba",
+   "inicio": 8.84,
+   "fim": 9.24
+  },
+  {
+   "palavra": "mais",
+   "inicio": 9.22,
+   "fim": 9.56
+  },
+  {
+   "palavra": "e",
+   "inicio": 9.54,
+   "fim": 9.72
+  },
+  {
+   "palavra": "começa",
+   "inicio": 9.7,
+   "fim": 10.16
+  },
+  {
+   "palavra": "agora",
+   "inicio": 10.14,
+   "fim": 10.54
+  },
+  {
+   "palavra": "pelo",
+   "inicio": 10.52,
+   "fim": 10.86
+  },
+  {
+   "palavra": "teste",
+   "inicio": 10.84,
+   "fim": 11.26
+  }
  ]
 }
