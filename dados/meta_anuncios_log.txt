@@ -1,5 +1,4 @@
 Usando: {'conta': 'act_1799202680158211', 'pagina': '1284657694728838', 'ig': '17841474456587008', 'pixel': '1479327760890680'}
-Campanha criada (pausada): 120254230714650279
-Conjunto criado (pausado): 120254230714720279
-Anúncio criado (pausado): P_ProvaDublada 120254230720810279
+Orçamento do conjunto ajustado para R$ 25 /dia
+Anúncio criado (pausado): P_ProvaDublada3 120254231456390279
 Pronto: 1 anúncio(s) criados, tudo PAUSADO. Para ligar: ativar.
