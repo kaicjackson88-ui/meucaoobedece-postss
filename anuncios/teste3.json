@@ -13,13 +13,13 @@
  "midia_branch": "midia-anuncios-teste3",
  "anuncios": [
   {
-   "nome": "P_ProvaDublada",
+   "nome": "P_ProvaDublada3",
    "tipo": "video",
    "arquivos": [
-    "prova.mp4",
-    "prova_capa.jpg"
+    "prova3.mp4",
+    "prova3_capa.jpg"
    ],
-   "texto": "Você grita, repete dez vezes… e ele finge que não ouviu? 🐶\n\nEle não é teimoso. Ele só nunca entendeu o que você quer.\n\nNo Meu Cão Obedece você faz um teste de 1 minuto, descobre a causa do comportamento e segue um plano de 21 dias, 15 minutos por dia, no celular.\n\nR$37, pagamento único, com 7 dias de garantia. Resultados variam de cão para cão.",
+   "texto": "Você manda sentar, repete dez vezes… e ele finge que nem é com ele? 🐶\n\nEle não é teimoso. Ele só nunca entendeu o que você quer.\n\nFaça o teste grátis de 1 minuto e descubra a causa. O plano completo de 21 dias (15 min por dia, no celular) custa R$37, pagamento único, com 7 dias de garantia.\n\nResultados variam de cão para cão.",
    "titulo": "Faça o teste grátis do seu cão"
   }
  ]
