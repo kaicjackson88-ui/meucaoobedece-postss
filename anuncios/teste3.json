@@ -1,0 +1,26 @@
+{
+ "_leia": "Teste 3: anúncio em motion com dor + 4 depoimentos reais dublados (voz feminina/masculina). O robô monta PAUSADO; só liga com autorização do dono.",
+ "id": "teste3",
+ "nome": "MCO | Teste 3 | Prova dublada",
+ "conjunto": "MCO | Brasil aberto",
+ "conta": "act_1799202680158211",
+ "pixel": "1479327760890680",
+ "instagram": "17841474456587008",
+ "orcamento_dia": 25,
+ "limite_total": 50,
+ "link": "https://meucaoobedece.vercel.app/",
+ "url_tags": "utm_source=meta&utm_medium=pago&utm_campaign=teste3&utm_content={{ad.name}}",
+ "midia_branch": "midia-anuncios-teste3",
+ "anuncios": [
+  {
+   "nome": "P_ProvaDublada",
+   "tipo": "video",
+   "arquivos": [
+    "prova.mp4",
+    "prova_capa.jpg"
+   ],
+   "texto": "Você grita, repete dez vezes… e ele finge que não ouviu? 🐶\n\nEle não é teimoso. Ele só nunca entendeu o que você quer.\n\nNo Meu Cão Obedece você faz um teste de 1 minuto, descobre a causa do comportamento e segue um plano de 21 dias, 15 minutos por dia, no celular.\n\nR$37, pagamento único, com 7 dias de garantia. Resultados variam de cão para cão.",
+   "titulo": "Faça o teste grátis do seu cão"
+  }
+ ]
+}
